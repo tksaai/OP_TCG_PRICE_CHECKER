@@ -9,24 +9,35 @@
     body { font-family: sans-serif; background-color: #f4f4f9; padding: 20px; color: #333; margin: 0; }
     #controls { background: white; padding: 15px; border-radius: 8px; margin-bottom: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
     #controls input, #controls select { padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 1em; flex: 1; min-width: 150px; }
+    
     #series-filters { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 20px; }
     .series-btn { padding: 6px 12px; border: 1px solid #ccc; border-radius: 20px; background: white; cursor: pointer; font-size: 0.8em; transition: 0.2s; }
     .series-btn:hover { background: #e0e0e0; }
     .series-btn.active { background: #007bff; color: white; border-color: #007bff; font-weight: bold; }
+    
     #grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
-    .card { background: white; border-radius: 8px; padding: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer; text-align: center; transition: 0.2s; display: flex; flex-direction: column;}
+    .card { background: white; border-radius: 8px; padding: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer; text-align: center; transition: 0.2s; display: flex; flex-direction: column; position: relative;}
     .card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
     .card img { max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 8px; }
+    
     .price-main { font-weight: bold; color: #d9534f; font-size: 1.4em; margin: 5px 0; }
+    
     .trend-container { display: flex; flex-direction: column; gap: 3px; margin-bottom: 8px; }
     .trend { font-size: 0.75em; font-weight: bold; padding: 4px; border-radius: 4px; background: #f9f9f9; text-align: left; display: flex; justify-content: space-between;}
     .trend span.label { color: #555; }
     .trend.up { background: #ffebee; color: #e53935; }
     .trend.down { background: #e3f2fd; color: #1e88e5; }
     .trend.flat { color: #9e9e9e; }
+    
     .price-range { display: flex; justify-content: space-around; font-size: 0.75em; color: #666; background: #f0f2f5; padding: 6px; border-radius: 4px; margin-top: auto; border: 1px solid #e0e4e8; }
     .price-min { color: #1e88e5; font-weight: bold; }
     .price-max { color: #d32f2f; font-weight: bold; }
+    
+    /* お気に入り（スター）ボタンのスタイル */
+    .star-btn { position: absolute; top: 10px; right: 10px; font-size: 24px; color: #ccc; cursor: pointer; text-shadow: 0 0 2px rgba(0,0,0,0.3); transition: 0.2s; z-index: 10; }
+    .star-btn:hover { transform: scale(1.2); }
+    .star-btn.active { color: #ffd700; text-shadow: 0 0 5px rgba(255, 215, 0, 0.8); }
+
     #modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); justify-content: center; align-items: center; z-index: 1000; }
     #modal-content { background: white; padding: 20px; border-radius: 8px; width: 90%; max-width: 600px; position: relative; }
     #close-btn { position: absolute; top: 10px; right: 15px; cursor: pointer; font-size: 24px; color: #666; }
@@ -42,6 +53,10 @@
     
     <select id="trendFilter" onchange="filterAndRender()">
       <option value="all">すべてのカード</option>
+      <!-- ★追加機能：お気に入り・最高値フィルタ -->
+      <option value="favorites">⭐ お気に入りのみ</option>
+      <option value="allTimeHigh">👑 過去最高額を更新中</option>
+      <!-- 既存フィルタ -->
       <option value="dailyUp">📈 前日から上がったカード</option>
       <option value="dailyDown">📉 前日から下がったカード</option>
       <option value="weeklyUp">📅 1週間で上がったカード</option>
@@ -85,7 +100,6 @@
   <script>
     // ==========================================
     // ⚠️ 【重要】デプロイしたウェブアプリのURLを入力してください
-    // 末尾に必ず「?v=api」を付けてください
     // ==========================================
     const API_URL = 'https://script.google.com/macros/s/AKfycbyifLg51QEUYQtkkEhC5rB4CwP2gnBpb1Z5xgVUaE8AXxNas4tzpOzPqKB1dWu99_k/exec?v=api';
 
@@ -93,7 +107,21 @@
     let cardDataList = [];
     let currentSeries = 'all'; 
 
-    // GASのAPIからJSONを取得
+    // ★追加機能：お気に入りの読み込み
+    let favorites = JSON.parse(localStorage.getItem('onepieceFavorites')) || [];
+
+    function toggleFavorite(event, key) {
+      event.stopPropagation(); // モーダルが開くのを防ぐ
+      const index = favorites.indexOf(key);
+      if (index === -1) {
+        favorites.push(key);
+      } else {
+        favorites.splice(index, 1);
+      }
+      localStorage.setItem('onepieceFavorites', JSON.stringify(favorites));
+      filterAndRender(); // 画面を更新して星の色を変える
+    }
+
     fetch(API_URL)
       .then(response => {
         if (!response.ok) throw new Error('Network error');
@@ -104,15 +132,13 @@
       })
       .catch(error => {
         console.error('Fetch error:', error);
-        document.getElementById('loading').innerHTML = 
-          'データの取得に失敗しました。<br>GASのURL（/exec?v=api）と、アクセス権限（全員）を確認してください。';
+        document.getElementById('loading').innerHTML = 'データの取得に失敗しました。<br>URLが正しいか確認してください。';
         document.getElementById('loading').style.color = 'red';
       });
 
     function initApp(data) {
       document.getElementById('loading').style.display = 'none';
       
-      // 全データのなかで「最新の日付」を特定
       let globalLatestStr = '1970/01/01';
       data.forEach(function(card) {
         if (card.history && card.history.length > 0) {
@@ -135,14 +161,12 @@
         if (card.history.length > 0) {
           const latestRecord = card.history[card.history.length - 1];
 
-          // 前日比
           if (latestRecord.date === globalLatestStr && card.history.length >= 2) {
             const prevRecord = card.history[card.history.length - 2];
             card.trendDiff = latestRecord.price - prevRecord.price;
             if (prevRecord.price > 0) card.trendPercent = (card.trendDiff / prevRecord.price) * 100;
           }
 
-          // 週間比
           const targetDate = new Date(globalLatestDate);
           targetDate.setDate(globalLatestDate.getDate() - 7);
           const hasWeeklyData = card.history.some(h => new Date(h.date) > targetDate);
@@ -160,8 +184,6 @@
       filterAndRender();
     }
 
-    // --- 以下、フィルタ・ソート・描画ロジック（GAS用と共通） ---
-
     function setSeries(series, btnElement) {
       currentSeries = series;
       document.querySelectorAll('.series-btn').forEach(btn => btn.classList.remove('active'));
@@ -178,15 +200,21 @@
       const sortOrder = document.getElementById('sortOrder').value;
 
       let filtered = cardDataList.filter(function(card) {
+        const cardKey = card.name + "_" + card.modelNo;
         const matchText = card.name.toLowerCase().includes(searchText) || card.modelNo.toLowerCase().includes(searchText);
         let matchFilter = true;
-        if (filterType === 'surge') matchFilter = card.trendPercent >= 5;
+        
+        // ★追加機能：フィルタのロジック
+        if (filterType === 'favorites') matchFilter = favorites.includes(cardKey);
+        else if (filterType === 'allTimeHigh') matchFilter = card.latestPrice > 0 && card.latestPrice >= card.maxPrice;
+        else if (filterType === 'surge') matchFilter = card.trendPercent >= 5;
         else if (filterType === 'crash') matchFilter = card.trendPercent <= -5;
         else if (filterType === 'high') matchFilter = card.latestPrice >= 100000;
         else if (filterType === 'dailyUp') matchFilter = card.trendDiff > 0;
         else if (filterType === 'dailyDown') matchFilter = card.trendDiff < 0;
         else if (filterType === 'weeklyUp') matchFilter = card.weeklyDiff > 0;
         else if (filterType === 'weeklyDown') matchFilter = card.weeklyDiff < 0;
+
         let matchSeries = (currentSeries === 'all') || card.modelNo.toUpperCase().includes(currentSeries);
         return matchText && matchFilter && matchSeries;
       });
@@ -209,9 +237,18 @@
       noDataMsg.style.display = 'none';
 
       filtered.forEach(function(card) {
+        const cardKey = card.name + "_" + card.modelNo;
         const div = document.createElement('div');
         div.className = 'card';
         div.onclick = function() { openModal(card); };
+
+        // ★追加機能：お気に入りボタン（星マーク）
+        const star = document.createElement('div');
+        star.className = 'star-btn ' + (favorites.includes(cardKey) ? 'active' : '');
+        star.innerHTML = '★';
+        star.onclick = function(e) { toggleFavorite(e, cardKey); };
+        div.appendChild(star);
+
         const img = document.createElement('img');
         img.setAttribute('loading', 'lazy');
         img.setAttribute('referrerpolicy', 'no-referrer');
@@ -224,12 +261,14 @@
             this.src = 'https://lh3.googleusercontent.com/d/' + card.imageId + '=s400'; 
           };
         }
+        
         const name = document.createElement('div');
         name.style.fontSize = '0.9em'; name.style.fontWeight = 'bold'; name.textContent = card.name;
         const model = document.createElement('div');
         model.style.fontSize = '0.7em'; model.style.color = 'gray'; model.textContent = card.modelNo;
         const price = document.createElement('div');
         price.className = 'price-main'; price.textContent = '¥' + card.latestPrice.toLocaleString();
+        
         const trendContainer = document.createElement('div');
         trendContainer.className = 'trend-container';
         const dailyTrend = document.createElement('div');
@@ -240,10 +279,12 @@
         weeklyTrend.innerHTML = `<span class="label">週間比:</span> <span>${card.weeklyDiff > 0 ? '▲ +¥'+card.weeklyDiff.toLocaleString() : card.weeklyDiff < 0 ? '▼ ¥'+Math.abs(card.weeklyDiff).toLocaleString() : '▶ 変動なし'}</span>`;
         trendContainer.appendChild(dailyTrend);
         trendContainer.appendChild(weeklyTrend);
+        
         const range = document.createElement('div');
         range.className = 'price-range';
         range.innerHTML = '<div>最安 <span class="price-min">¥' + card.minPrice.toLocaleString() + '</span></div>' +
                           '<div>最高 <span class="price-max">¥' + card.maxPrice.toLocaleString() + '</span></div>';
+        
         div.appendChild(img); div.appendChild(name); div.appendChild(model); div.appendChild(price); div.appendChild(trendContainer); div.appendChild(range);
         grid.appendChild(div);
       });
