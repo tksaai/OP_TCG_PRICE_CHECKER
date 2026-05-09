@@ -3,16 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ワンピ メルカード買取価格</title>
+  <title>ワンピカード 資産管理チェッカー</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
   <style>
     body { font-family: sans-serif; background-color: #f4f4f9; padding: 20px; color: #333; margin: 0; }
+    
+    /* 資産統計パネル */
+    #asset-summary { background: #2c3e50; color: white; padding: 15px; border-radius: 8px; margin-bottom: 10px; display: flex; gap: 20px; align-items: center; justify-content: space-around; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+    .asset-item { text-align: center; }
+    .asset-label { font-size: 0.8em; opacity: 0.8; }
+    .asset-value { font-size: 1.5em; font-weight: bold; color: #f1c40f; }
+
     #controls { background: white; padding: 15px; border-radius: 8px; margin-bottom: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
     #controls input, #controls select { padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 1em; flex: 1; min-width: 150px; }
     
+    .btn-export { background-color: #27ae60; color: white; border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer; font-weight: bold; transition: 0.2s; }
+    .btn-export:hover { background-color: #219150; }
+
     #series-filters { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 20px; }
     .series-btn { padding: 6px 12px; border: 1px solid #ccc; border-radius: 20px; background: white; cursor: pointer; font-size: 0.8em; transition: 0.2s; }
-    .series-btn:hover { background: #e0e0e0; }
     .series-btn.active { background: #007bff; color: white; border-color: #007bff; font-weight: bold; }
     
     #grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
@@ -22,21 +31,16 @@
     
     .price-main { font-weight: bold; color: #d9534f; font-size: 1.4em; margin: 5px 0; }
     
+    /* 所持枚数入力エリア */
+    .inventory-control { margin-top: 10px; padding-top: 10px; border-top: 1px dashed #eee; display: flex; align-items: center; justify-content: center; gap: 5px; }
+    .inventory-control label { font-size: 0.8em; color: #666; }
+    .inventory-input { width: 50px; padding: 4px; border: 1px solid #ddd; border-radius: 4px; text-align: center; font-weight: bold; }
+
     .trend-container { display: flex; flex-direction: column; gap: 3px; margin-bottom: 8px; }
     .trend { font-size: 0.75em; font-weight: bold; padding: 4px; border-radius: 4px; background: #f9f9f9; text-align: left; display: flex; justify-content: space-between;}
-    .trend span.label { color: #555; }
-    .trend.up { background: #ffebee; color: #e53935; }
-    .trend.down { background: #e3f2fd; color: #1e88e5; }
-    .trend.flat { color: #9e9e9e; }
     
-    .price-range { display: flex; justify-content: space-around; font-size: 0.75em; color: #666; background: #f0f2f5; padding: 6px; border-radius: 4px; margin-top: auto; border: 1px solid #e0e4e8; }
-    .price-min { color: #1e88e5; font-weight: bold; }
-    .price-max { color: #d32f2f; font-weight: bold; }
-    
-    /* お気に入り（スター）ボタンのスタイル */
-    .star-btn { position: absolute; top: 10px; right: 10px; font-size: 24px; color: #ccc; cursor: pointer; text-shadow: 0 0 2px rgba(0,0,0,0.3); transition: 0.2s; z-index: 10; }
-    .star-btn:hover { transform: scale(1.2); }
-    .star-btn.active { color: #ffd700; text-shadow: 0 0 5px rgba(255, 215, 0, 0.8); }
+    .star-btn { position: absolute; top: 10px; right: 10px; font-size: 24px; color: #ccc; cursor: pointer; text-shadow: 0 0 2px rgba(0,0,0,0.3); z-index: 10; }
+    .star-btn.active { color: #ffd700; }
 
     #modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); justify-content: center; align-items: center; z-index: 1000; }
     #modal-content { background: white; padding: 20px; border-radius: 8px; width: 90%; max-width: 600px; position: relative; }
@@ -46,33 +50,36 @@
 </head>
 <body>
 
-  <h2 style="margin-top:0;">ワンピカード 買取価格チェッカー</h2>
+  <div id="asset-summary">
+    <div class="asset-item">
+      <div class="asset-label">合計枚数</div>
+      <div id="total-count" class="asset-value">0 枚</div>
+    </div>
+    <div class="asset-item">
+      <div class="asset-label">推定資産総額（買取ベース）</div>
+      <div id="total-assets" class="asset-value">¥0</div>
+    </div>
+    <button class="btn-export" onclick="exportToCSV()">CSV出力</button>
+  </div>
   
   <div id="controls">
     <input type="text" id="searchInput" placeholder="カード名や型番で検索..." oninput="filterAndRender()">
     
     <select id="trendFilter" onchange="filterAndRender()">
       <option value="all">すべてのカード</option>
-      <!-- ★追加機能：お気に入り・最高値フィルタ -->
+      <option value="owned">📦 所持カードのみ</option>
       <option value="favorites">⭐ お気に入りのみ</option>
       <option value="allTimeHigh">👑 過去最高額を更新中</option>
-      <!-- 既存フィルタ -->
       <option value="dailyUp">📈 前日から上がったカード</option>
       <option value="dailyDown">📉 前日から下がったカード</option>
       <option value="weeklyUp">📅 1週間で上がったカード</option>
       <option value="weeklyDown">📅 1週間で下がったカード</option>
-      <option value="surge">🔥 爆益中 (+5%以上)</option>
-      <option value="crash">🥶 暴落中 (-5%以下)</option>
-      <option value="high">💎 10万円以上の高額</option>
     </select>
     
     <select id="sortOrder" onchange="filterAndRender()">
       <option value="priceDesc">高い順（価格）</option>
       <option value="priceAsc">安い順（価格）</option>
       <option value="trendDesc">↑ 前日からの値上がり額順</option>
-      <option value="trendAsc">↓ 前日からの値下がり額順</option>
-      <option value="weeklyDesc">↑ 1週間の値上がり額順</option>
-      <option value="weeklyAsc">↓ 1週間の値下がり額順</option>
       <option value="modelAsc">型番順 (OP01〜)</option>
     </select>
   </div>
@@ -98,89 +105,132 @@
   </div>
 
   <script>
-    // ==========================================
-    // ⚠️ 【重要】デプロイしたウェブアプリのURLを入力してください
-    // ==========================================
     const API_URL = 'https://script.google.com/macros/s/AKfycbyifLg51QEUYQtkkEhC5rB4CwP2gnBpb1Z5xgVUaE8AXxNas4tzpOzPqKB1dWu99_k/exec?v=api';
 
     let chartInstance = null;
     let cardDataList = [];
     let currentSeries = 'all'; 
 
-    // ★追加機能：お気に入りの読み込み
+    // キャッシュデータ（お気に入り & 所持枚数）
     let favorites = JSON.parse(localStorage.getItem('onepieceFavorites')) || [];
+    let ownedCounts = JSON.parse(localStorage.getItem('onepieceOwnedCounts')) || {};
 
+    // 枚数更新処理
+    function updateInventory(event, key) {
+      event.stopPropagation();
+      const count = parseInt(event.target.value) || 0;
+      if (count < 0) return;
+      
+      ownedCounts[key] = count;
+      localStorage.setItem('onepieceOwnedCounts', JSON.stringify(ownedCounts));
+      calculateTotalAssets();
+    }
+
+    // 資産総額の計算
+    function calculateTotalAssets() {
+      let totalValue = 0;
+      let totalCards = 0;
+      
+      cardDataList.forEach(card => {
+        const key = card.name + "_" + card.modelNo;
+        const count = ownedCounts[key] || 0;
+        totalCards += count;
+        totalValue += (card.latestPrice * count);
+      });
+      
+      document.getElementById('total-count').innerText = totalCards.toLocaleString() + ' 枚';
+      document.getElementById('total-assets').innerText = '¥' + totalValue.toLocaleString();
+    }
+
+    // CSV出力機能
+    function exportToCSV() {
+      let csvContent = "\uFEFF"; // BOM (Excel文字化け対策)
+      csvContent += "カード名,型番,現在の価格,所持枚数,小計\n";
+      
+      let hasData = false;
+      cardDataList.forEach(card => {
+        const key = card.name + "_" + card.modelNo;
+        const count = ownedCounts[key] || 0;
+        if (count > 0) {
+          const subtotal = card.latestPrice * count;
+          csvContent += `"${card.name}","${card.modelNo}",${card.latestPrice},${count},${subtotal}\n`;
+          hasData = true;
+        }
+      });
+      
+      if (!hasData) {
+        alert("所持枚数が記録されているカードがありません。");
+        return;
+      }
+      
+      const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+      const link = document.createElement("a");
+      const url = URL.createObjectURL(blob);
+      link.setAttribute("href", url);
+      link.setAttribute("download", `onepiece_assets_${new Date().toLocaleDateString()}.csv`);
+      link.style.visibility = 'hidden';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    // お気に入り切替
     function toggleFavorite(event, key) {
-      event.stopPropagation(); // モーダルが開くのを防ぐ
+      event.stopPropagation();
       const index = favorites.indexOf(key);
       if (index === -1) {
         favorites.push(key);
+        event.target.classList.add('active');
       } else {
         favorites.splice(index, 1);
+        event.target.classList.remove('active');
+        if (document.getElementById('trendFilter').value === 'favorites') {
+          event.target.closest('.card').style.display = 'none';
+        }
       }
       localStorage.setItem('onepieceFavorites', JSON.stringify(favorites));
-      filterAndRender(); // 画面を更新して星の色を変える
     }
 
+    // API取得
     fetch(API_URL)
-      .then(response => {
-        if (!response.ok) throw new Error('Network error');
-        return response.json();
-      })
+      .then(response => response.json())
       .then(data => {
         initApp(data);
       })
       .catch(error => {
-        console.error('Fetch error:', error);
-        document.getElementById('loading').innerHTML = 'データの取得に失敗しました。<br>URLが正しいか確認してください。';
-        document.getElementById('loading').style.color = 'red';
+        document.getElementById('loading').innerText = 'エラーが発生しました。URLを確認してください。';
       });
 
     function initApp(data) {
       document.getElementById('loading').style.display = 'none';
       
       let globalLatestStr = '1970/01/01';
-      data.forEach(function(card) {
+      data.forEach(card => {
         if (card.history && card.history.length > 0) {
           const d = card.history[card.history.length - 1].date;
           if (d > globalLatestStr) globalLatestStr = d;
         }
       });
-      const globalLatestDate = new Date(globalLatestStr);
-
-      data.forEach(function(card) {
-        card.trendPercent = 0;
-        card.trendDiff = 0;
-        card.weeklyDiff = 0;
-        card.weeklyPercent = 0;
-        
+      
+      data.forEach(card => {
         const prices = card.history.map(h => h.price);
         card.minPrice = Math.min(...prices);
         card.maxPrice = Math.max(...prices);
+        card.trendDiff = 0;
+        card.trendPercent = 0;
 
-        if (card.history.length > 0) {
-          const latestRecord = card.history[card.history.length - 1];
-
-          if (latestRecord.date === globalLatestStr && card.history.length >= 2) {
-            const prevRecord = card.history[card.history.length - 2];
-            card.trendDiff = latestRecord.price - prevRecord.price;
-            if (prevRecord.price > 0) card.trendPercent = (card.trendDiff / prevRecord.price) * 100;
-          }
-
-          const targetDate = new Date(globalLatestDate);
-          targetDate.setDate(globalLatestDate.getDate() - 7);
-          const hasWeeklyData = card.history.some(h => new Date(h.date) > targetDate);
-
-          if (hasWeeklyData && card.history.length >= 2) {
-            let weekAgoRecord = card.history.slice().reverse().find(h => new Date(h.date) <= targetDate);
-            if (!weekAgoRecord) weekAgoRecord = card.history[0]; 
-            card.weeklyDiff = card.latestPrice - weekAgoRecord.price;
-            if (weekAgoRecord.price > 0) card.weeklyPercent = (card.weeklyDiff / weekAgoRecord.price) * 100;
+        if (card.history.length >= 2) {
+          const latest = card.history[card.history.length - 1];
+          const prev = card.history[card.history.length - 2];
+          if (latest.date === globalLatestStr) {
+            card.trendDiff = latest.price - prev.price;
+            card.trendPercent = (card.trendDiff / prev.price) * 100;
           }
         }
       });
       
       cardDataList = data;
+      calculateTotalAssets();
       filterAndRender();
     }
 
@@ -199,33 +249,24 @@
       const filterType = document.getElementById('trendFilter').value;
       const sortOrder = document.getElementById('sortOrder').value;
 
-      let filtered = cardDataList.filter(function(card) {
-        const cardKey = card.name + "_" + card.modelNo;
+      let filtered = cardDataList.filter(card => {
+        const key = card.name + "_" + card.modelNo;
         const matchText = card.name.toLowerCase().includes(searchText) || card.modelNo.toLowerCase().includes(searchText);
         let matchFilter = true;
         
-        // ★追加機能：フィルタのロジック
-        if (filterType === 'favorites') matchFilter = favorites.includes(cardKey);
-        else if (filterType === 'allTimeHigh') matchFilter = card.latestPrice > 0 && card.latestPrice >= card.maxPrice;
-        else if (filterType === 'surge') matchFilter = card.trendPercent >= 5;
-        else if (filterType === 'crash') matchFilter = card.trendPercent <= -5;
-        else if (filterType === 'high') matchFilter = card.latestPrice >= 100000;
+        if (filterType === 'favorites') matchFilter = favorites.includes(key);
+        else if (filterType === 'owned') matchFilter = (ownedCounts[key] || 0) > 0;
+        else if (filterType === 'allTimeHigh') matchFilter = card.latestPrice >= card.maxPrice;
         else if (filterType === 'dailyUp') matchFilter = card.trendDiff > 0;
         else if (filterType === 'dailyDown') matchFilter = card.trendDiff < 0;
-        else if (filterType === 'weeklyUp') matchFilter = card.weeklyDiff > 0;
-        else if (filterType === 'weeklyDown') matchFilter = card.weeklyDiff < 0;
 
         let matchSeries = (currentSeries === 'all') || card.modelNo.toUpperCase().includes(currentSeries);
         return matchText && matchFilter && matchSeries;
       });
 
-      filtered.sort(function(a, b) {
+      filtered.sort((a, b) => {
         if (sortOrder === 'priceDesc') return b.latestPrice - a.latestPrice;
         if (sortOrder === 'priceAsc') return a.latestPrice - b.latestPrice;
-        if (sortOrder === 'trendDesc') return b.trendDiff - a.trendDiff; 
-        if (sortOrder === 'trendAsc') return a.trendDiff - b.trendDiff; 
-        if (sortOrder === 'weeklyDesc') return b.weeklyDiff - a.weeklyDiff; 
-        if (sortOrder === 'weeklyAsc') return a.weeklyDiff - b.weeklyDiff; 
         if (sortOrder === 'modelAsc') return a.modelNo.localeCompare(b.modelNo);
         return 0;
       });
@@ -236,56 +277,34 @@
       }
       noDataMsg.style.display = 'none';
 
-      filtered.forEach(function(card) {
-        const cardKey = card.name + "_" + card.modelNo;
+      filtered.forEach(card => {
+        const key = card.name + "_" + card.modelNo;
         const div = document.createElement('div');
         div.className = 'card';
-        div.onclick = function() { openModal(card); };
+        div.onclick = () => openModal(card);
 
-        // ★追加機能：お気に入りボタン（星マーク）
         const star = document.createElement('div');
-        star.className = 'star-btn ' + (favorites.includes(cardKey) ? 'active' : '');
+        star.className = 'star-btn ' + (favorites.includes(key) ? 'active' : '');
         star.innerHTML = '★';
-        star.onclick = function(e) { toggleFavorite(e, cardKey); };
+        star.onclick = (e) => toggleFavorite(e, key);
         div.appendChild(star);
 
         const img = document.createElement('img');
-        img.setAttribute('loading', 'lazy');
-        img.setAttribute('referrerpolicy', 'no-referrer');
-        if (card.imageId.startsWith('http')) {
-          img.src = card.imageId;
-        } else {
-          img.src = 'https://drive.google.com/thumbnail?id=' + card.imageId + '&sz=w400';
-          img.onerror = function() {
-            this.onerror = null; 
-            this.src = 'https://lh3.googleusercontent.com/d/' + card.imageId + '=s400'; 
-          };
-        }
+        img.src = card.imageId.startsWith('http') ? card.imageId : 'https://drive.google.com/thumbnail?id=' + card.imageId + '&sz=w400';
         
-        const name = document.createElement('div');
-        name.style.fontSize = '0.9em'; name.style.fontWeight = 'bold'; name.textContent = card.name;
-        const model = document.createElement('div');
-        model.style.fontSize = '0.7em'; model.style.color = 'gray'; model.textContent = card.modelNo;
         const price = document.createElement('div');
-        price.className = 'price-main'; price.textContent = '¥' + card.latestPrice.toLocaleString();
-        
-        const trendContainer = document.createElement('div');
-        trendContainer.className = 'trend-container';
-        const dailyTrend = document.createElement('div');
-        dailyTrend.className = 'trend ' + (card.trendDiff > 0 ? 'up' : card.trendDiff < 0 ? 'down' : 'flat');
-        dailyTrend.innerHTML = `<span class="label">前日比:</span> <span>${card.trendDiff > 0 ? '▲ +¥'+card.trendDiff.toLocaleString() : card.trendDiff < 0 ? '▼ ¥'+Math.abs(card.trendDiff).toLocaleString() : '▶ 変動なし'}</span>`;
-        const weeklyTrend = document.createElement('div');
-        weeklyTrend.className = 'trend ' + (card.weeklyDiff > 0 ? 'up' : card.weeklyDiff < 0 ? 'down' : 'flat');
-        weeklyTrend.innerHTML = `<span class="label">週間比:</span> <span>${card.weeklyDiff > 0 ? '▲ +¥'+card.weeklyDiff.toLocaleString() : card.weeklyDiff < 0 ? '▼ ¥'+Math.abs(card.weeklyDiff).toLocaleString() : '▶ 変動なし'}</span>`;
-        trendContainer.appendChild(dailyTrend);
-        trendContainer.appendChild(weeklyTrend);
-        
-        const range = document.createElement('div');
-        range.className = 'price-range';
-        range.innerHTML = '<div>最安 <span class="price-min">¥' + card.minPrice.toLocaleString() + '</span></div>' +
-                          '<div>最高 <span class="price-max">¥' + card.maxPrice.toLocaleString() + '</span></div>';
-        
-        div.appendChild(img); div.appendChild(name); div.appendChild(model); div.appendChild(price); div.appendChild(trendContainer); div.appendChild(range);
+        price.className = 'price-main';
+        price.textContent = '¥' + card.latestPrice.toLocaleString();
+
+        // 枚数入力エリア
+        const inv = document.createElement('div');
+        inv.className = 'inventory-control';
+        inv.innerHTML = `<label>所持:</label><input type="number" class="inventory-input" value="${ownedCounts[key] || 0}" min="0" onclick="event.stopPropagation()" onchange="updateInventory(event, '${key}')">`;
+
+        div.innerHTML += `<div style="font-size:0.9em;font-weight:bold;">${card.name}</div><div style="font-size:0.7em;color:gray;">${card.modelNo}</div>`;
+        div.appendChild(img);
+        div.appendChild(price);
+        div.appendChild(inv);
         grid.appendChild(div);
       });
     }
@@ -299,14 +318,10 @@
         type: 'line',
         data: {
           labels: card.history.map(h => h.date),
-          datasets: [{
-            label: '買取価格 (円)', data: card.history.map(h => h.price),
-            borderColor: '#007bff', backgroundColor: 'rgba(0, 123, 255, 0.1)', fill: true, tension: 0.1
-          }]
+          datasets: [{ label: '価格 (円)', data: card.history.map(h => h.price), borderColor: '#007bff', fill: false }]
         }
       });
     }
-
     function closeModal() { document.getElementById('modal').style.display = 'none'; }
   </script>
 </body>
