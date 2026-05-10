@@ -10,13 +10,16 @@
     
     /* 資産統計パネル */
     #asset-summary { background: #2c3e50; color: white; padding: 15px; border-radius: 8px; margin-bottom: 10px; display: flex; flex-direction: column; gap: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
-    .asset-info-row { display: flex; gap: 20px; align-items: center; justify-content: space-around; }
+    .asset-info-row { display: flex; gap: 20px; align-items: center; justify-content: space-around; flex-wrap: wrap;}
     .asset-item { text-align: center; }
     .asset-label { font-size: 0.8em; opacity: 0.8; }
     .asset-value { font-size: 1.5em; font-weight: bold; color: #f1c40f; }
 
     /* 資産推移グラフエリア */
-    #total-asset-chart-container { background: rgba(255, 255, 255, 0.05); padding: 10px; border-radius: 6px; height: 180px; width: 100%; }
+    #total-asset-chart-container { background: rgba(255, 255, 255, 0.05); padding: 10px; border-radius: 6px; height: 180px; width: 100%; cursor: pointer;}
+    
+    /* クリック時の詳細パネル */
+    #asset-breakdown { display: none; background: #fff; color: #333; margin-top: 10px; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); max-height: 250px; overflow-y: auto; font-size: 0.9em;}
 
     #controls { background: white; padding: 15px; border-radius: 8px; margin-bottom: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
     #controls input, #controls select { padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 1em; flex: 1; min-width: 150px; }
@@ -38,8 +41,20 @@
     .inventory-control { margin-top: 10px; padding-top: 10px; border-top: 1px dashed #eee; display: flex; align-items: center; justify-content: center; gap: 5px; }
     .inventory-input { width: 50px; padding: 4px; border: 1px solid #ddd; border-radius: 4px; text-align: center; font-weight: bold; }
 
-    .star-btn { position: absolute; top: 10px; right: 10px; font-size: 24px; color: #ccc; cursor: pointer; text-shadow: 0 0 2px rgba(0,0,0,0.3); z-index: 10; }
-    .star-btn.active { color: #ffd700; }
+    .trend-container { display: flex; flex-direction: column; gap: 3px; margin-bottom: 8px; }
+    .trend { font-size: 0.75em; font-weight: bold; padding: 4px; border-radius: 4px; background: #f9f9f9; text-align: left; display: flex; justify-content: space-between;}
+    .trend span.label { color: #555; }
+    .trend.up { background: #ffebee; color: #e53935; }
+    .trend.down { background: #e3f2fd; color: #1e88e5; }
+    .trend.flat { color: #9e9e9e; }
+    
+    .price-range { display: flex; justify-content: space-around; font-size: 0.75em; color: #666; background: #f0f2f5; padding: 6px; border-radius: 4px; margin-top: auto; border: 1px solid #e0e4e8; }
+    .price-min { color: #1e88e5; font-weight: bold; }
+    .price-max { color: #d32f2f; font-weight: bold; }
+
+    .star-btn { position: absolute; top: 10px; right: 10px; font-size: 24px; color: #ccc; cursor: pointer; text-shadow: 0 0 2px rgba(0,0,0,0.3); z-index: 10; transition: transform 0.1s;}
+    .star-btn:hover { transform: scale(1.2); }
+    .star-btn.active { color: #ffd700; text-shadow: 0 0 5px rgba(255, 215, 0, 0.8); }
 
     #modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); justify-content: center; align-items: center; z-index: 1000; }
     #modal-content { background: white; padding: 20px; border-radius: 8px; width: 90%; max-width: 600px; position: relative; }
@@ -65,6 +80,8 @@
     <div id="total-asset-chart-container">
       <canvas id="totalAssetChart"></canvas>
     </div>
+    
+    <div id="asset-breakdown"></div>
   </div>
   
   <div id="controls">
@@ -77,11 +94,17 @@
       <option value="allTimeHigh">👑 過去最高額を更新中</option>
       <option value="dailyUp">📈 前日から上がったカード</option>
       <option value="dailyDown">📉 前日から下がったカード</option>
+      <option value="weeklyUp">📅 1週間で上がったカード</option>
+      <option value="weeklyDown">📅 1週間で下がったカード</option>
     </select>
     
     <select id="sortOrder" onchange="filterAndRender()">
       <option value="priceDesc">高い順（価格）</option>
       <option value="priceAsc">安い順（価格）</option>
+      <option value="trendDesc">↑ 前日からの値上がり額順</option>
+      <option value="trendAsc">↓ 前日からの値下がり額順</option>
+      <option value="weeklyDesc">↑ 1週間の値上がり額順</option>
+      <option value="weeklyAsc">↓ 1週間の値下がり額順</option>
       <option value="modelAsc">型番順 (OP01〜)</option>
     </select>
   </div>
@@ -107,6 +130,9 @@
   </div>
 
   <script>
+    // ==========================================
+    // ⚠️ 【重要】デプロイしたウェブアプリのURLを入力してください
+    // ==========================================
     const API_URL = 'https://script.google.com/macros/s/AKfycbyifLg51QEUYQtkkEhC5rB4CwP2gnBpb1Z5xgVUaE8AXxNas4tzpOzPqKB1dWu99_k/exec?v=api';
 
     let chartInstance = null;
@@ -117,6 +143,9 @@
     let favorites = JSON.parse(localStorage.getItem('onepieceFavorites')) || [];
     let ownedCounts = JSON.parse(localStorage.getItem('onepieceOwnedCounts')) || {};
 
+    // ==========================================
+    // 所持枚数と資産計算
+    // ==========================================
     function updateInventory(event, key) {
       event.stopPropagation();
       const count = parseInt(event.target.value) || 0;
@@ -128,6 +157,8 @@
     function refreshAssetStats() {
       calculateTotalAssets();
       renderTotalAssetChart();
+      // 最新のデータでグラフを再描画した際、詳細パネルが開いていれば閉じる
+      document.getElementById('asset-breakdown').style.display = 'none';
     }
 
     function calculateTotalAssets() {
@@ -143,21 +174,23 @@
       document.getElementById('total-assets').innerText = '¥' + totalValue.toLocaleString();
     }
 
-        function renderTotalAssetChart() {
-      // 1. 全カードの履歴から、存在するすべての日付を抽出してソートする
+    // ==========================================
+    // 資産推移グラフ描画（全カードの過去価格を参照する正確版）
+    // ==========================================
+    function renderTotalAssetChart() {
+      // 1. 全カードの履歴からすべての日付を抽出
       const allDates = new Set();
       cardDataList.forEach(card => {
         card.history.forEach(h => allDates.add(h.date));
       });
       const sortedDates = Array.from(allDates).sort((a, b) => new Date(a) - new Date(b));
 
-      // 2. 各日付時点での「全カードの合計額」を計算する
+      // 2. 各日付時点での全カードの合計額を計算
       const trendData = sortedDates.map(date => {
         let dailyTotal = 0;
         cardDataList.forEach(card => {
           const count = ownedCounts[card.name + "_" + card.modelNo] || 0;
           if (count > 0) {
-            // その日、またはその日より前で一番新しい価格を探す
             const priceRecord = card.history
               .filter(h => new Date(h.date) <= new Date(date))
               .sort((a, b) => new Date(b.date) - new Date(a.date))[0];
@@ -170,7 +203,6 @@
         return dailyTotal;
       });
 
-      // 3. グラフを描画（ここは以前と同様）
       const ctx = document.getElementById('totalAssetChart').getContext('2d');
       if (totalAssetChartInstance) totalAssetChartInstance.destroy();
       
@@ -185,76 +217,212 @@
             backgroundColor: 'rgba(241, 196, 15, 0.1)',
             fill: true,
             tension: 0.1,
-            pointRadius: 2
+            pointRadius: 3,
+            hitRadius: 10
           }]
         },
         options: {
           responsive: true,
           maintainAspectRatio: false,
           plugins: {
-            legend: { display: false }
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: (context) => `資産額: ¥${context.parsed.y.toLocaleString()}`
+              }
+            }
           },
           scales: {
-            x: { ticks: { color: '#ccc', font: { size: 9 } } },
-            y: { ticks: { color: '#ccc', font: { size: 9 } } }
+            x: { ticks: { color: '#ccc', font: { size: 9 } }, grid: { display: false } },
+            y: { ticks: { color: '#ccc', font: { size: 9 } }, grid: { color: 'rgba(255,255,255,0.1)' } }
+          },
+          // ★グラフの点をクリックした時の処理
+          onClick: (e, activeEls) => {
+            if (activeEls.length > 0) {
+              const dataIndex = activeEls[0].index;
+              const selectedDate = sortedDates[dataIndex];
+              showAssetBreakdown(selectedDate);
+            }
           }
         }
       });
     }
 
+    // ==========================================
+    // 特定日の資産内訳ブレイクダウン
+    // ==========================================
+    function showAssetBreakdown(targetDate) {
+      const breakdownContainer = document.getElementById('asset-breakdown');
+      let html = `<h4 style="margin-top:0; border-bottom: 2px solid #f1c40f; padding-bottom: 5px;">📅 ${targetDate} 時点の詳細（現在との比較）</h4>`;
+      let hasData = false;
 
+      let totalPastValue = 0;
+      let totalCurrentValue = 0;
+
+      let listHtml = `<div style="display: grid; gap: 10px;">`;
+
+      cardDataList.forEach(card => {
+        const count = ownedCounts[card.name + "_" + card.modelNo] || 0;
+        if (count > 0) {
+          const priceRecord = card.history
+            .filter(h => new Date(h.date) <= new Date(targetDate))
+            .sort((a, b) => new Date(b.date) - new Date(a.date))[0];
+
+          if (priceRecord) {
+            hasData = true;
+            const pastPrice = priceRecord.price;
+            const currentPrice = card.latestPrice;
+            const diff = currentPrice - pastPrice;
+            
+            totalPastValue += pastPrice * count;
+            totalCurrentValue += currentPrice * count;
+
+            let diffText = '<span style="color:gray;">▶ 変動なし</span>';
+            if (diff > 0) {
+              diffText = `<span style="color:#e53935; font-weight:bold;">▲ +¥${diff.toLocaleString()}</span>`;
+            } else if (diff < 0) {
+              diffText = `<span style="color:#1e88e5; font-weight:bold;">▼ ¥${Math.abs(diff).toLocaleString()}</span>`;
+            }
+
+            listHtml += `
+              <div style="background: #f9f9f9; padding: 8px; border-radius: 4px; display: flex; justify-content: space-between; align-items: center;">
+                <div style="font-size: 0.9em;">
+                  <b>${card.name}</b> <span style="color:gray;">(${card.modelNo})</span> x ${count}枚
+                </div>
+                <div style="text-align: right; font-size: 0.9em;">
+                  当時: ¥${pastPrice.toLocaleString()} → 
+                  現在: ¥${currentPrice.toLocaleString()}<br>
+                  (1枚あたり ${diffText})
+                </div>
+              </div>`;
+          }
+        }
+      });
+
+      listHtml += `</div>`;
+
+      if (hasData) {
+        const totalDiff = totalCurrentValue - totalPastValue;
+        let totalDiffText = '▶ 変動なし';
+        if (totalDiff > 0) totalDiffText = `<span style="color:#e53935;">▲ +¥${totalDiff.toLocaleString()}の利益</span>`;
+        else if (totalDiff < 0) totalDiffText = `<span style="color:#1e88e5;">▼ ¥${Math.abs(totalDiff).toLocaleString()}の損失</span>`;
+
+        html += `<p style="font-weight: bold; font-size: 1em; margin-bottom: 10px;">当時からの資産変動: ${totalDiffText}</p>`;
+        html += listHtml;
+      } else {
+        html += `<p>この時点でのデータは存在しません。</p>`;
+      }
+
+      breakdownContainer.innerHTML = html;
+      breakdownContainer.style.display = 'block';
+    }
+
+    // ==========================================
+    // CSVエクスポート
+    // ==========================================
     function exportToCSV() {
-      let csvContent = "\uFEFFカード名,型番,価格,所持枚数,小計\n";
+      let csvContent = "\uFEFFカード名,型番,現在の価格,所持枚数,小計\n";
+      let hasData = false;
       cardDataList.forEach(card => {
         const key = card.name + "_" + card.modelNo;
         const count = ownedCounts[key] || 0;
-        if (count > 0) csvContent += `"${card.name}","${card.modelNo}",${card.latestPrice},${count},${card.latestPrice * count}\n`;
+        if (count > 0) {
+          csvContent += `"${card.name}","${card.modelNo}",${card.latestPrice},${count},${card.latestPrice * count}\n`;
+          hasData = true;
+        }
       });
+      if (!hasData) {
+        alert("所持枚数が記録されているカードがありません。");
+        return;
+      }
       const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
       const link = document.createElement("a");
       link.href = URL.createObjectURL(blob);
-      link.download = `onepiece_assets.csv`;
+      link.download = `onepiece_assets_${new Date().toLocaleDateString()}.csv`;
+      link.style.display = "none";
+      document.body.appendChild(link);
       link.click();
+      document.body.removeChild(link);
     }
 
+    // ==========================================
+    // お気に入り切り替え（スクロール飛び防止版）
+    // ==========================================
     function toggleFavorite(event, key) {
       event.stopPropagation();
       const index = favorites.indexOf(key);
-      if (index === -1) { favorites.push(key); event.target.classList.add('active'); }
-      else { favorites.splice(index, 1); event.target.classList.remove('active'); }
+      if (index === -1) {
+        favorites.push(key);
+        event.target.classList.add('active');
+      } else {
+        favorites.splice(index, 1);
+        event.target.classList.remove('active');
+        if (document.getElementById('trendFilter').value === 'favorites') {
+          event.target.closest('.card').style.display = 'none';
+        }
+      }
       localStorage.setItem('onepieceFavorites', JSON.stringify(favorites));
     }
 
+    // ==========================================
+    // API取得と初期化
+    // ==========================================
     fetch(API_URL)
       .then(response => response.json())
       .then(data => initApp(data))
-      .catch(err => document.getElementById('loading').innerText = 'エラーが発生しました。');
+      .catch(err => document.getElementById('loading').innerText = 'エラーが発生しました。GASのURLを確認してください。');
 
     function initApp(data) {
       document.getElementById('loading').style.display = 'none';
       let globalLatestStr = '1970/01/01';
+      
       data.forEach(card => {
         if (card.history && card.history.length > 0) {
           const d = card.history[card.history.length - 1].date;
           if (d > globalLatestStr) globalLatestStr = d;
         }
       });
+      const globalLatestDate = new Date(globalLatestStr);
+
       data.forEach(card => {
+        card.trendPercent = 0;
+        card.trendDiff = 0;
+        card.weeklyDiff = 0;
+        card.weeklyPercent = 0;
+        
         const prices = card.history.map(h => h.price);
         card.minPrice = Math.min(...prices);
         card.maxPrice = Math.max(...prices);
-        card.trendDiff = 0;
-        if (card.history.length >= 2) {
-          const latest = card.history[card.history.length - 1];
-          const prev = card.history[card.history.length - 2];
-          if (latest.date === globalLatestStr) card.trendDiff = latest.price - prev.price;
+
+        if (card.history.length > 0) {
+          const latestRecord = card.history[card.history.length - 1];
+          if (latestRecord.date === globalLatestStr && card.history.length >= 2) {
+            const prevRecord = card.history[card.history.length - 2];
+            card.trendDiff = latestRecord.price - prevRecord.price;
+            if (prevRecord.price > 0) card.trendPercent = (card.trendDiff / prevRecord.price) * 100;
+          }
+
+          const targetDate = new Date(globalLatestDate);
+          targetDate.setDate(globalLatestDate.getDate() - 7);
+          const hasWeeklyData = card.history.some(h => new Date(h.date) > targetDate);
+
+          if (hasWeeklyData && card.history.length >= 2) {
+            let weekAgoRecord = card.history.slice().reverse().find(h => new Date(h.date) <= targetDate);
+            if (!weekAgoRecord) weekAgoRecord = card.history[0]; 
+            card.weeklyDiff = card.latestPrice - weekAgoRecord.price;
+            if (weekAgoRecord.price > 0) card.weeklyPercent = (card.weeklyDiff / weekAgoRecord.price) * 100;
+          }
         }
       });
+      
       cardDataList = data;
       refreshAssetStats();
       filterAndRender();
     }
 
+    // ==========================================
+    // フィルタと描画ロジック
+    // ==========================================
     function setSeries(series, btnElement) {
       currentSeries = series;
       document.querySelectorAll('.series-btn').forEach(btn => btn.classList.remove('active'));
@@ -274,21 +442,34 @@
         const key = card.name + "_" + card.modelNo;
         const matchText = card.name.toLowerCase().includes(searchText) || card.modelNo.toLowerCase().includes(searchText);
         let matchFilter = true;
+        
         if (filterType === 'favorites') matchFilter = favorites.includes(key);
         else if (filterType === 'owned') matchFilter = (ownedCounts[key] || 0) > 0;
-        else if (filterType === 'allTimeHigh') matchFilter = card.latestPrice >= card.maxPrice;
+        else if (filterType === 'allTimeHigh') matchFilter = card.latestPrice > 0 && card.latestPrice >= card.maxPrice;
         else if (filterType === 'dailyUp') matchFilter = card.trendDiff > 0;
         else if (filterType === 'dailyDown') matchFilter = card.trendDiff < 0;
-        return matchText && matchFilter && (currentSeries === 'all' || card.modelNo.toUpperCase().includes(currentSeries));
+        else if (filterType === 'weeklyUp') matchFilter = card.weeklyDiff > 0;
+        else if (filterType === 'weeklyDown') matchFilter = card.weeklyDiff < 0;
+
+        let matchSeries = (currentSeries === 'all') || card.modelNo.toUpperCase().includes(currentSeries);
+        return matchText && matchFilter && matchSeries;
       });
 
       filtered.sort((a, b) => {
         if (sortOrder === 'priceDesc') return b.latestPrice - a.latestPrice;
         if (sortOrder === 'priceAsc') return a.latestPrice - b.latestPrice;
-        return a.modelNo.localeCompare(b.modelNo);
+        if (sortOrder === 'trendDesc') return b.trendDiff - a.trendDiff; 
+        if (sortOrder === 'trendAsc') return a.trendDiff - b.trendDiff; 
+        if (sortOrder === 'weeklyDesc') return b.weeklyDiff - a.weeklyDiff; 
+        if (sortOrder === 'weeklyAsc') return a.weeklyDiff - b.weeklyDiff; 
+        if (sortOrder === 'modelAsc') return a.modelNo.localeCompare(b.modelNo);
+        return 0;
       });
 
-      if (filtered.length === 0) { noDataMsg.style.display = 'block'; return; }
+      if (filtered.length === 0) {
+        noDataMsg.style.display = 'block';
+        return;
+      }
       noDataMsg.style.display = 'none';
 
       filtered.forEach(card => {
@@ -296,24 +477,61 @@
         const div = document.createElement('div');
         div.className = 'card';
         div.onclick = () => openModal(card);
+
         const star = document.createElement('div');
         star.className = 'star-btn ' + (favorites.includes(key) ? 'active' : '');
         star.innerHTML = '★';
         star.onclick = (e) => toggleFavorite(e, key);
-        div.innerHTML = `<div style="font-size:0.8em;font-weight:bold;margin-bottom:4px;">${card.name}</div><div style="font-size:0.6em;color:gray;">${card.modelNo}</div>`;
+        div.appendChild(star);
+
         const img = document.createElement('img');
+        img.setAttribute('loading', 'lazy');
+        img.setAttribute('referrerpolicy', 'no-referrer');
         img.src = card.imageId.startsWith('http') ? card.imageId : 'https://drive.google.com/thumbnail?id=' + card.imageId + '&sz=w400';
+        
+        const name = document.createElement('div');
+        name.style.fontSize = '0.9em'; name.style.fontWeight = 'bold'; name.textContent = card.name;
+        const model = document.createElement('div');
+        model.style.fontSize = '0.7em'; model.style.color = 'gray'; model.textContent = card.modelNo;
+        
         const price = document.createElement('div');
-        price.className = 'price-main';
+        price.className = 'price-main'; 
         price.textContent = '¥' + card.latestPrice.toLocaleString();
+        
+        const trendContainer = document.createElement('div');
+        trendContainer.className = 'trend-container';
+        const dailyTrend = document.createElement('div');
+        dailyTrend.className = 'trend ' + (card.trendDiff > 0 ? 'up' : card.trendDiff < 0 ? 'down' : 'flat');
+        dailyTrend.innerHTML = `<span class="label">前日比:</span> <span>${card.trendDiff > 0 ? '▲ +¥'+card.trendDiff.toLocaleString() : card.trendDiff < 0 ? '▼ ¥'+Math.abs(card.trendDiff).toLocaleString() : '▶ 変動なし'}</span>`;
+        const weeklyTrend = document.createElement('div');
+        weeklyTrend.className = 'trend ' + (card.weeklyDiff > 0 ? 'up' : card.weeklyDiff < 0 ? 'down' : 'flat');
+        weeklyTrend.innerHTML = `<span class="label">週間比:</span> <span>${card.weeklyDiff > 0 ? '▲ +¥'+card.weeklyDiff.toLocaleString() : card.weeklyDiff < 0 ? '▼ ¥'+Math.abs(card.weeklyDiff).toLocaleString() : '▶ 変動なし'}</span>`;
+        trendContainer.appendChild(dailyTrend);
+        trendContainer.appendChild(weeklyTrend);
+        
+        const range = document.createElement('div');
+        range.className = 'price-range';
+        range.innerHTML = '<div>最安 <span class="price-min">¥' + card.minPrice.toLocaleString() + '</span></div>' +
+                          '<div>最高 <span class="price-max">¥' + card.maxPrice.toLocaleString() + '</span></div>';
+        
         const inv = document.createElement('div');
         inv.className = 'inventory-control';
-        inv.innerHTML = `<label style="font-size:0.7em;">枚数:</label><input type="number" class="inventory-input" value="${ownedCounts[key] || 0}" min="0" onclick="event.stopPropagation()" onchange="updateInventory(event, '${key}')">`;
-        div.appendChild(star); div.appendChild(img); div.appendChild(price); div.appendChild(inv);
+        inv.innerHTML = `<label>所持:</label><input type="number" class="inventory-input" value="${ownedCounts[key] || 0}" min="0" onclick="event.stopPropagation()" onchange="updateInventory(event, '${key}')">`;
+
+        div.appendChild(img); 
+        div.appendChild(name); 
+        div.appendChild(model); 
+        div.appendChild(price); 
+        div.appendChild(trendContainer); 
+        div.appendChild(range);
+        div.appendChild(inv);
         grid.appendChild(div);
       });
     }
 
+    // ==========================================
+    // モーダル表示ロジック
+    // ==========================================
     function openModal(card) {
       document.getElementById('modal-title').textContent = card.name;
       document.getElementById('modal').style.display = 'flex';
@@ -323,10 +541,14 @@
         type: 'line',
         data: {
           labels: card.history.map(h => h.date),
-          datasets: [{ label: '価格', data: card.history.map(h => h.price), borderColor: '#007bff', fill: false }]
+          datasets: [{
+            label: '買取価格 (円)', data: card.history.map(h => h.price),
+            borderColor: '#007bff', backgroundColor: 'rgba(0, 123, 255, 0.1)', fill: true, tension: 0.1
+          }]
         }
       });
     }
+
     function closeModal() { document.getElementById('modal').style.display = 'none'; }
   </script>
 </body>
