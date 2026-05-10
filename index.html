@@ -46,8 +46,17 @@
 
     .trend-container { display: flex; flex-direction: column; gap: 3px; margin-bottom: 8px; }
     .trend { font-size: 0.75em; font-weight: bold; padding: 4px; border-radius: 4px; background: #f9f9f9; text-align: left; display: flex; justify-content: space-between;}
+    .trend span.label { color: #555; }
+    .trend.up { background: #ffebee; color: #e53935; }
+    .trend.down { background: #e3f2fd; color: #1e88e5; }
+    .trend.flat { color: #9e9e9e; }
     
-    .star-btn { position: absolute; top: 10px; right: 10px; font-size: 24px; color: #ccc; cursor: pointer; text-shadow: 0 0 2px rgba(0,0,0,0.3); z-index: 10; }
+    .price-range { display: flex; justify-content: space-around; font-size: 0.75em; color: #666; background: #f0f2f5; padding: 6px; border-radius: 4px; margin-top: auto; border: 1px solid #e0e4e8; }
+    .price-min { color: #1e88e5; font-weight: bold; }
+    .price-max { color: #d32f2f; font-weight: bold; }
+
+    .star-btn { position: absolute; top: 10px; right: 10px; font-size: 24px; color: #ccc; cursor: pointer; text-shadow: 0 0 2px rgba(0,0,0,0.3); z-index: 10; transition: transform 0.1s;}
+    .star-btn:hover { transform: scale(1.2); }
     .star-btn.active { color: #ffd700; text-shadow: 0 0 5px rgba(255, 215, 0, 0.8); }
 
     #modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); justify-content: center; align-items: center; z-index: 1000; }
@@ -86,16 +95,23 @@
       <option value="all">すべてのカード</option>
       <option value="owned">📦 所持カードのみ</option>
       <option value="favorites">⭐ お気に入りのみ</option>
-      <option value="allTimeHigh">👑 最高値更新中</option>
-      <option value="dailyUp">📈 前日比プラス</option>
-      <option value="dailyDown">📉 前日比マイナス</option>
-      <option value="weeklyUp">📅 週間比プラス</option>
+      <option value="allTimeHigh">👑 過去最高額を更新中</option>
+      <option value="dailyUp">📈 前日から上がったカード</option>
+      <option value="dailyDown">📉 前日から下がったカード</option>
+      <option value="weeklyUp">📅 1週間で上がったカード</option>
+      <option value="weeklyDown">📅 1週間で下がったカード</option>
+      <option value="surge">🔥 爆益中 (+5%以上)</option>
+      <option value="crash">🥶 暴落中 (-5%以下)</option>
+      <option value="high">💎 10万円以上の高額</option>
     </select>
     <select id="sortOrder" onchange="filterAndRender()">
-      <option value="priceDesc">価格が高い順</option>
-      <option value="priceAsc">価格が安い順</option>
-      <option value="trendDesc">↑ 値上がり順</option>
-      <option value="modelAsc">型番順</option>
+      <option value="priceDesc">高い順（価格）</option>
+      <option value="priceAsc">安い順（価格）</option>
+      <option value="trendDesc">↑ 前日からの値上がり額順</option>
+      <option value="trendAsc">↓ 前日からの値下がり額順</option>
+      <option value="weeklyDesc">↑ 1週間の値上がり額順</option>
+      <option value="weeklyAsc">↓ 1週間の値下がり額順</option>
+      <option value="modelAsc">型番順 (OP01〜)</option>
     </select>
   </div>
 
@@ -240,7 +256,6 @@
     // CSV機能 (エクスポート & インポート)
     // ==========================================
     function exportToCSV() {
-      // BOM付きUTF-8で画像URLも追加
       let csvContent = "\uFEFFカード名,型番,価格,所持枚数,小計,画像URL\n";
       let countData = 0;
       cardDataList.forEach(card => {
@@ -268,10 +283,8 @@
         const text = e.target.result;
         const lines = text.split(/\r?\n/);
         const newCounts = {};
-        // 1行目はヘッダーなので飛ばす
         for (let i = 1; i < lines.length; i++) {
           if (!lines[i].trim()) continue;
-          // カンマ区切りのパース (ダブルクォート内のカンマに対応)
           const cols = lines[i].match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g);
           if (cols && cols.length >= 4) {
             const name = cols[0].replace(/"/g, '').trim();
@@ -293,11 +306,11 @@
         }
       };
       reader.readAsText(file);
-      event.target.value = ''; // 選択クリア
+      event.target.value = ''; 
     }
 
     // ==========================================
-    // お気に入り (スクロール飛び防止)
+    // お気に入り
     // ==========================================
     function toggleFavorite(event, key) {
       event.stopPropagation();
@@ -316,7 +329,7 @@
     }
 
     // ==========================================
-    // メインロジック
+    // メインロジック (データ取得と解析の完全復活)
     // ==========================================
     fetch(API_URL)
       .then(res => res.json())
@@ -326,21 +339,43 @@
     function initApp(data) {
       document.getElementById('loading').style.display = 'none';
       let latestStr = '1970/01/01';
+      
       data.forEach(c => {
         if (c.history.length) {
           const d = c.history[c.history.length-1].date;
           if (d > latestStr) latestStr = d;
         }
       });
+      const globalLatestDate = new Date(latestStr);
+
       data.forEach(c => {
+        c.trendPercent = 0; c.trendDiff = 0; c.weeklyDiff = 0; c.weeklyPercent = 0;
         const p = c.history.map(h => h.price);
         c.minPrice = Math.min(...p); c.maxPrice = Math.max(...p);
-        c.trendDiff = 0;
-        if (c.history.length >= 2) {
-          const last = c.history[c.history.length-1], prev = c.history[c.history.length-2];
-          if (last.date === latestStr) c.trendDiff = last.price - prev.price;
+        
+        if (c.history.length > 0) {
+          // 前日比の計算
+          const last = c.history[c.history.length-1];
+          if (last.date === latestStr && c.history.length >= 2) {
+            const prev = c.history[c.history.length-2];
+            c.trendDiff = last.price - prev.price;
+            if(prev.price > 0) c.trendPercent = (c.trendDiff / prev.price) * 100;
+          }
+          
+          // 週間比の計算
+          const targetDate = new Date(globalLatestDate);
+          targetDate.setDate(globalLatestDate.getDate() - 7);
+          const hasWeekly = c.history.some(h => new Date(h.date) > targetDate);
+          
+          if (hasWeekly && c.history.length >= 2) {
+            let weekAgo = c.history.slice().reverse().find(h => new Date(h.date) <= targetDate);
+            if (!weekAgo) weekAgo = c.history[0];
+            c.weeklyDiff = c.latestPrice - weekAgo.price;
+            if(weekAgo.price > 0) c.weeklyPercent = (c.weeklyDiff / weekAgo.price) * 100;
+          }
         }
       });
+      
       cardDataList = data;
       refreshAssetStats();
       filterAndRender();
@@ -364,11 +399,18 @@
         const key = c.name + "_" + c.modelNo;
         const matchText = c.name.toLowerCase().includes(search) || c.modelNo.toLowerCase().includes(search);
         let matchFilter = true;
+        
         if (filter === 'favorites') matchFilter = favorites.includes(key);
         else if (filter === 'owned') matchFilter = (ownedCounts[key] || 0) > 0;
-        else if (filter === 'allTimeHigh') matchFilter = c.latestPrice >= c.maxPrice;
+        else if (filter === 'allTimeHigh') matchFilter = c.latestPrice > 0 && c.latestPrice >= c.maxPrice;
+        else if (filter === 'surge') matchFilter = c.trendPercent >= 5;
+        else if (filter === 'crash') matchFilter = c.trendPercent <= -5;
+        else if (filter === 'high') matchFilter = c.latestPrice >= 100000;
         else if (filter === 'dailyUp') matchFilter = c.trendDiff > 0;
         else if (filter === 'dailyDown') matchFilter = c.trendDiff < 0;
+        else if (filter === 'weeklyUp') matchFilter = c.weeklyDiff > 0;
+        else if (filter === 'weeklyDown') matchFilter = c.weeklyDiff < 0;
+        
         return matchText && matchFilter && (currentSeries === 'all' || c.modelNo.toUpperCase().includes(currentSeries));
       });
 
@@ -376,6 +418,9 @@
         if (sort === 'priceDesc') return b.latestPrice - a.latestPrice;
         if (sort === 'priceAsc') return a.latestPrice - b.latestPrice;
         if (sort === 'trendDesc') return b.trendDiff - a.trendDiff;
+        if (sort === 'trendAsc') return a.trendDiff - b.trendDiff;
+        if (sort === 'weeklyDesc') return b.weeklyDiff - a.weeklyDiff;
+        if (sort === 'weeklyAsc') return a.weeklyDiff - b.weeklyDiff;
         return a.modelNo.localeCompare(b.modelNo);
       });
 
@@ -396,19 +441,37 @@
         const img = document.createElement('img');
         img.src = c.imageId.startsWith('http') ? c.imageId : 'https://drive.google.com/thumbnail?id=' + c.imageId + '&sz=w400';
         
-        const info = `
-          <div style="font-size:0.85em; font-weight:bold;">${c.name}</div>
+        // --- 復活させた情報ブロック ---
+        const infoHtml = `
+          <div style="font-size:0.9em; font-weight:bold;">${c.name}</div>
           <div style="font-size:0.7em; color:gray; margin-bottom:5px;">${c.modelNo}</div>
           <div class="price-main">¥${c.latestPrice.toLocaleString()}</div>
-          <div class="trend ${c.trendDiff>0?'up':c.trendDiff<0?'down':''}" style="font-size:0.7em; justify-content:center;">
-            ${c.trendDiff>0?'▲':c.trendDiff<0?'▼':''} ¥${Math.abs(c.trendDiff).toLocaleString()}
+          
+          <div class="trend-container">
+            <div class="trend ${c.trendDiff>0?'up':c.trendDiff<0?'down':'flat'}">
+              <span class="label">前日比:</span> 
+              <span>${c.trendDiff>0?'▲ +¥'+c.trendDiff.toLocaleString():c.trendDiff<0?'▼ ¥'+Math.abs(c.trendDiff).toLocaleString():'▶ 変動なし'}</span>
+            </div>
+            <div class="trend ${c.weeklyDiff>0?'up':c.weeklyDiff<0?'down':'flat'}">
+              <span class="label">週間比:</span> 
+              <span>${c.weeklyDiff>0?'▲ +¥'+c.weeklyDiff.toLocaleString():c.weeklyDiff<0?'▼ ¥'+Math.abs(c.weeklyDiff).toLocaleString():'▶ 変動なし'}</span>
+            </div>
           </div>
+          
+          <div class="price-range">
+            <div>最安 <span class="price-min">¥${c.minPrice.toLocaleString()}</span></div>
+            <div>最高 <span class="price-max">¥${c.maxPrice.toLocaleString()}</span></div>
+          </div>
+          
           <div class="inventory-control">
             <label style="font-size:0.75em">枚数:</label>
             <input type="number" class="inventory-input" value="${ownedCounts[key]||0}" min="0" onclick="event.stopPropagation()" onchange="updateInventory(event, '${key}')">
           </div>
         `;
-        div.appendChild(star); div.appendChild(img); div.innerHTML += info;
+        
+        div.appendChild(star); 
+        div.appendChild(img); 
+        div.innerHTML += infoHtml;
         grid.appendChild(div);
       });
     }
@@ -422,7 +485,7 @@
         type: 'line',
         data: {
           labels: c.history.map(h => h.date),
-          datasets: [{ label: '価格', data: c.history.map(h => h.price), borderColor: '#007bff', fill: false }]
+          datasets: [{ label: '買取価格 (円)', data: c.history.map(h => h.price), borderColor: '#007bff', backgroundColor: 'rgba(0, 123, 255, 0.1)', fill: true, tension: 0.1 }]
         }
       });
     }
