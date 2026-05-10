@@ -149,9 +149,6 @@
     let favorites = JSON.parse(localStorage.getItem('onepieceFavorites')) || [];
     let ownedCounts = JSON.parse(localStorage.getItem('onepieceOwnedCounts')) || {};
 
-    // ==========================================
-    // 資産計算 & グラフ
-    // ==========================================
     function updateInventory(event, key) {
       event.stopPropagation();
       const count = parseInt(event.target.value) || 0;
@@ -252,9 +249,6 @@
       breakdownContainer.style.display = 'block';
     }
 
-    // ==========================================
-    // CSV機能 (エクスポート & インポート)
-    // ==========================================
     function exportToCSV() {
       let csvContent = "\uFEFFカード名,型番,価格,所持枚数,小計,画像URL\n";
       let countData = 0;
@@ -294,7 +288,7 @@
           }
         }
         if (Object.keys(newCounts).length > 0) {
-          if (confirm(`CSVから ${Object.keys(newCounts).length} 件のデータを取り込みます。現在の所持データは上書きされますがよろしいですか？`)) {
+          if (confirm(`CSVから ${Object.keys(newCounts).length} 件のデータを取り込みます。現在のデータは上書きされますがよろしいですか？`)) {
             ownedCounts = newCounts;
             localStorage.setItem('onepieceOwnedCounts', JSON.stringify(ownedCounts));
             refreshAssetStats();
@@ -309,9 +303,6 @@
       event.target.value = ''; 
     }
 
-    // ==========================================
-    // お気に入り
-    // ==========================================
     function toggleFavorite(event, key) {
       event.stopPropagation();
       const index = favorites.indexOf(key);
@@ -328,9 +319,6 @@
       localStorage.setItem('onepieceFavorites', JSON.stringify(favorites));
     }
 
-    // ==========================================
-    // メインロジック (データ取得と解析の完全復活)
-    // ==========================================
     fetch(API_URL)
       .then(res => res.json())
       .then(data => initApp(data))
@@ -354,7 +342,6 @@
         c.minPrice = Math.min(...p); c.maxPrice = Math.max(...p);
         
         if (c.history.length > 0) {
-          // 前日比の計算
           const last = c.history[c.history.length-1];
           if (last.date === latestStr && c.history.length >= 2) {
             const prev = c.history[c.history.length-2];
@@ -362,7 +349,6 @@
             if(prev.price > 0) c.trendPercent = (c.trendDiff / prev.price) * 100;
           }
           
-          // 週間比の計算
           const targetDate = new Date(globalLatestDate);
           targetDate.setDate(globalLatestDate.getDate() - 7);
           const hasWeekly = c.history.some(h => new Date(h.date) > targetDate);
@@ -429,20 +415,27 @@
 
       filtered.forEach(c => {
         const key = c.name + "_" + c.modelNo;
+        
+        // 1. 大枠のdivを作成
         const div = document.createElement('div');
         div.className = 'card';
         div.onclick = () => openModal(c);
         
+        // 2. 星ボタンを作成（DOMとして独立させる）
         const star = document.createElement('div');
         star.className = 'star-btn ' + (favorites.includes(key) ? 'active' : '');
         star.innerHTML = '★';
         star.onclick = (e) => toggleFavorite(e, key);
 
+        // 3. 画像を作成（★ここで no-referrer を設定）
         const img = document.createElement('img');
+        img.setAttribute('loading', 'lazy');
+        img.setAttribute('referrerpolicy', 'no-referrer');
         img.src = c.imageId.startsWith('http') ? c.imageId : 'https://drive.google.com/thumbnail?id=' + c.imageId + '&sz=w400';
         
-        // --- 復活させた情報ブロック ---
-        const infoHtml = `
+        // 4. 情報部分のdivを作成（innerHTML += によるバグを防ぐ）
+        const infoDiv = document.createElement('div');
+        infoDiv.innerHTML = `
           <div style="font-size:0.9em; font-weight:bold;">${c.name}</div>
           <div style="font-size:0.7em; color:gray; margin-bottom:5px;">${c.modelNo}</div>
           <div class="price-main">¥${c.latestPrice.toLocaleString()}</div>
@@ -469,9 +462,11 @@
           </div>
         `;
         
+        // 5. 全てを安全に合体させる
         div.appendChild(star); 
         div.appendChild(img); 
-        div.innerHTML += infoHtml;
+        div.appendChild(infoDiv);
+        
         grid.appendChild(div);
       });
     }
