@@ -143,24 +143,34 @@
       document.getElementById('total-assets').innerText = '¥' + totalValue.toLocaleString();
     }
 
-    // ★資産推移グラフの描画ロジック
-    function renderTotalAssetChart() {
-      const assetTrendMap = {};
-      
+        function renderTotalAssetChart() {
+      // 1. 全カードの履歴から、存在するすべての日付を抽出してソートする
+      const allDates = new Set();
       cardDataList.forEach(card => {
-        const key = card.name + "_" + card.modelNo;
-        const count = ownedCounts[key] || 0;
-        if (count > 0) {
-          card.history.forEach(h => {
-            if (!assetTrendMap[h.date]) assetTrendMap[h.date] = 0;
-            assetTrendMap[h.date] += h.price * count;
-          });
-        }
+        card.history.forEach(h => allDates.add(h.date));
+      });
+      const sortedDates = Array.from(allDates).sort((a, b) => new Date(a) - new Date(b));
+
+      // 2. 各日付時点での「全カードの合計額」を計算する
+      const trendData = sortedDates.map(date => {
+        let dailyTotal = 0;
+        cardDataList.forEach(card => {
+          const count = ownedCounts[card.name + "_" + card.modelNo] || 0;
+          if (count > 0) {
+            // その日、またはその日より前で一番新しい価格を探す
+            const priceRecord = card.history
+              .filter(h => new Date(h.date) <= new Date(date))
+              .sort((a, b) => new Date(b.date) - new Date(a.date))[0];
+            
+            if (priceRecord) {
+              dailyTotal += priceRecord.price * count;
+            }
+          }
+        });
+        return dailyTotal;
       });
 
-      const sortedDates = Object.keys(assetTrendMap).sort((a, b) => new Date(a) - new Date(b));
-      const trendData = sortedDates.map(date => assetTrendMap[date]);
-
+      // 3. グラフを描画（ここは以前と同様）
       const ctx = document.getElementById('totalAssetChart').getContext('2d');
       if (totalAssetChartInstance) totalAssetChartInstance.destroy();
       
@@ -182,20 +192,16 @@
           responsive: true,
           maintainAspectRatio: false,
           plugins: {
-            legend: { display: false },
-            tooltip: {
-              callbacks: {
-                label: (context) => `資産額: ¥${context.parsed.y.toLocaleString()}`
-              }
-            }
+            legend: { display: false }
           },
           scales: {
-            x: { ticks: { color: '#ccc', font: { size: 9 } }, grid: { display: false } },
-            y: { ticks: { color: '#ccc', font: { size: 9 } }, grid: { color: 'rgba(255,255,255,0.1)' } }
+            x: { ticks: { color: '#ccc', font: { size: 9 } } },
+            y: { ticks: { color: '#ccc', font: { size: 9 } } }
           }
         }
       });
     }
+
 
     function exportToCSV() {
       let csvContent = "\uFEFFカード名,型番,価格,所持枚数,小計\n";
