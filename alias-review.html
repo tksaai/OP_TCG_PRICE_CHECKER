@@ -11,6 +11,8 @@
     button { border: none; border-radius: 4px; padding: 9px 12px; background: #26384d; color: white; font-weight: bold; cursor: pointer; }
     input, select { padding: 8px; border: 1px solid #cfd4dc; border-radius: 4px; }
     #controls { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+    #github-settings { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; background: #fff; border: 1px solid #dde2ea; border-radius: 6px; padding: 10px; margin-bottom: 16px; }
+    #github-settings input { min-width: 280px; }
     #list { display: grid; gap: 14px; }
     .candidate { background: white; border: 1px solid #dde2ea; border-radius: 6px; padding: 12px; }
     .candidate-head { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
@@ -27,6 +29,7 @@
     .accepted { border-color: #2e7d32; box-shadow: inset 4px 0 0 #2e7d32; }
     .rejected { opacity: .45; }
     #load-more { display: none; margin: 20px auto 0; }
+    #github-status { font-size: 12px; color: #667085; }
   </style>
 </head>
 <body>
@@ -51,6 +54,14 @@
     </select>
   </div>
 
+  <div id="github-settings">
+    <input id="githubToken" type="password" placeholder="GitHub fine-grained token">
+    <button onclick="saveGithubToken()">トークン保存</button>
+    <button onclick="clearGithubToken()">削除</button>
+    <button onclick="pushAliasesToGithub()">GitHubへ保存</button>
+    <span id="github-status"></span>
+  </div>
+
   <div id="summary" class="meta"></div>
   <div id="list"></div>
   <button id="load-more" onclick="loadMore()">もっと表示</button>
@@ -59,6 +70,10 @@
     let candidates = [];
     let decisions = JSON.parse(localStorage.getItem('aliasReviewDecisions') || '{}');
     let renderLimit = 100;
+    const GITHUB_OWNER = 'tksaai';
+    const GITHUB_REPO = 'OP_TCG_PRICE_CHECKER';
+    const GITHUB_BRANCH = 'main';
+    const GITHUB_ALIAS_PATH = 'data/card-aliases.json';
 
     function normalizeDecision(candidate) {
       const current = decisions[candidate.candidateId];
@@ -106,6 +121,40 @@
       };
     }
 
+    function getAcceptedAliases() {
+      return candidates
+        .filter(candidate => {
+          const decision = normalizeDecision(candidate);
+          return decision.status === 'accepted' && decision.selectedSourceKeys.length >= 2;
+        })
+        .map(toAlias);
+    }
+
+    function setGithubStatus(message) {
+      document.getElementById('github-status').textContent = message;
+    }
+
+    function saveGithubToken() {
+      const token = document.getElementById('githubToken').value.trim();
+      if (!token) return setGithubStatus('トークンが空です');
+      localStorage.setItem('githubTokenForAliasReview', token);
+      document.getElementById('githubToken').value = '';
+      setGithubStatus('トークンをこのブラウザに保存しました');
+    }
+
+    function clearGithubToken() {
+      localStorage.removeItem('githubTokenForAliasReview');
+      document.getElementById('githubToken').value = '';
+      setGithubStatus('トークンを削除しました');
+    }
+
+    function utf8ToBase64(text) {
+      const bytes = new TextEncoder().encode(text);
+      let binary = '';
+      bytes.forEach(byte => binary += String.fromCharCode(byte));
+      return btoa(binary);
+    }
+
     function toggleRecord(candidateId, sourceKey, checked) {
       const candidate = candidates.find(item => item.candidateId === candidateId);
       if (!candidate) return;
@@ -124,18 +173,55 @@
     }
 
     function downloadAliases() {
-      const accepted = candidates
-        .filter(candidate => {
-          const decision = normalizeDecision(candidate);
-          return decision.status === 'accepted' && decision.selectedSourceKeys.length >= 2;
-        })
-        .map(toAlias);
+      const accepted = getAcceptedAliases();
       const blob = new Blob([JSON.stringify(accepted, null, 2) + '\n'], { type: 'application/json' });
       const link = document.createElement('a');
       link.href = URL.createObjectURL(blob);
       link.download = 'card-aliases.json';
       link.click();
       URL.revokeObjectURL(link.href);
+    }
+
+    async function pushAliasesToGithub() {
+      const token = localStorage.getItem('githubTokenForAliasReview');
+      if (!token) return setGithubStatus('先にGitHubトークンを保存してください');
+
+      const accepted = getAcceptedAliases();
+      if (!accepted.length) return setGithubStatus('確定済み候補がありません');
+
+      const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_ALIAS_PATH}`;
+      const headers = {
+        Authorization: `Bearer ${token}`,
+        Accept: 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28'
+      };
+
+      setGithubStatus('GitHubの現在ファイルを確認中...');
+      const current = await fetch(`${url}?ref=${GITHUB_BRANCH}`, { headers });
+      if (!current.ok) {
+        const text = await current.text();
+        return setGithubStatus(`取得に失敗しました: ${current.status} ${text.slice(0, 120)}`);
+      }
+      const currentJson = await current.json();
+
+      setGithubStatus('GitHubへ保存中...');
+      const body = {
+        message: 'Update card alias mappings',
+        content: utf8ToBase64(JSON.stringify(accepted, null, 2) + '\n'),
+        sha: currentJson.sha,
+        branch: GITHUB_BRANCH
+      };
+      const response = await fetch(url, {
+        method: 'PUT',
+        headers,
+        body: JSON.stringify(body)
+      });
+
+      if (!response.ok) {
+        const text = await response.text();
+        return setGithubStatus(`保存に失敗しました: ${response.status} ${text.slice(0, 120)}`);
+      }
+      setGithubStatus(`${accepted.length}件をGitHubへ保存しました`);
     }
 
     function loadMore() {
@@ -206,6 +292,9 @@
       .then(response => response.json())
       .then(data => {
         candidates = data;
+        if (localStorage.getItem('githubTokenForAliasReview')) {
+          setGithubStatus('保存済みトークンがあります');
+        }
         render();
       })
       .catch(() => {
