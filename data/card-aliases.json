@@ -1,5 +1,30 @@
 [
   {
+    "canonicalId": "OP13-118_COMIC_1778767499177",
+    "canonicalName": "モンキー・D・ルフィ【コミック版レッドパラレル】《緑》",
+    "modelNo": "OP13-118",
+    "aliases": [
+      {
+        "shopId": "torecard",
+        "sourceKey": "op13-118_モンキー・d・ルフィ【シークレット】【レッドスーパーパラレル】【緑】【op13-118】",
+        "name": "モンキー・Ｄ・ルフィ 【シークレット】【レッドスーパーパラレル】【緑】【OP13-118】",
+        "modelNo": "OP13-118"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "レッドコミック版パラレルop13-118_モンキー・d・ルフィ【レッドコミック版パラレル】《緑》",
+        "name": "モンキー・D・ルフィ【レッドコミック版パラレル】《緑》",
+        "modelNo": "レッドコミック版パラレルOP13-118"
+      },
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op13-118_モンキー・d・ルフィ(レッドパラレル/漫画背景/漫画絵)",
+        "name": "モンキー・Ｄ・ルフィ(レッドパラレル/漫画背景/漫画絵)",
+        "modelNo": "OP13-118"
+      }
+    ]
+  },
+  {
     "canonicalId": "OP02-099_CS-UNOPENED",
     "canonicalName": "サカズキ【プロモ】《黒》未開封",
     "modelNo": "OP02-099",
@@ -145,27 +170,135 @@
     ]
   },
   {
-    "canonicalId": "OP13-118_COMIC",
-    "canonicalName": "モンキー・D・ルフィ【コミック版パラレル】《緑》",
-    "modelNo": "OP13-118",
+    "canonicalId": "OP14-112_CS-UNOPENED",
+    "canonicalName": "ボア・ハンコック【プロモ】《黄》未開封",
+    "modelNo": "OP14-112",
+    "aliases": [
+      {
+        "shopId": "mercard",
+        "sourceKey": "チャンピオンシップ版op14-112_ボア・ハンコック【プロモ】《黄》未開封",
+        "name": "ボア・ハンコック【プロモ】《黄》未開封",
+        "modelNo": "チャンピオンシップ版OP14-112"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op14-112_ボア・ハンコック【sr】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【op14-112】【2026】",
+        "name": "ボア・ハンコック 【SR】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【OP14-112】【2026】",
+        "modelNo": "OP14-112"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP07-109_SERIAL-UNOPENED",
+    "canonicalName": "モンキー・D・ルフィ【プロモ】《黄》※当選通知書付き未開封",
+    "modelNo": "OP07-109",
+    "aliases": [
+      {
+        "shopId": "mercard",
+        "sourceKey": "シリアル版op07-109_モンキー・d・ルフィ【プロモ】《黄》※当選通知書付き未開封",
+        "name": "モンキー・D・ルフィ【プロモ】《黄》※当選通知書付き未開封",
+        "modelNo": "シリアル版OP07-109"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op07-109_モンキー・d・ルフィ【sr】【パラレル】【プロモ】【シリアル】【未開封】【japan】【黄】【op07-109】",
+        "name": "モンキー・D・ルフィ 【SR】【パラレル】【プロモ】【シリアル】【未開封】【Japan】【黄】【OP07-109】",
+        "modelNo": "OP07-109"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP08-106_SERIAL-UNOPENED",
+    "canonicalName": "ナミ【プロモ】《黄》※当選通知書付き未開封",
+    "modelNo": "OP08-106",
+    "aliases": [
+      {
+        "shopId": "mercard",
+        "sourceKey": "シリアル版op08-106_ナミ【プロモ】《黄》※当選通知書付き未開封",
+        "name": "ナミ【プロモ】《黄》※当選通知書付き未開封",
+        "modelNo": "シリアル版OP08-106"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op08-106_ナミ【sr】【パラレル】【プロモ】【シリアル】【未開封】【黄】【op08-106】",
+        "name": "ナミ 【SR】【パラレル】【プロモ】【シリアル】【未開封】【黄】【OP08-106】",
+        "modelNo": "OP08-106"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP07-109_OPENED-SERIAL",
+    "canonicalName": "モンキー・D・ルフィ【プロモ】《黄》※当選通知書付き開封品",
+    "modelNo": "OP07-109",
+    "aliases": [
+      {
+        "shopId": "mercard",
+        "sourceKey": "シリアル版op07-109_モンキー・d・ルフィ【プロモ】《黄》※当選通知書付き開封品",
+        "name": "モンキー・D・ルフィ【プロモ】《黄》※当選通知書付き開封品",
+        "modelNo": "シリアル版OP07-109"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op07-109_モンキー・d・ルフィ【sr】【パラレル】【プロモ】【シリアル】【開封済み】【japan】【黄】【op07-109】",
+        "name": "モンキー・D・ルフィ 【SR】【パラレル】【プロモ】【シリアル】【開封済み】【Japan】【黄】【OP07-109】",
+        "modelNo": "OP07-109"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP02-096_CS-UNOPENED",
+    "canonicalName": "クザン【プロモ】《黒》未開封",
+    "modelNo": "OP02-096",
     "aliases": [
       {
         "shopId": "torecard",
-        "sourceKey": "op13-118_モンキー・d・ルフィ【シークレット】【レッドスーパーパラレル】【緑】【op13-118】",
-        "name": "モンキー・Ｄ・ルフィ 【シークレット】【レッドスーパーパラレル】【緑】【OP13-118】",
-        "modelNo": "OP13-118"
+        "sourceKey": "op02-096_クザン【sr】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【op02-096】",
+        "name": "クザン 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【OP02-096】",
+        "modelNo": "OP02-096"
       },
       {
         "shopId": "mercard",
-        "sourceKey": "レッドコミック版パラレルop13-118_モンキー・d・ルフィ【レッドコミック版パラレル】《緑》",
-        "name": "モンキー・D・ルフィ【レッドコミック版パラレル】《緑》",
-        "modelNo": "レッドコミック版パラレルOP13-118"
+        "sourceKey": "チャンピオンシップ版op02-096_クザン【プロモ】《黒》未開封",
+        "name": "クザン【プロモ】《黒》未開封",
+        "modelNo": "チャンピオンシップ版OP02-096"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP08-106_OPENED-SERIAL",
+    "canonicalName": "ナミ【プロモ】《黄》※当選通知書付き開封品",
+    "modelNo": "OP08-106",
+    "aliases": [
+      {
+        "shopId": "torecard",
+        "sourceKey": "op08-106_ナミ【sr】【パラレル】【プロモ】【シリアル】【開封済み】【黄】【op08-106】",
+        "name": "ナミ 【SR】【パラレル】【プロモ】【シリアル】【開封済み】【黄】【OP08-106】",
+        "modelNo": "OP08-106"
       },
       {
-        "shopId": "cardrush",
-        "sourceKey": "op13-118_モンキー・d・ルフィ(レッドパラレル/漫画背景/漫画絵)",
-        "name": "モンキー・Ｄ・ルフィ(レッドパラレル/漫画背景/漫画絵)",
-        "modelNo": "OP13-118"
+        "shopId": "mercard",
+        "sourceKey": "シリアル版op08-106_ナミ【プロモ】《黄》※当選通知書付き開封品",
+        "name": "ナミ【プロモ】《黄》※当選通知書付き開封品",
+        "modelNo": "シリアル版OP08-106"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP13-119_CS-UNOPENED",
+    "canonicalName": "ポートガス・D・エース【プロモ】《青》未開封",
+    "modelNo": "OP13-119",
+    "aliases": [
+      {
+        "shopId": "torecard",
+        "sourceKey": "op13-119_ポートガス・d・エース【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【青】【op13-119】",
+        "name": "ポートガス・Ｄ・エース 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【青】【OP13-119】",
+        "modelNo": "OP13-119"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "チャンピオンシップ版op13-119_ポートガス・d・エース【プロモ】《青》未開封",
+        "name": "ポートガス・D・エース【プロモ】《青》未開封",
+        "modelNo": "チャンピオンシップ版OP13-119"
       }
     ]
   }
