@@ -41,6 +41,10 @@
     .card img { max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 8px; }
     
     .price-main { font-weight: bold; color: #d9534f; font-size: 1.4em; margin: 5px 0; }
+    .shop-badge { display: inline-block; font-size: 0.72em; color: #fff; background: #34495e; border-radius: 4px; padding: 3px 7px; margin-bottom: 4px; }
+    .shop-compare { font-size: 0.75em; color: #555; background: #f8f9fb; border: 1px solid #e0e4e8; border-radius: 4px; padding: 6px; margin: 6px 0; text-align: left; }
+    .shop-compare div { display: flex; justify-content: space-between; gap: 8px; }
+    #load-more { display: none; margin: 24px auto 0; padding: 10px 18px; border: none; border-radius: 4px; background: #2c3e50; color: #fff; font-weight: bold; cursor: pointer; }
     .inventory-control { margin-top: 10px; padding-top: 10px; border-top: 1px dashed #eee; display: flex; align-items: center; justify-content: center; gap: 5px; }
     .inventory-input { width: 50px; padding: 4px; border: 1px solid #ddd; border-radius: 4px; text-align: center; font-weight: bold; }
 
@@ -91,6 +95,12 @@
   
   <div id="controls">
     <input type="text" id="searchInput" placeholder="カード名や型番で検索..." oninput="filterAndRender()">
+    <select id="shopFilter" onchange="setShop(this.value)">
+      <option value="best">ショップ最高買取</option>
+      <option value="mercard">メルカード</option>
+      <option value="cardrush">カードラッシュ</option>
+      <option value="torecard">トレカード秋葉原</option>
+    </select>
     <select id="trendFilter" onchange="filterAndRender()">
       <option value="all">すべてのカード</option>
       <option value="owned">📦 所持カードのみ</option>
@@ -126,6 +136,7 @@
   <div id="loading">データを読み込んでいます...</div>
   <div id="no-data-msg" style="display: none; text-align: center; color: gray; padding: 50px;">該当するカードがありません。</div>
   <div id="grid"></div>
+  <button id="load-more" onclick="loadMoreCards()">もっと表示</button>
 
   <div id="modal">
     <div id="modal-content">
@@ -139,15 +150,57 @@
     // ==========================================
     // ⚠️ 設定
     // ==========================================
-    const API_URL = 'https://script.google.com/macros/s/AKfycbyifLg51QEUYQtkkEhC5rB4CwP2gnBpb1Z5xgVUaE8AXxNas4tzpOzPqKB1dWu99_k/exec?v=api';
+    const API_URL = 'data/cards.json';
 
     let chartInstance = null;
     let totalAssetChartInstance = null;
     let cardDataList = [];
     let currentSeries = 'all'; 
+    let currentShop = 'best';
+    let renderLimit = 300;
 
     let favorites = JSON.parse(localStorage.getItem('onepieceFavorites')) || [];
     let ownedCounts = JSON.parse(localStorage.getItem('onepieceOwnedCounts')) || {};
+
+    function normalizeCardForShops(card) {
+      if (!card.pricesByShop) {
+        card.pricesByShop = {
+          mercard: {
+            shopName: 'メルカード',
+            latestPrice: Number(card.latestPrice || 0),
+            imageUrl: card.imageId || '',
+            history: card.history || []
+          }
+        };
+        card.bestShopId = 'mercard';
+      }
+      return card;
+    }
+
+    function getShopData(card) {
+      if (currentShop !== 'best') return card.pricesByShop[currentShop] || null;
+      return card.pricesByShop[card.bestShopId] || Object.values(card.pricesByShop).sort((a, b) => b.latestPrice - a.latestPrice)[0] || null;
+    }
+
+    function getActivePrice(card) {
+      return Number(getShopData(card)?.latestPrice || 0);
+    }
+
+    function getActiveHistory(card) {
+      return getShopData(card)?.history || card.history || [];
+    }
+
+    function getActiveImage(card) {
+      return getShopData(card)?.imageUrl || card.imageId || '';
+    }
+
+    function setShop(shopId) {
+      currentShop = shopId;
+      renderLimit = 300;
+      prepareTrendData(cardDataList);
+      refreshAssetStats();
+      filterAndRender();
+    }
 
     function updateInventory(event, key) {
       event.stopPropagation();
@@ -170,7 +223,7 @@
         const key = card.name + "_" + card.modelNo;
         const count = ownedCounts[key] || 0;
         totalCards += count;
-        totalValue += (card.latestPrice * count);
+        totalValue += (getActivePrice(card) * count);
       });
       document.getElementById('total-count').innerText = totalCards.toLocaleString() + ' 枚';
       document.getElementById('total-assets').innerText = '¥' + totalValue.toLocaleString();
@@ -178,7 +231,7 @@
 
     function renderTotalAssetChart() {
       const allDates = new Set();
-      cardDataList.forEach(card => card.history.forEach(h => allDates.add(h.date)));
+      cardDataList.forEach(card => getActiveHistory(card).forEach(h => allDates.add(h.date)));
       const sortedDates = Array.from(allDates).sort((a, b) => new Date(a) - new Date(b));
 
       const trendData = sortedDates.map(date => {
@@ -186,7 +239,7 @@
         cardDataList.forEach(card => {
           const count = ownedCounts[card.name + "_" + card.modelNo] || 0;
           if (count > 0) {
-            const priceRecord = card.history
+            const priceRecord = getActiveHistory(card)
               .filter(h => new Date(h.date) <= new Date(date))
               .sort((a, b) => new Date(b.date) - new Date(a.date))[0];
             if (priceRecord) dailyTotal += priceRecord.price * count;
@@ -230,14 +283,16 @@
       cardDataList.forEach(card => {
         const count = ownedCounts[card.name + "_" + card.modelNo] || 0;
         if (count > 0) {
-          const priceRecord = card.history.filter(h => new Date(h.date) <= new Date(targetDate)).sort((a, b) => new Date(b.date) - new Date(a.date))[0];
+          const activeHistory = getActiveHistory(card);
+          const activePrice = getActivePrice(card);
+          const priceRecord = activeHistory.filter(h => new Date(h.date) <= new Date(targetDate)).sort((a, b) => new Date(b.date) - new Date(a.date))[0];
           if (priceRecord) {
             totalPast += priceRecord.price * count;
-            totalCurrent += card.latestPrice * count;
-            const diff = card.latestPrice - priceRecord.price;
+            totalCurrent += activePrice * count;
+            const diff = activePrice - priceRecord.price;
             listHtml += `<div style="background:#f9f9f9; padding:8px; border-radius:4px; display:flex; justify-content:space-between; font-size:0.85em;">
               <div><b>${card.name}</b> x${count}</div>
-              <div style="text-align:right">当時 ¥${priceRecord.price.toLocaleString()} <br> 現在 ¥${card.latestPrice.toLocaleString()} (${diff >= 0 ? '+' : ''}${diff.toLocaleString()})</div>
+              <div style="text-align:right">当時 ¥${priceRecord.price.toLocaleString()} <br> 現在 ¥${activePrice.toLocaleString()} (${diff >= 0 ? '+' : ''}${diff.toLocaleString()})</div>
             </div>`;
           }
         }
@@ -256,8 +311,10 @@
         const key = card.name + "_" + card.modelNo;
         const count = ownedCounts[key] || 0;
         if (count > 0) {
-          const imgUrl = card.imageId.startsWith('http') ? card.imageId : 'https://drive.google.com/thumbnail?id=' + card.imageId + '&sz=w400';
-          csvContent += `"${card.name}","${card.modelNo}",${card.latestPrice},${count},${card.latestPrice * count},"${imgUrl}"\n`;
+          const imageId = getActiveImage(card);
+          const price = getActivePrice(card);
+          const imgUrl = imageId.startsWith('http') ? imageId : 'https://drive.google.com/thumbnail?id=' + imageId + '&sz=w400';
+          csvContent += `"${card.name}","${card.modelNo}",${price},${count},${price * count},"${imgUrl}"\n`;
           countData++;
         }
       });
@@ -326,11 +383,19 @@
 
     function initApp(data) {
       document.getElementById('loading').style.display = 'none';
+      cardDataList = data.map(normalizeCardForShops);
+      prepareTrendData(cardDataList);
+      refreshAssetStats();
+      filterAndRender();
+    }
+
+    function prepareTrendData(data) {
       let latestStr = '1970/01/01';
       
       data.forEach(c => {
-        if (c.history.length) {
-          const d = c.history[c.history.length-1].date;
+        const history = getActiveHistory(c);
+        if (history.length) {
+          const d = history[history.length-1].date;
           if (d > latestStr) latestStr = d;
         }
       });
@@ -338,44 +403,49 @@
 
       data.forEach(c => {
         c.trendPercent = 0; c.trendDiff = 0; c.weeklyDiff = 0; c.weeklyPercent = 0;
-        const p = c.history.map(h => h.price);
-        c.minPrice = Math.min(...p); c.maxPrice = Math.max(...p);
+        const history = getActiveHistory(c);
+        const p = history.map(h => h.price);
+        c.activePrice = getActivePrice(c);
+        c.minPrice = p.length ? Math.min(...p) : 0;
+        c.maxPrice = p.length ? Math.max(...p) : 0;
         
-        if (c.history.length > 0) {
-          const last = c.history[c.history.length-1];
-          if (last.date === latestStr && c.history.length >= 2) {
-            const prev = c.history[c.history.length-2];
+        if (history.length > 0) {
+          const last = history[history.length-1];
+          if (last.date === latestStr && history.length >= 2) {
+            const prev = history[history.length-2];
             c.trendDiff = last.price - prev.price;
             if(prev.price > 0) c.trendPercent = (c.trendDiff / prev.price) * 100;
           }
           
           const targetDate = new Date(globalLatestDate);
           targetDate.setDate(globalLatestDate.getDate() - 7);
-          const hasWeekly = c.history.some(h => new Date(h.date) > targetDate);
+          const hasWeekly = history.some(h => new Date(h.date) > targetDate);
           
-          if (hasWeekly && c.history.length >= 2) {
-            let weekAgo = c.history.slice().reverse().find(h => new Date(h.date) <= targetDate);
-            if (!weekAgo) weekAgo = c.history[0];
-            c.weeklyDiff = c.latestPrice - weekAgo.price;
+          if (hasWeekly && history.length >= 2) {
+            let weekAgo = history.slice().reverse().find(h => new Date(h.date) <= targetDate);
+            if (!weekAgo) weekAgo = history[0];
+            c.weeklyDiff = c.activePrice - weekAgo.price;
             if(weekAgo.price > 0) c.weeklyPercent = (c.weeklyDiff / weekAgo.price) * 100;
           }
         }
       });
-      
-      cardDataList = data;
-      refreshAssetStats();
-      filterAndRender();
     }
 
     function setSeries(series, btn) {
       currentSeries = series;
+      renderLimit = 300;
       document.querySelectorAll('.series-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       filterAndRender();
     }
 
+    function loadMoreCards() {
+      renderLimit += 300;
+      filterAndRender();
+    }
+
     function filterAndRender() {
-      const grid = document.getElementById('grid'), noData = document.getElementById('no-data-msg');
+      const grid = document.getElementById('grid'), noData = document.getElementById('no-data-msg'), loadMore = document.getElementById('load-more');
       grid.innerHTML = '';
       const search = document.getElementById('searchInput').value.toLowerCase();
       const filter = document.getElementById('trendFilter').value;
@@ -383,26 +453,27 @@
 
       let filtered = cardDataList.filter(c => {
         const key = c.name + "_" + c.modelNo;
+        const activePrice = getActivePrice(c);
         const matchText = c.name.toLowerCase().includes(search) || c.modelNo.toLowerCase().includes(search);
         let matchFilter = true;
         
         if (filter === 'favorites') matchFilter = favorites.includes(key);
         else if (filter === 'owned') matchFilter = (ownedCounts[key] || 0) > 0;
-        else if (filter === 'allTimeHigh') matchFilter = c.latestPrice > 0 && c.latestPrice >= c.maxPrice;
+        else if (filter === 'allTimeHigh') matchFilter = activePrice > 0 && activePrice >= c.maxPrice;
         else if (filter === 'surge') matchFilter = c.trendPercent >= 5;
         else if (filter === 'crash') matchFilter = c.trendPercent <= -5;
-        else if (filter === 'high') matchFilter = c.latestPrice >= 100000;
+        else if (filter === 'high') matchFilter = activePrice >= 100000;
         else if (filter === 'dailyUp') matchFilter = c.trendDiff > 0;
         else if (filter === 'dailyDown') matchFilter = c.trendDiff < 0;
         else if (filter === 'weeklyUp') matchFilter = c.weeklyDiff > 0;
         else if (filter === 'weeklyDown') matchFilter = c.weeklyDiff < 0;
         
-        return matchText && matchFilter && (currentSeries === 'all' || c.modelNo.toUpperCase().includes(currentSeries));
+        return activePrice > 0 && matchText && matchFilter && (currentSeries === 'all' || c.modelNo.toUpperCase().includes(currentSeries));
       });
 
       filtered.sort((a, b) => {
-        if (sort === 'priceDesc') return b.latestPrice - a.latestPrice;
-        if (sort === 'priceAsc') return a.latestPrice - b.latestPrice;
+        if (sort === 'priceDesc') return getActivePrice(b) - getActivePrice(a);
+        if (sort === 'priceAsc') return getActivePrice(a) - getActivePrice(b);
         if (sort === 'trendDesc') return b.trendDiff - a.trendDiff;
         if (sort === 'trendAsc') return a.trendDiff - b.trendDiff;
         if (sort === 'weeklyDesc') return b.weeklyDiff - a.weeklyDiff;
@@ -410,11 +481,18 @@
         return a.modelNo.localeCompare(b.modelNo);
       });
 
-      if (!filtered.length) { noData.style.display = 'block'; return; }
+      if (!filtered.length) { noData.style.display = 'block'; loadMore.style.display = 'none'; return; }
       noData.style.display = 'none';
+      loadMore.style.display = filtered.length > renderLimit ? 'block' : 'none';
 
-      filtered.forEach(c => {
+      filtered.slice(0, renderLimit).forEach(c => {
         const key = c.name + "_" + c.modelNo;
+        const shopData = getShopData(c);
+        const activePrice = getActivePrice(c);
+        const shopCompareHtml = Object.entries(c.pricesByShop || {})
+          .sort((a, b) => b[1].latestPrice - a[1].latestPrice)
+          .map(([, shop]) => `<div><span>${shop.shopName}</span><b>¥${Number(shop.latestPrice || 0).toLocaleString()}</b></div>`)
+          .join('');
         
         // 1. 大枠のdivを作成
         const div = document.createElement('div');
@@ -431,14 +509,17 @@
         const img = document.createElement('img');
         img.setAttribute('loading', 'lazy');
         img.setAttribute('referrerpolicy', 'no-referrer');
-        img.src = c.imageId.startsWith('http') ? c.imageId : 'https://drive.google.com/thumbnail?id=' + c.imageId + '&sz=w400';
+        const imageId = getActiveImage(c);
+        img.src = imageId.startsWith('http') ? imageId : 'https://drive.google.com/thumbnail?id=' + imageId + '&sz=w400';
         
         // 4. 情報部分のdivを作成（innerHTML += によるバグを防ぐ）
         const infoDiv = document.createElement('div');
         infoDiv.innerHTML = `
           <div style="font-size:0.9em; font-weight:bold;">${c.name}</div>
           <div style="font-size:0.7em; color:gray; margin-bottom:5px;">${c.modelNo}</div>
-          <div class="price-main">¥${c.latestPrice.toLocaleString()}</div>
+          <div class="shop-badge">${currentShop === 'best' ? '最高買取: ' : ''}${shopData?.shopName || ''}</div>
+          <div class="price-main">¥${activePrice.toLocaleString()}</div>
+          <div class="shop-compare">${shopCompareHtml}</div>
           
           <div class="trend-container">
             <div class="trend ${c.trendDiff>0?'up':c.trendDiff<0?'down':'flat'}">
@@ -472,15 +553,17 @@
     }
 
     function openModal(c) {
-      document.getElementById('modal-title').textContent = c.name;
+      const history = getActiveHistory(c);
+      const shopData = getShopData(c);
+      document.getElementById('modal-title').textContent = `${c.name} / ${shopData?.shopName || ''}`;
       document.getElementById('modal').style.display = 'flex';
       const ctx = document.getElementById('priceChart').getContext('2d');
       if(chartInstance) chartInstance.destroy();
       chartInstance = new Chart(ctx, {
         type: 'line',
         data: {
-          labels: c.history.map(h => h.date),
-          datasets: [{ label: '買取価格 (円)', data: c.history.map(h => h.price), borderColor: '#007bff', backgroundColor: 'rgba(0, 123, 255, 0.1)', fill: true, tension: 0.1 }]
+          labels: history.map(h => h.date),
+          datasets: [{ label: '買取価格 (円)', data: history.map(h => h.price), borderColor: '#007bff', backgroundColor: 'rgba(0, 123, 255, 0.1)', fill: true, tension: 0.1 }]
         }
       });
     }

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>カード正規化候補レビュー</title>
+  <style>
+    body { margin: 0; padding: 20px; font-family: sans-serif; background: #f4f4f6; color: #222; }
+    header { display: flex; gap: 12px; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+    h1 { font-size: 20px; margin: 0; }
+    button { border: none; border-radius: 4px; padding: 9px 12px; background: #26384d; color: white; font-weight: bold; cursor: pointer; }
+    input, select { padding: 8px; border: 1px solid #cfd4dc; border-radius: 4px; }
+    #controls { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+    #list { display: grid; gap: 14px; }
+    .candidate { background: white; border: 1px solid #dde2ea; border-radius: 6px; padding: 12px; }
+    .candidate-head { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+    .candidate-title { font-weight: bold; }
+    .meta { color: #667085; font-size: 12px; }
+    .records { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px; }
+    .record { display: grid; grid-template-columns: 64px 1fr; gap: 8px; border: 1px solid #edf0f4; border-radius: 4px; padding: 8px; }
+    .record img { width: 64px; height: 90px; object-fit: contain; background: #f8fafc; }
+    .shop { font-size: 12px; color: #475467; }
+    .price { color: #c0392b; font-weight: bold; }
+    .actions { margin-top: 10px; display: flex; gap: 8px; align-items: center; }
+    .accepted { border-color: #2e7d32; box-shadow: inset 4px 0 0 #2e7d32; }
+    .rejected { opacity: .45; }
+    #load-more { display: none; margin: 20px auto 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>カード正規化候補レビュー</h1>
+    <button onclick="downloadAliases()">確定JSONを書き出し</button>
+  </header>
+
+  <div id="controls">
+    <input id="search" placeholder="カード名・型番で検索" oninput="render()">
+    <select id="minConfidence" onchange="render()">
+      <option value="0">信頼度すべて</option>
+      <option value="70">70以上</option>
+      <option value="80">80以上</option>
+      <option value="90">90以上</option>
+    </select>
+    <select id="statusFilter" onchange="render()">
+      <option value="all">すべて</option>
+      <option value="pending">未判断</option>
+      <option value="accepted">確定済み</option>
+      <option value="rejected">除外</option>
+    </select>
+  </div>
+
+  <div id="summary" class="meta"></div>
+  <div id="list"></div>
+  <button id="load-more" onclick="loadMore()">もっと表示</button>
+
+  <script>
+    let candidates = [];
+    let decisions = JSON.parse(localStorage.getItem('aliasReviewDecisions') || '{}');
+    let renderLimit = 100;
+
+    function yen(value) {
+      return '¥' + Number(value || 0).toLocaleString();
+    }
+
+    function setDecision(candidateId, decision) {
+      decisions[candidateId] = decision;
+      localStorage.setItem('aliasReviewDecisions', JSON.stringify(decisions));
+      render();
+    }
+
+    function toAlias(candidate) {
+      return {
+        canonicalId: candidate.suggestedCanonicalId,
+        canonicalName: candidate.canonicalName,
+        modelNo: candidate.modelCode,
+        aliases: candidate.records.map(record => ({
+          shopId: record.shopId,
+          sourceKey: record.sourceKey,
+          name: record.name,
+          modelNo: record.modelNo
+        }))
+      };
+    }
+
+    function downloadAliases() {
+      const accepted = candidates
+        .filter(candidate => decisions[candidate.candidateId] === 'accepted')
+        .map(toAlias);
+      const blob = new Blob([JSON.stringify(accepted, null, 2) + '\n'], { type: 'application/json' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = 'card-aliases.json';
+      link.click();
+      URL.revokeObjectURL(link.href);
+    }
+
+    function loadMore() {
+      renderLimit += 100;
+      render();
+    }
+
+    function render() {
+      const query = document.getElementById('search').value.trim().toLowerCase();
+      const minConfidence = Number(document.getElementById('minConfidence').value);
+      const status = document.getElementById('statusFilter').value;
+      const list = document.getElementById('list');
+      const loadMoreButton = document.getElementById('load-more');
+
+      const filtered = candidates.filter(candidate => {
+        const decision = decisions[candidate.candidateId] || 'pending';
+        const text = JSON.stringify(candidate).toLowerCase();
+        return candidate.confidence >= minConfidence
+          && (status === 'all' || status === decision)
+          && (!query || text.includes(query));
+      });
+
+      document.getElementById('summary').textContent =
+        `${Math.min(filtered.length, renderLimit)} / ${filtered.length}件を表示中。全候補: ${candidates.length}件。確定済み: ${Object.values(decisions).filter(v => v === 'accepted').length}件`;
+      loadMoreButton.style.display = filtered.length > renderLimit ? 'block' : 'none';
+
+      list.innerHTML = filtered.slice(0, renderLimit).map(candidate => {
+        const decision = decisions[candidate.candidateId] || 'pending';
+        return `
+          <section class="candidate ${decision === 'accepted' ? 'accepted' : ''} ${decision === 'rejected' ? 'rejected' : ''}">
+            <div class="candidate-head">
+              <div>
+                <div class="candidate-title">${candidate.canonicalName}</div>
+                <div class="meta">${candidate.modelCode} / ${candidate.signature} / 信頼度 ${candidate.confidence}</div>
+              </div>
+              <div class="price">${yen(candidate.maxPrice)}</div>
+            </div>
+            <div class="records">
+              ${candidate.records.map(record => `
+                <div class="record">
+                  <img loading="lazy" referrerpolicy="no-referrer" src="${record.imageUrl}">
+                  <div>
+                    <div class="shop">${record.shopName}</div>
+                    <div>${record.name}</div>
+                    <div class="meta">${record.modelNo}</div>
+                    <div class="price">${yen(record.latestPrice)}</div>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+            <div class="actions">
+              <button onclick="setDecision('${candidate.candidateId}', 'accepted')">同じカードとして確定</button>
+              <button onclick="setDecision('${candidate.candidateId}', 'rejected')">別カードとして除外</button>
+              <button onclick="setDecision('${candidate.candidateId}', 'pending')">未判断に戻す</button>
+            </div>
+          </section>
+        `;
+      }).join('');
+    }
+
+    fetch('data/alias-candidates.json')
+      .then(response => response.json())
+      .then(data => {
+        candidates = data;
+        render();
+      })
+      .catch(() => {
+        document.getElementById('summary').textContent = '候補データがありません。先に scripts/generate-alias-candidates.mjs を実行してください。';
+      });
+  </script>
+</body>
+</html>
