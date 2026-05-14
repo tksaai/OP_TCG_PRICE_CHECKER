@@ -56,6 +56,7 @@ async function main() {
       ...matched[0],
       key: group.canonicalId,
       canonicalId: group.canonicalId,
+      aliasKeys: [],
       name: group.canonicalName || matched[0].name,
       modelNo: group.modelNo || matched[0].modelNo,
       pricesByShop: {},
@@ -64,6 +65,7 @@ async function main() {
 
     for (const card of matched) {
       consumedKeys.add(card.key);
+      base.aliasKeys.push(card.key, ...(card.aliasKeys || []), `${card.name}_${card.modelNo}`);
       for (const [shopId, shop] of Object.entries(card.pricesByShop || {})) {
         const existing = base.pricesByShop[shopId];
         if (!existing || Number(shop.latestPrice || 0) >= Number(existing.latestPrice || 0)) {
@@ -73,6 +75,7 @@ async function main() {
         }
       }
     }
+    base.aliasKeys = [...new Set(base.aliasKeys.filter(Boolean))].filter((key) => key !== base.key);
     merged.push(recomputeBest(base));
   }
 

@@ -202,6 +202,54 @@
       filterAndRender();
     }
 
+    function legacyCardKey(card) {
+      return card.name + "_" + card.modelNo;
+    }
+
+    function getCardKey(card) {
+      return card.canonicalId || card.key || legacyCardKey(card);
+    }
+
+    function getAliasKeys(card) {
+      return [...new Set([legacyCardKey(card), card.key, ...(card.aliasKeys || [])].filter(Boolean))];
+    }
+
+    function migrateSavedCardState(cards) {
+      let inventoryChanged = false;
+      let favoritesChanged = false;
+      const favoriteSet = new Set(favorites);
+
+      cards.forEach(card => {
+        const canonicalKey = getCardKey(card);
+        const aliasKeys = getAliasKeys(card).filter(key => key !== canonicalKey);
+        let migratedCount = ownedCounts[canonicalKey] || 0;
+
+        aliasKeys.forEach(aliasKey => {
+          if (ownedCounts[aliasKey]) {
+            migratedCount += Number(ownedCounts[aliasKey] || 0);
+            delete ownedCounts[aliasKey];
+            inventoryChanged = true;
+          }
+          if (favoriteSet.has(aliasKey)) {
+            favoriteSet.add(canonicalKey);
+            favoriteSet.delete(aliasKey);
+            favoritesChanged = true;
+          }
+        });
+
+        if (migratedCount !== (ownedCounts[canonicalKey] || 0)) {
+          ownedCounts[canonicalKey] = migratedCount;
+          inventoryChanged = true;
+        }
+      });
+
+      if (inventoryChanged) localStorage.setItem('onepieceOwnedCounts', JSON.stringify(ownedCounts));
+      if (favoritesChanged) {
+        favorites = Array.from(favoriteSet);
+        localStorage.setItem('onepieceFavorites', JSON.stringify(favorites));
+      }
+    }
+
     function updateInventory(event, key) {
       event.stopPropagation();
       const count = parseInt(event.target.value) || 0;
@@ -220,7 +268,7 @@
       let totalValue = 0;
       let totalCards = 0;
       cardDataList.forEach(card => {
-        const key = card.name + "_" + card.modelNo;
+        const key = getCardKey(card);
         const count = ownedCounts[key] || 0;
         totalCards += count;
         totalValue += (getActivePrice(card) * count);
@@ -237,7 +285,7 @@
       const trendData = sortedDates.map(date => {
         let dailyTotal = 0;
         cardDataList.forEach(card => {
-          const count = ownedCounts[card.name + "_" + card.modelNo] || 0;
+          const count = ownedCounts[getCardKey(card)] || 0;
           if (count > 0) {
             const priceRecord = getActiveHistory(card)
               .filter(h => new Date(h.date) <= new Date(date))
@@ -281,7 +329,7 @@
       let totalPast = 0, totalCurrent = 0, listHtml = `<div style="display: grid; gap: 8px;">`;
 
       cardDataList.forEach(card => {
-        const count = ownedCounts[card.name + "_" + card.modelNo] || 0;
+        const count = ownedCounts[getCardKey(card)] || 0;
         if (count > 0) {
           const activeHistory = getActiveHistory(card);
           const activePrice = getActivePrice(card);
@@ -308,7 +356,7 @@
       let csvContent = "\uFEFFカード名,型番,価格,所持枚数,小計,画像URL\n";
       let countData = 0;
       cardDataList.forEach(card => {
-        const key = card.name + "_" + card.modelNo;
+        const key = getCardKey(card);
         const count = ownedCounts[key] || 0;
         if (count > 0) {
           const imageId = getActiveImage(card);
@@ -347,6 +395,7 @@
         if (Object.keys(newCounts).length > 0) {
           if (confirm(`CSVから ${Object.keys(newCounts).length} 件のデータを取り込みます。現在のデータは上書きされますがよろしいですか？`)) {
             ownedCounts = newCounts;
+            migrateSavedCardState(cardDataList);
             localStorage.setItem('onepieceOwnedCounts', JSON.stringify(ownedCounts));
             refreshAssetStats();
             filterAndRender();
@@ -384,6 +433,7 @@
     function initApp(data) {
       document.getElementById('loading').style.display = 'none';
       cardDataList = data.map(normalizeCardForShops);
+      migrateSavedCardState(cardDataList);
       prepareTrendData(cardDataList);
       refreshAssetStats();
       filterAndRender();
@@ -452,7 +502,7 @@
       const sort = document.getElementById('sortOrder').value;
 
       let filtered = cardDataList.filter(c => {
-        const key = c.name + "_" + c.modelNo;
+        const key = getCardKey(c);
         const activePrice = getActivePrice(c);
         const matchText = c.name.toLowerCase().includes(search) || c.modelNo.toLowerCase().includes(search);
         let matchFilter = true;
@@ -486,7 +536,7 @@
       loadMore.style.display = filtered.length > renderLimit ? 'block' : 'none';
 
       filtered.slice(0, renderLimit).forEach(c => {
-        const key = c.name + "_" + c.modelNo;
+        const key = getCardKey(c);
         const shopData = getShopData(c);
         const activePrice = getActivePrice(c);
         const shopCompareHtml = Object.entries(c.pricesByShop || {})
