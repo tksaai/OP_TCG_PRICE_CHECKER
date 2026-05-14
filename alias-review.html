@@ -18,7 +18,9 @@
     .meta { color: #667085; font-size: 12px; }
     .records { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px; }
     .record { display: grid; grid-template-columns: 64px 1fr; gap: 8px; border: 1px solid #edf0f4; border-radius: 4px; padding: 8px; }
+    .record.excluded { opacity: .42; }
     .record img { width: 64px; height: 90px; object-fit: contain; background: #f8fafc; }
+    .record label { display: flex; gap: 6px; align-items: center; font-size: 12px; color: #344054; margin-bottom: 4px; }
     .shop { font-size: 12px; color: #475467; }
     .price { color: #c0392b; font-weight: bold; }
     .actions { margin-top: 10px; display: flex; gap: 8px; align-items: center; }
@@ -58,22 +60,44 @@
     let decisions = JSON.parse(localStorage.getItem('aliasReviewDecisions') || '{}');
     let renderLimit = 100;
 
+    function normalizeDecision(candidate) {
+      const current = decisions[candidate.candidateId];
+      if (typeof current === 'object' && current) {
+        return {
+          status: current.status || 'pending',
+          selectedSourceKeys: current.selectedSourceKeys || candidate.records.map(record => record.sourceKey)
+        };
+      }
+      return {
+        status: current || 'pending',
+        selectedSourceKeys: candidate.records.map(record => record.sourceKey)
+      };
+    }
+
     function yen(value) {
       return '¥' + Number(value || 0).toLocaleString();
     }
 
     function setDecision(candidateId, decision) {
-      decisions[candidateId] = decision;
+      const candidate = candidates.find(item => item.candidateId === candidateId);
+      const current = candidate ? normalizeDecision(candidate) : { selectedSourceKeys: [] };
+      decisions[candidateId] = {
+        status: decision,
+        selectedSourceKeys: current.selectedSourceKeys
+      };
       localStorage.setItem('aliasReviewDecisions', JSON.stringify(decisions));
       render();
     }
 
     function toAlias(candidate) {
+      const decision = normalizeDecision(candidate);
+      const selected = new Set(decision.selectedSourceKeys);
+      const records = candidate.records.filter(record => selected.has(record.sourceKey));
       return {
         canonicalId: candidate.suggestedCanonicalId,
         canonicalName: candidate.canonicalName,
         modelNo: candidate.modelCode,
-        aliases: candidate.records.map(record => ({
+        aliases: records.map(record => ({
           shopId: record.shopId,
           sourceKey: record.sourceKey,
           name: record.name,
@@ -82,9 +106,29 @@
       };
     }
 
+    function toggleRecord(candidateId, sourceKey, checked) {
+      const candidate = candidates.find(item => item.candidateId === candidateId);
+      if (!candidate) return;
+
+      const decision = normalizeDecision(candidate);
+      const selected = new Set(decision.selectedSourceKeys);
+      if (checked) selected.add(sourceKey);
+      else selected.delete(sourceKey);
+
+      decisions[candidateId] = {
+        status: decision.status,
+        selectedSourceKeys: Array.from(selected)
+      };
+      localStorage.setItem('aliasReviewDecisions', JSON.stringify(decisions));
+      render();
+    }
+
     function downloadAliases() {
       const accepted = candidates
-        .filter(candidate => decisions[candidate.candidateId] === 'accepted')
+        .filter(candidate => {
+          const decision = normalizeDecision(candidate);
+          return decision.status === 'accepted' && decision.selectedSourceKeys.length >= 2;
+        })
         .map(toAlias);
       const blob = new Blob([JSON.stringify(accepted, null, 2) + '\n'], { type: 'application/json' });
       const link = document.createElement('a');
@@ -107,33 +151,39 @@
       const loadMoreButton = document.getElementById('load-more');
 
       const filtered = candidates.filter(candidate => {
-        const decision = decisions[candidate.candidateId] || 'pending';
+        const decision = normalizeDecision(candidate);
         const text = JSON.stringify(candidate).toLowerCase();
         return candidate.confidence >= minConfidence
-          && (status === 'all' || status === decision)
+          && (status === 'all' || status === decision.status)
           && (!query || text.includes(query));
       });
 
       document.getElementById('summary').textContent =
-        `${Math.min(filtered.length, renderLimit)} / ${filtered.length}件を表示中。全候補: ${candidates.length}件。確定済み: ${Object.values(decisions).filter(v => v === 'accepted').length}件`;
+        `${Math.min(filtered.length, renderLimit)} / ${filtered.length}件を表示中。全候補: ${candidates.length}件。確定済み: ${Object.values(decisions).filter(v => (typeof v === 'object' ? v.status : v) === 'accepted').length}件`;
       loadMoreButton.style.display = filtered.length > renderLimit ? 'block' : 'none';
 
       list.innerHTML = filtered.slice(0, renderLimit).map(candidate => {
-        const decision = decisions[candidate.candidateId] || 'pending';
+        const decision = normalizeDecision(candidate);
+        const selected = new Set(decision.selectedSourceKeys);
+        const selectedCount = candidate.records.filter(record => selected.has(record.sourceKey)).length;
         return `
-          <section class="candidate ${decision === 'accepted' ? 'accepted' : ''} ${decision === 'rejected' ? 'rejected' : ''}">
+          <section class="candidate ${decision.status === 'accepted' ? 'accepted' : ''} ${decision.status === 'rejected' ? 'rejected' : ''}">
             <div class="candidate-head">
               <div>
                 <div class="candidate-title">${candidate.canonicalName}</div>
-                <div class="meta">${candidate.modelCode} / ${candidate.signature} / 信頼度 ${candidate.confidence}</div>
+                <div class="meta">${candidate.modelCode} / ${candidate.signature} / 信頼度 ${candidate.confidence} / 選択 ${selectedCount}件</div>
               </div>
               <div class="price">${yen(candidate.maxPrice)}</div>
             </div>
             <div class="records">
               ${candidate.records.map(record => `
-                <div class="record">
+                <div class="record ${selected.has(record.sourceKey) ? '' : 'excluded'}">
                   <img loading="lazy" referrerpolicy="no-referrer" src="${record.imageUrl}">
                   <div>
+                    <label>
+                      <input type="checkbox" ${selected.has(record.sourceKey) ? 'checked' : ''} onchange="toggleRecord('${candidate.candidateId}', '${record.sourceKey.replace(/'/g, "\\'")}', this.checked)">
+                      このカードを含める
+                    </label>
                     <div class="shop">${record.shopName}</div>
                     <div>${record.name}</div>
                     <div class="meta">${record.modelNo}</div>
@@ -143,7 +193,7 @@
               `).join('')}
             </div>
             <div class="actions">
-              <button onclick="setDecision('${candidate.candidateId}', 'accepted')">同じカードとして確定</button>
+              <button onclick="setDecision('${candidate.candidateId}', 'accepted')" ${selectedCount < 2 ? 'disabled' : ''}>選択したカードで確定</button>
               <button onclick="setDecision('${candidate.candidateId}', 'rejected')">別カードとして除外</button>
               <button onclick="setDecision('${candidate.candidateId}', 'pending')">未判断に戻す</button>
             </div>
