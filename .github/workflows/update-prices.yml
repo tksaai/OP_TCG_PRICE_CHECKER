@@ -19,6 +19,8 @@ jobs:
           node-version: '20'
       - name: Scrape prices
         run: node scripts/scrape-prices.mjs
+      - name: Apply card aliases
+        run: node scripts/apply-card-aliases.mjs
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
