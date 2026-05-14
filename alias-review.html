@@ -17,6 +17,8 @@
     .candidate { background: white; border: 1px solid #dde2ea; border-radius: 6px; padding: 12px; }
     .candidate-head { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
     .candidate-title { font-weight: bold; }
+    .canonical-edit { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0; }
+    .canonical-edit input { min-width: 320px; flex: 1; }
     .meta { color: #667085; font-size: 12px; }
     .records { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px; }
     .record { display: grid; grid-template-columns: 64px 1fr; gap: 8px; border: 1px solid #edf0f4; border-radius: 4px; padding: 8px; }
@@ -26,6 +28,8 @@
     .shop { font-size: 12px; color: #475467; }
     .price { color: #c0392b; font-weight: bold; }
     .actions { margin-top: 10px; display: flex; gap: 8px; align-items: center; }
+    .groups { margin-top: 8px; display: grid; gap: 6px; }
+    .group { display: flex; justify-content: space-between; gap: 8px; align-items: center; background: #eef6ee; border: 1px solid #cde6ce; border-radius: 4px; padding: 6px 8px; font-size: 12px; }
     .accepted { border-color: #2e7d32; box-shadow: inset 4px 0 0 #2e7d32; }
     .rejected { opacity: .45; }
     #load-more { display: none; margin: 20px auto 0; }
@@ -69,6 +73,8 @@
   <script>
     let candidates = [];
     let decisions = JSON.parse(localStorage.getItem('aliasReviewDecisions') || '{}');
+    let customGroups = JSON.parse(localStorage.getItem('aliasReviewGroups') || '[]');
+    let nameEdits = JSON.parse(localStorage.getItem('aliasReviewNames') || '{}');
     let renderLimit = 100;
     const GITHUB_OWNER = 'tksaai';
     const GITHUB_REPO = 'OP_TCG_PRICE_CHECKER';
@@ -104,13 +110,26 @@
       render();
     }
 
-    function toAlias(candidate) {
+    function getCanonicalName(candidate) {
+      return nameEdits[candidate.candidateId] || candidate.canonicalName;
+    }
+
+    function setCanonicalName(candidateId, value) {
+      nameEdits[candidateId] = value.trim();
+      localStorage.setItem('aliasReviewNames', JSON.stringify(nameEdits));
+    }
+
+    function selectedRecords(candidate) {
       const decision = normalizeDecision(candidate);
       const selected = new Set(decision.selectedSourceKeys);
-      const records = candidate.records.filter(record => selected.has(record.sourceKey));
+      return candidate.records.filter(record => selected.has(record.sourceKey));
+    }
+
+    function toAlias(candidate) {
+      const records = selectedRecords(candidate);
       return {
         canonicalId: candidate.suggestedCanonicalId,
-        canonicalName: candidate.canonicalName,
+        canonicalName: getCanonicalName(candidate),
         modelNo: candidate.modelCode,
         aliases: records.map(record => ({
           shopId: record.shopId,
@@ -121,13 +140,60 @@
       };
     }
 
+    function aliasFromRecords(candidate, records, groupId) {
+      const suffix = groupId.split('_').pop();
+      return {
+        canonicalId: `${candidate.suggestedCanonicalId}_${suffix}`.replace(/[^a-zA-Z0-9_-]/g, '_'),
+        canonicalName: getCanonicalName(candidate),
+        modelNo: candidate.modelCode,
+        aliases: records.map(record => ({
+          shopId: record.shopId,
+          sourceKey: record.sourceKey,
+          name: record.name,
+          modelNo: record.modelNo
+        }))
+      };
+    }
+
+    function groupsForCandidate(candidateId) {
+      return customGroups.filter(group => group.candidateId === candidateId);
+    }
+
+    function addSelectedGroup(candidateId) {
+      const candidate = candidates.find(item => item.candidateId === candidateId);
+      if (!candidate) return;
+      const records = selectedRecords(candidate);
+      if (records.length < 2) return setGithubStatus('2件以上選択してください');
+
+      const groupId = `${candidateId}_${Date.now()}`;
+      customGroups.push({
+        groupId,
+        candidateId,
+        alias: aliasFromRecords(candidate, records, groupId)
+      });
+      localStorage.setItem('aliasReviewGroups', JSON.stringify(customGroups));
+      setGithubStatus(`${records.length}件を別グループとして追加しました`);
+      render();
+    }
+
+    function removeGroup(groupId) {
+      customGroups = customGroups.filter(group => group.groupId !== groupId);
+      localStorage.setItem('aliasReviewGroups', JSON.stringify(customGroups));
+      render();
+    }
+
     function getAcceptedAliases() {
-      return candidates
+      const candidateIdsWithCustomGroups = new Set(customGroups.map(group => group.candidateId));
+      const aliases = customGroups.map(group => group.alias);
+      const directAliases = candidates
         .filter(candidate => {
           const decision = normalizeDecision(candidate);
-          return decision.status === 'accepted' && decision.selectedSourceKeys.length >= 2;
+          return !candidateIdsWithCustomGroups.has(candidate.candidateId)
+            && decision.status === 'accepted'
+            && decision.selectedSourceKeys.length >= 2;
         })
         .map(toAlias);
+      return [...aliases, ...directAliases];
     }
 
     function setGithubStatus(message) {
@@ -245,7 +311,7 @@
       });
 
       document.getElementById('summary').textContent =
-        `${Math.min(filtered.length, renderLimit)} / ${filtered.length}件を表示中。全候補: ${candidates.length}件。確定済み: ${Object.values(decisions).filter(v => (typeof v === 'object' ? v.status : v) === 'accepted').length}件`;
+        `${Math.min(filtered.length, renderLimit)} / ${filtered.length}件を表示中。全候補: ${candidates.length}件。確定済み: ${Object.values(decisions).filter(v => (typeof v === 'object' ? v.status : v) === 'accepted').length}件。別グループ: ${customGroups.length}件`;
       loadMoreButton.style.display = filtered.length > renderLimit ? 'block' : 'none';
 
       list.innerHTML = filtered.slice(0, renderLimit).map(candidate => {
@@ -256,10 +322,13 @@
           <section class="candidate ${decision.status === 'accepted' ? 'accepted' : ''} ${decision.status === 'rejected' ? 'rejected' : ''}">
             <div class="candidate-head">
               <div>
-                <div class="candidate-title">${candidate.canonicalName}</div>
+                <div class="candidate-title">${getCanonicalName(candidate)}</div>
                 <div class="meta">${candidate.modelCode} / ${candidate.signature} / 信頼度 ${candidate.confidence} / 選択 ${selectedCount}件</div>
               </div>
               <div class="price">${yen(candidate.maxPrice)}</div>
+            </div>
+            <div class="canonical-edit">
+              <input value="${getCanonicalName(candidate).replace(/"/g, '&quot;')}" oninput="setCanonicalName('${candidate.candidateId}', this.value)" placeholder="正規化後のカード名">
             </div>
             <div class="records">
               ${candidate.records.map(record => `
@@ -279,9 +348,18 @@
               `).join('')}
             </div>
             <div class="actions">
+              <button onclick="addSelectedGroup('${candidate.candidateId}')" ${selectedCount < 2 ? 'disabled' : ''}>選択を別グループとして追加</button>
               <button onclick="setDecision('${candidate.candidateId}', 'accepted')" ${selectedCount < 2 ? 'disabled' : ''}>選択したカードで確定</button>
               <button onclick="setDecision('${candidate.candidateId}', 'rejected')">別カードとして除外</button>
               <button onclick="setDecision('${candidate.candidateId}', 'pending')">未判断に戻す</button>
+            </div>
+            <div class="groups">
+              ${groupsForCandidate(candidate.candidateId).map(group => `
+                <div class="group">
+                  <span>${group.alias.canonicalName} / ${group.alias.aliases.length}件</span>
+                  <button onclick="removeGroup('${group.groupId}')">削除</button>
+                </div>
+              `).join('')}
             </div>
           </section>
         `;
