@@ -30,6 +30,12 @@
     .actions { margin-top: 10px; display: flex; gap: 8px; align-items: center; }
     .groups { margin-top: 8px; display: grid; gap: 6px; }
     .group { display: flex; justify-content: space-between; gap: 8px; align-items: center; background: #eef6ee; border: 1px solid #cde6ce; border-radius: 4px; padding: 6px 8px; font-size: 12px; }
+    #manual-builder { background: #fff; border: 1px solid #dde2ea; border-radius: 6px; padding: 12px; margin-bottom: 16px; }
+    #manual-builder h2 { font-size: 16px; margin: 0 0 10px; }
+    #manual-controls { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+    #manual-results { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 8px; max-height: 420px; overflow-y: auto; }
+    .manual-selected { margin-top: 8px; display: flex; gap: 6px; flex-wrap: wrap; }
+    .pill { background: #eef2ff; color: #344054; border: 1px solid #c7d7fe; border-radius: 999px; padding: 4px 8px; font-size: 12px; }
     .accepted { border-color: #2e7d32; box-shadow: inset 4px 0 0 #2e7d32; }
     .rejected { opacity: .45; }
     #load-more { display: none; margin: 20px auto 0; }
@@ -66,15 +72,30 @@
     <span id="github-status"></span>
   </div>
 
+  <section id="manual-builder">
+    <h2>候補外から正規化を作成</h2>
+    <div id="manual-controls">
+      <input id="manualSearch" placeholder="カード名・型番で検索" oninput="renderManualResults()">
+      <input id="manualName" placeholder="正規化後のカード名">
+      <input id="manualId" placeholder="canonicalId 例: OP13-118_RED_COMIC">
+      <button onclick="addManualGroup()">手動グループとして追加</button>
+    </div>
+    <div class="meta" id="manualSummary"></div>
+    <div class="manual-selected" id="manualSelected"></div>
+    <div id="manual-results"></div>
+  </section>
+
   <div id="summary" class="meta"></div>
   <div id="list"></div>
   <button id="load-more" onclick="loadMore()">もっと表示</button>
 
   <script>
     let candidates = [];
+    let allRecords = [];
     let decisions = JSON.parse(localStorage.getItem('aliasReviewDecisions') || '{}');
     let customGroups = JSON.parse(localStorage.getItem('aliasReviewGroups') || '[]');
     let nameEdits = JSON.parse(localStorage.getItem('aliasReviewNames') || '{}');
+    let manualSelectedKeys = new Set();
     let renderLimit = 100;
     const GITHUB_OWNER = 'tksaai';
     const GITHUB_REPO = 'OP_TCG_PRICE_CHECKER';
@@ -97,6 +118,10 @@
 
     function yen(value) {
       return '¥' + Number(value || 0).toLocaleString();
+    }
+
+    function normalizeText(value) {
+      return String(value || '').toLowerCase().normalize('NFKC');
     }
 
     function setDecision(candidateId, decision) {
@@ -155,6 +180,23 @@
       };
     }
 
+    function aliasFromManual(records) {
+      const canonicalName = document.getElementById('manualName').value.trim();
+      const canonicalId = document.getElementById('manualId').value.trim();
+      const modelNo = records[0]?.modelCode || records[0]?.modelNo || '';
+      return {
+        canonicalId: canonicalId || `MANUAL_${Date.now()}`,
+        canonicalName: canonicalName || records[0]?.name || '手動正規化カード',
+        modelNo,
+        aliases: records.map(record => ({
+          shopId: record.shopId,
+          sourceKey: record.sourceKey,
+          name: record.name,
+          modelNo: record.modelNo
+        }))
+      };
+    }
+
     function groupsForCandidate(candidateId) {
       return customGroups.filter(group => group.candidateId === candidateId);
     }
@@ -180,6 +222,87 @@
       customGroups = customGroups.filter(group => group.groupId !== groupId);
       localStorage.setItem('aliasReviewGroups', JSON.stringify(customGroups));
       render();
+    }
+
+    function addManualGroup() {
+      const selectedRecords = allRecords.filter(record => manualSelectedKeys.has(record.sourceKey));
+      if (selectedRecords.length < 2) return setGithubStatus('手動グループは2件以上選択してください');
+
+      const groupId = `manual_${Date.now()}`;
+      customGroups.push({
+        groupId,
+        candidateId: 'manual',
+        alias: aliasFromManual(selectedRecords)
+      });
+      localStorage.setItem('aliasReviewGroups', JSON.stringify(customGroups));
+      manualSelectedKeys.clear();
+      document.getElementById('manualName').value = '';
+      document.getElementById('manualId').value = '';
+      setGithubStatus(`${selectedRecords.length}件を手動グループとして追加しました`);
+      renderManualResults();
+      render();
+    }
+
+    function toggleManualRecord(sourceKey, checked) {
+      if (checked) manualSelectedKeys.add(sourceKey);
+      else manualSelectedKeys.delete(sourceKey);
+      renderManualSelected();
+    }
+
+    function renderManualSelected() {
+      const selectedRecords = allRecords.filter(record => manualSelectedKeys.has(record.sourceKey));
+      document.getElementById('manualSelected').innerHTML = selectedRecords.map(record =>
+        `<span class="pill">${record.shopName}: ${record.name}</span>`
+      ).join('');
+      document.getElementById('manualSummary').textContent = `選択中 ${selectedRecords.length}件`;
+    }
+
+    function renderManualResults() {
+      const query = normalizeText(document.getElementById('manualSearch').value.trim());
+      const container = document.getElementById('manual-results');
+      const selected = manualSelectedKeys;
+      const results = query
+        ? allRecords.filter(record => normalizeText(`${record.name} ${record.modelNo} ${record.shopName}`).includes(query)).slice(0, 120)
+        : [];
+
+      container.innerHTML = results.map(record => `
+        <div class="record ${selected.has(record.sourceKey) ? '' : 'excluded'}">
+          <img loading="lazy" referrerpolicy="no-referrer" src="${record.imageUrl}">
+          <div>
+            <label>
+              <input type="checkbox" ${selected.has(record.sourceKey) ? 'checked' : ''} onchange="toggleManualRecord('${record.sourceKey.replace(/'/g, "\\'")}', this.checked)">
+              このカードを含める
+            </label>
+            <div class="shop">${record.shopName}</div>
+            <div>${record.name}</div>
+            <div class="meta">${record.modelNo}</div>
+            <div class="price">${yen(record.latestPrice)}</div>
+          </div>
+        </div>
+      `).join('');
+      renderManualSelected();
+    }
+
+    function addRecordsFromCards(cards) {
+      const seen = new Set(allRecords.map(record => record.sourceKey));
+      cards.forEach(card => {
+        Object.entries(card.pricesByShop || {}).forEach(([shopId, shop]) => {
+          const sourceKey = `${shopId}:${card.key}`;
+          if (seen.has(sourceKey)) return;
+          seen.add(sourceKey);
+          allRecords.push({
+            shopId,
+            shopName: shop.shopName || shopId,
+            sourceKey,
+            name: card.name,
+            modelNo: card.modelNo,
+            modelCode: card.modelNo,
+            latestPrice: Number(shop.latestPrice || 0),
+            imageUrl: shop.imageUrl || card.imageId || ''
+          });
+        });
+      });
+      allRecords.sort((a, b) => Number(b.latestPrice || 0) - Number(a.latestPrice || 0));
     }
 
     function getAcceptedAliases() {
@@ -366,13 +489,27 @@
       }).join('');
     }
 
-    fetch('data/alias-candidates.json')
-      .then(response => response.json())
-      .then(data => {
+    Promise.all([
+      fetch('data/alias-candidates.json').then(response => response.json()),
+      fetch('data/cards.json').then(response => response.json()).catch(() => [])
+    ])
+      .then(([data, cards]) => {
         candidates = data;
+        allRecords = [];
+        const seen = new Set();
+        data.forEach(candidate => {
+          candidate.records.forEach(record => {
+            if (!seen.has(record.sourceKey)) {
+              seen.add(record.sourceKey);
+              allRecords.push({ ...record, modelCode: candidate.modelCode });
+            }
+          });
+        });
+        addRecordsFromCards(cards);
         if (localStorage.getItem('githubTokenForAliasReview')) {
           setGithubStatus('保存済みトークンがあります');
         }
+        renderManualResults();
         render();
       })
       .catch(() => {
