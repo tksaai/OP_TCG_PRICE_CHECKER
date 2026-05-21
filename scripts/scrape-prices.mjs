@@ -197,15 +197,29 @@ async function readPrevious() {
 async function main() {
   const date = todayJst();
   const cards = normalizePrevious(await readPrevious());
+  let successfulShops = 0;
+  let scrapedCardCount = 0;
 
   for (const shop of SHOPS) {
     console.log(`Fetching ${shop.name}`);
-    const scraped =
-      shop.type === 'cardrushNextData'
-        ? await scrapeCardrush(shop)
-        : shop.type === 'torecardHtml'
-          ? await scrapeTorecard(shop)
-          : await scrapeMercard(shop);
+    let scraped = [];
+
+    try {
+      scraped =
+        shop.type === 'cardrushNextData'
+          ? await scrapeCardrush(shop)
+          : shop.type === 'torecardHtml'
+            ? await scrapeTorecard(shop)
+            : await scrapeMercard(shop);
+    } catch (error) {
+      console.error(`Failed to fetch ${shop.id}: ${error.message}`);
+      await wait(1500);
+      continue;
+    }
+
+    successfulShops += 1;
+    scrapedCardCount += scraped.length;
+    console.log(`Fetched ${scraped.length} cards from ${shop.id}`);
 
     for (const item of scraped) {
       const key = normalizeKey(item.name, item.modelNo);
@@ -233,6 +247,10 @@ async function main() {
     }
 
     await wait(1500);
+  }
+
+  if (successfulShops === 0 || scrapedCardCount === 0) {
+    throw new Error('No shop prices were fetched');
   }
 
   const output = [...cards.values()]
