@@ -123911,50 +123911,6 @@
     "latestPrice": 3000
   },
   {
-    "key": "st03-013_ボア・ハンコック【prb-01】【c】【パラレル】【青】【st03-013】",
-    "name": "ボア・ハンコック 【PRB-01】【C】【パラレル】【青】【ST03-013】",
-    "modelNo": "ST03-013",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/ST03-013_p4.jpeg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 3000
-      },
-      {
-        "date": "2026/05/17",
-        "price": 3500
-      },
-      {
-        "date": "2026/05/19",
-        "price": 3000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 3000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST03-013_p4.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 3000
-          },
-          {
-            "date": "2026/05/17",
-            "price": 3500
-          },
-          {
-            "date": "2026/05/19",
-            "price": 3000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 3000
-  },
-  {
     "key": "st10-004_サンジ【c】【パラレル】【プロモ】【8パックバトル】【赤】【st10-004】",
     "name": "サンジ 【C】【パラレル】【プロモ】【8パックバトル】【赤】【ST10-004】",
     "modelNo": "ST10-004",
@@ -132552,6 +132508,58 @@
       }
     },
     "bestShopId": "mercard",
+    "latestPrice": 2500
+  },
+  {
+    "key": "st03-013_ボア・ハンコック【prb-01】【c】【パラレル】【青】【st03-013】",
+    "name": "ボア・ハンコック 【PRB-01】【C】【パラレル】【青】【ST03-013】",
+    "modelNo": "ST03-013",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/ST03-013_p4.jpeg",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 3000
+      },
+      {
+        "date": "2026/05/17",
+        "price": 3500
+      },
+      {
+        "date": "2026/05/19",
+        "price": 3000
+      },
+      {
+        "date": "2026/05/25",
+        "price": 2500
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 2500,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST03-013_p4.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 3000
+          },
+          {
+            "date": "2026/05/17",
+            "price": 3500
+          },
+          {
+            "date": "2026/05/19",
+            "price": 3000
+          },
+          {
+            "date": "2026/05/25",
+            "price": 2500
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
     "latestPrice": 2500
   },
   {
@@ -215743,34 +215751,6 @@
     "latestPrice": 800
   },
   {
-    "key": "op15-113_ロロノア・ゾロ【sr】【黄】【op15-113】",
-    "name": "ロロノア・ゾロ 【SR】【黄】【OP15-113】",
-    "modelNo": "OP15-113",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP15-113.png",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 800
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 800,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP15-113.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 800
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 800
-  },
-  {
     "key": "op15-113_ロロノア・ゾロ【sr】《黄》",
     "name": "ロロノア・ゾロ【SR】《黄》",
     "modelNo": "OP15-113",
@@ -230418,6 +230398,42 @@
         "history": [
           {
             "date": "2026/05/14",
+            "price": 700
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 700
+  },
+  {
+    "key": "op15-113_ロロノア・ゾロ【sr】【黄】【op15-113】",
+    "name": "ロロノア・ゾロ 【SR】【黄】【OP15-113】",
+    "modelNo": "OP15-113",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP15-113.png",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 800
+      },
+      {
+        "date": "2026/05/25",
+        "price": 700
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 700,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP15-113.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 800
+          },
+          {
+            "date": "2026/05/25",
             "price": 700
           }
         ]
@@ -285087,34 +285103,6 @@
     "latestPrice": 400
   },
   {
-    "key": "prb02-006_ロロノア・ゾロ【prb-02】【r】【緑】【prb02-006】",
-    "name": "ロロノア・ゾロ 【PRB-02】【R】【緑】【PRB02-006】",
-    "modelNo": "PRB02-006",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/PRB02-006.png",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 400
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 400,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/PRB02-006.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 400
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 400
-  },
-  {
     "key": "prb02-015_シリュウ(パラレル/illust:akanegumo)",
     "name": "シリュウ(パラレル/illust:Akanegumo)",
     "modelNo": "PRB02-015",
@@ -310450,6 +310438,42 @@
         "history": [
           {
             "date": "2026/05/14",
+            "price": 300
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 300
+  },
+  {
+    "key": "prb02-006_ロロノア・ゾロ【prb-02】【r】【緑】【prb02-006】",
+    "name": "ロロノア・ゾロ 【PRB-02】【R】【緑】【PRB02-006】",
+    "modelNo": "PRB02-006",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/PRB02-006.png",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 400
+      },
+      {
+        "date": "2026/05/25",
+        "price": 300
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 300,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/PRB02-006.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 400
+          },
+          {
+            "date": "2026/05/25",
             "price": 300
           }
         ]
@@ -373003,34 +373027,6 @@
     "latestPrice": 100
   },
   {
-    "key": "op07-064_サンジ【sr】【紫】【op07-064】",
-    "name": "サンジ 【SR】【紫】【OP07-064】",
-    "modelNo": "OP07-064",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP07-064.jpeg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 100
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 100,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP07-064.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 100
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 100
-  },
-  {
     "key": "op07-119_ポートガス・d・エース",
     "name": "ポートガス・D・エース",
     "modelNo": "OP07-119",
@@ -400404,6 +400400,42 @@
       }
     },
     "bestShopId": "mercard",
+    "latestPrice": 50
+  },
+  {
+    "key": "op07-064_サンジ【sr】【紫】【op07-064】",
+    "name": "サンジ 【SR】【紫】【OP07-064】",
+    "modelNo": "OP07-064",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP07-064.jpeg",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 100
+      },
+      {
+        "date": "2026/05/25",
+        "price": 50
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 50,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP07-064.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 100
+          },
+          {
+            "date": "2026/05/25",
+            "price": 50
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
     "latestPrice": 50
   },
   {
