@@ -1,52 +1,5 @@
 [
   {
-    "key": "OP02-099_CS-UNOPENED",
-    "name": "サカズキ【プロモ】《黒》未開封",
-    "modelNo": "OP02-099",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP02-099_p4.jpeg",
-    "history": [
-      {
-        "date": "2026/05/27",
-        "price": 7500000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 7500000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP02-099_p4.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 7500000
-          }
-        ]
-      },
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 6500000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20230929_dc1469.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 6500000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 7500000,
-    "canonicalId": "OP02-099_CS-UNOPENED",
-    "aliasKeys": [
-      "op02-099_サカズキ【sr】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【op02-099】",
-      "サカズキ 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【OP02-099】_OP02-099",
-      "チャンピオンシップ版op02-099_サカズキ【プロモ】《黒》未開封",
-      "サカズキ【プロモ】《黒》未開封_チャンピオンシップ版OP02-099"
-    ]
-  },
-  {
     "key": "op02-099_サカズキ(未開封/cs2023/illust:anderson)",
     "name": "サカズキ(未開封/CS2023/illust:Anderson)",
     "modelNo": "OP02-099",
@@ -88,6 +41,34 @@
       }
     },
     "bestShopId": "cardrush",
+    "latestPrice": 7500000
+  },
+  {
+    "key": "op02-099_サカズキ【sr】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【op02-099】",
+    "name": "サカズキ 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【OP02-099】",
+    "modelNo": "OP02-099",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP02-099_p4.jpeg",
+    "history": [
+      {
+        "date": "2026/05/28",
+        "price": 7500000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 7500000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP02-099_p4.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/28",
+            "price": 7500000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
     "latestPrice": 7500000
   },
   {
@@ -207,53 +188,6 @@
       "サカズキ 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【OP02-099】_OP02-099",
       "チャンピオンシップ版op02-099_サカズキ【プロモ】《黒》未開封",
       "サカズキ【プロモ】《黒》未開封_チャンピオンシップ版OP02-099"
-    ]
-  },
-  {
-    "key": "OP13-118_CS-UNOPENED",
-    "name": "モンキー・D・ルフィ【プロモ】《緑》未開封",
-    "modelNo": "OP13-118",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20251212_ec6010.png",
-    "history": [
-      {
-        "date": "2026/05/27",
-        "price": 5200000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 5200000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20251212_ec6010.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 5200000
-          }
-        ]
-      },
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 4800000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-118_p5.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 4800000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 5200000,
-    "canonicalId": "OP13-118_CS-UNOPENED",
-    "aliasKeys": [
-      "チャンピオンシップ版op13-118_モンキー・d・ルフィ【プロモ】《緑》未開封",
-      "モンキー・D・ルフィ【プロモ】《緑》未開封_チャンピオンシップ版OP13-118",
-      "op13-118_モンキー・d・ルフィ【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【緑】【op13-118】",
-      "モンキー・D・ルフィ 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【緑】【OP13-118】_OP13-118"
     ]
   },
   {
@@ -396,6 +330,34 @@
     "latestPrice": 4800000
   },
   {
+    "key": "op13-118_モンキー・d・ルフィ【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【緑】【op13-118】",
+    "name": "モンキー・D・ルフィ 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【緑】【OP13-118】",
+    "modelNo": "OP13-118",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP13-118_p5.png",
+    "history": [
+      {
+        "date": "2026/05/28",
+        "price": 4800000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 4800000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-118_p5.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/28",
+            "price": 4800000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 4800000
+  },
+  {
     "key": "op13-118_モンキー・d・ルフィ(cs25-26/illust:makitoshi)",
     "name": "モンキー・D・ルフィ(CS25-26/illust:Makitoshi)",
     "modelNo": "OP13-118",
@@ -452,53 +414,6 @@
     "latestPrice": 4000000
   },
   {
-    "key": "ST01-001_OPENED-SERIAL",
-    "name": "モンキー・D・ルフィ【プロモ】《赤》開封品",
-    "modelNo": "ST01-001",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20221125_448bd4.png",
-    "history": [
-      {
-        "date": "2026/05/27",
-        "price": 3500000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 3500000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20221125_448bd4.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 3500000
-          }
-        ]
-      },
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 3500000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-001_p3.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 3500000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 3500000,
-    "canonicalId": "ST01-001_OPENED-SERIAL",
-    "aliasKeys": [
-      "シリアル版st01-001_モンキー・d・ルフィ【プロモ】《赤》開封品",
-      "モンキー・D・ルフィ【プロモ】《赤》開封品_シリアル版ST01-001",
-      "st01-001_モンキー・d・ルフィ【リーダーパラレル】【プロモ】【シリアル】【開封済み】【フラッグシップバトル】【赤】【st01-001】",
-      "モンキー・D・ルフィ 【リーダーパラレル】【プロモ】【シリアル】【開封済み】【フラッグシップバトル】【赤】【ST01-001】_ST01-001"
-    ]
-  },
-  {
     "key": "st01-001_モンキー・d・ルフィ【リーダーパラレル】【プロモ】【シリアル】【未開封】【フラッグシップバトル】【赤】【st01-001】",
     "name": "モンキー・D・ルフィ 【リーダーパラレル】【プロモ】【シリアル】【未開封】【フラッグシップバトル】【赤】【ST01-001】",
     "modelNo": "ST01-001",
@@ -550,6 +465,34 @@
           },
           {
             "date": "2026/05/27",
+            "price": 3500000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 3500000
+  },
+  {
+    "key": "st01-001_モンキー・d・ルフィ【リーダーパラレル】【プロモ】【シリアル】【開封済み】【フラッグシップバトル】【赤】【st01-001】",
+    "name": "モンキー・D・ルフィ 【リーダーパラレル】【プロモ】【シリアル】【開封済み】【フラッグシップバトル】【赤】【ST01-001】",
+    "modelNo": "ST01-001",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/ST01-001_p3.jpeg",
+    "history": [
+      {
+        "date": "2026/05/28",
+        "price": 3500000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 3500000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-001_p3.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/28",
             "price": 3500000
           }
         ]
@@ -819,53 +762,6 @@
     ]
   },
   {
-    "key": "OP09-004_CS-UNOPENED",
-    "name": "シャンクス 【プロモ】《赤》未開封",
-    "modelNo": "OP09-004",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20250622_b04b0d.png",
-    "history": [
-      {
-        "date": "2026/05/27",
-        "price": 2800000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 2700000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-004_p7.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 2700000
-          }
-        ]
-      },
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 2800000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20250622_b04b0d.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 2800000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 2800000,
-    "canonicalId": "OP09-004_CS-UNOPENED",
-    "aliasKeys": [
-      "op09-004_シャンクス【sr】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【赤】【op09-004】",
-      "シャンクス 【SR】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【赤】【OP09-004】_OP09-004",
-      "チャンピオンシップ版op09-004_シャンクス【プロモ】《赤》未開封",
-      "シャンクス 【プロモ】《赤》未開封_チャンピオンシップ版OP09-004"
-    ]
-  },
-  {
     "key": "op09-004_シャンクス【プロモ】《赤》未開封",
     "name": "シャンクス 【プロモ】《赤》未開封",
     "modelNo": "OP09-004",
@@ -949,6 +845,34 @@
     ]
   },
   {
+    "key": "op09-004_シャンクス【sr】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【赤】【op09-004】",
+    "name": "シャンクス 【SR】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【赤】【OP09-004】",
+    "modelNo": "OP09-004",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP09-004_p7.png",
+    "history": [
+      {
+        "date": "2026/05/28",
+        "price": 2700000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 2700000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-004_p7.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/28",
+            "price": 2700000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 2700000
+  },
+  {
     "key": "op09-004_シャンクス(cs25-26/illust:shishizaru)",
     "name": "シャンクス(CS25-26/illust:Shishizaru)",
     "modelNo": "OP09-004",
@@ -977,13 +901,13 @@
     "latestPrice": 2600000
   },
   {
-    "key": "OP03-114_CS-UNOPENED",
-    "name": "シャーロット・リンリン【プロモ】《黄》未開封",
+    "key": "op03-114_シャーロット・リンリン【sr】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【op03-114】",
+    "name": "シャーロット・リンリン 【SR】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【OP03-114】",
     "modelNo": "OP03-114",
     "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP03-114_p3.jpeg",
     "history": [
       {
-        "date": "2026/05/27",
+        "date": "2026/05/28",
         "price": 2500000
       }
     ],
@@ -995,33 +919,14 @@
         "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
         "history": [
           {
-            "date": "2026/05/27",
+            "date": "2026/05/28",
             "price": 2500000
-          }
-        ]
-      },
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 2400000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20250119_6d9dd6.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 2400000
           }
         ]
       }
     },
     "bestShopId": "torecard",
-    "latestPrice": 2500000,
-    "canonicalId": "OP03-114_CS-UNOPENED",
-    "aliasKeys": [
-      "op03-114_シャーロット・リンリン【sr】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【op03-114】",
-      "シャーロット・リンリン 【SR】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【OP03-114】_OP03-114",
-      "チャンピオンシップ版op03-114_シャーロット・リンリン【プロモ】《黄》未開封",
-      "シャーロット・リンリン【プロモ】《黄》未開封_チャンピオンシップ版OP03-114"
-    ]
+    "latestPrice": 2500000
   },
   {
     "key": "シリアル入りop01-016※青背景【海外版】_ナミ【プロモ】《赤》【中国版1stanniversaryset】※中国語表記",
@@ -1216,13 +1121,13 @@
     "latestPrice": 2400000
   },
   {
-    "key": "OP13-118_COMIC_1778767499177",
-    "name": "モンキー・D・ルフィ【コミック版レッドパラレル】《緑》",
+    "key": "op13-118_モンキー・ｄ・ルフィ【シークレット】【レッドスーパーパラレル】【緑】【op13-118】",
+    "name": "モンキー・Ｄ・ルフィ 【シークレット】【レッドスーパーパラレル】【緑】【OP13-118】",
     "modelNo": "OP13-118",
     "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP13-118_p3.png",
     "history": [
       {
-        "date": "2026/05/27",
+        "date": "2026/05/28",
         "price": 2400000
       }
     ],
@@ -1234,33 +1139,14 @@
         "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
         "history": [
           {
-            "date": "2026/05/27",
-            "price": 2400000
-          }
-        ]
-      },
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 2400000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/OP13/1.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2026/05/27",
+            "date": "2026/05/28",
             "price": 2400000
           }
         ]
       }
     },
     "bestShopId": "torecard",
-    "latestPrice": 2400000,
-    "canonicalId": "OP13-118_COMIC_1778767499177",
-    "aliasKeys": [
-      "op13-118_モンキー・ｄ・ルフィ【シークレット】【レッドスーパーパラレル】【緑】【op13-118】",
-      "モンキー・Ｄ・ルフィ 【シークレット】【レッドスーパーパラレル】【緑】【OP13-118】_OP13-118",
-      "レッドコミック版パラレルop13-118_モンキー・d・ルフィ【レッドコミック版パラレル】《緑》",
-      "モンキー・D・ルフィ【レッドコミック版パラレル】《緑》_レッドコミック版パラレルOP13-118"
-    ]
+    "latestPrice": 2400000
   },
   {
     "key": "op01-016_ナミ【シークレット】【r】【パラレル】【プロモ】【中国限定1stanniversaryset】【赤】【op01-016】",
@@ -1414,53 +1300,6 @@
     ]
   },
   {
-    "key": "EB04-061_SERIAL-UNOPENED",
-    "name": "モンキー・Ｄ・ルフィ【プロモ】《黄》ForJapan未開封",
-    "modelNo": "EB04-061",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20260331_deb3bf.png",
-    "history": [
-      {
-        "date": "2026/05/27",
-        "price": 2200000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 2100000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB04-061_p2.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 2100000
-          }
-        ]
-      },
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 2200000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20260331_deb3bf.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 2200000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 2200000,
-    "canonicalId": "EB04-061_SERIAL-UNOPENED",
-    "aliasKeys": [
-      "eb04-061_モンキー・d・ルフィ【シークレット】【パラレル】【プロモ】【未開封】【黄】【eb04-061】【シリアル】",
-      "モンキー・D・ルフィ 【シークレット】【パラレル】【プロモ】【未開封】【黄】【EB04-061】【シリアル】_EB04-061",
-      "シリアル版eb04-061_モンキー・ｄ・ルフィ【プロモ】《黄》forjapan※発送通知書付き未開封",
-      "モンキー・Ｄ・ルフィ【プロモ】《黄》ForJapan　※発送通知書付き未開封_シリアル版EB04-061"
-    ]
-  },
-  {
     "key": "op01-016_ナミ(中国版/シリアル/illust:oo6)",
     "name": "ナミ(中国版/シリアル/illust:oo6)",
     "modelNo": "OP01-016",
@@ -1495,6 +1334,34 @@
     },
     "bestShopId": "cardrush",
     "latestPrice": 2200000
+  },
+  {
+    "key": "eb04-061_モンキー・d・ルフィ【シークレット】【パラレル】【プロモ】【未開封】【黄】【eb04-061】【シリアル】",
+    "name": "モンキー・D・ルフィ 【シークレット】【パラレル】【プロモ】【未開封】【黄】【EB04-061】【シリアル】",
+    "modelNo": "EB04-061",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/EB04-061_p2.png",
+    "history": [
+      {
+        "date": "2026/05/28",
+        "price": 2100000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 2100000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB04-061_p2.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/28",
+            "price": 2100000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 2100000
   },
   {
     "key": "eb04-061_モンキー・ｄ・ルフィ【プロモ】《黄》forjapan未開封",
@@ -1997,53 +1864,6 @@
     "latestPrice": 1500000
   },
   {
-    "key": "OP08-106_SERIAL-UNOPENED",
-    "name": "ナミ【プロモ】《黄》※当選通知書付き未開封",
-    "modelNo": "OP08-106",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP08-106_p5.png",
-    "history": [
-      {
-        "date": "2026/05/27",
-        "price": 1400000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 1300000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20250901_a5154f.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 1300000
-          }
-        ]
-      },
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 1400000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP08-106_p5.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 1400000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 1400000,
-    "canonicalId": "OP08-106_SERIAL-UNOPENED",
-    "aliasKeys": [
-      "シリアル版op08-106_ナミ【プロモ】《黄》※当選通知書付き未開封",
-      "ナミ【プロモ】《黄》※当選通知書付き未開封_シリアル版OP08-106",
-      "op08-106_ナミ【sr】【パラレル】【プロモ】【シリアル】【未開封】【黄】【op08-106】",
-      "ナミ 【SR】【パラレル】【プロモ】【シリアル】【未開封】【黄】【OP08-106】_OP08-106"
-    ]
-  },
-  {
     "key": "op08-106_ナミ(付属品完備/未開封/シリアル/漫画絵)",
     "name": "ナミ(付属品完備/未開封/シリアル/漫画絵)",
     "modelNo": "OP08-106",
@@ -2088,6 +1908,34 @@
     "latestPrice": 1400000
   },
   {
+    "key": "op08-106_ナミ【sr】【パラレル】【プロモ】【シリアル】【未開封】【黄】【op08-106】",
+    "name": "ナミ 【SR】【パラレル】【プロモ】【シリアル】【未開封】【黄】【OP08-106】",
+    "modelNo": "OP08-106",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP08-106_p5.png",
+    "history": [
+      {
+        "date": "2026/05/28",
+        "price": 1400000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 1400000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP08-106_p5.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/28",
+            "price": 1400000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 1400000
+  },
+  {
     "key": "op05-119_モンキー・d・ルフィ【金】【シークレット】【sp】【パラレル】【紫】【op05-119】",
     "name": "モンキー・D・ルフィ 【金】【シークレット】【SP】【パラレル】【紫】【OP05-119】",
     "modelNo": "OP05-119",
@@ -2122,53 +1970,6 @@
     },
     "bestShopId": "torecard",
     "latestPrice": 1300000
-  },
-  {
-    "key": "OP14-112_CS-UNOPENED",
-    "name": "ボア・ハンコック【プロモ】《黄》未開封",
-    "modelNo": "OP14-112",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20260303_8c7c93.png",
-    "history": [
-      {
-        "date": "2026/05/27",
-        "price": 1300000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 1300000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20260303_8c7c93.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 1300000
-          }
-        ]
-      },
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 1100000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP14-112_x1.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 1100000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 1300000,
-    "canonicalId": "OP14-112_CS-UNOPENED",
-    "aliasKeys": [
-      "チャンピオンシップ版op14-112_ボア・ハンコック【プロモ】《黄》未開封",
-      "ボア・ハンコック【プロモ】《黄》未開封_チャンピオンシップ版OP14-112",
-      "op14-112_ボア・ハンコック【sr】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【op14-112】【2026】",
-      "ボア・ハンコック 【SR】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【OP14-112】【2026】_OP14-112"
-    ]
   },
   {
     "key": "spop05-119『op11』_モンキー・d・ルフィ『金』【三周年spパラレル】《紫》",
@@ -2319,53 +2120,6 @@
     "latestPrice": 1300000
   },
   {
-    "key": "OP07-109_SERIAL-UNOPENED",
-    "name": "モンキー・D・ルフィ【プロモ】《黄》※当選通知書付き未開封",
-    "modelNo": "OP07-109",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20250111_b69baa.png",
-    "history": [
-      {
-        "date": "2026/05/27",
-        "price": 1250000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 1250000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20250111_b69baa.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 1250000
-          }
-        ]
-      },
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 1200000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP07-109_p4.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 1200000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 1250000,
-    "canonicalId": "OP07-109_SERIAL-UNOPENED",
-    "aliasKeys": [
-      "シリアル版op07-109_モンキー・d・ルフィ【プロモ】《黄》※当選通知書付き未開封",
-      "モンキー・D・ルフィ【プロモ】《黄》※当選通知書付き未開封_シリアル版OP07-109",
-      "op07-109_モンキー・d・ルフィ【sr】【パラレル】【プロモ】【シリアル】【未開封】【japan】【黄】【op07-109】",
-      "モンキー・D・ルフィ 【SR】【パラレル】【プロモ】【シリアル】【未開封】【Japan】【黄】【OP07-109】_OP07-109"
-    ]
-  },
-  {
     "key": "op14-112_ボア・ハンコック(未開封/cs26-27/illust:otton)",
     "name": "ボア・ハンコック(未開封/CS26-27/illust:otton)",
     "modelNo": "OP14-112",
@@ -2408,53 +2162,6 @@
     },
     "bestShopId": "cardrush",
     "latestPrice": 1250000
-  },
-  {
-    "key": "OP02-096_CS-UNOPENED",
-    "name": "クザン【プロモ】《黒》未開封",
-    "modelNo": "OP02-096",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20230515_0f781a.jpg",
-    "history": [
-      {
-        "date": "2026/05/27",
-        "price": 1200000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 1100000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP02-096_p3.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 1100000
-          }
-        ]
-      },
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 1200000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20230515_0f781a.jpg",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 1200000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 1200000,
-    "canonicalId": "OP02-096_CS-UNOPENED",
-    "aliasKeys": [
-      "op02-096_クザン【sr】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【op02-096】",
-      "クザン 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【OP02-096】_OP02-096",
-      "チャンピオンシップ版op02-096_クザン【プロモ】《黒》未開封",
-      "クザン【プロモ】《黒》未開封_チャンピオンシップ版OP02-096"
-    ]
   },
   {
     "key": "op05-119[op11]_モンキー・d・ルフィ(パラレル/金背景)",
@@ -2542,6 +2249,34 @@
       }
     },
     "bestShopId": "cardrush",
+    "latestPrice": 1200000
+  },
+  {
+    "key": "op07-109_モンキー・d・ルフィ【sr】【パラレル】【プロモ】【シリアル】【未開封】【japan】【黄】【op07-109】",
+    "name": "モンキー・D・ルフィ 【SR】【パラレル】【プロモ】【シリアル】【未開封】【Japan】【黄】【OP07-109】",
+    "modelNo": "OP07-109",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP07-109_p4.png",
+    "history": [
+      {
+        "date": "2026/05/28",
+        "price": 1200000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 1200000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP07-109_p4.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/28",
+            "price": 1200000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
     "latestPrice": 1200000
   },
   {
@@ -2696,6 +2431,34 @@
     "latestPrice": 1100000
   },
   {
+    "key": "op02-096_クザン【sr】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【op02-096】",
+    "name": "クザン 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【OP02-096】",
+    "modelNo": "OP02-096",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP02-096_p3.jpeg",
+    "history": [
+      {
+        "date": "2026/05/28",
+        "price": 1100000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 1100000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP02-096_p3.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/28",
+            "price": 1100000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 1100000
+  },
+  {
     "key": "op07-109_モンキー・d・ルフィ【プロモ】《黄》※当選通知書付き未開封",
     "name": "モンキー・D・ルフィ【プロモ】《黄》※当選通知書付き未開封",
     "modelNo": "OP07-109",
@@ -2829,6 +2592,34 @@
       "op07-109_モンキー・d・ルフィ【sr】【パラレル】【プロモ】【シリアル】【未開封】【japan】【黄】【op07-109】",
       "モンキー・D・ルフィ 【SR】【パラレル】【プロモ】【シリアル】【未開封】【Japan】【黄】【OP07-109】_OP07-109"
     ]
+  },
+  {
+    "key": "op14-112_ボア・ハンコック【sr】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【op14-112】【2026】",
+    "name": "ボア・ハンコック 【SR】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【OP14-112】【2026】",
+    "modelNo": "OP14-112",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP14-112_x1.png",
+    "history": [
+      {
+        "date": "2026/05/28",
+        "price": 1100000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 1100000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP14-112_x1.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/28",
+            "price": 1100000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 1100000
   },
   {
     "key": "シリアル版op07-109_モンキー・d・ルフィ【プロモ】《黄》※当選通知書付き開封品",
@@ -4547,53 +4338,6 @@
     "latestPrice": 800000
   },
   {
-    "key": "OP13-119_CS-UNOPENED",
-    "name": "ポートガス・D・エース【プロモ】《青》未開封",
-    "modelNo": "OP13-119",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20250921_9cb949.png",
-    "history": [
-      {
-        "date": "2026/05/27",
-        "price": 800000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 780000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-119_p5.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 780000
-          }
-        ]
-      },
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 800000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20250921_9cb949.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2026/05/27",
-            "price": 800000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 800000,
-    "canonicalId": "OP13-119_CS-UNOPENED",
-    "aliasKeys": [
-      "op13-119_ポートガス・ｄ・エース【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【青】【op13-119】",
-      "ポートガス・Ｄ・エース 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【青】【OP13-119】_OP13-119",
-      "チャンピオンシップ版op13-119_ポートガス・d・エース【プロモ】《青》未開封",
-      "ポートガス・D・エース【プロモ】《青》未開封_チャンピオンシップ版OP13-119"
-    ]
-  },
-  {
     "key": "op13-119_ポートガス・d・エース【プロモ】《青》未開封",
     "name": "ポートガス・D・エース【プロモ】《青》未開封",
     "modelNo": "OP13-119",
@@ -4811,6 +4555,34 @@
     },
     "bestShopId": "mercard",
     "latestPrice": 800000
+  },
+  {
+    "key": "op13-119_ポートガス・ｄ・エース【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【青】【op13-119】",
+    "name": "ポートガス・Ｄ・エース 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【青】【OP13-119】",
+    "modelNo": "OP13-119",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP13-119_p5.png",
+    "history": [
+      {
+        "date": "2026/05/28",
+        "price": 780000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 780000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-119_p5.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/28",
+            "price": 780000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 780000
   },
   {
     "key": "op13-119_ポートガス・d・エース(未開封/cs25-26/illust:otton)",
@@ -8997,6 +8769,50 @@
     "latestPrice": 350000
   },
   {
+    "key": "op05-060_モンキー・d・ルフィ【sp】【紫】【op05-060】【金文字】【リーダーsp】",
+    "name": "モンキー・D・ルフィ 【SP】【紫】【OP05-060】【金文字】【リーダーSP】",
+    "modelNo": "OP05-060",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP05-060_p4.png",
+    "history": [
+      {
+        "date": "2026/05/26",
+        "price": 300000
+      },
+      {
+        "date": "2026/05/27",
+        "price": 320000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 330000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 330000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP05-060_p4.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/26",
+            "price": 300000
+          },
+          {
+            "date": "2026/05/27",
+            "price": 320000
+          },
+          {
+            "date": "2026/05/28",
+            "price": 330000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 330000
+  },
+  {
     "key": "op05-086_ネフェルタリ・ビビ(未開封/cs2024/illust:nuisuke)",
     "name": "ネフェルタリ・ビビ(未開封/CS2024/illust:nuisuke)",
     "modelNo": "OP05-086",
@@ -9095,42 +8911,6 @@
     },
     "bestShopId": "cardrush",
     "latestPrice": 330000
-  },
-  {
-    "key": "op05-060_モンキー・d・ルフィ【sp】【紫】【op05-060】【金文字】【リーダーsp】",
-    "name": "モンキー・D・ルフィ 【SP】【紫】【OP05-060】【金文字】【リーダーSP】",
-    "modelNo": "OP05-060",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP05-060_p4.png",
-    "history": [
-      {
-        "date": "2026/05/26",
-        "price": 300000
-      },
-      {
-        "date": "2026/05/27",
-        "price": 320000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 320000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP05-060_p4.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/26",
-            "price": 300000
-          },
-          {
-            "date": "2026/05/27",
-            "price": 320000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 320000
   },
   {
     "key": "コミック版パラレルop06-118_ロロノア・ゾロ【コミック版パラレル】《緑》",
@@ -11049,6 +10829,42 @@
     "latestPrice": 250000
   },
   {
+    "key": "op07-038_ボア・ハンコック【sp】【青】【op07-038】【金文字】【リーダーsp】",
+    "name": "ボア・ハンコック 【SP】【青】【OP07-038】【金文字】【リーダーSP】",
+    "modelNo": "OP07-038",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP07-038_p2.png",
+    "history": [
+      {
+        "date": "2026/05/26",
+        "price": 240000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 250000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 250000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP07-038_p2.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/26",
+            "price": 240000
+          },
+          {
+            "date": "2026/05/28",
+            "price": 250000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 250000
+  },
+  {
     "key": "op07-051_ボア・ハンコック【sr】【パラレル】【スーパーパラレル】【青】【op07-051】",
     "name": "ボア・ハンコック 【SR】【パラレル】【スーパーパラレル】【青】【OP07-051】",
     "modelNo": "OP07-051",
@@ -12134,34 +11950,6 @@
             "date": "2026/05/24",
             "price": 230000
           },
-          {
-            "date": "2026/05/26",
-            "price": 240000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 240000
-  },
-  {
-    "key": "op07-038_ボア・ハンコック【sp】【青】【op07-038】【金文字】【リーダーsp】",
-    "name": "ボア・ハンコック 【SP】【青】【OP07-038】【金文字】【リーダーSP】",
-    "modelNo": "OP07-038",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP07-038_p2.png",
-    "history": [
-      {
-        "date": "2026/05/26",
-        "price": 240000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 240000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP07-038_p2.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
           {
             "date": "2026/05/26",
             "price": 240000
@@ -18057,6 +17845,42 @@
     "latestPrice": 150000
   },
   {
+    "key": "op08-001_トニートニー・チョッパー【sp】【赤】【緑】【op08-001】【金文字】【リーダーsp】",
+    "name": "トニートニー・チョッパー 【SP】【赤】【緑】【OP08-001】【金文字】【リーダーSP】",
+    "modelNo": "OP08-001",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP08-001_p2.png",
+    "history": [
+      {
+        "date": "2026/05/26",
+        "price": 130000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 150000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 150000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP08-001_p2.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/26",
+            "price": 130000
+          },
+          {
+            "date": "2026/05/28",
+            "price": 150000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 150000
+  },
+  {
     "key": "op09-009_ベン・ベックマン(cs25-26/illust:anderson)",
     "name": "ベン・ベックマン(CS25-26/illust:Anderson)",
     "modelNo": "OP09-009",
@@ -18942,34 +18766,6 @@
       }
     },
     "bestShopId": "cardrush",
-    "latestPrice": 130000
-  },
-  {
-    "key": "op08-001_トニートニー・チョッパー【sp】【赤】【緑】【op08-001】【金文字】【リーダーsp】",
-    "name": "トニートニー・チョッパー 【SP】【赤】【緑】【OP08-001】【金文字】【リーダーSP】",
-    "modelNo": "OP08-001",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP08-001_p2.png",
-    "history": [
-      {
-        "date": "2026/05/26",
-        "price": 130000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 130000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP08-001_p2.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/26",
-            "price": 130000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
     "latestPrice": 130000
   },
   {
@@ -22541,6 +22337,50 @@
     "latestPrice": 100000
   },
   {
+    "key": "op01-016_ナミ【英語】【r】【プロモ】【1stanniversaryset】【赤】【op01-016】",
+    "name": "ナミ 【英語】【R】【プロモ】【1st ANNIVERSARY SET】【赤】【OP01-016】",
+    "modelNo": "OP01-016",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP01-016_x1.jpg",
+    "history": [
+      {
+        "date": "2026/05/23",
+        "price": 85000
+      },
+      {
+        "date": "2026/05/26",
+        "price": 90000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 95000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 95000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-016_x1.jpg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/23",
+            "price": 85000
+          },
+          {
+            "date": "2026/05/26",
+            "price": 90000
+          },
+          {
+            "date": "2026/05/28",
+            "price": 95000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 95000
+  },
+  {
     "key": "op01-078_ボア・ハンコック【sr】【sp】【パラレル】【青】【op01-078】",
     "name": "ボア・ハンコック 【SR】【SP】【パラレル】【青】【OP01-078】",
     "modelNo": "OP01-078",
@@ -22643,42 +22483,6 @@
     },
     "bestShopId": "torecard",
     "latestPrice": 95000
-  },
-  {
-    "key": "op01-016_ナミ【英語】【r】【プロモ】【1stanniversaryset】【赤】【op01-016】",
-    "name": "ナミ 【英語】【R】【プロモ】【1st ANNIVERSARY SET】【赤】【OP01-016】",
-    "modelNo": "OP01-016",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP01-016_x1.jpg",
-    "history": [
-      {
-        "date": "2026/05/23",
-        "price": 85000
-      },
-      {
-        "date": "2026/05/26",
-        "price": 90000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 90000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-016_x1.jpg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/23",
-            "price": 85000
-          },
-          {
-            "date": "2026/05/26",
-            "price": 90000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 90000
   },
   {
     "key": "op01-078[op04]_ボア・ハンコック(パラレル/illust:sunohara)",
@@ -26805,6 +26609,66 @@
     "latestPrice": 65000
   },
   {
+    "key": "op01-070_ジュラキュール・ミホーク【sr】【パラレル】【プロモ】【未開封】【フラッグシップバトル】【青】【op01-070】】",
+    "name": "ジュラキュール・ミホーク 【SR】【パラレル】【プロモ】【未開封】【フラッグシップバトル】【青】【OP01-070】】",
+    "modelNo": "OP01-070",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP01-070_p2.jpeg",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 55000
+      },
+      {
+        "date": "2026/05/15",
+        "price": 70000
+      },
+      {
+        "date": "2026/05/20",
+        "price": 65000
+      },
+      {
+        "date": "2026/05/22",
+        "price": 60000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 65000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 65000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-070_p2.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 55000
+          },
+          {
+            "date": "2026/05/15",
+            "price": 70000
+          },
+          {
+            "date": "2026/05/20",
+            "price": 65000
+          },
+          {
+            "date": "2026/05/22",
+            "price": 60000
+          },
+          {
+            "date": "2026/05/28",
+            "price": 65000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 65000
+  },
+  {
     "key": "op08-105_ジュエリー・ボニー(パラレル/コンパス背景/illust:s!on)",
     "name": "ジュエリー・ボニー(パラレル/コンパス背景/illust:s!on)",
     "modelNo": "OP08-105",
@@ -27650,58 +27514,6 @@
       }
     },
     "bestShopId": "cardrush",
-    "latestPrice": 60000
-  },
-  {
-    "key": "op01-070_ジュラキュール・ミホーク【sr】【パラレル】【プロモ】【未開封】【フラッグシップバトル】【青】【op01-070】】",
-    "name": "ジュラキュール・ミホーク 【SR】【パラレル】【プロモ】【未開封】【フラッグシップバトル】【青】【OP01-070】】",
-    "modelNo": "OP01-070",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP01-070_p2.jpeg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 55000
-      },
-      {
-        "date": "2026/05/15",
-        "price": 70000
-      },
-      {
-        "date": "2026/05/20",
-        "price": 65000
-      },
-      {
-        "date": "2026/05/22",
-        "price": 60000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 60000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-070_p2.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 55000
-          },
-          {
-            "date": "2026/05/15",
-            "price": 70000
-          },
-          {
-            "date": "2026/05/20",
-            "price": 65000
-          },
-          {
-            "date": "2026/05/22",
-            "price": 60000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
     "latestPrice": 60000
   },
   {
@@ -31861,6 +31673,50 @@
     "latestPrice": 45000
   },
   {
+    "key": "op08-106_ナミ【sr】【sp】【パラレル】【黄】【op08-106】",
+    "name": "ナミ 【SR】【SP】【パラレル】【黄】【OP08-106】",
+    "modelNo": "OP08-106",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP08-106_p4.jpeg",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 35000
+      },
+      {
+        "date": "2026/05/26",
+        "price": 42000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 45000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 45000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP08-106_p4.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 35000
+          },
+          {
+            "date": "2026/05/26",
+            "price": 42000
+          },
+          {
+            "date": "2026/05/28",
+            "price": 45000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 45000
+  },
+  {
     "key": "op09-050_ナミ(パラレル/フルアート/illust:moroi)",
     "name": "ナミ(パラレル/フルアート/illust:MOROI)",
     "modelNo": "OP09-050",
@@ -32383,94 +32239,6 @@
     },
     "bestShopId": "mercard",
     "latestPrice": 45000
-  },
-  {
-    "key": "op01-003_モンキー・d・ルフィ【リーダーパラレル】【赤緑】【op01-003】",
-    "name": "モンキー・D・ルフィ 【リーダーパラレル】【赤緑】【OP01-003】",
-    "modelNo": "OP01-003",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP01-003_p1.jpeg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 27000
-      },
-      {
-        "date": "2026/05/22",
-        "price": 28000
-      },
-      {
-        "date": "2026/05/26",
-        "price": 37000
-      },
-      {
-        "date": "2026/05/27",
-        "price": 42000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 42000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-003_p1.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 27000
-          },
-          {
-            "date": "2026/05/22",
-            "price": 28000
-          },
-          {
-            "date": "2026/05/26",
-            "price": 37000
-          },
-          {
-            "date": "2026/05/27",
-            "price": 42000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 42000
-  },
-  {
-    "key": "op08-106_ナミ【sr】【sp】【パラレル】【黄】【op08-106】",
-    "name": "ナミ 【SR】【SP】【パラレル】【黄】【OP08-106】",
-    "modelNo": "OP08-106",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP08-106_p4.jpeg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 35000
-      },
-      {
-        "date": "2026/05/26",
-        "price": 42000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 42000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP08-106_p4.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 35000
-          },
-          {
-            "date": "2026/05/26",
-            "price": 42000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 42000
   },
   {
     "key": "op11-106_ゼウス【sp】【パラレル】【黄】【op11-106】",
@@ -33232,6 +33000,66 @@
           },
           {
             "date": "2026/05/19",
+            "price": 40000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 40000
+  },
+  {
+    "key": "op01-003_モンキー・d・ルフィ【リーダーパラレル】【赤緑】【op01-003】",
+    "name": "モンキー・D・ルフィ 【リーダーパラレル】【赤緑】【OP01-003】",
+    "modelNo": "OP01-003",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP01-003_p1.jpeg",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 27000
+      },
+      {
+        "date": "2026/05/22",
+        "price": 28000
+      },
+      {
+        "date": "2026/05/26",
+        "price": 37000
+      },
+      {
+        "date": "2026/05/27",
+        "price": 42000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 40000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 40000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-003_p1.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 27000
+          },
+          {
+            "date": "2026/05/22",
+            "price": 28000
+          },
+          {
+            "date": "2026/05/26",
+            "price": 37000
+          },
+          {
+            "date": "2026/05/27",
+            "price": 42000
+          },
+          {
+            "date": "2026/05/28",
             "price": 40000
           }
         ]
@@ -40625,66 +40453,6 @@
     "latestPrice": 29000
   },
   {
-    "key": "op06-101_おナミ【r】【sp】【パラレル】【黄】【op06-101】",
-    "name": "おナミ 【R】【SP】【パラレル】【黄】【OP06-101】",
-    "modelNo": "OP06-101",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP06-101_p2.jpeg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 25000
-      },
-      {
-        "date": "2026/05/15",
-        "price": 27000
-      },
-      {
-        "date": "2026/05/17",
-        "price": 28000
-      },
-      {
-        "date": "2026/05/19",
-        "price": 25000
-      },
-      {
-        "date": "2026/05/26",
-        "price": 29000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 29000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP06-101_p2.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 25000
-          },
-          {
-            "date": "2026/05/15",
-            "price": 27000
-          },
-          {
-            "date": "2026/05/17",
-            "price": 28000
-          },
-          {
-            "date": "2026/05/19",
-            "price": 25000
-          },
-          {
-            "date": "2026/05/26",
-            "price": 29000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 29000
-  },
-  {
     "key": "2025年週刊少年ジャンプ19号応募者全員サ-ビス_【未開封】wj豪華作家陣描き下ろしセット",
     "name": "【未開封】WJ豪華作家陣描き下ろしセット",
     "modelNo": "2025年週刊少年ジャンプ19号応募者全員サ-ビス",
@@ -40934,6 +40702,74 @@
       }
     },
     "bestShopId": "cardrush",
+    "latestPrice": 28000
+  },
+  {
+    "key": "op06-101_おナミ【r】【sp】【パラレル】【黄】【op06-101】",
+    "name": "おナミ 【R】【SP】【パラレル】【黄】【OP06-101】",
+    "modelNo": "OP06-101",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP06-101_p2.jpeg",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 25000
+      },
+      {
+        "date": "2026/05/15",
+        "price": 27000
+      },
+      {
+        "date": "2026/05/17",
+        "price": 28000
+      },
+      {
+        "date": "2026/05/19",
+        "price": 25000
+      },
+      {
+        "date": "2026/05/26",
+        "price": 29000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 28000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 28000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP06-101_p2.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 25000
+          },
+          {
+            "date": "2026/05/15",
+            "price": 27000
+          },
+          {
+            "date": "2026/05/17",
+            "price": 28000
+          },
+          {
+            "date": "2026/05/19",
+            "price": 25000
+          },
+          {
+            "date": "2026/05/26",
+            "price": 29000
+          },
+          {
+            "date": "2026/05/28",
+            "price": 28000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
     "latestPrice": 28000
   },
   {
@@ -43553,6 +43389,66 @@
     "latestPrice": 25000
   },
   {
+    "key": "st21-015_ロロノア・ゾロ【sr】【パラレル】【プロモ】【未開封】【フラッグシップバトル】【赤】【st21-015】",
+    "name": "ロロノア・ゾロ 【SR】【パラレル】【プロモ】【未開封】【フラッグシップバトル】【赤】【ST21-015】",
+    "modelNo": "ST21-015",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/ST21-015_p2.png",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 16000
+      },
+      {
+        "date": "2026/05/15",
+        "price": 25000
+      },
+      {
+        "date": "2026/05/20",
+        "price": 20000
+      },
+      {
+        "date": "2026/05/27",
+        "price": 23000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 25000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 25000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST21-015_p2.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 16000
+          },
+          {
+            "date": "2026/05/15",
+            "price": 25000
+          },
+          {
+            "date": "2026/05/20",
+            "price": 20000
+          },
+          {
+            "date": "2026/05/27",
+            "price": 23000
+          },
+          {
+            "date": "2026/05/28",
+            "price": 25000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 25000
+  },
+  {
     "key": "st29-001_モンキー・ｄ・ルフィ【リーダーパラレル】【スタートデッキegghead】【黄】【st29-001】",
     "name": "モンキー・Ｄ・ルフィ 【リーダーパラレル】【スタートデッキ EGGHEAD】【黄】【ST29-001】",
     "modelNo": "ST29-001",
@@ -44673,50 +44569,6 @@
     "latestPrice": 24000
   },
   {
-    "key": "op01-016_ナミ【r】【sp】【パラレル】【赤】【op01-016】",
-    "name": "ナミ 【R】【SP】【パラレル】【赤】【OP01-016】",
-    "modelNo": "OP01-016",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP01-016_p4.jpeg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 18000
-      },
-      {
-        "date": "2026/05/15",
-        "price": 20000
-      },
-      {
-        "date": "2026/05/26",
-        "price": 24000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 24000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-016_p4.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 18000
-          },
-          {
-            "date": "2026/05/15",
-            "price": 20000
-          },
-          {
-            "date": "2026/05/26",
-            "price": 24000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 24000
-  },
-  {
     "key": "op09-004_シャンクス【sr】【sp】【手配書】【パラレル】【赤】【op09-004】",
     "name": "シャンクス 【SR】【SP】【手配書】【パラレル】【赤】【OP09-004】",
     "modelNo": "OP09-004",
@@ -45098,6 +44950,58 @@
       }
     },
     "bestShopId": "cardrush",
+    "latestPrice": 23000
+  },
+  {
+    "key": "op01-016_ナミ【r】【sp】【パラレル】【赤】【op01-016】",
+    "name": "ナミ 【R】【SP】【パラレル】【赤】【OP01-016】",
+    "modelNo": "OP01-016",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP01-016_p4.jpeg",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 18000
+      },
+      {
+        "date": "2026/05/15",
+        "price": 20000
+      },
+      {
+        "date": "2026/05/26",
+        "price": 24000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 23000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 23000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-016_p4.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 18000
+          },
+          {
+            "date": "2026/05/15",
+            "price": 20000
+          },
+          {
+            "date": "2026/05/26",
+            "price": 24000
+          },
+          {
+            "date": "2026/05/28",
+            "price": 23000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
     "latestPrice": 23000
   },
   {
@@ -45690,58 +45594,6 @@
       }
     },
     "bestShopId": "cardrush",
-    "latestPrice": 23000
-  },
-  {
-    "key": "st21-015_ロロノア・ゾロ【sr】【パラレル】【プロモ】【未開封】【フラッグシップバトル】【赤】【st21-015】",
-    "name": "ロロノア・ゾロ 【SR】【パラレル】【プロモ】【未開封】【フラッグシップバトル】【赤】【ST21-015】",
-    "modelNo": "ST21-015",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/ST21-015_p2.png",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 16000
-      },
-      {
-        "date": "2026/05/15",
-        "price": 25000
-      },
-      {
-        "date": "2026/05/20",
-        "price": 20000
-      },
-      {
-        "date": "2026/05/27",
-        "price": 23000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 23000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST21-015_p2.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 16000
-          },
-          {
-            "date": "2026/05/15",
-            "price": 25000
-          },
-          {
-            "date": "2026/05/20",
-            "price": 20000
-          },
-          {
-            "date": "2026/05/27",
-            "price": 23000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
     "latestPrice": 23000
   },
   {
@@ -46446,6 +46298,66 @@
       }
     },
     "bestShopId": "mercard",
+    "latestPrice": 22000
+  },
+  {
+    "key": "st18-002_おナミ【c】【パラレル】【プロモ】【8パックバトル】【紫】【st18-002】",
+    "name": "おナミ 【C】【パラレル】【プロモ】【8パックバトル】【紫】【ST18-002】",
+    "modelNo": "ST18-002",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/ST18-002_p1.png",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 13000
+      },
+      {
+        "date": "2026/05/15",
+        "price": 15000
+      },
+      {
+        "date": "2026/05/17",
+        "price": 16000
+      },
+      {
+        "date": "2026/05/22",
+        "price": 20000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 22000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 22000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST18-002_p1.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 13000
+          },
+          {
+            "date": "2026/05/15",
+            "price": 15000
+          },
+          {
+            "date": "2026/05/17",
+            "price": 16000
+          },
+          {
+            "date": "2026/05/22",
+            "price": 20000
+          },
+          {
+            "date": "2026/05/28",
+            "price": 22000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
     "latestPrice": 22000
   },
   {
@@ -49466,58 +49378,6 @@
       }
     },
     "bestShopId": "cardrush",
-    "latestPrice": 20000
-  },
-  {
-    "key": "st18-002_おナミ【c】【パラレル】【プロモ】【8パックバトル】【紫】【st18-002】",
-    "name": "おナミ 【C】【パラレル】【プロモ】【8パックバトル】【紫】【ST18-002】",
-    "modelNo": "ST18-002",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/ST18-002_p1.png",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 13000
-      },
-      {
-        "date": "2026/05/15",
-        "price": 15000
-      },
-      {
-        "date": "2026/05/17",
-        "price": 16000
-      },
-      {
-        "date": "2026/05/22",
-        "price": 20000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 20000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST18-002_p1.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 13000
-          },
-          {
-            "date": "2026/05/15",
-            "price": 15000
-          },
-          {
-            "date": "2026/05/17",
-            "price": 16000
-          },
-          {
-            "date": "2026/05/22",
-            "price": 20000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
     "latestPrice": 20000
   },
   {
@@ -62997,6 +62857,66 @@
     "latestPrice": 12000
   },
   {
+    "key": "op05-062_おナミ【asia】【uc】【パラレル】【プロモ】【treasurechestvol.1】【紫】【op05-062】",
+    "name": "おナミ 【ASIA】【UC】【パラレル】【プロモ】【Treasure Chest vol.1】【紫】【OP05-062】",
+    "modelNo": "OP05-062",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP05-062_x1.jpg",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 5000
+      },
+      {
+        "date": "2026/05/17",
+        "price": 5500
+      },
+      {
+        "date": "2026/05/20",
+        "price": 6000
+      },
+      {
+        "date": "2026/05/22",
+        "price": 10000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 12000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 12000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP05-062_x1.jpg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 5000
+          },
+          {
+            "date": "2026/05/17",
+            "price": 5500
+          },
+          {
+            "date": "2026/05/20",
+            "price": 6000
+          },
+          {
+            "date": "2026/05/22",
+            "price": 10000
+          },
+          {
+            "date": "2026/05/28",
+            "price": 12000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 12000
+  },
+  {
     "key": "op05-091_レベッカ【sr】【sp】【パラレル】【黒】【op05-091】",
     "name": "レベッカ 【SR】【SP】【パラレル】【黒】【OP05-091】",
     "modelNo": "OP05-091",
@@ -65506,74 +65426,6 @@
       }
     },
     "bestShopId": "cardrush",
-    "latestPrice": 11000
-  },
-  {
-    "key": "op11-054_ナミ【sr】【パラレル】【プロモ】【3rdanniversaryset】【青】【op11-054】",
-    "name": "ナミ 【SR】【パラレル】【プロモ】【3rd ANNIVERSARY SET】【青】【OP11-054】",
-    "modelNo": "OP11-054",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP11-054_p2.jpg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 7500
-      },
-      {
-        "date": "2026/05/15",
-        "price": 10000
-      },
-      {
-        "date": "2026/05/19",
-        "price": 9000
-      },
-      {
-        "date": "2026/05/20",
-        "price": 9500
-      },
-      {
-        "date": "2026/05/22",
-        "price": 10000
-      },
-      {
-        "date": "2026/05/26",
-        "price": 11000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 11000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP11-054_p2.jpg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 7500
-          },
-          {
-            "date": "2026/05/15",
-            "price": 10000
-          },
-          {
-            "date": "2026/05/19",
-            "price": 9000
-          },
-          {
-            "date": "2026/05/20",
-            "price": 9500
-          },
-          {
-            "date": "2026/05/22",
-            "price": 10000
-          },
-          {
-            "date": "2026/05/26",
-            "price": 11000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
     "latestPrice": 11000
   },
   {
@@ -69701,58 +69553,6 @@
     "latestPrice": 10000
   },
   {
-    "key": "op05-062_おナミ【asia】【uc】【パラレル】【プロモ】【treasurechestvol.1】【紫】【op05-062】",
-    "name": "おナミ 【ASIA】【UC】【パラレル】【プロモ】【Treasure Chest vol.1】【紫】【OP05-062】",
-    "modelNo": "OP05-062",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP05-062_x1.jpg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 5000
-      },
-      {
-        "date": "2026/05/17",
-        "price": 5500
-      },
-      {
-        "date": "2026/05/20",
-        "price": 6000
-      },
-      {
-        "date": "2026/05/22",
-        "price": 10000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 10000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP05-062_x1.jpg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 5000
-          },
-          {
-            "date": "2026/05/17",
-            "price": 5500
-          },
-          {
-            "date": "2026/05/20",
-            "price": 6000
-          },
-          {
-            "date": "2026/05/22",
-            "price": 10000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 10000
-  },
-  {
     "key": "op05-119_モンキー・d・ルフィ(illust:tatsuya)",
     "name": "モンキー・D・ルフィ(illust:tatsuya)",
     "modelNo": "OP05-119",
@@ -70394,6 +70194,82 @@
       }
     },
     "bestShopId": "cardrush",
+    "latestPrice": 10000
+  },
+  {
+    "key": "op11-054_ナミ【sr】【パラレル】【プロモ】【3rdanniversaryset】【青】【op11-054】",
+    "name": "ナミ 【SR】【パラレル】【プロモ】【3rd ANNIVERSARY SET】【青】【OP11-054】",
+    "modelNo": "OP11-054",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP11-054_p2.jpg",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 7500
+      },
+      {
+        "date": "2026/05/15",
+        "price": 10000
+      },
+      {
+        "date": "2026/05/19",
+        "price": 9000
+      },
+      {
+        "date": "2026/05/20",
+        "price": 9500
+      },
+      {
+        "date": "2026/05/22",
+        "price": 10000
+      },
+      {
+        "date": "2026/05/26",
+        "price": 11000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 10000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 10000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP11-054_p2.jpg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 7500
+          },
+          {
+            "date": "2026/05/15",
+            "price": 10000
+          },
+          {
+            "date": "2026/05/19",
+            "price": 9000
+          },
+          {
+            "date": "2026/05/20",
+            "price": 9500
+          },
+          {
+            "date": "2026/05/22",
+            "price": 10000
+          },
+          {
+            "date": "2026/05/26",
+            "price": 11000
+          },
+          {
+            "date": "2026/05/28",
+            "price": 10000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
     "latestPrice": 10000
   },
   {
@@ -75369,6 +75245,82 @@
     "latestPrice": 9000
   },
   {
+    "key": "op15-060_エネル【sr】【パラレル】【プロモ】【未開封】【紫】【op15-060】",
+    "name": "エネル 【SR】【パラレル】【プロモ】【未開封】【紫】【OP15-060】",
+    "modelNo": "OP15-060",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP15-060_p2.png",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 5000
+      },
+      {
+        "date": "2026/05/15",
+        "price": 6000
+      },
+      {
+        "date": "2026/05/17",
+        "price": 5000
+      },
+      {
+        "date": "2026/05/19",
+        "price": 6000
+      },
+      {
+        "date": "2026/05/24",
+        "price": 6500
+      },
+      {
+        "date": "2026/05/27",
+        "price": 7500
+      },
+      {
+        "date": "2026/05/28",
+        "price": 9000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 9000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP15-060_p2.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 5000
+          },
+          {
+            "date": "2026/05/15",
+            "price": 6000
+          },
+          {
+            "date": "2026/05/17",
+            "price": 5000
+          },
+          {
+            "date": "2026/05/19",
+            "price": 6000
+          },
+          {
+            "date": "2026/05/24",
+            "price": 6500
+          },
+          {
+            "date": "2026/05/27",
+            "price": 7500
+          },
+          {
+            "date": "2026/05/28",
+            "price": 9000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 9000
+  },
+  {
     "key": "p-105_サボ【p】【sp】【パラレル】【黒】【p-105】",
     "name": "サボ 【P】【SP】【パラレル】【黒】【P-105】",
     "modelNo": "P-105",
@@ -77833,66 +77785,6 @@
     "latestPrice": 8500
   },
   {
-    "key": "op11-041_ナミ【リーダーパラレル】【青】【黄】【op11-041】",
-    "name": "ナミ 【リーダーパラレル】【青】【黄】【OP11-041】",
-    "modelNo": "OP11-041",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP11-041_p1.png",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 5000
-      },
-      {
-        "date": "2026/05/15",
-        "price": 7000
-      },
-      {
-        "date": "2026/05/20",
-        "price": 7500
-      },
-      {
-        "date": "2026/05/22",
-        "price": 8000
-      },
-      {
-        "date": "2026/05/26",
-        "price": 8500
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 8500,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP11-041_p1.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 5000
-          },
-          {
-            "date": "2026/05/15",
-            "price": 7000
-          },
-          {
-            "date": "2026/05/20",
-            "price": 7500
-          },
-          {
-            "date": "2026/05/22",
-            "price": 8000
-          },
-          {
-            "date": "2026/05/26",
-            "price": 8500
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 8500
-  },
-  {
     "key": "p-105[op15]_サボ(パラレル/sp/悪魔の実模様)",
     "name": "サボ(パラレル/SP/悪魔の実模様)",
     "modelNo": "P-105[OP15]",
@@ -80046,6 +79938,74 @@
       }
     },
     "bestShopId": "cardrush",
+    "latestPrice": 8000
+  },
+  {
+    "key": "op11-041_ナミ【リーダーパラレル】【青】【黄】【op11-041】",
+    "name": "ナミ 【リーダーパラレル】【青】【黄】【OP11-041】",
+    "modelNo": "OP11-041",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP11-041_p1.png",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 5000
+      },
+      {
+        "date": "2026/05/15",
+        "price": 7000
+      },
+      {
+        "date": "2026/05/20",
+        "price": 7500
+      },
+      {
+        "date": "2026/05/22",
+        "price": 8000
+      },
+      {
+        "date": "2026/05/26",
+        "price": 8500
+      },
+      {
+        "date": "2026/05/28",
+        "price": 8000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 8000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP11-041_p1.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 5000
+          },
+          {
+            "date": "2026/05/15",
+            "price": 7000
+          },
+          {
+            "date": "2026/05/20",
+            "price": 7500
+          },
+          {
+            "date": "2026/05/22",
+            "price": 8000
+          },
+          {
+            "date": "2026/05/26",
+            "price": 8500
+          },
+          {
+            "date": "2026/05/28",
+            "price": 8000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
     "latestPrice": 8000
   },
   {
@@ -83077,6 +83037,74 @@
     "latestPrice": 7500
   },
   {
+    "key": "op10-033_ナミ【uc】【パラレル】【プロモ】【応募者全員サービス】【緑】【op10-033】",
+    "name": "ナミ 【UC】【パラレル】【プロモ】【応募者全員サービス】【緑】【OP10-033】",
+    "modelNo": "OP10-033",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP10-033_p1.png",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 5500
+      },
+      {
+        "date": "2026/05/15",
+        "price": 6000
+      },
+      {
+        "date": "2026/05/19",
+        "price": 5500
+      },
+      {
+        "date": "2026/05/20",
+        "price": 5000
+      },
+      {
+        "date": "2026/05/26",
+        "price": 7000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 7500
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 7500,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP10-033_p1.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 5500
+          },
+          {
+            "date": "2026/05/15",
+            "price": 6000
+          },
+          {
+            "date": "2026/05/19",
+            "price": 5500
+          },
+          {
+            "date": "2026/05/20",
+            "price": 5000
+          },
+          {
+            "date": "2026/05/26",
+            "price": 7000
+          },
+          {
+            "date": "2026/05/28",
+            "price": 7500
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 7500
+  },
+  {
     "key": "op14-033_ペローナ(未開封/illust:nuisuke)",
     "name": "ペローナ(未開封/illust:nuisuke)",
     "modelNo": "OP14-033",
@@ -83118,6 +83146,82 @@
       }
     },
     "bestShopId": "cardrush",
+    "latestPrice": 7500
+  },
+  {
+    "key": "op14-033_ペローナ【sr】【パラレル】【プロモ】【未開封】【シリアル】【エクストラグランドバトル】【緑】【op14-033】",
+    "name": "ペローナ 【SR】【パラレル】【プロモ】【未開封】【シリアル】【エクストラグランドバトル】【緑】【OP14-033】",
+    "modelNo": "OP14-033",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP14-033_p2.png",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 6000
+      },
+      {
+        "date": "2026/05/15",
+        "price": 6500
+      },
+      {
+        "date": "2026/05/19",
+        "price": 6000
+      },
+      {
+        "date": "2026/05/20",
+        "price": 7000
+      },
+      {
+        "date": "2026/05/22",
+        "price": 7500
+      },
+      {
+        "date": "2026/05/23",
+        "price": 7000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 7500
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 7500,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP14-033_p2.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 6000
+          },
+          {
+            "date": "2026/05/15",
+            "price": 6500
+          },
+          {
+            "date": "2026/05/19",
+            "price": 6000
+          },
+          {
+            "date": "2026/05/20",
+            "price": 7000
+          },
+          {
+            "date": "2026/05/22",
+            "price": 7500
+          },
+          {
+            "date": "2026/05/23",
+            "price": 7000
+          },
+          {
+            "date": "2026/05/28",
+            "price": 7500
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
     "latestPrice": 7500
   },
   {
@@ -83230,74 +83334,6 @@
       }
     },
     "bestShopId": "cardrush",
-    "latestPrice": 7500
-  },
-  {
-    "key": "op15-060_エネル【sr】【パラレル】【プロモ】【未開封】【紫】【op15-060】",
-    "name": "エネル 【SR】【パラレル】【プロモ】【未開封】【紫】【OP15-060】",
-    "modelNo": "OP15-060",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP15-060_p2.png",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 5000
-      },
-      {
-        "date": "2026/05/15",
-        "price": 6000
-      },
-      {
-        "date": "2026/05/17",
-        "price": 5000
-      },
-      {
-        "date": "2026/05/19",
-        "price": 6000
-      },
-      {
-        "date": "2026/05/24",
-        "price": 6500
-      },
-      {
-        "date": "2026/05/27",
-        "price": 7500
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 7500,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP15-060_p2.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 5000
-          },
-          {
-            "date": "2026/05/15",
-            "price": 6000
-          },
-          {
-            "date": "2026/05/17",
-            "price": 5000
-          },
-          {
-            "date": "2026/05/19",
-            "price": 6000
-          },
-          {
-            "date": "2026/05/24",
-            "price": 6500
-          },
-          {
-            "date": "2026/05/27",
-            "price": 7500
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
     "latestPrice": 7500
   },
   {
@@ -86365,66 +86401,6 @@
     "latestPrice": 7000
   },
   {
-    "key": "op10-033_ナミ【uc】【パラレル】【プロモ】【応募者全員サービス】【緑】【op10-033】",
-    "name": "ナミ 【UC】【パラレル】【プロモ】【応募者全員サービス】【緑】【OP10-033】",
-    "modelNo": "OP10-033",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP10-033_p1.png",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 5500
-      },
-      {
-        "date": "2026/05/15",
-        "price": 6000
-      },
-      {
-        "date": "2026/05/19",
-        "price": 5500
-      },
-      {
-        "date": "2026/05/20",
-        "price": 5000
-      },
-      {
-        "date": "2026/05/26",
-        "price": 7000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 7000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP10-033_p1.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 5500
-          },
-          {
-            "date": "2026/05/15",
-            "price": 6000
-          },
-          {
-            "date": "2026/05/19",
-            "price": 5500
-          },
-          {
-            "date": "2026/05/20",
-            "price": 5000
-          },
-          {
-            "date": "2026/05/26",
-            "price": 7000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 7000
-  },
-  {
     "key": "op10-049_サボ(judge)",
     "name": "サボ(JUDGE)",
     "modelNo": "OP10-049",
@@ -86486,74 +86462,6 @@
       }
     },
     "bestShopId": "cardrush",
-    "latestPrice": 7000
-  },
-  {
-    "key": "op14-033_ペローナ【sr】【パラレル】【プロモ】【未開封】【シリアル】【エクストラグランドバトル】【緑】【op14-033】",
-    "name": "ペローナ 【SR】【パラレル】【プロモ】【未開封】【シリアル】【エクストラグランドバトル】【緑】【OP14-033】",
-    "modelNo": "OP14-033",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP14-033_p2.png",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 6000
-      },
-      {
-        "date": "2026/05/15",
-        "price": 6500
-      },
-      {
-        "date": "2026/05/19",
-        "price": 6000
-      },
-      {
-        "date": "2026/05/20",
-        "price": 7000
-      },
-      {
-        "date": "2026/05/22",
-        "price": 7500
-      },
-      {
-        "date": "2026/05/23",
-        "price": 7000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 7000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP14-033_p2.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 6000
-          },
-          {
-            "date": "2026/05/15",
-            "price": 6500
-          },
-          {
-            "date": "2026/05/19",
-            "price": 6000
-          },
-          {
-            "date": "2026/05/20",
-            "price": 7000
-          },
-          {
-            "date": "2026/05/22",
-            "price": 7500
-          },
-          {
-            "date": "2026/05/23",
-            "price": 7000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
     "latestPrice": 7000
   },
   {
@@ -91412,6 +91320,50 @@
           },
           {
             "date": "2026/05/27",
+            "price": 6500
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 6500
+  },
+  {
+    "key": "op14-031_ナミ【sr】【パラレル】【緑】【op14-031】",
+    "name": "ナミ 【SR】【パラレル】【緑】【OP14-031】",
+    "modelNo": "OP14-031",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP14-031_p1.png",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 4000
+      },
+      {
+        "date": "2026/05/26",
+        "price": 5500
+      },
+      {
+        "date": "2026/05/28",
+        "price": 6500
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 6500,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP14-031_p1.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 4000
+          },
+          {
+            "date": "2026/05/26",
+            "price": 5500
+          },
+          {
+            "date": "2026/05/28",
             "price": 6500
           }
         ]
@@ -98649,42 +98601,6 @@
     "latestPrice": 5500
   },
   {
-    "key": "op14-031_ナミ【sr】【パラレル】【緑】【op14-031】",
-    "name": "ナミ 【SR】【パラレル】【緑】【OP14-031】",
-    "modelNo": "OP14-031",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP14-031_p1.png",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 4000
-      },
-      {
-        "date": "2026/05/26",
-        "price": 5500
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 5500,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP14-031_p1.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 4000
-          },
-          {
-            "date": "2026/05/26",
-            "price": 5500
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 5500
-  },
-  {
     "key": "soundloadervolume.1版op05-060_モンキー・d・ルフィ【プロモ】《紫》未開封",
     "name": "モンキー・D・ルフィ【プロモ】《紫》未開封",
     "modelNo": "SOUND LOADER Volume.1版OP05-060",
@@ -103390,42 +103306,6 @@
       }
     },
     "bestShopId": "cardrush",
-    "latestPrice": 5000
-  },
-  {
-    "key": "op13-119_ポートガス・ｄ・エース【シークレット】【パラレル】【青】【op13-119】",
-    "name": "ポートガス・Ｄ・エース 【シークレット】【パラレル】【青】【OP13-119】",
-    "modelNo": "OP13-119",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP13-119_p1.png",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 3300
-      },
-      {
-        "date": "2026/05/27",
-        "price": 5000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 5000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-119_p1.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 3300
-          },
-          {
-            "date": "2026/05/27",
-            "price": 5000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
     "latestPrice": 5000
   },
   {
@@ -108572,6 +108452,50 @@
         "history": [
           {
             "date": "2026/05/15",
+            "price": 4500
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 4500
+  },
+  {
+    "key": "op13-119_ポートガス・ｄ・エース【シークレット】【パラレル】【青】【op13-119】",
+    "name": "ポートガス・Ｄ・エース 【シークレット】【パラレル】【青】【OP13-119】",
+    "modelNo": "OP13-119",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP13-119_p1.png",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 3300
+      },
+      {
+        "date": "2026/05/27",
+        "price": 5000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 4500
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 4500,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-119_p1.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 3300
+          },
+          {
+            "date": "2026/05/27",
+            "price": 5000
+          },
+          {
+            "date": "2026/05/28",
             "price": 4500
           }
         ]
@@ -122649,6 +122573,74 @@
     "latestPrice": 3500
   },
   {
+    "key": "op09-070_ナミ【uc】【パラレル】【プロモ】【プレミアムカードコレクションベストセレクションvol.4】【紫】【op09-070】",
+    "name": "ナミ 【UC】【パラレル】【プロモ】【プレミアムカードコレクション ベストセレクション vol.4】【紫】【OP09-070】",
+    "modelNo": "OP09-070",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP09-070_p1.png",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 1200
+      },
+      {
+        "date": "2026/05/17",
+        "price": 1500
+      },
+      {
+        "date": "2026/05/20",
+        "price": 1800
+      },
+      {
+        "date": "2026/05/22",
+        "price": 2500
+      },
+      {
+        "date": "2026/05/26",
+        "price": 3000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 3500
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 3500,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-070_p1.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 1200
+          },
+          {
+            "date": "2026/05/17",
+            "price": 1500
+          },
+          {
+            "date": "2026/05/20",
+            "price": 1800
+          },
+          {
+            "date": "2026/05/22",
+            "price": 2500
+          },
+          {
+            "date": "2026/05/26",
+            "price": 3000
+          },
+          {
+            "date": "2026/05/28",
+            "price": 3500
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 3500
+  },
+  {
     "key": "op09-118_ゴール・d・ロジャー【シークレット】【パラレル】【赤】【op09-118】",
     "name": "ゴール・D・ロジャー 【シークレット】【パラレル】【赤】【OP09-118】",
     "modelNo": "OP09-118",
@@ -130185,66 +130177,6 @@
     "latestPrice": 3000
   },
   {
-    "key": "op09-070_ナミ【uc】【パラレル】【プロモ】【プレミアムカードコレクションベストセレクションvol.4】【紫】【op09-070】",
-    "name": "ナミ 【UC】【パラレル】【プロモ】【プレミアムカードコレクション ベストセレクション vol.4】【紫】【OP09-070】",
-    "modelNo": "OP09-070",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP09-070_p1.png",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 1200
-      },
-      {
-        "date": "2026/05/17",
-        "price": 1500
-      },
-      {
-        "date": "2026/05/20",
-        "price": 1800
-      },
-      {
-        "date": "2026/05/22",
-        "price": 2500
-      },
-      {
-        "date": "2026/05/26",
-        "price": 3000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 3000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-070_p1.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 1200
-          },
-          {
-            "date": "2026/05/17",
-            "price": 1500
-          },
-          {
-            "date": "2026/05/20",
-            "price": 1800
-          },
-          {
-            "date": "2026/05/22",
-            "price": 2500
-          },
-          {
-            "date": "2026/05/26",
-            "price": 3000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 3000
-  },
-  {
     "key": "op10-042_ウソップ(illust:misatsutsui)",
     "name": "ウソップ(illust:Misa Tsutsui)",
     "modelNo": "OP10-042",
@@ -135917,6 +135849,58 @@
     "latestPrice": 3000
   },
   {
+    "key": "op08-106_ナミ【sr】【パラレル】【黄】【op08-106】",
+    "name": "ナミ 【SR】【パラレル】【黄】【OP08-106】",
+    "modelNo": "OP08-106",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP08-106_p1.jpeg",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 1200
+      },
+      {
+        "date": "2026/05/17",
+        "price": 1500
+      },
+      {
+        "date": "2026/05/26",
+        "price": 2300
+      },
+      {
+        "date": "2026/05/28",
+        "price": 2800
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 2800,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP08-106_p1.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 1200
+          },
+          {
+            "date": "2026/05/17",
+            "price": 1500
+          },
+          {
+            "date": "2026/05/26",
+            "price": 2300
+          },
+          {
+            "date": "2026/05/28",
+            "price": 2800
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 2800
+  },
+  {
     "key": "op12-071_シャーロット・プリン(illust:naruseuroko)",
     "name": "シャーロット・プリン(illust:Naruse Uroko)",
     "modelNo": "OP12-071",
@@ -139549,58 +139533,6 @@
     "latestPrice": 2500
   },
   {
-    "key": "op01-016_ナミ【r】【パラレル】【プロモ】【プレミアムカードコレクション25周年エディション】【赤】【op01-016】",
-    "name": "ナミ 【R】【パラレル】【プロモ】【プレミアムカードコレクション 25周年エディション】【赤】【OP01-016】",
-    "modelNo": "OP01-016",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP01-016_p1.jpeg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 2000
-      },
-      {
-        "date": "2026/05/16",
-        "price": 1000
-      },
-      {
-        "date": "2026/05/17",
-        "price": 2000
-      },
-      {
-        "date": "2026/05/20",
-        "price": 2500
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 2500,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-016_p1.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 2000
-          },
-          {
-            "date": "2026/05/16",
-            "price": 1000
-          },
-          {
-            "date": "2026/05/17",
-            "price": 2000
-          },
-          {
-            "date": "2026/05/20",
-            "price": 2500
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 2500
-  },
-  {
     "key": "op01-078_ボア・ハンコック(パラレル/illust:shinraagencyco.ltd.)",
     "name": "ボア・ハンコック(パラレル/illust:SHINRA AGENCY Co.Ltd.)",
     "modelNo": "OP01-078",
@@ -140422,6 +140354,74 @@
       }
     },
     "bestShopId": "cardrush",
+    "latestPrice": 2500
+  },
+  {
+    "key": "op06-101_おナミ【r】【パラレル】【プロモ】【2ndanniversarycompleteguide】【黄】【op06-101】",
+    "name": "おナミ 【R】【パラレル】【プロモ】【2nd ANNIVERSARY COMPLETE GUIDE】【黄】【OP06-101】",
+    "modelNo": "OP06-101",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP06-101_p3.jpeg",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 2000
+      },
+      {
+        "date": "2026/05/17",
+        "price": 2300
+      },
+      {
+        "date": "2026/05/19",
+        "price": 2000
+      },
+      {
+        "date": "2026/05/20",
+        "price": 2500
+      },
+      {
+        "date": "2026/05/26",
+        "price": 2300
+      },
+      {
+        "date": "2026/05/28",
+        "price": 2500
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 2500,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP06-101_p3.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 2000
+          },
+          {
+            "date": "2026/05/17",
+            "price": 2300
+          },
+          {
+            "date": "2026/05/19",
+            "price": 2000
+          },
+          {
+            "date": "2026/05/20",
+            "price": 2500
+          },
+          {
+            "date": "2026/05/26",
+            "price": 2300
+          },
+          {
+            "date": "2026/05/28",
+            "price": 2500
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
     "latestPrice": 2500
   },
   {
@@ -141496,6 +141496,66 @@
           },
           {
             "date": "2026/05/27",
+            "price": 2500
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 2500
+  },
+  {
+    "key": "prb02-012_ナミ【prb-02】【r】【パラレル】【紫】【prb02-012】",
+    "name": "ナミ 【PRB-02】【R】【パラレル】【紫】【PRB02-012】",
+    "modelNo": "PRB02-012",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/PRB02-012_p1.png",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 1300
+      },
+      {
+        "date": "2026/05/15",
+        "price": 1500
+      },
+      {
+        "date": "2026/05/22",
+        "price": 1800
+      },
+      {
+        "date": "2026/05/26",
+        "price": 2200
+      },
+      {
+        "date": "2026/05/28",
+        "price": 2500
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 2500,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/PRB02-012_p1.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 1300
+          },
+          {
+            "date": "2026/05/15",
+            "price": 1500
+          },
+          {
+            "date": "2026/05/22",
+            "price": 1800
+          },
+          {
+            "date": "2026/05/26",
+            "price": 2200
+          },
+          {
+            "date": "2026/05/28",
             "price": 2500
           }
         ]
@@ -148017,66 +148077,6 @@
     "latestPrice": 2300
   },
   {
-    "key": "op06-101_おナミ【r】【パラレル】【プロモ】【2ndanniversarycompleteguide】【黄】【op06-101】",
-    "name": "おナミ 【R】【パラレル】【プロモ】【2nd ANNIVERSARY COMPLETE GUIDE】【黄】【OP06-101】",
-    "modelNo": "OP06-101",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP06-101_p3.jpeg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 2000
-      },
-      {
-        "date": "2026/05/17",
-        "price": 2300
-      },
-      {
-        "date": "2026/05/19",
-        "price": 2000
-      },
-      {
-        "date": "2026/05/20",
-        "price": 2500
-      },
-      {
-        "date": "2026/05/26",
-        "price": 2300
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 2300,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP06-101_p3.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 2000
-          },
-          {
-            "date": "2026/05/17",
-            "price": 2300
-          },
-          {
-            "date": "2026/05/19",
-            "price": 2000
-          },
-          {
-            "date": "2026/05/20",
-            "price": 2500
-          },
-          {
-            "date": "2026/05/26",
-            "price": 2300
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 2300
-  },
-  {
     "key": "op07-019_ジュエリー・ボニー(未開封/金文字/漫画絵)",
     "name": "ジュエリー・ボニー(未開封/金文字/漫画絵)",
     "modelNo": "OP07-019",
@@ -148137,50 +148137,6 @@
           {
             "date": "2026/05/14",
             "price": 1200
-          },
-          {
-            "date": "2026/05/26",
-            "price": 2300
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 2300
-  },
-  {
-    "key": "op08-106_ナミ【sr】【パラレル】【黄】【op08-106】",
-    "name": "ナミ 【SR】【パラレル】【黄】【OP08-106】",
-    "modelNo": "OP08-106",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP08-106_p1.jpeg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 1200
-      },
-      {
-        "date": "2026/05/17",
-        "price": 1500
-      },
-      {
-        "date": "2026/05/26",
-        "price": 2300
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 2300,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP08-106_p1.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 1200
-          },
-          {
-            "date": "2026/05/17",
-            "price": 1500
           },
           {
             "date": "2026/05/26",
@@ -150582,58 +150538,6 @@
       }
     },
     "bestShopId": "cardrush",
-    "latestPrice": 2200
-  },
-  {
-    "key": "prb02-012_ナミ【prb-02】【r】【パラレル】【紫】【prb02-012】",
-    "name": "ナミ 【PRB-02】【R】【パラレル】【紫】【PRB02-012】",
-    "modelNo": "PRB02-012",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/PRB02-012_p1.png",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 1300
-      },
-      {
-        "date": "2026/05/15",
-        "price": 1500
-      },
-      {
-        "date": "2026/05/22",
-        "price": 1800
-      },
-      {
-        "date": "2026/05/26",
-        "price": 2200
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 2200,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/PRB02-012_p1.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 1300
-          },
-          {
-            "date": "2026/05/15",
-            "price": 1500
-          },
-          {
-            "date": "2026/05/22",
-            "price": 1800
-          },
-          {
-            "date": "2026/05/26",
-            "price": 2200
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
     "latestPrice": 2200
   },
   {
@@ -153981,66 +153885,6 @@
     "latestPrice": 2000
   },
   {
-    "key": "eb02-017_ナミ【r】【パラレル】【緑】【eb02-017】",
-    "name": "ナミ 【R】【パラレル】【緑】【EB02-017】",
-    "modelNo": "EB02-017",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/EB02-017_p1.png",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 1500
-      },
-      {
-        "date": "2026/05/15",
-        "price": 2000
-      },
-      {
-        "date": "2026/05/19",
-        "price": 1800
-      },
-      {
-        "date": "2026/05/24",
-        "price": 1500
-      },
-      {
-        "date": "2026/05/26",
-        "price": 2000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 2000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB02-017_p1.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 1500
-          },
-          {
-            "date": "2026/05/15",
-            "price": 2000
-          },
-          {
-            "date": "2026/05/19",
-            "price": 1800
-          },
-          {
-            "date": "2026/05/24",
-            "price": 1500
-          },
-          {
-            "date": "2026/05/26",
-            "price": 2000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 2000
-  },
-  {
     "key": "op01-001_ロロノア・ゾロ【リーダーパラレル】【プロモ】【プレミアムカードコレクション25周年エディション】【赤】【op01-001】",
     "name": "ロロノア・ゾロ 【リーダーパラレル】【プロモ】【プレミアムカードコレクション 25周年エディション】【赤】【OP01-001】",
     "modelNo": "OP01-001",
@@ -154068,6 +153912,66 @@
           },
           {
             "date": "2026/05/21",
+            "price": 2000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 2000
+  },
+  {
+    "key": "op01-016_ナミ【r】【パラレル】【プロモ】【プレミアムカードコレクション25周年エディション】【赤】【op01-016】",
+    "name": "ナミ 【R】【パラレル】【プロモ】【プレミアムカードコレクション 25周年エディション】【赤】【OP01-016】",
+    "modelNo": "OP01-016",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP01-016_p1.jpeg",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 2000
+      },
+      {
+        "date": "2026/05/16",
+        "price": 1000
+      },
+      {
+        "date": "2026/05/17",
+        "price": 2000
+      },
+      {
+        "date": "2026/05/20",
+        "price": 2500
+      },
+      {
+        "date": "2026/05/28",
+        "price": 2000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 2000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-016_p1.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 2000
+          },
+          {
+            "date": "2026/05/16",
+            "price": 1000
+          },
+          {
+            "date": "2026/05/17",
+            "price": 2000
+          },
+          {
+            "date": "2026/05/20",
+            "price": 2500
+          },
+          {
+            "date": "2026/05/28",
             "price": 2000
           }
         ]
@@ -157114,50 +157018,6 @@
       }
     },
     "bestShopId": "cardrush",
-    "latestPrice": 2000
-  },
-  {
-    "key": "st01-007_ナミ【c】【パラレル】【プロモ】【プレミアムカードコレクションfilmred】【赤】【st01-007】",
-    "name": "ナミ 【C】【パラレル】【プロモ】【プレミアムカードコレクション FILM RED】【赤】【ST01-007】",
-    "modelNo": "ST01-007",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/ST01-007_p5.jpeg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 1200
-      },
-      {
-        "date": "2026/05/20",
-        "price": 1500
-      },
-      {
-        "date": "2026/05/26",
-        "price": 2000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 2000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-007_p5.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 1200
-          },
-          {
-            "date": "2026/05/20",
-            "price": 1500
-          },
-          {
-            "date": "2026/05/26",
-            "price": 2000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
     "latestPrice": 2000
   },
   {
@@ -163273,6 +163133,74 @@
     "latestPrice": 1800
   },
   {
+    "key": "eb02-017_ナミ【r】【パラレル】【緑】【eb02-017】",
+    "name": "ナミ 【R】【パラレル】【緑】【EB02-017】",
+    "modelNo": "EB02-017",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/EB02-017_p1.png",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 1500
+      },
+      {
+        "date": "2026/05/15",
+        "price": 2000
+      },
+      {
+        "date": "2026/05/19",
+        "price": 1800
+      },
+      {
+        "date": "2026/05/24",
+        "price": 1500
+      },
+      {
+        "date": "2026/05/26",
+        "price": 2000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 1800
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 1800,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB02-017_p1.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 1500
+          },
+          {
+            "date": "2026/05/15",
+            "price": 2000
+          },
+          {
+            "date": "2026/05/19",
+            "price": 1800
+          },
+          {
+            "date": "2026/05/24",
+            "price": 1500
+          },
+          {
+            "date": "2026/05/26",
+            "price": 2000
+          },
+          {
+            "date": "2026/05/28",
+            "price": 1800
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 1800
+  },
+  {
     "key": "eb04-002_ジュエリー・ボニー(パラレル/illust:sunohara)",
     "name": "ジュエリー・ボニー(パラレル/illust:Sunohara)",
     "modelNo": "EB04-002",
@@ -164262,6 +164190,58 @@
       }
     },
     "bestShopId": "cardrush",
+    "latestPrice": 1800
+  },
+  {
+    "key": "st01-007_ナミ【c】【パラレル】【プロモ】【プレミアムカードコレクションfilmred】【赤】【st01-007】",
+    "name": "ナミ 【C】【パラレル】【プロモ】【プレミアムカードコレクション FILM RED】【赤】【ST01-007】",
+    "modelNo": "ST01-007",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/ST01-007_p5.jpeg",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 1200
+      },
+      {
+        "date": "2026/05/20",
+        "price": 1500
+      },
+      {
+        "date": "2026/05/26",
+        "price": 2000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 1800
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 1800,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-007_p5.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 1200
+          },
+          {
+            "date": "2026/05/20",
+            "price": 1500
+          },
+          {
+            "date": "2026/05/26",
+            "price": 2000
+          },
+          {
+            "date": "2026/05/28",
+            "price": 1800
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
     "latestPrice": 1800
   },
   {
@@ -201933,42 +201913,6 @@
     "latestPrice": 1100
   },
   {
-    "key": "st18-001_ウソ八【prb-02】【c】【パラレル】【紫】【st18-001】",
-    "name": "ウソ八 【PRB-02】【C】【パラレル】【紫】【ST18-001】",
-    "modelNo": "ST18-001",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/ST18-001_p2.png",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 1400
-      },
-      {
-        "date": "2026/05/22",
-        "price": 1100
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 1100,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST18-001_p2.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 1400
-          },
-          {
-            "date": "2026/05/22",
-            "price": 1100
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 1100
-  },
-  {
     "key": "st18-001_ウソ八(パラレル/illust:misamatoki)",
     "name": "ウソ八(パラレル/illust:Misa Matoki)",
     "modelNo": "ST18-001",
@@ -209253,66 +209197,6 @@
     "latestPrice": 1000
   },
   {
-    "key": "p-001_モンキー・d・ルフィ【プロモ】【キャンペーン】【赤】【p-001】",
-    "name": "モンキー・D・ルフィ 【プロモ】【キャンペーン】【赤】【P-001】",
-    "modelNo": "P-001",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/P-001_p4.jpeg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 1200
-      },
-      {
-        "date": "2026/05/15",
-        "price": 1000
-      },
-      {
-        "date": "2026/05/17",
-        "price": 800
-      },
-      {
-        "date": "2026/05/24",
-        "price": 500
-      },
-      {
-        "date": "2026/05/27",
-        "price": 1000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 1000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-001_p4.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 1200
-          },
-          {
-            "date": "2026/05/15",
-            "price": 1000
-          },
-          {
-            "date": "2026/05/17",
-            "price": 800
-          },
-          {
-            "date": "2026/05/24",
-            "price": 500
-          },
-          {
-            "date": "2026/05/27",
-            "price": 1000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 1000
-  },
-  {
     "key": "p-006_モンキー・d・ルフィ",
     "name": "モンキー・D・ルフィ",
     "modelNo": "P-006",
@@ -210128,6 +210012,50 @@
         "history": [
           {
             "date": "2026/05/21",
+            "price": 1000
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 1000
+  },
+  {
+    "key": "st18-001_ウソ八【prb-02】【c】【パラレル】【紫】【st18-001】",
+    "name": "ウソ八 【PRB-02】【C】【パラレル】【紫】【ST18-001】",
+    "modelNo": "ST18-001",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/ST18-001_p2.png",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 1400
+      },
+      {
+        "date": "2026/05/22",
+        "price": 1100
+      },
+      {
+        "date": "2026/05/28",
+        "price": 1000
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 1000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST18-001_p2.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 1400
+          },
+          {
+            "date": "2026/05/22",
+            "price": 1100
+          },
+          {
+            "date": "2026/05/28",
             "price": 1000
           }
         ]
@@ -241273,6 +241201,42 @@
     "latestPrice": 700
   },
   {
+    "key": "op09-051_バギー【r】【パラレル】【青】【op09-051】",
+    "name": "バギー 【R】【パラレル】【青】【OP09-051】",
+    "modelNo": "OP09-051",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP09-051_p1.jpeg",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 500
+      },
+      {
+        "date": "2026/05/28",
+        "price": 700
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 700,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-051_p1.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 500
+          },
+          {
+            "date": "2026/05/28",
+            "price": 700
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 700
+  },
+  {
     "key": "op09-072_フランキー【sr】【パラレル】【紫】【op09-072】",
     "name": "フランキー 【SR】【パラレル】【紫】【OP09-072】",
     "modelNo": "OP09-072",
@@ -242684,6 +242648,74 @@
           },
           {
             "date": "2026/05/27",
+            "price": 700
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 700
+  },
+  {
+    "key": "p-001_モンキー・d・ルフィ【プロモ】【キャンペーン】【赤】【p-001】",
+    "name": "モンキー・D・ルフィ 【プロモ】【キャンペーン】【赤】【P-001】",
+    "modelNo": "P-001",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/P-001_p4.jpeg",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 1200
+      },
+      {
+        "date": "2026/05/15",
+        "price": 1000
+      },
+      {
+        "date": "2026/05/17",
+        "price": 800
+      },
+      {
+        "date": "2026/05/24",
+        "price": 500
+      },
+      {
+        "date": "2026/05/27",
+        "price": 1000
+      },
+      {
+        "date": "2026/05/28",
+        "price": 700
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 700,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-001_p4.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 1200
+          },
+          {
+            "date": "2026/05/15",
+            "price": 1000
+          },
+          {
+            "date": "2026/05/17",
+            "price": 800
+          },
+          {
+            "date": "2026/05/24",
+            "price": 500
+          },
+          {
+            "date": "2026/05/27",
+            "price": 1000
+          },
+          {
+            "date": "2026/05/28",
             "price": 700
           }
         ]
@@ -274040,34 +274072,6 @@
         "shopName": "トレカード秋葉原",
         "latestPrice": 500,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-034_p2.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 500
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 500
-  },
-  {
-    "key": "op09-051_バギー【r】【パラレル】【青】【op09-051】",
-    "name": "バギー 【R】【パラレル】【青】【OP09-051】",
-    "modelNo": "OP09-051",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP09-051_p1.jpeg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 500
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 500,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-051_p1.jpeg",
         "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
         "history": [
           {
@@ -350041,6 +350045,50 @@
     "latestPrice": 200
   },
   {
+    "key": "op01-070_ジュラキュール・ミホーク【prb-01】【sr】【パラレル】【青】【op01-070】",
+    "name": "ジュラキュール・ミホーク 【PRB-01】【SR】【パラレル】【青】【OP01-070】",
+    "modelNo": "OP01-070",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP01-070_p4.jpeg",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 200
+      },
+      {
+        "date": "2026/05/23",
+        "price": 100
+      },
+      {
+        "date": "2026/05/28",
+        "price": 200
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 200,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-070_p4.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 200
+          },
+          {
+            "date": "2026/05/23",
+            "price": 100
+          },
+          {
+            "date": "2026/05/28",
+            "price": 200
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 200
+  },
+  {
     "key": "op02-013_ポートガス・d・エース【sr】《赤》",
     "name": "ポートガス・D・エース【SR】《赤》",
     "modelNo": "OP02-013",
@@ -354292,6 +354340,42 @@
         "history": [
           {
             "date": "2026/05/14",
+            "price": 200
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 200
+  },
+  {
+    "key": "p-083_シャンクス【p】【プロモ】【週刊少年ジャンプ】【赤】【p-083】",
+    "name": "シャンクス 【P】【プロモ】【週刊少年ジャンプ】【赤】【P-083】",
+    "modelNo": "P-083",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/P-083.jpeg",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 50
+      },
+      {
+        "date": "2026/05/28",
+        "price": 200
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 200,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-083.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 50
+          },
+          {
+            "date": "2026/05/28",
             "price": 200
           }
         ]
@@ -384009,42 +384093,6 @@
     "latestPrice": 100
   },
   {
-    "key": "op01-070_ジュラキュール・ミホーク【prb-01】【sr】【パラレル】【青】【op01-070】",
-    "name": "ジュラキュール・ミホーク 【PRB-01】【SR】【パラレル】【青】【OP01-070】",
-    "modelNo": "OP01-070",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP01-070_p4.jpeg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 200
-      },
-      {
-        "date": "2026/05/23",
-        "price": 100
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 100,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-070_p4.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 200
-          },
-          {
-            "date": "2026/05/23",
-            "price": 100
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 100
-  },
-  {
     "key": "op01-077_ペローナ(フルアート/foil)",
     "name": "ペローナ(フルアート/foil)",
     "modelNo": "OP01-077",
@@ -387308,34 +387356,6 @@
         "shopName": "トレカード秋葉原",
         "latestPrice": 100,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP10-082.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 100
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 100
-  },
-  {
-    "key": "op10-119_トラファルガー・ロー【シークレット】【黄】【op10-119】",
-    "name": "トラファルガー・ロー 【シークレット】【黄】【OP10-119】",
-    "modelNo": "OP10-119",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP10-119.jpeg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 100
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 100,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP10-119.jpeg",
         "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
         "history": [
           {
@@ -414521,6 +414541,42 @@
     "latestPrice": 50
   },
   {
+    "key": "op10-119_トラファルガー・ロー【シークレット】【黄】【op10-119】",
+    "name": "トラファルガー・ロー 【シークレット】【黄】【OP10-119】",
+    "modelNo": "OP10-119",
+    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP10-119.jpeg",
+    "history": [
+      {
+        "date": "2026/05/14",
+        "price": 100
+      },
+      {
+        "date": "2026/05/28",
+        "price": 50
+      }
+    ],
+    "pricesByShop": {
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 50,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP10-119.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 100
+          },
+          {
+            "date": "2026/05/28",
+            "price": 50
+          }
+        ]
+      }
+    },
+    "bestShopId": "torecard",
+    "latestPrice": 50
+  },
+  {
     "key": "op11-004_孔雀",
     "name": "孔雀",
     "modelNo": "OP11-004",
@@ -417736,34 +417792,6 @@
         "shopName": "トレカード秋葉原",
         "latestPrice": 50,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-082_p1.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 50
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 50
-  },
-  {
-    "key": "p-083_シャンクス【p】【プロモ】【週刊少年ジャンプ】【赤】【p-083】",
-    "name": "シャンクス 【P】【プロモ】【週刊少年ジャンプ】【赤】【P-083】",
-    "modelNo": "P-083",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/P-083.jpeg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 50
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 50,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-083.jpeg",
         "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
         "history": [
           {
