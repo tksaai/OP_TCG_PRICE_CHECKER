@@ -539,9 +539,22 @@
         const key = getCardKey(c);
         const shopData = getShopData(c);
         const activePrice = getActivePrice(c);
+        // 3日以上更新が止まっているショップ価格は「いつ時点か」を注記する
+        // (買取停止後の最終価格が現在の価格に見えてしまうのを防ぐ)
+        const shopDates = Object.values(c.pricesByShop || {})
+          .map(shop => (shop.history || []).at(-1)?.date || '')
+          .filter(Boolean);
+        const newestDate = shopDates.sort().at(-1) || '';
         const shopCompareHtml = Object.entries(c.pricesByShop || {})
           .sort((a, b) => b[1].latestPrice - a[1].latestPrice)
-          .map(([, shop]) => `<div><span>${shop.shopName}</span><b>¥${Number(shop.latestPrice || 0).toLocaleString()}</b></div>`)
+          .map(([, shop]) => {
+            const lastDate = (shop.history || []).at(-1)?.date || '';
+            const staleDays = lastDate && newestDate
+              ? (new Date(newestDate) - new Date(lastDate)) / 86400000 : 0;
+            const staleNote = staleDays >= 3
+              ? ` <small style="color:#c00;">(${lastDate.slice(5)}時点)</small>` : '';
+            return `<div><span>${shop.shopName}${staleNote}</span><b>¥${Number(shop.latestPrice || 0).toLocaleString()}</b></div>`;
+          })
           .join('');
         
         // 1. 大枠のdivを作成
