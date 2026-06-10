@@ -1,5 +1,7 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { cardKeyFor } from './lib/card-identity.mjs';
+import { rekeyCards } from './lib/card-store.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const DATA_PATH = path.join(ROOT, 'data', 'cards.json');
@@ -46,12 +48,8 @@ function stripTags(value) {
     .trim();
 }
 
-function normalizeKey(name, modelNo) {
-  const normalizedModel = String(modelNo || '')
-    .replace(/^型(?:番)?[:：\s]*/u, '')
-    .trim();
-  return `${normalizedModel}_${name || ''}`.toLowerCase().replace(/\s+/g, '');
-}
+// 同一性キーは「型番 + 版種タグ」(card-identity.mjs)。カード名の表記揺れは
+// キーに影響せず、ショップ間で同じカードが自動的に同一キーへ集約される。
 
 async function fetchText(url) {
   const response = await fetch(url, {
@@ -138,30 +136,9 @@ async function scrapeCardrush(shop) {
     .filter((card) => card.name && card.modelNo && card.price > 0);
 }
 
-function normalizePrevious(raw) {
-  if (!Array.isArray(raw)) return new Map();
-
-  const map = new Map();
-  for (const card of raw) {
-    const key = normalizeKey(card.name, card.modelNo);
-    const pricesByShop = card.pricesByShop || {
-      mercard: {
-        shopName: 'メルカード',
-        latestPrice: Number(card.latestPrice || 0),
-        imageUrl: card.imageId || '',
-        history: Array.isArray(card.history) ? card.history : [],
-      },
-    };
-
-    map.set(key, {
-      ...card,
-      key,
-      pricesByShop,
-      history: Array.isArray(card.history) ? card.history : [],
-    });
-  }
-  return map;
-}
+// 既存データを新キーで Map 化する。旧キー形式のカードもここで自動的に
+// 再キー化され、同一カードはマージされる(初回実行時のマイグレーションを兼ねる)。
+const normalizePrevious = rekeyCards;
 
 function upsertHistory(history, date, price) {
   const next = Array.isArray(history) ? [...history] : [];
@@ -222,7 +199,7 @@ async function main() {
     console.log(`Fetched ${scraped.length} cards from ${shop.id}`);
 
     for (const item of scraped) {
-      const key = normalizeKey(item.name, item.modelNo);
+      const key = cardKeyFor(item.name, item.modelNo);
       const current = cards.get(key) || {
         key,
         name: item.name,
@@ -233,14 +210,16 @@ async function main() {
       };
 
       const previousShop = current.pricesByShop[shop.id] || {};
-      current.name = item.name || current.name;
-      current.modelNo = item.modelNo || current.modelNo;
+      // 表示名は安定性を優先して既存値を保持(ショップ別の生の名前は sourceName へ)
+      current.name = current.name || item.name;
+      current.modelNo = current.modelNo || item.modelNo;
       current.imageId = current.imageId || item.imageUrl;
       current.pricesByShop[shop.id] = {
         shopName: shop.name,
         latestPrice: item.price,
         imageUrl: item.imageUrl || previousShop.imageUrl || '',
         sourceUrl: shop.url,
+        sourceName: item.name,
         history: upsertHistory(previousShop.history || [], date, item.price),
       };
       cards.set(key, current);

@@ -1,22 +1,16 @@
+// card-aliases.json(人手で承認したカード対応表)を cards.json に適用する。
+// パーサー(card-identity.mjs)で自動統合できない表記差
+// (例: cardrush のイラストレーター表記 vs torecard のセット名表記)だけを
+// ここで橋渡しする。
+
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { cardKeyFor, extractModelCode } from './lib/card-identity.mjs';
+import { mergeHistories, mergeShopEntries } from './lib/card-store.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const CARDS_PATH = path.join(ROOT, 'data', 'cards.json');
 const ALIASES_PATH = path.join(ROOT, 'data', 'card-aliases.json');
-
-function upsertHistory(history, rows) {
-  const byDate = new Map();
-  for (const item of history || []) {
-    if (item.date) byDate.set(item.date, Number(item.price || 0));
-  }
-  for (const item of rows || []) {
-    if (item.date) byDate.set(item.date, Number(item.price || 0));
-  }
-  return [...byDate.entries()]
-    .sort(([a], [b]) => a.localeCompare(b))
-    .map(([date, price]) => ({ date, price }));
-}
 
 function recomputeBest(card) {
   const entries = Object.entries(card.pricesByShop || {}).filter(([, shop]) => Number(shop.latestPrice || 0) > 0);
@@ -24,17 +18,26 @@ function recomputeBest(card) {
   card.bestShopId = best ? best[0] : '';
   card.latestPrice = best ? Number(best[1].latestPrice || 0) : 0;
   card.imageId = best?.[1]?.imageUrl || card.imageId || '';
-  card.history = best ? upsertHistory(card.history || [], best[1].history || []) : card.history || [];
+  card.history = best ? mergeHistories(card.history || [], best[1].history || []) : card.history || [];
   return card;
 }
 
-function findCard(cardsByKey, alias) {
-  if (alias.sourceKey && cardsByKey.has(alias.sourceKey)) return cardsByKey.get(alias.sourceKey);
-
-  for (const card of cardsByKey.values()) {
-    if (card.name === alias.name && card.modelNo === alias.modelNo) return card;
+function findCards(cards, cardsByKey, alias) {
+  if (alias.sourceKey && cardsByKey.has(alias.sourceKey)) {
+    return [cardsByKey.get(alias.sourceKey)];
   }
-  return null;
+
+  // ショップ名+型番をパースした同一性キーで探す(キー形式変更に追従できる)
+  const parsedKey = cardKeyFor(alias.name, alias.modelNo);
+  if (cardsByKey.has(parsedKey)) return [cardsByKey.get(parsedKey)];
+
+  // 最後の手段: 名前の完全一致(統合後カードはショップ別 sourceName も見る)
+  const aliasModel = extractModelCode(alias.modelNo, alias.name);
+  return cards.filter((card) => {
+    if (aliasModel && extractModelCode(card.modelNo, card.name) !== aliasModel) return false;
+    if (card.name === alias.name) return true;
+    return Object.values(card.pricesByShop || {}).some((shop) => shop.sourceName === alias.name);
+  });
 }
 
 async function main() {
@@ -45,12 +48,23 @@ async function main() {
   const merged = [];
 
   for (const group of aliases) {
-    const matched = [];
-    for (const alias of group.aliases || []) {
-      const card = findCard(cardsByKey, alias);
-      if (card) matched.push(card);
+    const matchedByKey = new Map();
+
+    // このグループの統合先として過去に作られたカード(履歴の継続性を保つ)
+    for (const card of cards) {
+      if (card.canonicalId === group.canonicalId) matchedByKey.set(card.key, card);
     }
+    for (const alias of group.aliases || []) {
+      for (const card of findCards(cards, cardsByKey, alias)) {
+        matchedByKey.set(card.key, card);
+      }
+    }
+
+    const matched = [...matchedByKey.values()];
     if (matched.length < 2) continue;
+
+    // canonicalId を持つカード(=履歴の本体)を先頭にして統合する
+    matched.sort((a, b) => (b.canonicalId === group.canonicalId ? 1 : 0) - (a.canonicalId === group.canonicalId ? 1 : 0));
 
     const base = {
       ...matched[0],
@@ -66,13 +80,9 @@ async function main() {
     for (const card of matched) {
       consumedKeys.add(card.key);
       base.aliasKeys.push(card.key, ...(card.aliasKeys || []), `${card.name}_${card.modelNo}`);
+      base.history = mergeHistories(base.history, card.history);
       for (const [shopId, shop] of Object.entries(card.pricesByShop || {})) {
-        const existing = base.pricesByShop[shopId];
-        if (!existing || Number(shop.latestPrice || 0) >= Number(existing.latestPrice || 0)) {
-          base.pricesByShop[shopId] = shop;
-        } else {
-          existing.history = upsertHistory(existing.history || [], shop.history || []);
-        }
+        base.pricesByShop[shopId] = mergeShopEntries(base.pricesByShop[shopId], shop);
       }
     }
     base.aliasKeys = [...new Set(base.aliasKeys.filter(Boolean))].filter((key) => key !== base.key);

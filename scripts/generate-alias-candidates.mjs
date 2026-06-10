@@ -1,51 +1,36 @@
+// パーサー(card-identity.mjs)で自動統合しきれなかった「同一カードの可能性が
+// 高い組み合わせ」を抽出し、alias-review.html でレビューする候補を生成する。
+//
+// 同じ型番の中で、価格に影響する確定属性(開封状態・言語・コミパラ等)が一致する
+// レコード同士をグループ化する。ショップ固有の語彙(イラストレーター名、
+// セット名、背景説明など)だけが異なるものが候補になる。
+
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { buildCardKey, parseCardIdentity } from './lib/card-identity.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const CARDS_PATH = path.join(ROOT, 'data', 'cards.json');
 const CANDIDATES_PATH = path.join(ROOT, 'data', 'alias-candidates.json');
 
-const MODEL_RE = /(?:OP|ST|EB|PRB)\d{2}-\d{3}|P-\d{3}/gi;
 const SHOP_ORDER = ['mercard', 'cardrush', 'torecard'];
+
+// 価格に直結する確定属性。これが一致するレコードだけを同一候補にまとめる。
+// ここに無いタグ(illust:*、ショップ固有のセット名・背景説明、promo 等)は
+// 語彙差の可能性があるためグループ分けに使わない。
+const HARD_TAG_RE =
+  /^(?:unopened|opened|serial|zh|en|asia|sea|zh-illust-jp|en-illust-jp|zh-text|en-text|comic|red|secret|cs|cs-set|anniv\d|prb\d*|pre-errata|post-errata|gold|silver|gold-letter|card-only|full-accessories|parallel|sp|leader-parallel|leader-sp|wanted|foil|full-art|autograph|newly-drawn|manga-bg|manga-art|manga-panel)$/;
+
+function hardSignature(tags) {
+  const hard = tags.filter((tag) => HARD_TAG_RE.test(tag));
+  return hard.length ? hard.join('+') : 'base';
+}
 
 function normalizeText(value) {
   return String(value || '')
     .normalize('NFKC')
     .toLowerCase()
     .replace(/[【】《》()[\]（）/・:：,\s_-]+/g, '');
-}
-
-function extractModelCode(...values) {
-  const text = values.filter(Boolean).join(' ');
-  const matches = text.match(MODEL_RE);
-  return matches ? matches[matches.length - 1].toUpperCase() : '';
-}
-
-function getFlag(text, patterns) {
-  return patterns.some((pattern) => pattern.test(text));
-}
-
-function extractCsLabel(text) {
-  const normalized = String(text || '').normalize('NFKC');
-  const explicit = normalized.match(/CS\s*([0-9]{4}|[0-9]{2}-[0-9]{2})/i);
-  if (explicit) return `cs${explicit[1].toLowerCase()}`;
-  return /チャンピオンシップ|championship/i.test(normalized) ? 'cs' : '';
-}
-
-function buildSignature(record) {
-  const text = `${record.name} ${record.modelNo}`.normalize('NFKC');
-  const flags = [];
-
-  if (getFlag(text, [/未開封/i])) flags.push('unopened');
-  if (getFlag(text, [/開封済み|開封品/i])) flags.push('opened');
-  if (getFlag(text, [/シリアル|serial/i])) flags.push('serial');
-  if (getFlag(text, [/漫画|コミック|comic|スーパーパラレル|super/i])) flags.push('comic');
-  if (getFlag(text, [/sp|和柄/i])) flags.push('sp');
-
-  const cs = extractCsLabel(text);
-  if (cs) flags.push(cs);
-
-  return flags.sort().join('-') || 'base';
 }
 
 function similarity(a, b) {
@@ -88,21 +73,24 @@ function flattenCards(cards) {
   const records = [];
 
   for (const card of cards) {
-    const shops = card.pricesByShop || {};
-    for (const [shopId, shop] of Object.entries(shops)) {
-      const modelCode = extractModelCode(card.modelNo, card.name);
-      if (!modelCode) continue;
+    // 人手レビュー済み(card-aliases.json で統合済み)のカードは再提案しない
+    if (card.canonicalId) continue;
+    for (const [shopId, shop] of Object.entries(card.pricesByShop || {})) {
+      const name = shop.sourceName || card.name;
+      const parsed = parseCardIdentity(name, card.modelNo);
+      if (!parsed.modelCode) continue;
 
       records.push({
         sourceKey: card.key,
+        identityKey: buildCardKey(parsed),
         shopId,
         shopName: shop.shopName || shopId,
-        name: card.name,
+        name,
         modelNo: card.modelNo,
-        modelCode,
+        modelCode: parsed.modelCode,
+        signature: hardSignature(parsed.tags),
         latestPrice: Number(shop.latestPrice || 0),
         imageUrl: shop.imageUrl || card.imageId || '',
-        signature: buildSignature(card),
       });
     }
   }
@@ -124,9 +112,11 @@ async function main() {
   const candidates = [];
   for (const [groupKey, groupRecords] of grouped.entries()) {
     const uniqueSourceKeys = new Set(groupRecords.map((record) => record.sourceKey));
+    const uniqueIdentityKeys = new Set(groupRecords.map((record) => record.identityKey));
     const uniqueShops = new Set(groupRecords.map((record) => record.shopId));
 
-    if (uniqueSourceKeys.size < 2 || uniqueShops.size < 2) continue;
+    // 既に1枚に統合済み(同一キー)のグループは候補にしない
+    if (uniqueIdentityKeys.size < 2 || uniqueSourceKeys.size < 2 || uniqueShops.size < 2) continue;
 
     const [modelCode, ...signatureParts] = groupKey.split('_');
     const recordsForReview = groupRecords
@@ -136,7 +126,7 @@ async function main() {
 
     candidates.push({
       candidateId: `candidate_${modelCode}_${signatureParts.join('_')}`.replace(/[^a-zA-Z0-9_-]/g, '_'),
-      suggestedCanonicalId: `${modelCode}_${signatureParts.join('_')}`.toUpperCase(),
+      suggestedCanonicalId: `${modelCode}_${signatureParts.join('_')}`.toUpperCase().replace(/[^a-zA-Z0-9_-]/g, '_'),
       canonicalName: representativeName(recordsForReview),
       modelCode,
       signature: signatureParts.join('_'),
