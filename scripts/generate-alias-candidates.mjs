@@ -12,6 +12,7 @@ import { buildCardKey, parseCardIdentity } from './lib/card-identity.mjs';
 const ROOT = path.resolve(import.meta.dirname, '..');
 const CARDS_PATH = path.join(ROOT, 'data', 'cards.json');
 const CANDIDATES_PATH = path.join(ROOT, 'data', 'alias-candidates.json');
+const IMAGE_HASHES_PATH = path.join(ROOT, 'data', 'image-hashes.json');
 
 const SHOP_ORDER = ['mercard', 'cardrush', 'torecard'];
 
@@ -47,6 +48,45 @@ function representativeName(records) {
     .slice()
     .sort((a, b) => SHOP_ORDER.indexOf(a.shopId) - SHOP_ORDER.indexOf(b.shopId) || a.name.length - b.name.length)[0]
     .name;
+}
+
+// 画像の知覚ハッシュ(scripts/build-image-hashes.py が生成)による一致度。
+// 注意: ショップは公式画像を版種違いに使い回すことがあるため、画像一致は
+// 「同一の証明」にはならない。同型番・同属性の候補内での裏付け(高スコア)と、
+// 明確な別カードの警告(低スコア)として信頼度に弱く反映するだけに留める。
+function hammingSimilarity(hexA, hexB) {
+  if (!hexA || !hexB || hexA.length !== hexB.length) return null;
+  let distance = 0;
+  for (let i = 0; i < hexA.length; i += 8) {
+    let xor = parseInt(hexA.slice(i, i + 8), 16) ^ parseInt(hexB.slice(i, i + 8), 16);
+    while (xor) {
+      distance += xor & 1;
+      xor >>>= 1;
+    }
+  }
+  return 1 - distance / (hexA.length * 4);
+}
+
+function imageScoreFor(records, imageHashes) {
+  let best = null;
+  for (let i = 0; i < records.length; i++) {
+    for (let j = i + 1; j < records.length; j++) {
+      if (records[i].shopId === records[j].shopId) continue;
+      const a = imageHashes[records[i].imageUrl]?.dhash;
+      const b = imageHashes[records[j].imageUrl]?.dhash;
+      const similarity = hammingSimilarity(a, b);
+      if (similarity != null && (best == null || similarity > best)) best = similarity;
+    }
+  }
+  return best == null ? null : Math.round(best * 100);
+}
+
+function imageBonus(imageScore) {
+  if (imageScore == null) return 0;
+  if (imageScore >= 95) return 8;
+  if (imageScore >= 90) return 4;
+  if (imageScore <= 70) return -10;
+  return 0;
 }
 
 function candidateScore(records) {
@@ -100,6 +140,9 @@ function flattenCards(cards) {
 
 async function main() {
   const cards = JSON.parse(await readFile(CARDS_PATH, 'utf8'));
+  const imageHashes = await readFile(IMAGE_HASHES_PATH, 'utf8')
+    .then((text) => JSON.parse(text))
+    .catch(() => ({}));
   const records = flattenCards(cards);
   const grouped = new Map();
 
@@ -124,13 +167,15 @@ async function main() {
       .sort((a, b) => b.latestPrice - a.latestPrice)
       .slice(0, 8);
 
+    const imageScore = imageScoreFor(recordsForReview, imageHashes);
     candidates.push({
       candidateId: `candidate_${modelCode}_${signatureParts.join('_')}`.replace(/[^a-zA-Z0-9_-]/g, '_'),
       suggestedCanonicalId: `${modelCode}_${signatureParts.join('_')}`.toUpperCase().replace(/[^a-zA-Z0-9_-]/g, '_'),
       canonicalName: representativeName(recordsForReview),
       modelCode,
       signature: signatureParts.join('_'),
-      confidence: candidateScore(recordsForReview),
+      confidence: Math.max(0, Math.min(100, candidateScore(recordsForReview) + imageBonus(imageScore))),
+      imageScore,
       maxPrice: Math.max(...recordsForReview.map((record) => record.latestPrice)),
       records: recordsForReview.map((record) => ({
         shopId: record.shopId,

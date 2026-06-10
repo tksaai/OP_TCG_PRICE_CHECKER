@@ -206,10 +206,15 @@ function finalizeTags(tags) {
     tags.delete('sp');
   }
   // チャンピオンシップ景品は本質的にパラレルかつプロモなので表記差を吸収
-  // (torecard は【パラレル】【プロモ】を付け、mercard は【プロモ】のみ等)
+  // (torecard は【パラレル】【プロモ】を付け、mercard は【プロモ】のみ等)。
+  // cardrush だけが付ける illust:* も落とす: CS景品は1型番につき1種類しか
+  // 存在しないことを実データ全39型番で確認済み(イラスト違いの併存なし)
   if (tags.has('cs')) {
     tags.delete('parallel');
     tags.delete('promo');
+    for (const tag of [...tags]) {
+      if (tag.startsWith('illust:')) tags.delete(tag);
+    }
   }
   return [...tags].sort();
 }

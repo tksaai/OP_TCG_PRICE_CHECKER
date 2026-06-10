@@ -446,7 +446,7 @@
             <div class="candidate-head">
               <div>
                 <div class="candidate-title">${getCanonicalName(candidate)}</div>
-                <div class="meta">${candidate.modelCode} / ${candidate.signature} / 信頼度 ${candidate.confidence} / 選択 ${selectedCount}件</div>
+                <div class="meta">${candidate.modelCode} / ${candidate.signature} / 信頼度 ${candidate.confidence}${candidate.imageScore != null ? ` / 画像一致 ${candidate.imageScore}%` : ''} / 選択 ${selectedCount}件</div>
               </div>
               <div class="price">${yen(candidate.maxPrice)}</div>
             </div>

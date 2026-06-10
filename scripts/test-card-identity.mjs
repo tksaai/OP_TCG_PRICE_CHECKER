@@ -74,9 +74,15 @@ same('CS未開封 torecard 年付き【2026】',
 different('CS未開封と開封済みは別',
   { name: 'モンキー・D・ルフィ 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【緑】【OP13-118】', modelNo: 'OP13-118' },
   { name: 'モンキー・D・ルフィ 【シークレット】【パラレル】【プロモ】【開封済み】【チャンピオンシップ】【緑】【OP13-118】', modelNo: 'OP13-118' });
-different('cardrush CS(イラスト付き)は自動統合しない',
+same('cardrush CS(イラスト・年付き)も統合する(CS景品は1型番1種類)',
   { name: 'モンキー・D・ルフィ(未開封/CS25-26/illust:Makitoshi)', modelNo: 'OP13-118' },
   { name: 'モンキー・D・ルフィ【プロモ】《緑》未開封', modelNo: 'チャンピオンシップ版OP13-118' });
+same('CS年表記の揺れ(CS2023)',
+  { name: 'モンキー・D・ルフィ(未開封/CS2023/illust:Studio Vigor Co.Ltd)', modelNo: 'ST10-006' },
+  { name: 'モンキー・D・ルフィ 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【赤】【ST10-006】', modelNo: 'ST10-006' });
+different('CS未開封と開封済(cardrush表記)は統合しない',
+  { name: 'モンキー・D・ルフィ(未開封/CS25-26/illust:Makitoshi)', modelNo: 'OP13-118' },
+  { name: 'モンキー・D・ルフィ(CS25-26/illust:Makitoshi)', modelNo: 'OP13-118' });
 different('CS景品とチャンピオンシップセット製品は別',
   { name: 'モンキー・D・ルフィ 【パラレル】【プロモ】【チャンピオンシップセット】【未開封】【赤】【P-001】', modelNo: 'P-001' },
   { name: 'モンキー・D・ルフィ 【プロモ】【チャンピオンシップ】【未開封】【赤】【P-001】', modelNo: 'P-001' });

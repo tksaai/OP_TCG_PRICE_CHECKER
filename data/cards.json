@@ -1,73 +1,9 @@
 [
   {
-    "key": "op02-099@cs+illust:anderson+unopened",
-    "name": "サカズキ(未開封/CS2023/illust:Anderson)",
-    "modelNo": "OP02-099",
-    "imageId": "https://files.cardrush.media/onepiece/ocha_products/982.webp",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 6500000
-      },
-      {
-        "date": "2026/05/16",
-        "price": 7000000
-      },
-      {
-        "date": "2026/05/26",
-        "price": 7500000
-      },
-      {
-        "date": "2026/06/07",
-        "price": 8500000
-      },
-      {
-        "date": "2026/06/08",
-        "price": 9000000
-      }
-    ],
-    "pricesByShop": {
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 9000000,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/982.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 6500000
-          },
-          {
-            "date": "2026/05/16",
-            "price": 7000000
-          },
-          {
-            "date": "2026/05/26",
-            "price": 7500000
-          },
-          {
-            "date": "2026/06/07",
-            "price": 8500000
-          },
-          {
-            "date": "2026/06/08",
-            "price": 9000000
-          }
-        ]
-      }
-    },
-    "bestShopId": "cardrush",
-    "latestPrice": 9000000,
-    "aliasKeys": [
-      "op02-099_サカズキ(未開封/cs2023/illust:anderson)",
-      "サカズキ(未開封/CS2023/illust:Anderson)_OP02-099"
-    ]
-  },
-  {
-    "key": "op02-099@promo+unopened",
+    "key": "OP02-099_CS-UNOPENED",
     "name": "サカズキ【プロモ】《黒》未開封",
     "modelNo": "OP02-099",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20230929_dc1469.png",
+    "imageId": "https://files.cardrush.media/onepiece/ocha_products/982.webp",
     "history": [
       {
         "date": "2024/05/22",
@@ -143,7 +79,23 @@
       },
       {
         "date": "2026/05/14",
-        "price": 5500000
+        "price": 6500000
+      },
+      {
+        "date": "2026/05/16",
+        "price": 7000000
+      },
+      {
+        "date": "2026/05/26",
+        "price": 7500000
+      },
+      {
+        "date": "2026/06/07",
+        "price": 8500000
+      },
+      {
+        "date": "2026/06/08",
+        "price": 9000000
       },
       {
         "date": "2026/06/10",
@@ -254,23 +206,54 @@
             "price": 8500000
           }
         ]
+      },
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 9000000,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/982.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 6500000
+          },
+          {
+            "date": "2026/05/16",
+            "price": 7000000
+          },
+          {
+            "date": "2026/05/26",
+            "price": 7500000
+          },
+          {
+            "date": "2026/06/07",
+            "price": 8500000
+          },
+          {
+            "date": "2026/06/08",
+            "price": 9000000
+          }
+        ]
       }
     },
-    "bestShopId": "mercard",
-    "latestPrice": 8500000,
+    "bestShopId": "cardrush",
+    "latestPrice": 9000000,
     "canonicalId": "OP02-099_CS-UNOPENED",
     "aliasKeys": [
+      "op02-099@promo+unopened",
       "op02-099_サカズキ【sr】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【op02-099】",
       "サカズキ 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【OP02-099】_OP02-099",
       "チャンピオンシップ版op02-099_サカズキ【プロモ】《黒》未開封",
       "サカズキ【プロモ】《黒》未開封_チャンピオンシップ版OP02-099",
-      "OP02-099_CS-UNOPENED",
       "サカズキ【プロモ】《黒》未開封_OP02-099",
-      "op02-099_サカズキ【プロモ】《黒》未開封"
+      "op02-099_サカズキ【プロモ】《黒》未開封",
+      "op02-099@cs+unopened",
+      "op02-099_サカズキ(未開封/cs2023/illust:anderson)",
+      "サカズキ(未開封/CS2023/illust:Anderson)_OP02-099"
     ]
   },
   {
-    "key": "op13-118@promo+unopened",
+    "key": "OP13-118_CS-UNOPENED",
     "name": "モンキー・D・ルフィ【プロモ】《緑》未開封",
     "modelNo": "OP13-118",
     "imageId": "https://www.mercardop.jp/data/mercardop/product/20251212_ec6010.png",
@@ -306,6 +289,18 @@
       {
         "date": "2026/05/14",
         "price": 5000000
+      },
+      {
+        "date": "2026/05/26",
+        "price": 4800000
+      },
+      {
+        "date": "2026/06/07",
+        "price": 6000000
+      },
+      {
+        "date": "2026/06/08",
+        "price": 6500000
       },
       {
         "date": "2026/06/10",
@@ -372,45 +367,7 @@
             "price": 6800000
           }
         ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 7000000,
-    "canonicalId": "OP13-118_CS-UNOPENED",
-    "aliasKeys": [
-      "チャンピオンシップ版op13-118_モンキー・d・ルフィ【プロモ】《緑》未開封",
-      "モンキー・D・ルフィ【プロモ】《緑》未開封_チャンピオンシップ版OP13-118",
-      "op13-118_モンキー・d・ルフィ【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【緑】【op13-118】",
-      "モンキー・D・ルフィ 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【緑】【OP13-118】_OP13-118",
-      "OP13-118_CS-UNOPENED",
-      "モンキー・D・ルフィ【プロモ】《緑》未開封_OP13-118",
-      "op13-118_モンキー・d・ルフィ【プロモ】《緑》未開封"
-    ]
-  },
-  {
-    "key": "op13-118@cs+illust:makitoshi+unopened",
-    "name": "モンキー・D・ルフィ(未開封/CS25-26/illust:Makitoshi)",
-    "modelNo": "OP13-118",
-    "imageId": "https://files.cardrush.media/onepiece/ocha_products/11226.webp",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 4500000
       },
-      {
-        "date": "2026/05/26",
-        "price": 4800000
-      },
-      {
-        "date": "2026/06/07",
-        "price": 6000000
-      },
-      {
-        "date": "2026/06/08",
-        "price": 6500000
-      }
-    ],
-    "pricesByShop": {
       "cardrush": {
         "shopName": "カードラッシュ",
         "latestPrice": 6500000,
@@ -436,9 +393,18 @@
         ]
       }
     },
-    "bestShopId": "cardrush",
-    "latestPrice": 6500000,
+    "bestShopId": "mercard",
+    "latestPrice": 7000000,
+    "canonicalId": "OP13-118_CS-UNOPENED",
     "aliasKeys": [
+      "op13-118@promo+unopened",
+      "チャンピオンシップ版op13-118_モンキー・d・ルフィ【プロモ】《緑》未開封",
+      "モンキー・D・ルフィ【プロモ】《緑》未開封_チャンピオンシップ版OP13-118",
+      "op13-118_モンキー・d・ルフィ【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【緑】【op13-118】",
+      "モンキー・D・ルフィ 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【緑】【OP13-118】_OP13-118",
+      "モンキー・D・ルフィ【プロモ】《緑》未開封_OP13-118",
+      "op13-118_モンキー・d・ルフィ【プロモ】《緑》未開封",
+      "op13-118@cs+unopened",
       "op13-118_モンキー・d・ルフィ(未開封/cs25-26/illust:makitoshi)",
       "モンキー・D・ルフィ(未開封/CS25-26/illust:Makitoshi)_OP13-118"
     ]
@@ -799,7 +765,7 @@
     ]
   },
   {
-    "key": "op13-118@cs+illust:makitoshi",
+    "key": "op13-118@cs",
     "name": "モンキー・D・ルフィ(CS25-26/illust:Makitoshi)",
     "modelNo": "OP13-118",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/11227.webp",
@@ -839,58 +805,10 @@
     ]
   },
   {
-    "key": "op09-004@cs+illust:shishizaru+unopened",
-    "name": "シャンクス(未開封/CS25-26/illust:Shishizaru)",
-    "modelNo": "OP09-004",
-    "imageId": "https://files.cardrush.media/onepiece/ocha_products/9293.webp",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 2800000
-      },
-      {
-        "date": "2026/05/16",
-        "price": 3000000
-      },
-      {
-        "date": "2026/06/07",
-        "price": 4000000
-      }
-    ],
-    "pricesByShop": {
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 4000000,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/9293.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 2800000
-          },
-          {
-            "date": "2026/05/16",
-            "price": 3000000
-          },
-          {
-            "date": "2026/06/07",
-            "price": 4000000
-          }
-        ]
-      }
-    },
-    "bestShopId": "cardrush",
-    "latestPrice": 4000000,
-    "aliasKeys": [
-      "op09-004_シャンクス(未開封/cs25-26/illust:shishizaru)",
-      "シャンクス(未開封/CS25-26/illust:Shishizaru)_OP09-004"
-    ]
-  },
-  {
-    "key": "op09-004@promo+unopened",
+    "key": "OP09-004_CS-UNOPENED",
     "name": "シャンクス 【プロモ】《赤》未開封",
     "modelNo": "OP09-004",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20250622_b04b0d.png",
+    "imageId": "https://files.cardrush.media/onepiece/ocha_products/9293.webp",
     "history": [
       {
         "date": "2025/10/06",
@@ -930,7 +848,15 @@
       },
       {
         "date": "2026/05/14",
-        "price": 2700000
+        "price": 2800000
+      },
+      {
+        "date": "2026/05/16",
+        "price": 3000000
+      },
+      {
+        "date": "2026/06/07",
+        "price": 4000000
       },
       {
         "date": "2026/06/10",
@@ -1005,23 +931,46 @@
             "price": 3500000
           }
         ]
+      },
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 4000000,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/9293.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 2800000
+          },
+          {
+            "date": "2026/05/16",
+            "price": 3000000
+          },
+          {
+            "date": "2026/06/07",
+            "price": 4000000
+          }
+        ]
       }
     },
-    "bestShopId": "mercard",
-    "latestPrice": 3500000,
+    "bestShopId": "cardrush",
+    "latestPrice": 4000000,
     "canonicalId": "OP09-004_CS-UNOPENED",
     "aliasKeys": [
+      "op09-004@promo+unopened",
       "op09-004_シャンクス【sr】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【赤】【op09-004】",
       "シャンクス 【SR】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【赤】【OP09-004】_OP09-004",
       "チャンピオンシップ版op09-004_シャンクス【プロモ】《赤》未開封",
       "シャンクス 【プロモ】《赤》未開封_チャンピオンシップ版OP09-004",
-      "OP09-004_CS-UNOPENED",
       "シャンクス 【プロモ】《赤》未開封_OP09-004",
-      "op09-004_シャンクス【プロモ】《赤》未開封"
+      "op09-004_シャンクス【プロモ】《赤》未開封",
+      "op09-004@cs+unopened",
+      "op09-004_シャンクス(未開封/cs25-26/illust:shishizaru)",
+      "シャンクス(未開封/CS25-26/illust:Shishizaru)_OP09-004"
     ]
   },
   {
-    "key": "op09-004@cs+illust:shishizaru",
+    "key": "op09-004@cs",
     "name": "シャンクス(CS25-26/illust:Shishizaru)",
     "modelNo": "OP09-004",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/9294.webp",
@@ -1454,7 +1403,7 @@
     ]
   },
   {
-    "key": "op03-114@promo+unopened",
+    "key": "OP03-114_CS-UNOPENED",
     "name": "シャーロット・リンリン【プロモ】《黄》未開封",
     "modelNo": "OP03-114",
     "imageId": "https://www.mercardop.jp/data/mercardop/product/20250119_6d9dd6.png",
@@ -1522,6 +1471,22 @@
       {
         "date": "2026/05/14",
         "price": 2000000
+      },
+      {
+        "date": "2026/05/16",
+        "price": 2300000
+      },
+      {
+        "date": "2026/05/26",
+        "price": 2400000
+      },
+      {
+        "date": "2026/06/07",
+        "price": 2600000
+      },
+      {
+        "date": "2026/06/08",
+        "price": 2700000
       },
       {
         "date": "2026/06/10",
@@ -1620,49 +1585,7 @@
             "price": 2700000
           }
         ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 2700000,
-    "canonicalId": "OP03-114_CS-UNOPENED",
-    "aliasKeys": [
-      "op03-114_シャーロット・リンリン【sr】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【op03-114】",
-      "シャーロット・リンリン 【SR】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【OP03-114】_OP03-114",
-      "チャンピオンシップ版op03-114_シャーロット・リンリン【プロモ】《黄》未開封",
-      "シャーロット・リンリン【プロモ】《黄》未開封_チャンピオンシップ版OP03-114",
-      "OP03-114_CS-UNOPENED",
-      "シャーロット・リンリン【プロモ】《黄》未開封_OP03-114",
-      "op03-114_シャーロット・リンリン【プロモ】《黄》未開封"
-    ]
-  },
-  {
-    "key": "op03-114@cs+illust:studiovigorcoltd+unopened",
-    "name": "シャーロット・リンリン(未開封/CS2024/illust:Studio Vigor Co.Ltd)",
-    "modelNo": "OP03-114",
-    "imageId": "https://files.cardrush.media/onepiece/ocha_products/5515.webp",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 2200000
       },
-      {
-        "date": "2026/05/16",
-        "price": 2300000
-      },
-      {
-        "date": "2026/05/26",
-        "price": 2400000
-      },
-      {
-        "date": "2026/06/07",
-        "price": 2600000
-      },
-      {
-        "date": "2026/06/08",
-        "price": 2700000
-      }
-    ],
-    "pricesByShop": {
       "cardrush": {
         "shopName": "カードラッシュ",
         "latestPrice": 2700000,
@@ -1692,15 +1615,24 @@
         ]
       }
     },
-    "bestShopId": "cardrush",
+    "bestShopId": "mercard",
     "latestPrice": 2700000,
+    "canonicalId": "OP03-114_CS-UNOPENED",
     "aliasKeys": [
+      "op03-114@promo+unopened",
+      "op03-114_シャーロット・リンリン【sr】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【op03-114】",
+      "シャーロット・リンリン 【SR】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【OP03-114】_OP03-114",
+      "チャンピオンシップ版op03-114_シャーロット・リンリン【プロモ】《黄》未開封",
+      "シャーロット・リンリン【プロモ】《黄》未開封_チャンピオンシップ版OP03-114",
+      "シャーロット・リンリン【プロモ】《黄》未開封_OP03-114",
+      "op03-114_シャーロット・リンリン【プロモ】《黄》未開封",
+      "op03-114@cs+unopened",
       "op03-114_シャーロット・リンリン(未開封/cs2024/illust:studiovigorco.ltd)",
       "シャーロット・リンリン(未開封/CS2024/illust:Studio Vigor Co.Ltd)_OP03-114"
     ]
   },
   {
-    "key": "op03-114@cs+illust:studiovigorcoltd",
+    "key": "op03-114@cs",
     "name": "シャーロット・リンリン(CS2024/illust:Studio Vigor Co.Ltd)",
     "modelNo": "OP03-114",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/5516.webp",
@@ -2064,7 +1996,7 @@
     ]
   },
   {
-    "key": "op14-112@promo+unopened",
+    "key": "OP14-112_CS-UNOPENED",
     "name": "ボア・ハンコック【プロモ】《黄》未開封",
     "modelNo": "OP14-112",
     "imageId": "https://www.mercardop.jp/data/mercardop/product/20260303_8c7c93.png",
@@ -2084,6 +2016,22 @@
       {
         "date": "2026/05/14",
         "price": 1150000
+      },
+      {
+        "date": "2026/05/16",
+        "price": 1200000
+      },
+      {
+        "date": "2026/05/26",
+        "price": 1250000
+      },
+      {
+        "date": "2026/06/07",
+        "price": 1600000
+      },
+      {
+        "date": "2026/06/08",
+        "price": 1700000
       },
       {
         "date": "2026/06/10",
@@ -2134,19 +2082,50 @@
             "price": 1800000
           }
         ]
+      },
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 1700000,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/12534.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 1100000
+          },
+          {
+            "date": "2026/05/16",
+            "price": 1200000
+          },
+          {
+            "date": "2026/05/26",
+            "price": 1250000
+          },
+          {
+            "date": "2026/06/07",
+            "price": 1600000
+          },
+          {
+            "date": "2026/06/08",
+            "price": 1700000
+          }
+        ]
       }
     },
     "bestShopId": "mercard",
     "latestPrice": 1800000,
     "canonicalId": "OP14-112_CS-UNOPENED",
     "aliasKeys": [
+      "op14-112@promo+unopened",
       "チャンピオンシップ版op14-112_ボア・ハンコック【プロモ】《黄》未開封",
       "ボア・ハンコック【プロモ】《黄》未開封_チャンピオンシップ版OP14-112",
       "op14-112_ボア・ハンコック【sr】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【op14-112】【2026】",
       "ボア・ハンコック 【SR】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【OP14-112】【2026】_OP14-112",
-      "OP14-112_CS-UNOPENED",
       "ボア・ハンコック【プロモ】《黄》未開封_OP14-112",
-      "op14-112_ボア・ハンコック【プロモ】《黄》未開封"
+      "op14-112_ボア・ハンコック【プロモ】《黄》未開封",
+      "op14-112@cs+unopened",
+      "op14-112_ボア・ハンコック(未開封/cs26-27/illust:otton)",
+      "ボア・ハンコック(未開封/CS26-27/illust:otton)_OP14-112"
     ]
   },
   {
@@ -2203,70 +2182,6 @@
     "aliasKeys": [
       "op08-106_ナミ(未開封カードのみ/シリアル/漫画絵)",
       "ナミ(未開封カードのみ/シリアル/漫画絵)_OP08-106"
-    ]
-  },
-  {
-    "key": "op14-112@cs+illust:otton+unopened",
-    "name": "ボア・ハンコック(未開封/CS26-27/illust:otton)",
-    "modelNo": "OP14-112",
-    "imageId": "https://files.cardrush.media/onepiece/ocha_products/12534.webp",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 1100000
-      },
-      {
-        "date": "2026/05/16",
-        "price": 1200000
-      },
-      {
-        "date": "2026/05/26",
-        "price": 1250000
-      },
-      {
-        "date": "2026/06/07",
-        "price": 1600000
-      },
-      {
-        "date": "2026/06/08",
-        "price": 1700000
-      }
-    ],
-    "pricesByShop": {
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 1700000,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/12534.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 1100000
-          },
-          {
-            "date": "2026/05/16",
-            "price": 1200000
-          },
-          {
-            "date": "2026/05/26",
-            "price": 1250000
-          },
-          {
-            "date": "2026/06/07",
-            "price": 1600000
-          },
-          {
-            "date": "2026/06/08",
-            "price": 1700000
-          }
-        ]
-      }
-    },
-    "bestShopId": "cardrush",
-    "latestPrice": 1700000,
-    "aliasKeys": [
-      "op14-112_ボア・ハンコック(未開封/cs26-27/illust:otton)",
-      "ボア・ハンコック(未開封/CS26-27/illust:otton)_OP14-112"
     ]
   },
   {
@@ -2544,6 +2459,10 @@
         "price": 1300000
       },
       {
+        "date": "2026/05/16",
+        "price": 1400000
+      },
+      {
         "date": "2026/05/17",
         "price": 1400000
       },
@@ -2554,6 +2473,10 @@
       {
         "date": "2026/05/23",
         "price": 1500000
+      },
+      {
+        "date": "2026/05/26",
+        "price": 1600000
       },
       {
         "date": "2026/05/27",
@@ -2692,6 +2615,26 @@
             "price": 1700000
           }
         ]
+      },
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 1600000,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/1079.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 1200000
+          },
+          {
+            "date": "2026/05/16",
+            "price": 1400000
+          },
+          {
+            "date": "2026/05/26",
+            "price": 1600000
+          }
+        ]
       }
     },
     "bestShopId": "torecard",
@@ -2700,7 +2643,9 @@
       "st10-006_モンキー・d・ルフィ【sr】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【赤】【st10-006】",
       "モンキー・D・ルフィ 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【赤】【ST10-006】_ST10-006",
       "チャンピオンシップ版st10-006_モンキー・d・ルフィ【プロモ】《赤》未開封",
-      "モンキー・D・ルフィ 【プロモ】《赤》未開封_チャンピオンシップ版ST10-006"
+      "モンキー・D・ルフィ 【プロモ】《赤》未開封_チャンピオンシップ版ST10-006",
+      "st10-006_モンキー・d・ルフィ(未開封/cs2023/illust:studiovigorco.ltd)",
+      "モンキー・D・ルフィ(未開封/CS2023/illust:Studio Vigor Co.Ltd)_ST10-006"
     ]
   },
   {
@@ -2813,54 +2758,6 @@
     "aliasKeys": [
       "op05-119[op11]_モンキー・d・ルフィ(パラレル/金背景)",
       "モンキー・D・ルフィ(パラレル/金背景)_OP05-119[OP11]"
-    ]
-  },
-  {
-    "key": "st10-006@cs+illust:studiovigorcoltd+unopened",
-    "name": "モンキー・D・ルフィ(未開封/CS2023/illust:Studio Vigor Co.Ltd)",
-    "modelNo": "ST10-006",
-    "imageId": "https://files.cardrush.media/onepiece/ocha_products/1079.webp",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 1200000
-      },
-      {
-        "date": "2026/05/16",
-        "price": 1400000
-      },
-      {
-        "date": "2026/05/26",
-        "price": 1600000
-      }
-    ],
-    "pricesByShop": {
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 1600000,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/1079.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 1200000
-          },
-          {
-            "date": "2026/05/16",
-            "price": 1400000
-          },
-          {
-            "date": "2026/05/26",
-            "price": 1600000
-          }
-        ]
-      }
-    },
-    "bestShopId": "cardrush",
-    "latestPrice": 1600000,
-    "aliasKeys": [
-      "st10-006_モンキー・d・ルフィ(未開封/cs2023/illust:studiovigorco.ltd)",
-      "モンキー・D・ルフィ(未開封/CS2023/illust:Studio Vigor Co.Ltd)_ST10-006"
     ]
   },
   {
@@ -3241,7 +3138,7 @@
     ]
   },
   {
-    "key": "op14-112@cs+illust:otton",
+    "key": "op14-112@cs",
     "name": "ボア・ハンコック(CS26-27/illust:otton)",
     "modelNo": "OP14-112",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/12535.webp",
@@ -3353,66 +3250,10 @@
     ]
   },
   {
-    "key": "op02-096@cs+illust:bisai+unopened",
-    "name": "クザン(未開封/CS2023/illust:BISAI)",
-    "modelNo": "OP02-096",
-    "imageId": "https://files.cardrush.media/onepiece/ocha_products/976.webp",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 900000
-      },
-      {
-        "date": "2026/05/16",
-        "price": 1000000
-      },
-      {
-        "date": "2026/05/26",
-        "price": 1100000
-      },
-      {
-        "date": "2026/06/07",
-        "price": 1300000
-      }
-    ],
-    "pricesByShop": {
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 1300000,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/976.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 900000
-          },
-          {
-            "date": "2026/05/16",
-            "price": 1000000
-          },
-          {
-            "date": "2026/05/26",
-            "price": 1100000
-          },
-          {
-            "date": "2026/06/07",
-            "price": 1300000
-          }
-        ]
-      }
-    },
-    "bestShopId": "cardrush",
-    "latestPrice": 1300000,
-    "aliasKeys": [
-      "op02-096_クザン(未開封/cs2023/illust:bisai)",
-      "クザン(未開封/CS2023/illust:BISAI)_OP02-096"
-    ]
-  },
-  {
-    "key": "op02-096@promo+unopened",
+    "key": "OP02-096_CS-UNOPENED",
     "name": "クザン【プロモ】《黒》未開封",
     "modelNo": "OP02-096",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20230515_0f781a.jpg",
+    "imageId": "https://files.cardrush.media/onepiece/ocha_products/976.webp",
     "history": [
       {
         "date": "2024/05/22",
@@ -3493,6 +3334,18 @@
       {
         "date": "2026/05/14",
         "price": 900000
+      },
+      {
+        "date": "2026/05/16",
+        "price": 1000000
+      },
+      {
+        "date": "2026/05/26",
+        "price": 1100000
+      },
+      {
+        "date": "2026/06/07",
+        "price": 1300000
       },
       {
         "date": "2026/06/10",
@@ -3607,19 +3460,46 @@
             "price": 1200000
           }
         ]
+      },
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 1300000,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/976.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 900000
+          },
+          {
+            "date": "2026/05/16",
+            "price": 1000000
+          },
+          {
+            "date": "2026/05/26",
+            "price": 1100000
+          },
+          {
+            "date": "2026/06/07",
+            "price": 1300000
+          }
+        ]
       }
     },
-    "bestShopId": "mercard",
-    "latestPrice": 1200000,
+    "bestShopId": "cardrush",
+    "latestPrice": 1300000,
     "canonicalId": "OP02-096_CS-UNOPENED",
     "aliasKeys": [
+      "op02-096@promo+unopened",
       "op02-096_クザン【sr】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【op02-096】",
       "クザン 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【OP02-096】_OP02-096",
       "チャンピオンシップ版op02-096_クザン【プロモ】《黒》未開封",
       "クザン【プロモ】《黒》未開封_チャンピオンシップ版OP02-096",
-      "OP02-096_CS-UNOPENED",
       "クザン【プロモ】《黒》未開封_OP02-096",
-      "op02-096_クザン【プロモ】《黒》未開封"
+      "op02-096_クザン【プロモ】《黒》未開封",
+      "op02-096@cs+unopened",
+      "op02-096_クザン(未開封/cs2023/illust:bisai)",
+      "クザン(未開封/CS2023/illust:BISAI)_OP02-096"
     ]
   },
   {
@@ -4496,7 +4376,7 @@
     ]
   },
   {
-    "key": "op13-119@promo+unopened",
+    "key": "OP13-119_CS-UNOPENED",
     "name": "ポートガス・D・エース【プロモ】《青》未開封",
     "modelNo": "OP13-119",
     "imageId": "https://www.mercardop.jp/data/mercardop/product/20250921_9cb949.png",
@@ -4540,6 +4420,14 @@
       {
         "date": "2026/05/14",
         "price": 800000
+      },
+      {
+        "date": "2026/06/07",
+        "price": 900000
+      },
+      {
+        "date": "2026/06/08",
+        "price": 1000000
       },
       {
         "date": "2026/06/10",
@@ -4614,42 +4502,7 @@
             "price": 1000000
           }
         ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 1000000,
-    "canonicalId": "OP13-119_CS-UNOPENED",
-    "aliasKeys": [
-      "op13-119_ポートガス・ｄ・エース【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【青】【op13-119】",
-      "ポートガス・Ｄ・エース 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【青】【OP13-119】_OP13-119",
-      "チャンピオンシップ版op13-119_ポートガス・d・エース【プロモ】《青》未開封",
-      "ポートガス・D・エース【プロモ】《青》未開封_チャンピオンシップ版OP13-119",
-      "OP13-119_CS-UNOPENED",
-      "ポートガス・D・エース【プロモ】《青》未開封_OP13-119",
-      "op13-119_ポートガス・d・エース【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【青】【op13-119】",
-      "op13-119_ポートガス・d・エース【プロモ】《青》未開封"
-    ]
-  },
-  {
-    "key": "op13-119@cs+illust:otton+unopened",
-    "name": "ポートガス・D・エース(未開封/CS25-26/illust:otton)",
-    "modelNo": "OP13-119",
-    "imageId": "https://files.cardrush.media/onepiece/ocha_products/9970.webp",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 750000
       },
-      {
-        "date": "2026/06/07",
-        "price": 900000
-      },
-      {
-        "date": "2026/06/08",
-        "price": 1000000
-      }
-    ],
-    "pricesByShop": {
       "cardrush": {
         "shopName": "カードラッシュ",
         "latestPrice": 1000000,
@@ -4671,9 +4524,19 @@
         ]
       }
     },
-    "bestShopId": "cardrush",
+    "bestShopId": "mercard",
     "latestPrice": 1000000,
+    "canonicalId": "OP13-119_CS-UNOPENED",
     "aliasKeys": [
+      "op13-119@promo+unopened",
+      "op13-119_ポートガス・ｄ・エース【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【青】【op13-119】",
+      "ポートガス・Ｄ・エース 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【青】【OP13-119】_OP13-119",
+      "チャンピオンシップ版op13-119_ポートガス・d・エース【プロモ】《青》未開封",
+      "ポートガス・D・エース【プロモ】《青》未開封_チャンピオンシップ版OP13-119",
+      "ポートガス・D・エース【プロモ】《青》未開封_OP13-119",
+      "op13-119_ポートガス・d・エース【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【青】【op13-119】",
+      "op13-119_ポートガス・d・エース【プロモ】《青》未開封",
+      "op13-119@cs+unopened",
       "op13-119_ポートガス・d・エース(未開封/cs25-26/illust:otton)",
       "ポートガス・D・エース(未開封/CS25-26/illust:otton)_OP13-119"
     ]
@@ -4845,6 +4708,10 @@
         "price": 700000
       },
       {
+        "date": "2026/05/16",
+        "price": 850000
+      },
+      {
         "date": "2026/05/17",
         "price": 800000
       },
@@ -4855,6 +4722,10 @@
       {
         "date": "2026/05/22",
         "price": 850000
+      },
+      {
+        "date": "2026/06/07",
+        "price": 900000
       },
       {
         "date": "2026/06/08",
@@ -4879,6 +4750,26 @@
           {
             "date": "2026/06/08",
             "price": 1000000
+          }
+        ]
+      },
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 900000,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/1056.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 700000
+          },
+          {
+            "date": "2026/05/16",
+            "price": 850000
+          },
+          {
+            "date": "2026/06/07",
+            "price": 900000
           }
         ]
       },
@@ -4984,6 +4875,8 @@
     "aliasKeys": [
       "st01-013_ロロノア・ゾロ【sr】【パラレル】【プロモ】【チャンピオンシップ】【赤】【st01-013】",
       "ロロノア・ゾロ 【SR】【パラレル】【プロモ】【チャンピオンシップ】【赤】【ST01-013】_ST01-013",
+      "st01-013_ロロノア・ゾロ(cs/illust:kankurou)",
+      "ロロノア・ゾロ(CS/illust:kankurou)_ST01-013",
       "チャンピオンシップ版st01-013_ロロノア・ゾロ【プロモ】《赤》",
       "ロロノア・ゾロ【プロモ】《赤》_チャンピオンシップ版ST01-013"
     ]
@@ -5042,54 +4935,6 @@
     "aliasKeys": [
       "op09-118_ゴール・d・ロジャー(パラレル/金色漫画背景/漫画絵)",
       "ゴール・D・ロジャー(パラレル/金色漫画背景/漫画絵)_OP09-118"
-    ]
-  },
-  {
-    "key": "st01-013@cs+illust:kankurou",
-    "name": "ロロノア・ゾロ(CS/illust:kankurou)",
-    "modelNo": "ST01-013",
-    "imageId": "https://files.cardrush.media/onepiece/ocha_products/1056.webp",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 700000
-      },
-      {
-        "date": "2026/05/16",
-        "price": 850000
-      },
-      {
-        "date": "2026/06/07",
-        "price": 900000
-      }
-    ],
-    "pricesByShop": {
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 900000,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/1056.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 700000
-          },
-          {
-            "date": "2026/05/16",
-            "price": 850000
-          },
-          {
-            "date": "2026/06/07",
-            "price": 900000
-          }
-        ]
-      }
-    },
-    "bestShopId": "cardrush",
-    "latestPrice": 900000,
-    "aliasKeys": [
-      "st01-013_ロロノア・ゾロ(cs/illust:kankurou)",
-      "ロロノア・ゾロ(CS/illust:kankurou)_ST01-013"
     ]
   },
   {
@@ -5458,7 +5303,7 @@
   },
   {
     "key": "op05-091@cs",
-    "name": "レベッカ 【SR】【パラレル】【プロモ】【チャンピオンシップ】【黒】【OP05-091】",
+    "name": "レベッカ(CS2024/illust:Hashimoto Q)",
     "modelNo": "OP05-091",
     "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP05-091.png",
     "history": [
@@ -5469,6 +5314,14 @@
       {
         "date": "2026/05/23",
         "price": 800000
+      },
+      {
+        "date": "2026/06/05",
+        "price": 550000
+      },
+      {
+        "date": "2026/06/07",
+        "price": 500000
       }
     ],
     "pricesByShop": {
@@ -5487,13 +5340,35 @@
             "price": 800000
           }
         ]
+      },
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 500000,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/6848.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 700000
+          },
+          {
+            "date": "2026/06/05",
+            "price": 550000
+          },
+          {
+            "date": "2026/06/07",
+            "price": 500000
+          }
+        ]
       }
     },
     "bestShopId": "torecard",
     "latestPrice": 800000,
     "aliasKeys": [
       "op05-091_レベッカ【sr】【パラレル】【プロモ】【チャンピオンシップ】【黒】【op05-091】",
-      "レベッカ 【SR】【パラレル】【プロモ】【チャンピオンシップ】【黒】【OP05-091】_OP05-091"
+      "レベッカ 【SR】【パラレル】【プロモ】【チャンピオンシップ】【黒】【OP05-091】_OP05-091",
+      "op05-091_レベッカ(cs2024/illust:hashimotoq)",
+      "レベッカ(CS2024/illust:Hashimoto Q)_OP05-091"
     ]
   },
   {
@@ -6001,6 +5876,200 @@
     ]
   },
   {
+    "key": "op05-091@cs+unopened",
+    "name": "レベッカ【プロモ】《黒》未開封",
+    "modelNo": "OP05-091",
+    "imageId": "https://www.mercardop.jp/data/mercardop/product/20241218_84046c.png",
+    "history": [
+      {
+        "date": "2024/12/30",
+        "price": 1000000
+      },
+      {
+        "date": "2025/02/14",
+        "price": 1000000
+      },
+      {
+        "date": "2025/03/10",
+        "price": 950000
+      },
+      {
+        "date": "2025/04/29",
+        "price": 950000
+      },
+      {
+        "date": "2025/06/10",
+        "price": 800000
+      },
+      {
+        "date": "2025/07/25",
+        "price": 800000
+      },
+      {
+        "date": "2025/10/06",
+        "price": 700000
+      },
+      {
+        "date": "2025/11/15",
+        "price": 900000
+      },
+      {
+        "date": "2025/12/16",
+        "price": 900000
+      },
+      {
+        "date": "2026/01/26",
+        "price": 800000
+      },
+      {
+        "date": "2026/02/23",
+        "price": 750000
+      },
+      {
+        "date": "2026/03/02",
+        "price": 750000
+      },
+      {
+        "date": "2026/04/10",
+        "price": 750000
+      },
+      {
+        "date": "2026/04/24",
+        "price": 700000
+      },
+      {
+        "date": "2026/05/03",
+        "price": 650000
+      },
+      {
+        "date": "2026/05/14",
+        "price": 650000
+      },
+      {
+        "date": "2026/05/23",
+        "price": 700000
+      },
+      {
+        "date": "2026/06/05",
+        "price": 750000
+      },
+      {
+        "date": "2026/06/07",
+        "price": 600000
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 750000,
+        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20241218_84046c.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "history": [
+          {
+            "date": "2024/12/30",
+            "price": 1000000
+          },
+          {
+            "date": "2025/02/14",
+            "price": 1000000
+          },
+          {
+            "date": "2025/03/10",
+            "price": 950000
+          },
+          {
+            "date": "2025/04/29",
+            "price": 950000
+          },
+          {
+            "date": "2025/06/10",
+            "price": 800000
+          },
+          {
+            "date": "2025/07/25",
+            "price": 800000
+          },
+          {
+            "date": "2025/10/06",
+            "price": 700000
+          },
+          {
+            "date": "2025/11/15",
+            "price": 900000
+          },
+          {
+            "date": "2025/12/16",
+            "price": 900000
+          },
+          {
+            "date": "2026/01/26",
+            "price": 800000
+          },
+          {
+            "date": "2026/02/23",
+            "price": 750000
+          },
+          {
+            "date": "2026/03/02",
+            "price": 750000
+          },
+          {
+            "date": "2026/04/10",
+            "price": 750000
+          },
+          {
+            "date": "2026/04/24",
+            "price": 700000
+          },
+          {
+            "date": "2026/05/03",
+            "price": 650000
+          },
+          {
+            "date": "2026/05/14",
+            "price": 650000
+          },
+          {
+            "date": "2026/05/23",
+            "price": 700000
+          },
+          {
+            "date": "2026/06/05",
+            "price": 750000
+          }
+        ]
+      },
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 600000,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/6847.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 800000
+          },
+          {
+            "date": "2026/06/05",
+            "price": 650000
+          },
+          {
+            "date": "2026/06/07",
+            "price": 600000
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 750000,
+    "aliasKeys": [
+      "チャンピオンシップ版op05-091_レベッカ【プロモ】《黒》未開封",
+      "レベッカ【プロモ】《黒》未開封_チャンピオンシップ版OP05-091",
+      "op05-091_レベッカ(未開封/cs2024/illust:hashimotoq)",
+      "レベッカ(未開封/CS2024/illust:Hashimoto Q)_OP05-091"
+    ]
+  },
+  {
     "key": "op05-119@parallel+silver+sp",
     "name": "モンキー・D・ルフィ 【銀】【シークレット】【SP】【パラレル】【紫】【OP05-119】",
     "modelNo": "OP05-119",
@@ -6049,58 +6118,10 @@
     ]
   },
   {
-    "key": "st10-010@cs+illust:bashikou+unopened",
-    "name": "トラファルガー・ロー(未開封/CS2023/illust:Bashikou)",
-    "modelNo": "ST10-010",
-    "imageId": "https://files.cardrush.media/onepiece/ocha_products/1080.webp",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 650000
-      },
-      {
-        "date": "2026/05/16",
-        "price": 700000
-      },
-      {
-        "date": "2026/06/07",
-        "price": 750000
-      }
-    ],
-    "pricesByShop": {
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 750000,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/1080.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 650000
-          },
-          {
-            "date": "2026/05/16",
-            "price": 700000
-          },
-          {
-            "date": "2026/06/07",
-            "price": 750000
-          }
-        ]
-      }
-    },
-    "bestShopId": "cardrush",
-    "latestPrice": 750000,
-    "aliasKeys": [
-      "st10-010_トラファルガー・ロー(未開封/cs2023/illust:bashikou)",
-      "トラファルガー・ロー(未開封/CS2023/illust:Bashikou)_ST10-010"
-    ]
-  },
-  {
     "key": "st10-010@cs+unopened",
     "name": "トラファルガー・ロー【プロモ】《紫》未開封",
     "modelNo": "ST10-010",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20231015_95fb8d.jpg",
+    "imageId": "https://files.cardrush.media/onepiece/ocha_products/1080.webp",
     "history": [
       {
         "date": "2024/05/22",
@@ -6176,7 +6197,11 @@
       },
       {
         "date": "2026/05/14",
-        "price": 600000
+        "price": 650000
+      },
+      {
+        "date": "2026/05/16",
+        "price": 700000
       },
       {
         "date": "2026/05/19",
@@ -6187,11 +6212,35 @@
         "price": 650000
       },
       {
+        "date": "2026/06/07",
+        "price": 750000
+      },
+      {
         "date": "2026/06/09",
         "price": 750000
       }
     ],
     "pricesByShop": {
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 750000,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/1080.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 650000
+          },
+          {
+            "date": "2026/05/16",
+            "price": 700000
+          },
+          {
+            "date": "2026/06/07",
+            "price": 750000
+          }
+        ]
+      },
       "mercard": {
         "shopName": "メルカード",
         "latestPrice": 750000,
@@ -6301,181 +6350,15 @@
         ]
       }
     },
-    "bestShopId": "mercard",
+    "bestShopId": "cardrush",
     "latestPrice": 750000,
     "aliasKeys": [
+      "st10-010_トラファルガー・ロー(未開封/cs2023/illust:bashikou)",
+      "トラファルガー・ロー(未開封/CS2023/illust:Bashikou)_ST10-010",
       "チャンピオンシップ版st10-010_トラファルガー・ロー【プロモ】《紫》未開封",
       "トラファルガー・ロー【プロモ】《紫》未開封_チャンピオンシップ版ST10-010",
       "st10-010_トラファルガー・ロー【sr】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【紫】【st10-010】",
       "トラファルガー・ロー 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【紫】【ST10-010】_ST10-010"
-    ]
-  },
-  {
-    "key": "op05-091@cs+unopened",
-    "name": "レベッカ【プロモ】《黒》未開封",
-    "modelNo": "チャンピオンシップ版OP05-091",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20241218_84046c.png",
-    "history": [
-      {
-        "date": "2024/12/30",
-        "price": 1000000
-      },
-      {
-        "date": "2025/02/14",
-        "price": 1000000
-      },
-      {
-        "date": "2025/03/10",
-        "price": 950000
-      },
-      {
-        "date": "2025/04/29",
-        "price": 950000
-      },
-      {
-        "date": "2025/06/10",
-        "price": 800000
-      },
-      {
-        "date": "2025/07/25",
-        "price": 800000
-      },
-      {
-        "date": "2025/10/06",
-        "price": 700000
-      },
-      {
-        "date": "2025/11/15",
-        "price": 900000
-      },
-      {
-        "date": "2025/12/16",
-        "price": 900000
-      },
-      {
-        "date": "2026/01/26",
-        "price": 800000
-      },
-      {
-        "date": "2026/02/23",
-        "price": 750000
-      },
-      {
-        "date": "2026/03/02",
-        "price": 750000
-      },
-      {
-        "date": "2026/04/10",
-        "price": 750000
-      },
-      {
-        "date": "2026/04/24",
-        "price": 700000
-      },
-      {
-        "date": "2026/05/03",
-        "price": 650000
-      },
-      {
-        "date": "2026/05/14",
-        "price": 650000
-      },
-      {
-        "date": "2026/05/23",
-        "price": 700000
-      },
-      {
-        "date": "2026/06/05",
-        "price": 750000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 750000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20241218_84046c.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2024/12/30",
-            "price": 1000000
-          },
-          {
-            "date": "2025/02/14",
-            "price": 1000000
-          },
-          {
-            "date": "2025/03/10",
-            "price": 950000
-          },
-          {
-            "date": "2025/04/29",
-            "price": 950000
-          },
-          {
-            "date": "2025/06/10",
-            "price": 800000
-          },
-          {
-            "date": "2025/07/25",
-            "price": 800000
-          },
-          {
-            "date": "2025/10/06",
-            "price": 700000
-          },
-          {
-            "date": "2025/11/15",
-            "price": 900000
-          },
-          {
-            "date": "2025/12/16",
-            "price": 900000
-          },
-          {
-            "date": "2026/01/26",
-            "price": 800000
-          },
-          {
-            "date": "2026/02/23",
-            "price": 750000
-          },
-          {
-            "date": "2026/03/02",
-            "price": 750000
-          },
-          {
-            "date": "2026/04/10",
-            "price": 750000
-          },
-          {
-            "date": "2026/04/24",
-            "price": 700000
-          },
-          {
-            "date": "2026/05/03",
-            "price": 650000
-          },
-          {
-            "date": "2026/05/14",
-            "price": 650000
-          },
-          {
-            "date": "2026/05/23",
-            "price": 700000
-          },
-          {
-            "date": "2026/06/05",
-            "price": 750000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 750000,
-    "aliasKeys": [
-      "チャンピオンシップ版op05-091_レベッカ【プロモ】《黒》未開封",
-      "レベッカ【プロモ】《黒》未開封_チャンピオンシップ版OP05-091"
     ]
   },
   {
@@ -6583,11 +6466,23 @@
     ]
   },
   {
-    "key": "op14-120@cs+illust:akanegumo+unopened",
-    "name": "クロコダイル(未開封/CS26-27/illust:Akanegumo)",
+    "key": "op14-120@cs+unopened",
+    "name": "クロコダイル【プロモ】《黒》未開封",
     "modelNo": "OP14-120",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/12536.webp",
     "history": [
+      {
+        "date": "2026/04/10",
+        "price": 450000
+      },
+      {
+        "date": "2026/04/17",
+        "price": 430000
+      },
+      {
+        "date": "2026/05/03",
+        "price": 450000
+      },
       {
         "date": "2026/05/14",
         "price": 450000
@@ -6595,6 +6490,22 @@
       {
         "date": "2026/05/16",
         "price": 500000
+      },
+      {
+        "date": "2026/05/17",
+        "price": 500000
+      },
+      {
+        "date": "2026/05/19",
+        "price": 400000
+      },
+      {
+        "date": "2026/05/20",
+        "price": 400000
+      },
+      {
+        "date": "2026/06/05",
+        "price": 550000
       },
       {
         "date": "2026/06/07",
@@ -6629,13 +6540,75 @@
             "price": 700000
           }
         ]
+      },
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 600000,
+        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20260303_1407ee.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "history": [
+          {
+            "date": "2026/04/10",
+            "price": 450000
+          },
+          {
+            "date": "2026/04/17",
+            "price": 430000
+          },
+          {
+            "date": "2026/05/03",
+            "price": 450000
+          },
+          {
+            "date": "2026/05/14",
+            "price": 450000
+          },
+          {
+            "date": "2026/05/17",
+            "price": 500000
+          },
+          {
+            "date": "2026/06/05",
+            "price": 550000
+          },
+          {
+            "date": "2026/06/07",
+            "price": 600000
+          }
+        ]
+      },
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 400000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP14-120_x1.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 370000
+          },
+          {
+            "date": "2026/05/19",
+            "price": 400000
+          },
+          {
+            "date": "2026/05/20",
+            "price": 400000
+          }
+        ]
       }
     },
     "bestShopId": "cardrush",
     "latestPrice": 700000,
     "aliasKeys": [
       "op14-120_クロコダイル(未開封/cs26-27/illust:akanegumo)",
-      "クロコダイル(未開封/CS26-27/illust:Akanegumo)_OP14-120"
+      "クロコダイル(未開封/CS26-27/illust:Akanegumo)_OP14-120",
+      "チャンピオンシップ版op14-120_クロコダイル【プロモ】《黒》未開封",
+      "クロコダイル【プロモ】《黒》未開封_チャンピオンシップ版OP14-120",
+      "op14-120_クロコダイル【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黒】【op14-120】【2026】",
+      "クロコダイル 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黒】【OP14-120】【2026】_OP14-120",
+      "op14-120_クロコダイル【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黒】【op14-120】",
+      "クロコダイル 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黒】【OP14-120】_OP14-120"
     ]
   },
   {
@@ -7919,166 +7892,6 @@
     ]
   },
   {
-    "key": "op05-091@cs+illust:hashimotoq+unopened",
-    "name": "レベッカ(未開封/CS2024/illust:Hashimoto Q)",
-    "modelNo": "OP05-091",
-    "imageId": "https://files.cardrush.media/onepiece/ocha_products/6847.webp",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 800000
-      },
-      {
-        "date": "2026/06/05",
-        "price": 650000
-      },
-      {
-        "date": "2026/06/07",
-        "price": 600000
-      }
-    ],
-    "pricesByShop": {
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 600000,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/6847.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 800000
-          },
-          {
-            "date": "2026/06/05",
-            "price": 650000
-          },
-          {
-            "date": "2026/06/07",
-            "price": 600000
-          }
-        ]
-      }
-    },
-    "bestShopId": "cardrush",
-    "latestPrice": 600000,
-    "aliasKeys": [
-      "op05-091_レベッカ(未開封/cs2024/illust:hashimotoq)",
-      "レベッカ(未開封/CS2024/illust:Hashimoto Q)_OP05-091"
-    ]
-  },
-  {
-    "key": "op14-120@cs+unopened",
-    "name": "クロコダイル【プロモ】《黒》未開封",
-    "modelNo": "OP14-120",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20260303_1407ee.png",
-    "history": [
-      {
-        "date": "2026/04/10",
-        "price": 450000
-      },
-      {
-        "date": "2026/04/17",
-        "price": 430000
-      },
-      {
-        "date": "2026/05/03",
-        "price": 450000
-      },
-      {
-        "date": "2026/05/14",
-        "price": 450000
-      },
-      {
-        "date": "2026/05/17",
-        "price": 500000
-      },
-      {
-        "date": "2026/05/19",
-        "price": 400000
-      },
-      {
-        "date": "2026/05/20",
-        "price": 400000
-      },
-      {
-        "date": "2026/06/05",
-        "price": 550000
-      },
-      {
-        "date": "2026/06/07",
-        "price": 600000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 600000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20260303_1407ee.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2026/04/10",
-            "price": 450000
-          },
-          {
-            "date": "2026/04/17",
-            "price": 430000
-          },
-          {
-            "date": "2026/05/03",
-            "price": 450000
-          },
-          {
-            "date": "2026/05/14",
-            "price": 450000
-          },
-          {
-            "date": "2026/05/17",
-            "price": 500000
-          },
-          {
-            "date": "2026/06/05",
-            "price": 550000
-          },
-          {
-            "date": "2026/06/07",
-            "price": 600000
-          }
-        ]
-      },
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 400000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP14-120_x1.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 370000
-          },
-          {
-            "date": "2026/05/19",
-            "price": 400000
-          },
-          {
-            "date": "2026/05/20",
-            "price": 400000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 600000,
-    "aliasKeys": [
-      "チャンピオンシップ版op14-120_クロコダイル【プロモ】《黒》未開封",
-      "クロコダイル【プロモ】《黒》未開封_チャンピオンシップ版OP14-120",
-      "op14-120_クロコダイル【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黒】【op14-120】【2026】",
-      "クロコダイル 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黒】【OP14-120】【2026】_OP14-120",
-      "op14-120_クロコダイル【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黒】【op14-120】",
-      "クロコダイル 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黒】【OP14-120】_OP14-120"
-    ]
-  },
-  {
     "key": "p-112@asia+minitinpacksetvol2+parallel+promo+serial+絵違い",
     "name": "ナミ 【シリアル】【絵違い】【ASIA】【P】【パラレル】【プロモ】【Mini-tin Pack set Vol.2】【青】【P-112】",
     "modelNo": "P-112",
@@ -9189,54 +9002,6 @@
     ]
   },
   {
-    "key": "op05-091@cs+illust:hashimotoq",
-    "name": "レベッカ(CS2024/illust:Hashimoto Q)",
-    "modelNo": "OP05-091",
-    "imageId": "https://files.cardrush.media/onepiece/ocha_products/6848.webp",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 700000
-      },
-      {
-        "date": "2026/06/05",
-        "price": 550000
-      },
-      {
-        "date": "2026/06/07",
-        "price": 500000
-      }
-    ],
-    "pricesByShop": {
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 500000,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/6848.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 700000
-          },
-          {
-            "date": "2026/06/05",
-            "price": 550000
-          },
-          {
-            "date": "2026/06/07",
-            "price": 500000
-          }
-        ]
-      }
-    },
-    "bestShopId": "cardrush",
-    "latestPrice": 500000,
-    "aliasKeys": [
-      "op05-091_レベッカ(cs2024/illust:hashimotoq)",
-      "レベッカ(CS2024/illust:Hashimoto Q)_OP05-091"
-    ]
-  },
-  {
     "key": "op07-119@jp+opened+serial",
     "name": "ポートガス・D・エース(開封品/Japan/シリアル)",
     "modelNo": "OP07-119",
@@ -9293,7 +9058,7 @@
     ]
   },
   {
-    "key": "op14-120@cs+illust:akanegumo",
+    "key": "op14-120@cs",
     "name": "クロコダイル(CS26-27/illust:Akanegumo)",
     "modelNo": "OP14-120",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/12537.webp",
@@ -10279,11 +10044,83 @@
     ]
   },
   {
-    "key": "op02-114@cs+illust:tatsuya+unopened",
-    "name": "ボルサリーノ(未開封/CS2023/illust:tatsuya)",
+    "key": "op02-114@cs+unopened",
+    "name": "ボルサリーノ【プロモ】《黒》未開封",
     "modelNo": "OP02-114",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/983.webp",
     "history": [
+      {
+        "date": "2024/05/22",
+        "price": 700000
+      },
+      {
+        "date": "2024/06/07",
+        "price": 700000
+      },
+      {
+        "date": "2024/07/19",
+        "price": 500000
+      },
+      {
+        "date": "2024/11/01",
+        "price": 320000
+      },
+      {
+        "date": "2024/12/30",
+        "price": 300000
+      },
+      {
+        "date": "2025/02/14",
+        "price": 300000
+      },
+      {
+        "date": "2025/03/10",
+        "price": 200000
+      },
+      {
+        "date": "2025/04/29",
+        "price": 200000
+      },
+      {
+        "date": "2025/06/10",
+        "price": 220000
+      },
+      {
+        "date": "2025/07/25",
+        "price": 230000
+      },
+      {
+        "date": "2025/10/06",
+        "price": 230000
+      },
+      {
+        "date": "2025/11/15",
+        "price": 300000
+      },
+      {
+        "date": "2025/12/16",
+        "price": 300000
+      },
+      {
+        "date": "2026/01/26",
+        "price": 280000
+      },
+      {
+        "date": "2026/02/23",
+        "price": 280000
+      },
+      {
+        "date": "2026/03/02",
+        "price": 280000
+      },
+      {
+        "date": "2026/04/10",
+        "price": 280000
+      },
+      {
+        "date": "2026/05/03",
+        "price": 300000
+      },
       {
         "date": "2026/05/14",
         "price": 330000
@@ -10291,6 +10128,18 @@
       {
         "date": "2026/05/16",
         "price": 350000
+      },
+      {
+        "date": "2026/05/17",
+        "price": 350000
+      },
+      {
+        "date": "2026/05/19",
+        "price": 350000
+      },
+      {
+        "date": "2026/05/23",
+        "price": 380000
       },
       {
         "date": "2026/05/26",
@@ -10325,24 +10174,208 @@
             "price": 450000
           }
         ]
+      },
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 420000,
+        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20230515_38f627.jpg",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "history": [
+          {
+            "date": "2024/05/22",
+            "price": 700000
+          },
+          {
+            "date": "2024/06/07",
+            "price": 700000
+          },
+          {
+            "date": "2024/07/19",
+            "price": 500000
+          },
+          {
+            "date": "2024/11/01",
+            "price": 320000
+          },
+          {
+            "date": "2024/12/30",
+            "price": 300000
+          },
+          {
+            "date": "2025/02/14",
+            "price": 300000
+          },
+          {
+            "date": "2025/03/10",
+            "price": 200000
+          },
+          {
+            "date": "2025/04/29",
+            "price": 200000
+          },
+          {
+            "date": "2025/06/10",
+            "price": 220000
+          },
+          {
+            "date": "2025/07/25",
+            "price": 230000
+          },
+          {
+            "date": "2025/10/06",
+            "price": 230000
+          },
+          {
+            "date": "2025/11/15",
+            "price": 300000
+          },
+          {
+            "date": "2025/12/16",
+            "price": 300000
+          },
+          {
+            "date": "2026/01/26",
+            "price": 280000
+          },
+          {
+            "date": "2026/02/23",
+            "price": 280000
+          },
+          {
+            "date": "2026/03/02",
+            "price": 280000
+          },
+          {
+            "date": "2026/04/10",
+            "price": 280000
+          },
+          {
+            "date": "2026/05/03",
+            "price": 300000
+          },
+          {
+            "date": "2026/05/14",
+            "price": 300000
+          },
+          {
+            "date": "2026/05/17",
+            "price": 350000
+          },
+          {
+            "date": "2026/05/23",
+            "price": 380000
+          },
+          {
+            "date": "2026/06/07",
+            "price": 420000
+          }
+        ]
+      },
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 380000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP02-114_p3.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 330000
+          },
+          {
+            "date": "2026/05/19",
+            "price": 350000
+          },
+          {
+            "date": "2026/05/23",
+            "price": 380000
+          }
+        ]
       }
     },
     "bestShopId": "cardrush",
     "latestPrice": 450000,
     "aliasKeys": [
       "op02-114_ボルサリーノ(未開封/cs2023/illust:tatsuya)",
-      "ボルサリーノ(未開封/CS2023/illust:tatsuya)_OP02-114"
+      "ボルサリーノ(未開封/CS2023/illust:tatsuya)_OP02-114",
+      "チャンピオンシップ版op02-114_ボルサリーノ【プロモ】《黒》未開封",
+      "ボルサリーノ【プロモ】《黒》未開封_チャンピオンシップ版OP02-114",
+      "op02-114_ボルサリーノ【sr】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【op02-114】",
+      "ボルサリーノ 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【OP02-114】_OP02-114"
     ]
   },
   {
-    "key": "op05-086@cs+illust:nuisuke+unopened",
-    "name": "ネフェルタリ・ビビ(未開封/CS2024/illust:nuisuke)",
+    "key": "op05-086@cs+unopened",
+    "name": "ネフェルタリ・ビビ【プロモ】《黒》未開封",
     "modelNo": "OP05-086",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/6107.webp",
     "history": [
       {
+        "date": "2024/12/30",
+        "price": 330000
+      },
+      {
+        "date": "2025/02/14",
+        "price": 330000
+      },
+      {
+        "date": "2025/03/10",
+        "price": 250000
+      },
+      {
+        "date": "2025/04/29",
+        "price": 250000
+      },
+      {
+        "date": "2025/06/10",
+        "price": 280000
+      },
+      {
+        "date": "2025/07/25",
+        "price": 230000
+      },
+      {
+        "date": "2025/10/06",
+        "price": 230000
+      },
+      {
+        "date": "2025/11/15",
+        "price": 380000
+      },
+      {
+        "date": "2025/12/16",
+        "price": 300000
+      },
+      {
+        "date": "2026/01/26",
+        "price": 350000
+      },
+      {
+        "date": "2026/02/23",
+        "price": 350000
+      },
+      {
+        "date": "2026/03/02",
+        "price": 350000
+      },
+      {
+        "date": "2026/04/10",
+        "price": 320000
+      },
+      {
+        "date": "2026/04/17",
+        "price": 330000
+      },
+      {
+        "date": "2026/05/03",
+        "price": 300000
+      },
+      {
         "date": "2026/05/14",
         "price": 330000
+      },
+      {
+        "date": "2026/06/05",
+        "price": 350000
       },
       {
         "date": "2026/06/07",
@@ -10373,13 +10406,91 @@
             "price": 450000
           }
         ]
+      },
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 350000,
+        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20240914_1f14f7.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "history": [
+          {
+            "date": "2024/12/30",
+            "price": 330000
+          },
+          {
+            "date": "2025/02/14",
+            "price": 330000
+          },
+          {
+            "date": "2025/03/10",
+            "price": 250000
+          },
+          {
+            "date": "2025/04/29",
+            "price": 250000
+          },
+          {
+            "date": "2025/06/10",
+            "price": 280000
+          },
+          {
+            "date": "2025/07/25",
+            "price": 230000
+          },
+          {
+            "date": "2025/10/06",
+            "price": 230000
+          },
+          {
+            "date": "2025/11/15",
+            "price": 380000
+          },
+          {
+            "date": "2025/12/16",
+            "price": 300000
+          },
+          {
+            "date": "2026/01/26",
+            "price": 350000
+          },
+          {
+            "date": "2026/02/23",
+            "price": 350000
+          },
+          {
+            "date": "2026/03/02",
+            "price": 350000
+          },
+          {
+            "date": "2026/04/10",
+            "price": 320000
+          },
+          {
+            "date": "2026/04/17",
+            "price": 330000
+          },
+          {
+            "date": "2026/05/03",
+            "price": 300000
+          },
+          {
+            "date": "2026/05/14",
+            "price": 300000
+          },
+          {
+            "date": "2026/06/05",
+            "price": 350000
+          }
+        ]
       }
     },
     "bestShopId": "cardrush",
     "latestPrice": 450000,
     "aliasKeys": [
       "op05-086_ネフェルタリ・ビビ(未開封/cs2024/illust:nuisuke)",
-      "ネフェルタリ・ビビ(未開封/CS2024/illust:nuisuke)_OP05-086"
+      "ネフェルタリ・ビビ(未開封/CS2024/illust:nuisuke)_OP05-086",
+      "チャンピオンシップ版op05-086_ネフェルタリ・ビビ【プロモ】《黒》未開封",
+      "ネフェルタリ・ビビ【プロモ】《黒》未開封_チャンピオンシップ版OP05-086"
     ]
   },
   {
@@ -10516,232 +10627,6 @@
     "aliasKeys": [
       "コミックパラレル版op16-063_クザン【コミック版パラレル】《紫》",
       "クザン【コミック版パラレル】《紫》_コミックパラレル版OP16-063"
-    ]
-  },
-  {
-    "key": "op02-114@cs+unopened",
-    "name": "ボルサリーノ【プロモ】《黒》未開封",
-    "modelNo": "OP02-114",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20230515_38f627.jpg",
-    "history": [
-      {
-        "date": "2024/05/22",
-        "price": 700000
-      },
-      {
-        "date": "2024/06/07",
-        "price": 700000
-      },
-      {
-        "date": "2024/07/19",
-        "price": 500000
-      },
-      {
-        "date": "2024/11/01",
-        "price": 320000
-      },
-      {
-        "date": "2024/12/30",
-        "price": 300000
-      },
-      {
-        "date": "2025/02/14",
-        "price": 300000
-      },
-      {
-        "date": "2025/03/10",
-        "price": 200000
-      },
-      {
-        "date": "2025/04/29",
-        "price": 200000
-      },
-      {
-        "date": "2025/06/10",
-        "price": 220000
-      },
-      {
-        "date": "2025/07/25",
-        "price": 230000
-      },
-      {
-        "date": "2025/10/06",
-        "price": 230000
-      },
-      {
-        "date": "2025/11/15",
-        "price": 300000
-      },
-      {
-        "date": "2025/12/16",
-        "price": 300000
-      },
-      {
-        "date": "2026/01/26",
-        "price": 280000
-      },
-      {
-        "date": "2026/02/23",
-        "price": 280000
-      },
-      {
-        "date": "2026/03/02",
-        "price": 280000
-      },
-      {
-        "date": "2026/04/10",
-        "price": 280000
-      },
-      {
-        "date": "2026/05/03",
-        "price": 300000
-      },
-      {
-        "date": "2026/05/14",
-        "price": 300000
-      },
-      {
-        "date": "2026/05/17",
-        "price": 350000
-      },
-      {
-        "date": "2026/05/19",
-        "price": 350000
-      },
-      {
-        "date": "2026/05/23",
-        "price": 380000
-      },
-      {
-        "date": "2026/06/07",
-        "price": 420000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 420000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20230515_38f627.jpg",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2024/05/22",
-            "price": 700000
-          },
-          {
-            "date": "2024/06/07",
-            "price": 700000
-          },
-          {
-            "date": "2024/07/19",
-            "price": 500000
-          },
-          {
-            "date": "2024/11/01",
-            "price": 320000
-          },
-          {
-            "date": "2024/12/30",
-            "price": 300000
-          },
-          {
-            "date": "2025/02/14",
-            "price": 300000
-          },
-          {
-            "date": "2025/03/10",
-            "price": 200000
-          },
-          {
-            "date": "2025/04/29",
-            "price": 200000
-          },
-          {
-            "date": "2025/06/10",
-            "price": 220000
-          },
-          {
-            "date": "2025/07/25",
-            "price": 230000
-          },
-          {
-            "date": "2025/10/06",
-            "price": 230000
-          },
-          {
-            "date": "2025/11/15",
-            "price": 300000
-          },
-          {
-            "date": "2025/12/16",
-            "price": 300000
-          },
-          {
-            "date": "2026/01/26",
-            "price": 280000
-          },
-          {
-            "date": "2026/02/23",
-            "price": 280000
-          },
-          {
-            "date": "2026/03/02",
-            "price": 280000
-          },
-          {
-            "date": "2026/04/10",
-            "price": 280000
-          },
-          {
-            "date": "2026/05/03",
-            "price": 300000
-          },
-          {
-            "date": "2026/05/14",
-            "price": 300000
-          },
-          {
-            "date": "2026/05/17",
-            "price": 350000
-          },
-          {
-            "date": "2026/05/23",
-            "price": 380000
-          },
-          {
-            "date": "2026/06/07",
-            "price": 420000
-          }
-        ]
-      },
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 380000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP02-114_p3.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 330000
-          },
-          {
-            "date": "2026/05/19",
-            "price": 350000
-          },
-          {
-            "date": "2026/05/23",
-            "price": 380000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 420000,
-    "aliasKeys": [
-      "チャンピオンシップ版op02-114_ボルサリーノ【プロモ】《黒》未開封",
-      "ボルサリーノ【プロモ】《黒》未開封_チャンピオンシップ版OP02-114",
-      "op02-114_ボルサリーノ【sr】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【op02-114】",
-      "ボルサリーノ 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【OP02-114】_OP02-114"
     ]
   },
   {
@@ -12629,7 +12514,7 @@
     ]
   },
   {
-    "key": "op05-086@cs+illust:nuisuke",
+    "key": "op05-086@cs",
     "name": "ネフェルタリ・ビビ(CS2024/illust:nuisuke)",
     "modelNo": "OP05-086",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/6108.webp",
@@ -12659,13 +12544,27 @@
             "price": 350000
           }
         ]
+      },
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 330000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP05-086_p1.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 330000
+          }
+        ]
       }
     },
     "bestShopId": "cardrush",
     "latestPrice": 350000,
     "aliasKeys": [
       "op05-086_ネフェルタリ・ビビ(cs2024/illust:nuisuke)",
-      "ネフェルタリ・ビビ(CS2024/illust:nuisuke)_OP05-086"
+      "ネフェルタリ・ビビ(CS2024/illust:nuisuke)_OP05-086",
+      "op05-086_ネフェルタリ・ビビ【r】【パラレル】【プロモ】【チャンピオンシップ】【黒】【op05-086】",
+      "ネフェルタリ・ビビ 【R】【パラレル】【プロモ】【チャンピオンシップ】【黒】【OP05-086】_OP05-086"
     ]
   },
   {
@@ -13119,166 +13018,6 @@
     ]
   },
   {
-    "key": "op05-086@cs+unopened",
-    "name": "ネフェルタリ・ビビ【プロモ】《黒》未開封",
-    "modelNo": "チャンピオンシップ版OP05-086",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20240914_1f14f7.png",
-    "history": [
-      {
-        "date": "2024/12/30",
-        "price": 330000
-      },
-      {
-        "date": "2025/02/14",
-        "price": 330000
-      },
-      {
-        "date": "2025/03/10",
-        "price": 250000
-      },
-      {
-        "date": "2025/04/29",
-        "price": 250000
-      },
-      {
-        "date": "2025/06/10",
-        "price": 280000
-      },
-      {
-        "date": "2025/07/25",
-        "price": 230000
-      },
-      {
-        "date": "2025/10/06",
-        "price": 230000
-      },
-      {
-        "date": "2025/11/15",
-        "price": 380000
-      },
-      {
-        "date": "2025/12/16",
-        "price": 300000
-      },
-      {
-        "date": "2026/01/26",
-        "price": 350000
-      },
-      {
-        "date": "2026/02/23",
-        "price": 350000
-      },
-      {
-        "date": "2026/03/02",
-        "price": 350000
-      },
-      {
-        "date": "2026/04/10",
-        "price": 320000
-      },
-      {
-        "date": "2026/04/17",
-        "price": 330000
-      },
-      {
-        "date": "2026/05/03",
-        "price": 300000
-      },
-      {
-        "date": "2026/05/14",
-        "price": 300000
-      },
-      {
-        "date": "2026/06/05",
-        "price": 350000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 350000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20240914_1f14f7.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2024/12/30",
-            "price": 330000
-          },
-          {
-            "date": "2025/02/14",
-            "price": 330000
-          },
-          {
-            "date": "2025/03/10",
-            "price": 250000
-          },
-          {
-            "date": "2025/04/29",
-            "price": 250000
-          },
-          {
-            "date": "2025/06/10",
-            "price": 280000
-          },
-          {
-            "date": "2025/07/25",
-            "price": 230000
-          },
-          {
-            "date": "2025/10/06",
-            "price": 230000
-          },
-          {
-            "date": "2025/11/15",
-            "price": 380000
-          },
-          {
-            "date": "2025/12/16",
-            "price": 300000
-          },
-          {
-            "date": "2026/01/26",
-            "price": 350000
-          },
-          {
-            "date": "2026/02/23",
-            "price": 350000
-          },
-          {
-            "date": "2026/03/02",
-            "price": 350000
-          },
-          {
-            "date": "2026/04/10",
-            "price": 320000
-          },
-          {
-            "date": "2026/04/17",
-            "price": 330000
-          },
-          {
-            "date": "2026/05/03",
-            "price": 300000
-          },
-          {
-            "date": "2026/05/14",
-            "price": 300000
-          },
-          {
-            "date": "2026/06/05",
-            "price": 350000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 350000,
-    "aliasKeys": [
-      "チャンピオンシップ版op05-086_ネフェルタリ・ビビ【プロモ】《黒》未開封",
-      "ネフェルタリ・ビビ【プロモ】《黒》未開封_チャンピオンシップ版OP05-086"
-    ]
-  },
-  {
     "key": "op01-025@illust:studiovigorcoltd",
     "name": "ロロノア・ゾロ(illust:Studio Vigor Co.Ltd)",
     "modelNo": "OP01-025",
@@ -13332,38 +13071,6 @@
     "aliasKeys": [
       "op01-025_ロロノア・ゾロ(illust:studiovigorco.ltd)",
       "ロロノア・ゾロ(illust:Studio Vigor Co.Ltd)_OP01-025"
-    ]
-  },
-  {
-    "key": "op05-086@cs",
-    "name": "ネフェルタリ・ビビ 【R】【パラレル】【プロモ】【チャンピオンシップ】【黒】【OP05-086】",
-    "modelNo": "OP05-086",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP05-086_p1.jpeg",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 330000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 330000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP05-086_p1.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 330000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 330000,
-    "aliasKeys": [
-      "op05-086_ネフェルタリ・ビビ【r】【パラレル】【プロモ】【チャンピオンシップ】【黒】【op05-086】",
-      "ネフェルタリ・ビビ 【R】【パラレル】【プロモ】【チャンピオンシップ】【黒】【OP05-086】_OP05-086"
     ]
   },
   {
@@ -14413,13 +14120,89 @@
     ]
   },
   {
-    "key": "st10-013@cs+illust:studiovigorcoltd+unopened",
-    "name": "ユースタス・キッド(未開封/CS2023/illust:Studio Vigor Co.Ltd)",
+    "key": "st10-013@cs+unopened",
+    "name": "ユースタス・キッド【プロモ】《紫》未開封",
     "modelNo": "ST10-013",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/1081.webp",
     "history": [
       {
+        "date": "2024/05/22",
+        "price": 750000
+      },
+      {
+        "date": "2024/06/07",
+        "price": 750000
+      },
+      {
+        "date": "2024/07/19",
+        "price": 570000
+      },
+      {
+        "date": "2024/11/01",
+        "price": 350000
+      },
+      {
+        "date": "2024/12/30",
+        "price": 250000
+      },
+      {
+        "date": "2025/02/14",
+        "price": 250000
+      },
+      {
+        "date": "2025/03/10",
+        "price": 180000
+      },
+      {
+        "date": "2025/04/29",
+        "price": 180000
+      },
+      {
+        "date": "2025/06/10",
+        "price": 200000
+      },
+      {
+        "date": "2025/07/25",
+        "price": 190000
+      },
+      {
+        "date": "2025/10/06",
+        "price": 170000
+      },
+      {
+        "date": "2025/11/15",
+        "price": 170000
+      },
+      {
+        "date": "2025/12/16",
+        "price": 180000
+      },
+      {
+        "date": "2026/01/26",
+        "price": 220000
+      },
+      {
+        "date": "2026/02/23",
+        "price": 220000
+      },
+      {
+        "date": "2026/03/02",
+        "price": 220000
+      },
+      {
+        "date": "2026/04/10",
+        "price": 230000
+      },
+      {
+        "date": "2026/05/03",
+        "price": 230000
+      },
+      {
         "date": "2026/05/14",
+        "price": 250000
+      },
+      {
+        "date": "2026/05/17",
         "price": 250000
       },
       {
@@ -14451,13 +14234,117 @@
             "price": 300000
           }
         ]
+      },
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 250000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST10-013_p2.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 250000
+          }
+        ]
+      },
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 250000,
+        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20231015_8a1f3b.jpg",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "history": [
+          {
+            "date": "2024/05/22",
+            "price": 750000
+          },
+          {
+            "date": "2024/06/07",
+            "price": 750000
+          },
+          {
+            "date": "2024/07/19",
+            "price": 570000
+          },
+          {
+            "date": "2024/11/01",
+            "price": 350000
+          },
+          {
+            "date": "2024/12/30",
+            "price": 250000
+          },
+          {
+            "date": "2025/02/14",
+            "price": 250000
+          },
+          {
+            "date": "2025/03/10",
+            "price": 180000
+          },
+          {
+            "date": "2025/04/29",
+            "price": 180000
+          },
+          {
+            "date": "2025/06/10",
+            "price": 200000
+          },
+          {
+            "date": "2025/07/25",
+            "price": 190000
+          },
+          {
+            "date": "2025/10/06",
+            "price": 170000
+          },
+          {
+            "date": "2025/11/15",
+            "price": 170000
+          },
+          {
+            "date": "2025/12/16",
+            "price": 180000
+          },
+          {
+            "date": "2026/01/26",
+            "price": 220000
+          },
+          {
+            "date": "2026/02/23",
+            "price": 220000
+          },
+          {
+            "date": "2026/03/02",
+            "price": 220000
+          },
+          {
+            "date": "2026/04/10",
+            "price": 230000
+          },
+          {
+            "date": "2026/05/03",
+            "price": 230000
+          },
+          {
+            "date": "2026/05/14",
+            "price": 230000
+          },
+          {
+            "date": "2026/05/17",
+            "price": 250000
+          }
+        ]
       }
     },
     "bestShopId": "cardrush",
     "latestPrice": 300000,
     "aliasKeys": [
       "st10-013_ユースタス・キッド(未開封/cs2023/illust:studiovigorco.ltd)",
-      "ユースタス・キッド(未開封/CS2023/illust:Studio Vigor Co.Ltd)_ST10-013"
+      "ユースタス・キッド(未開封/CS2023/illust:Studio Vigor Co.Ltd)_ST10-013",
+      "st10-013_ユースタス・キッド【sr】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【紫】【st10-013】",
+      "ユースタス・キッド 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【紫】【ST10-013】_ST10-013",
+      "チャンピオンシップ版st10-013_ユースタス・キッド【プロモ】《紫》未開封",
+      "ユースタス・キッド【プロモ】《紫》未開封_チャンピオンシップ版ST10-013"
     ]
   },
   {
@@ -15485,11 +15372,83 @@
     ]
   },
   {
-    "key": "op03-123@cs+illust:katsuotadano+unopened",
-    "name": "シャーロット・カタクリ(未開封/CS2024/illust:Katsuo Tadano)",
+    "key": "op03-123@cs+unopened",
+    "name": "シャーロット・カタクリ【プロモ】《黄》未開封",
     "modelNo": "OP03-123",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/4271.webp",
     "history": [
+      {
+        "date": "2024/05/22",
+        "price": 900000
+      },
+      {
+        "date": "2024/06/07",
+        "price": 900000
+      },
+      {
+        "date": "2024/07/19",
+        "price": 520000
+      },
+      {
+        "date": "2024/11/01",
+        "price": 320000
+      },
+      {
+        "date": "2024/12/30",
+        "price": 240000
+      },
+      {
+        "date": "2025/02/14",
+        "price": 240000
+      },
+      {
+        "date": "2025/03/10",
+        "price": 200000
+      },
+      {
+        "date": "2025/04/29",
+        "price": 200000
+      },
+      {
+        "date": "2025/06/10",
+        "price": 180000
+      },
+      {
+        "date": "2025/07/25",
+        "price": 150000
+      },
+      {
+        "date": "2025/10/06",
+        "price": 130000
+      },
+      {
+        "date": "2025/11/15",
+        "price": 180000
+      },
+      {
+        "date": "2025/12/16",
+        "price": 180000
+      },
+      {
+        "date": "2026/01/26",
+        "price": 200000
+      },
+      {
+        "date": "2026/02/23",
+        "price": 200000
+      },
+      {
+        "date": "2026/03/02",
+        "price": 200000
+      },
+      {
+        "date": "2026/04/10",
+        "price": 200000
+      },
+      {
+        "date": "2026/05/03",
+        "price": 200000
+      },
       {
         "date": "2026/05/14",
         "price": 200000
@@ -15515,13 +15474,113 @@
             "price": 250000
           }
         ]
+      },
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 200000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP03-123_p2.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 200000
+          }
+        ]
+      },
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 200000,
+        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20240406_f85807.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "history": [
+          {
+            "date": "2024/05/22",
+            "price": 900000
+          },
+          {
+            "date": "2024/06/07",
+            "price": 900000
+          },
+          {
+            "date": "2024/07/19",
+            "price": 520000
+          },
+          {
+            "date": "2024/11/01",
+            "price": 320000
+          },
+          {
+            "date": "2024/12/30",
+            "price": 240000
+          },
+          {
+            "date": "2025/02/14",
+            "price": 240000
+          },
+          {
+            "date": "2025/03/10",
+            "price": 200000
+          },
+          {
+            "date": "2025/04/29",
+            "price": 200000
+          },
+          {
+            "date": "2025/06/10",
+            "price": 180000
+          },
+          {
+            "date": "2025/07/25",
+            "price": 150000
+          },
+          {
+            "date": "2025/10/06",
+            "price": 130000
+          },
+          {
+            "date": "2025/11/15",
+            "price": 180000
+          },
+          {
+            "date": "2025/12/16",
+            "price": 180000
+          },
+          {
+            "date": "2026/01/26",
+            "price": 200000
+          },
+          {
+            "date": "2026/02/23",
+            "price": 200000
+          },
+          {
+            "date": "2026/03/02",
+            "price": 200000
+          },
+          {
+            "date": "2026/04/10",
+            "price": 200000
+          },
+          {
+            "date": "2026/05/03",
+            "price": 200000
+          },
+          {
+            "date": "2026/05/14",
+            "price": 200000
+          }
+        ]
       }
     },
     "bestShopId": "cardrush",
     "latestPrice": 250000,
     "aliasKeys": [
       "op03-123_シャーロット・カタクリ(未開封/cs2024/illust:katsuotadano)",
-      "シャーロット・カタクリ(未開封/CS2024/illust:Katsuo Tadano)_OP03-123"
+      "シャーロット・カタクリ(未開封/CS2024/illust:Katsuo Tadano)_OP03-123",
+      "op03-123_シャーロット・カタクリ【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【op03-123】",
+      "シャーロット・カタクリ 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【OP03-123】_OP03-123",
+      "チャンピオンシップ版op03-123_シャーロット・カタクリ【プロモ】《黄》未開封",
+      "シャーロット・カタクリ【プロモ】《黄》未開封_チャンピオンシップ版OP03-123"
     ]
   },
   {
@@ -16018,204 +16077,6 @@
     "aliasKeys": [
       "st01-007_ナミ【prb-01】【c】【ボーナスパック】【パラレル】【赤】【st01-007】",
       "ナミ 【PRB-01】【C】【ボーナスパック】【パラレル】【赤】【ST01-007】_ST01-007"
-    ]
-  },
-  {
-    "key": "st10-013@cs+unopened",
-    "name": "ユースタス・キッド【プロモ】《紫》未開封",
-    "modelNo": "ST10-013",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/ST10-013_p2.jpeg",
-    "history": [
-      {
-        "date": "2024/05/22",
-        "price": 750000
-      },
-      {
-        "date": "2024/06/07",
-        "price": 750000
-      },
-      {
-        "date": "2024/07/19",
-        "price": 570000
-      },
-      {
-        "date": "2024/11/01",
-        "price": 350000
-      },
-      {
-        "date": "2024/12/30",
-        "price": 250000
-      },
-      {
-        "date": "2025/02/14",
-        "price": 250000
-      },
-      {
-        "date": "2025/03/10",
-        "price": 180000
-      },
-      {
-        "date": "2025/04/29",
-        "price": 180000
-      },
-      {
-        "date": "2025/06/10",
-        "price": 200000
-      },
-      {
-        "date": "2025/07/25",
-        "price": 190000
-      },
-      {
-        "date": "2025/10/06",
-        "price": 170000
-      },
-      {
-        "date": "2025/11/15",
-        "price": 170000
-      },
-      {
-        "date": "2025/12/16",
-        "price": 180000
-      },
-      {
-        "date": "2026/01/26",
-        "price": 220000
-      },
-      {
-        "date": "2026/02/23",
-        "price": 220000
-      },
-      {
-        "date": "2026/03/02",
-        "price": 220000
-      },
-      {
-        "date": "2026/04/10",
-        "price": 230000
-      },
-      {
-        "date": "2026/05/03",
-        "price": 230000
-      },
-      {
-        "date": "2026/05/14",
-        "price": 250000
-      },
-      {
-        "date": "2026/05/17",
-        "price": 250000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 250000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST10-013_p2.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 250000
-          }
-        ]
-      },
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 250000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20231015_8a1f3b.jpg",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2024/05/22",
-            "price": 750000
-          },
-          {
-            "date": "2024/06/07",
-            "price": 750000
-          },
-          {
-            "date": "2024/07/19",
-            "price": 570000
-          },
-          {
-            "date": "2024/11/01",
-            "price": 350000
-          },
-          {
-            "date": "2024/12/30",
-            "price": 250000
-          },
-          {
-            "date": "2025/02/14",
-            "price": 250000
-          },
-          {
-            "date": "2025/03/10",
-            "price": 180000
-          },
-          {
-            "date": "2025/04/29",
-            "price": 180000
-          },
-          {
-            "date": "2025/06/10",
-            "price": 200000
-          },
-          {
-            "date": "2025/07/25",
-            "price": 190000
-          },
-          {
-            "date": "2025/10/06",
-            "price": 170000
-          },
-          {
-            "date": "2025/11/15",
-            "price": 170000
-          },
-          {
-            "date": "2025/12/16",
-            "price": 180000
-          },
-          {
-            "date": "2026/01/26",
-            "price": 220000
-          },
-          {
-            "date": "2026/02/23",
-            "price": 220000
-          },
-          {
-            "date": "2026/03/02",
-            "price": 220000
-          },
-          {
-            "date": "2026/04/10",
-            "price": 230000
-          },
-          {
-            "date": "2026/05/03",
-            "price": 230000
-          },
-          {
-            "date": "2026/05/14",
-            "price": 230000
-          },
-          {
-            "date": "2026/05/17",
-            "price": 250000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 250000,
-    "aliasKeys": [
-      "st10-013_ユースタス・キッド【sr】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【紫】【st10-013】",
-      "ユースタス・キッド 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【紫】【ST10-013】_ST10-013",
-      "チャンピオンシップ版st10-013_ユースタス・キッド【プロモ】《紫》未開封",
-      "ユースタス・キッド【プロモ】《紫》未開封_チャンピオンシップ版ST10-013"
     ]
   },
   {
@@ -17101,17 +16962,77 @@
     ]
   },
   {
-    "key": "op03-116@cs+illust:otton+unopened",
-    "name": "しらほし(未開封/CS2024/illust:otton)",
+    "key": "op03-116@cs+unopened",
+    "name": "しらほし【プロモ】《黄》未開封",
     "modelNo": "OP03-116",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/6105.webp",
     "history": [
+      {
+        "date": "2024/12/30",
+        "price": 170000
+      },
+      {
+        "date": "2025/02/14",
+        "price": 170000
+      },
+      {
+        "date": "2025/03/10",
+        "price": 150000
+      },
+      {
+        "date": "2025/04/29",
+        "price": 150000
+      },
+      {
+        "date": "2025/06/10",
+        "price": 140000
+      },
+      {
+        "date": "2025/07/25",
+        "price": 120000
+      },
+      {
+        "date": "2025/10/06",
+        "price": 130000
+      },
+      {
+        "date": "2025/11/15",
+        "price": 150000
+      },
+      {
+        "date": "2025/12/16",
+        "price": 150000
+      },
+      {
+        "date": "2026/01/26",
+        "price": 200000
+      },
+      {
+        "date": "2026/02/23",
+        "price": 180000
+      },
+      {
+        "date": "2026/03/02",
+        "price": 180000
+      },
+      {
+        "date": "2026/04/10",
+        "price": 180000
+      },
+      {
+        "date": "2026/05/03",
+        "price": 180000
+      },
       {
         "date": "2026/05/14",
         "price": 170000
       },
       {
         "date": "2026/05/16",
+        "price": 200000
+      },
+      {
+        "date": "2026/05/17",
         "price": 200000
       },
       {
@@ -17139,60 +17060,76 @@
             "price": 230000
           }
         ]
-      }
-    },
-    "bestShopId": "cardrush",
-    "latestPrice": 230000,
-    "aliasKeys": [
-      "op03-116_しらほし(未開封/cs2024/illust:otton)",
-      "しらほし(未開封/CS2024/illust:otton)_OP03-116"
-    ]
-  },
-  {
-    "key": "op13-120@cs+illust:tatsuya+unopened",
-    "name": "サボ(未開封/CS25-26/illust:tatsuya)",
-    "modelNo": "OP13-120",
-    "imageId": "https://files.cardrush.media/onepiece/ocha_products/9968.webp",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 170000
       },
-      {
-        "date": "2026/05/16",
-        "price": 200000
-      },
-      {
-        "date": "2026/05/26",
-        "price": 220000
-      },
-      {
-        "date": "2026/06/07",
-        "price": 230000
-      }
-    ],
-    "pricesByShop": {
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 230000,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/9968.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 200000,
+        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20240914_26d6d6.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
         "history": [
           {
-            "date": "2026/05/14",
+            "date": "2024/12/30",
             "price": 170000
           },
           {
-            "date": "2026/05/16",
+            "date": "2025/02/14",
+            "price": 170000
+          },
+          {
+            "date": "2025/03/10",
+            "price": 150000
+          },
+          {
+            "date": "2025/04/29",
+            "price": 150000
+          },
+          {
+            "date": "2025/06/10",
+            "price": 140000
+          },
+          {
+            "date": "2025/07/25",
+            "price": 120000
+          },
+          {
+            "date": "2025/10/06",
+            "price": 130000
+          },
+          {
+            "date": "2025/11/15",
+            "price": 150000
+          },
+          {
+            "date": "2025/12/16",
+            "price": 150000
+          },
+          {
+            "date": "2026/01/26",
             "price": 200000
           },
           {
-            "date": "2026/05/26",
-            "price": 220000
+            "date": "2026/02/23",
+            "price": 180000
           },
           {
-            "date": "2026/06/07",
-            "price": 230000
+            "date": "2026/03/02",
+            "price": 180000
+          },
+          {
+            "date": "2026/04/10",
+            "price": 180000
+          },
+          {
+            "date": "2026/05/03",
+            "price": 180000
+          },
+          {
+            "date": "2026/05/14",
+            "price": 180000
+          },
+          {
+            "date": "2026/05/17",
+            "price": 200000
           }
         ]
       }
@@ -17200,15 +17137,17 @@
     "bestShopId": "cardrush",
     "latestPrice": 230000,
     "aliasKeys": [
-      "op13-120_サボ(未開封/cs25-26/illust:tatsuya)",
-      "サボ(未開封/CS25-26/illust:tatsuya)_OP13-120"
+      "op03-116_しらほし(未開封/cs2024/illust:otton)",
+      "しらほし(未開封/CS2024/illust:otton)_OP03-116",
+      "チャンピオンシップ版op03-116_しらほし【プロモ】《黄》未開封",
+      "しらほし【プロモ】《黄》未開封_チャンピオンシップ版OP03-116"
     ]
   },
   {
     "key": "op13-120@cs+unopened",
     "name": "サボ【プロモ】《黒》未開封",
     "modelNo": "OP13-120",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20250921_c888de.png",
+    "imageId": "https://files.cardrush.media/onepiece/ocha_products/9968.webp",
     "history": [
       {
         "date": "2025/11/15",
@@ -17251,6 +17190,10 @@
         "price": 170000
       },
       {
+        "date": "2026/05/16",
+        "price": 200000
+      },
+      {
         "date": "2026/05/17",
         "price": 200000
       },
@@ -17259,8 +17202,16 @@
         "price": 200000
       },
       {
+        "date": "2026/05/26",
+        "price": 220000
+      },
+      {
         "date": "2026/05/27",
         "price": 220000
+      },
+      {
+        "date": "2026/06/07",
+        "price": 230000
       },
       {
         "date": "2026/06/09",
@@ -17268,6 +17219,30 @@
       }
     ],
     "pricesByShop": {
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 230000,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/9968.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 170000
+          },
+          {
+            "date": "2026/05/16",
+            "price": 200000
+          },
+          {
+            "date": "2026/05/26",
+            "price": 220000
+          },
+          {
+            "date": "2026/06/07",
+            "price": 230000
+          }
+        ]
+      },
       "mercard": {
         "shopName": "メルカード",
         "latestPrice": 230000,
@@ -17345,9 +17320,11 @@
         ]
       }
     },
-    "bestShopId": "mercard",
+    "bestShopId": "cardrush",
     "latestPrice": 230000,
     "aliasKeys": [
+      "op13-120_サボ(未開封/cs25-26/illust:tatsuya)",
+      "サボ(未開封/CS25-26/illust:tatsuya)_OP13-120",
       "チャンピオンシップ版op13-120_サボ【プロモ】《黒》未開封",
       "サボ【プロモ】《黒》未開封_チャンピオンシップ版OP13-120",
       "op13-120_サボ【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黒】【op13-120】",
@@ -17635,50 +17612,10 @@
     ]
   },
   {
-    "key": "op01-004@cs+illust:phima",
-    "name": "ウソップ(CS/illust:phima)",
-    "modelNo": "OP01-004",
-    "imageId": "https://files.cardrush.media/onepiece/ocha_products/959.webp",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 200000
-      },
-      {
-        "date": "2026/06/07",
-        "price": 220000
-      }
-    ],
-    "pricesByShop": {
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 220000,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/959.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 200000
-          },
-          {
-            "date": "2026/06/07",
-            "price": 220000
-          }
-        ]
-      }
-    },
-    "bestShopId": "cardrush",
-    "latestPrice": 220000,
-    "aliasKeys": [
-      "op01-004_ウソップ(cs/illust:phima)",
-      "ウソップ(CS/illust:phima)_OP01-004"
-    ]
-  },
-  {
     "key": "op01-004@cs",
     "name": "ウソップ【プロモ】《赤》",
     "modelNo": "OP01-004",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20230930_e78699.png",
+    "imageId": "https://files.cardrush.media/onepiece/ocha_products/959.webp",
     "history": [
       {
         "date": "2024/05/22",
@@ -17762,6 +17699,22 @@
       }
     ],
     "pricesByShop": {
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 220000,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/959.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 200000
+          },
+          {
+            "date": "2026/06/07",
+            "price": 220000
+          }
+        ]
+      },
       "mercard": {
         "shopName": "メルカード",
         "latestPrice": 220000,
@@ -17863,9 +17816,11 @@
         ]
       }
     },
-    "bestShopId": "mercard",
+    "bestShopId": "cardrush",
     "latestPrice": 220000,
     "aliasKeys": [
+      "op01-004_ウソップ(cs/illust:phima)",
+      "ウソップ(CS/illust:phima)_OP01-004",
       "チャンピオンシップ版op01-004_ウソップ【プロモ】《赤》",
       "ウソップ【プロモ】《赤》_チャンピオンシップ版OP01-004",
       "op01-004_ウソップ【r】【パラレル】【プロモ】【チャンピオンシップ】【赤】【op01-004】",
@@ -17921,11 +17876,83 @@
     ]
   },
   {
-    "key": "op03-112@cs+illust:shinraagencycoltd+unopened",
-    "name": "シャーロット・プリン(未開封/CS2024/illust:SHINRA AGENCY Co.Ltd)",
+    "key": "op03-112@cs+unopened",
+    "name": "シャーロット・プリン【プロモ】《黄》未開封",
     "modelNo": "OP03-112",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/4269.webp",
     "history": [
+      {
+        "date": "2024/05/22",
+        "price": 750000
+      },
+      {
+        "date": "2024/06/07",
+        "price": 750000
+      },
+      {
+        "date": "2024/07/19",
+        "price": 380000
+      },
+      {
+        "date": "2024/11/01",
+        "price": 250000
+      },
+      {
+        "date": "2024/12/30",
+        "price": 220000
+      },
+      {
+        "date": "2025/02/14",
+        "price": 220000
+      },
+      {
+        "date": "2025/03/10",
+        "price": 160000
+      },
+      {
+        "date": "2025/04/29",
+        "price": 160000
+      },
+      {
+        "date": "2025/06/10",
+        "price": 130000
+      },
+      {
+        "date": "2025/07/25",
+        "price": 115000
+      },
+      {
+        "date": "2025/10/06",
+        "price": 115000
+      },
+      {
+        "date": "2025/11/15",
+        "price": 160000
+      },
+      {
+        "date": "2025/12/16",
+        "price": 170000
+      },
+      {
+        "date": "2026/01/26",
+        "price": 170000
+      },
+      {
+        "date": "2026/02/23",
+        "price": 160000
+      },
+      {
+        "date": "2026/03/02",
+        "price": 160000
+      },
+      {
+        "date": "2026/04/10",
+        "price": 160000
+      },
+      {
+        "date": "2026/05/03",
+        "price": 150000
+      },
       {
         "date": "2026/05/14",
         "price": 150000
@@ -17935,7 +17962,23 @@
         "price": 170000
       },
       {
+        "date": "2026/05/17",
+        "price": 160000
+      },
+      {
+        "date": "2026/05/19",
+        "price": 170000
+      },
+      {
+        "date": "2026/05/23",
+        "price": 190000
+      },
+      {
         "date": "2026/05/26",
+        "price": 190000
+      },
+      {
+        "date": "2026/05/27",
         "price": 190000
       },
       {
@@ -17967,44 +18010,116 @@
             "price": 220000
           }
         ]
-      }
-    },
-    "bestShopId": "cardrush",
-    "latestPrice": 220000,
-    "aliasKeys": [
-      "op03-112_シャーロット・プリン(未開封/cs2024/illust:shinraagencyco.ltd)",
-      "シャーロット・プリン(未開封/CS2024/illust:SHINRA AGENCY Co.Ltd)_OP03-112"
-    ]
-  },
-  {
-    "key": "op09-009@cs+illust:anderson+unopened",
-    "name": "ベン・ベックマン(未開封/CS25-26/illust:Anderson)",
-    "modelNo": "OP09-009",
-    "imageId": "https://files.cardrush.media/onepiece/ocha_products/7981.webp",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 200000
       },
-      {
-        "date": "2026/06/07",
-        "price": 220000
-      }
-    ],
-    "pricesByShop": {
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 220000,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/7981.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 190000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP03-112_p2.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
         "history": [
           {
             "date": "2026/05/14",
-            "price": 200000
+            "price": 150000
           },
           {
-            "date": "2026/06/07",
+            "date": "2026/05/19",
+            "price": 170000
+          },
+          {
+            "date": "2026/05/27",
+            "price": 190000
+          }
+        ]
+      },
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 190000,
+        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20240406_9d6d9e.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "history": [
+          {
+            "date": "2024/05/22",
+            "price": 750000
+          },
+          {
+            "date": "2024/06/07",
+            "price": 750000
+          },
+          {
+            "date": "2024/07/19",
+            "price": 380000
+          },
+          {
+            "date": "2024/11/01",
+            "price": 250000
+          },
+          {
+            "date": "2024/12/30",
             "price": 220000
+          },
+          {
+            "date": "2025/02/14",
+            "price": 220000
+          },
+          {
+            "date": "2025/03/10",
+            "price": 160000
+          },
+          {
+            "date": "2025/04/29",
+            "price": 160000
+          },
+          {
+            "date": "2025/06/10",
+            "price": 130000
+          },
+          {
+            "date": "2025/07/25",
+            "price": 115000
+          },
+          {
+            "date": "2025/10/06",
+            "price": 115000
+          },
+          {
+            "date": "2025/11/15",
+            "price": 160000
+          },
+          {
+            "date": "2025/12/16",
+            "price": 170000
+          },
+          {
+            "date": "2026/01/26",
+            "price": 170000
+          },
+          {
+            "date": "2026/02/23",
+            "price": 160000
+          },
+          {
+            "date": "2026/03/02",
+            "price": 160000
+          },
+          {
+            "date": "2026/04/10",
+            "price": 160000
+          },
+          {
+            "date": "2026/05/03",
+            "price": 150000
+          },
+          {
+            "date": "2026/05/14",
+            "price": 150000
+          },
+          {
+            "date": "2026/05/17",
+            "price": 160000
+          },
+          {
+            "date": "2026/05/23",
+            "price": 190000
           }
         ]
       }
@@ -18012,15 +18127,19 @@
     "bestShopId": "cardrush",
     "latestPrice": 220000,
     "aliasKeys": [
-      "op09-009_ベン・ベックマン(未開封/cs25-26/illust:anderson)",
-      "ベン・ベックマン(未開封/CS25-26/illust:Anderson)_OP09-009"
+      "op03-112_シャーロット・プリン(未開封/cs2024/illust:shinraagencyco.ltd)",
+      "シャーロット・プリン(未開封/CS2024/illust:SHINRA AGENCY Co.Ltd)_OP03-112",
+      "op03-112_シャーロット・プリン【r】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【op03-112】",
+      "シャーロット・プリン 【R】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【OP03-112】_OP03-112",
+      "チャンピオンシップ版op03-112_シャーロット・プリン【プロモ】《黄》未開封",
+      "シャーロット・プリン【プロモ】《黄》未開封_チャンピオンシップ版OP03-112"
     ]
   },
   {
     "key": "op09-009@cs+unopened",
     "name": "ベン・ベックマン 【プロモ】《赤》未開封",
     "modelNo": "OP09-009",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20250329_c04a17.png",
+    "imageId": "https://files.cardrush.media/onepiece/ocha_products/7981.webp",
     "history": [
       {
         "date": "2025/06/10",
@@ -18068,14 +18187,34 @@
       },
       {
         "date": "2026/05/14",
-        "price": 210000
+        "price": 200000
       },
       {
         "date": "2026/05/17",
         "price": 220000
+      },
+      {
+        "date": "2026/06/07",
+        "price": 220000
       }
     ],
     "pricesByShop": {
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 220000,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/7981.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 200000
+          },
+          {
+            "date": "2026/06/07",
+            "price": 220000
+          }
+        ]
+      },
       "mercard": {
         "shopName": "メルカード",
         "latestPrice": 220000,
@@ -18149,9 +18288,11 @@
         ]
       }
     },
-    "bestShopId": "mercard",
+    "bestShopId": "cardrush",
     "latestPrice": 220000,
     "aliasKeys": [
+      "op09-009_ベン・ベックマン(未開封/cs25-26/illust:anderson)",
+      "ベン・ベックマン(未開封/CS25-26/illust:Anderson)_OP09-009",
       "チャンピオンシップ版op09-009_ベン・ベックマン【プロモ】《赤》未開封",
       "ベン・ベックマン 【プロモ】《赤》未開封_チャンピオンシップ版OP09-009",
       "op09-009_ベン・ベックマン【sr】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【赤】【op09-009】",
@@ -19618,7 +19759,7 @@
   },
   {
     "key": "op03-116@cs",
-    "name": "しらほし 【UC】【パラレル】【プロモ】【チャンピオンシップ】【黄】【OP03-116】",
+    "name": "しらほし(CS2024/illust:otton)",
     "modelNo": "OP03-116",
     "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP03-116_p5.jpeg",
     "history": [
@@ -19627,11 +19768,19 @@
         "price": 170000
       },
       {
+        "date": "2026/05/16",
+        "price": 180000
+      },
+      {
         "date": "2026/05/19",
         "price": 180000
       },
       {
         "date": "2026/05/23",
+        "price": 200000
+      },
+      {
+        "date": "2026/06/07",
         "price": 200000
       }
     ],
@@ -19655,35 +19804,7 @@
             "price": 200000
           }
         ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 200000,
-    "aliasKeys": [
-      "op03-116_しらほし【uc】【パラレル】【プロモ】【チャンピオンシップ】【黄】【op03-116】",
-      "しらほし 【UC】【パラレル】【プロモ】【チャンピオンシップ】【黄】【OP03-116】_OP03-116"
-    ]
-  },
-  {
-    "key": "op03-116@cs+illust:otton",
-    "name": "しらほし(CS2024/illust:otton)",
-    "modelNo": "OP03-116",
-    "imageId": "https://files.cardrush.media/onepiece/ocha_products/6106.webp",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 150000
       },
-      {
-        "date": "2026/05/16",
-        "price": 180000
-      },
-      {
-        "date": "2026/06/07",
-        "price": 200000
-      }
-    ],
-    "pricesByShop": {
       "cardrush": {
         "shopName": "カードラッシュ",
         "latestPrice": 200000,
@@ -19705,9 +19826,11 @@
         ]
       }
     },
-    "bestShopId": "cardrush",
+    "bestShopId": "torecard",
     "latestPrice": 200000,
     "aliasKeys": [
+      "op03-116_しらほし【uc】【パラレル】【プロモ】【チャンピオンシップ】【黄】【op03-116】",
+      "しらほし 【UC】【パラレル】【プロモ】【チャンピオンシップ】【黄】【OP03-116】_OP03-116",
       "op03-116_しらほし(cs2024/illust:otton)",
       "しらほし(CS2024/illust:otton)_OP03-116"
     ]
@@ -19758,196 +19881,6 @@
     "aliasKeys": [
       "op03-122_そげキング【prb-01】【シークレット】【パラレル】【スーパーパラレル】【再販】【青】【op03-122】",
       "そげキング 【PRB-01】【シークレット】【パラレル】【スーパーパラレル】【再販】【青】【OP03-122】_OP03-122"
-    ]
-  },
-  {
-    "key": "op03-123@cs+unopened",
-    "name": "シャーロット・カタクリ【プロモ】《黄》未開封",
-    "modelNo": "OP03-123",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP03-123_p2.jpeg",
-    "history": [
-      {
-        "date": "2024/05/22",
-        "price": 900000
-      },
-      {
-        "date": "2024/06/07",
-        "price": 900000
-      },
-      {
-        "date": "2024/07/19",
-        "price": 520000
-      },
-      {
-        "date": "2024/11/01",
-        "price": 320000
-      },
-      {
-        "date": "2024/12/30",
-        "price": 240000
-      },
-      {
-        "date": "2025/02/14",
-        "price": 240000
-      },
-      {
-        "date": "2025/03/10",
-        "price": 200000
-      },
-      {
-        "date": "2025/04/29",
-        "price": 200000
-      },
-      {
-        "date": "2025/06/10",
-        "price": 180000
-      },
-      {
-        "date": "2025/07/25",
-        "price": 150000
-      },
-      {
-        "date": "2025/10/06",
-        "price": 130000
-      },
-      {
-        "date": "2025/11/15",
-        "price": 180000
-      },
-      {
-        "date": "2025/12/16",
-        "price": 180000
-      },
-      {
-        "date": "2026/01/26",
-        "price": 200000
-      },
-      {
-        "date": "2026/02/23",
-        "price": 200000
-      },
-      {
-        "date": "2026/03/02",
-        "price": 200000
-      },
-      {
-        "date": "2026/04/10",
-        "price": 200000
-      },
-      {
-        "date": "2026/05/03",
-        "price": 200000
-      },
-      {
-        "date": "2026/05/14",
-        "price": 200000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 200000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP03-123_p2.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 200000
-          }
-        ]
-      },
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 200000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20240406_f85807.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2024/05/22",
-            "price": 900000
-          },
-          {
-            "date": "2024/06/07",
-            "price": 900000
-          },
-          {
-            "date": "2024/07/19",
-            "price": 520000
-          },
-          {
-            "date": "2024/11/01",
-            "price": 320000
-          },
-          {
-            "date": "2024/12/30",
-            "price": 240000
-          },
-          {
-            "date": "2025/02/14",
-            "price": 240000
-          },
-          {
-            "date": "2025/03/10",
-            "price": 200000
-          },
-          {
-            "date": "2025/04/29",
-            "price": 200000
-          },
-          {
-            "date": "2025/06/10",
-            "price": 180000
-          },
-          {
-            "date": "2025/07/25",
-            "price": 150000
-          },
-          {
-            "date": "2025/10/06",
-            "price": 130000
-          },
-          {
-            "date": "2025/11/15",
-            "price": 180000
-          },
-          {
-            "date": "2025/12/16",
-            "price": 180000
-          },
-          {
-            "date": "2026/01/26",
-            "price": 200000
-          },
-          {
-            "date": "2026/02/23",
-            "price": 200000
-          },
-          {
-            "date": "2026/03/02",
-            "price": 200000
-          },
-          {
-            "date": "2026/04/10",
-            "price": 200000
-          },
-          {
-            "date": "2026/05/03",
-            "price": 200000
-          },
-          {
-            "date": "2026/05/14",
-            "price": 200000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 200000,
-    "aliasKeys": [
-      "op03-123_シャーロット・カタクリ【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【op03-123】",
-      "シャーロット・カタクリ 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【OP03-123】_OP03-123",
-      "チャンピオンシップ版op03-123_シャーロット・カタクリ【プロモ】《黄》未開封",
-      "シャーロット・カタクリ【プロモ】《黄》未開封_チャンピオンシップ版OP03-123"
     ]
   },
   {
@@ -20651,7 +20584,7 @@
     ]
   },
   {
-    "key": "op13-120@cs+illust:tatsuya",
+    "key": "op13-120@cs",
     "name": "サボ(CS25-26/illust:tatsuya)",
     "modelNo": "OP13-120",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/9969.webp",
@@ -21427,380 +21360,6 @@
     ]
   },
   {
-    "key": "op03-116@cs+unopened",
-    "name": "しらほし【プロモ】《黄》未開封",
-    "modelNo": "チャンピオンシップ版OP03-116",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20240914_26d6d6.png",
-    "history": [
-      {
-        "date": "2024/12/30",
-        "price": 170000
-      },
-      {
-        "date": "2025/02/14",
-        "price": 170000
-      },
-      {
-        "date": "2025/03/10",
-        "price": 150000
-      },
-      {
-        "date": "2025/04/29",
-        "price": 150000
-      },
-      {
-        "date": "2025/06/10",
-        "price": 140000
-      },
-      {
-        "date": "2025/07/25",
-        "price": 120000
-      },
-      {
-        "date": "2025/10/06",
-        "price": 130000
-      },
-      {
-        "date": "2025/11/15",
-        "price": 150000
-      },
-      {
-        "date": "2025/12/16",
-        "price": 150000
-      },
-      {
-        "date": "2026/01/26",
-        "price": 200000
-      },
-      {
-        "date": "2026/02/23",
-        "price": 180000
-      },
-      {
-        "date": "2026/03/02",
-        "price": 180000
-      },
-      {
-        "date": "2026/04/10",
-        "price": 180000
-      },
-      {
-        "date": "2026/05/03",
-        "price": 180000
-      },
-      {
-        "date": "2026/05/14",
-        "price": 180000
-      },
-      {
-        "date": "2026/05/17",
-        "price": 200000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 200000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20240914_26d6d6.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2024/12/30",
-            "price": 170000
-          },
-          {
-            "date": "2025/02/14",
-            "price": 170000
-          },
-          {
-            "date": "2025/03/10",
-            "price": 150000
-          },
-          {
-            "date": "2025/04/29",
-            "price": 150000
-          },
-          {
-            "date": "2025/06/10",
-            "price": 140000
-          },
-          {
-            "date": "2025/07/25",
-            "price": 120000
-          },
-          {
-            "date": "2025/10/06",
-            "price": 130000
-          },
-          {
-            "date": "2025/11/15",
-            "price": 150000
-          },
-          {
-            "date": "2025/12/16",
-            "price": 150000
-          },
-          {
-            "date": "2026/01/26",
-            "price": 200000
-          },
-          {
-            "date": "2026/02/23",
-            "price": 180000
-          },
-          {
-            "date": "2026/03/02",
-            "price": 180000
-          },
-          {
-            "date": "2026/04/10",
-            "price": 180000
-          },
-          {
-            "date": "2026/05/03",
-            "price": 180000
-          },
-          {
-            "date": "2026/05/14",
-            "price": 180000
-          },
-          {
-            "date": "2026/05/17",
-            "price": 200000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 200000,
-    "aliasKeys": [
-      "チャンピオンシップ版op03-116_しらほし【プロモ】《黄》未開封",
-      "しらほし【プロモ】《黄》未開封_チャンピオンシップ版OP03-116"
-    ]
-  },
-  {
-    "key": "op03-112@cs+unopened",
-    "name": "シャーロット・プリン【プロモ】《黄》未開封",
-    "modelNo": "OP03-112",
-    "imageId": "https://torecard3.ocnk.net/data/torecard3/product/OP03-112_p2.jpeg",
-    "history": [
-      {
-        "date": "2024/05/22",
-        "price": 750000
-      },
-      {
-        "date": "2024/06/07",
-        "price": 750000
-      },
-      {
-        "date": "2024/07/19",
-        "price": 380000
-      },
-      {
-        "date": "2024/11/01",
-        "price": 250000
-      },
-      {
-        "date": "2024/12/30",
-        "price": 220000
-      },
-      {
-        "date": "2025/02/14",
-        "price": 220000
-      },
-      {
-        "date": "2025/03/10",
-        "price": 160000
-      },
-      {
-        "date": "2025/04/29",
-        "price": 160000
-      },
-      {
-        "date": "2025/06/10",
-        "price": 130000
-      },
-      {
-        "date": "2025/07/25",
-        "price": 115000
-      },
-      {
-        "date": "2025/10/06",
-        "price": 115000
-      },
-      {
-        "date": "2025/11/15",
-        "price": 160000
-      },
-      {
-        "date": "2025/12/16",
-        "price": 170000
-      },
-      {
-        "date": "2026/01/26",
-        "price": 170000
-      },
-      {
-        "date": "2026/02/23",
-        "price": 160000
-      },
-      {
-        "date": "2026/03/02",
-        "price": 160000
-      },
-      {
-        "date": "2026/04/10",
-        "price": 160000
-      },
-      {
-        "date": "2026/05/03",
-        "price": 150000
-      },
-      {
-        "date": "2026/05/14",
-        "price": 150000
-      },
-      {
-        "date": "2026/05/17",
-        "price": 160000
-      },
-      {
-        "date": "2026/05/19",
-        "price": 170000
-      },
-      {
-        "date": "2026/05/23",
-        "price": 190000
-      },
-      {
-        "date": "2026/05/27",
-        "price": 190000
-      }
-    ],
-    "pricesByShop": {
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 190000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP03-112_p2.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 150000
-          },
-          {
-            "date": "2026/05/19",
-            "price": 170000
-          },
-          {
-            "date": "2026/05/27",
-            "price": 190000
-          }
-        ]
-      },
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 190000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20240406_9d6d9e.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2024/05/22",
-            "price": 750000
-          },
-          {
-            "date": "2024/06/07",
-            "price": 750000
-          },
-          {
-            "date": "2024/07/19",
-            "price": 380000
-          },
-          {
-            "date": "2024/11/01",
-            "price": 250000
-          },
-          {
-            "date": "2024/12/30",
-            "price": 220000
-          },
-          {
-            "date": "2025/02/14",
-            "price": 220000
-          },
-          {
-            "date": "2025/03/10",
-            "price": 160000
-          },
-          {
-            "date": "2025/04/29",
-            "price": 160000
-          },
-          {
-            "date": "2025/06/10",
-            "price": 130000
-          },
-          {
-            "date": "2025/07/25",
-            "price": 115000
-          },
-          {
-            "date": "2025/10/06",
-            "price": 115000
-          },
-          {
-            "date": "2025/11/15",
-            "price": 160000
-          },
-          {
-            "date": "2025/12/16",
-            "price": 170000
-          },
-          {
-            "date": "2026/01/26",
-            "price": 170000
-          },
-          {
-            "date": "2026/02/23",
-            "price": 160000
-          },
-          {
-            "date": "2026/03/02",
-            "price": 160000
-          },
-          {
-            "date": "2026/04/10",
-            "price": 160000
-          },
-          {
-            "date": "2026/05/03",
-            "price": 150000
-          },
-          {
-            "date": "2026/05/14",
-            "price": 150000
-          },
-          {
-            "date": "2026/05/17",
-            "price": 160000
-          },
-          {
-            "date": "2026/05/23",
-            "price": 190000
-          }
-        ]
-      }
-    },
-    "bestShopId": "torecard",
-    "latestPrice": 190000,
-    "aliasKeys": [
-      "op03-112_シャーロット・プリン【r】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【op03-112】",
-      "シャーロット・プリン 【R】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【OP03-112】_OP03-112",
-      "チャンピオンシップ版op03-112_シャーロット・プリン【プロモ】《黄》未開封",
-      "シャーロット・プリン【プロモ】《黄》未開封_チャンピオンシップ版OP03-112"
-    ]
-  },
-  {
     "key": "op01-017@anniv1+promo+set+zh+zh-text+海外",
     "name": "ニコ・ロビン【プロモ】《赤》【中国版 1st ANNIVERSARY SET】※中国語表記",
     "modelNo": "OP01-017【海外版】",
@@ -22279,7 +21838,7 @@
     ]
   },
   {
-    "key": "op09-009@cs+illust:anderson",
+    "key": "op09-009@cs",
     "name": "ベン・ベックマン(CS25-26/illust:Anderson)",
     "modelNo": "OP09-009",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/7982.webp",
@@ -26513,14 +26072,58 @@
     ]
   },
   {
-    "key": "op09-013@cs+illust:sennsu+unopened",
-    "name": "ヤソップ(未開封/CS25-26/illust:SENNSU)",
+    "key": "op09-013@cs+unopened",
+    "name": "ヤソップ 【プロモ】《赤》未開封",
     "modelNo": "OP09-013",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/7983.webp",
     "history": [
       {
+        "date": "2025/06/10",
+        "price": 45000
+      },
+      {
+        "date": "2025/07/25",
+        "price": 45000
+      },
+      {
+        "date": "2025/10/06",
+        "price": 45000
+      },
+      {
+        "date": "2025/11/15",
+        "price": 42000
+      },
+      {
+        "date": "2025/12/16",
+        "price": 45000
+      },
+      {
+        "date": "2026/01/26",
+        "price": 55000
+      },
+      {
+        "date": "2026/02/23",
+        "price": 65000
+      },
+      {
+        "date": "2026/03/02",
+        "price": 65000
+      },
+      {
+        "date": "2026/04/10",
+        "price": 70000
+      },
+      {
+        "date": "2026/05/03",
+        "price": 75000
+      },
+      {
         "date": "2026/05/14",
         "price": 60000
+      },
+      {
+        "date": "2026/05/25",
+        "price": 80000
       },
       {
         "date": "2026/06/07",
@@ -26551,13 +26154,85 @@
             "price": 120000
           }
         ]
+      },
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 80000,
+        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20250329_2e63fd.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "history": [
+          {
+            "date": "2025/06/10",
+            "price": 45000
+          },
+          {
+            "date": "2025/07/25",
+            "price": 45000
+          },
+          {
+            "date": "2025/10/06",
+            "price": 45000
+          },
+          {
+            "date": "2025/11/15",
+            "price": 42000
+          },
+          {
+            "date": "2025/12/16",
+            "price": 45000
+          },
+          {
+            "date": "2026/01/26",
+            "price": 55000
+          },
+          {
+            "date": "2026/02/23",
+            "price": 65000
+          },
+          {
+            "date": "2026/03/02",
+            "price": 65000
+          },
+          {
+            "date": "2026/04/10",
+            "price": 70000
+          },
+          {
+            "date": "2026/05/03",
+            "price": 75000
+          },
+          {
+            "date": "2026/05/14",
+            "price": 75000
+          },
+          {
+            "date": "2026/05/25",
+            "price": 80000
+          }
+        ]
+      },
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 60000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-013_p1.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 60000
+          }
+        ]
       }
     },
     "bestShopId": "cardrush",
     "latestPrice": 120000,
     "aliasKeys": [
       "op09-013_ヤソップ(未開封/cs25-26/illust:sennsu)",
-      "ヤソップ(未開封/CS25-26/illust:SENNSU)_OP09-013"
+      "ヤソップ(未開封/CS25-26/illust:SENNSU)_OP09-013",
+      "チャンピオンシップ版op09-013_ヤソップ【プロモ】《赤》未開封",
+      "ヤソップ 【プロモ】《赤》未開封_チャンピオンシップ版OP09-013",
+      "op09-013_ヤソップ【r】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【赤】【op09-013】",
+      "ヤソップ 【R】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【赤】【OP09-013】_OP09-013"
     ]
   },
   {
@@ -30123,7 +29798,7 @@
     ]
   },
   {
-    "key": "op09-013@cs+illust:sennsu",
+    "key": "op09-013@cs",
     "name": "ヤソップ(CS25-26/illust:SENNSU)",
     "modelNo": "OP09-013",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/7984.webp",
@@ -33744,140 +33419,6 @@
     "aliasKeys": [
       "op09-004_シャンクス【銀】【sr】【sp】【パラレル】【赤】【op09-004】",
       "シャンクス 【銀】【SR】【SP】【パラレル】【赤】【OP09-004】_OP09-004"
-    ]
-  },
-  {
-    "key": "op09-013@cs+unopened",
-    "name": "ヤソップ 【プロモ】《赤》未開封",
-    "modelNo": "OP09-013",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20250329_2e63fd.png",
-    "history": [
-      {
-        "date": "2025/06/10",
-        "price": 45000
-      },
-      {
-        "date": "2025/07/25",
-        "price": 45000
-      },
-      {
-        "date": "2025/10/06",
-        "price": 45000
-      },
-      {
-        "date": "2025/11/15",
-        "price": 42000
-      },
-      {
-        "date": "2025/12/16",
-        "price": 45000
-      },
-      {
-        "date": "2026/01/26",
-        "price": 55000
-      },
-      {
-        "date": "2026/02/23",
-        "price": 65000
-      },
-      {
-        "date": "2026/03/02",
-        "price": 65000
-      },
-      {
-        "date": "2026/04/10",
-        "price": 70000
-      },
-      {
-        "date": "2026/05/03",
-        "price": 75000
-      },
-      {
-        "date": "2026/05/14",
-        "price": 75000
-      },
-      {
-        "date": "2026/05/25",
-        "price": 80000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 80000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20250329_2e63fd.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2025/06/10",
-            "price": 45000
-          },
-          {
-            "date": "2025/07/25",
-            "price": 45000
-          },
-          {
-            "date": "2025/10/06",
-            "price": 45000
-          },
-          {
-            "date": "2025/11/15",
-            "price": 42000
-          },
-          {
-            "date": "2025/12/16",
-            "price": 45000
-          },
-          {
-            "date": "2026/01/26",
-            "price": 55000
-          },
-          {
-            "date": "2026/02/23",
-            "price": 65000
-          },
-          {
-            "date": "2026/03/02",
-            "price": 65000
-          },
-          {
-            "date": "2026/04/10",
-            "price": 70000
-          },
-          {
-            "date": "2026/05/03",
-            "price": 75000
-          },
-          {
-            "date": "2026/05/14",
-            "price": 75000
-          },
-          {
-            "date": "2026/05/25",
-            "price": 80000
-          }
-        ]
-      },
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 60000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-013_p1.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 60000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 80000,
-    "aliasKeys": [
-      "チャンピオンシップ版op09-013_ヤソップ【プロモ】《赤》未開封",
-      "ヤソップ 【プロモ】《赤》未開封_チャンピオンシップ版OP09-013",
-      "op09-013_ヤソップ【r】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【赤】【op09-013】",
-      "ヤソップ 【R】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【赤】【OP09-013】_OP09-013"
     ]
   },
   {
@@ -71787,22 +71328,138 @@
     ]
   },
   {
-    "key": "p-001@cs+illust:nijihayashi+unopened",
-    "name": "モンキー・D・ルフィ(未開封/CS/illust:Nijihayashi)",
+    "key": "p-001@cs+unopened",
+    "name": "モンキー・D・ルフィ【プロモ】《赤》未開封",
     "modelNo": "P-001",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/988.webp",
     "history": [
       {
+        "date": "2024/05/22",
+        "price": 3000
+      },
+      {
+        "date": "2024/06/07",
+        "price": 3000
+      },
+      {
+        "date": "2024/07/19",
+        "price": 1500
+      },
+      {
+        "date": "2024/11/01",
+        "price": 800
+      },
+      {
+        "date": "2024/12/30",
+        "price": 1200
+      },
+      {
+        "date": "2025/02/14",
+        "price": 1200
+      },
+      {
+        "date": "2025/03/10",
+        "price": 1000
+      },
+      {
+        "date": "2025/04/29",
+        "price": 1000
+      },
+      {
+        "date": "2025/06/10",
+        "price": 700
+      },
+      {
+        "date": "2025/07/25",
+        "price": 700
+      },
+      {
+        "date": "2025/10/06",
+        "price": 1000
+      },
+      {
+        "date": "2025/11/15",
+        "price": 1800
+      },
+      {
+        "date": "2025/12/16",
+        "price": 3000
+      },
+      {
+        "date": "2026/01/26",
+        "price": 5500
+      },
+      {
+        "date": "2026/02/23",
+        "price": 6000
+      },
+      {
+        "date": "2026/03/02",
+        "price": 6000
+      },
+      {
+        "date": "2026/04/10",
+        "price": 5500
+      },
+      {
+        "date": "2026/04/17",
+        "price": 6500
+      },
+      {
+        "date": "2026/04/24",
+        "price": 6000
+      },
+      {
+        "date": "2026/05/03",
+        "price": 6000
+      },
+      {
+        "date": "2026/05/06",
+        "price": 5500
+      },
+      {
+        "date": "2026/05/10",
+        "price": 7000
+      },
+      {
         "date": "2026/05/14",
         "price": 9000
+      },
+      {
+        "date": "2026/05/15",
+        "price": 9000
+      },
+      {
+        "date": "2026/05/19",
+        "price": 10000
       },
       {
         "date": "2026/05/20",
         "price": 11000
       },
       {
+        "date": "2026/05/22",
+        "price": 12000
+      },
+      {
+        "date": "2026/05/25",
+        "price": 10000
+      },
+      {
+        "date": "2026/05/27",
+        "price": 11000
+      },
+      {
         "date": "2026/05/29",
         "price": 12000
+      },
+      {
+        "date": "2026/05/31",
+        "price": 12000
+      },
+      {
+        "date": "2026/06/09",
+        "price": 15000
       },
       {
         "date": "2026/06/10",
@@ -71833,13 +71490,147 @@
             "price": 20000
           }
         ]
+      },
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 15000,
+        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20230930_e2cdda.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "history": [
+          {
+            "date": "2024/05/22",
+            "price": 3000
+          },
+          {
+            "date": "2024/06/07",
+            "price": 3000
+          },
+          {
+            "date": "2024/07/19",
+            "price": 1500
+          },
+          {
+            "date": "2024/11/01",
+            "price": 800
+          },
+          {
+            "date": "2024/12/30",
+            "price": 1200
+          },
+          {
+            "date": "2025/02/14",
+            "price": 1200
+          },
+          {
+            "date": "2025/03/10",
+            "price": 1000
+          },
+          {
+            "date": "2025/04/29",
+            "price": 1000
+          },
+          {
+            "date": "2025/06/10",
+            "price": 700
+          },
+          {
+            "date": "2025/07/25",
+            "price": 700
+          },
+          {
+            "date": "2025/10/06",
+            "price": 1000
+          },
+          {
+            "date": "2025/11/15",
+            "price": 1800
+          },
+          {
+            "date": "2025/12/16",
+            "price": 3000
+          },
+          {
+            "date": "2026/01/26",
+            "price": 5500
+          },
+          {
+            "date": "2026/02/23",
+            "price": 6000
+          },
+          {
+            "date": "2026/03/02",
+            "price": 6000
+          },
+          {
+            "date": "2026/04/10",
+            "price": 5500
+          },
+          {
+            "date": "2026/04/17",
+            "price": 6500
+          },
+          {
+            "date": "2026/04/24",
+            "price": 6000
+          },
+          {
+            "date": "2026/05/03",
+            "price": 6000
+          },
+          {
+            "date": "2026/05/06",
+            "price": 5500
+          },
+          {
+            "date": "2026/05/10",
+            "price": 7000
+          },
+          {
+            "date": "2026/05/14",
+            "price": 8000
+          },
+          {
+            "date": "2026/05/15",
+            "price": 9000
+          },
+          {
+            "date": "2026/05/19",
+            "price": 10000
+          },
+          {
+            "date": "2026/05/22",
+            "price": 12000
+          },
+          {
+            "date": "2026/05/25",
+            "price": 10000
+          },
+          {
+            "date": "2026/05/27",
+            "price": 11000
+          },
+          {
+            "date": "2026/05/29",
+            "price": 13000
+          },
+          {
+            "date": "2026/05/31",
+            "price": 12000
+          },
+          {
+            "date": "2026/06/09",
+            "price": 15000
+          }
+        ]
       }
     },
     "bestShopId": "cardrush",
     "latestPrice": 20000,
     "aliasKeys": [
       "p-001_モンキー・d・ルフィ(未開封/cs/illust:nijihayashi)",
-      "モンキー・D・ルフィ(未開封/CS/illust:Nijihayashi)_P-001"
+      "モンキー・D・ルフィ(未開封/CS/illust:Nijihayashi)_P-001",
+      "チャンピオンシップ版p-001_モンキー・d・ルフィ【プロモ】《赤》未開封",
+      "モンキー・D・ルフィ【プロモ】《赤》未開封_チャンピオンシップ版P-001"
     ]
   },
   {
@@ -79045,7 +78836,7 @@
     ]
   },
   {
-    "key": "p-001@cs+illust:nijihayashi",
+    "key": "p-001@cs",
     "name": "モンキー・D・ルフィ(CS/illust:Nijihayashi)",
     "modelNo": "P-001",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/987.webp",
@@ -85536,278 +85327,6 @@
     "aliasKeys": [
       "st30-012_モンキー・d・ルフィ(パラレル/フルアート)",
       "モンキー・D・ルフィ(パラレル/フルアート)_ST30-012"
-    ]
-  },
-  {
-    "key": "p-001@cs+unopened",
-    "name": "モンキー・D・ルフィ【プロモ】《赤》未開封",
-    "modelNo": "チャンピオンシップ版P-001",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20230930_e2cdda.png",
-    "history": [
-      {
-        "date": "2024/05/22",
-        "price": 3000
-      },
-      {
-        "date": "2024/06/07",
-        "price": 3000
-      },
-      {
-        "date": "2024/07/19",
-        "price": 1500
-      },
-      {
-        "date": "2024/11/01",
-        "price": 800
-      },
-      {
-        "date": "2024/12/30",
-        "price": 1200
-      },
-      {
-        "date": "2025/02/14",
-        "price": 1200
-      },
-      {
-        "date": "2025/03/10",
-        "price": 1000
-      },
-      {
-        "date": "2025/04/29",
-        "price": 1000
-      },
-      {
-        "date": "2025/06/10",
-        "price": 700
-      },
-      {
-        "date": "2025/07/25",
-        "price": 700
-      },
-      {
-        "date": "2025/10/06",
-        "price": 1000
-      },
-      {
-        "date": "2025/11/15",
-        "price": 1800
-      },
-      {
-        "date": "2025/12/16",
-        "price": 3000
-      },
-      {
-        "date": "2026/01/26",
-        "price": 5500
-      },
-      {
-        "date": "2026/02/23",
-        "price": 6000
-      },
-      {
-        "date": "2026/03/02",
-        "price": 6000
-      },
-      {
-        "date": "2026/04/10",
-        "price": 5500
-      },
-      {
-        "date": "2026/04/17",
-        "price": 6500
-      },
-      {
-        "date": "2026/04/24",
-        "price": 6000
-      },
-      {
-        "date": "2026/05/03",
-        "price": 6000
-      },
-      {
-        "date": "2026/05/06",
-        "price": 5500
-      },
-      {
-        "date": "2026/05/10",
-        "price": 7000
-      },
-      {
-        "date": "2026/05/14",
-        "price": 8000
-      },
-      {
-        "date": "2026/05/15",
-        "price": 9000
-      },
-      {
-        "date": "2026/05/19",
-        "price": 10000
-      },
-      {
-        "date": "2026/05/22",
-        "price": 12000
-      },
-      {
-        "date": "2026/05/25",
-        "price": 10000
-      },
-      {
-        "date": "2026/05/27",
-        "price": 11000
-      },
-      {
-        "date": "2026/05/29",
-        "price": 13000
-      },
-      {
-        "date": "2026/05/31",
-        "price": 12000
-      },
-      {
-        "date": "2026/06/09",
-        "price": 15000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 15000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20230930_e2cdda.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2024/05/22",
-            "price": 3000
-          },
-          {
-            "date": "2024/06/07",
-            "price": 3000
-          },
-          {
-            "date": "2024/07/19",
-            "price": 1500
-          },
-          {
-            "date": "2024/11/01",
-            "price": 800
-          },
-          {
-            "date": "2024/12/30",
-            "price": 1200
-          },
-          {
-            "date": "2025/02/14",
-            "price": 1200
-          },
-          {
-            "date": "2025/03/10",
-            "price": 1000
-          },
-          {
-            "date": "2025/04/29",
-            "price": 1000
-          },
-          {
-            "date": "2025/06/10",
-            "price": 700
-          },
-          {
-            "date": "2025/07/25",
-            "price": 700
-          },
-          {
-            "date": "2025/10/06",
-            "price": 1000
-          },
-          {
-            "date": "2025/11/15",
-            "price": 1800
-          },
-          {
-            "date": "2025/12/16",
-            "price": 3000
-          },
-          {
-            "date": "2026/01/26",
-            "price": 5500
-          },
-          {
-            "date": "2026/02/23",
-            "price": 6000
-          },
-          {
-            "date": "2026/03/02",
-            "price": 6000
-          },
-          {
-            "date": "2026/04/10",
-            "price": 5500
-          },
-          {
-            "date": "2026/04/17",
-            "price": 6500
-          },
-          {
-            "date": "2026/04/24",
-            "price": 6000
-          },
-          {
-            "date": "2026/05/03",
-            "price": 6000
-          },
-          {
-            "date": "2026/05/06",
-            "price": 5500
-          },
-          {
-            "date": "2026/05/10",
-            "price": 7000
-          },
-          {
-            "date": "2026/05/14",
-            "price": 8000
-          },
-          {
-            "date": "2026/05/15",
-            "price": 9000
-          },
-          {
-            "date": "2026/05/19",
-            "price": 10000
-          },
-          {
-            "date": "2026/05/22",
-            "price": 12000
-          },
-          {
-            "date": "2026/05/25",
-            "price": 10000
-          },
-          {
-            "date": "2026/05/27",
-            "price": 11000
-          },
-          {
-            "date": "2026/05/29",
-            "price": 13000
-          },
-          {
-            "date": "2026/05/31",
-            "price": 12000
-          },
-          {
-            "date": "2026/06/09",
-            "price": 15000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 15000,
-    "aliasKeys": [
-      "チャンピオンシップ版p-001_モンキー・d・ルフィ【プロモ】《赤》未開封",
-      "モンキー・D・ルフィ【プロモ】《赤》未開封_チャンピオンシップ版P-001"
     ]
   },
   {
@@ -124595,7 +124114,7 @@
     ]
   },
   {
-    "key": "p-075@champion2023+cs+illust:koushirokushiro+sea+unopened",
+    "key": "p-075@champion2023+cs+sea+unopened",
     "name": "モンキー・D・ルフィ(未開封/illust:Koushi Rokushiro/SOUTHEAST ASIAN CHAMPION CHAMPIONSHIP2023)",
     "modelNo": "P-075",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/6803.webp",
@@ -133989,7 +133508,7 @@
     ]
   },
   {
-    "key": "p-075@champion2023+cs+illust:koushirokushiro+sea",
+    "key": "p-075@champion2023+cs+sea",
     "name": "モンキー・D・ルフィ(illust:Koushi Rokushiro/SOUTHEAST ASIAN CHAMPION CHAMPIONSHIP2023)",
     "modelNo": "P-075",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/6806.webp",
@@ -211043,6 +210562,220 @@
     ]
   },
   {
+    "key": "st03-008@cs+unopened",
+    "name": "トラファルガー・ロー【プロモ】《青》未開封",
+    "modelNo": "ST03-008",
+    "imageId": "https://www.mercardop.jp/data/mercardop/product/20230929_99883b.png",
+    "history": [
+      {
+        "date": "2024/05/22",
+        "price": 3000
+      },
+      {
+        "date": "2024/06/07",
+        "price": 3000
+      },
+      {
+        "date": "2024/07/19",
+        "price": 1500
+      },
+      {
+        "date": "2024/11/01",
+        "price": 1200
+      },
+      {
+        "date": "2024/12/30",
+        "price": 1700
+      },
+      {
+        "date": "2025/02/14",
+        "price": 1700
+      },
+      {
+        "date": "2025/03/10",
+        "price": 800
+      },
+      {
+        "date": "2025/04/29",
+        "price": 800
+      },
+      {
+        "date": "2025/06/10",
+        "price": 700
+      },
+      {
+        "date": "2025/07/25",
+        "price": 700
+      },
+      {
+        "date": "2025/10/06",
+        "price": 300
+      },
+      {
+        "date": "2025/11/15",
+        "price": 300
+      },
+      {
+        "date": "2025/12/16",
+        "price": 800
+      },
+      {
+        "date": "2026/01/26",
+        "price": 1500
+      },
+      {
+        "date": "2026/02/23",
+        "price": 1800
+      },
+      {
+        "date": "2026/03/02",
+        "price": 1800
+      },
+      {
+        "date": "2026/04/10",
+        "price": 1800
+      },
+      {
+        "date": "2026/04/24",
+        "price": 1700
+      },
+      {
+        "date": "2026/05/03",
+        "price": 1700
+      },
+      {
+        "date": "2026/05/14",
+        "price": 1700
+      },
+      {
+        "date": "2026/05/26",
+        "price": 1800
+      },
+      {
+        "date": "2026/06/10",
+        "price": 2000
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 2000,
+        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20230929_99883b.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "history": [
+          {
+            "date": "2024/05/22",
+            "price": 3000
+          },
+          {
+            "date": "2024/06/07",
+            "price": 3000
+          },
+          {
+            "date": "2024/07/19",
+            "price": 1500
+          },
+          {
+            "date": "2024/11/01",
+            "price": 1200
+          },
+          {
+            "date": "2024/12/30",
+            "price": 1700
+          },
+          {
+            "date": "2025/02/14",
+            "price": 1700
+          },
+          {
+            "date": "2025/03/10",
+            "price": 800
+          },
+          {
+            "date": "2025/04/29",
+            "price": 800
+          },
+          {
+            "date": "2025/06/10",
+            "price": 700
+          },
+          {
+            "date": "2025/07/25",
+            "price": 700
+          },
+          {
+            "date": "2025/10/06",
+            "price": 300
+          },
+          {
+            "date": "2025/11/15",
+            "price": 300
+          },
+          {
+            "date": "2025/12/16",
+            "price": 800
+          },
+          {
+            "date": "2026/01/26",
+            "price": 1500
+          },
+          {
+            "date": "2026/02/23",
+            "price": 1800
+          },
+          {
+            "date": "2026/03/02",
+            "price": 1800
+          },
+          {
+            "date": "2026/04/10",
+            "price": 1800
+          },
+          {
+            "date": "2026/04/24",
+            "price": 1700
+          },
+          {
+            "date": "2026/05/03",
+            "price": 1700
+          },
+          {
+            "date": "2026/05/14",
+            "price": 1700
+          },
+          {
+            "date": "2026/06/10",
+            "price": 2000
+          }
+        ]
+      },
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 1800,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/1065.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 1700
+          },
+          {
+            "date": "2026/05/26",
+            "price": 1800
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 2000,
+    "aliasKeys": [
+      "チャンピオンシップ版st03-008_トラファルガー・ロー【プロモ】《青》未開封",
+      "トラファルガー・ロー【プロモ】《青》未開封_チャンピオンシップ版ST03-008",
+      "st03-008_トラファルガー・ロー(未開封/cs/illust:nijihayashi)",
+      "トラファルガー・ロー(未開封/CS/illust:Nijihayashi)_ST03-008"
+    ]
+  },
+  {
     "key": "st07-010@flagship+opened+parallel+promo",
     "name": "シャーロット・リンリン 【SR】【パラレル】【プロモ】【フラッグシップバトル】【開封済み】【黄】【ST07-010】",
     "modelNo": "ST07-010",
@@ -211842,198 +211575,6 @@
       "オフィシャルカードスリーブ2(スタンダードブルー)70枚入り_スタンダ-ドブル-",
       "スタンダードブルー_オフィシャルカードスリーブ2(スタンダードブルー)70枚入り",
       "オフィシャルカードスリーブ2(スタンダードブルー)70枚入り_スタンダードブルー"
-    ]
-  },
-  {
-    "key": "st03-008@cs+unopened",
-    "name": "トラファルガー・ロー【プロモ】《青》未開封",
-    "modelNo": "チャンピオンシップ版ST03-008",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20230929_99883b.png",
-    "history": [
-      {
-        "date": "2024/05/22",
-        "price": 3000
-      },
-      {
-        "date": "2024/06/07",
-        "price": 3000
-      },
-      {
-        "date": "2024/07/19",
-        "price": 1500
-      },
-      {
-        "date": "2024/11/01",
-        "price": 1200
-      },
-      {
-        "date": "2024/12/30",
-        "price": 1700
-      },
-      {
-        "date": "2025/02/14",
-        "price": 1700
-      },
-      {
-        "date": "2025/03/10",
-        "price": 800
-      },
-      {
-        "date": "2025/04/29",
-        "price": 800
-      },
-      {
-        "date": "2025/06/10",
-        "price": 700
-      },
-      {
-        "date": "2025/07/25",
-        "price": 700
-      },
-      {
-        "date": "2025/10/06",
-        "price": 300
-      },
-      {
-        "date": "2025/11/15",
-        "price": 300
-      },
-      {
-        "date": "2025/12/16",
-        "price": 800
-      },
-      {
-        "date": "2026/01/26",
-        "price": 1500
-      },
-      {
-        "date": "2026/02/23",
-        "price": 1800
-      },
-      {
-        "date": "2026/03/02",
-        "price": 1800
-      },
-      {
-        "date": "2026/04/10",
-        "price": 1800
-      },
-      {
-        "date": "2026/04/24",
-        "price": 1700
-      },
-      {
-        "date": "2026/05/03",
-        "price": 1700
-      },
-      {
-        "date": "2026/05/14",
-        "price": 1700
-      },
-      {
-        "date": "2026/06/10",
-        "price": 2000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 2000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20230929_99883b.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2024/05/22",
-            "price": 3000
-          },
-          {
-            "date": "2024/06/07",
-            "price": 3000
-          },
-          {
-            "date": "2024/07/19",
-            "price": 1500
-          },
-          {
-            "date": "2024/11/01",
-            "price": 1200
-          },
-          {
-            "date": "2024/12/30",
-            "price": 1700
-          },
-          {
-            "date": "2025/02/14",
-            "price": 1700
-          },
-          {
-            "date": "2025/03/10",
-            "price": 800
-          },
-          {
-            "date": "2025/04/29",
-            "price": 800
-          },
-          {
-            "date": "2025/06/10",
-            "price": 700
-          },
-          {
-            "date": "2025/07/25",
-            "price": 700
-          },
-          {
-            "date": "2025/10/06",
-            "price": 300
-          },
-          {
-            "date": "2025/11/15",
-            "price": 300
-          },
-          {
-            "date": "2025/12/16",
-            "price": 800
-          },
-          {
-            "date": "2026/01/26",
-            "price": 1500
-          },
-          {
-            "date": "2026/02/23",
-            "price": 1800
-          },
-          {
-            "date": "2026/03/02",
-            "price": 1800
-          },
-          {
-            "date": "2026/04/10",
-            "price": 1800
-          },
-          {
-            "date": "2026/04/24",
-            "price": 1700
-          },
-          {
-            "date": "2026/05/03",
-            "price": 1700
-          },
-          {
-            "date": "2026/05/14",
-            "price": 1700
-          },
-          {
-            "date": "2026/06/10",
-            "price": 2000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 2000,
-    "aliasKeys": [
-      "チャンピオンシップ版st03-008_トラファルガー・ロー【プロモ】《青》未開封",
-      "トラファルガー・ロー【プロモ】《青》未開封_チャンピオンシップ版ST03-008"
     ]
   },
   {
@@ -218038,46 +217579,6 @@
     "aliasKeys": [
       "soundloadervolume.2版op05-098_エネル【プロモ】《黄》未開封",
       "エネル【プロモ】《黄》未開封_SOUND LOADER Volume.2版OP05-098"
-    ]
-  },
-  {
-    "key": "st03-008@cs+illust:nijihayashi+unopened",
-    "name": "トラファルガー・ロー(未開封/CS/illust:Nijihayashi)",
-    "modelNo": "ST03-008",
-    "imageId": "https://files.cardrush.media/onepiece/ocha_products/1065.webp",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 1700
-      },
-      {
-        "date": "2026/05/26",
-        "price": 1800
-      }
-    ],
-    "pricesByShop": {
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 1800,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/1065.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 1700
-          },
-          {
-            "date": "2026/05/26",
-            "price": 1800
-          }
-        ]
-      }
-    },
-    "bestShopId": "cardrush",
-    "latestPrice": 1800,
-    "aliasKeys": [
-      "st03-008_トラファルガー・ロー(未開封/cs/illust:nijihayashi)",
-      "トラファルガー・ロー(未開封/CS/illust:Nijihayashi)_ST03-008"
     ]
   },
   {
@@ -233113,7 +232614,7 @@
     ]
   },
   {
-    "key": "st03-008@cs+illust:nijihayashi",
+    "key": "st03-008@cs",
     "name": "トラファルガー・ロー(CS/illust:Nijihayashi)",
     "modelNo": "ST03-008",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/1064.webp",
@@ -278883,7 +278384,7 @@
     ]
   },
   {
-    "key": "st13-003@champion2023+cs+illust:daixt+sea+unopened",
+    "key": "st13-003@champion2023+cs+sea+unopened",
     "name": "モンキー・D・ルフィ(未開封/SOUTHEAST ASIAN CHAMPION CHAMPIONSHIP2023/illust:DAI-XT.)",
     "modelNo": "ST13-003",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/6797.webp",
@@ -299065,7 +298566,7 @@
     ]
   },
   {
-    "key": "st13-003@champion2023+cs+illust:daixt+sea",
+    "key": "st13-003@champion2023+cs+sea",
     "name": "モンキー・D・ルフィ(SOUTHEAST ASIAN CHAMPION CHAMPIONSHIP2023/illust:DAI-XT.)",
     "modelNo": "ST13-003",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/6800.webp",
@@ -314031,6 +313532,228 @@
     ]
   },
   {
+    "key": "p-003@cs+unopened",
+    "name": "ユースタス・キッド【プロモ】《緑》未開封",
+    "modelNo": "P-003",
+    "imageId": "https://www.mercardop.jp/data/mercardop/product/20221211_e8beb8.jpg",
+    "history": [
+      {
+        "date": "2024/05/22",
+        "price": 600
+      },
+      {
+        "date": "2024/06/07",
+        "price": 600
+      },
+      {
+        "date": "2024/07/19",
+        "price": 400
+      },
+      {
+        "date": "2024/11/01",
+        "price": 200
+      },
+      {
+        "date": "2024/12/30",
+        "price": 150
+      },
+      {
+        "date": "2025/02/14",
+        "price": 150
+      },
+      {
+        "date": "2025/03/10",
+        "price": 50
+      },
+      {
+        "date": "2025/04/29",
+        "price": 50
+      },
+      {
+        "date": "2025/06/10",
+        "price": 30
+      },
+      {
+        "date": "2025/07/25",
+        "price": 30
+      },
+      {
+        "date": "2025/10/06",
+        "price": 10
+      },
+      {
+        "date": "2025/11/15",
+        "price": 30
+      },
+      {
+        "date": "2025/12/16",
+        "price": 50
+      },
+      {
+        "date": "2026/01/26",
+        "price": 150
+      },
+      {
+        "date": "2026/02/23",
+        "price": 150
+      },
+      {
+        "date": "2026/03/02",
+        "price": 150
+      },
+      {
+        "date": "2026/04/10",
+        "price": 150
+      },
+      {
+        "date": "2026/05/03",
+        "price": 150
+      },
+      {
+        "date": "2026/05/13",
+        "price": 200
+      },
+      {
+        "date": "2026/05/14",
+        "price": 300
+      },
+      {
+        "date": "2026/05/15",
+        "price": 500
+      },
+      {
+        "date": "2026/05/26",
+        "price": 600
+      },
+      {
+        "date": "2026/06/10",
+        "price": 700
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 700,
+        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20221211_e8beb8.jpg",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "history": [
+          {
+            "date": "2024/05/22",
+            "price": 600
+          },
+          {
+            "date": "2024/06/07",
+            "price": 600
+          },
+          {
+            "date": "2024/07/19",
+            "price": 400
+          },
+          {
+            "date": "2024/11/01",
+            "price": 200
+          },
+          {
+            "date": "2024/12/30",
+            "price": 150
+          },
+          {
+            "date": "2025/02/14",
+            "price": 150
+          },
+          {
+            "date": "2025/03/10",
+            "price": 50
+          },
+          {
+            "date": "2025/04/29",
+            "price": 50
+          },
+          {
+            "date": "2025/06/10",
+            "price": 30
+          },
+          {
+            "date": "2025/07/25",
+            "price": 30
+          },
+          {
+            "date": "2025/10/06",
+            "price": 10
+          },
+          {
+            "date": "2025/11/15",
+            "price": 30
+          },
+          {
+            "date": "2025/12/16",
+            "price": 50
+          },
+          {
+            "date": "2026/01/26",
+            "price": 150
+          },
+          {
+            "date": "2026/02/23",
+            "price": 150
+          },
+          {
+            "date": "2026/03/02",
+            "price": 150
+          },
+          {
+            "date": "2026/04/10",
+            "price": 150
+          },
+          {
+            "date": "2026/05/03",
+            "price": 150
+          },
+          {
+            "date": "2026/05/13",
+            "price": 200
+          },
+          {
+            "date": "2026/05/14",
+            "price": 300
+          },
+          {
+            "date": "2026/05/15",
+            "price": 500
+          },
+          {
+            "date": "2026/06/10",
+            "price": 700
+          }
+        ]
+      },
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 600,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/993.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 500
+          },
+          {
+            "date": "2026/05/26",
+            "price": 600
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 700,
+    "aliasKeys": [
+      "チャンピオンシップ版p-003_ユースタス・キッド【プロモ】《緑》未開封",
+      "ユースタス・キッド【プロモ】《緑》未開封_チャンピオンシップ版P-003",
+      "p-003_ユースタス・キッド(未開封/cs/illust:nijihayashi)",
+      "ユースタス・キッド(未開封/CS/illust:Nijihayashi)_P-003"
+    ]
+  },
+  {
     "key": "p-011@illust:shienanahara",
     "name": "ウタ(illust:SHIE NANAHARA)",
     "modelNo": "P-011",
@@ -317438,206 +317161,6 @@
     "aliasKeys": [
       "チャンピオンシップ2025kv_限定カードスリーブ(チャンピオンシップ2025kv)70枚入り",
       "限定カードスリーブ(チャンピオンシップ2025 KV) 70枚入り_チャンピオンシップ2025 KV"
-    ]
-  },
-  {
-    "key": "p-003@cs+unopened",
-    "name": "ユースタス・キッド【プロモ】《緑》未開封",
-    "modelNo": "チャンピオンシップ版P-003",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/20221211_e8beb8.jpg",
-    "history": [
-      {
-        "date": "2024/05/22",
-        "price": 600
-      },
-      {
-        "date": "2024/06/07",
-        "price": 600
-      },
-      {
-        "date": "2024/07/19",
-        "price": 400
-      },
-      {
-        "date": "2024/11/01",
-        "price": 200
-      },
-      {
-        "date": "2024/12/30",
-        "price": 150
-      },
-      {
-        "date": "2025/02/14",
-        "price": 150
-      },
-      {
-        "date": "2025/03/10",
-        "price": 50
-      },
-      {
-        "date": "2025/04/29",
-        "price": 50
-      },
-      {
-        "date": "2025/06/10",
-        "price": 30
-      },
-      {
-        "date": "2025/07/25",
-        "price": 30
-      },
-      {
-        "date": "2025/10/06",
-        "price": 10
-      },
-      {
-        "date": "2025/11/15",
-        "price": 30
-      },
-      {
-        "date": "2025/12/16",
-        "price": 50
-      },
-      {
-        "date": "2026/01/26",
-        "price": 150
-      },
-      {
-        "date": "2026/02/23",
-        "price": 150
-      },
-      {
-        "date": "2026/03/02",
-        "price": 150
-      },
-      {
-        "date": "2026/04/10",
-        "price": 150
-      },
-      {
-        "date": "2026/05/03",
-        "price": 150
-      },
-      {
-        "date": "2026/05/13",
-        "price": 200
-      },
-      {
-        "date": "2026/05/14",
-        "price": 300
-      },
-      {
-        "date": "2026/05/15",
-        "price": 500
-      },
-      {
-        "date": "2026/06/10",
-        "price": 700
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 700,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20221211_e8beb8.jpg",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "history": [
-          {
-            "date": "2024/05/22",
-            "price": 600
-          },
-          {
-            "date": "2024/06/07",
-            "price": 600
-          },
-          {
-            "date": "2024/07/19",
-            "price": 400
-          },
-          {
-            "date": "2024/11/01",
-            "price": 200
-          },
-          {
-            "date": "2024/12/30",
-            "price": 150
-          },
-          {
-            "date": "2025/02/14",
-            "price": 150
-          },
-          {
-            "date": "2025/03/10",
-            "price": 50
-          },
-          {
-            "date": "2025/04/29",
-            "price": 50
-          },
-          {
-            "date": "2025/06/10",
-            "price": 30
-          },
-          {
-            "date": "2025/07/25",
-            "price": 30
-          },
-          {
-            "date": "2025/10/06",
-            "price": 10
-          },
-          {
-            "date": "2025/11/15",
-            "price": 30
-          },
-          {
-            "date": "2025/12/16",
-            "price": 50
-          },
-          {
-            "date": "2026/01/26",
-            "price": 150
-          },
-          {
-            "date": "2026/02/23",
-            "price": 150
-          },
-          {
-            "date": "2026/03/02",
-            "price": 150
-          },
-          {
-            "date": "2026/04/10",
-            "price": 150
-          },
-          {
-            "date": "2026/05/03",
-            "price": 150
-          },
-          {
-            "date": "2026/05/13",
-            "price": 200
-          },
-          {
-            "date": "2026/05/14",
-            "price": 300
-          },
-          {
-            "date": "2026/05/15",
-            "price": 500
-          },
-          {
-            "date": "2026/06/10",
-            "price": 700
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 700,
-    "aliasKeys": [
-      "チャンピオンシップ版p-003_ユースタス・キッド【プロモ】《緑》未開封",
-      "ユースタス・キッド【プロモ】《緑》未開封_チャンピオンシップ版P-003"
     ]
   },
   {
@@ -333202,46 +332725,6 @@
     "aliasKeys": [
       "op15-008_クリーク(パラレル/illust:dai-xt.)",
       "クリーク(パラレル/illust:DAI-XT.)_OP15-008"
-    ]
-  },
-  {
-    "key": "p-003@cs+illust:nijihayashi+unopened",
-    "name": "ユースタス・キッド(未開封/CS/illust:Nijihayashi)",
-    "modelNo": "P-003",
-    "imageId": "https://files.cardrush.media/onepiece/ocha_products/993.webp",
-    "history": [
-      {
-        "date": "2026/05/14",
-        "price": 500
-      },
-      {
-        "date": "2026/05/26",
-        "price": 600
-      }
-    ],
-    "pricesByShop": {
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 600,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/993.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 500
-          },
-          {
-            "date": "2026/05/26",
-            "price": 600
-          }
-        ]
-      }
-    },
-    "bestShopId": "cardrush",
-    "latestPrice": 600,
-    "aliasKeys": [
-      "p-003_ユースタス・キッド(未開封/cs/illust:nijihayashi)",
-      "ユースタス・キッド(未開封/CS/illust:Nijihayashi)_P-003"
     ]
   },
   {
@@ -362753,7 +362236,7 @@
     ]
   },
   {
-    "key": "p-003@cs+illust:nijihayashi",
+    "key": "p-003@cs",
     "name": "ユースタス・キッド(CS/illust:Nijihayashi)",
     "modelNo": "P-003",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/992.webp",
@@ -363025,7 +362508,7 @@
     ]
   },
   {
-    "key": "p-073@champion2023+cs+illust:koushirokushiro+sea+unopened",
+    "key": "p-073@champion2023+cs+sea+unopened",
     "name": "サボ(未開封/illust:Koushi Rokushiro/SOUTHEAST ASIAN CHAMPION CHAMPIONSHIP2023)",
     "modelNo": "P-073",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/6801.webp",
@@ -363057,7 +362540,7 @@
     ]
   },
   {
-    "key": "p-074@champion2023+cs+illust:koushirokushiro+sea+unopened",
+    "key": "p-074@champion2023+cs+sea+unopened",
     "name": "ポートガス・D・エース(未開封/illust:Koushi Rokushiro/SOUTHEAST ASIAN CHAMPION CHAMPIONSHIP2023)",
     "modelNo": "P-074",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/6802.webp",
@@ -394987,7 +394470,7 @@
     ]
   },
   {
-    "key": "p-073@champion2023+cs+illust:koushirokushiro+sea",
+    "key": "p-073@champion2023+cs+sea",
     "name": "サボ(illust:Koushi Rokushiro/SOUTHEAST ASIAN CHAMPION CHAMPIONSHIP2023)",
     "modelNo": "P-073",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/6804.webp",
@@ -395019,7 +394502,7 @@
     ]
   },
   {
-    "key": "p-074@champion2023+cs+illust:koushirokushiro+sea",
+    "key": "p-074@champion2023+cs+sea",
     "name": "ポートガス・D・エース(illust:Koushi Rokushiro/SOUTHEAST ASIAN CHAMPION CHAMPIONSHIP2023)",
     "modelNo": "P-074",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/6805.webp",
@@ -491783,7 +491266,7 @@
     ]
   },
   {
-    "key": "st13-001@champion2023+cs+illust:daixt+sea+unopened",
+    "key": "st13-001@champion2023+cs+sea+unopened",
     "name": "サボ(未開封/SOUTHEAST ASIAN CHAMPION CHAMPIONSHIP2023/illust:DAI-XT.)",
     "modelNo": "ST13-001",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/6795.webp",
@@ -491815,7 +491298,7 @@
     ]
   },
   {
-    "key": "st13-002@champion2023+cs+illust:daixt+sea+unopened",
+    "key": "st13-002@champion2023+cs+sea+unopened",
     "name": "ポートガス・D・エース(未開封/SOUTHEAST ASIAN CHAMPION CHAMPIONSHIP2023/illust:DAI-XT.)",
     "modelNo": "ST13-002",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/6796.webp",
@@ -519851,7 +519334,7 @@
     ]
   },
   {
-    "key": "st13-001@champion2023+cs+illust:daixt+sea",
+    "key": "st13-001@champion2023+cs+sea",
     "name": "サボ(SOUTHEAST ASIAN CHAMPION CHAMPIONSHIP2023/illust:DAI-XT.)",
     "modelNo": "ST13-001",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/6798.webp",
@@ -519883,7 +519366,7 @@
     ]
   },
   {
-    "key": "st13-002@champion2023+cs+illust:daixt+sea",
+    "key": "st13-002@champion2023+cs+sea",
     "name": "ポートガス・D・エース(SOUTHEAST ASIAN CHAMPION CHAMPIONSHIP2023/illust:DAI-XT.)",
     "modelNo": "ST13-002",
     "imageId": "https://files.cardrush.media/onepiece/ocha_products/6799.webp",
