@@ -118,8 +118,8 @@ same('手配書 torecard vs cardrush',
 different('金SPと銀SPは別',
   { name: 'シャンクス 【金】【SR】【SP】【パラレル】【赤】【OP09-004】', modelNo: 'OP09-004' },
   { name: 'シャンクス 【銀】【SR】【SP】【パラレル】【赤】【OP09-004】', modelNo: 'OP09-004' });
-hasTags('金文字リーダーSP(torecard)', 'モンキー・D・ルフィ 【SP】【紫】【OP05-060】【金文字】【リーダーSP】', 'OP05-060',
-  ['gold-letter', 'sp']);
+hasTags('金文字リーダーSP(torecard)は gold-letter に集約', 'モンキー・D・ルフィ 【SP】【紫】【OP05-060】【金文字】【リーダーSP】', 'OP05-060',
+  ['gold-letter']);
 
 // --- エラッタ・製品区別 ---
 hasTags('初版(mercard)', 'モンキー・D・ルフィ【SR】《黄》※初版', 'OP07-109', ['pre-errata']);
@@ -151,6 +151,51 @@ different('シリアル中国版 青背景 vs 赤背景',
 same('modelNo のハイフン揺れ(ドジャース版)',
   { name: 'モンキー・D・ルフィ【プロモ】《多色》未開封　※英語表記', modelNo: 'ドジャース版EB02-010【海外版】' },
   { name: 'モンキー・D・ルフィ【プロモ】《多色》未開封 ※英語表記', modelNo: 'ドジャ-ス版EB02-010【海外版】' });
+
+// --- 金文字リーダーSP(3ショップで語彙が違う) ---
+same('金文字リーダーSP torecard vs mercard',
+  { name: 'モンキー・D・ルフィ 【SP】【紫】【OP05-060】【金文字】【リーダーSP】', modelNo: 'OP05-060' },
+  { name: 'モンキー・D・ルフィ【金箔リーダーパラレル】《紫》', modelNo: 'SPOP05-060『EB02』' });
+same('金文字リーダーSP cardrush',
+  { name: 'モンキー・D・ルフィ(金文字/アニメイラスト)', modelNo: 'OP05-060' },
+  { name: 'モンキー・D・ルフィ 【SP】【紫】【OP05-060】【金文字】【リーダーSP】', modelNo: 'OP05-060' });
+different('黒金文字と金文字は別(ドン!!カード)',
+  { name: 'ドン!!カード【金文字】', modelNo: '金文字【プロモドンカ-ド】' },
+  { name: 'ドン!!カード【黒金文字】', modelNo: '黒金文字【プロモドンカ-ド】' });
+
+// --- PRBパラレル(mercard)は PRB-01 の意味(vol.2 は BEST2ホイル版と書き分け) ---
+same('PRBパラレル = PRB-01 パラレル',
+  { name: 'モンキー・Ｄ・ルフィ【PRBパラレル】《紫》', modelNo: 'OP05-119' },
+  { name: 'モンキー・Ｄ・ルフィ 【PRB-01】【シークレット】【パラレル】【紫】【OP05-119】', modelNo: 'OP05-119' });
+different('PRBパラレルと BEST2(PRB-02)は別',
+  { name: 'モンキー・Ｄ・ルフィ【PRBパラレル】《紫》', modelNo: 'OP05-119' },
+  { name: 'モンキー・Ｄ・ルフィ【BEST2ホイル版】《紫》', modelNo: 'OP05-119' });
+
+// --- JUDGE(公認ジャッジ景品) ---
+same('JUDGE mercard vs cardrush',
+  { name: 'ボア・ハンコック【プロモ】《青》※JUDGE', modelNo: '公認ジャッジ版OP13-051' },
+  { name: 'ボア・ハンコック(JUDGE)', modelNo: 'OP13-051' });
+
+// --- 五老星の特別パラレル = レッドパラレル ---
+same('特別パラレル(mercard) = レッドパラレル(torecard)',
+  { name: 'イーザンバロン・V・ナス寿郎聖【特別パラレル】《黒》', modelNo: 'OP13-080' },
+  { name: 'イーザンバロン・V・ナス寿郎聖 【R】【レッドパラレル】【黒】【OP13-080】', modelNo: 'OP13-080' });
+
+// --- フラッグシップ景品: torecard のみ【パラレル】を付け、Japan表記も揺れる ---
+same('flagship未開封 mercard(ForJapan) vs torecard(パラレル)',
+  { name: 'ジュラキュール・ミホーク【プロモ】《青》ForJapan未開封', modelNo: 'フラッグシップ版OP01-070' },
+  { name: 'ジュラキュール・ミホーク 【SR】【パラレル】【プロモ】【未開封】【フラッグシップバトル】【青】【OP01-070】', modelNo: 'OP01-070' });
+different('flagship Japan版と Asia版は別',
+  { name: 'ジュラキュール・ミホーク 【SR】【パラレル】【プロモ】【未開封】【フラッグシップバトル】【青】【OP01-070】', modelNo: 'OP01-070' },
+  { name: 'ジュラキュール・ミホーク 【SR】【パラレル】【プロモ】【未開封】【Asia】【フラッグシップバトル】【青】【OP01-070】', modelNo: 'OP01-070' });
+
+// --- ST型番の自デッキ名タグは冗長(再録のファミリーデッキは残す) ---
+same('STデッキ自身名の吸収',
+  { name: 'ルフィ＆エース 【リーダーパラレル】【スタートデッキEX ルフィ&エース】【赤緑】【ST30-001】', modelNo: 'ST30-001' },
+  { name: 'ルフィ&エース【リーダーパラレル】《多色》', modelNo: 'ST30-001' });
+different('ファミリーデッキ再録は別カード',
+  { name: 'モンキー・D・ルフィ 【リーダー】【ファミリーデッキ】【スタートデッキ 麦わらの一味】【赤】【ST01-001】', modelNo: 'ST01-001' },
+  { name: 'モンキー・D・ルフィ 【リーダー】【スタートデッキ 麦わらの一味】【赤】【ST01-001】', modelNo: 'ST01-001' });
 
 // --- 型番なし商品(BOX・ドン!!カード)は名前ベースのキー ---
 const donKey = cardKeyFor('ドン!!カード(SDキャラ/しらほし&ルフィ)', '-');

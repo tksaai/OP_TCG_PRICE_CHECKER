@@ -53,13 +53,20 @@ const TOKEN_RULES = [
   [/原作コマパラレル/u, ['manga-panel', 'parallel']],
 
   // パラレル・特殊加工
-  [/金箔リーダーパラレル/u, ['gold-letter', 'leader-parallel']],
+  // 金文字リーダーSP: torecard【金文字】【リーダーSP】= mercard 金箔リーダーパラレル
+  // = cardrush(金文字/アニメイラスト)。finalizeTags で gold-letter に集約する
+  [/金箔リーダーパラレル/u, ['gold-letter']],
   [/リーダーパラレル/u, ['leader-parallel']],
   [/リーダーsp/iu, ['leader-sp']],
+  // mercard「PRBパラレル」は PRB-01 を指す(vol.2 は「BEST2ホイル版」と書き分けている)
+  [/prbパラレル/iu, ['prb01', 'parallel']],
   [/spパラレル/iu, ['sp', 'parallel']],
   [/^sp$|spカード/iu, ['sp']],
+  // 五老星の赤文字版: torecard「レッドパラレル」= mercard「特別パラレル」
+  [/特別パラレル/u, ['red', 'parallel']],
   [/パラレル(?:加工版?)?/u, ['parallel']],
   [/手配書/u, ['wanted']],
+  [/黒金文字/u, ['black-gold-letter']],
   [/金文字/u, ['gold-letter']],
   [/^金$/u, ['gold']],
   [/^銀$/u, ['silver']],
@@ -83,6 +90,7 @@ const TOKEN_RULES = [
   [/(?:エラー)?修正後/u, ['post-errata']],
 
   // イベント・プロモ
+  [/公認ジャッジ|^judge$/iu, ['judge']],
   [/チャンピオンシップセット/u, ['cs-set']],
   [/チャンピオンシップ|championship|^cs$|^cs\d{2}(?:-\d{2})?$|^cs\d{4}$/iu, ['cs']],
   [/フラッグシップ(?:バトル)?/u, ['flagship']],
@@ -102,6 +110,12 @@ const DROP_TOKEN_RES = [
   /^(?:19|20)\d{2}$/,
   /^['’]\d{2}$/,
 ];
+
+// ST型番のカードに付くスタートデッキ/アルティメットデッキ名は出自そのもので
+// 冗長(torecard だけが付記し、mercard/cardrush は書かない)。
+// ファミリーデッキ等の別製品再録タグは区別情報なので残す。
+// (実データ検証: ST型番で複数種のデッキタグを持つのは ST01 のファミリーデッキのみ)
+const ST_REDUNDANT_DECK_RE = /^(?:スタトデッキ|アルティメットデッキ)/u;
 
 // 名前の括弧外末尾に付く版種表記(mercard「《緑》未開封」「※当選通知書付き開封品」等)。
 const TRAILING_RE =
@@ -182,6 +196,12 @@ function consumeBrackets(text, tags) {
 }
 
 function finalizeTags(tags) {
+  // 「Japan/ForJapan」は3ショップとも無印(デフォルト)と同義なので冗長。
+  // 地域の区別は asia / zh / en 側のタグだけで成立する。
+  // (mercard は同一カードを時期により ForJapan 付き/無しで改名しており、
+  //  jp を落とすことで旧名の残骸リスティングも正しく統合される)
+  tags.delete('jp');
+
   // シークレット単独は SEC レアリティの言い換え(捨てる)。
   // 【R】等と併記された場合のみ「シークレット版」という版種として扱う。
   if (tags.has('~secret')) {
@@ -200,6 +220,26 @@ function finalizeTags(tags) {
   // (torecard は【書き下ろしサイン】【パラレル】のように併記する)
   if (tags.has('comic') || tags.has('leader-parallel') || tags.has('autograph')) {
     tags.delete('parallel');
+  }
+  // 金文字リーダーSP は gold-letter に集約:
+  //   torecard: SP+金文字+リーダーSP / mercard: 金箔リーダーパラレル+SPOPxx『EByy』
+  //   / cardrush: 金文字+アニメイラスト → すべて gold-letter のみ
+  if (tags.has('gold-letter')) {
+    tags.delete('sp');
+    tags.delete('leader-sp');
+    tags.delete('leader-parallel');
+    tags.delete('アニメイラスト');
+    for (const tag of [...tags]) {
+      if (/^(?:op|st|eb|prb)\d{2}$/.test(tag)) tags.delete(tag);
+    }
+  }
+  // フラッグシップ景品も CS と同様、本質的にパラレル(torecard のみ付記する)
+  if (tags.has('flagship')) {
+    tags.delete('parallel');
+  }
+  // 公認ジャッジ景品: mercard は【プロモ】※JUDGE、cardrush は (JUDGE) のみ
+  if (tags.has('judge')) {
+    tags.delete('promo');
   }
   // 手配書(指名手配書デザインのSP)は torecard が【SP】【パラレル】、
   // cardrush が「パラレル」を併記するが、手配書自体が版種を確定する
@@ -254,7 +294,14 @@ export function parseCardIdentity(rawName, rawModelNo) {
     baseName = baseName.slice(leading[1].length).trim();
   }
 
-  return { modelCode, baseName, tags: finalizeTags(tags) };
+  const finalTags = finalizeTags(tags);
+
+  // ST型番には自デッキ名タグが冗長に付くことがある(torecard のみ)
+  const cleanedTags = modelCode.startsWith('ST')
+    ? finalTags.filter((tag) => !ST_REDUNDANT_DECK_RE.test(tag))
+    : finalTags;
+
+  return { modelCode, baseName, tags: cleanedTags };
 }
 
 export function buildCardKey(parsed) {
