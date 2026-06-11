@@ -100,6 +100,7 @@
       <option value="mercard">メルカード</option>
       <option value="cardrush">カードラッシュ</option>
       <option value="torecard">トレカード秋葉原</option>
+      <option value="unmerged">マージなし（出品別）</option>
     </select>
     <select id="trendFilter" onchange="filterAndRender()">
       <option value="all">すべてのカード</option>
@@ -178,7 +179,9 @@
     }
 
     function getShopData(card) {
-      if (currentShop !== 'best') return card.pricesByShop[currentShop] || null;
+      // 「マージなし」表示では各疑似カードが単一ショップを持つので bestShopId を使う
+      // (資産集計などマージ済みリストへの参照でも最高買取として動く)
+      if (currentShop !== 'best' && currentShop !== 'unmerged') return card.pricesByShop[currentShop] || null;
       return card.pricesByShop[card.bestShopId] || Object.values(card.pricesByShop).sort((a, b) => b.latestPrice - a.latestPrice)[0] || null;
     }
 
@@ -194,10 +197,40 @@
       return getShopData(card)?.imageUrl || card.imageId || '';
     }
 
+    // 「マージなし」表示用: 統合済みカードをショップ別の出品(疑似カード)に展開する
+    let unmergedListCache = null;
+    function buildUnmergedList() {
+      if (unmergedListCache) return unmergedListCache;
+      unmergedListCache = [];
+      for (const card of cardDataList) {
+        for (const [shopId, shop] of Object.entries(card.pricesByShop || {})) {
+          const pseudo = {
+            ...card,
+            key: `${getCardKey(card)}::${shopId}`,
+            mergedKey: getCardKey(card),
+            name: shop.sourceName || card.name,
+            imageId: shop.imageUrl || card.imageId || '',
+            bestShopId: shopId,
+            latestPrice: Number(shop.latestPrice || 0),
+            pricesByShop: { [shopId]: shop },
+            history: shop.history || [],
+            aliasKeys: [],
+          };
+          delete pseudo.canonicalId;
+          unmergedListCache.push(pseudo);
+        }
+      }
+      return unmergedListCache;
+    }
+
+    function getRenderList() {
+      return currentShop === 'unmerged' ? buildUnmergedList() : cardDataList;
+    }
+
     function setShop(shopId) {
       currentShop = shopId;
       renderLimit = 300;
-      prepareTrendData(cardDataList);
+      prepareTrendData(getRenderList());
       refreshAssetStats();
       filterAndRender();
     }
@@ -207,7 +240,9 @@
     }
 
     function getCardKey(card) {
-      return card.canonicalId || card.key || legacyCardKey(card);
+      // mergedKey は「マージなし」表示の疑似カードが持つ統合後キー。
+      // お気に入り・所持数を表示モード間で共有するために統合後キーへ寄せる
+      return card.mergedKey || card.canonicalId || card.key || legacyCardKey(card);
     }
 
     function getAliasKeys(card) {
@@ -501,7 +536,7 @@
       const filter = document.getElementById('trendFilter').value;
       const sort = document.getElementById('sortOrder').value;
 
-      let filtered = cardDataList.filter(c => {
+      let filtered = getRenderList().filter(c => {
         const key = getCardKey(c);
         const activePrice = getActivePrice(c);
         const matchText = c.name.toLowerCase().includes(search) || c.modelNo.toLowerCase().includes(search);
