@@ -12,6 +12,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+  <script src="search-utils.js"></script>
   <style>
     body { font-family: sans-serif; background-color: #f4f4f9; padding: 20px; color: #333; margin: 0; }
     
@@ -29,7 +30,20 @@
     #asset-breakdown { display: none; background: #fff; color: #333; margin-top: 10px; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); max-height: 250px; overflow-y: auto; font-size: 0.9em;}
 
     #controls { background: white; padding: 15px; border-radius: 8px; margin-bottom: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
-    #controls input, #controls select { padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 1em; flex: 1; min-width: 150px; }
+    #controls input, #controls select { padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 1em; }
+    #controls select { flex: 1; min-width: 150px; }
+    .search-field { flex: 2 1 320px; min-width: min(100%, 260px); position: relative; }
+    .search-field input { width: 100%; box-sizing: border-box; padding-right: 38px !important; }
+    .clear-search-btn { position: absolute; top: 50%; right: 6px; transform: translateY(-50%); width: 30px; height: 30px; border: 0; border-radius: 50%; background: transparent; color: #777; cursor: pointer; font-size: 20px; line-height: 1; display: none; }
+    .clear-search-btn:hover { background: #edf0f3; color: #222; }
+    .fuzzy-toggle { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 0 8px; border: 1px solid #ccd2d8; border-radius: 4px; background: #f8f9fb; white-space: nowrap; cursor: pointer; font-size: 0.88em; }
+    .fuzzy-toggle input { margin: 0; }
+    .detail-filter-btn { min-height: 38px; padding: 8px 12px; border: 1px solid #007bff; border-radius: 4px; background: #fff; color: #0069d9; cursor: pointer; font-weight: bold; white-space: nowrap; }
+    .detail-filter-btn:hover { background: #eef6ff; }
+    .filter-count { display: none; min-width: 19px; height: 19px; margin-left: 4px; border-radius: 10px; background: #007bff; color: #fff; align-items: center; justify-content: center; font-size: 0.75em; }
+    #filter-summary { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; min-height: 28px; margin: 0 0 10px; color: #5b6570; font-size: 0.86em; }
+    #result-count { font-weight: bold; color: #34495e; }
+    .filter-chip { display: inline-flex; align-items: center; padding: 4px 8px; border-radius: 12px; background: #e8f3ff; color: #075a9c; }
     
     #series-filters { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 20px; }
     .series-btn { padding: 6px 12px; border: 1px solid #ccc; border-radius: 20px; background: white; cursor: pointer; font-size: 0.8em; transition: 0.2s; }
@@ -67,6 +81,39 @@
     #modal-content { background: white; padding: 20px; border-radius: 8px; width: 90%; max-width: 600px; position: relative; }
     #close-btn { position: absolute; top: 10px; right: 15px; cursor: pointer; font-size: 24px; color: #666; }
     #loading { text-align: center; color: #666; padding: 50px; font-weight: bold; }
+
+    #filter-modal { display: none; position: fixed; inset: 0; z-index: 1100; padding: 20px; background: rgba(18, 28, 38, 0.7); align-items: center; justify-content: center; box-sizing: border-box; }
+    .filter-dialog { width: min(820px, 100%); max-height: min(90vh, 900px); display: flex; flex-direction: column; background: #fff; border-radius: 10px; box-shadow: 0 18px 50px rgba(0,0,0,0.3); overflow: hidden; }
+    .filter-dialog-header { display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; border-bottom: 1px solid #e4e7eb; }
+    .filter-dialog-header h2 { margin: 0; font-size: 1.15em; }
+    .filter-close-btn { width: 34px; height: 34px; border: 0; border-radius: 50%; background: transparent; color: #555; cursor: pointer; font-size: 26px; line-height: 1; }
+    .filter-close-btn:hover { background: #eef0f2; }
+    #filter-options { overflow-y: auto; overscroll-behavior: contain; padding: 18px 20px; }
+    .filter-group { margin: 0 0 18px; padding: 12px; border: 1px solid #dce1e6; border-radius: 8px; }
+    .filter-group legend { padding: 0 6px; font-weight: bold; color: #34495e; }
+    .filter-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(92px, 1fr)); gap: 8px; }
+    .filter-grid.wide { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+    .filter-option { display: flex; align-items: center; gap: 6px; min-height: 34px; padding: 5px 8px; border: 1px solid #d7dce1; border-radius: 6px; background: #fafbfc; cursor: pointer; box-sizing: border-box; }
+    .filter-option:hover { border-color: #7eb9ef; background: #f2f8ff; }
+    .filter-option input { margin: 0; }
+    .filter-select { width: 100%; padding: 9px; border: 1px solid #c7ced5; border-radius: 5px; background: #fff; font-size: 1em; }
+    .price-filter-row { display: grid; grid-template-columns: 1fr auto 1fr; gap: 8px; align-items: center; }
+    .price-filter-row input { min-width: 0; padding: 9px; border: 1px solid #c7ced5; border-radius: 5px; font-size: 1em; }
+    .filter-dialog-footer { display: flex; justify-content: flex-end; gap: 10px; padding: 14px 20px; border-top: 1px solid #e4e7eb; background: #fafbfc; }
+    .filter-dialog-footer button { padding: 9px 18px; border-radius: 5px; cursor: pointer; font-weight: bold; }
+    .filter-reset-btn { border: 1px solid #aeb7c0; background: #fff; color: #4c5965; }
+    .filter-apply-btn { border: 1px solid #007bff; background: #007bff; color: #fff; }
+
+    @media (max-width: 640px) {
+      body { padding: 10px; }
+      #controls { padding: 10px; }
+      #controls select { min-width: calc(50% - 5px); }
+      .search-field { flex-basis: 100%; }
+      #filter-modal { padding: 0; align-items: flex-end; }
+      .filter-dialog { max-height: 94vh; border-radius: 12px 12px 0 0; }
+      .filter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .filter-dialog-footer button { flex: 1; }
+    }
   </style>
 </head>
 <body>
@@ -94,7 +141,21 @@
   </div>
   
   <div id="controls">
-    <input type="text" id="searchInput" placeholder="カード名や型番で検索..." oninput="filterAndRender()">
+    <div class="search-field">
+      <input type="search" id="searchInput" placeholder="名前・型番・特徴・効果を検索..." autocomplete="off" aria-label="カード検索">
+      <button type="button" id="clearSearchBtn" class="clear-search-btn" aria-label="検索をクリア">×</button>
+    </div>
+    <select id="searchMode" aria-label="キーワード検索モード">
+      <option value="AND">AND（すべて含む）</option>
+      <option value="OR">OR（いずれか）</option>
+    </select>
+    <label class="fuzzy-toggle" title="かな・全半角の表記ゆれと軽微なタイプミスを許容します">
+      <input type="checkbox" id="fuzzySearch" checked>
+      あいまい検索
+    </label>
+    <button type="button" id="openFilterBtn" class="detail-filter-btn" aria-haspopup="dialog" aria-controls="filter-modal">
+      詳細フィルタ<span id="filterCount" class="filter-count">0</span>
+    </button>
     <select id="shopFilter" onchange="setShop(this.value)">
       <option value="best">ショップ最高買取</option>
       <option value="mercard">メルカード</option>
@@ -126,6 +187,12 @@
     </select>
   </div>
 
+  <div id="filter-summary" aria-live="polite">
+    <span id="result-count">0件</span>
+    <span>スペース区切りで複数語、先頭に「-」で除外できます。</span>
+    <span id="active-filter-chips"></span>
+  </div>
+
   <div id="series-filters">
     <button class="series-btn active" onclick="setSeries('all', this)">すべて</button>
     <button class="series-btn" onclick="setSeries('OP', this)">通常弾(OP)</button>
@@ -147,11 +214,26 @@
     </div>
   </div>
 
+  <div id="filter-modal" role="dialog" aria-modal="true" aria-labelledby="filter-modal-title">
+    <div class="filter-dialog">
+      <div class="filter-dialog-header">
+        <h2 id="filter-modal-title">詳細フィルタ</h2>
+        <button type="button" id="closeFilterBtn" class="filter-close-btn" aria-label="詳細フィルタを閉じる">×</button>
+      </div>
+      <div id="filter-options"></div>
+      <div class="filter-dialog-footer">
+        <button type="button" id="resetFilterBtn" class="filter-reset-btn">リセット</button>
+        <button type="button" id="applyFilterBtn" class="filter-apply-btn">適用</button>
+      </div>
+    </div>
+  </div>
+
   <script>
     // ==========================================
     // ⚠️ 設定
     // ==========================================
     const API_URL = 'data/cards.json';
+    const CARD_DETAILS_URL = 'data/card-details.json';
 
     let chartInstance = null;
     let totalAssetChartInstance = null;
@@ -162,6 +244,58 @@
 
     let favorites = JSON.parse(localStorage.getItem('onepieceFavorites')) || [];
     let ownedCounts = JSON.parse(localStorage.getItem('onepieceOwnedCounts')) || {};
+
+    const DETAIL_FILTER_ARRAY_KEYS = ['colors', 'costs', 'powers', 'counters', 'attributes', 'types', 'rarities', 'blocks', 'extras'];
+    const FILTER_LABELS = {
+      colors: '色', costs: 'コスト', powers: 'パワー', counters: 'カウンター',
+      attributes: '属性', types: '種別', rarities: 'レアリティ', blocks: 'ブロック', extras: 'その他'
+    };
+    let cardDetailsByNumber = new Map();
+    let detailFilters = createDefaultDetailFilters();
+    let searchTimer = null;
+
+    function createDefaultDetailFilters() {
+      return {
+        colors: [], costs: [], powers: [], counters: [], attributes: [],
+        types: [], rarities: [], blocks: [], extras: [], series: '',
+        minPrice: '', maxPrice: ''
+      };
+    }
+
+    function normalizeCardNumber(value) {
+      return String(value || '').normalize('NFKC').trim().toUpperCase();
+    }
+
+    function extractCardNumber(value) {
+      const normalized = normalizeCardNumber(value);
+      const match = normalized.match(/(?:^|[^A-Z0-9])((?:OP|EB|ST|PRB)\d{2}|P)-(\d{3})(?:\D|$)/);
+      return match ? `${match[1]}-${match[2]}` : '';
+    }
+
+    function getSeriesId(card) {
+      const cardNumber = normalizeCardNumber(card?.details?.cardNumber)
+        || extractCardNumber(card?.modelNo)
+        || extractCardNumber(card?.name);
+      return cardNumber.split('-')[0] || '';
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+    }
+
+    function attachCardDetails(card) {
+      const detailKey = cardDetailsByNumber.has(normalizeCardNumber(card.modelNo))
+        ? normalizeCardNumber(card.modelNo)
+        : extractCardNumber(card.modelNo) || extractCardNumber(card.name);
+      card.details = cardDetailsByNumber.get(detailKey) || {};
+      card.searchIndex = OPSearchUtils.createSearchIndex(card);
+      return card;
+    }
 
     function normalizeCardForShops(card) {
       if (!card.pricesByShop) {
@@ -175,7 +309,7 @@
         };
         card.bestShopId = 'mercard';
       }
-      return card;
+      return attachCardDetails(card);
     }
 
     function getShopData(card) {
@@ -460,16 +594,38 @@
       localStorage.setItem('onepieceFavorites', JSON.stringify(favorites));
     }
 
-    fetch(API_URL)
-      .then(res => res.json())
-      .then(data => initApp(data))
-      .catch(err => document.getElementById('loading').innerText = 'データ取得に失敗しました。');
+    function fetchJson(url) {
+      return fetch(url).then(response => {
+        if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`);
+        return response.json();
+      });
+    }
 
-    function initApp(data) {
+    Promise.all([
+      fetchJson(API_URL),
+      fetchJson(CARD_DETAILS_URL).catch(error => {
+        console.warn('カード属性データを取得できなかったため、価格項目のみで表示します。', error);
+        return [];
+      })
+    ])
+      .then(([prices, details]) => initApp(prices, details))
+      .catch(error => {
+        console.error(error);
+        document.getElementById('loading').innerText = 'データ取得に失敗しました。';
+      });
+
+    function initApp(data, details) {
       document.getElementById('loading').style.display = 'none';
+      cardDetailsByNumber = new Map(
+        details
+          .filter(card => card?.cardNumber)
+          .map(card => [normalizeCardNumber(card.cardNumber), card])
+      );
       cardDataList = data.map(normalizeCardForShops);
       migrateSavedCardState(cardDataList);
       prepareTrendData(cardDataList);
+      populateDetailFilters(cardDataList);
+      setupSearchAndFilterEvents();
       refreshAssetStats();
       filterAndRender();
     }
@@ -516,6 +672,262 @@
       });
     }
 
+    function sortNumericValues(values) {
+      return [...values].map(String).sort((a, b) => {
+        if (a === '-') return -1;
+        if (b === '-') return 1;
+        return Number(a) - Number(b);
+      });
+    }
+
+    function createFilterGroup(key, label, options, wide = false) {
+      if (!options.length) return '';
+      const optionHtml = options.map(option => `
+        <label class="filter-option">
+          <input type="checkbox" name="filter-${escapeHtml(key)}" value="${escapeHtml(option)}">
+          <span>${escapeHtml(option)}</span>
+        </label>
+      `).join('');
+      return `
+        <fieldset class="filter-group">
+          <legend>${escapeHtml(label)}（項目内 OR）</legend>
+          <div class="filter-grid${wide ? ' wide' : ''}">${optionHtml}</div>
+        </fieldset>
+      `;
+    }
+
+    function populateDetailFilters(cards) {
+      const values = Object.fromEntries(
+        ['colors', 'costs', 'powers', 'counters', 'attributes', 'types', 'rarities', 'blocks'].map(key => [key, new Set()])
+      );
+      const series = new Map();
+
+      cards.forEach(card => {
+        const details = card.details || {};
+        (Array.isArray(details.color) ? details.color : []).forEach(value => values.colors.add(String(value)));
+        if (details.costLifeType === 'コスト' && details.costLifeValue !== undefined && details.costLifeValue !== null) {
+          values.costs.add(String(details.costLifeValue === '-' ? 0 : details.costLifeValue));
+        }
+        if (details.power !== undefined && details.power !== null && details.power !== '') {
+          values.powers.add(String(details.power === '-' ? 0 : details.power));
+        }
+        if (details.counter !== undefined && details.counter !== null && details.counter !== '') {
+          values.counters.add(String(details.counter));
+        }
+        if (details.attribute && details.attribute !== '-') {
+          String(details.attribute).split('/').filter(Boolean).forEach(value => values.attributes.add(value));
+        }
+        if (details.cardType && details.cardType !== 'ドン!!') values.types.add(String(details.cardType));
+        if (details.rarity) values.rarities.add(String(details.rarity));
+        if (details.block !== undefined && details.block !== null && details.block !== '') values.blocks.add(String(details.block));
+
+        const seriesId = getSeriesId(card);
+        if (seriesId && !series.has(seriesId)) {
+          series.set(seriesId, details.seriesTitle ? `${seriesId} - ${details.seriesTitle}` : seriesId);
+        }
+      });
+
+      const colorOrder = ['赤', '青', '緑', '紫', '黒', '黄'];
+      const typeOrder = ['LEADER', 'CHARACTER', 'EVENT', 'STAGE'];
+      const rarityOrder = ['L', 'SEC', 'SP', 'SR', 'R', 'UC', 'C', 'P'];
+      const ordered = (set, preferred) => [...set].sort((a, b) => {
+        const aIndex = preferred.indexOf(a);
+        const bIndex = preferred.indexOf(b);
+        if (aIndex === -1 && bIndex === -1) return a.localeCompare(b, 'ja', { numeric: true });
+        if (aIndex === -1) return 1;
+        if (bIndex === -1) return -1;
+        return aIndex - bIndex;
+      });
+      const seriesOptions = [...series.entries()]
+        .sort(([a], [b]) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }))
+        .map(([id, label]) => `<option value="${escapeHtml(id)}">${escapeHtml(label)}</option>`)
+        .join('');
+
+      document.getElementById('filter-options').innerHTML = `
+        <fieldset class="filter-group">
+          <legend>現在価格</legend>
+          <div class="price-filter-row">
+            <input type="number" id="filterMinPrice" min="0" step="100" inputmode="numeric" placeholder="最低価格">
+            <span>〜</span>
+            <input type="number" id="filterMaxPrice" min="0" step="100" inputmode="numeric" placeholder="最高価格">
+          </div>
+        </fieldset>
+        ${createFilterGroup('colors', '色', ordered(values.colors, colorOrder))}
+        ${createFilterGroup('costs', 'コスト', sortNumericValues(values.costs))}
+        ${createFilterGroup('powers', 'パワー', sortNumericValues(values.powers))}
+        ${createFilterGroup('counters', 'カウンター', sortNumericValues(values.counters))}
+        ${createFilterGroup('attributes', '属性', [...values.attributes].sort(), true)}
+        ${createFilterGroup('types', '種別', ordered(values.types, typeOrder), true)}
+        ${createFilterGroup('rarities', 'レアリティ', ordered(values.rarities, rarityOrder))}
+        ${createFilterGroup('blocks', 'ブロック', sortNumericValues(values.blocks))}
+        ${createFilterGroup('extras', 'その他', ['ブロッカー', 'トリガー', 'バニラ', 'パラレル・別イラスト'], true)}
+        <fieldset class="filter-group">
+          <legend>シリーズ</legend>
+          <select id="filterSeries" class="filter-select">
+            <option value="">すべて</option>
+            ${seriesOptions}
+          </select>
+        </fieldset>
+      `;
+      syncDetailFilterControls();
+    }
+
+    function syncDetailFilterControls() {
+      DETAIL_FILTER_ARRAY_KEYS.forEach(key => {
+        document.querySelectorAll(`input[name="filter-${key}"]`).forEach(input => {
+          input.checked = detailFilters[key].includes(input.value);
+        });
+      });
+      const series = document.getElementById('filterSeries');
+      const minPrice = document.getElementById('filterMinPrice');
+      const maxPrice = document.getElementById('filterMaxPrice');
+      if (series) series.value = detailFilters.series;
+      if (minPrice) minPrice.value = detailFilters.minPrice;
+      if (maxPrice) maxPrice.value = detailFilters.maxPrice;
+    }
+
+    function readDetailFiltersFromControls() {
+      const next = createDefaultDetailFilters();
+      DETAIL_FILTER_ARRAY_KEYS.forEach(key => {
+        next[key] = [...document.querySelectorAll(`input[name="filter-${key}"]:checked`)].map(input => input.value);
+      });
+      next.series = document.getElementById('filterSeries')?.value || '';
+      next.minPrice = document.getElementById('filterMinPrice')?.value || '';
+      next.maxPrice = document.getElementById('filterMaxPrice')?.value || '';
+
+      if (next.minPrice !== '' && next.maxPrice !== '' && Number(next.minPrice) > Number(next.maxPrice)) {
+        [next.minPrice, next.maxPrice] = [next.maxPrice, next.minPrice];
+      }
+      return next;
+    }
+
+    function countActiveDetailFilters() {
+      return DETAIL_FILTER_ARRAY_KEYS.reduce((count, key) => count + detailFilters[key].length, 0)
+        + (detailFilters.series ? 1 : 0)
+        + (detailFilters.minPrice !== '' ? 1 : 0)
+        + (detailFilters.maxPrice !== '' ? 1 : 0);
+    }
+
+    function updateFilterIndicators() {
+      const count = countActiveDetailFilters();
+      const badge = document.getElementById('filterCount');
+      badge.textContent = count;
+      badge.style.display = count ? 'inline-flex' : 'none';
+
+      const chips = [];
+      DETAIL_FILTER_ARRAY_KEYS.forEach(key => {
+        if (detailFilters[key].length) chips.push(`${FILTER_LABELS[key]}: ${detailFilters[key].join('・')}`);
+      });
+      if (detailFilters.series) chips.push(`シリーズ: ${detailFilters.series}`);
+      if (detailFilters.minPrice !== '' || detailFilters.maxPrice !== '') {
+        const min = detailFilters.minPrice === '' ? '0' : Number(detailFilters.minPrice).toLocaleString();
+        const max = detailFilters.maxPrice === '' ? '上限なし' : `¥${Number(detailFilters.maxPrice).toLocaleString()}`;
+        chips.push(`価格: ¥${min}〜${max}`);
+      }
+      document.getElementById('active-filter-chips').innerHTML = chips
+        .map(chip => `<span class="filter-chip">${escapeHtml(chip)}</span>`)
+        .join(' ');
+    }
+
+    function openDetailFilterModal() {
+      syncDetailFilterControls();
+      document.getElementById('filter-modal').style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+      document.getElementById('closeFilterBtn').focus();
+    }
+
+    function closeDetailFilterModal() {
+      document.getElementById('filter-modal').style.display = 'none';
+      document.body.style.overflow = '';
+      document.getElementById('openFilterBtn').focus();
+    }
+
+    function queueSearchRender() {
+      const input = document.getElementById('searchInput');
+      document.getElementById('clearSearchBtn').style.display = input.value ? 'block' : 'none';
+      renderLimit = 300;
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(filterAndRender, 160);
+    }
+
+    function setupSearchAndFilterEvents() {
+      const searchInput = document.getElementById('searchInput');
+      const clearSearchBtn = document.getElementById('clearSearchBtn');
+      const filterModal = document.getElementById('filter-modal');
+
+      searchInput.addEventListener('input', queueSearchRender);
+      clearSearchBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        clearSearchBtn.style.display = 'none';
+        renderLimit = 300;
+        filterAndRender();
+        searchInput.focus();
+      });
+      ['searchMode', 'fuzzySearch'].forEach(id => {
+        document.getElementById(id).addEventListener('change', () => {
+          renderLimit = 300;
+          filterAndRender();
+        });
+      });
+      document.getElementById('openFilterBtn').addEventListener('click', openDetailFilterModal);
+      document.getElementById('closeFilterBtn').addEventListener('click', closeDetailFilterModal);
+      document.getElementById('applyFilterBtn').addEventListener('click', () => {
+        detailFilters = readDetailFiltersFromControls();
+        renderLimit = 300;
+        closeDetailFilterModal();
+        filterAndRender();
+      });
+      document.getElementById('resetFilterBtn').addEventListener('click', () => {
+        detailFilters = createDefaultDetailFilters();
+        syncDetailFilterControls();
+        renderLimit = 300;
+        filterAndRender();
+      });
+      filterModal.addEventListener('click', event => {
+        if (event.target === filterModal) closeDetailFilterModal();
+      });
+      document.addEventListener('keydown', event => {
+        if (event.key === 'Escape' && filterModal.style.display === 'flex') closeDetailFilterModal();
+      });
+    }
+
+    function isParallelOrAlternateArt(card) {
+      return /パラレル|コミパラ|スーパー\s*パラレル|スペシャル|別イラスト|絵違い|漫画背景|\bSP\b/i.test(card.name || '');
+    }
+
+    function matchesDetailFilters(card, activePrice) {
+      const details = card.details || {};
+      const matchesAny = (selected, actual) => selected.length === 0 || selected.some(value => actual.includes(value));
+
+      if (!matchesAny(detailFilters.colors, Array.isArray(details.color) ? details.color.map(String) : [])) return false;
+      if (detailFilters.costs.length) {
+        if (details.costLifeType !== 'コスト') return false;
+        const value = String(details.costLifeValue === '-' || details.costLifeValue === undefined ? 0 : details.costLifeValue);
+        if (!detailFilters.costs.includes(value)) return false;
+      }
+      if (detailFilters.powers.length) {
+        const value = String(details.power === '-' || details.power === undefined ? 0 : details.power);
+        if (!detailFilters.powers.includes(value)) return false;
+      }
+      if (detailFilters.counters.length && !detailFilters.counters.includes(String(details.counter ?? '-'))) return false;
+      const attributes = details.attribute && details.attribute !== '-' ? String(details.attribute).split('/') : [];
+      if (!matchesAny(detailFilters.attributes, attributes)) return false;
+      if (detailFilters.types.length && !detailFilters.types.includes(String(details.cardType || ''))) return false;
+      if (detailFilters.rarities.length && !detailFilters.rarities.includes(String(details.rarity || ''))) return false;
+      if (detailFilters.blocks.length && !detailFilters.blocks.includes(String(details.block ?? ''))) return false;
+      if (detailFilters.series && getSeriesId(card) !== detailFilters.series) return false;
+      if (detailFilters.minPrice !== '' && activePrice < Number(detailFilters.minPrice)) return false;
+      if (detailFilters.maxPrice !== '' && activePrice > Number(detailFilters.maxPrice)) return false;
+
+      for (const extra of detailFilters.extras) {
+        if (extra === 'ブロッカー' && !String(details.effectText || '').includes('【ブロッカー】')) return false;
+        if (extra === 'トリガー' && (!details.trigger || details.trigger === '-')) return false;
+        if (extra === 'バニラ' && details.effectText && details.effectText !== '-') return false;
+        if (extra === 'パラレル・別イラスト' && !isParallelOrAlternateArt(card)) return false;
+      }
+      return true;
+    }
+
     function setSeries(series, btn) {
       currentSeries = series;
       renderLimit = 300;
@@ -532,14 +944,21 @@
     function filterAndRender() {
       const grid = document.getElementById('grid'), noData = document.getElementById('no-data-msg'), loadMore = document.getElementById('load-more');
       grid.innerHTML = '';
-      const search = document.getElementById('searchInput').value.toLowerCase();
+      const parsedSearch = OPSearchUtils.parseSearchQuery(document.getElementById('searchInput').value);
+      const searchMode = document.getElementById('searchMode').value;
+      const fuzzySearch = document.getElementById('fuzzySearch').checked;
       const filter = document.getElementById('trendFilter').value;
       const sort = document.getElementById('sortOrder').value;
 
       let filtered = getRenderList().filter(c => {
         const key = getCardKey(c);
         const activePrice = getActivePrice(c);
-        const matchText = c.name.toLowerCase().includes(search) || c.modelNo.toLowerCase().includes(search);
+        const matchText = OPSearchUtils.matchesSearch(
+          c.searchIndex || OPSearchUtils.createSearchIndex(c),
+          parsedSearch,
+          searchMode,
+          fuzzySearch
+        );
         let matchFilter = true;
         
         if (filter === 'favorites') matchFilter = favorites.includes(key);
@@ -553,7 +972,8 @@
         else if (filter === 'weeklyUp') matchFilter = c.weeklyDiff > 0;
         else if (filter === 'weeklyDown') matchFilter = c.weeklyDiff < 0;
         
-        return activePrice > 0 && matchText && matchFilter && (currentSeries === 'all' || c.modelNo.toUpperCase().includes(currentSeries));
+        const matchesSeriesButton = currentSeries === 'all' || getSeriesId(c).startsWith(currentSeries.replace('-', ''));
+        return activePrice > 0 && matchText && matchFilter && matchesSeriesButton && matchesDetailFilters(c, activePrice);
       });
 
       filtered.sort((a, b) => {
@@ -565,6 +985,12 @@
         if (sort === 'weeklyAsc') return a.weeklyDiff - b.weeklyDiff;
         return a.modelNo.localeCompare(b.modelNo);
       });
+
+      updateFilterIndicators();
+      const visibleCount = Math.min(filtered.length, renderLimit);
+      document.getElementById('result-count').textContent = filtered.length
+        ? `${filtered.length.toLocaleString()}件中 ${visibleCount.toLocaleString()}件表示`
+        : '0件';
 
       if (!filtered.length) { noData.style.display = 'block'; loadMore.style.display = 'none'; return; }
       noData.style.display = 'none';
