@@ -1,0 +1,19 @@
+{
+  "name": "ワンピカード 資産管理",
+  "short_name": "ワンピ資産",
+  "description": "ONE PIECEカードゲームのショップ別買取価格と所持カードを管理します。",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f4f9",
+  "theme_color": "#2c3e50",
+  "icons": [
+    {
+      "src": "icons/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -28,6 +28,8 @@ jobs:
         run: node scripts/test-search-filters.mjs
       - name: Test alias candidate safety
         run: node scripts/test-alias-candidates.mjs
+      - name: Test PWA updates
+        run: node scripts/test-pwa-update.mjs
       - name: Scrape prices
         run: node scripts/scrape-prices.mjs
       - name: Apply card aliases

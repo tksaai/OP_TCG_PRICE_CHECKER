@@ -7,12 +7,15 @@
   
   <link rel="apple-touch-icon" href="https://img.icons8.com/color/512/one-piece.png">
   <link rel="icon" type="image/png" href="https://img.icons8.com/color/96/one-piece.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#2c3e50">
   <meta name="apple-mobile-web-app-title" content="ワンピ資産">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
   <script src="search-utils.js"></script>
+  <script src="pwa-update.js" defer></script>
   <style>
     body { font-family: sans-serif; background-color: #f4f4f9; padding: 20px; color: #333; margin: 0; }
     
@@ -73,6 +76,15 @@
     .price-min { color: #1e88e5; font-weight: bold; }
     .price-max { color: #d32f2f; font-weight: bold; }
 
+    .pwa-update-toast { position: fixed; left: 50%; bottom: max(18px, env(safe-area-inset-bottom)); transform: translateX(-50%); z-index: 3000; width: min(92vw, 560px); display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 14px; border: 1px solid #9bb8d1; border-radius: 10px; background: #f4f9fd; color: #19364f; box-shadow: 0 8px 28px rgba(0,0,0,.22); }
+    .pwa-update-toast[hidden] { display: none; }
+    .pwa-update-message { line-height: 1.45; font-size: .9em; }
+    .pwa-update-message strong { display: block; font-size: 1em; }
+    .pwa-update-actions { display: flex; gap: 8px; flex-shrink: 0; }
+    .pwa-update-actions button { border: 0; border-radius: 5px; padding: 8px 11px; font-weight: bold; cursor: pointer; }
+    #pwa-update-apply { background: #1769aa; color: #fff; }
+    #pwa-update-dismiss { background: #e3eaf0; color: #34495e; }
+
     .star-btn { position: absolute; top: 10px; right: 10px; font-size: 24px; color: #ccc; cursor: pointer; text-shadow: 0 0 2px rgba(0,0,0,0.3); z-index: 10; transition: transform 0.1s;}
     .star-btn:hover { transform: scale(1.2); }
     .star-btn.active { color: #ffd700; text-shadow: 0 0 5px rgba(255, 215, 0, 0.8); }
@@ -117,6 +129,17 @@
   </style>
 </head>
 <body>
+
+  <div id="pwa-update-toast" class="pwa-update-toast" role="status" aria-live="polite" hidden>
+    <div class="pwa-update-message">
+      <strong>新しいバージョンがあります</strong>
+      <span>更新すると最新の検索機能と価格データを利用できます。</span>
+    </div>
+    <div class="pwa-update-actions">
+      <button type="button" id="pwa-update-dismiss">後で</button>
+      <button type="button" id="pwa-update-apply">更新</button>
+    </div>
+  </div>
 
   <div id="asset-summary">
     <div class="asset-info-row">
