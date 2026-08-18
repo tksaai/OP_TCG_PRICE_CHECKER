@@ -301,5 +301,1382 @@
         "modelNo": "チャンピオンシップ版OP13-119"
       }
     ]
+  },
+  {
+    "canonicalId": "EB01-046_PARALLEL",
+    "canonicalName": "ブルック【パラレル】《黒》",
+    "modelNo": "EB01-046",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_EB01-046_parallel",
+    "aliases": [
+      {
+        "shopId": "mercard",
+        "sourceKey": "eb01-046@parallel",
+        "name": "ブルック【パラレル】《黒》",
+        "modelNo": "EB01-046"
+      },
+      {
+        "shopId": "cardrush",
+        "sourceKey": "eb01-046@illust:nijihayashi+parallel",
+        "name": "ブルック(パラレル/illust:Nijihayashi)",
+        "modelNo": "EB01-046"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "eb01-046@parallel",
+        "name": "ブルック 【SR】【パラレル】【黒】【EB01-046】",
+        "modelNo": "EB01-046"
+      }
+    ]
+  },
+  {
+    "canonicalId": "EB01-057_PARALLEL_SP",
+    "canonicalName": "しらほし【SPパラレル】《黄》",
+    "modelNo": "EB01-057",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_EB01-057_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "eb01-057@op11+parallel+sp+タロット柄",
+        "name": "しらほし(パラレル/SP/タロット柄)",
+        "modelNo": "EB01-057[OP11]"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "eb01-057@op11+parallel+sp",
+        "name": "しらほし【SPパラレル】《黄》",
+        "modelNo": "SPEB01-057『OP11』"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "eb01-057@parallel+sp",
+        "name": "しらほし 【SR】【SP】【パラレル】【黄】【EB01-057】",
+        "modelNo": "EB01-057"
+      }
+    ]
+  },
+  {
+    "canonicalId": "EB02-035_PARALLEL",
+    "canonicalName": "サンジ＆プリン【パラレル】《紫》",
+    "modelNo": "EB02-035",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_EB02-035_parallel",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "eb02-035@illust:masayahasegawa+parallel",
+        "name": "サンジ&プリン(パラレル/illust:Masaya Hasegawa)",
+        "modelNo": "EB02-035"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "eb02-035@parallel",
+        "name": "サンジ&プリン 【SR】【パラレル】【紫】【EB02-035】",
+        "modelNo": "EB02-035"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "eb02-035@parallel",
+        "name": "サンジ＆プリン【パラレル】《紫》",
+        "modelNo": "EB02-035"
+      }
+    ]
+  },
+  {
+    "canonicalId": "EB02-052_PARALLEL_SP",
+    "canonicalName": "エネル【SPパラレル】《黄》",
+    "modelNo": "EB02-052",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_EB02-052_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "torecard",
+        "sourceKey": "eb02-052@parallel+sp",
+        "name": "エネル 【SR】【SP】【パラレル】【黄】【EB02-052】",
+        "modelNo": "EB02-052"
+      },
+      {
+        "shopId": "cardrush",
+        "sourceKey": "eb02-052@op15+parallel+sp+悪魔の実模様",
+        "name": "エネル(パラレル/SP/悪魔の実模様)",
+        "modelNo": "EB02-052[OP15]"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "eb02-052@op15+parallel+sp",
+        "name": "エネル【SPパラレル】《黄》",
+        "modelNo": "SPEB02-052『OP15』"
+      }
+    ]
+  },
+  {
+    "canonicalId": "EB03-003_PARALLEL_SP",
+    "canonicalName": "ウタ【SPパラレル】《赤》",
+    "modelNo": "EB03-003",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_EB03-003_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "eb03-003@parallel+sp+タロット柄",
+        "name": "ウタ(パラレル/SP/タロット柄)",
+        "modelNo": "EB03-003"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "eb03-003@parallel+sp",
+        "name": "ウタ 【SR】【SP】【パラレル】【赤】【EB03-003】",
+        "modelNo": "EB03-003"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "eb03-003@eb03+parallel+sp",
+        "name": "ウタ【SPパラレル】《赤》",
+        "modelNo": "SPEB03-003『EB03』"
+      }
+    ]
+  },
+  {
+    "canonicalId": "EB03-018_PARALLEL_SP",
+    "canonicalName": "たしぎ【SPパラレル】《緑》",
+    "modelNo": "EB03-018",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_EB03-018_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "eb03-018@parallel+sp+タロット柄",
+        "name": "たしぎ(パラレル/SP/タロット柄)",
+        "modelNo": "EB03-018"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "eb03-018@eb03+parallel+sp",
+        "name": "たしぎ【SPパラレル】《緑》",
+        "modelNo": "SPEB03-018『EB03』"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "eb03-018@parallel+sp",
+        "name": "たしぎ 【SR】【SP】【パラレル】【緑】【EB03-018】",
+        "modelNo": "EB03-018"
+      }
+    ]
+  },
+  {
+    "canonicalId": "EB03-024_PARALLEL_SP",
+    "canonicalName": "ネフェルタリ・ビビ【SPパラレル】《青》",
+    "modelNo": "EB03-024",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_EB03-024_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "torecard",
+        "sourceKey": "eb03-024@parallel+sp",
+        "name": "ネフェルタリ・ビビ 【SR】【SP】【パラレル】【青】【EB03-024】",
+        "modelNo": "EB03-024"
+      },
+      {
+        "shopId": "cardrush",
+        "sourceKey": "eb03-024@parallel+sp+タロット柄",
+        "name": "ネフェルタリ・ビビ(パラレル/SP/タロット柄)",
+        "modelNo": "EB03-024"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "eb03-024@eb03+parallel+sp",
+        "name": "ネフェルタリ・ビビ【SPパラレル】《青》",
+        "modelNo": "SPEB03-024『EB03』"
+      }
+    ]
+  },
+  {
+    "canonicalId": "EB03-026_PARALLEL_SP",
+    "canonicalName": "ボア・ハンコック【SPパラレル】《青》",
+    "modelNo": "EB03-026",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_EB03-026_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "eb03-026@parallel+sp+タロット柄",
+        "name": "ボア・ハンコック(パラレル/SP/タロット柄)",
+        "modelNo": "EB03-026"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "eb03-026@eb03+parallel+sp",
+        "name": "ボア・ハンコック【SPパラレル】《青》",
+        "modelNo": "SPEB03-026『EB03』"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "eb03-026@parallel+sp",
+        "name": "ボア・ハンコック 【SR】【SP】【パラレル】【青】【EB03-026】",
+        "modelNo": "EB03-026"
+      }
+    ]
+  },
+  {
+    "canonicalId": "EB03-031_PARALLEL_SP",
+    "canonicalName": "ヴィンスモーク・レイジュ【SPパラレル】《紫》",
+    "modelNo": "EB03-031",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_EB03-031_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "eb03-031@parallel+sp+タロット柄",
+        "name": "ヴィンスモーク・レイジュ(パラレル/SP/タロット柄)",
+        "modelNo": "EB03-031"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "eb03-031@eb03+parallel+sp",
+        "name": "ヴィンスモーク・レイジュ【SPパラレル】《紫》",
+        "modelNo": "SPEB03-031『EB03』"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "eb03-031@parallel+sp",
+        "name": "ヴィンスモーク・レイジュ 【SR】【SP】【パラレル】【紫】【EB03-031】",
+        "modelNo": "EB03-031"
+      }
+    ]
+  },
+  {
+    "canonicalId": "EB03-042_PARALLEL_SP",
+    "canonicalName": "コアラ【SPパラレル】《黒》",
+    "modelNo": "EB03-042",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_EB03-042_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "mercard",
+        "sourceKey": "eb03-042@eb03+parallel+sp",
+        "name": "コアラ【SPパラレル】《黒》",
+        "modelNo": "SPEB03-042『EB03』"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "eb03-042@parallel+sp",
+        "name": "コアラ 【SR】【SP】【パラレル】【黒】【EB03-042】",
+        "modelNo": "EB03-042"
+      },
+      {
+        "shopId": "cardrush",
+        "sourceKey": "eb03-042@parallel+sp+タロット柄",
+        "name": "コアラ(パラレル/SP/タロット柄)",
+        "modelNo": "EB03-042"
+      }
+    ]
+  },
+  {
+    "canonicalId": "EB03-045_PARALLEL_SP",
+    "canonicalName": "ペローナ【SPパラレル】《黒》",
+    "modelNo": "EB03-045",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_EB03-045_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "eb03-045@parallel+sp+タロット柄",
+        "name": "ペローナ(パラレル/SP/タロット柄)",
+        "modelNo": "EB03-045"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "eb03-045@parallel+sp",
+        "name": "ペローナ 【SR】【SP】【パラレル】【黒】【EB03-045】",
+        "modelNo": "EB03-045"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "eb03-045@eb03+parallel+sp",
+        "name": "ペローナ【SPパラレル】《黒》",
+        "modelNo": "SPEB03-045『EB03』"
+      }
+    ]
+  },
+  {
+    "canonicalId": "EB03-053_PARALLEL_SP",
+    "canonicalName": "ナミ【SPパラレル】《黄》",
+    "modelNo": "EB03-053",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_EB03-053_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "torecard",
+        "sourceKey": "eb03-053@parallel+sp",
+        "name": "ナミ 【SR】【SP】【パラレル】【黄】【EB03-053】",
+        "modelNo": "EB03-053"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "eb03-053@eb03+parallel+sp",
+        "name": "ナミ【SPパラレル】《黄》",
+        "modelNo": "SPEB03-053『EB03』"
+      },
+      {
+        "shopId": "cardrush",
+        "sourceKey": "eb03-053@parallel+sp+タロット柄",
+        "name": "ナミ(パラレル/SP/タロット柄)",
+        "modelNo": "EB03-053"
+      }
+    ]
+  },
+  {
+    "canonicalId": "EB03-055_PARALLEL_SP",
+    "canonicalName": "ニコ・ロビン【SPパラレル】《黄》",
+    "modelNo": "EB03-055",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_EB03-055_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "torecard",
+        "sourceKey": "eb03-055@parallel+sp",
+        "name": "ニコ・ロビン 【SR】【SP】【パラレル】【黄】【EB03-055】",
+        "modelNo": "EB03-055"
+      },
+      {
+        "shopId": "cardrush",
+        "sourceKey": "eb03-055@parallel+sp+タロット柄",
+        "name": "ニコ・ロビン(パラレル/SP/タロット柄)",
+        "modelNo": "EB03-055"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "eb03-055@eb03+parallel+sp",
+        "name": "ニコ・ロビン【SPパラレル】《黄》",
+        "modelNo": "SPEB03-055『EB03』"
+      }
+    ]
+  },
+  {
+    "canonicalId": "EB04-058_PARALLEL",
+    "canonicalName": "ボルサリーノ【パラレル】《黄》",
+    "modelNo": "EB04-058",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_EB04-058_parallel",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "eb04-058@illustmatsumotoakira+parallel",
+        "name": "ボルサリーノ(パラレル/illustMatsumoto Akira)",
+        "modelNo": "EB04-058"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "eb04-058@parallel",
+        "name": "ボルサリーノ【パラレル】《黄》",
+        "modelNo": "EB04-058"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "eb04-058@parallel",
+        "name": "ボルサリーノ 【SR】【パラレル】【黄】【EB04-058】",
+        "modelNo": "EB04-058"
+      }
+    ]
+  },
+  {
+    "canonicalId": "EB04-061_PARALLEL",
+    "canonicalName": "モンキー・Ｄ・ルフィ【パラレル】《黄》",
+    "modelNo": "EB04-061",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_EB04-061_parallel",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "eb04-061@illust:minatosashima+parallel",
+        "name": "モンキー・D・ルフィ(パラレル/illust:Minato Sashima)",
+        "modelNo": "EB04-061"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "eb04-061@parallel",
+        "name": "モンキー・D・ルフィ 【シークレット】【パラレル】【黄】【EB04-061】",
+        "modelNo": "EB04-061"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "eb04-061@parallel",
+        "name": "モンキー・Ｄ・ルフィ【パラレル】《黄》",
+        "modelNo": "EB04-061"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP01-025_PARALLEL",
+    "canonicalName": "ロロノア・ゾロ【パラレル】《赤》",
+    "modelNo": "OP01-025",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP01-025_parallel",
+    "aliases": [
+      {
+        "shopId": "mercard",
+        "sourceKey": "op01-025@parallel",
+        "name": "ロロノア・ゾロ【パラレル】《赤》",
+        "modelNo": "OP01-025"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op01-025@parallel",
+        "name": "ロロノア・ゾロ 【SR】【パラレル】【赤】【OP01-025】",
+        "modelNo": "OP01-025"
+      },
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op01-025@illust:akiraegawa+parallel",
+        "name": "ロロノア・ゾロ(パラレル/illust:AKIRA EGAWA)",
+        "modelNo": "OP01-025"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP01-094_PARALLEL",
+    "canonicalName": "カイドウ【パラレル】《紫》",
+    "modelNo": "OP01-094",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP01-094_parallel",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op01-094@illust:shosuke+parallel",
+        "name": "カイドウ(パラレル/illust:shosuke)",
+        "modelNo": "OP01-094"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op01-094@parallel",
+        "name": "カイドウ【パラレル】《紫》",
+        "modelNo": "OP01-094"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op01-094@parallel",
+        "name": "カイドウ 【SR】【パラレル】【紫】【OP01-094】",
+        "modelNo": "OP01-094"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP01-120_COMIC",
+    "canonicalName": "シャンクス【コミック版パラレル】《赤》",
+    "modelNo": "OP01-120",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP01-120_comic",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op01-120@comic+左下ロゴ無",
+        "name": "シャンクス(パラレル/漫画背景/漫画絵/左下ロゴ無)",
+        "modelNo": "OP01-120"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op01-120@comic",
+        "name": "シャンクス 【シークレット】【パラレル】【スーパーパラレル】【赤】【OP01-120】",
+        "modelNo": "OP01-120"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op01-120@comic",
+        "name": "シャンクス【コミック版パラレル】《赤》",
+        "modelNo": "OP01-120"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP02-013_COMIC",
+    "canonicalName": "ポートガス・D・エース【コミック版パラレル】《赤》",
+    "modelNo": "OP02-013",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP02-013_comic",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op02-013@comic+左下ロゴ無",
+        "name": "ポートガス・D・エース(パラレル/漫画背景/漫画絵/左下ロゴ無)",
+        "modelNo": "OP02-013"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op02-013@comic",
+        "name": "ポートガス・D・エース 【SR】【パラレル】【スーパーパラレル】【赤】【OP02-013】",
+        "modelNo": "OP02-013"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op02-013@comic",
+        "name": "ポートガス・D・エース【コミック版パラレル】《赤》",
+        "modelNo": "OP02-013"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP03-122_COMIC",
+    "canonicalName": "そげキング【コミック版パラレル】《青》",
+    "modelNo": "OP03-122",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP03-122_comic",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op03-122@comic+左下ロゴ無",
+        "name": "そげキング(パラレル/漫画背景/漫画絵/左下ロゴ無)",
+        "modelNo": "OP03-122"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op03-122@comic",
+        "name": "そげキング 【シークレット】【パラレル】【スーパーパラレル】【青】【OP03-122】",
+        "modelNo": "OP03-122"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op03-122@comic",
+        "name": "そげキング【コミック版パラレル】《青》",
+        "modelNo": "OP03-122"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP04-064_PARALLEL_SP",
+    "canonicalName": "ミス・オールサンデー【SPパラレル】《紫》",
+    "modelNo": "OP04-064",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP04-064_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "torecard",
+        "sourceKey": "op04-064@parallel+sp",
+        "name": "ミス・オールサンデー 【SR】【SP】【パラレル】【紫】【OP04-064】",
+        "modelNo": "OP04-064"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op04-064@op06+parallel+sp",
+        "name": "ミス・オールサンデー【SPパラレル】《紫》",
+        "modelNo": "SPOP04-064『OP06』"
+      },
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op04-064@illust:hatorikyoka+op06+parallel+sp+枠無",
+        "name": "ミス・オールサンデー(パラレル/SP/枠無/illust:Hatori Kyoka)",
+        "modelNo": "OP04-064[OP06]"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP04-083_COMIC",
+    "canonicalName": "サボ【コミック版パラレル】《黒》",
+    "modelNo": "OP04-083",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP04-083_comic",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op04-083@comic+左下ロゴ無",
+        "name": "サボ(パラレル/漫画背景/漫画絵/左下ロゴ無)",
+        "modelNo": "OP04-083"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op04-083@comic",
+        "name": "サボ 【SR】【パラレル】【スーパーパラレル】【黒】【OP04-083】",
+        "modelNo": "OP04-083"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op04-083@comic",
+        "name": "サボ【コミック版パラレル】《黒》",
+        "modelNo": "OP04-083"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP06-093_PARALLEL_SP",
+    "canonicalName": "ペローナ【SPパラレル】《黒》",
+    "modelNo": "OP06-093",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP06-093_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "torecard",
+        "sourceKey": "op06-093@parallel+sp",
+        "name": "ペローナ 【SR】【SP】【パラレル】【黒】【OP06-093】",
+        "modelNo": "OP06-093"
+      },
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op06-093@illust:hashimotoq+op14+parallel+sp+和柄",
+        "name": "ペローナ(パラレル/SP/和柄/illust:Hashimoto Q)",
+        "modelNo": "OP06-093[OP14]"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op06-093@op14+parallel+sp",
+        "name": "ペローナ【SPパラレル】《黒》",
+        "modelNo": "SPOP06-093『OP14』"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP06-101_PARALLEL_SP",
+    "canonicalName": "おナミ【SPパラレル】《黄》",
+    "modelNo": "OP06-101",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP06-101_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op06-101@illust:otton+op07+parallel+sp",
+        "name": "おナミ(パラレル/SP/illust:otton)",
+        "modelNo": "OP06-101[OP07]"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op06-101@parallel+sp",
+        "name": "おナミ 【R】【SP】【パラレル】【黄】【OP06-101】",
+        "modelNo": "OP06-101"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op06-101@op07+parallel+sp",
+        "name": "おナミ【SPパラレル】《黄》",
+        "modelNo": "SPOP06-101『OP07』"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP06-119_PARALLEL_SP",
+    "canonicalName": "サンジ【SPパラレル】《青》",
+    "modelNo": "OP06-119",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP06-119_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "mercard",
+        "sourceKey": "op06-119@op11+parallel+sp",
+        "name": "サンジ【SPパラレル】《青》",
+        "modelNo": "SPOP06-119『OP11』"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op06-119@parallel+sp",
+        "name": "サンジ 【シークレット】【SP】【パラレル】【青】【OP06-119】",
+        "modelNo": "OP06-119"
+      },
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op06-119@op11+parallel+sp+タロット柄",
+        "name": "サンジ(パラレル/SP/タロット柄)",
+        "modelNo": "OP06-119[OP11]"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP07-085_PARALLEL_SP",
+    "canonicalName": "ステューシー【SPパラレル】《黒》",
+    "modelNo": "OP07-085",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP07-085_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op07-085@op11+parallel+sp+タロット柄",
+        "name": "ステューシー(パラレル/SP/タロット柄)",
+        "modelNo": "OP07-085[OP11]"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op07-085@op11+parallel+sp",
+        "name": "ステューシー【SPパラレル】《黒》",
+        "modelNo": "SPOP07-085『OP11』"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op07-085@parallel+sp",
+        "name": "ステューシー 【SR】【パラレル】【黒】【SP】【OP07-085】",
+        "modelNo": "OP07-085"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP09-050_PARALLEL",
+    "canonicalName": "ナミ【パラレル】《青》",
+    "modelNo": "OP09-050",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP09-050_parallel",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op09-050@illust:nijimaarc+parallel",
+        "name": "ナミ(パラレル/illust:NIJIMAARC)",
+        "modelNo": "OP09-050"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op09-050@parallel",
+        "name": "ナミ 【R】【パラレル】【青】【OP09-050】",
+        "modelNo": "OP09-050"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op09-050@parallel",
+        "name": "ナミ【パラレル】《青》",
+        "modelNo": "OP09-050"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP09-071_JUDGE_PROMO",
+    "canonicalName": "ニコ・ロビン【プロモ】《紫》※JUDGE",
+    "modelNo": "OP09-071",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP09-071_judge_promo",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op09-071@judge",
+        "name": "ニコ・ロビン(JUDGE)",
+        "modelNo": "OP09-071"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op09-071@judge",
+        "name": "ニコ・ロビン【プロモ】《紫》※JUDGE",
+        "modelNo": "OP09-071"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op09-071@judge+プロモションパックvol2",
+        "name": "ニコ・ロビン 【C】【プロモ】【JUDGE】【公認ジャッジプロモーションパック Vol.2】【紫】【OP09-071】",
+        "modelNo": "OP09-071"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP09-118_COMIC",
+    "canonicalName": "ゴール・D・ロジャー【ゴールドコミック版パラレル】《赤》",
+    "modelNo": "OP09-118",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP09-118_comic",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op09-118@comic+金色",
+        "name": "ゴール・D・ロジャー(パラレル/金色漫画背景/漫画絵)",
+        "modelNo": "OP09-118"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op09-118@comic+ゴルド",
+        "name": "ゴール・D・ロジャー 【シークレット】【ゴールドスーパーパラレル】【赤】【OP09-118】",
+        "modelNo": "OP09-118"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op09-118@comic+ゴルド",
+        "name": "ゴール・D・ロジャー【ゴールドコミック版パラレル】《赤》",
+        "modelNo": "OP09-118"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP12-014_PARALLEL_SP",
+    "canonicalName": "ボア・ハンコック【SPパラレル】《赤》",
+    "modelNo": "OP12-014",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP12-014_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op12-014@op15+parallel+sp+悪魔の実模様",
+        "name": "ボア・ハンコック(パラレル/SP/悪魔の実模様)",
+        "modelNo": "OP12-014[OP15]"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op12-014@parallel+sp",
+        "name": "ボア・ハンコック 【SR】【SP】【パラレル】【赤】【OP12-014】",
+        "modelNo": "OP12-014"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op12-014@op15+parallel+sp",
+        "name": "ボア・ハンコック【SPパラレル】《赤》",
+        "modelNo": "SPOP12-014『OP15』"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP12-030_PARALLEL_SP",
+    "canonicalName": "ジュラキュール・ミホーク【SPパラレル】《緑》",
+    "modelNo": "OP12-030",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP12-030_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op12-030@illust:sunohara+op14+parallel+sp+和柄",
+        "name": "ジュラキュール・ミホーク(パラレル/SP/和柄/illust:Sunohara)",
+        "modelNo": "OP12-030[OP14]"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op12-030@parallel+sp",
+        "name": "ジュラキュール・ミホーク 【SR】【SP】【パラレル】【緑】【OP12-030】",
+        "modelNo": "OP12-030"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op12-030@op14+parallel+sp",
+        "name": "ジュラキュール・ミホーク【SPパラレル】《緑》",
+        "modelNo": "SPOP12-030『OP14』"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP13-031_PARALLEL_SP",
+    "canonicalName": "トラファルガー・ロー【SPパラレル】《緑》",
+    "modelNo": "OP13-031",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP13-031_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op13-031@op15+parallel+sp+悪魔の実模様",
+        "name": "トラファルガー・ロー(パラレル/SP/悪魔の実模様)",
+        "modelNo": "OP13-031[OP15]"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op13-031@parallel+sp",
+        "name": "トラファルガー・ロー 【R】【SP】【パラレル】【緑】【OP13-031】",
+        "modelNo": "OP13-031"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op13-031@op15+parallel+sp",
+        "name": "トラファルガー・ロー【SPパラレル】《緑》",
+        "modelNo": "SPOP13-031『OP15』"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP13-042_PARALLEL_SP",
+    "canonicalName": "エドワード・ニューゲート【SPパラレル】《青》",
+    "modelNo": "OP13-042",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP13-042_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op13-042@op15+parallel+sp+悪魔の実模様",
+        "name": "エドワード・ニューゲート(パラレル/SP/悪魔の実模様)",
+        "modelNo": "OP13-042[OP15]"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op13-042@parallel+sp",
+        "name": "エドワード・ニューゲート 【SR】【SP】【パラレル】【青】【OP13-042】",
+        "modelNo": "OP13-042"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op13-042@op15+parallel+sp",
+        "name": "エドワード・ニューゲート【SPパラレル】《青》",
+        "modelNo": "SPOP13-042『OP15』"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP14-031_PARALLEL",
+    "canonicalName": "ナミ【パラレル】《緑》",
+    "modelNo": "OP14-031",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP14-031_parallel",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op14-031@illust:hashimotoq+parallel",
+        "name": "ナミ(パラレル/illust:Hashimoto Q)",
+        "modelNo": "OP14-031"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op14-031@parallel",
+        "name": "ナミ 【SR】【パラレル】【緑】【OP14-031】",
+        "modelNo": "OP14-031"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op14-031@parallel",
+        "name": "ナミ【パラレル】《緑》",
+        "modelNo": "OP14-031"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP14-112_PARALLEL",
+    "canonicalName": "ボア・ハンコック【パラレル】《黄》",
+    "modelNo": "OP14-112",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP14-112_parallel",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op14-112@illust:penekor+parallel",
+        "name": "ボア・ハンコック(パラレル/illust:PENEKOR)",
+        "modelNo": "OP14-112"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op14-112@parallel",
+        "name": "ボア・ハンコック 【SR】【パラレル】【黄】【OP14-112】",
+        "modelNo": "OP14-112"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op14-112@parallel",
+        "name": "ボア・ハンコック【パラレル】《黄》",
+        "modelNo": "OP14-112"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP14-112_PARALLEL_SP",
+    "canonicalName": "ボア・ハンコック【SPパラレル】《黄》",
+    "modelNo": "OP14-112",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP14-112_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op14-112@illust:otton+parallel+sp+和柄",
+        "name": "ボア・ハンコック(パラレル/SP/和柄/illust:otton)",
+        "modelNo": "OP14-112"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op14-112@parallel+sp",
+        "name": "ボア・ハンコック 【SR】【SP】【パラレル】【黄】【OP14-112】",
+        "modelNo": "OP14-112"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op14-112@op14+parallel+sp",
+        "name": "ボア・ハンコック【SPパラレル】《黄》",
+        "modelNo": "SPOP14-112『OP14』"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP15-119_PARALLEL",
+    "canonicalName": "モンキー・D・ルフィ【パラレル】《黄》",
+    "modelNo": "OP15-119",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP15-119_parallel",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op15-119@illust:makitoshi+parallel",
+        "name": "モンキー・Ｄ・ルフィ(パラレル/illust:Makitoshi)",
+        "modelNo": "OP15-119"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op15-119@parallel",
+        "name": "モンキー・Ｄ・ルフィ 【シークレット】【パラレル】【黄】【OP15-119】",
+        "modelNo": "OP15-119"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op15-119@parallel",
+        "name": "モンキー・D・ルフィ【パラレル】《黄》",
+        "modelNo": "OP15-119"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP16-015_PARALLEL",
+    "canonicalName": "モンキー・D・ルフィ【パラレル】《赤》",
+    "modelNo": "OP16-015",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP16-015_parallel",
+    "aliases": [
+      {
+        "shopId": "torecard",
+        "sourceKey": "op16-015@parallel",
+        "name": "モンキー・Ｄ・ルフィ 【SR】【パラレル】【赤】【OP16-015】",
+        "modelNo": "OP16-015"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op16-015@parallel",
+        "name": "モンキー・D・ルフィ【パラレル】《赤》",
+        "modelNo": "OP16-015"
+      },
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op16-015@illust:bashikou+parallel",
+        "name": "モンキー・Ｄ・ルフィ(パラレル/illust:Bashikou)",
+        "modelNo": "OP16-015"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP16-032_PARALLEL",
+    "canonicalName": "ボア・ハンコック【パラレル】《緑》",
+    "modelNo": "OP16-032",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP16-032_parallel",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op16-032@illust:lack+parallel",
+        "name": "ボア・ハンコック(パラレル/illust:lack)",
+        "modelNo": "OP16-032"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op16-032@parallel",
+        "name": "ボア・ハンコック【パラレル】《緑》",
+        "modelNo": "OP16-032"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op16-032@parallel",
+        "name": "ボア・ハンコック 【SR】【パラレル】【緑】【OP16-032】",
+        "modelNo": "OP16-032"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP16-063_COMIC",
+    "canonicalName": "クザン【コミック版パラレル】《紫》",
+    "modelNo": "OP16-063",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP16-063_comic",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op16-063@comic",
+        "name": "クザン(パラレル/漫画背景/漫画絵)",
+        "modelNo": "OP16-063"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op16-063@comic",
+        "name": "クザン 【R】【スーパーパラレル】【紫】【OP16-063】",
+        "modelNo": "OP16-063"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op16-063@comic+コミック",
+        "name": "クザン【コミック版パラレル】《紫》",
+        "modelNo": "コミックパラレル版OP16-063"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP16-065_COMIC",
+    "canonicalName": "サカズキ【コミック版パラレル】《紫》",
+    "modelNo": "OP16-065",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP16-065_comic",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op16-065@comic",
+        "name": "サカズキ(パラレル/漫画背景/漫画絵)",
+        "modelNo": "OP16-065"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op16-065@comic+コミック",
+        "name": "サカズキ【コミック版パラレル】《紫》",
+        "modelNo": "コミックパラレル版OP16-065"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op16-065@comic",
+        "name": "サカズキ 【R】【スーパーパラレル】【紫】【OP16-065】",
+        "modelNo": "OP16-065"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP16-073_COMIC",
+    "canonicalName": "ボルサリーノ【コミック版パラレル】《紫》",
+    "modelNo": "OP16-073",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP16-073_comic",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op16-073@comic",
+        "name": "ボルサリーノ(パラレル/漫画背景/漫画絵)",
+        "modelNo": "OP16-073"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op16-073@comic+コミック",
+        "name": "ボルサリーノ【コミック版パラレル】《紫》",
+        "modelNo": "コミックパラレル版OP16-073"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op16-073@comic",
+        "name": "ボルサリーノ 【R】【スーパーパラレル】【紫】【OP16-073】",
+        "modelNo": "OP16-073"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP16-119_PARALLEL",
+    "canonicalName": "マーシャル・Ｄ・ティーチ【パラレル】《黄》",
+    "modelNo": "OP16-119",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_OP16-119_parallel",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "op16-119@illust:akiraegawa+parallel",
+        "name": "マーシャル・Ｄ・ティーチ(パラレル/illust:Akira EGAWA)",
+        "modelNo": "OP16-119"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op16-119@parallel",
+        "name": "マーシャル・Ｄ・ティーチ【パラレル】《黄》",
+        "modelNo": "OP16-119"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "op16-119@parallel",
+        "name": "マーシャル・Ｄ・ティーチ 【シークレット】【パラレル】【黄】【OP16-119】",
+        "modelNo": "OP16-119"
+      }
+    ]
+  },
+  {
+    "canonicalId": "P-105_PARALLEL_SP",
+    "canonicalName": "サボ【SPパラレル】《黒》",
+    "modelNo": "P-105",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_P-105_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "p-105@op15+parallel+sp+悪魔の実模様",
+        "name": "サボ(パラレル/SP/悪魔の実模様)",
+        "modelNo": "P-105[OP15]"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "p-105@op15+parallel+sp",
+        "name": "サボ【SPパラレル】《黒》",
+        "modelNo": "SPP-105『OP15』"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "p-105@parallel+sp",
+        "name": "サボ 【P】【SP】【パラレル】【黒】【P-105】",
+        "modelNo": "P-105"
+      }
+    ]
+  },
+  {
+    "canonicalId": "ST01-012_WANTED",
+    "canonicalName": "WANTEDモンキー・D・ルフィ【SR】《赤》",
+    "modelNo": "ST01-012",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_ST01-012_wanted",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "st01-012@op03+wanted",
+        "name": "モンキー・D・ルフィ(パラレル/手配書)",
+        "modelNo": "SPST01-012『OP03』【手配書】"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "st01-012@op03+wanted",
+        "name": "WANTEDモンキー・D・ルフィ【SR】《赤》",
+        "modelNo": "SPST01-012『OP03』【手配書】"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "st01-012@wanted",
+        "name": "モンキー・D・ルフィ 【SR】【SP】【手配書】【パラレル】【赤】【ST01-012】",
+        "modelNo": "ST01-012"
+      }
+    ]
+  },
+  {
+    "canonicalId": "ST13-011_PARALLEL_SP",
+    "canonicalName": "ポートガス・Ｄ・エース【SPパラレル】《黄》",
+    "modelNo": "ST13-011",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_ST13-011_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "st13-011@illust:otton+op12+parallel+sp+黒背景",
+        "name": "ポートガス・D・エース(パラレル/SP/黒背景/illust:otton)",
+        "modelNo": "ST13-011[OP12]"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "st13-011@op12+parallel+sp",
+        "name": "ポートガス・Ｄ・エース【SPパラレル】《黄》",
+        "modelNo": "SPST13-011『OP12』"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "st13-011@parallel+sp",
+        "name": "ポートガス・D・エース 【SR】【SP】【パラレル】【黄】【ST13-011】",
+        "modelNo": "ST13-011"
+      }
+    ]
+  },
+  {
+    "canonicalId": "ST15-002_PARALLEL_SP",
+    "canonicalName": "エドワード・ニューゲート【SPパラレル】《赤》",
+    "modelNo": "ST15-002",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_ST15-002_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "mercard",
+        "sourceKey": "st15-002@op10+parallel+sp",
+        "name": "エドワード・ニューゲート【SPパラレル】《赤》",
+        "modelNo": "SPST15-002『OP10』"
+      },
+      {
+        "shopId": "cardrush",
+        "sourceKey": "st15-002@illust:bashikou+op10+parallel+sp",
+        "name": "エドワード・ニューゲート(パラレル/SP/illust:Bashikou)",
+        "modelNo": "ST15-002[OP10]"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "st15-002@parallel+sp",
+        "name": "エドワード・ニューゲート 【SR】【SP】【パラレル】【赤】【ST15-002】",
+        "modelNo": "ST15-002"
+      }
+    ]
+  },
+  {
+    "canonicalId": "ST16-004_PARALLEL_SP",
+    "canonicalName": "シャンクス【SPパラレル】《緑》",
+    "modelNo": "ST16-004",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_ST16-004_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "torecard",
+        "sourceKey": "st16-004@parallel+sp",
+        "name": "シャンクス 【SR】【SP】【パラレル】【緑】【ST16-004】",
+        "modelNo": "ST16-004"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "st16-004@op11+parallel+sp",
+        "name": "シャンクス【SPパラレル】《緑》",
+        "modelNo": "SPST16-004『OP11』"
+      },
+      {
+        "shopId": "cardrush",
+        "sourceKey": "st16-004@op11+parallel+sp+タロット柄",
+        "name": "シャンクス(パラレル/SP/タロット柄)",
+        "modelNo": "ST16-004[OP11]"
+      }
+    ]
+  },
+  {
+    "canonicalId": "ST18-004_PARALLEL_SP",
+    "canonicalName": "ゾロ十郎【SPパラレル】《紫》",
+    "modelNo": "ST18-004",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_ST18-004_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "st18-004@illust:hashimotoq+op12+parallel+sp+黒背景",
+        "name": "ゾロ十郎(パラレル/SP/黒背景/illust:Hashimoto Q)",
+        "modelNo": "ST18-004[OP12]"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "st18-004@op12+parallel+sp",
+        "name": "ゾロ十郎【SPパラレル】《紫》",
+        "modelNo": "SPST18-004『OP12』"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "st18-004@parallel+sp",
+        "name": "ゾロ十郎 【SR】【SP】【パラレル】【紫】【ST18-004】",
+        "modelNo": "ST18-004"
+      }
+    ]
+  },
+  {
+    "canonicalId": "ST18-005_PARALLEL_SP",
+    "canonicalName": "ルフィ太郎【SPパラレル】《紫》",
+    "modelNo": "ST18-005",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_ST18-005_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "st18-005@op11+parallel+sp+タロット柄",
+        "name": "ルフィ太郎(パラレル/SP/タロット柄)",
+        "modelNo": "ST18-005[OP11]"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "st18-005@parallel+sp",
+        "name": "ルフィ太郎 【SR】【SP】【パラレル】【紫】【ST18-005】",
+        "modelNo": "ST18-005"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "st18-005@op11+parallel+sp",
+        "name": "ルフィ太郎【SPパラレル】《紫》",
+        "modelNo": "SPST18-005『OP11』"
+      }
+    ]
+  },
+  {
+    "canonicalId": "ST26-005_PARALLEL_SP",
+    "canonicalName": "モンキー・D・ルフィ【SPパラレル】《紫》",
+    "modelNo": "ST26-005",
+    "normalizationSource": "safe-candidate-review-2026-08-18-v1",
+    "candidateId": "candidate_ST26-005_parallel_sp",
+    "aliases": [
+      {
+        "shopId": "cardrush",
+        "sourceKey": "st26-005@op15+parallel+sp+悪魔の実模様",
+        "name": "モンキー・D・ルフィ(パラレル/SP/悪魔の実模様)",
+        "modelNo": "ST26-005[OP15]"
+      },
+      {
+        "shopId": "torecard",
+        "sourceKey": "st26-005@parallel+sp",
+        "name": "モンキー・Ｄ・ルフィ 【SR】【SP】【パラレル】【紫】【ST26-005】",
+        "modelNo": "ST26-005"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "st26-005@op15+parallel+sp",
+        "name": "モンキー・D・ルフィ【SPパラレル】《紫》",
+        "modelNo": "SPST26-005『OP15』"
+      }
+    ]
   }
 ]
