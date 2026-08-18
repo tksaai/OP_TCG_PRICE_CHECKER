@@ -15,6 +15,8 @@
     #github-settings input { min-width: 280px; }
     #list { display: grid; gap: 14px; }
     .candidate { background: white; border: 1px solid #dde2ea; border-radius: 6px; padding: 12px; }
+    .candidate.risk-high { border-color: #f0a0a0; }
+    .candidate.risk-medium { border-color: #e8c76c; }
     .candidate-head { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
     .candidate-title { font-weight: bold; }
     .canonical-edit { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0; }
@@ -22,12 +24,22 @@
     .meta { color: #667085; font-size: 12px; }
     .records { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px; }
     .record { display: grid; grid-template-columns: 64px 1fr; gap: 8px; border: 1px solid #edf0f4; border-radius: 4px; padding: 8px; }
-    .record.excluded { opacity: .42; }
+    .record.excluded { background: #fafbfc; }
+    .record:not(.excluded) { border-color: #86b7a0; background: #f3fbf6; }
+    .candidate.accepted .record.excluded { opacity: .42; }
     .record img { width: 64px; height: 90px; object-fit: contain; background: #f8fafc; }
     .record label { display: flex; gap: 6px; align-items: center; font-size: 12px; color: #344054; margin-bottom: 4px; }
     .shop { font-size: 12px; color: #475467; }
     .price { color: #c0392b; font-weight: bold; }
     .actions { margin-top: 10px; display: flex; gap: 8px; align-items: center; }
+    .actions button:disabled { opacity: .45; cursor: not-allowed; }
+    .guidance { background: #fff8e6; border: 1px solid #f1d486; border-radius: 6px; padding: 10px 12px; margin-bottom: 16px; line-height: 1.6; }
+    .warnings { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0 10px; }
+    .warning { background: #fff3cd; color: #7a4d00; border: 1px solid #efd28a; border-radius: 999px; padding: 3px 8px; font-size: 12px; }
+    .risk { display: inline-block; border-radius: 999px; padding: 2px 7px; font-size: 11px; font-weight: bold; }
+    .risk.risk-high { background: #fee4e2; color: #9b1c1c; }
+    .risk.risk-medium { background: #fff3cd; color: #7a4d00; }
+    .risk.risk-low { background: #e9f7ef; color: #246b3a; }
     .groups { margin-top: 8px; display: grid; gap: 6px; }
     .group { display: flex; justify-content: space-between; gap: 8px; align-items: center; background: #eef6ee; border: 1px solid #cde6ce; border-radius: 4px; padding: 6px 8px; font-size: 12px; }
     #manual-builder { background: #fff; border: 1px solid #dde2ea; border-radius: 6px; padding: 12px; margin-bottom: 16px; }
@@ -48,10 +60,16 @@
     <button onclick="downloadAliases()">確定JSONを書き出し</button>
   </header>
 
+  <div class="guidance">
+    <strong>画像は参考情報です。</strong>
+    店舗の公式サンプル画像と実物写真、撮影方法の違いでは類似度が下がります。
+    開封状態・言語・大会や配布区分・付属品を先に確認してください。候補は初期状態で未選択です。
+  </div>
+
   <div id="controls">
     <input id="search" placeholder="カード名・型番で検索" oninput="render()">
     <select id="minConfidence" onchange="render()">
-      <option value="0">信頼度すべて</option>
+      <option value="0">候補度すべて</option>
       <option value="70">70以上</option>
       <option value="80">80以上</option>
       <option value="90">90以上</option>
@@ -61,6 +79,12 @@
       <option value="pending">未判断</option>
       <option value="accepted">確定済み</option>
       <option value="rejected">除外</option>
+    </select>
+    <select id="riskFilter" onchange="render()">
+      <option value="all">確認レベルすべて</option>
+      <option value="high">要確認</option>
+      <option value="medium">注意</option>
+      <option value="low">通常</option>
     </select>
   </div>
 
@@ -107,12 +131,12 @@
       if (typeof current === 'object' && current) {
         return {
           status: current.status || 'pending',
-          selectedSourceKeys: current.selectedSourceKeys || candidate.records.map(record => record.sourceKey)
+          selectedSourceKeys: Array.isArray(current.selectedSourceKeys) ? [...new Set(current.selectedSourceKeys)] : []
         };
       }
       return {
         status: current || 'pending',
-        selectedSourceKeys: candidate.records.map(record => record.sourceKey)
+        selectedSourceKeys: []
       };
     }
 
@@ -127,6 +151,9 @@
     function setDecision(candidateId, decision) {
       const candidate = candidates.find(item => item.candidateId === candidateId);
       const current = candidate ? normalizeDecision(candidate) : { selectedSourceKeys: [] };
+      if (decision === 'accepted' && new Set(current.selectedSourceKeys).size < 2) {
+        return setGithubStatus('同一カードと確認した商品グループを2つ以上選択してください');
+      }
       decisions[candidateId] = {
         status: decision,
         selectedSourceKeys: current.selectedSourceKeys
@@ -205,7 +232,8 @@
       const candidate = candidates.find(item => item.candidateId === candidateId);
       if (!candidate) return;
       const records = selectedRecords(candidate);
-      if (records.length < 2) return setGithubStatus('2件以上選択してください');
+      const sourceCount = new Set(records.map(record => record.sourceKey)).size;
+      if (sourceCount < 2) return setGithubStatus('商品グループを2つ以上選択してください');
 
       const groupId = `${candidateId}_${Date.now()}`;
       customGroups.push({
@@ -313,7 +341,7 @@
           const decision = normalizeDecision(candidate);
           return !candidateIdsWithCustomGroups.has(candidate.candidateId)
             && decision.status === 'accepted'
-            && decision.selectedSourceKeys.length >= 2;
+            && new Set(decision.selectedSourceKeys).size >= 2;
         })
         .map(toAlias);
       return [...aliases, ...directAliases];
@@ -359,6 +387,32 @@
       };
       localStorage.setItem('aliasReviewDecisions', JSON.stringify(decisions));
       render();
+    }
+
+    function setAllRecords(candidateId, checked) {
+      const candidate = candidates.find(item => item.candidateId === candidateId);
+      if (!candidate) return;
+      const decision = normalizeDecision(candidate);
+      decisions[candidateId] = {
+        status: decision.status,
+        selectedSourceKeys: checked ? [...new Set(candidate.records.map(record => record.sourceKey))] : []
+      };
+      localStorage.setItem('aliasReviewDecisions', JSON.stringify(decisions));
+      render();
+    }
+
+    function riskFor(candidate) {
+      return ['high', 'medium', 'low'].includes(candidate.riskLevel) ? candidate.riskLevel : 'low';
+    }
+
+    function riskLabel(level) {
+      return { high: '要確認', medium: '注意', low: '通常' }[level] || '通常';
+    }
+
+    function imageSummary(candidate) {
+      const stats = candidate.imageStats;
+      if (!stats || !stats.pairCount) return '画像参考: 比較なし';
+      return `画像参考: 最大 ${stats.max}% / 中央 ${stats.median}% / 最低 ${stats.min}%（${stats.pairCount}組、${stats.hashedRecords}/${stats.totalRecords}画像）`;
     }
 
     function downloadAliases() {
@@ -422,6 +476,7 @@
       const query = document.getElementById('search').value.trim().toLowerCase();
       const minConfidence = Number(document.getElementById('minConfidence').value);
       const status = document.getElementById('statusFilter').value;
+      const risk = document.getElementById('riskFilter').value;
       const list = document.getElementById('list');
       const loadMoreButton = document.getElementById('load-more');
 
@@ -430,6 +485,7 @@
         const text = JSON.stringify(candidate).toLowerCase();
         return candidate.confidence >= minConfidence
           && (status === 'all' || status === decision.status)
+          && (risk === 'all' || risk === riskFor(candidate))
           && (!query || text.includes(query));
       });
 
@@ -441,14 +497,27 @@
         const decision = normalizeDecision(candidate);
         const selected = new Set(decision.selectedSourceKeys);
         const selectedCount = candidate.records.filter(record => selected.has(record.sourceKey)).length;
+        const selectedSourceCount = new Set(
+          candidate.records.filter(record => selected.has(record.sourceKey)).map(record => record.sourceKey)
+        ).size;
+        const riskLevel = riskFor(candidate);
+        const priceRatio = candidate.priceStats?.ratio;
         return `
-          <section class="candidate ${decision.status === 'accepted' ? 'accepted' : ''} ${decision.status === 'rejected' ? 'rejected' : ''}">
+          <section class="candidate risk-${riskLevel} ${decision.status === 'accepted' ? 'accepted' : ''} ${decision.status === 'rejected' ? 'rejected' : ''}">
             <div class="candidate-head">
               <div>
                 <div class="candidate-title">${getCanonicalName(candidate)}</div>
-                <div class="meta">${candidate.modelCode} / ${candidate.signature} / 信頼度 ${candidate.confidence}${candidate.imageScore != null ? ` / 画像一致 ${candidate.imageScore}%` : ''} / 選択 ${selectedCount}件</div>
+                <div class="meta">
+                  ${candidate.modelCode} / ${candidate.signature} /
+                  <span class="risk risk-${riskLevel}">${riskLabel(riskLevel)}</span> /
+                  候補度 ${candidate.candidateScore ?? candidate.confidence} / 名前 ${candidate.nameScore ?? '-'}% /
+                  ${imageSummary(candidate)}${priceRatio ? ` / 価格差 約${priceRatio}倍` : ''} / 選択 ${selectedSourceCount}グループ（${selectedCount}件）
+                </div>
               </div>
               <div class="price">${yen(candidate.maxPrice)}</div>
+            </div>
+            <div class="warnings">
+              ${(candidate.warnings || []).map(warning => `<span class="warning">${warning}</span>`).join('')}
             </div>
             <div class="canonical-edit">
               <input value="${getCanonicalName(candidate).replace(/"/g, '&quot;')}" oninput="setCanonicalName('${candidate.candidateId}', this.value)" placeholder="正規化後のカード名">
@@ -465,14 +534,17 @@
                     <div class="shop">${record.shopName}</div>
                     <div>${record.name}</div>
                     <div class="meta">${record.modelNo}</div>
+                    ${record.tags?.length ? `<div class="meta">属性: ${record.tags.join(' / ')}</div>` : ''}
                     <div class="price">${yen(record.latestPrice)}</div>
                   </div>
                 </div>
               `).join('')}
             </div>
             <div class="actions">
-              <button onclick="addSelectedGroup('${candidate.candidateId}')" ${selectedCount < 2 ? 'disabled' : ''}>選択を別グループとして追加</button>
-              <button onclick="setDecision('${candidate.candidateId}', 'accepted')" ${selectedCount < 2 ? 'disabled' : ''}>選択したカードで確定</button>
+              <button onclick="setAllRecords('${candidate.candidateId}', true)">すべて選択</button>
+              <button onclick="setAllRecords('${candidate.candidateId}', false)" ${selectedCount === 0 ? 'disabled' : ''}>選択解除</button>
+              <button onclick="addSelectedGroup('${candidate.candidateId}')" ${selectedSourceCount < 2 ? 'disabled' : ''}>選択を別グループとして追加</button>
+              <button onclick="setDecision('${candidate.candidateId}', 'accepted')" ${selectedSourceCount < 2 ? 'disabled' : ''}>選択したカードで確定</button>
               <button onclick="setDecision('${candidate.candidateId}', 'rejected')">別カードとして除外</button>
               <button onclick="setDecision('${candidate.candidateId}', 'pending')">未判断に戻す</button>
             </div>

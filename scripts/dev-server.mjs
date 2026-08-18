@@ -1,5 +1,5 @@
 import { createServer } from 'node:http';
-import { readFile } from 'node:fs/promises';
+import { readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 
 const root = path.resolve(import.meta.dirname, '..');
@@ -10,6 +10,8 @@ const contentTypes = {
   '.html': 'text/html; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
   '.json': 'application/json; charset=utf-8',
+  '.svg': 'image/svg+xml',
+  '.webmanifest': 'application/manifest+json; charset=utf-8',
 };
 
 createServer(async (request, response) => {
@@ -24,11 +26,15 @@ createServer(async (request, response) => {
       return;
     }
 
-    const body = await readFile(filePath);
+    const [body, fileStats] = await Promise.all([readFile(filePath), stat(filePath)]);
     response.writeHead(200, {
       'content-type': contentTypes[path.extname(filePath)] || 'application/octet-stream',
+      'content-length': body.length,
+      'last-modified': fileStats.mtime.toUTCString(),
+      etag: `W/"${body.length}-${Math.trunc(fileStats.mtimeMs)}"`,
+      'cache-control': path.extname(filePath) === '.json' ? 'no-cache' : 'no-store',
     });
-    response.end(body);
+    response.end(request.method === 'HEAD' ? undefined : body);
   } catch {
     response.writeHead(404);
     response.end('Not found');
