@@ -38605,7 +38605,7 @@
       },
       "torecard": {
         "shopName": "トレカード秋葉原",
-        "latestPrice": 180000,
+        "latestPrice": 200000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP16-032_x1.png",
         "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
         "sourceName": "ボア・ハンコック 【SR】【プロモ】【未開封】【フラッグシップバトル】【緑】【OP16-032】",
@@ -38709,6 +38709,10 @@
           {
             "date": "2026/08/18",
             "price": 180000
+          },
+          {
+            "date": "2026/08/20",
+            "price": 200000
           }
         ]
       }
@@ -361366,7 +361370,10 @@
       }
     },
     "bestShopId": "mercard",
-    "latestPrice": 1000
+    "latestPrice": 1000,
+    "aliasKeys": [
+      "ウタ【キャラクタープロモ】《赤》_OP01-005『プレミアムカードコレクションーウター』"
+    ]
   },
   {
     "key": "op01-017@en+illust:onotako",
@@ -516479,6 +516486,116 @@
     ]
   },
   {
+    "key": "op15-088",
+    "name": "パイレーツドッキング6【R】《黒》",
+    "modelNo": "OP15-088",
+    "imageId": "https://www.mercardop.jp/data/mercardop/product/OP15/88.webp",
+    "history": [
+      {
+        "date": "2026/04/10",
+        "price": 10
+      },
+      {
+        "date": "2026/07/26",
+        "price": 30
+      },
+      {
+        "date": "2026/07/28",
+        "price": 50
+      },
+      {
+        "date": "2026/07/29",
+        "price": 100
+      },
+      {
+        "date": "2026/08/05",
+        "price": 50
+      },
+      {
+        "date": "2026/08/10",
+        "price": 100
+      },
+      {
+        "date": "2026/08/15",
+        "price": 150
+      },
+      {
+        "date": "2026/08/18",
+        "price": 200
+      },
+      {
+        "date": "2026/08/20",
+        "price": 400
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 400,
+        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/OP15/88.webp",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "パイレーツドッキング6【R】《黒》",
+        "history": [
+          {
+            "date": "2026/04/10",
+            "price": 10
+          },
+          {
+            "date": "2026/07/26",
+            "price": 30
+          },
+          {
+            "date": "2026/07/28",
+            "price": 50
+          },
+          {
+            "date": "2026/07/29",
+            "price": 100
+          },
+          {
+            "date": "2026/08/05",
+            "price": 50
+          },
+          {
+            "date": "2026/08/10",
+            "price": 100
+          },
+          {
+            "date": "2026/08/15",
+            "price": 150
+          },
+          {
+            "date": "2026/08/18",
+            "price": 200
+          },
+          {
+            "date": "2026/08/20",
+            "price": 400
+          }
+        ]
+      },
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 50,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP15-088.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "sourceName": "パイレーツドッキング6 【R】【黒】【OP15-088】",
+        "history": [
+          {
+            "date": "2026/07/28",
+            "price": 50
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 400,
+    "aliasKeys": [
+      "op15-088_パイレーツドッキング6【r】《黒》",
+      "パイレーツドッキング6【R】《黒》_OP15-088"
+    ]
+  },
+  {
     "key": "p-011@leader-parallel+promo+プレミアムカドコレクションウタ",
     "name": "ウタ 【リーダーパラレル】【プロモ】【プレミアムカードコレクション ウタ】【赤】【P-011】",
     "modelNo": "P-011",
@@ -548431,7 +548548,7 @@
       },
       "torecard": {
         "shopName": "トレカード秋葉原",
-        "latestPrice": 300,
+        "latestPrice": 200,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST23-001.png",
         "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
         "sourceName": "ウタ 【SR】【赤】【ST23-001】",
@@ -548459,6 +548576,10 @@
           {
             "date": "2026/06/29",
             "price": 300
+          },
+          {
+            "date": "2026/08/20",
+            "price": 200
           }
         ]
       },
@@ -580662,108 +580783,6 @@
     ]
   },
   {
-    "key": "op15-088",
-    "name": "パイレーツドッキング6【R】《黒》",
-    "modelNo": "OP15-088",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/OP15/88.webp",
-    "history": [
-      {
-        "date": "2026/04/10",
-        "price": 10
-      },
-      {
-        "date": "2026/07/26",
-        "price": 30
-      },
-      {
-        "date": "2026/07/28",
-        "price": 50
-      },
-      {
-        "date": "2026/07/29",
-        "price": 100
-      },
-      {
-        "date": "2026/08/05",
-        "price": 50
-      },
-      {
-        "date": "2026/08/10",
-        "price": 100
-      },
-      {
-        "date": "2026/08/15",
-        "price": 150
-      },
-      {
-        "date": "2026/08/18",
-        "price": 200
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 200,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/OP15/88.webp",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "パイレーツドッキング6【R】《黒》",
-        "history": [
-          {
-            "date": "2026/04/10",
-            "price": 10
-          },
-          {
-            "date": "2026/07/26",
-            "price": 30
-          },
-          {
-            "date": "2026/07/28",
-            "price": 50
-          },
-          {
-            "date": "2026/07/29",
-            "price": 100
-          },
-          {
-            "date": "2026/08/05",
-            "price": 50
-          },
-          {
-            "date": "2026/08/10",
-            "price": 100
-          },
-          {
-            "date": "2026/08/15",
-            "price": 150
-          },
-          {
-            "date": "2026/08/18",
-            "price": 200
-          }
-        ]
-      },
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 50,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP15-088.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "sourceName": "パイレーツドッキング6 【R】【黒】【OP15-088】",
-        "history": [
-          {
-            "date": "2026/07/28",
-            "price": 50
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 200,
-    "aliasKeys": [
-      "op15-088_パイレーツドッキング6【r】《黒》",
-      "パイレーツドッキング6【R】《黒》_OP15-088"
-    ]
-  },
-  {
     "key": "op15-113",
     "name": "ロロノア・ゾロ",
     "modelNo": "OP15-113",
@@ -611591,109 +611610,6 @@
     ]
   },
   {
-    "key": "op16-005",
-    "name": "サッチ",
-    "modelNo": "OP16-005",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/OP16/5.webp",
-    "history": [
-      {
-        "date": "2026/05/30",
-        "price": 10
-      },
-      {
-        "date": "2026/07/15",
-        "price": 30
-      },
-      {
-        "date": "2026/07/16",
-        "price": 30
-      },
-      {
-        "date": "2026/07/17",
-        "price": 50
-      },
-      {
-        "date": "2026/07/31",
-        "price": 100
-      },
-      {
-        "date": "2026/08/15",
-        "price": 150
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 150,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/OP16/5.webp",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "サッチ【UC】《赤》",
-        "history": [
-          {
-            "date": "2026/05/30",
-            "price": 10
-          },
-          {
-            "date": "2026/07/16",
-            "price": 30
-          },
-          {
-            "date": "2026/07/17",
-            "price": 50
-          },
-          {
-            "date": "2026/07/31",
-            "price": 100
-          },
-          {
-            "date": "2026/08/15",
-            "price": 150
-          }
-        ]
-      },
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 30,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/13261.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
-        "sourceName": "サッチ",
-        "history": [
-          {
-            "date": "2026/05/30",
-            "price": 10
-          },
-          {
-            "date": "2026/07/15",
-            "price": 30
-          }
-        ]
-      },
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 10,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP16-005.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "sourceName": "サッチ 【UC】【赤】【OP16-005】",
-        "history": [
-          {
-            "date": "2026/05/30",
-            "price": 10
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 150,
-    "aliasKeys": [
-      "op16-005_サッチ【uc】《赤》",
-      "サッチ【UC】《赤》_OP16-005",
-      "op16-005_サッチ",
-      "サッチ_OP16-005",
-      "op16-005_サッチ【uc】【赤】【op16-005】",
-      "サッチ 【UC】【赤】【OP16-005】_OP16-005"
-    ]
-  },
-  {
     "key": "p-014@foil+full-art",
     "name": "コビー(フルアート/foil)",
     "modelNo": "P-014",
@@ -633415,6 +633331,117 @@
       "雷龍_OP15-077",
       "op15-077_雷龍【r】【紫】【op15-077】",
       "雷龍 【R】【紫】【OP15-077】_OP15-077"
+    ]
+  },
+  {
+    "key": "op16-005",
+    "name": "サッチ",
+    "modelNo": "OP16-005",
+    "imageId": "https://www.mercardop.jp/data/mercardop/product/OP16/5.webp",
+    "history": [
+      {
+        "date": "2026/05/30",
+        "price": 10
+      },
+      {
+        "date": "2026/07/15",
+        "price": 30
+      },
+      {
+        "date": "2026/07/16",
+        "price": 30
+      },
+      {
+        "date": "2026/07/17",
+        "price": 50
+      },
+      {
+        "date": "2026/07/31",
+        "price": 100
+      },
+      {
+        "date": "2026/08/15",
+        "price": 150
+      },
+      {
+        "date": "2026/08/20",
+        "price": 100
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 100,
+        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/OP16/5.webp",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "サッチ【UC】《赤》",
+        "history": [
+          {
+            "date": "2026/05/30",
+            "price": 10
+          },
+          {
+            "date": "2026/07/16",
+            "price": 30
+          },
+          {
+            "date": "2026/07/17",
+            "price": 50
+          },
+          {
+            "date": "2026/07/31",
+            "price": 100
+          },
+          {
+            "date": "2026/08/15",
+            "price": 150
+          },
+          {
+            "date": "2026/08/20",
+            "price": 100
+          }
+        ]
+      },
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 30,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/13261.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "sourceName": "サッチ",
+        "history": [
+          {
+            "date": "2026/05/30",
+            "price": 10
+          },
+          {
+            "date": "2026/07/15",
+            "price": 30
+          }
+        ]
+      },
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 10,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP16-005.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "sourceName": "サッチ 【UC】【赤】【OP16-005】",
+        "history": [
+          {
+            "date": "2026/05/30",
+            "price": 10
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 100,
+    "aliasKeys": [
+      "op16-005_サッチ【uc】《赤》",
+      "サッチ【UC】《赤》_OP16-005",
+      "op16-005_サッチ",
+      "サッチ_OP16-005",
+      "op16-005_サッチ【uc】【赤】【op16-005】",
+      "サッチ 【UC】【赤】【OP16-005】_OP16-005"
     ]
   },
   {
