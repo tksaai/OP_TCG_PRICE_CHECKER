@@ -32,8 +32,11 @@ const signature = await pwaUpdate.fetchVersionSignature(async (url, options) => 
 assert.equal(requested.length, pwaUpdate.TRACKED_ASSETS.length);
 assert.ok(requested.every((item) => item.options.method === 'HEAD' && item.options.cache === 'no-store'));
 assert.ok(signature.includes('data/cards.json'));
+assert.ok(signature.includes('data/db-catalog.json'));
+assert.ok(signature.includes('data/db-variant-map.json'));
 
 const serviceWorkerSource = await readFile(new URL('../service-worker.js', import.meta.url), 'utf8');
+assert.match(serviceWorkerSource, /APP_VERSION = '2\.1\.0'/);
 const registeredEvents = [];
 vm.runInNewContext(serviceWorkerSource, {
   URL,

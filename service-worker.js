@@ -1,11 +1,15 @@
 const CACHE_PREFIX = 'op-tcg-price-checker';
-const SHELL_CACHE = `${CACHE_PREFIX}-shell-v2`;
-const RUNTIME_CACHE = `${CACHE_PREFIX}-runtime-v2`;
+const APP_VERSION = '2.1.0';
+const SHELL_CACHE = `${CACHE_PREFIX}-shell-${APP_VERSION}`;
+const RUNTIME_CACHE = `${CACHE_PREFIX}-runtime-${APP_VERSION}`;
 const APP_SHELL = [
   './',
   './index.html',
   './search-utils.js',
   './pwa-update.js',
+  './scripts/lib/card-identity.mjs',
+  './scripts/lib/op-tcg-db-collection.mjs',
+  './data/db-price-aliases.json',
   './manifest.webmanifest',
   './icons/app-icon.svg',
 ];

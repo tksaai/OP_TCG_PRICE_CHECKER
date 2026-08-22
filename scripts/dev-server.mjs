@@ -3,18 +3,20 @@ import { readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 
 const root = path.resolve(import.meta.dirname, '..');
-const port = Number(process.env.PORT || 8080);
+const runtimeProcess = globalThis.process;
+const port = Number(runtimeProcess?.env?.PORT || 8080);
 
 const contentTypes = {
   '.css': 'text/css; charset=utf-8',
   '.html': 'text/html; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
+  '.mjs': 'text/javascript; charset=utf-8',
   '.json': 'application/json; charset=utf-8',
   '.svg': 'image/svg+xml',
   '.webmanifest': 'application/manifest+json; charset=utf-8',
 };
 
-createServer(async (request, response) => {
+export const server = createServer(async (request, response) => {
   try {
     const url = new URL(request.url || '/', `http://127.0.0.1:${port}`);
     const requestedPath = url.pathname === '/' ? '/index.html' : decodeURIComponent(url.pathname);
@@ -39,6 +41,8 @@ createServer(async (request, response) => {
     response.writeHead(404);
     response.end('Not found');
   }
-}).listen(port, '127.0.0.1', () => {
+});
+
+server.listen(port, '127.0.0.1', () => {
   console.log(`Listening on http://127.0.0.1:${port}`);
 });

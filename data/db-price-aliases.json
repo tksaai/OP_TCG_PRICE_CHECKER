@@ -1,0 +1,6 @@
+{
+  "format": "op-tcg-db-price-aliases",
+  "version": 1,
+  "description": "未一致JSONのmanualMappingKeyと候補priceKeyを確認し、mappingsへ手動登録します。",
+  "mappings": {}
+}

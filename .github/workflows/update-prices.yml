@@ -28,17 +28,30 @@ jobs:
         run: node scripts/test-search-filters.mjs
       - name: Test alias candidate safety
         run: node scripts/test-alias-candidates.mjs
+      - name: Test alias review utilities
+        run: node scripts/test-alias-review-utils.mjs
+      - name: Test OP_TCG_DB collection import
+        run: node scripts/test-collection-import.mjs
+      - name: Test OP_TCG_DB catalog sync
+        run: node scripts/test-db-catalog-sync.mjs
+      - name: Test index integration
+        run: node scripts/test-index-integration.mjs
       - name: Test PWA updates
         run: node scripts/test-pwa-update.mjs
       - name: Scrape prices
         run: node scripts/scrape-prices.mjs
       - name: Apply card aliases
         run: node scripts/apply-card-aliases.mjs
+      - name: Refresh alias candidates
+        run: node scripts/generate-alias-candidates.mjs
       - name: Sync OP_TCG_DB card details
         continue-on-error: true
         run: node scripts/sync-card-details.mjs
+      - name: Sync OP_TCG_DB collection catalog
+        continue-on-error: true
+        run: node scripts/sync-db-catalog.mjs
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update card prices
-          file_pattern: data/cards.json data/card-details.json
+          file_pattern: data/cards.json data/card-details.json data/alias-candidates.json data/db-catalog.json data/db-variant-map.json

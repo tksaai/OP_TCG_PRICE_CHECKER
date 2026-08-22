@@ -18,9 +18,14 @@
     'index.html',
     'search-utils.js',
     'pwa-update.js',
+    'scripts/lib/card-identity.mjs',
+    'scripts/lib/op-tcg-db-collection.mjs',
     'manifest.webmanifest',
     'data/cards.json',
     'data/card-details.json',
+    'data/db-catalog.json',
+    'data/db-price-aliases.json',
+    'data/db-variant-map.json',
   ];
 
   function responseVersion(response) {
