@@ -18,6 +18,11 @@ const SHOPS = [
     name: 'カードラッシュ',
     url: 'https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE',
     type: 'cardrushNextData',
+    // 2026-07-15 以降、GitHub Actions からのアクセスに 403 が返るようになった
+    // (同じ User-Agent でも手元の回線からは 200 が返るため、データセンター IP 側の
+    //  拒否とみられる)。回避は行わず取得を止めている。
+    // 復旧を確認できたら enabled を true に戻す。過去の価格履歴はそのまま残る。
+    enabled: false,
   },
   {
     id: 'torecard',
@@ -212,6 +217,15 @@ async function main() {
   let scrapedCardCount = 0;
 
   for (const shop of SHOPS) {
+    if (shop.enabled === false) {
+      console.log(`Skipping ${shop.name} (取得停止中)`);
+      report.shops.push({
+        id: shop.id, name: shop.name, fetched: 0,
+        previous: previousCounts.get(shop.id) || 0, healthy: true, skipped: true, error: null,
+      });
+      continue;
+    }
+
     console.log(`Fetching ${shop.name}`);
     let scraped = [];
 
