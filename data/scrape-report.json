@@ -1,0 +1,29 @@
+{
+  "date": "2026/08/26",
+  "shops": [
+    {
+      "id": "mercard",
+      "name": "メルカード",
+      "fetched": 3006,
+      "previous": 4304,
+      "healthy": true,
+      "error": null
+    },
+    {
+      "id": "cardrush",
+      "name": "カードラッシュ",
+      "fetched": 0,
+      "previous": 2718,
+      "healthy": false,
+      "error": "403 Forbidden"
+    },
+    {
+      "id": "torecard",
+      "name": "トレカード秋葉原",
+      "fetched": 1933,
+      "previous": 2266,
+      "healthy": true,
+      "error": null
+    }
+  ]
+}
