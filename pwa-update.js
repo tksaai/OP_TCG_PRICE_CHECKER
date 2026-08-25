@@ -16,11 +16,13 @@
   const CHECK_INTERVAL_MS = 10 * 60 * 1000;
   const TRACKED_ASSETS = [
     'index.html',
+    'app.js',
     'search-utils.js',
     'pwa-update.js',
     'scripts/lib/card-identity.mjs',
     'scripts/lib/op-tcg-db-collection.mjs',
     'manifest.webmanifest',
+    'data/cards-index.json',
     'data/cards.json',
     'data/card-details.json',
     'data/db-catalog.json',

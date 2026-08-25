@@ -40,13 +40,34 @@ function todayJst() {
   return `${byType.year}/${byType.month}/${byType.day}`;
 }
 
-function stripTags(value) {
-  return String(value || '')
-    .replace(/<[^>]+>/g, '')
+// 制御文字を空白に落とす (正規表現のエスケープを避けてコードポイントで判定する)
+function stripControlChars(value) {
+  let result = '';
+  for (const char of String(value)) {
+    const code = char.codePointAt(0);
+    result += code < 32 || code === 127 ? ' ' : char;
+  }
+  return result;
+}
+
+// 取り込んだ文字列はそのまま画面に出るので、ここでタグと制御文字を落としておく
+// (フロント側でもエスケープするが、保存するデータ自体を汚さない)
+function sanitizeText(value) {
+  return stripControlChars(String(value ?? ''))
+    .replace(/<[^>]*>/g, '')
     .replace(/&nbsp;/g, ' ')
     .replace(/&amp;/g, '&')
+    .replace(/\s+/g, ' ')
     .trim();
 }
+
+const stripTags = sanitizeText;
+
+// 取得件数がここまで落ちたら、ページ構造が変わった可能性が高い
+const LINE_END = '\n';
+const SHOP_DROP_RATIO = 0.5;
+const SHOP_MIN_BASELINE = 20;
+const REPORT_PATH = 'data/scrape-report.json';
 
 // 同一性キーは「型番 + 版種タグ」(card-identity.mjs)。カード名の表記揺れは
 // キーに影響せず、ショップ間で同じカードが自動的に同一キーへ集約される。
@@ -124,13 +145,13 @@ async function scrapeCardrush(shop) {
 
   return buyingPrices
     .map((item) => {
-      const extra = item.extra_difference ? `(${item.extra_difference})` : '';
+      const extra = item.extra_difference ? `(${sanitizeText(item.extra_difference)})` : '';
       return {
-        name: `${item.name || ''}${extra}`,
-        modelNo: item.model_number || '',
+        name: `${sanitizeText(item.name)}${extra}`,
+        modelNo: sanitizeText(item.model_number),
         imageUrl: item.ocha_product?.image_source || '',
         price: Number(item.amount || 0),
-        rarity: item.rarity || '',
+        rarity: sanitizeText(item.rarity),
       };
     })
     .filter((card) => card.name && card.modelNo && card.price > 0);
@@ -171,9 +192,22 @@ async function readPrevious() {
   }
 }
 
+// 前回データから「そのショップの価格を持っていたカード数」を数える
+function countCardsByShop(cards) {
+  const counts = new Map();
+  for (const card of cards.values()) {
+    for (const shopId of Object.keys(card.pricesByShop || {})) {
+      counts.set(shopId, (counts.get(shopId) || 0) + 1);
+    }
+  }
+  return counts;
+}
+
 async function main() {
   const date = todayJst();
   const cards = normalizePrevious(await readPrevious());
+  const previousCounts = countCardsByShop(cards);
+  const report = { date, shops: [] };
   let successfulShops = 0;
   let scrapedCardCount = 0;
 
@@ -190,6 +224,10 @@ async function main() {
             : await scrapeMercard(shop);
     } catch (error) {
       console.error(`Failed to fetch ${shop.id}: ${error.message}`);
+      report.shops.push({
+        id: shop.id, name: shop.name, fetched: 0,
+        previous: previousCounts.get(shop.id) || 0, healthy: false, error: error.message,
+      });
       await wait(1500);
       continue;
     }
@@ -197,6 +235,14 @@ async function main() {
     successfulShops += 1;
     scrapedCardCount += scraped.length;
     console.log(`Fetched ${scraped.length} cards from ${shop.id}`);
+
+    // 1 店だけ壊れても全体は成功してしまうので、前回件数と比べて記録に残す
+    const previous = previousCounts.get(shop.id) || 0;
+    const healthy = !(previous >= SHOP_MIN_BASELINE && scraped.length < previous * SHOP_DROP_RATIO);
+    if (!healthy) {
+      console.error(`::warning::${shop.name} の取得件数が前回の半分未満です (${scraped.length} < ${previous})`);
+    }
+    report.shops.push({ id: shop.id, name: shop.name, fetched: scraped.length, previous, healthy, error: null });
 
     for (const item of scraped) {
       const key = cardKeyFor(item.name, item.modelNo);
@@ -240,6 +286,15 @@ async function main() {
   await mkdir(path.dirname(DATA_PATH), { recursive: true });
   await writeFile(DATA_PATH, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
   console.log(`Wrote ${output.length} cards to ${DATA_PATH}`);
+
+  // 健全性の判定は check-scrape-health.mjs に任せる。
+  // ここで失敗させると、正常に取れた他店の価格までコミットされなくなるため。
+  const reportJson = JSON.stringify(report, null, 2);
+  await writeFile(path.join(ROOT, REPORT_PATH), reportJson + LINE_END, 'utf8');
+  const broken = report.shops.filter((shop) => !shop.healthy);
+  if (broken.length) {
+    console.error(`Unhealthy shops: ${broken.map((shop) => shop.id).join(', ')}`);
+  }
 }
 
 main().catch((error) => {

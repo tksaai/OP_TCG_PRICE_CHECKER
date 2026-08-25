@@ -36,7 +36,20 @@ assert.ok(signature.includes('data/db-catalog.json'));
 assert.ok(signature.includes('data/db-variant-map.json'));
 
 const serviceWorkerSource = await readFile(new URL('../service-worker.js', import.meta.url), 'utf8');
-assert.match(serviceWorkerSource, /APP_VERSION = '2\.1\.0'/);
+
+// バージョンは 3 箇所に散っているので、値ではなく一致していることを検証する
+const swVersion = serviceWorkerSource.match(/APP_VERSION = '([^']+)'/)?.[1];
+assert.ok(swVersion, 'service-worker.js に APP_VERSION がありません');
+const indexHtml = await readFile(new URL('../index.html', import.meta.url), 'utf8');
+const htmlVersion = indexHtml.match(/name="application-version" content="([^"]+)"/)?.[1];
+const manifest = JSON.parse(await readFile(new URL('../manifest.webmanifest', import.meta.url), 'utf8'));
+assert.equal(htmlVersion, swVersion, 'index.html のバージョンが service-worker.js と一致しません');
+assert.equal(manifest.version, swVersion, 'manifest.webmanifest のバージョンが service-worker.js と一致しません');
+
+// オフラインで必要なファイルが app shell に含まれていること
+for (const asset of ['./app.js', './vendor/chart.min.js', './index.html']) {
+  assert.ok(serviceWorkerSource.includes(`'${asset}'`), `${asset} が APP_SHELL にありません`);
+}
 const registeredEvents = [];
 vm.runInNewContext(serviceWorkerSource, {
   URL,
