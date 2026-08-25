@@ -5,7 +5,7 @@
       "id": "mercard",
       "name": "メルカード",
       "fetched": 3006,
-      "previous": 4304,
+      "previous": 4305,
       "healthy": true,
       "error": null
     },
@@ -14,14 +14,15 @@
       "name": "カードラッシュ",
       "fetched": 0,
       "previous": 2718,
-      "healthy": false,
-      "error": "403 Forbidden"
+      "healthy": true,
+      "skipped": true,
+      "error": null
     },
     {
       "id": "torecard",
       "name": "トレカード秋葉原",
       "fetched": 1933,
-      "previous": 2266,
+      "previous": 2268,
       "healthy": true,
       "error": null
     }
