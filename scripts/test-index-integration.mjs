@@ -42,11 +42,24 @@ assert.match(appJs, /createUnmatchedExport/u);
 assert.match(appJs, /unmatchedExportToCsv/u);
 assert.match(appJs, /localStorage\.setItem\('onepieceOwnedCounts'/u);
 
-// XSS の回帰防止: ショップ由来の文字列をエスケープせずに埋め込まないこと
-assert.doesNotMatch(appJs, /\$\{c\.name\}/u, 'カード名がエスケープなしで HTML に埋め込まれています');
-assert.doesNotMatch(appJs, /\$\{c\.modelNo\}/u, '型番がエスケープなしで HTML に埋め込まれています');
-assert.doesNotMatch(appJs, /\$\{card\.name\}/u, 'カード名がエスケープなしで HTML に埋め込まれています');
-assert.doesNotMatch(appJs, /\$\{shop\.shopName\}/u, 'ショップ名がエスケープなしで HTML に埋め込まれています');
+// XSS の回帰防止: HTML を組み立てている箇所に、ショップ由来の文字列を
+// エスケープせず埋め込んでいないこと (textContent や CSV への出力は対象外)
+const rawTextField = /\$\{(?:c|card|shop|entry|item)\.(?:name|modelNo|shopName|sourceName|cardName)\b/u;
+const htmlBlocks = [...appJs.matchAll(/(?:innerHTML\s*=|Html\s*\+?=|insertAdjacentHTML\([^,]+,)\s*`([\s\S]*?)`/gu)]
+  .map(match => match[1]);
+assert.ok(htmlBlocks.length > 0, 'HTML を組み立てている箇所が見つかりません');
+for (const block of htmlBlocks) {
+  assert.doesNotMatch(
+    block,
+    rawTextField,
+    `HTML にエスケープなしの値を埋め込んでいます: ${block.match(rawTextField)?.[0]}`
+  );
+}
 assert.doesNotMatch(appJs, /onchange="[^"]*\$\{/u, 'HTML 属性の中で文字列を連結しています');
+assert.match(appJs, /escapeHtml\(c\.name\)/u, 'カード名がエスケープされていません');
+
+// CSV は数式として解釈されないようにしてから書き出すこと
+assert.match(appJs, /function csvCell\(/u, 'CSV 出力のエスケープ関数がありません');
+assert.doesNotMatch(appJs, /csvContent \+= `"\$\{card\.name\}/u, 'CSV にカード名を素で書き出しています');
 
 console.log('Index integration tests passed.');

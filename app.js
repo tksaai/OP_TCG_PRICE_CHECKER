@@ -61,6 +61,13 @@ function getSeriesId(card) {
   return cardNumber.split('-')[0] || '';
 }
 
+// CSV セル用のエスケープ。Excel などは = + - @ で始まる値を数式として解釈するため、
+// 取り込んだ文字列がそのまま実行されないように先頭を無害化する
+function csvCell(value) {
+  const text = String(value ?? '').replaceAll('"', '""');
+  return /^[=+@-]/.test(text) ? `'${text}` : text;
+}
+
 function escapeHtml(value) {
   return String(value ?? '')
     .replaceAll('&', '&amp;')
@@ -366,7 +373,7 @@ function exportToCSV() {
       const imageId = getActiveImage(card);
       const price = getActivePrice(card);
       const imgUrl = imageId;
-      csvContent += `"${card.name}","${card.modelNo}",${price},${count},${price * count},"${imgUrl}"\n`;
+      csvContent += `"${csvCell(card.name)}","${csvCell(card.modelNo)}",${price},${count},${price * count},"${csvCell(imgUrl)}"\n`;
       countData++;
     }
   });
