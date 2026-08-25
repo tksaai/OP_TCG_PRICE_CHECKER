@@ -10,7 +10,10 @@ import {
   variantKeyFor,
 } from './lib/op-tcg-db-collection.mjs';
 
-const DB_RAW_ROOT = 'https://raw.githubusercontent.com/tksaai/OP_TCG_DB/master';
+// 既定は OP_TCG_DB の GitHub Pages。raw.githubusercontent はブランチ名に依存し、
+// 未認証だとレート制限もあるため、公開済みの成果物を見に行く。
+// ローカル検証や参照先の切り替えは OP_TCG_DB_ROOT で行う。
+const DB_RAW_ROOT = globalThis.process?.env?.OP_TCG_DB_ROOT || 'https://tksaai.github.io/OP_TCG_DB';
 const DEFAULT_CARDS_SOURCE = `${DB_RAW_ROOT}/cards.json`;
 const DEFAULT_MANIFEST_SOURCE = `${DB_RAW_ROOT}/image-manifest.json`;
 const DEFAULT_PROVISIONAL_SOURCE = `${DB_RAW_ROOT}/provisional-cards.json`;

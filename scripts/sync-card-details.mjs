@@ -2,7 +2,9 @@ import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const DEFAULT_SOURCE = 'https://raw.githubusercontent.com/tksaai/OP_TCG_DB/master/cards.json';
+// 参照先は sync-db-catalog.mjs と揃える (OP_TCG_DB_ROOT で差し替え可能)
+const DB_ROOT = globalThis.process?.env?.OP_TCG_DB_ROOT || 'https://tksaai.github.io/OP_TCG_DB';
+const DEFAULT_SOURCE = `${DB_ROOT}/cards.json`;
 const runtimeProcess = globalThis.process;
 
 export async function loadSource(location) {

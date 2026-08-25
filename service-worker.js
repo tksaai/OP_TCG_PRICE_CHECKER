@@ -1,17 +1,22 @@
 const CACHE_PREFIX = 'op-tcg-price-checker';
-const APP_VERSION = '2.1.0';
+const APP_VERSION = '2.2.0';
 const SHELL_CACHE = `${CACHE_PREFIX}-shell-${APP_VERSION}`;
 const RUNTIME_CACHE = `${CACHE_PREFIX}-runtime-${APP_VERSION}`;
 const APP_SHELL = [
   './',
   './index.html',
+  './app.js',
   './search-utils.js',
   './pwa-update.js',
+  './vendor/chart.min.js',
   './scripts/lib/card-identity.mjs',
   './scripts/lib/op-tcg-db-collection.mjs',
   './data/db-price-aliases.json',
+  './data/cards-index.json',
   './manifest.webmanifest',
   './icons/app-icon.svg',
+  './icons/app-icon-180.png',
+  './icons/app-icon-512.png',
 ];
 
 self.addEventListener('install', (event) => {

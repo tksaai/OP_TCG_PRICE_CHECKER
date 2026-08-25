@@ -36,6 +36,8 @@ jobs:
         run: node scripts/test-db-catalog-sync.mjs
       - name: Test index integration
         run: node scripts/test-index-integration.mjs
+      - name: Test cards index builder
+        run: node scripts/test-cards-index.mjs
       - name: Test PWA updates
         run: node scripts/test-pwa-update.mjs
       - name: Scrape prices
@@ -50,8 +52,14 @@ jobs:
       - name: Sync OP_TCG_DB collection catalog
         continue-on-error: true
         run: node scripts/sync-db-catalog.mjs
+      - name: Build cards index
+        run: node scripts/build-cards-index.mjs
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update card prices
-          file_pattern: data/cards.json data/card-details.json data/alias-candidates.json data/db-catalog.json data/db-variant-map.json
+          file_pattern: data/cards.json data/cards-index.json data/scrape-report.json data/card-details.json data/alias-candidates.json data/db-catalog.json data/db-variant-map.json
+      # 取得件数の異常はコミットの後に判定する。
+      # ここで落としても、その日に取れた価格は保存済み。
+      - name: Check scrape health
+        run: node scripts/check-scrape-health.mjs
