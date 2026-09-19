@@ -1,8 +1,8 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-08-25T07:04:54.871Z",
-  "catalogGeneratedAt": "2026-07-21T11:10:35.235Z",
+  "generatedAt": "2026-09-19T03:57:03.100Z",
+  "catalogGeneratedAt": "2026-09-18T13:41:12.471Z",
   "mappings": {
     "EB01-001::EB01-001": {
       "priceKey": "eb01-001",
@@ -615,8 +615,8 @@
     },
     "EB02-030::EB02-030": {
       "priceKey": "eb02-030",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "EB02-030",
       "variantId": "EB02-030"
     },
@@ -832,17 +832,10 @@
     },
     "EB03-006::EB03-006": {
       "priceKey": "eb03-006",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
-      "cardNumber": "EB03-006",
-      "variantId": "EB03-006"
-    },
-    "EB03-006::EB03-006_p1": {
-      "priceKey": "eb03-006@parallel+promo+プロモションパックexvol4",
       "method": "image-path",
       "confirmedBy": "image-path",
       "cardNumber": "EB03-006",
-      "variantId": "EB03-006_p1"
+      "variantId": "EB03-006"
     },
     "EB03-008::EB03-008": {
       "priceKey": "eb03-008",
@@ -963,13 +956,6 @@
       "cardNumber": "EB03-026",
       "variantId": "EB03-026_p2"
     },
-    "EB03-027::EB03-027_p1": {
-      "priceKey": "eb03-027@parallel+promo+プロモションパックexvol4",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "EB03-027",
-      "variantId": "EB03-027_p1"
-    },
     "EB03-031::EB03-031": {
       "priceKey": "eb03-031",
       "method": "image-path",
@@ -1070,8 +1056,8 @@
     },
     "EB03-052::EB03-052": {
       "priceKey": "eb03-052",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "EB03-052",
       "variantId": "EB03-052"
     },
@@ -1270,6 +1256,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "EB04-013",
       "variantId": "EB04-013_p1"
+    },
+    "EB04-015::EB04-015": {
+      "priceKey": "eb04-015",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB04-015",
+      "variantId": "EB04-015"
     },
     "EB04-018::EB04-018": {
       "priceKey": "eb04-018",
@@ -1536,13 +1529,6 @@
       "confirmedBy": "image-path",
       "cardNumber": "EB04-058",
       "variantId": "EB04-058_p1"
-    },
-    "EB04-058::EB04-058_p2": {
-      "priceKey": "eb04-058@parallel+promo+プロモションパックexvol4",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "EB04-058",
-      "variantId": "EB04-058_p2"
     },
     "EB04-059::EB04-059": {
       "priceKey": "eb04-059",
@@ -2054,6 +2040,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP01-062",
       "variantId": "OP01-062_p1"
+    },
+    "OP01-064::OP01-064_p1": {
+      "priceKey": "op01-064@box購入特典",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP01-064",
+      "variantId": "OP01-064_p1"
     },
     "OP01-067::OP01-067": {
       "priceKey": "op01-067",
@@ -2706,6 +2699,13 @@
       "cardNumber": "OP02-059",
       "variantId": "OP02-059_p1"
     },
+    "OP02-059::OP02-059_p2": {
+      "priceKey": "op02-059@promo",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP02-059",
+      "variantId": "OP02-059_p2"
+    },
     "OP02-062::OP02-062": {
       "priceKey": "op02-062",
       "method": "normal-variant-tags",
@@ -3063,6 +3063,13 @@
       "cardNumber": "OP03-013",
       "variantId": "OP03-013_p2"
     },
+    "OP03-013::OP03-013_p3": {
+      "priceKey": "op03-013@promo+プロモションパックex",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP03-013",
+      "variantId": "OP03-013_p3"
+    },
     "OP03-016::OP03-016": {
       "priceKey": "op03-016",
       "method": "normal-variant-tags",
@@ -3391,6 +3398,13 @@
       "confirmedBy": "variant-tags",
       "cardNumber": "OP03-067",
       "variantId": "OP03-067"
+    },
+    "OP03-070::OP03-070": {
+      "priceKey": "op03-070",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP03-070",
+      "variantId": "OP03-070"
     },
     "OP03-071::OP03-071": {
       "priceKey": "op03-071",
@@ -4458,8 +4472,8 @@
     },
     "OP05-011::OP05-011": {
       "priceKey": "op05-011",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP05-011",
       "variantId": "OP05-011"
     },
@@ -4528,8 +4542,8 @@
     },
     "OP05-021::OP05-021": {
       "priceKey": "op05-021",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP05-021",
       "variantId": "OP05-021"
     },
@@ -4602,13 +4616,6 @@
       "confirmedBy": "variant-tags",
       "cardNumber": "OP05-037",
       "variantId": "OP05-037"
-    },
-    "OP05-037::OP05-037_p1": {
-      "priceKey": "op05-037@parallel+promo+スタンダドバトル",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "OP05-037",
-      "variantId": "OP05-037_p1"
     },
     "OP05-038::OP05-038": {
       "priceKey": "op05-038",
@@ -4785,6 +4792,13 @@
       "cardNumber": "OP05-069",
       "variantId": "OP05-069_p2"
     },
+    "OP05-073::OP05-073_p1": {
+      "priceKey": "op05-073@foil+ザラ",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP05-073",
+      "variantId": "OP05-073_p1"
+    },
     "OP05-073::OP05-073_p2": {
       "priceKey": "op05-073@full-art+ザラ",
       "method": "image-path",
@@ -4850,8 +4864,8 @@
     },
     "OP05-081::OP05-081": {
       "priceKey": "op05-081",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP05-081",
       "variantId": "OP05-081"
     },
@@ -4861,6 +4875,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP05-081",
       "variantId": "OP05-081_p2"
+    },
+    "OP05-081::OP05-081_p3": {
+      "priceKey": "op05-081@parallel+prb01",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP05-081",
+      "variantId": "OP05-081_p3"
     },
     "OP05-082::OP05-082": {
       "priceKey": "op05-082",
@@ -5198,6 +5219,13 @@
       "cardNumber": "OP05-119",
       "variantId": "OP05-119_p6"
     },
+    "OP05-119::OP05-119_p7": {
+      "priceKey": "op05-119@gold+parallel+sp",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP05-119",
+      "variantId": "OP05-119_p7"
+    },
     "OP06-001::OP06-001": {
       "priceKey": "op06-001",
       "method": "normal-variant-tags",
@@ -5410,8 +5438,8 @@
     },
     "OP06-038::OP06-038": {
       "priceKey": "op06-038",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP06-038",
       "variantId": "OP06-038"
     },
@@ -5421,6 +5449,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP06-038",
       "variantId": "OP06-038_p1"
+    },
+    "OP06-038::OP06-038_p2": {
+      "priceKey": "op06-038@foil",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP06-038",
+      "variantId": "OP06-038_p2"
     },
     "OP06-038::OP06-038_p3": {
       "priceKey": "op06-038@full-art",
@@ -6248,19 +6283,19 @@
       "cardNumber": "OP07-051",
       "variantId": "OP07-051_p5"
     },
+    "OP07-053::OP07-053_p1": {
+      "priceKey": "op07-053@promo",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP07-053",
+      "variantId": "OP07-053_p1"
+    },
     "OP07-053::OP07-053_p3": {
       "priceKey": "op07-053@parallel+promo+トレジャキャンペン",
       "method": "image-path",
       "confirmedBy": "image-path",
       "cardNumber": "OP07-053",
       "variantId": "OP07-053_p3"
-    },
-    "OP07-053::OP07-053_p4": {
-      "priceKey": "op07-053@parallel+promo+応募者全員サビス",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "OP07-053",
-      "variantId": "OP07-053_p4"
     },
     "OP07-054::OP07-054": {
       "priceKey": "op07-054",
@@ -6619,13 +6654,6 @@
       "cardNumber": "OP07-113",
       "variantId": "OP07-113"
     },
-    "OP07-113::OP07-113_p1": {
-      "priceKey": "op07-113@parallel+promo+応募者全員サビス",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "OP07-113",
-      "variantId": "OP07-113_p1"
-    },
     "OP07-114::OP07-114": {
       "priceKey": "op07-114",
       "method": "normal-variant-tags",
@@ -6660,13 +6688,6 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP07-118",
       "variantId": "OP07-118"
-    },
-    "OP07-118::OP07-118_p1": {
-      "priceKey": "op07-118@parallel",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "OP07-118",
-      "variantId": "OP07-118_p1"
     },
     "OP07-118::OP07-118_p2": {
       "priceKey": "op07-118@parallel+sp",
@@ -6884,13 +6905,6 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP08-047",
       "variantId": "OP08-047"
-    },
-    "OP08-047::OP08-047_p1": {
-      "priceKey": "op08-047@parallel+promo+プロモションパックexvol4",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "OP08-047",
-      "variantId": "OP08-047_p1"
     },
     "OP08-050::OP08-050": {
       "priceKey": "op08-050",
@@ -7249,13 +7263,6 @@
       "cardNumber": "OP09-001",
       "variantId": "OP09-001_p1"
     },
-    "OP09-001::OP09-001_p3": {
-      "priceKey": "op09-001@anniv2+englishset+promo",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "OP09-001",
-      "variantId": "OP09-001_p3"
-    },
     "OP09-002::OP09-002": {
       "priceKey": "op09-002",
       "method": "image-path",
@@ -7311,13 +7318,6 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP09-004",
       "variantId": "OP09-004_p6"
-    },
-    "OP09-004::OP09-004_p7": {
-      "priceKey": "op09-004@anniv2+englishset+promo",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "OP09-004",
-      "variantId": "OP09-004_p7"
     },
     "OP09-005::OP09-005_p1": {
       "priceKey": "op09-005@parallel+sp",
@@ -7396,13 +7396,6 @@
       "cardNumber": "OP09-023",
       "variantId": "OP09-023_p1"
     },
-    "OP09-027::OP09-027_p1": {
-      "priceKey": "op09-027@parallel+promo+応募者全員サビス",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "OP09-027",
-      "variantId": "OP09-027_p1"
-    },
     "OP09-031::OP09-031": {
       "priceKey": "op09-031",
       "method": "normal-variant-tags",
@@ -7423,13 +7416,6 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP09-034",
       "variantId": "OP09-034_p1"
-    },
-    "OP09-034::OP09-034_p2": {
-      "priceKey": "op09-034@parallel+promo+応募者全員サビス",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "OP09-034",
-      "variantId": "OP09-034_p2"
     },
     "OP09-036::OP09-036": {
       "priceKey": "op09-036",
@@ -7472,13 +7458,6 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP09-042",
       "variantId": "OP09-042_p1"
-    },
-    "OP09-042::OP09-042_p3": {
-      "priceKey": "op09-042@anniv2+englishset+promo",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "OP09-042",
-      "variantId": "OP09-042_p3"
     },
     "OP09-046::OP09-046": {
       "priceKey": "op09-046",
@@ -7557,13 +7536,6 @@
       "cardNumber": "OP09-051",
       "variantId": "OP09-051_p3"
     },
-    "OP09-051::OP09-051_p4": {
-      "priceKey": "op09-051@anniv2+englishset+promo",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "OP09-051",
-      "variantId": "OP09-051_p4"
-    },
     "OP09-051::OP09-051_p5": {
       "priceKey": "op09-051@gold+parallel+sp",
       "method": "image-path",
@@ -7598,13 +7570,6 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP09-061",
       "variantId": "OP09-061_p2"
-    },
-    "OP09-061::OP09-061_p3": {
-      "priceKey": "op09-061@anniv2+englishset+promo",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "OP09-061",
-      "variantId": "OP09-061_p3"
     },
     "OP09-062::OP09-062": {
       "priceKey": "op09-062",
@@ -7725,13 +7690,6 @@
       "cardNumber": "OP09-081",
       "variantId": "OP09-081"
     },
-    "OP09-081::OP09-081_p3": {
-      "priceKey": "op09-081@anniv2+englishset+promo",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "OP09-081",
-      "variantId": "OP09-081_p3"
-    },
     "OP09-088::OP09-088": {
       "priceKey": "op09-088",
       "method": "normal-variant-tags",
@@ -7787,13 +7745,6 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP09-093",
       "variantId": "OP09-093_p5"
-    },
-    "OP09-093::OP09-093_p6": {
-      "priceKey": "op09-093@anniv2+englishset+promo",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "OP09-093",
-      "variantId": "OP09-093_p6"
     },
     "OP09-095::OP09-095": {
       "priceKey": "op09-095",
@@ -7962,6 +7913,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP10-002",
       "variantId": "OP10-002_p1"
+    },
+    "OP10-003::OP10-003": {
+      "priceKey": "op10-003",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP10-003",
+      "variantId": "OP10-003"
     },
     "OP10-003::OP10-003_p1": {
       "priceKey": "op10-003@leader-parallel",
@@ -8620,6 +8578,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP11-031",
       "variantId": "OP11-031_p1"
+    },
+    "OP11-033::OP11-033": {
+      "priceKey": "op11-033",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP11-033",
+      "variantId": "OP11-033"
     },
     "OP11-036::OP11-036": {
       "priceKey": "op11-036",
@@ -9972,13 +9937,6 @@
       "cardNumber": "OP13-067",
       "variantId": "OP13-067"
     },
-    "OP13-067::OP13-067_p1": {
-      "priceKey": "op13-067@parallel+promo+プロモションパックexvol4",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "OP13-067",
-      "variantId": "OP13-067_p1"
-    },
     "OP13-072::OP13-072_p1": {
       "priceKey": "op13-072@parallel+プレミアムカドコレクションベストセレクションvol6",
       "method": "image-path",
@@ -10009,8 +9967,8 @@
     },
     "OP13-079::OP13-079": {
       "priceKey": "op13-079",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP13-079",
       "variantId": "OP13-079"
     },
@@ -10674,8 +10632,8 @@
     },
     "OP14-045::OP14-045": {
       "priceKey": "op14-045",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP14-045",
       "variantId": "OP14-045"
     },
@@ -10709,8 +10667,8 @@
     },
     "OP14-050::OP14-050": {
       "priceKey": "op14-050",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP14-050",
       "variantId": "OP14-050"
     },
@@ -10730,8 +10688,8 @@
     },
     "OP14-056::OP14-056": {
       "priceKey": "op14-056",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP14-056",
       "variantId": "OP14-056"
     },
@@ -10867,13 +10825,6 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP14-083",
       "variantId": "OP14-083"
-    },
-    "OP14-083::OP14-083_p1": {
-      "priceKey": "op14-083@parallel+promo+プロモションパックexvol4",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "OP14-083",
-      "variantId": "OP14-083_p1"
     },
     "OP14-084::OP14-084": {
       "priceKey": "op14-084",
@@ -12639,6 +12590,20 @@
       "cardNumber": "OP16-119",
       "variantId": "OP16-119_p1"
     },
+    "OP17-001::OP17-001": {
+      "priceKey": "op17-001",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-001",
+      "variantId": "OP17-001"
+    },
+    "OP17-001::OP17-001_p1": {
+      "priceKey": "op17-001@leader-parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-001",
+      "variantId": "OP17-001_p1"
+    },
     "OP17-003::OP17-003": {
       "priceKey": "op17-003",
       "method": "image-path",
@@ -12653,12 +12618,180 @@
       "cardNumber": "OP17-005",
       "variantId": "OP17-005"
     },
+    "OP17-005::OP17-005_p1": {
+      "priceKey": "op17-005@parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-005",
+      "variantId": "OP17-005_p1"
+    },
+    "OP17-005::OP17-005_p2": {
+      "priceKey": "op17-005@comic",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-005",
+      "variantId": "OP17-005_p2"
+    },
+    "OP17-006::OP17-006": {
+      "priceKey": "op17-006",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-006",
+      "variantId": "OP17-006"
+    },
+    "OP17-006::OP17-006_p1": {
+      "priceKey": "op17-006@パンダマン",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-006",
+      "variantId": "OP17-006_p1"
+    },
+    "OP17-007::OP17-007": {
+      "priceKey": "op17-007",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-007",
+      "variantId": "OP17-007"
+    },
+    "OP17-008::OP17-008": {
+      "priceKey": "op17-008",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-008",
+      "variantId": "OP17-008"
+    },
+    "OP17-009::OP17-009": {
+      "priceKey": "op17-009",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-009",
+      "variantId": "OP17-009"
+    },
+    "OP17-013::OP17-013": {
+      "priceKey": "op17-013",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-013",
+      "variantId": "OP17-013"
+    },
+    "OP17-015::OP17-015": {
+      "priceKey": "op17-015",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-015",
+      "variantId": "OP17-015"
+    },
+    "OP17-016::OP17-016": {
+      "priceKey": "op17-016",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-016",
+      "variantId": "OP17-016"
+    },
+    "OP17-017::OP17-017": {
+      "priceKey": "op17-017",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-017",
+      "variantId": "OP17-017"
+    },
+    "OP17-018::OP17-018": {
+      "priceKey": "op17-018",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-018",
+      "variantId": "OP17-018"
+    },
+    "OP17-019::OP17-019": {
+      "priceKey": "op17-019",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-019",
+      "variantId": "OP17-019"
+    },
+    "OP17-020::OP17-020": {
+      "priceKey": "op17-020",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-020",
+      "variantId": "OP17-020"
+    },
+    "OP17-020::OP17-020_p1": {
+      "priceKey": "op17-020@leader-parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-020",
+      "variantId": "OP17-020_p1"
+    },
+    "OP17-021::OP17-021": {
+      "priceKey": "op17-021",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-021",
+      "variantId": "OP17-021"
+    },
     "OP17-022::OP17-022": {
       "priceKey": "op17-022",
       "method": "image-path",
       "confirmedBy": "image-path",
       "cardNumber": "OP17-022",
       "variantId": "OP17-022"
+    },
+    "OP17-022::OP17-022_p1": {
+      "priceKey": "op17-022@parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-022",
+      "variantId": "OP17-022_p1"
+    },
+    "OP17-022::OP17-022_p2": {
+      "priceKey": "op17-022@comic",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-022",
+      "variantId": "OP17-022_p2"
+    },
+    "OP17-023::OP17-023": {
+      "priceKey": "op17-023",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-023",
+      "variantId": "OP17-023"
+    },
+    "OP17-025::OP17-025": {
+      "priceKey": "op17-025",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-025",
+      "variantId": "OP17-025"
+    },
+    "OP17-025::OP17-025_p1": {
+      "priceKey": "op17-025@パンダマン",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-025",
+      "variantId": "OP17-025_p1"
+    },
+    "OP17-026::OP17-026": {
+      "priceKey": "op17-026",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-026",
+      "variantId": "OP17-026"
+    },
+    "OP17-027::OP17-027": {
+      "priceKey": "op17-027",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-027",
+      "variantId": "OP17-027"
+    },
+    "OP17-027::OP17-027_p1": {
+      "priceKey": "op17-027@parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-027",
+      "variantId": "OP17-027_p1"
     },
     "OP17-029::OP17-029": {
       "priceKey": "op17-029",
@@ -12674,12 +12807,271 @@
       "cardNumber": "OP17-031",
       "variantId": "OP17-031"
     },
+    "OP17-031::OP17-031_p1": {
+      "priceKey": "op17-031@parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-031",
+      "variantId": "OP17-031_p1"
+    },
+    "OP17-032::OP17-032": {
+      "priceKey": "op17-032",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-032",
+      "variantId": "OP17-032"
+    },
+    "OP17-033::OP17-033": {
+      "priceKey": "op17-033",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-033",
+      "variantId": "OP17-033"
+    },
+    "OP17-033::OP17-033_p1": {
+      "priceKey": "op17-033@parallel+トレジャレア",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-033",
+      "variantId": "OP17-033_p1"
+    },
+    "OP17-036::OP17-036": {
+      "priceKey": "op17-036",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-036",
+      "variantId": "OP17-036"
+    },
+    "OP17-037::OP17-037_p1": {
+      "priceKey": "op17-037@parallel+新時代",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-037",
+      "variantId": "OP17-037_p1"
+    },
+    "OP17-039::OP17-039": {
+      "priceKey": "op17-039",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-039",
+      "variantId": "OP17-039"
+    },
+    "OP17-039::OP17-039_p1": {
+      "priceKey": "op17-039@leader-parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-039",
+      "variantId": "OP17-039_p1"
+    },
+    "OP17-040::OP17-040": {
+      "priceKey": "op17-040",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-040",
+      "variantId": "OP17-040"
+    },
+    "OP17-041::OP17-041": {
+      "priceKey": "op17-041",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-041",
+      "variantId": "OP17-041"
+    },
+    "OP17-042::OP17-042": {
+      "priceKey": "op17-042",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-042",
+      "variantId": "OP17-042"
+    },
+    "OP17-043::OP17-043": {
+      "priceKey": "op17-043",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-043",
+      "variantId": "OP17-043"
+    },
+    "OP17-044::OP17-044": {
+      "priceKey": "op17-044",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-044",
+      "variantId": "OP17-044"
+    },
+    "OP17-045::OP17-045": {
+      "priceKey": "op17-045",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-045",
+      "variantId": "OP17-045"
+    },
+    "OP17-045::OP17-045_p1": {
+      "priceKey": "op17-045@パンダマン",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-045",
+      "variantId": "OP17-045_p1"
+    },
+    "OP17-046::OP17-046": {
+      "priceKey": "op17-046",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-046",
+      "variantId": "OP17-046"
+    },
+    "OP17-046::OP17-046_p1": {
+      "priceKey": "op17-046@parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-046",
+      "variantId": "OP17-046_p1"
+    },
+    "OP17-048::OP17-048": {
+      "priceKey": "op17-048",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-048",
+      "variantId": "OP17-048"
+    },
+    "OP17-048::OP17-048_p1": {
+      "priceKey": "op17-048@parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-048",
+      "variantId": "OP17-048_p1"
+    },
+    "OP17-049::OP17-049": {
+      "priceKey": "op17-049",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-049",
+      "variantId": "OP17-049"
+    },
+    "OP17-049::OP17-049_p1": {
+      "priceKey": "op17-049@parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-049",
+      "variantId": "OP17-049_p1"
+    },
+    "OP17-050::OP17-050": {
+      "priceKey": "op17-050",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-050",
+      "variantId": "OP17-050"
+    },
+    "OP17-052::OP17-052": {
+      "priceKey": "op17-052",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-052",
+      "variantId": "OP17-052"
+    },
+    "OP17-054::OP17-054": {
+      "priceKey": "op17-054",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-054",
+      "variantId": "OP17-054"
+    },
+    "OP17-054::OP17-054_p1": {
+      "priceKey": "op17-054@parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-054",
+      "variantId": "OP17-054_p1"
+    },
+    "OP17-055::OP17-055": {
+      "priceKey": "op17-055",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-055",
+      "variantId": "OP17-055"
+    },
+    "OP17-056::OP17-056": {
+      "priceKey": "op17-056",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-056",
+      "variantId": "OP17-056"
+    },
+    "OP17-057::OP17-057": {
+      "priceKey": "op17-057",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-057",
+      "variantId": "OP17-057"
+    },
+    "OP17-058::OP17-058": {
+      "priceKey": "op17-058",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-058",
+      "variantId": "OP17-058"
+    },
+    "OP17-058::OP17-058_p1": {
+      "priceKey": "op17-058@leader-parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-058",
+      "variantId": "OP17-058_p1"
+    },
+    "OP17-059::OP17-059": {
+      "priceKey": "op17-059",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-059",
+      "variantId": "OP17-059"
+    },
+    "OP17-060::OP17-060": {
+      "priceKey": "op17-060",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-060",
+      "variantId": "OP17-060"
+    },
+    "OP17-061::OP17-061": {
+      "priceKey": "op17-061",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-061",
+      "variantId": "OP17-061"
+    },
+    "OP17-061::OP17-061_p1": {
+      "priceKey": "op17-061@parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-061",
+      "variantId": "OP17-061_p1"
+    },
     "OP17-062::OP17-062": {
       "priceKey": "op17-062",
       "method": "image-path",
       "confirmedBy": "image-path",
       "cardNumber": "OP17-062",
       "variantId": "OP17-062"
+    },
+    "OP17-062::OP17-062_p1": {
+      "priceKey": "op17-062@parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-062",
+      "variantId": "OP17-062_p1"
+    },
+    "OP17-062::OP17-062_p2": {
+      "priceKey": "op17-062@comic",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-062",
+      "variantId": "OP17-062_p2"
+    },
+    "OP17-062::OP17-062_p3": {
+      "priceKey": "op17-062@parallel+特別イラスト",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-062",
+      "variantId": "OP17-062_p3"
     },
     "OP17-063::OP17-063": {
       "priceKey": "op17-063",
@@ -12688,12 +13080,173 @@
       "cardNumber": "OP17-063",
       "variantId": "OP17-063"
     },
+    "OP17-063::OP17-063_p1": {
+      "priceKey": "op17-063@parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-063",
+      "variantId": "OP17-063_p1"
+    },
+    "OP17-065::OP17-065": {
+      "priceKey": "op17-065",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-065",
+      "variantId": "OP17-065"
+    },
+    "OP17-069::OP17-069": {
+      "priceKey": "op17-069",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-069",
+      "variantId": "OP17-069"
+    },
+    "OP17-070::OP17-070_p1": {
+      "priceKey": "op17-070@パンダマン",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-070",
+      "variantId": "OP17-070_p1"
+    },
+    "OP17-073::OP17-073": {
+      "priceKey": "op17-073",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-073",
+      "variantId": "OP17-073"
+    },
+    "OP17-074::OP17-074": {
+      "priceKey": "op17-074",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-074",
+      "variantId": "OP17-074"
+    },
+    "OP17-075::OP17-075": {
+      "priceKey": "op17-075",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-075",
+      "variantId": "OP17-075"
+    },
+    "OP17-076::OP17-076": {
+      "priceKey": "op17-076",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-076",
+      "variantId": "OP17-076"
+    },
+    "OP17-077::OP17-077": {
+      "priceKey": "op17-077",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-077",
+      "variantId": "OP17-077"
+    },
+    "OP17-079::OP17-079": {
+      "priceKey": "op17-079",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-079",
+      "variantId": "OP17-079"
+    },
+    "OP17-079::OP17-079_p1": {
+      "priceKey": "op17-079@leader-parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-079",
+      "variantId": "OP17-079_p1"
+    },
+    "OP17-079::OP17-079_p2": {
+      "priceKey": "op17-079@leader-parallel+スパ",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-079",
+      "variantId": "OP17-079_p2"
+    },
     "OP17-080::OP17-080": {
       "priceKey": "op17-080",
       "method": "image-path",
       "confirmedBy": "image-path",
       "cardNumber": "OP17-080",
       "variantId": "OP17-080"
+    },
+    "OP17-080::OP17-080_p1": {
+      "priceKey": "op17-080@parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-080",
+      "variantId": "OP17-080_p1"
+    },
+    "OP17-081::OP17-081": {
+      "priceKey": "op17-081",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-081",
+      "variantId": "OP17-081"
+    },
+    "OP17-084::OP17-084": {
+      "priceKey": "op17-084",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-084",
+      "variantId": "OP17-084"
+    },
+    "OP17-085::OP17-085": {
+      "priceKey": "op17-085",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-085",
+      "variantId": "OP17-085"
+    },
+    "OP17-086::OP17-086": {
+      "priceKey": "op17-086",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-086",
+      "variantId": "OP17-086"
+    },
+    "OP17-087::OP17-087": {
+      "priceKey": "op17-087",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-087",
+      "variantId": "OP17-087"
+    },
+    "OP17-087::OP17-087_p1": {
+      "priceKey": "op17-087@parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-087",
+      "variantId": "OP17-087_p1"
+    },
+    "OP17-088::OP17-088_p1": {
+      "priceKey": "op17-088@パンダマン",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-088",
+      "variantId": "OP17-088_p1"
+    },
+    "OP17-089::OP17-089": {
+      "priceKey": "op17-089",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-089",
+      "variantId": "OP17-089"
+    },
+    "OP17-091::OP17-091": {
+      "priceKey": "op17-091",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-091",
+      "variantId": "OP17-091"
+    },
+    "OP17-092::OP17-092": {
+      "priceKey": "op17-092",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-092",
+      "variantId": "OP17-092"
     },
     "OP17-093::OP17-093": {
       "priceKey": "op17-093",
@@ -12702,12 +13255,110 @@
       "cardNumber": "OP17-093",
       "variantId": "OP17-093"
     },
+    "OP17-093::OP17-093_p1": {
+      "priceKey": "op17-093@parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-093",
+      "variantId": "OP17-093_p1"
+    },
+    "OP17-094::OP17-094": {
+      "priceKey": "op17-094",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-094",
+      "variantId": "OP17-094"
+    },
+    "OP17-095::OP17-095": {
+      "priceKey": "op17-095",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-095",
+      "variantId": "OP17-095"
+    },
+    "OP17-096::OP17-096": {
+      "priceKey": "op17-096",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-096",
+      "variantId": "OP17-096"
+    },
+    "OP17-098::OP17-098": {
+      "priceKey": "op17-098",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-098",
+      "variantId": "OP17-098"
+    },
+    "OP17-099::OP17-099": {
+      "priceKey": "op17-099",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-099",
+      "variantId": "OP17-099"
+    },
+    "OP17-099::OP17-099_p1": {
+      "priceKey": "op17-099@leader-parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-099",
+      "variantId": "OP17-099_p1"
+    },
+    "OP17-102::OP17-102": {
+      "priceKey": "op17-102",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-102",
+      "variantId": "OP17-102"
+    },
+    "OP17-103::OP17-103": {
+      "priceKey": "op17-103",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-103",
+      "variantId": "OP17-103"
+    },
+    "OP17-104::OP17-104": {
+      "priceKey": "op17-104",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-104",
+      "variantId": "OP17-104"
+    },
+    "OP17-106::OP17-106": {
+      "priceKey": "op17-106",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-106",
+      "variantId": "OP17-106"
+    },
+    "OP17-107::OP17-107": {
+      "priceKey": "op17-107",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-107",
+      "variantId": "OP17-107"
+    },
+    "OP17-107::OP17-107_p1": {
+      "priceKey": "op17-107@パンダマン",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-107",
+      "variantId": "OP17-107_p1"
+    },
     "OP17-109::OP17-109": {
       "priceKey": "op17-109",
       "method": "image-path",
       "confirmedBy": "image-path",
       "cardNumber": "OP17-109",
       "variantId": "OP17-109"
+    },
+    "OP17-111::OP17-111": {
+      "priceKey": "op17-111",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-111",
+      "variantId": "OP17-111"
     },
     "OP17-112::OP17-112": {
       "priceKey": "op17-112",
@@ -12716,12 +13367,89 @@
       "cardNumber": "OP17-112",
       "variantId": "OP17-112"
     },
+    "OP17-112::OP17-112_p1": {
+      "priceKey": "op17-112@parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-112",
+      "variantId": "OP17-112_p1"
+    },
+    "OP17-112::OP17-112_p2": {
+      "priceKey": "op17-112@comic",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-112",
+      "variantId": "OP17-112_p2"
+    },
+    "OP17-113::OP17-113": {
+      "priceKey": "op17-113",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-113",
+      "variantId": "OP17-113"
+    },
+    "OP17-114::OP17-114": {
+      "priceKey": "op17-114",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-114",
+      "variantId": "OP17-114"
+    },
+    "OP17-114::OP17-114_p1": {
+      "priceKey": "op17-114@parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-114",
+      "variantId": "OP17-114_p1"
+    },
+    "OP17-115::OP17-115": {
+      "priceKey": "op17-115",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-115",
+      "variantId": "OP17-115"
+    },
+    "OP17-116::OP17-116": {
+      "priceKey": "op17-116",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP17-116",
+      "variantId": "OP17-116"
+    },
+    "OP17-118::OP17-118": {
+      "priceKey": "op17-118",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-118",
+      "variantId": "OP17-118"
+    },
+    "OP17-118::OP17-118_p1": {
+      "priceKey": "op17-118@parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-118",
+      "variantId": "OP17-118_p1"
+    },
+    "OP17-118::OP17-118_p2": {
+      "priceKey": "op17-118@comic+海賊団",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-118",
+      "variantId": "OP17-118_p2"
+    },
     "OP17-119::OP17-119": {
       "priceKey": "op17-119",
       "method": "image-path",
       "confirmedBy": "image-path",
       "cardNumber": "OP17-119",
       "variantId": "OP17-119"
+    },
+    "OP17-119::OP17-119_p1": {
+      "priceKey": "op17-119@parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP17-119",
+      "variantId": "OP17-119_p1"
     },
     "P-001::P-001_p1": {
       "priceKey": "p-001@parallel+promo+プレミアムカドコレクション25周年エディション",
@@ -13437,6 +14165,34 @@
       "cardNumber": "P-135",
       "variantId": "P-135"
     },
+    "P-150::P-150": {
+      "priceKey": "p-150",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "P-150",
+      "variantId": "P-150"
+    },
+    "P-151::P-151": {
+      "priceKey": "p-151",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "P-151",
+      "variantId": "P-151"
+    },
+    "P-155::P-155": {
+      "priceKey": "p-155",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "P-155",
+      "variantId": "P-155"
+    },
+    "PRB01-001::PRB01-001_p1": {
+      "priceKey": "prb01-001@leader-parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "PRB01-001",
+      "variantId": "PRB01-001_p1"
+    },
     "PRB02-001::PRB02-001": {
       "priceKey": "prb02-001",
       "method": "image-path",
@@ -13471,13 +14227,6 @@
       "confirmedBy": "image-path",
       "cardNumber": "PRB02-005",
       "variantId": "PRB02-005"
-    },
-    "PRB02-005::PRB02-005_p2": {
-      "priceKey": "prb02-005@parallel+promo+プロモションパックexvol4",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "PRB02-005",
-      "variantId": "PRB02-005_p2"
     },
     "PRB02-006::PRB02-006": {
       "priceKey": "prb02-006",
@@ -13537,8 +14286,8 @@
     },
     "PRB02-013::PRB02-013": {
       "priceKey": "prb02-013",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "PRB02-013",
       "variantId": "PRB02-013"
     },
@@ -13758,13 +14507,6 @@
       "confirmedBy": "image-path",
       "cardNumber": "ST01-012",
       "variantId": "ST01-012_p4"
-    },
-    "ST01-012::ST01-012_p7": {
-      "priceKey": "st01-012@parallel+promo+応募者全員サビス",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "ST01-012",
-      "variantId": "ST01-012_p7"
     },
     "ST01-013::ST01-013": {
       "priceKey": "st01-013",
@@ -14508,13 +15250,6 @@
       "cardNumber": "ST12-003",
       "variantId": "ST12-003"
     },
-    "ST12-003::ST12-003_p1": {
-      "priceKey": "st12-003@parallel+promo+応募者全員サビス",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "ST12-003",
-      "variantId": "ST12-003_p1"
-    },
     "ST12-009::ST12-009": {
       "priceKey": "st12-009",
       "method": "normal-variant-tags",
@@ -14804,8 +15539,8 @@
     },
     "ST14-017::ST14-017": {
       "priceKey": "st14-017",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "ST14-017",
       "variantId": "ST14-017"
     },
@@ -15355,13 +16090,6 @@
       "cardNumber": "ST23-001",
       "variantId": "ST23-001"
     },
-    "ST23-001::ST23-001_p1": {
-      "priceKey": "st23-001@parallel+promo+プロモションパックexvol4",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "ST23-001",
-      "variantId": "ST23-001_p1"
-    },
     "ST23-002::ST23-002": {
       "priceKey": "st23-002",
       "method": "image-path",
@@ -15544,13 +16272,6 @@
       "cardNumber": "ST29-009",
       "variantId": "ST29-009_p1"
     },
-    "ST29-009::ST29-009_p2": {
-      "priceKey": "st29-009@parallel+promo+プロモションパックexvol4",
-      "method": "image-path",
-      "confirmedBy": "image-path",
-      "cardNumber": "ST29-009",
-      "variantId": "ST29-009_p2"
-    },
     "ST29-010::ST29-010_p1": {
       "priceKey": "st29-010@parallel",
       "method": "image-path",
@@ -15606,6 +16327,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "ST30-001",
       "variantId": "ST30-001"
+    },
+    "ST30-001::ST30-001_p1": {
+      "priceKey": "st30-001@leader-parallel",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "ST30-001",
+      "variantId": "ST30-001_p1"
     },
     "ST30-002::ST30-002_p1": {
       "priceKey": "st30-002@parallel",
@@ -15777,29 +16505,36 @@
     },
     "ST31-005::ST31-005": {
       "priceKey": "st31-005",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "ST31-005",
       "variantId": "ST31-005"
     },
+    "ST32-001::ST32-001": {
+      "priceKey": "st32-001",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "ST32-001",
+      "variantId": "ST32-001"
+    },
     "ST32-002::ST32-002": {
       "priceKey": "st32-002",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "ST32-002",
       "variantId": "ST32-002"
     },
     "ST32-003::ST32-003": {
       "priceKey": "st32-003",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "ST32-003",
       "variantId": "ST32-003"
     },
     "ST32-005::ST32-005": {
       "priceKey": "st32-005",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "ST32-005",
       "variantId": "ST32-005"
     },
@@ -15833,15 +16568,15 @@
     },
     "ST34-003::ST34-003": {
       "priceKey": "st34-003",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "ST34-003",
       "variantId": "ST34-003"
     },
     "ST34-004::ST34-004": {
       "priceKey": "st34-004",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "ST34-004",
       "variantId": "ST34-004"
     },
