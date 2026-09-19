@@ -82,16 +82,16 @@ assert.equal(entry.pricesByShop.shopA.sourceName, 'テストカード【A表記�
 // 履歴は落とす (一覧を軽くするのが目的)
 assert.equal(entry.history, undefined);
 assert.equal(entry.pricesByShop.shopA.history, undefined);
-const indexSize = JSON.stringify(index).length;
-const sourceSize = JSON.stringify(cards).length;
-assert.ok(indexSize < sourceSize, 'インデックスは元データより小さいこと');
 
 // --- 実データがあれば、そのファイルとも突き合わせる ------------------------
 try {
-  const realCards = JSON.parse(await readFile(new URL('../data/cards.json', import.meta.url), 'utf8'));
-  const realIndex = JSON.parse(await readFile(new URL('../data/cards-index.json', import.meta.url), 'utf8'));
+  const realCardsJson = await readFile(new URL('../data/cards.json', import.meta.url), 'utf8');
+  const realIndexJson = await readFile(new URL('../data/cards-index.json', import.meta.url), 'utf8');
+  const realCards = JSON.parse(realCardsJson);
+  const realIndex = JSON.parse(realIndexJson);
   assert.equal(realIndex.length, realCards.length, 'cards-index.json の件数が cards.json と一致しません');
   assert.ok(realIndex.every(card => card.key && card.pricesByShop), 'cards-index.json の形式が壊れています');
+  assert.ok(realIndexJson.length < realCardsJson.length, '実データのインデックスは元データより小さいこと');
 } catch (error) {
   if (error.code !== 'ENOENT') throw error;
   console.log('(data/cards-index.json が無いので実データ検証はスキップ)');

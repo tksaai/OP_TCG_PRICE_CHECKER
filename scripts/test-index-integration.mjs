@@ -42,11 +42,17 @@ assert.match(appJs, /createUnmatchedExport/u);
 assert.match(appJs, /unmatchedExportToCsv/u);
 assert.match(appJs, /localStorage\.setItem\('onepieceOwnedCounts'/u);
 
-// XSS の回帰防止: ショップ由来の文字列をエスケープせずに埋め込まないこと
-assert.doesNotMatch(appJs, /\$\{c\.name\}/u, 'カード名がエスケープなしで HTML に埋め込まれています');
-assert.doesNotMatch(appJs, /\$\{c\.modelNo\}/u, '型番がエスケープなしで HTML に埋め込まれています');
-assert.doesNotMatch(appJs, /\$\{card\.name\}/u, 'カード名がエスケープなしで HTML に埋め込まれています');
-assert.doesNotMatch(appJs, /\$\{shop\.shopName\}/u, 'ショップ名がエスケープなしで HTML に埋め込まれています');
-assert.doesNotMatch(appJs, /onchange="[^"]*\$\{/u, 'HTML 属性の中で文字列を連結しています');
+// XSS の回帰防止: HTML マークアップを生成するテンプレートだけを検査する。
+// textContent や CSV のテンプレート補間は HTML として解釈されないため対象外。
+const htmlTemplates = [...appJs.matchAll(/`([\s\S]*?)`/gu)]
+  .map(match => match[1])
+  .filter(template => /<\/?[a-z][^>]*>/iu.test(template))
+  .join('\n');
+assert.ok(htmlTemplates.length > 0, '検査対象の HTML テンプレートが見つかりません');
+assert.doesNotMatch(htmlTemplates, /\$\{c\.name\}/u, 'カード名がエスケープなしで HTML に埋め込まれています');
+assert.doesNotMatch(htmlTemplates, /\$\{c\.modelNo\}/u, '型番がエスケープなしで HTML に埋め込まれています');
+assert.doesNotMatch(htmlTemplates, /\$\{card\.name\}/u, 'カード名がエスケープなしで HTML に埋め込まれています');
+assert.doesNotMatch(htmlTemplates, /\$\{shop\.shopName\}/u, 'ショップ名がエスケープなしで HTML に埋め込まれています');
+assert.doesNotMatch(htmlTemplates, /onchange="[^"]*\$\{/u, 'HTML 属性の中で文字列を連結しています');
 
 console.log('Index integration tests passed.');
