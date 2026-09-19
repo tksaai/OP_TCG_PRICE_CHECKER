@@ -42,6 +42,15 @@ assert.match(appJs, /createUnmatchedExport/u);
 assert.match(appJs, /unmatchedExportToCsv/u);
 assert.match(appJs, /localStorage\.setItem\('onepieceOwnedCounts'/u);
 
+// カード画像は左側の固定比率枠へ入れ、遅延読み込みでもレイアウトを動かさないこと
+assert.match(html, /\.card\s*\{[^}]*grid-template-columns:/su, 'カードが左右レイアウトになっていません');
+assert.match(html, /\.card-image-frame\s*\{[^}]*aspect-ratio:\s*5\s*\/\s*7/su, '画像表示領域の比率が確保されていません');
+assert.match(html, /\.card-image-frame img\s*\{[^}]*object-fit:\s*contain/su, '画像が固定枠内に収まる指定がありません');
+assert.match(appJs, /imageFrame\.className = 'card-image-frame'/u);
+assert.match(appJs, /infoDiv\.className = 'card-info'/u);
+assert.match(appJs, /img\.setAttribute\('width', '500'\)/u);
+assert.match(appJs, /img\.setAttribute\('height', '700'\)/u);
+
 // XSS の回帰防止: HTML マークアップを生成するテンプレートだけを検査する。
 // textContent や CSV のテンプレート補間は HTML として解釈されないため対象外。
 const htmlTemplates = [...appJs.matchAll(/`([\s\S]*?)`/gu)]

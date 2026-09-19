@@ -10,7 +10,7 @@
   <link rel="icon" type="image/svg+xml" href="icons/app-icon.svg">
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="theme-color" content="#2c3e50">
-  <meta name="application-version" content="2.2.0">
+  <meta name="application-version" content="2.3.0">
   <meta name="apple-mobile-web-app-title" content="ワンピ資産">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -55,10 +55,12 @@
     .series-btn { padding: 6px 12px; border: 1px solid #ccc; border-radius: 20px; background: white; cursor: pointer; font-size: 0.8em; transition: 0.2s; }
     .series-btn.active { background: #007bff; color: white; border-color: #007bff; font-weight: bold; }
     
-    #grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
-    .card { background: white; border-radius: 8px; padding: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer; text-align: center; transition: 0.2s; display: flex; flex-direction: column; position: relative;}
+    #grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 16px; }
+    .card { background: white; border-radius: 8px; padding: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer; text-align: left; transition: 0.2s; display: grid; grid-template-columns: clamp(105px, 34%, 150px) minmax(0, 1fr); gap: 12px; align-items: start; position: relative; }
     .card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
-    .card img { max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 8px; }
+    .card-image-frame { width: 100%; aspect-ratio: 5 / 7; border-radius: 6px; overflow: hidden; background: #eef1f4; box-shadow: inset 0 0 0 1px rgba(0,0,0,.06); }
+    .card-image-frame img { display: block; width: 100%; height: 100%; object-fit: contain; border-radius: inherit; }
+    .card-info { min-width: 0; align-self: stretch; display: flex; flex-direction: column; }
     
     .price-main { font-weight: bold; color: #d9534f; font-size: 1.4em; margin: 5px 0; }
     .shop-badge { display: inline-block; font-size: 0.72em; color: #fff; background: #34495e; border-radius: 4px; padding: 3px 7px; margin-bottom: 4px; }
@@ -88,7 +90,7 @@
     #pwa-update-apply { background: #1769aa; color: #fff; }
     #pwa-update-dismiss { background: #e3eaf0; color: #34495e; }
 
-    .star-btn { position: absolute; top: 10px; right: 10px; font-size: 24px; color: #ccc; cursor: pointer; text-shadow: 0 0 2px rgba(0,0,0,0.3); z-index: 10; transition: transform 0.1s;}
+    .star-btn { position: absolute; top: 16px; left: 16px; width: 30px; height: 30px; display: grid; place-items: center; border-radius: 50%; background: rgba(255,255,255,.9); font-size: 22px; line-height: 1; color: #ccc; cursor: pointer; text-shadow: 0 0 2px rgba(0,0,0,0.3); box-shadow: 0 1px 5px rgba(0,0,0,.2); z-index: 10; transition: transform 0.1s;}
     .star-btn:hover { transform: scale(1.2); }
     .star-btn.active { color: #ffd700; text-shadow: 0 0 5px rgba(255, 215, 0, 0.8); }
 
@@ -148,6 +150,9 @@
 
     @media (max-width: 640px) {
       body { padding: 10px; }
+      #grid { grid-template-columns: 1fr; gap: 12px; }
+      .card { grid-template-columns: clamp(100px, 34%, 132px) minmax(0, 1fr); gap: 10px; padding: 10px; }
+      .star-btn { top: 14px; left: 14px; }
       #controls { padding: 10px; }
       #controls select { min-width: calc(50% - 5px); }
       .search-field { flex-basis: 100%; }

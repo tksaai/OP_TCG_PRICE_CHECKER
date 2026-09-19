@@ -1,5 +1,5 @@
 const CACHE_PREFIX = 'op-tcg-price-checker';
-const APP_VERSION = '2.2.0';
+const APP_VERSION = '2.3.0';
 const SHELL_CACHE = `${CACHE_PREFIX}-shell-${APP_VERSION}`;
 const RUNTIME_CACHE = `${CACHE_PREFIX}-runtime-${APP_VERSION}`;
 const APP_SHELL = [

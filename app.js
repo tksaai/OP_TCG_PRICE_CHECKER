@@ -10,7 +10,7 @@ const DB_CATALOG_URL = 'data/db-catalog.json';
 const DB_PRICE_ALIASES_URL = 'data/db-price-aliases.json';
 const DB_VARIANT_MAP_URL = 'data/db-variant-map.json';
 const IMAGE_HASHES_URL = 'data/image-hashes.json';
-const APP_VERSION = '2.1.0';
+const APP_VERSION = '2.3.0';
 
 let chartInstance = null;
 let totalAssetChartInstance = null;
@@ -1018,14 +1018,21 @@ function filterAndRender() {
     // 3. 画像を作成（★ここで no-referrer を設定）
     const img = document.createElement('img');
     img.setAttribute('loading', 'lazy');
+    img.setAttribute('decoding', 'async');
     img.setAttribute('referrerpolicy', 'no-referrer');
+    img.setAttribute('width', '500');
+    img.setAttribute('height', '700');
     const imageId = getActiveImage(c);
     // 画像 URL はショップのものをそのまま使う (未設定なら読み込ませない)
     if (imageId) img.src = imageId;
     img.alt = c.name || c.modelNo || '';
+    const imageFrame = document.createElement('div');
+    imageFrame.className = 'card-image-frame';
+    imageFrame.appendChild(img);
     
     // 4. 情報部分のdivを作成（innerHTML += によるバグを防ぐ）
     const infoDiv = document.createElement('div');
+    infoDiv.className = 'card-info';
     infoDiv.innerHTML = `
       <div class="card-name">${escapeHtml(c.name)}</div>
       <div class="card-model">${escapeHtml(c.modelNo)}</div>
@@ -1064,7 +1071,7 @@ function filterAndRender() {
     
     // 5. 全てを安全に合体させる
     div.appendChild(star); 
-    div.appendChild(img); 
+    div.appendChild(imageFrame);
     div.appendChild(infoDiv);
     
     grid.appendChild(div);
