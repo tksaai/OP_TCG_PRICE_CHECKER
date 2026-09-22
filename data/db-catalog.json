@@ -1,12 +1,12 @@
 {
   "format": "op-tcg-db-catalog",
   "version": 1,
-  "generatedAt": "2026-09-21T15:57:09.515Z",
-  "syncedAt": "2026-09-22T11:29:42.855Z",
+  "generatedAt": "2026-09-22T14:05:19.813Z",
+  "syncedAt": "2026-09-22T21:13:39.915Z",
   "sourceCounts": {
     "cards": 2823,
     "manifestCards": 2823,
-    "provisionalCards": 42
+    "provisionalCards": 46
   },
   "variants": [
     {
@@ -7549,6 +7549,24 @@
       "provisionalUniqueId": "EB05-007_EB05-007.png"
     },
     {
+      "variantKey": "EB05-009::EB05-009",
+      "cardNumber": "EB05-009",
+      "cardName": "私と一緒に死んで!!!",
+      "variantId": "EB05-009",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: エクストラブースター ONE PIECE Heroines Edition vol.2",
+      "getInfo": "エクストラブースター ONE PIECE Heroines Edition vol.2【EB-05】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/EB05-009.png",
+      "path": "CardsWebP/Provisional/EB05/EB05-009_EB05-009.webp",
+      "fallbackPath": "CardsWebP/Provisional/EB05/EB05-009_EB05-009.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "EB05-009_EB05-009.png"
+    },
+    {
       "variantKey": "EB05-010::EB05-010",
       "cardNumber": "EB05-010",
       "cardName": "ニコ・ロビン",
@@ -7637,6 +7655,24 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "EB05-017_EB05-017.png"
+    },
+    {
+      "variantKey": "EB05-020::EB05-020",
+      "cardNumber": "EB05-020",
+      "cardName": "しらほしと申します!!",
+      "variantId": "EB05-020",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: エクストラブースター ONE PIECE Heroines Edition vol.2",
+      "getInfo": "エクストラブースター ONE PIECE Heroines Edition vol.2【EB-05】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/EB05-020.png",
+      "path": "CardsWebP/Provisional/EB05/EB05-020_EB05-020.webp",
+      "fallbackPath": "CardsWebP/Provisional/EB05/EB05-020_EB05-020.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "EB05-020_EB05-020.png"
     },
     {
       "variantKey": "EB05-022::EB05-022",
@@ -7961,6 +7997,24 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "EB05-057_EB05-057.png"
+    },
+    {
+      "variantKey": "EB05-060::EB05-060",
+      "cardNumber": "EB05-060",
+      "cardName": "「リリス」を頼む！！！",
+      "variantId": "EB05-060",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: エクストラブースター ONE PIECE Heroines Edition vol.2",
+      "getInfo": "エクストラブースター ONE PIECE Heroines Edition vol.2【EB-05】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/EB05-060.png",
+      "path": "CardsWebP/Provisional/EB05/EB05-060_EB05-060.webp",
+      "fallbackPath": "CardsWebP/Provisional/EB05/EB05-060_EB05-060.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "EB05-060_EB05-060.png"
     },
     {
       "variantKey": "OP01-001::OP01-001",
@@ -75965,6 +76019,24 @@
       "provisionalUniqueId": null
     },
     {
+      "variantKey": "OP18-003::OP18-003",
+      "cardNumber": "OP18-003",
+      "cardName": "海ネコ",
+      "variantId": "OP18-003",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-003.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-003_OP18-003.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-003_OP18-003.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-003_OP18-003.png"
+    },
+    {
       "variantKey": "OP18-021::OP18-021",
       "cardNumber": "OP18-021",
       "cardName": "フランキー",
@@ -75974,7 +76046,7 @@
       "label": "仮DB: ブースターパック 神の支配",
       "getInfo": "ブースターパック 神の支配【OP-18】",
       "source": "provisional",
-      "sourceUrl": "https://www.mercardop.jp/data/mercardop/product/info/OP18-021L.png",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-021L.png",
       "path": "CardsWebP/Provisional/OP18/OP18-021_OP18-021L.webp",
       "fallbackPath": "CardsWebP/Provisional/OP18/OP18-021_OP18-021L.webp",
       "imageHash": null,
@@ -75992,7 +76064,7 @@
       "label": "仮DB: ブースターパック 神の支配",
       "getInfo": "ブースターパック 神の支配【OP-18】",
       "source": "provisional",
-      "sourceUrl": "https://www.mercardop.jp/data/mercardop/product/info/OP18-060L.png",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-060L.png",
       "path": "CardsWebP/Provisional/OP18/OP18-060_OP18-060L.webp",
       "fallbackPath": "CardsWebP/Provisional/OP18/OP18-060_OP18-060L.webp",
       "imageHash": null,
@@ -76010,7 +76082,7 @@
       "label": "仮DB: ブースターパック 神の支配",
       "getInfo": "ブースターパック 神の支配【OP-18】",
       "source": "provisional",
-      "sourceUrl": "https://www.mercardop.jp/data/mercardop/product/info/OP18-078.png",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-078.png",
       "path": "CardsWebP/Provisional/OP18/OP18-078_OP18-078.webp",
       "fallbackPath": "CardsWebP/Provisional/OP18/OP18-078_OP18-078.webp",
       "imageHash": null,

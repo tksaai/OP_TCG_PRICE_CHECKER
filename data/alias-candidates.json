@@ -9081,8 +9081,8 @@
     "canonicalName": "ペローナ【SR】《緑》",
     "modelCode": "OP12-034",
     "signature": "base",
-    "candidateScore": 76,
-    "confidence": 76,
+    "candidateScore": 75,
+    "confidence": 75,
     "nameScore": 20,
     "imageScore": null,
     "imageStats": {
@@ -9094,15 +9094,15 @@
       "totalRecords": 4
     },
     "priceStats": {
-      "min": 1100,
+      "min": 700,
       "max": 8000,
-      "ratio": 7.3
+      "ratio": 11.4
     },
     "maxPrice": 8000,
     "riskLevel": "high",
     "warnings": [
       "同一店舗の複数商品を含む（cardrush 2件）",
-      "価格差 約7.3倍（価格は参考情報）",
+      "価格差 約11.4倍（価格は参考情報）",
       "店舗間の画像比較データなし"
     ],
     "duplicateShops": [
@@ -9138,17 +9138,6 @@
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP12-034.png"
       },
       {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op12-034",
-        "identityKey": "op12-034",
-        "name": "ペローナ【SR】《緑》",
-        "modelNo": "OP12-034",
-        "tags": [],
-        "latestPrice": 1400,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP12/034.png"
-      },
-      {
         "shopId": "cardrush",
         "shopName": "カードラッシュ",
         "sourceKey": "op12-034",
@@ -9158,6 +9147,17 @@
         "tags": [],
         "latestPrice": 1100,
         "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/8195.webp"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op12-034",
+        "identityKey": "op12-034",
+        "name": "ペローナ【SR】《緑》",
+        "modelNo": "OP12-034",
+        "tags": [],
+        "latestPrice": 700,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP12/034.png"
       }
     ]
   },
@@ -41815,79 +41815,6 @@
     ]
   },
   {
-    "candidateId": "candidate_OP12-034_parallel",
-    "suggestedCanonicalId": "OP12-034_PARALLEL",
-    "canonicalName": "ペローナ【パラレル】《緑》",
-    "modelCode": "OP12-034",
-    "signature": "parallel",
-    "candidateScore": 80,
-    "confidence": 80,
-    "nameScore": 24,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 3800,
-      "max": 5000,
-      "ratio": 1.3
-    },
-    "maxPrice": 5000,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op12-034@parallel",
-        "identityKey": "op12-034@parallel",
-        "name": "ペローナ 【SR】【パラレル】【緑】【OP12-034】",
-        "modelNo": "OP12-034",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 5000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP12-034_p1.png"
-      },
-      {
-        "shopId": "cardrush",
-        "shopName": "カードラッシュ",
-        "sourceKey": "op12-034@illust:sacanahen+parallel",
-        "identityKey": "op12-034@illust:sacanahen+parallel",
-        "name": "ペローナ(パラレル/illust:sacanahen)",
-        "modelNo": "OP12-034",
-        "tags": [
-          "illust:sacanahen",
-          "parallel"
-        ],
-        "latestPrice": 5000,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/8310.webp"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op12-034@parallel",
-        "identityKey": "op12-034@parallel",
-        "name": "ペローナ【パラレル】《緑》",
-        "modelNo": "OP12-034",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 3800,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP12/134.png"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_OP07-118_parallel_sp",
     "suggestedCanonicalId": "OP07-118_PARALLEL_SP",
     "canonicalName": "サボ【SPパラレル】《黒》",
@@ -41962,6 +41889,79 @@
         ],
         "latestPrice": 4000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP13/17.png"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_OP12-034_parallel",
+    "suggestedCanonicalId": "OP12-034_PARALLEL",
+    "canonicalName": "ペローナ【パラレル】《緑》",
+    "modelCode": "OP12-034",
+    "signature": "parallel",
+    "candidateScore": 78,
+    "confidence": 78,
+    "nameScore": 24,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 2500,
+      "max": 5000,
+      "ratio": 2
+    },
+    "maxPrice": 5000,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op12-034@parallel",
+        "identityKey": "op12-034@parallel",
+        "name": "ペローナ 【SR】【パラレル】【緑】【OP12-034】",
+        "modelNo": "OP12-034",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 5000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP12-034_p1.png"
+      },
+      {
+        "shopId": "cardrush",
+        "shopName": "カードラッシュ",
+        "sourceKey": "op12-034@illust:sacanahen+parallel",
+        "identityKey": "op12-034@illust:sacanahen+parallel",
+        "name": "ペローナ(パラレル/illust:sacanahen)",
+        "modelNo": "OP12-034",
+        "tags": [
+          "illust:sacanahen",
+          "parallel"
+        ],
+        "latestPrice": 5000,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/8310.webp"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op12-034@parallel",
+        "identityKey": "op12-034@parallel",
+        "name": "ペローナ【パラレル】《緑》",
+        "modelNo": "OP12-034",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 2500,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP12/134.png"
       }
     ]
   },
@@ -47981,7 +47981,7 @@
         "tags": [
           "parallel"
         ],
-        "latestPrice": 1800,
+        "latestPrice": 800,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240222_0691ba.jpg"
       },
       {
@@ -51425,9 +51425,9 @@
       "totalRecords": 3
     },
     "priceStats": {
-      "min": 1000,
+      "min": 800,
       "max": 1100,
-      "ratio": 1.1
+      "ratio": 1.4
     },
     "maxPrice": 1100,
     "riskLevel": "low",
@@ -51474,7 +51474,7 @@
         "tags": [
           "parallel"
         ],
-        "latestPrice": 1000,
+        "latestPrice": 800,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240222_ffffb3.jpg"
       }
     ]
@@ -51823,7 +51823,7 @@
         "tags": [
           "ギャルディノ"
         ],
-        "latestPrice": 250,
+        "latestPrice": 300,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP16/56.png"
       },
       {
@@ -55709,67 +55709,6 @@
     ]
   },
   {
-    "candidateId": "candidate_P-094_promo",
-    "suggestedCanonicalId": "P-094_PROMO",
-    "canonicalName": "ロロノア・ゾロ【プロモ】《緑》",
-    "modelCode": "P-094",
-    "signature": "promo",
-    "candidateScore": 70,
-    "confidence": 70,
-    "nameScore": 23,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 2
-    },
-    "priceStats": {
-      "min": 700,
-      "max": 800,
-      "ratio": 1.1
-    },
-    "maxPrice": 800,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-094@promo+vジャンプ",
-        "identityKey": "p-094@promo+vジャンプ",
-        "name": "ロロノア・ゾロ 【P】【プロモ】【Vジャンプ】【緑】【P-094】",
-        "modelNo": "P-094",
-        "tags": [
-          "promo",
-          "vジャンプ"
-        ],
-        "latestPrice": 800,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-094.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-094@2025年vジャンプ7月特大号+promo",
-        "identityKey": "p-094@2025年vジャンプ7月特大号+promo",
-        "name": "ロロノア・ゾロ【プロモ】《緑》",
-        "modelNo": "2025年Vジャンプ7月特大号P-094",
-        "tags": [
-          "2025年vジャンプ7月特大号",
-          "promo"
-        ],
-        "latestPrice": 700,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250517_ff3756.png"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_P-108_promo",
     "suggestedCanonicalId": "P-108_PROMO",
     "canonicalName": "モンキー・D・ルフィ【プロモ】《緑》",
@@ -55945,6 +55884,67 @@
         "tags": [],
         "latestPrice": 1,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP02/4.jpg"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_P-094_promo",
+    "suggestedCanonicalId": "P-094_PROMO",
+    "canonicalName": "ロロノア・ゾロ【プロモ】《緑》",
+    "modelCode": "P-094",
+    "signature": "promo",
+    "candidateScore": 68,
+    "confidence": 68,
+    "nameScore": 23,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 2
+    },
+    "priceStats": {
+      "min": 400,
+      "max": 800,
+      "ratio": 2
+    },
+    "maxPrice": 800,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-094@promo+vジャンプ",
+        "identityKey": "p-094@promo+vジャンプ",
+        "name": "ロロノア・ゾロ 【P】【プロモ】【Vジャンプ】【緑】【P-094】",
+        "modelNo": "P-094",
+        "tags": [
+          "promo",
+          "vジャンプ"
+        ],
+        "latestPrice": 800,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-094.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-094@2025年vジャンプ7月特大号+promo",
+        "identityKey": "p-094@2025年vジャンプ7月特大号+promo",
+        "name": "ロロノア・ゾロ【プロモ】《緑》",
+        "modelNo": "2025年Vジャンプ7月特大号P-094",
+        "tags": [
+          "2025年vジャンプ7月特大号",
+          "promo"
+        ],
+        "latestPrice": 400,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250517_ff3756.png"
       }
     ]
   },
