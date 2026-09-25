@@ -1,7 +1,7 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-09-24T21:27:27.437Z",
+  "generatedAt": "2026-09-25T11:44:33.135Z",
   "catalogGeneratedAt": "2026-09-24T14:06:43.601Z",
   "mappings": {
     "EB01-001::EB01-001": {
@@ -12977,8 +12977,8 @@
     },
     "OP17-050::OP17-050": {
       "priceKey": "op17-050",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP17-050",
       "variantId": "OP17-050"
     },
