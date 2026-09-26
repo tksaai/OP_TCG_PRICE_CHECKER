@@ -24005,88 +24005,6 @@
     ]
   },
   {
-    "candidateId": "candidate_P-016_promo",
-    "suggestedCanonicalId": "P-016_PROMO",
-    "canonicalName": "シャンクス【プロモ】《赤》",
-    "modelCode": "P-016",
-    "signature": "promo",
-    "candidateScore": 66,
-    "confidence": 66,
-    "nameScore": 21,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 10,
-      "max": 200,
-      "ratio": 20
-    },
-    "maxPrice": 200,
-    "riskLevel": "high",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "価格差 約20倍（価格は参考情報）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-016@promo+プレミアムカドコレクションfilmred",
-        "identityKey": "p-016@promo+プレミアムカドコレクションfilmred",
-        "name": "シャンクス 【プロモ】【プレミアムカードコレクション FILM RED】【赤】【P-016】",
-        "modelNo": "P-016",
-        "tags": [
-          "promo",
-          "プレミアムカドコレクションfilmred"
-        ],
-        "latestPrice": 200,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-016_p2.jpeg"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-016@promo+チュトリアルデッキ封入",
-        "identityKey": "p-016@promo+チュトリアルデッキ封入",
-        "name": "シャンクス【プロモ】《赤》",
-        "modelNo": "チュートリアルデッキ封入P-016",
-        "tags": [
-          "promo",
-          "チュトリアルデッキ封入"
-        ],
-        "latestPrice": 30,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20220916_703a49.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-016@promo+フィナレセット",
-        "identityKey": "p-016@promo+フィナレセット",
-        "name": "シャンクス【プロモ】《赤》",
-        "modelNo": "フィナーレセット版P-016",
-        "tags": [
-          "promo",
-          "フィナレセット"
-        ],
-        "latestPrice": 10,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20231009_e92ea0.png"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_P-078_promo",
     "suggestedCanonicalId": "P-078_PROMO",
     "canonicalName": "アディオ【プロモ】《緑》",
@@ -25744,6 +25662,88 @@
         "tags": [],
         "latestPrice": 10,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP13/OP13-086.png"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_P-016_promo",
+    "suggestedCanonicalId": "P-016_PROMO",
+    "canonicalName": "シャンクス【プロモ】《赤》",
+    "modelCode": "P-016",
+    "signature": "promo",
+    "candidateScore": 66,
+    "confidence": 66,
+    "nameScore": 21,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 10,
+      "max": 100,
+      "ratio": 10
+    },
+    "maxPrice": 100,
+    "riskLevel": "high",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件）",
+      "価格差 約10倍（価格は参考情報）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-016@promo+プレミアムカドコレクションfilmred",
+        "identityKey": "p-016@promo+プレミアムカドコレクションfilmred",
+        "name": "シャンクス 【プロモ】【プレミアムカードコレクション FILM RED】【赤】【P-016】",
+        "modelNo": "P-016",
+        "tags": [
+          "promo",
+          "プレミアムカドコレクションfilmred"
+        ],
+        "latestPrice": 100,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-016_p2.jpeg"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-016@promo+チュトリアルデッキ封入",
+        "identityKey": "p-016@promo+チュトリアルデッキ封入",
+        "name": "シャンクス【プロモ】《赤》",
+        "modelNo": "チュートリアルデッキ封入P-016",
+        "tags": [
+          "promo",
+          "チュトリアルデッキ封入"
+        ],
+        "latestPrice": 30,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20220916_703a49.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-016@promo+フィナレセット",
+        "identityKey": "p-016@promo+フィナレセット",
+        "name": "シャンクス【プロモ】《赤》",
+        "modelNo": "フィナーレセット版P-016",
+        "tags": [
+          "promo",
+          "フィナレセット"
+        ],
+        "latestPrice": 10,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20231009_e92ea0.png"
       }
     ]
   },
@@ -65522,9 +65522,9 @@
       "totalRecords": 3
     },
     "priceStats": {
-      "min": 350,
+      "min": 300,
       "max": 500,
-      "ratio": 1.4
+      "ratio": 1.7
     },
     "maxPrice": 500,
     "riskLevel": "low",
@@ -65549,19 +65549,6 @@
         "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/2472.webp"
       },
       {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op06-081@parallel",
-        "identityKey": "op06-081@parallel",
-        "name": "アブサロム 【R】【パラレル】【黒】【OP06-081】",
-        "modelNo": "OP06-081",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 500,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP06-081_p1.jpeg"
-      },
-      {
         "shopId": "mercard",
         "shopName": "メルカード",
         "sourceKey": "op06-081@parallel",
@@ -65573,6 +65560,19 @@
         ],
         "latestPrice": 350,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20231124_bf54cd.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op06-081@parallel",
+        "identityKey": "op06-081@parallel",
+        "name": "アブサロム 【R】【パラレル】【黒】【OP06-081】",
+        "modelNo": "OP06-081",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 300,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP06-081_p1.jpeg"
       }
     ]
   },
