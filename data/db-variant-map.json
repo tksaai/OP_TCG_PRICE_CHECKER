@@ -1,8 +1,8 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-09-26T21:03:48.267Z",
-  "catalogGeneratedAt": "2026-09-26T13:39:38.144Z",
+  "generatedAt": "2026-09-27T21:17:17.124Z",
+  "catalogGeneratedAt": "2026-09-27T14:36:22.719Z",
   "mappings": {
     "EB01-001::EB01-001": {
       "priceKey": "eb01-001",
@@ -1229,6 +1229,13 @@
       "cardNumber": "EB04-008",
       "variantId": "EB04-008"
     },
+    "EB04-011::EB04-011": {
+      "priceKey": "eb04-011",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB04-011",
+      "variantId": "EB04-011"
+    },
     "EB04-012::EB04-012": {
       "priceKey": "eb04-012",
       "method": "normal-variant-tags",
@@ -1263,6 +1270,13 @@
       "confirmedBy": "variant-tags",
       "cardNumber": "EB04-015",
       "variantId": "EB04-015"
+    },
+    "EB04-016::EB04-016": {
+      "priceKey": "eb04-016",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB04-016",
+      "variantId": "EB04-016"
     },
     "EB04-018::EB04-018": {
       "priceKey": "eb04-018",
@@ -10401,8 +10415,8 @@
     },
     "OP14-011::OP14-011": {
       "priceKey": "op14-011",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP14-011",
       "variantId": "OP14-011"
     },
