@@ -1,12 +1,12 @@
 {
   "format": "op-tcg-db-catalog",
   "version": 1,
-  "generatedAt": "2026-09-30T08:04:44.111Z",
-  "syncedAt": "2026-09-30T12:27:51.115Z",
+  "generatedAt": "2026-09-30T15:59:32.477Z",
+  "syncedAt": "2026-09-30T22:10:33.989Z",
   "sourceCounts": {
     "cards": 2824,
     "manifestCards": 2824,
-    "provisionalCards": 67
+    "provisionalCards": 73
   },
   "variants": [
     {
@@ -76289,6 +76289,24 @@
       "provisionalUniqueId": null
     },
     {
+      "variantKey": "OP18-001::OP18-001",
+      "cardNumber": "OP18-001",
+      "cardName": "カルー",
+      "variantId": "OP18-001",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-001.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-001_OP18-001.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-001_OP18-001.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-001_OP18-001.png"
+    },
+    {
       "variantKey": "OP18-003::OP18-003",
       "cardNumber": "OP18-003",
       "cardName": "海ネコ",
@@ -76343,6 +76361,42 @@
       "provisionalUniqueId": "OP18-021_OP18-021L.png"
     },
     {
+      "variantKey": "OP18-022::OP18-022",
+      "cardNumber": "OP18-022",
+      "cardName": "モンキー・D・ルフィ",
+      "variantId": "OP18-022",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-022.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-022_OP18-022.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-022_OP18-022.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-022_OP18-022.png"
+    },
+    {
+      "variantKey": "OP18-025::OP18-025",
+      "cardNumber": "OP18-025",
+      "cardName": "ゴンべ",
+      "variantId": "OP18-025",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-025.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-025_OP18-025.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-025_OP18-025.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-025_OP18-025.png"
+    },
+    {
       "variantKey": "OP18-028::OP18-028",
       "cardNumber": "OP18-028",
       "cardName": "チムニー",
@@ -76359,6 +76413,42 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "OP18-028_OP18-028.png"
+    },
+    {
+      "variantKey": "OP18-041::OP18-041",
+      "cardNumber": "OP18-041",
+      "cardName": "ミス・オールサンデー",
+      "variantId": "OP18-041",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-041.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-041_OP18-041.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-041_OP18-041.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-041_OP18-041.png"
+    },
+    {
+      "variantKey": "OP18-044::OP18-044",
+      "cardNumber": "OP18-044",
+      "cardName": "Mr.ビーンズ&ミス・キャサリーナ",
+      "variantId": "OP18-044",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-044.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-044_OP18-044.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-044_OP18-044.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-044_OP18-044.png"
     },
     {
       "variantKey": "OP18-056::OP18-056",
@@ -76431,6 +76521,24 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "OP18-078_OP18-078.png"
+    },
+    {
+      "variantKey": "OP18-080::OP18-080",
+      "cardNumber": "OP18-080",
+      "cardName": "スパンダム",
+      "variantId": "OP18-080",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-080L.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-080_OP18-080L.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-080_OP18-080L.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-080_OP18-080L.png"
     },
     {
       "variantKey": "OP18-086::OP18-086",
