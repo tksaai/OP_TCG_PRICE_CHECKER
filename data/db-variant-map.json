@@ -1,7 +1,7 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-09-30T22:10:34.198Z",
+  "generatedAt": "2026-10-01T13:04:35.454Z",
   "catalogGeneratedAt": "2026-09-30T15:59:32.477Z",
   "mappings": {
     "EB01-001::EB01-001": {
@@ -15812,8 +15812,8 @@
     },
     "ST21-001::ST21-001": {
       "priceKey": "st21-001",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "ST21-001",
       "variantId": "ST21-001"
     },
