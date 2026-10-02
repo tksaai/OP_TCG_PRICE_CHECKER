@@ -1,7 +1,7 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-10-02T12:25:20.032Z",
+  "generatedAt": "2026-10-02T22:07:59.048Z",
   "catalogGeneratedAt": "2026-09-30T15:59:32.477Z",
   "mappings": {
     "EB01-001::EB01-001": {
@@ -8572,6 +8572,13 @@
       "cardNumber": "OP11-021",
       "variantId": "OP11-021_p1"
     },
+    "OP11-022::OP11-022": {
+      "priceKey": "op11-022",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP11-022",
+      "variantId": "OP11-022"
+    },
     "OP11-022::OP11-022_p1": {
       "priceKey": "op11-022@leader-parallel",
       "method": "image-path",
@@ -9699,6 +9706,13 @@
       "cardNumber": "OP13-007",
       "variantId": "OP13-007_p1"
     },
+    "OP13-011::OP13-011": {
+      "priceKey": "op13-011",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP13-011",
+      "variantId": "OP13-011"
+    },
     "OP13-012::OP13-012": {
       "priceKey": "op13-012",
       "method": "image-path",
@@ -9978,6 +9992,13 @@
       "confirmedBy": "variant-tags",
       "cardNumber": "OP13-067",
       "variantId": "OP13-067"
+    },
+    "OP13-072::OP13-072": {
+      "priceKey": "op13-072",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP13-072",
+      "variantId": "OP13-072"
     },
     "OP13-072::OP13-072_p1": {
       "priceKey": "op13-072@parallel+プレミアムカドコレクションベストセレクションvol6",
