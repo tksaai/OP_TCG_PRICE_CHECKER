@@ -1,7 +1,7 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-10-03T11:35:08.773Z",
+  "generatedAt": "2026-10-03T21:09:23.692Z",
   "catalogGeneratedAt": "2026-09-30T15:59:32.477Z",
   "mappings": {
     "EB01-001::EB01-001": {
@@ -10492,8 +10492,8 @@
     },
     "OP14-016::OP14-016": {
       "priceKey": "op14-016",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP14-016",
       "variantId": "OP14-016"
     },
