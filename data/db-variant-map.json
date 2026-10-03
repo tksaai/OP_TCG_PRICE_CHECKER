@@ -1,7 +1,7 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-10-02T22:07:59.048Z",
+  "generatedAt": "2026-10-03T11:35:08.773Z",
   "catalogGeneratedAt": "2026-09-30T15:59:32.477Z",
   "mappings": {
     "EB01-001::EB01-001": {
@@ -12456,6 +12456,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP16-092",
       "variantId": "OP16-092"
+    },
+    "OP16-092::OP16-092_p1": {
+      "priceKey": "op16-092@parallel+promo+スタンダドバトル",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP16-092",
+      "variantId": "OP16-092_p1"
     },
     "OP16-094::OP16-094": {
       "priceKey": "op16-094",

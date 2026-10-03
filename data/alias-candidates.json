@@ -1907,7 +1907,7 @@
           "promo",
           "プロモションカドセット"
         ],
-        "latestPrice": 8000,
+        "latestPrice": 10000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20231111_5aa212.png"
       },
       {
@@ -17166,7 +17166,7 @@
         "tags": [
           "parallel"
         ],
-        "latestPrice": 1300,
+        "latestPrice": 1200,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/ST21/20.png"
       },
       {
@@ -28517,8 +28517,8 @@
     "canonicalName": "モンキー・D・ルフィ 【プロモ】《赤》未開封",
     "modelCode": "ST10-006",
     "signature": "cs+unopened",
-    "candidateScore": 76,
-    "confidence": 76,
+    "candidateScore": 77,
+    "confidence": 77,
     "nameScore": 14,
     "imageScore": 98,
     "imageStats": {
@@ -28530,9 +28530,9 @@
       "totalRecords": 6
     },
     "priceStats": {
-      "min": 900000,
+      "min": 1000000,
       "max": 1700000,
-      "ratio": 1.9
+      "ratio": 1.7
     },
     "maxPrice": 1700000,
     "riskLevel": "medium",
@@ -28612,20 +28612,6 @@
         "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/1079.webp"
       },
       {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "st10-006@cs+unopened",
-        "identityKey": "st10-006@cs+unopened",
-        "name": "モンキー・D・ルフィ 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【赤】【ST10-006】",
-        "modelNo": "チャンピオンシップ版ST10-006",
-        "tags": [
-          "cs",
-          "unopened"
-        ],
-        "latestPrice": 1200000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST10-006_p2.jpeg"
-      },
-      {
         "shopId": "mercard",
         "shopName": "メルカード",
         "sourceKey": "st10-006@cs+unopened",
@@ -28636,8 +28622,22 @@
           "cs",
           "unopened"
         ],
-        "latestPrice": 900000,
+        "latestPrice": 1100000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20231204_786a59.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "st10-006@cs+unopened",
+        "identityKey": "st10-006@cs+unopened",
+        "name": "モンキー・D・ルフィ 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【赤】【ST10-006】",
+        "modelNo": "チャンピオンシップ版ST10-006",
+        "tags": [
+          "cs",
+          "unopened"
+        ],
+        "latestPrice": 1000000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST10-006_p2.jpeg"
       }
     ]
   },
@@ -28743,20 +28743,6 @@
         "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/1080.webp"
       },
       {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "st10-010@cs+unopened",
-        "identityKey": "st10-010@cs+unopened",
-        "name": "トラファルガー・ロー 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【紫】【ST10-010】",
-        "modelNo": "チャンピオンシップ版ST10-010",
-        "tags": [
-          "cs",
-          "unopened"
-        ],
-        "latestPrice": 450000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST10-010_p2.jpeg"
-      },
-      {
         "shopId": "mercard",
         "shopName": "メルカード",
         "sourceKey": "st10-010@cs+unopened",
@@ -28769,6 +28755,20 @@
         ],
         "latestPrice": 350000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20231015_95fb8d.jpg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "st10-010@cs+unopened",
+        "identityKey": "st10-010@cs+unopened",
+        "name": "トラファルガー・ロー 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【紫】【ST10-010】",
+        "modelNo": "チャンピオンシップ版ST10-010",
+        "tags": [
+          "cs",
+          "unopened"
+        ],
+        "latestPrice": 350000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST10-010_p2.jpeg"
       }
     ]
   },
@@ -28856,20 +28856,6 @@
         "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/6847.webp"
       },
       {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op05-091@cs+unopened",
-        "identityKey": "op05-091@cs+unopened",
-        "name": "レベッカ 【SR】【パラレル】【プロモ】【チャンピオンシップ】【黒】【OP05-091】【未開封】",
-        "modelNo": "チャンピオンシップ版OP05-091",
-        "tags": [
-          "cs",
-          "unopened"
-        ],
-        "latestPrice": 550000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP05-091.png"
-      },
-      {
         "shopId": "mercard",
         "shopName": "メルカード",
         "sourceKey": "op05-091@cs+unopened",
@@ -28882,6 +28868,20 @@
         ],
         "latestPrice": 350000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20241218_84046c.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op05-091@cs+unopened",
+        "identityKey": "op05-091@cs+unopened",
+        "name": "レベッカ 【SR】【パラレル】【プロモ】【チャンピオンシップ】【黒】【OP05-091】【未開封】",
+        "modelNo": "チャンピオンシップ版OP05-091",
+        "tags": [
+          "cs",
+          "unopened"
+        ],
+        "latestPrice": 350000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP05-091.png"
       }
     ]
   },
@@ -29042,7 +29042,7 @@
     "maxPrice": 550000,
     "riskLevel": "medium",
     "warnings": [
-      "同一店舗の複数商品を含む（cardrush 2件、torecard 2件、mercard 2件）",
+      "同一店舗の複数商品を含む（cardrush 2件、mercard 2件、torecard 2件）",
       "店舗間の画像比較データなし"
     ],
     "duplicateShops": [
@@ -29051,11 +29051,11 @@
         "count": 2
       },
       {
-        "shopId": "torecard",
+        "shopId": "mercard",
         "count": 2
       },
       {
-        "shopId": "mercard",
+        "shopId": "torecard",
         "count": 2
       }
     ],
@@ -29074,20 +29074,6 @@
         ],
         "latestPrice": 550000,
         "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/983.webp"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op02-114@cs+unopened",
-        "identityKey": "op02-114@cs+unopened",
-        "name": "ボルサリーノ 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【OP02-114】",
-        "modelNo": "チャンピオンシップ版OP02-114",
-        "tags": [
-          "cs",
-          "unopened"
-        ],
-        "latestPrice": 450000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP02-114_p3.jpeg"
       },
       {
         "shopId": "cardrush",
@@ -29116,6 +29102,20 @@
         ],
         "latestPrice": 420000,
         "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20230515_38f627.jpg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op02-114@cs+unopened",
+        "identityKey": "op02-114@cs+unopened",
+        "name": "ボルサリーノ 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【黒】【OP02-114】",
+        "modelNo": "チャンピオンシップ版OP02-114",
+        "tags": [
+          "cs",
+          "unopened"
+        ],
+        "latestPrice": 400000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP02-114_p3.jpeg"
       },
       {
         "shopId": "torecard",
@@ -29241,7 +29241,7 @@
           "cs",
           "unopened"
         ],
-        "latestPrice": 300000,
+        "latestPrice": 230000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP05-086_p1.jpeg"
       },
       {
@@ -29362,20 +29362,6 @@
         "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20231015_8a1f3b.jpg"
       },
       {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "st10-013@cs+unopened",
-        "identityKey": "st10-013@cs+unopened",
-        "name": "ユースタス・キッド 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【紫】【ST10-013】",
-        "modelNo": "チャンピオンシップ版ST10-013",
-        "tags": [
-          "cs",
-          "unopened"
-        ],
-        "latestPrice": 200000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST10-013_p2.jpeg"
-      },
-      {
         "shopId": "mercard",
         "shopName": "メルカード",
         "sourceKey": "st10-013@cs+unopened",
@@ -29388,6 +29374,20 @@
         ],
         "latestPrice": 150000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20231015_8a1f3b.jpg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "st10-013@cs+unopened",
+        "identityKey": "st10-013@cs+unopened",
+        "name": "ユースタス・キッド 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【紫】【ST10-013】",
+        "modelNo": "チャンピオンシップ版ST10-013",
+        "tags": [
+          "cs",
+          "unopened"
+        ],
+        "latestPrice": 150000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST10-013_p2.jpeg"
       }
     ]
   },
@@ -29493,20 +29493,6 @@
         "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20240406_f85807.png"
       },
       {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op03-123@cs+unopened",
-        "identityKey": "op03-123@cs+unopened",
-        "name": "シャーロット・カタクリ 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【OP03-123】",
-        "modelNo": "チャンピオンシップ版OP03-123",
-        "tags": [
-          "cs",
-          "unopened"
-        ],
-        "latestPrice": 170000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP03-123_p2.jpeg"
-      },
-      {
         "shopId": "mercard",
         "shopName": "メルカード",
         "sourceKey": "op03-123@cs+unopened",
@@ -29519,6 +29505,20 @@
         ],
         "latestPrice": 150000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240406_f85807.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op03-123@cs+unopened",
+        "identityKey": "op03-123@cs+unopened",
+        "name": "シャーロット・カタクリ 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【OP03-123】",
+        "modelNo": "チャンピオンシップ版OP03-123",
+        "tags": [
+          "cs",
+          "unopened"
+        ],
+        "latestPrice": 150000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP03-123_p2.jpeg"
       }
     ]
   },
@@ -29606,20 +29606,6 @@
         "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20240914_26d6d6.png"
       },
       {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op03-116@cs+unopened",
-        "identityKey": "op03-116@cs+unopened",
-        "name": "しらほし 【UC】【パラレル】【プロモ】【チャンピオンシップ】【黄】【OP03-116】【未開封】",
-        "modelNo": "チャンピオンシップ版OP03-116",
-        "tags": [
-          "cs",
-          "unopened"
-        ],
-        "latestPrice": 170000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP03-116_p5.jpeg"
-      },
-      {
         "shopId": "mercard",
         "shopName": "メルカード",
         "sourceKey": "op03-116@cs+unopened",
@@ -29632,6 +29618,20 @@
         ],
         "latestPrice": 150000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240914_26d6d6.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op03-116@cs+unopened",
+        "identityKey": "op03-116@cs+unopened",
+        "name": "しらほし 【UC】【パラレル】【プロモ】【チャンピオンシップ】【黄】【OP03-116】【未開封】",
+        "modelNo": "チャンピオンシップ版OP03-116",
+        "tags": [
+          "cs",
+          "unopened"
+        ],
+        "latestPrice": 150000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP03-116_p5.jpeg"
       }
     ]
   },
@@ -29737,20 +29737,6 @@
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-120_p5.png"
       },
       {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op13-120@cs+unopened",
-        "identityKey": "op13-120@cs+unopened",
-        "name": "サボ 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黒】【OP13-120】",
-        "modelNo": "チャンピオンシップ版OP13-120",
-        "tags": [
-          "cs",
-          "unopened"
-        ],
-        "latestPrice": 150000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-120_p5.png"
-      },
-      {
         "shopId": "mercard",
         "shopName": "メルカード",
         "sourceKey": "op13-120@cs+unopened",
@@ -29763,6 +29749,20 @@
         ],
         "latestPrice": 100000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250921_c888de.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op13-120@cs+unopened",
+        "identityKey": "op13-120@cs+unopened",
+        "name": "サボ 【シークレット】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黒】【OP13-120】",
+        "modelNo": "チャンピオンシップ版OP13-120",
+        "tags": [
+          "cs",
+          "unopened"
+        ],
+        "latestPrice": 100000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-120_p5.png"
       }
     ]
   },
@@ -29772,8 +29772,8 @@
     "canonicalName": "シャーロット・プリン【プロモ】《黄》未開封",
     "modelCode": "OP03-112",
     "signature": "cs+unopened",
-    "candidateScore": 77,
-    "confidence": 77,
+    "candidateScore": 76,
+    "confidence": 76,
     "nameScore": 14,
     "imageScore": null,
     "imageStats": {
@@ -29785,9 +29785,9 @@
       "totalRecords": 6
     },
     "priceStats": {
-      "min": 140000,
+      "min": 130000,
       "max": 220000,
-      "ratio": 1.6
+      "ratio": 1.7
     },
     "maxPrice": 220000,
     "riskLevel": "medium",
@@ -29868,20 +29868,6 @@
         "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20240406_9d6d9e.png"
       },
       {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op03-112@cs+unopened",
-        "identityKey": "op03-112@cs+unopened",
-        "name": "シャーロット・プリン 【R】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【OP03-112】",
-        "modelNo": "チャンピオンシップ版OP03-112",
-        "tags": [
-          "cs",
-          "unopened"
-        ],
-        "latestPrice": 180000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP03-112_p2.jpeg"
-      },
-      {
         "shopId": "mercard",
         "shopName": "メルカード",
         "sourceKey": "op03-112@cs+unopened",
@@ -29894,6 +29880,20 @@
         ],
         "latestPrice": 140000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240406_9d6d9e.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op03-112@cs+unopened",
+        "identityKey": "op03-112@cs+unopened",
+        "name": "シャーロット・プリン 【R】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【OP03-112】",
+        "modelNo": "チャンピオンシップ版OP03-112",
+        "tags": [
+          "cs",
+          "unopened"
+        ],
+        "latestPrice": 130000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP03-112_p2.jpeg"
       }
     ]
   },
@@ -29995,19 +29995,6 @@
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-004_p2.jpeg"
       },
       {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op01-004@cs",
-        "identityKey": "op01-004@cs",
-        "name": "ウソップ 【R】【パラレル】【プロモ】【チャンピオンシップ】【赤】【OP01-004】",
-        "modelNo": "チャンピオンシップ版OP01-004",
-        "tags": [
-          "cs"
-        ],
-        "latestPrice": 150000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-004_p2.jpeg"
-      },
-      {
         "shopId": "mercard",
         "shopName": "メルカード",
         "sourceKey": "op01-004@cs",
@@ -30019,6 +30006,19 @@
         ],
         "latestPrice": 120000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20230930_e78699.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op01-004@cs",
+        "identityKey": "op01-004@cs",
+        "name": "ウソップ 【R】【パラレル】【プロモ】【チャンピオンシップ】【赤】【OP01-004】",
+        "modelNo": "チャンピオンシップ版OP01-004",
+        "tags": [
+          "cs"
+        ],
+        "latestPrice": 120000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-004_p2.jpeg"
       }
     ]
   },
@@ -30356,20 +30356,6 @@
       {
         "shopId": "torecard",
         "shopName": "トレカード秋葉原",
-        "sourceKey": "op09-013@cs+unopened",
-        "identityKey": "op09-013@cs+unopened",
-        "name": "ヤソップ 【R】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【赤】【OP09-013】",
-        "modelNo": "チャンピオンシップ版OP09-013",
-        "tags": [
-          "cs",
-          "unopened"
-        ],
-        "latestPrice": 80000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-013_p1.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
         "sourceKey": "op09-013@promo+unopened",
         "identityKey": "op09-013@promo+unopened",
         "name": "ヤソップ 【プロモ】《赤》未開封",
@@ -30394,6 +30380,20 @@
         ],
         "latestPrice": 60000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250329_2e63fd.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op09-013@cs+unopened",
+        "identityKey": "op09-013@cs+unopened",
+        "name": "ヤソップ 【R】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【赤】【OP09-013】",
+        "modelNo": "チャンピオンシップ版OP09-013",
+        "tags": [
+          "cs",
+          "unopened"
+        ],
+        "latestPrice": 60000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-013_p1.png"
       }
     ]
   },
@@ -30760,8 +30760,8 @@
     "canonicalName": "ジュラキュール・ミホーク【プロモ】《青》ForAsia未開封",
     "modelCode": "OP01-070",
     "signature": "asia+flagship+promo+unopened",
-    "candidateScore": 71,
-    "confidence": 71,
+    "candidateScore": 70,
+    "confidence": 70,
     "nameScore": 23,
     "imageScore": null,
     "imageStats": {
@@ -30773,9 +30773,9 @@
       "totalRecords": 3
     },
     "priceStats": {
-      "min": 28000,
+      "min": 25000,
       "max": 30000,
-      "ratio": 1.1
+      "ratio": 1.2
     },
     "maxPrice": 30000,
     "riskLevel": "medium",
@@ -30791,22 +30791,6 @@
     ],
     "conditionConflict": false,
     "records": [
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op01-070@asia+flagship+promo+unopened",
-        "identityKey": "op01-070@asia+flagship+promo+unopened",
-        "name": "ジュラキュール・ミホーク 【SR】【パラレル】【プロモ】【未開封】【フラッグシップバトル】【Asia】【青】【OP01-070】",
-        "modelNo": "OP01-070",
-        "tags": [
-          "asia",
-          "flagship",
-          "promo",
-          "unopened"
-        ],
-        "latestPrice": 30000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-070_p3.jpeg"
-      },
       {
         "shopId": "mercard",
         "shopName": "メルカード",
@@ -30839,94 +30823,22 @@
         ],
         "latestPrice": 28000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-070_p3.jpeg"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_OP06-069_asia_flagship_promo_unopened",
-    "suggestedCanonicalId": "OP06-069_ASIA_FLAGSHIP_PROMO_UNOPENED",
-    "canonicalName": "ヴィンスモーク・レイジュ【プロモ】《紫》ForAsia未開封",
-    "modelCode": "OP06-069",
-    "signature": "asia+flagship+promo+unopened",
-    "candidateScore": 70,
-    "confidence": 70,
-    "nameScore": 24,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 20000,
-      "max": 25000,
-      "ratio": 1.3
-    },
-    "maxPrice": 25000,
-    "riskLevel": "medium",
-    "warnings": [
-      "同一店舗の複数商品を含む（torecard 2件）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
+      },
       {
         "shopId": "torecard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op06-069@asia+flagship+promo+unopened+海外",
-        "identityKey": "op06-069@asia+flagship+promo+unopened+海外",
-        "name": "ヴィンスモーク・レイジュ【プロモ】《紫》ForAsia未開封",
-        "modelNo": "フラッグシップバトル版OP06-069【海外版】",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op01-070@asia+flagship+promo+unopened",
+        "identityKey": "op01-070@asia+flagship+promo+unopened",
+        "name": "ジュラキュール・ミホーク 【SR】【パラレル】【プロモ】【未開封】【フラッグシップバトル】【Asia】【青】【OP01-070】",
+        "modelNo": "OP01-070",
         "tags": [
           "asia",
           "flagship",
           "promo",
-          "unopened",
-          "海外"
+          "unopened"
         ],
         "latestPrice": 25000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20241030_b6e81e.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op06-069@asia+promo+unopened",
-        "identityKey": "op06-069@asia+flagship+promo+unopened",
-        "name": "ヴィンスモーク・レイジュ 【SR】【パラレル】【プロモ】【未開封】【Asia】【フラッグシップバトル】【紫】【OP06-069】",
-        "modelNo": "OP06-069",
-        "tags": [
-          "asia",
-          "flagship",
-          "promo",
-          "unopened"
-        ],
-        "latestPrice": 20000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP06-069_p3.jpeg"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op06-069@asia+flagship+promo+unopened",
-        "identityKey": "op06-069@asia+flagship+promo+unopened",
-        "name": "ヴィンスモーク・レイジュ 【SR】【パラレル】【プロモ】【未開封】【Asia】【フラッグシップバトル】【紫】【OP06-069】",
-        "modelNo": "OP06-069",
-        "tags": [
-          "asia",
-          "flagship",
-          "promo",
-          "unopened"
-        ],
-        "latestPrice": 20000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP06-069_p3.jpeg"
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-070_p3.jpeg"
       }
     ]
   },
@@ -31023,6 +30935,94 @@
         ],
         "latestPrice": 15000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST21-014_p3.png"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_OP06-069_asia_flagship_promo_unopened",
+    "suggestedCanonicalId": "OP06-069_ASIA_FLAGSHIP_PROMO_UNOPENED",
+    "canonicalName": "ヴィンスモーク・レイジュ【プロモ】《紫》ForAsia未開封",
+    "modelCode": "OP06-069",
+    "signature": "asia+flagship+promo+unopened",
+    "candidateScore": 69,
+    "confidence": 69,
+    "nameScore": 24,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 15000,
+      "max": 25000,
+      "ratio": 1.7
+    },
+    "maxPrice": 25000,
+    "riskLevel": "medium",
+    "warnings": [
+      "同一店舗の複数商品を含む（torecard 2件）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "torecard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op06-069@asia+flagship+promo+unopened+海外",
+        "identityKey": "op06-069@asia+flagship+promo+unopened+海外",
+        "name": "ヴィンスモーク・レイジュ【プロモ】《紫》ForAsia未開封",
+        "modelNo": "フラッグシップバトル版OP06-069【海外版】",
+        "tags": [
+          "asia",
+          "flagship",
+          "promo",
+          "unopened",
+          "海外"
+        ],
+        "latestPrice": 25000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20241030_b6e81e.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op06-069@asia+promo+unopened",
+        "identityKey": "op06-069@asia+flagship+promo+unopened",
+        "name": "ヴィンスモーク・レイジュ 【SR】【パラレル】【プロモ】【未開封】【Asia】【フラッグシップバトル】【紫】【OP06-069】",
+        "modelNo": "OP06-069",
+        "tags": [
+          "asia",
+          "flagship",
+          "promo",
+          "unopened"
+        ],
+        "latestPrice": 20000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP06-069_p3.jpeg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op06-069@asia+flagship+promo+unopened",
+        "identityKey": "op06-069@asia+flagship+promo+unopened",
+        "name": "ヴィンスモーク・レイジュ 【SR】【パラレル】【プロモ】【未開封】【Asia】【フラッグシップバトル】【紫】【OP06-069】",
+        "modelNo": "OP06-069",
+        "tags": [
+          "asia",
+          "flagship",
+          "promo",
+          "unopened"
+        ],
+        "latestPrice": 15000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP06-069_p3.jpeg"
       }
     ]
   },
@@ -33708,8 +33708,8 @@
     "canonicalName": "ペローナ【プロモ】《黒》ForAsia未開封",
     "modelCode": "OP06-093",
     "signature": "asia+flagship+promo+unopened",
-    "candidateScore": 68,
-    "confidence": 68,
+    "candidateScore": 67,
+    "confidence": 67,
     "nameScore": 16,
     "imageScore": null,
     "imageStats": {
@@ -33721,9 +33721,9 @@
       "totalRecords": 3
     },
     "priceStats": {
-      "min": 3500,
+      "min": 3000,
       "max": 4500,
-      "ratio": 1.3
+      "ratio": 1.5
     },
     "maxPrice": 4500,
     "riskLevel": "medium",
@@ -33759,22 +33759,6 @@
       {
         "shopId": "torecard",
         "shopName": "トレカード秋葉原",
-        "sourceKey": "op06-093@asia+flagship+promo+unopened",
-        "identityKey": "op06-093@asia+flagship+promo+unopened",
-        "name": "ペローナ 【SR】【パラレル】【プロモ】【未開封】【Asia】【フラッグシップバトル】【黒】【OP06-093】",
-        "modelNo": "OP06-093",
-        "tags": [
-          "asia",
-          "flagship",
-          "promo",
-          "unopened"
-        ],
-        "latestPrice": 4000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP06-093_p3.jpeg"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
         "sourceKey": "op06-093@asia+promo+unopened",
         "identityKey": "op06-093@asia+flagship+promo+unopened",
         "name": "ペローナ 【SR】【パラレル】【プロモ】【未開封】【Asia】【フラッグシップバトル】【黒】【OP06-093】",
@@ -33786,6 +33770,22 @@
           "unopened"
         ],
         "latestPrice": 3500,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP06-093_p3.jpeg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op06-093@asia+flagship+promo+unopened",
+        "identityKey": "op06-093@asia+flagship+promo+unopened",
+        "name": "ペローナ 【SR】【パラレル】【プロモ】【未開封】【Asia】【フラッグシップバトル】【黒】【OP06-093】",
+        "modelNo": "OP06-093",
+        "tags": [
+          "asia",
+          "flagship",
+          "promo",
+          "unopened"
+        ],
+        "latestPrice": 3000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP06-093_p3.jpeg"
       }
     ]
@@ -35314,94 +35314,6 @@
     ]
   },
   {
-    "candidateId": "candidate_OP08-084_asia_flagship_promo_unopened",
-    "suggestedCanonicalId": "OP08-084_ASIA_FLAGSHIP_PROMO_UNOPENED",
-    "canonicalName": "ジャック【プロモ】《黒》ForAsia未開封",
-    "modelCode": "OP08-084",
-    "signature": "asia+flagship+promo+unopened",
-    "candidateScore": 69,
-    "confidence": 69,
-    "nameScore": 16,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 1000,
-      "max": 1000,
-      "ratio": 1
-    },
-    "maxPrice": 1000,
-    "riskLevel": "medium",
-    "warnings": [
-      "同一店舗の複数商品を含む（torecard 2件）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "torecard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op08-084@asia+promo+unopened",
-        "identityKey": "op08-084@asia+flagship+promo+unopened",
-        "name": "ジャック 【SR】【パラレル】【プロモ】【未開封】【フラッグシップバトル】【Asia】【黒】【OP08-084】",
-        "modelNo": "OP08-084",
-        "tags": [
-          "asia",
-          "flagship",
-          "promo",
-          "unopened"
-        ],
-        "latestPrice": 1000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP08-084_asia.jpeg"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op08-084@asia+flagship+promo+unopened",
-        "identityKey": "op08-084@asia+flagship+promo+unopened",
-        "name": "ジャック 【SR】【パラレル】【プロモ】【未開封】【フラッグシップバトル】【Asia】【黒】【OP08-084】",
-        "modelNo": "OP08-084",
-        "tags": [
-          "asia",
-          "flagship",
-          "promo",
-          "unopened"
-        ],
-        "latestPrice": 1000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP08-084_asia.jpeg"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op08-084@asia+flagship+promo+unopened+海外",
-        "identityKey": "op08-084@asia+flagship+promo+unopened+海外",
-        "name": "ジャック【プロモ】《黒》ForAsia未開封",
-        "modelNo": "フラッグシップバトル版OP08-084【海外版】",
-        "tags": [
-          "asia",
-          "flagship",
-          "promo",
-          "unopened",
-          "海外"
-        ],
-        "latestPrice": 1000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20241030_1c6121.png"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_OP11-071_base",
     "suggestedCanonicalId": "OP11-071_BASE",
     "canonicalName": "シャーロット・ペロスペロー【R】《紫》",
@@ -35456,6 +35368,94 @@
         "tags": [],
         "latestPrice": 10,
         "imageUrl": "https://www.mercardop.jp/data/mercardop/product/OP11/71.png"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_OP08-084_asia_flagship_promo_unopened",
+    "suggestedCanonicalId": "OP08-084_ASIA_FLAGSHIP_PROMO_UNOPENED",
+    "canonicalName": "ジャック【プロモ】《黒》ForAsia未開封",
+    "modelCode": "OP08-084",
+    "signature": "asia+flagship+promo+unopened",
+    "candidateScore": 67,
+    "confidence": 67,
+    "nameScore": 16,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 500,
+      "max": 1000,
+      "ratio": 2
+    },
+    "maxPrice": 1000,
+    "riskLevel": "medium",
+    "warnings": [
+      "同一店舗の複数商品を含む（torecard 2件）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "torecard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op08-084@asia+promo+unopened",
+        "identityKey": "op08-084@asia+flagship+promo+unopened",
+        "name": "ジャック 【SR】【パラレル】【プロモ】【未開封】【フラッグシップバトル】【Asia】【黒】【OP08-084】",
+        "modelNo": "OP08-084",
+        "tags": [
+          "asia",
+          "flagship",
+          "promo",
+          "unopened"
+        ],
+        "latestPrice": 1000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP08-084_asia.jpeg"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op08-084@asia+flagship+promo+unopened+海外",
+        "identityKey": "op08-084@asia+flagship+promo+unopened+海外",
+        "name": "ジャック【プロモ】《黒》ForAsia未開封",
+        "modelNo": "フラッグシップバトル版OP08-084【海外版】",
+        "tags": [
+          "asia",
+          "flagship",
+          "promo",
+          "unopened",
+          "海外"
+        ],
+        "latestPrice": 1000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20241030_1c6121.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op08-084@asia+flagship+promo+unopened",
+        "identityKey": "op08-084@asia+flagship+promo+unopened",
+        "name": "ジャック 【SR】【パラレル】【プロモ】【未開封】【フラッグシップバトル】【Asia】【黒】【OP08-084】",
+        "modelNo": "OP08-084",
+        "tags": [
+          "asia",
+          "flagship",
+          "promo",
+          "unopened"
+        ],
+        "latestPrice": 500,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP08-084_asia.jpeg"
       }
     ]
   },
@@ -39248,7 +39248,7 @@
         "tags": [
           "parallel"
         ],
-        "latestPrice": 12000,
+        "latestPrice": 14000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP15/145.png"
       },
       {
@@ -39388,7 +39388,7 @@
           "parallel",
           "sp"
         ],
-        "latestPrice": 13000,
+        "latestPrice": 16000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP13/16.png"
       },
       {
@@ -45339,6 +45339,79 @@
     ]
   },
   {
+    "candidateId": "candidate_EB04-018_parallel",
+    "suggestedCanonicalId": "EB04-018_PARALLEL",
+    "canonicalName": "メガロ【パラレル】《緑》",
+    "modelCode": "EB04-018",
+    "signature": "parallel",
+    "candidateScore": 73,
+    "confidence": 73,
+    "nameScore": 6,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 1000,
+      "max": 2800,
+      "ratio": 2.8
+    },
+    "maxPrice": 2800,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "eb04-018@parallel",
+        "identityKey": "eb04-018@parallel",
+        "name": "メガロ【パラレル】《緑》",
+        "modelNo": "EB04-018",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 2800,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB04/74.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "eb04-018@parallel",
+        "identityKey": "eb04-018@parallel",
+        "name": "メガロ 【R】【パラレル】【緑】【EB04-018】",
+        "modelNo": "EB04-018",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 1500,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB04-018_p1.png"
+      },
+      {
+        "shopId": "cardrush",
+        "shopName": "カードラッシュ",
+        "sourceKey": "eb04-018@illust:ryuda+parallel",
+        "identityKey": "eb04-018@illust:ryuda+parallel",
+        "name": "メガロ(パラレル/illust:Ryuda)",
+        "modelNo": "EB04-018",
+        "tags": [
+          "illust:ryuda",
+          "parallel"
+        ],
+        "latestPrice": 1000,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/11733.webp"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_EB04-031_parallel",
     "suggestedCanonicalId": "EB04-031_PARALLEL",
     "canonicalName": "キング【パラレル】《紫》",
@@ -46363,79 +46436,6 @@
         ],
         "latestPrice": 700,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-051_p1.png"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_EB04-018_parallel",
-    "suggestedCanonicalId": "EB04-018_PARALLEL",
-    "canonicalName": "メガロ【パラレル】《緑》",
-    "modelCode": "EB04-018",
-    "signature": "parallel",
-    "candidateScore": 73,
-    "confidence": 73,
-    "nameScore": 6,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 1000,
-      "max": 2500,
-      "ratio": 2.5
-    },
-    "maxPrice": 2500,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "eb04-018@parallel",
-        "identityKey": "eb04-018@parallel",
-        "name": "メガロ【パラレル】《緑》",
-        "modelNo": "EB04-018",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 2500,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB04/74.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "eb04-018@parallel",
-        "identityKey": "eb04-018@parallel",
-        "name": "メガロ 【R】【パラレル】【緑】【EB04-018】",
-        "modelNo": "EB04-018",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 1500,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB04-018_p1.png"
-      },
-      {
-        "shopId": "cardrush",
-        "shopName": "カードラッシュ",
-        "sourceKey": "eb04-018@illust:ryuda+parallel",
-        "identityKey": "eb04-018@illust:ryuda+parallel",
-        "name": "メガロ(パラレル/illust:Ryuda)",
-        "modelNo": "EB04-018",
-        "tags": [
-          "illust:ryuda",
-          "parallel"
-        ],
-        "latestPrice": 1000,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/11733.webp"
       }
     ]
   },
@@ -56018,9 +56018,9 @@
       "totalRecords": 2
     },
     "priceStats": {
-      "min": 400,
+      "min": 350,
       "max": 800,
-      "ratio": 2
+      "ratio": 2.3
     },
     "maxPrice": 800,
     "riskLevel": "low",
@@ -56055,7 +56055,7 @@
           "2025年vジャンプ7月特大号",
           "promo"
         ],
-        "latestPrice": 400,
+        "latestPrice": 350,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250517_ff3756.png"
       }
     ]
@@ -68198,8 +68198,8 @@
     "canonicalName": "ナミ【プロモ】《青》",
     "modelCode": "P-112",
     "signature": "promo",
-    "candidateScore": 66,
-    "confidence": 66,
+    "candidateScore": 65,
+    "confidence": 65,
     "nameScore": 10,
     "imageScore": null,
     "imageStats": {
@@ -68211,9 +68211,9 @@
       "totalRecords": 2
     },
     "priceStats": {
-      "min": 300,
+      "min": 200,
       "max": 500,
-      "ratio": 1.7
+      "ratio": 2.5
     },
     "maxPrice": 500,
     "riskLevel": "low",
@@ -68248,7 +68248,7 @@
           "promo",
           "交流会配布版ノマル"
         ],
-        "latestPrice": 300,
+        "latestPrice": 200,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20251007_4a2d5a.png"
       }
     ]
