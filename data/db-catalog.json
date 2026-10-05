@@ -1,12 +1,12 @@
 {
   "format": "op-tcg-db-catalog",
   "version": 1,
-  "generatedAt": "2026-10-04T14:53:39.753Z",
-  "syncedAt": "2026-10-05T14:27:27.631Z",
+  "generatedAt": "2026-10-05T18:35:58.766Z",
+  "syncedAt": "2026-10-05T23:59:35.413Z",
   "sourceCounts": {
-    "cards": 2824,
+    "cards": 2825,
     "manifestCards": 2825,
-    "provisionalCards": 86
+    "provisionalCards": 87
   },
   "variants": [
     {
@@ -76557,6 +76557,24 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "OP18-022_OP18-022.png"
+    },
+    {
+      "variantKey": "OP18-024::OP18-024",
+      "cardNumber": "OP18-024",
+      "cardName": "ココロ",
+      "variantId": "OP18-024",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-024.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-024_OP18-024.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-024_OP18-024.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-024_OP18-024.png"
     },
     {
       "variantKey": "OP18-025::OP18-025",
