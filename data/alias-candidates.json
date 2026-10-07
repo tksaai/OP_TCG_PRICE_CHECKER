@@ -617,7 +617,7 @@
         "tags": [
           "comic"
         ],
-        "latestPrice": 90000,
+        "latestPrice": 100000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP11-118_p2.png"
       },
       {
@@ -3923,7 +3923,7 @@
         "tags": [
           "parallel"
         ],
-        "latestPrice": 17000,
+        "latestPrice": 15000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-080_p2.png"
       },
       {
@@ -4052,7 +4052,7 @@
         "tags": [
           "parallel"
         ],
-        "latestPrice": 17000,
+        "latestPrice": 15000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-083_p2.png"
       },
       {
@@ -4181,7 +4181,7 @@
         "tags": [
           "parallel"
         ],
-        "latestPrice": 17000,
+        "latestPrice": 15000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-089_p2.png"
       },
       {
@@ -4416,7 +4416,7 @@
         "tags": [
           "parallel"
         ],
-        "latestPrice": 17000,
+        "latestPrice": 15000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-084_p2.png"
       },
       {
@@ -4545,7 +4545,7 @@
         "tags": [
           "parallel"
         ],
-        "latestPrice": 17000,
+        "latestPrice": 15000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-091_p2.png"
       },
       {
@@ -6386,7 +6386,7 @@
           "parallel",
           "覇王色sp"
         ],
-        "latestPrice": 13000,
+        "latestPrice": 14000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP16-098_p2.png"
       },
       {
@@ -9531,8 +9531,8 @@
     "canonicalName": "カイドウ【パラレル】《紫》",
     "modelCode": "OP17-062",
     "signature": "parallel",
-    "candidateScore": 68,
-    "confidence": 68,
+    "candidateScore": 67,
+    "confidence": 67,
     "nameScore": 29,
     "imageScore": null,
     "imageStats": {
@@ -9544,15 +9544,15 @@
       "totalRecords": 3
     },
     "priceStats": {
-      "min": 700,
+      "min": 500,
       "max": 8000,
-      "ratio": 11.4
+      "ratio": 16
     },
     "maxPrice": 8000,
     "riskLevel": "high",
     "warnings": [
       "同一店舗の複数商品を含む（torecard 2件）",
-      "価格差 約11.4倍（価格は参考情報）",
+      "価格差 約16倍（価格は参考情報）",
       "店舗間の画像比較データなし"
     ],
     "duplicateShops": [
@@ -9600,7 +9600,7 @@
         "tags": [
           "parallel"
         ],
-        "latestPrice": 700,
+        "latestPrice": 500,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP17-062_p1.png"
       }
     ]
@@ -24387,7 +24387,7 @@
         "tags": [
           "パンダマン"
         ],
-        "latestPrice": 200,
+        "latestPrice": 100,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP17-045_p1.png"
       },
       {
@@ -29170,6 +29170,20 @@
         "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/1080.webp"
       },
       {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "st10-010@cs+unopened",
+        "identityKey": "st10-010@cs+unopened",
+        "name": "トラファルガー・ロー 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【紫】【ST10-010】",
+        "modelNo": "チャンピオンシップ版ST10-010",
+        "tags": [
+          "cs",
+          "unopened"
+        ],
+        "latestPrice": 400000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST10-010_p2.jpeg"
+      },
+      {
         "shopId": "mercard",
         "shopName": "メルカード",
         "sourceKey": "st10-010@cs+unopened",
@@ -29182,20 +29196,6 @@
         ],
         "latestPrice": 350000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20231015_95fb8d.jpg"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "st10-010@cs+unopened",
-        "identityKey": "st10-010@cs+unopened",
-        "name": "トラファルガー・ロー 【SR】【パラレル】【プロモ】【チャンピオンシップ】【未開封】【紫】【ST10-010】",
-        "modelNo": "チャンピオンシップ版ST10-010",
-        "tags": [
-          "cs",
-          "unopened"
-        ],
-        "latestPrice": 350000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST10-010_p2.jpeg"
       }
     ]
   },
@@ -35205,8 +35205,8 @@
     "canonicalName": "キャベンディッシュ【プロモ】《緑》ForAsia未開封",
     "modelCode": "EB01-012",
     "signature": "asia+flagship+promo+unopened",
-    "candidateScore": 70,
-    "confidence": 70,
+    "candidateScore": 69,
+    "confidence": 69,
     "nameScore": 21,
     "imageScore": null,
     "imageStats": {
@@ -35218,9 +35218,9 @@
       "totalRecords": 3
     },
     "priceStats": {
-      "min": 1500,
+      "min": 1000,
       "max": 1500,
-      "ratio": 1
+      "ratio": 1.5
     },
     "maxPrice": 1500,
     "riskLevel": "medium",
@@ -35253,22 +35253,6 @@
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB01-012_p3.jpeg"
       },
       {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "eb01-012@asia+flagship+promo+unopened",
-        "identityKey": "eb01-012@asia+flagship+promo+unopened",
-        "name": "キャベンディッシュ 【SR】【パラレル】【プロモ】【未開封】【Asia】【フラッグシップバトル】【緑】【EB01-012】",
-        "modelNo": "EB01-012",
-        "tags": [
-          "asia",
-          "flagship",
-          "promo",
-          "unopened"
-        ],
-        "latestPrice": 1500,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB01-012_p3.jpeg"
-      },
-      {
         "shopId": "mercard",
         "shopName": "メルカード",
         "sourceKey": "eb01-012@asia+flagship+promo+unopened+海外",
@@ -35284,6 +35268,22 @@
         ],
         "latestPrice": 1500,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20241030_04d3cc.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "eb01-012@asia+flagship+promo+unopened",
+        "identityKey": "eb01-012@asia+flagship+promo+unopened",
+        "name": "キャベンディッシュ 【SR】【パラレル】【プロモ】【未開封】【Asia】【フラッグシップバトル】【緑】【EB01-012】",
+        "modelNo": "EB01-012",
+        "tags": [
+          "asia",
+          "flagship",
+          "promo",
+          "unopened"
+        ],
+        "latestPrice": 1000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB01-012_p3.jpeg"
       }
     ]
   },
@@ -38384,71 +38384,6 @@
     ]
   },
   {
-    "candidateId": "candidate_OP09-093_gold_parallel_sp",
-    "suggestedCanonicalId": "OP09-093_GOLD_PARALLEL_SP",
-    "canonicalName": "マーシャル・D・ティーチ『金』【三周年SPパラレル】《黒》",
-    "modelCode": "OP09-093",
-    "signature": "gold+parallel+sp",
-    "candidateScore": 70,
-    "confidence": 70,
-    "nameScore": 25,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 1,
-      "totalRecords": 2
-    },
-    "priceStats": {
-      "min": 140000,
-      "max": 200000,
-      "ratio": 1.4
-    },
-    "maxPrice": 200000,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op09-093@gold+parallel+sp",
-        "identityKey": "op09-093@gold+parallel+sp",
-        "name": "マーシャル・D・ティーチ 【金】【SR】【SP】【パラレル】【黒】【OP09-093】",
-        "modelNo": "OP09-093",
-        "tags": [
-          "gold",
-          "parallel",
-          "sp"
-        ],
-        "latestPrice": 200000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-093_p5.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op09-093@gold+op12+parallel+sp+三周年",
-        "identityKey": "op09-093@gold+op12+parallel+sp+三周年",
-        "name": "マーシャル・D・ティーチ『金』【三周年SPパラレル】《黒》",
-        "modelNo": "SPOP09-093『OP12』",
-        "tags": [
-          "gold",
-          "op12",
-          "parallel",
-          "sp",
-          "三周年"
-        ],
-        "latestPrice": 140000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP12/121.png"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_OP02-013_comic_prb01",
     "suggestedCanonicalId": "OP02-013_COMIC_PRB01",
     "canonicalName": "ポートガス・D・エース(パラレル/漫画背景/漫画絵/左下ロゴ有)",
@@ -38693,13 +38628,78 @@
     ]
   },
   {
+    "candidateId": "candidate_OP09-093_gold_parallel_sp",
+    "suggestedCanonicalId": "OP09-093_GOLD_PARALLEL_SP",
+    "canonicalName": "マーシャル・D・ティーチ『金』【三周年SPパラレル】《黒》",
+    "modelCode": "OP09-093",
+    "signature": "gold+parallel+sp",
+    "candidateScore": 71,
+    "confidence": 71,
+    "nameScore": 25,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 1,
+      "totalRecords": 2
+    },
+    "priceStats": {
+      "min": 140000,
+      "max": 150000,
+      "ratio": 1.1
+    },
+    "maxPrice": 150000,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op09-093@gold+parallel+sp",
+        "identityKey": "op09-093@gold+parallel+sp",
+        "name": "マーシャル・D・ティーチ 【金】【SR】【SP】【パラレル】【黒】【OP09-093】",
+        "modelNo": "OP09-093",
+        "tags": [
+          "gold",
+          "parallel",
+          "sp"
+        ],
+        "latestPrice": 150000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-093_p5.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op09-093@gold+op12+parallel+sp+三周年",
+        "identityKey": "op09-093@gold+op12+parallel+sp+三周年",
+        "name": "マーシャル・D・ティーチ『金』【三周年SPパラレル】《黒》",
+        "modelNo": "SPOP09-093『OP12』",
+        "tags": [
+          "gold",
+          "op12",
+          "parallel",
+          "sp",
+          "三周年"
+        ],
+        "latestPrice": 140000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP12/121.png"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_OP09-051_gold_parallel_sp",
     "suggestedCanonicalId": "OP09-051_GOLD_PARALLEL_SP",
     "canonicalName": "バギー『金』【三周年SPパラレル】《青》",
     "modelCode": "OP09-051",
     "signature": "gold+parallel+sp",
-    "candidateScore": 68,
-    "confidence": 68,
+    "candidateScore": 67,
+    "confidence": 67,
     "nameScore": 13,
     "imageScore": null,
     "imageStats": {
@@ -38712,10 +38712,10 @@
     },
     "priceStats": {
       "min": 120000,
-      "max": 130000,
-      "ratio": 1.1
+      "max": 150000,
+      "ratio": 1.3
     },
-    "maxPrice": 130000,
+    "maxPrice": 150000,
     "riskLevel": "low",
     "warnings": [
       "店舗間の画像比較データなし"
@@ -38735,7 +38735,7 @@
           "parallel",
           "sp"
         ],
-        "latestPrice": 130000,
+        "latestPrice": 150000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-051_p5.png"
       },
       {
@@ -38837,10 +38837,10 @@
     },
     "priceStats": {
       "min": 90000,
-      "max": 100000,
-      "ratio": 1.1
+      "max": 90000,
+      "ratio": 1
     },
-    "maxPrice": 100000,
+    "maxPrice": 90000,
     "riskLevel": "low",
     "warnings": [
       "店舗間の画像比較データなし"
@@ -38860,7 +38860,7 @@
           "silver",
           "sp"
         ],
-        "latestPrice": 100000,
+        "latestPrice": 90000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-093_p4.png"
       },
       {
@@ -40026,8 +40026,8 @@
     "canonicalName": "バギー【SPパラレル】《青》",
     "modelCode": "P-084",
     "signature": "parallel+sp",
-    "candidateScore": 74,
-    "confidence": 74,
+    "candidateScore": 75,
+    "confidence": 75,
     "nameScore": 44,
     "imageScore": null,
     "imageStats": {
@@ -40039,9 +40039,9 @@
       "totalRecords": 2
     },
     "priceStats": {
-      "min": 8000,
+      "min": 10000,
       "max": 13000,
-      "ratio": 1.6
+      "ratio": 1.3
     },
     "maxPrice": 13000,
     "riskLevel": "low",
@@ -40077,7 +40077,7 @@
           "parallel",
           "sp"
         ],
-        "latestPrice": 8000,
+        "latestPrice": 10000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-084_p1.png"
       }
     ]
@@ -40210,8 +40210,8 @@
     "canonicalName": "光月おでん【覇王色パラレル】《緑》",
     "modelCode": "ST32-002",
     "signature": "parallel",
-    "candidateScore": 77,
-    "confidence": 77,
+    "candidateScore": 76,
+    "confidence": 76,
     "nameScore": 46,
     "imageScore": null,
     "imageStats": {
@@ -40223,9 +40223,9 @@
       "totalRecords": 2
     },
     "priceStats": {
-      "min": 11000,
+      "min": 10000,
       "max": 11000,
-      "ratio": 1
+      "ratio": 1.1
     },
     "maxPrice": 11000,
     "riskLevel": "low",
@@ -40235,20 +40235,6 @@
     "duplicateShops": [],
     "conditionConflict": false,
     "records": [
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "st32-002@parallel+覇王色sp",
-        "identityKey": "st32-002@parallel+覇王色sp",
-        "name": "光月おでん 【覇王色SP】【パラレル】【緑】【ST32-002】",
-        "modelNo": "ST32-002",
-        "tags": [
-          "parallel",
-          "覇王色sp"
-        ],
-        "latestPrice": 11000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST32-002_p1.png"
-      },
       {
         "shopId": "mercard",
         "shopName": "メルカード",
@@ -40263,6 +40249,20 @@
         ],
         "latestPrice": 11000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/128.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "st32-002@parallel+覇王色sp",
+        "identityKey": "st32-002@parallel+覇王色sp",
+        "name": "光月おでん 【覇王色SP】【パラレル】【緑】【ST32-002】",
+        "modelNo": "ST32-002",
+        "tags": [
+          "parallel",
+          "覇王色sp"
+        ],
+        "latestPrice": 10000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST32-002_p1.png"
       }
     ]
   },

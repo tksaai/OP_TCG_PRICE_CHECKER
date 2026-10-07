@@ -1,12 +1,12 @@
 {
   "format": "op-tcg-db-catalog",
   "version": 1,
-  "generatedAt": "2026-10-06T16:03:08.618Z",
-  "syncedAt": "2026-10-07T13:13:55.161Z",
+  "generatedAt": "2026-10-07T16:40:31.210Z",
+  "syncedAt": "2026-10-07T23:01:28.372Z",
   "sourceCounts": {
-    "cards": 2824,
+    "cards": 2825,
     "manifestCards": 2825,
-    "provisionalCards": 87
+    "provisionalCards": 89
   },
   "variants": [
     {
@@ -76703,6 +76703,24 @@
       "provisionalUniqueId": "OP18-048_OP18-048.png"
     },
     {
+      "variantKey": "OP18-055::OP18-055",
+      "cardNumber": "OP18-055",
+      "cardName": "Mr.9&ミス・ウェンズデー",
+      "variantId": "OP18-055",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-055.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-055_OP18-055.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-055_OP18-055.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-055_OP18-055.png"
+    },
+    {
       "variantKey": "OP18-056::OP18-056",
       "cardNumber": "OP18-056",
       "cardName": "Mr.13&ミス・フライデー",
@@ -76773,6 +76791,24 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "OP18-066_OP18-066.png"
+    },
+    {
+      "variantKey": "OP18-069::OP18-069",
+      "cardNumber": "OP18-069",
+      "cardName": "ソドム＆ゴモラ",
+      "variantId": "OP18-069",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-069.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-069_OP18-069.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-069_OP18-069.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-069_OP18-069.png"
     },
     {
       "variantKey": "OP18-076::OP18-076",

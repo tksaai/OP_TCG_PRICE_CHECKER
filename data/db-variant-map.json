@@ -1,8 +1,8 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-10-07T13:13:55.394Z",
-  "catalogGeneratedAt": "2026-10-06T16:03:08.618Z",
+  "generatedAt": "2026-10-07T23:01:28.655Z",
+  "catalogGeneratedAt": "2026-10-07T16:40:31.210Z",
   "mappings": {
     "EB01-001::EB01-001": {
       "priceKey": "eb01-001",
@@ -13201,8 +13201,8 @@
     },
     "OP17-073::OP17-073": {
       "priceKey": "op17-073",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP17-073",
       "variantId": "OP17-073"
     },
@@ -13215,8 +13215,8 @@
     },
     "OP17-075::OP17-075": {
       "priceKey": "op17-075",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP17-075",
       "variantId": "OP17-075"
     },
@@ -13278,8 +13278,8 @@
     },
     "OP17-082::OP17-082": {
       "priceKey": "op17-082",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP17-082",
       "variantId": "OP17-082"
     },
@@ -13369,8 +13369,8 @@
     },
     "OP17-095::OP17-095": {
       "priceKey": "op17-095",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP17-095",
       "variantId": "OP17-095"
     },
@@ -13425,8 +13425,8 @@
     },
     "OP17-106::OP17-106": {
       "priceKey": "op17-106",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP17-106",
       "variantId": "OP17-106"
     },
