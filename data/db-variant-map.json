@@ -1,7 +1,7 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-10-07T23:01:28.655Z",
+  "generatedAt": "2026-10-08T13:20:26.331Z",
   "catalogGeneratedAt": "2026-10-07T16:40:31.210Z",
   "mappings": {
     "EB01-001::EB01-001": {
@@ -4630,6 +4630,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP05-034",
       "variantId": "OP05-034_p1"
+    },
+    "OP05-034::OP05-034_p3": {
+      "priceKey": "op05-034@full-art",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP05-034",
+      "variantId": "OP05-034_p3"
     },
     "OP05-034::OP05-034_p4": {
       "priceKey": "op05-034@parallel+prb01",
