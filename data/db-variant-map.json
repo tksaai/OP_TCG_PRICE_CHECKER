@@ -1,8 +1,8 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-10-08T13:20:26.331Z",
-  "catalogGeneratedAt": "2026-10-07T16:40:31.210Z",
+  "generatedAt": "2026-10-08T23:16:56.417Z",
+  "catalogGeneratedAt": "2026-10-08T16:38:39.118Z",
   "mappings": {
     "EB01-001::EB01-001": {
       "priceKey": "eb01-001",
@@ -10405,6 +10405,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP13-120",
       "variantId": "OP13-120_p4"
+    },
+    "OP14-001::OP14-001": {
+      "priceKey": "op14-001",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP14-001",
+      "variantId": "OP14-001"
     },
     "OP14-001::OP14-001_p1": {
       "priceKey": "op14-001@leader-parallel",
