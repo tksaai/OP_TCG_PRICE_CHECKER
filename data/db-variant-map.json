@@ -1,7 +1,7 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-10-09T22:34:04.568Z",
+  "generatedAt": "2026-10-10T12:24:10.761Z",
   "catalogGeneratedAt": "2026-10-09T16:22:01.677Z",
   "mappings": {
     "EB01-001::EB01-001": {
@@ -10422,8 +10422,8 @@
     },
     "OP14-002::OP14-002": {
       "priceKey": "op14-002",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP14-002",
       "variantId": "OP14-002"
     },
@@ -10436,17 +10436,24 @@
     },
     "OP14-004::OP14-004": {
       "priceKey": "op14-004",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP14-004",
       "variantId": "OP14-004"
     },
     "OP14-005::OP14-005": {
       "priceKey": "op14-005",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP14-005",
       "variantId": "OP14-005"
+    },
+    "OP14-007::OP14-007": {
+      "priceKey": "op14-007",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP14-007",
+      "variantId": "OP14-007"
     },
     "OP14-009::OP14-009": {
       "priceKey": "op14-009",
@@ -10464,8 +10471,8 @@
     },
     "OP14-010::OP14-010": {
       "priceKey": "op14-010",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP14-010",
       "variantId": "OP14-010"
     },
@@ -10492,8 +10499,8 @@
     },
     "OP14-014::OP14-014": {
       "priceKey": "op14-014",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP14-014",
       "variantId": "OP14-014"
     },
@@ -10506,8 +10513,8 @@
     },
     "OP14-015::OP14-015": {
       "priceKey": "op14-015",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP14-015",
       "variantId": "OP14-015"
     },
