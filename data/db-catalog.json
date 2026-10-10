@@ -1,12 +1,12 @@
 {
   "format": "op-tcg-db-catalog",
   "version": 1,
-  "generatedAt": "2026-10-09T16:22:01.677Z",
-  "syncedAt": "2026-10-10T12:24:10.522Z",
+  "generatedAt": "2026-10-10T15:28:24.567Z",
+  "syncedAt": "2026-10-10T21:34:59.986Z",
   "sourceCounts": {
     "cards": 2825,
     "manifestCards": 2825,
-    "provisionalCards": 103
+    "provisionalCards": 107
   },
   "variants": [
     {
@@ -76703,6 +76703,24 @@
       "provisionalUniqueId": "OP18-003_OP18-003.png"
     },
     {
+      "variantKey": "OP18-010::OP18-010",
+      "cardNumber": "OP18-010",
+      "cardName": "トニートニー・チョッパー",
+      "variantId": "OP18-010",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-010.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-010_OP18-010.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-010_OP18-010.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-010_OP18-010.png"
+    },
+    {
       "variantKey": "OP18-011::OP18-011",
       "cardNumber": "OP18-011",
       "cardName": "ネフェルタリ・ビビ",
@@ -77205,6 +77223,24 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "OP18-106_OP18-106.png"
+    },
+    {
+      "variantKey": "OP18-111::OP18-111",
+      "cardNumber": "OP18-111",
+      "cardName": "モモンガ",
+      "variantId": "OP18-111",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-111.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-111_OP18-111.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-111_OP18-111.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-111_OP18-111.png"
     },
     {
       "variantKey": "OP18-112::OP18-112",
@@ -97846,6 +97882,42 @@
       "identityTags": [],
       "provisional": false,
       "provisionalUniqueId": null
+    },
+    {
+      "variantKey": "ST37-001::ST37-001",
+      "cardNumber": "ST37-001",
+      "cardName": "モンキー・D・ルフィ",
+      "variantId": "ST37-001",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: スタートデッキ 砂漠の王女と海賊たち発売前カードリスト | 秋葉原TCGショップ メルカード秋葉原",
+      "getInfo": "スタートデッキ 砂漠の王女と海賊たち発売前カードリスト | 秋葉原TCGショップ メルカード秋葉原【ST-37】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/ST37-001.png",
+      "path": "CardsWebP/Provisional/ST37/ST37-001_ST37-001.webp",
+      "fallbackPath": "CardsWebP/Provisional/ST37/ST37-001_ST37-001.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "ST37-001_ST37-001.png"
+    },
+    {
+      "variantKey": "ST38-001::ST38-001",
+      "cardNumber": "ST38-001",
+      "cardName": "Mr.0（クロコダイル）",
+      "variantId": "ST38-001",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: スタートデッキ バロックワークス発売前カードリスト | 秋葉原TCGショップ メルカード秋葉原",
+      "getInfo": "スタートデッキ バロックワークス発売前カードリスト | 秋葉原TCGショップ メルカード秋葉原【ST-38】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/ST38-001.png",
+      "path": "CardsWebP/Provisional/ST38/ST38-001_ST38-001.webp",
+      "fallbackPath": "CardsWebP/Provisional/ST38/ST38-001_ST38-001.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "ST38-001_ST38-001.png"
     }
   ]
 }
