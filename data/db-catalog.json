@@ -1,12 +1,12 @@
 {
   "format": "op-tcg-db-catalog",
   "version": 1,
-  "generatedAt": "2026-10-12T19:09:56.327Z",
-  "syncedAt": "2026-10-13T14:04:42.854Z",
+  "generatedAt": "2026-10-13T17:01:37.567Z",
+  "syncedAt": "2026-10-13T22:38:18.581Z",
   "sourceCounts": {
-    "cards": 2824,
+    "cards": 2825,
     "manifestCards": 2825,
-    "provisionalCards": 109
+    "provisionalCards": 110
   },
   "variants": [
     {
@@ -77063,6 +77063,24 @@
       "provisionalUniqueId": "OP18-061_OP18-061.png"
     },
     {
+      "variantKey": "OP18-063::OP18-063",
+      "cardNumber": "OP18-063",
+      "cardName": "キウイ＆モズ",
+      "variantId": "OP18-063",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-0630.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-063_OP18-0630.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-063_OP18-0630.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-063_OP18-0630.png"
+    },
+    {
       "variantKey": "OP18-066::OP18-066",
       "cardNumber": "OP18-066",
       "cardName": "ザンバイ",
@@ -97926,8 +97944,8 @@
       "variantId": "ST37-001",
       "variantType": "normal",
       "variantIndex": 0,
-      "label": "仮DB: スタートデッキ 砂漠の王女と海賊たち発売前カードリスト | 秋葉原TCGショップ メルカード秋葉原",
-      "getInfo": "スタートデッキ 砂漠の王女と海賊たち発売前カードリスト | 秋葉原TCGショップ メルカード秋葉原【ST-37】",
+      "label": "仮DB: スタートデッキ 砂漠の王女と海賊たち",
+      "getInfo": "スタートデッキ 砂漠の王女と海賊たち【ST-37】",
       "source": "provisional",
       "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/ST37-001.png",
       "path": "CardsWebP/Provisional/ST37/ST37-001_ST37-001.webp",
@@ -97944,8 +97962,8 @@
       "variantId": "ST38-001",
       "variantType": "normal",
       "variantIndex": 0,
-      "label": "仮DB: スタートデッキ バロックワークス発売前カードリスト | 秋葉原TCGショップ メルカード秋葉原",
-      "getInfo": "スタートデッキ バロックワークス発売前カードリスト | 秋葉原TCGショップ メルカード秋葉原【ST-38】",
+      "label": "仮DB: スタートデッキ バロックワークス",
+      "getInfo": "スタートデッキ バロックワークス【ST-38】",
       "source": "provisional",
       "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/ST38-001.png",
       "path": "CardsWebP/Provisional/ST38/ST38-001_ST38-001.webp",
