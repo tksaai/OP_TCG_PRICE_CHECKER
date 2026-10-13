@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { cardKeyFor } from './lib/card-identity.mjs';
 import { rekeyCards } from './lib/card-store.mjs';
+import { fetchText } from './lib/http-fetch.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const DATA_PATH = path.join(ROOT, 'data', 'cards.json');
@@ -16,8 +17,9 @@ const SHOPS = [
   {
     id: 'cardrush',
     name: 'カードラッシュ',
-    url: 'https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE',
+    url: 'https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&page=1',
     type: 'cardrushNextData',
+    headers: { referer: 'https://cardrush.media/onepiece/' },
   },
   {
     id: 'torecard',
@@ -72,21 +74,8 @@ const REPORT_PATH = 'data/scrape-report.json';
 // 同一性キーは「型番 + 版種タグ」(card-identity.mjs)。カード名の表記揺れは
 // キーに影響せず、ショップ間で同じカードが自動的に同一キーへ集約される。
 
-async function fetchText(url) {
-  const response = await fetch(url, {
-    headers: {
-      'user-agent': 'Mozilla/5.0 (compatible; OP_TCG_PRICE_CHECKER/1.0)',
-      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-    },
-  });
-  if (!response.ok) {
-    throw new Error(`${response.status} ${response.statusText}`);
-  }
-  return response.text();
-}
-
 async function scrapeMercard(shop) {
-  const html = await fetchText(shop.url);
+  const html = await fetchText(shop.url, { headers: shop.headers });
   const itemRegex = /<div class="td td1">\s*<img[^>]+src="([^"]+)"[^>]*>[\s\S]*?<div class="td td2">([\s\S]*?)<\/div>[\s\S]*?<div class="td td3">([\s\S]*?)<\/div>[\s\S]*?<span class="price">([\d,]+)<\/span>/g;
   const cards = [];
   let match;
@@ -114,7 +103,7 @@ function extractTorecardModel(name) {
 }
 
 async function scrapeTorecard(shop) {
-  const html = await fetchText(shop.url);
+  const html = await fetchText(shop.url, { headers: shop.headers });
   const itemRegex = /<li class="list-group-item[\s\S]*?<img[^>]+class="card-list-img"[^>]+alt="([^"]*)"[^>]+src="([^"]+)"[\s\S]*?<div class="card-list-price[^"]*">([\d,]+)円<\/div><div class="card-list-name">([\s\S]*?)<\/div>/g;
   const cards = [];
   let match;
@@ -134,7 +123,7 @@ async function scrapeTorecard(shop) {
 }
 
 async function scrapeCardrush(shop) {
-  const html = await fetchText(shop.url);
+  const html = await fetchText(shop.url, { headers: shop.headers });
   const match = html.match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/);
   if (!match) {
     throw new Error('Cardrush __NEXT_DATA__ was not found');
