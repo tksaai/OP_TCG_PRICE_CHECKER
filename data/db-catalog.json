@@ -1,12 +1,12 @@
 {
   "format": "op-tcg-db-catalog",
   "version": 1,
-  "generatedAt": "2026-10-11T15:49:31.222Z",
-  "syncedAt": "2026-10-12T15:13:47.252Z",
+  "generatedAt": "2026-10-12T19:09:56.327Z",
+  "syncedAt": "2026-10-13T00:33:45.262Z",
   "sourceCounts": {
-    "cards": 2824,
+    "cards": 2825,
     "manifestCards": 2825,
-    "provisionalCards": 107
+    "provisionalCards": 109
   },
   "variants": [
     {
@@ -76865,6 +76865,24 @@
       "provisionalUniqueId": "OP18-028_OP18-028.png"
     },
     {
+      "variantKey": "OP18-032::OP18-032",
+      "cardNumber": "OP18-032",
+      "cardName": "バギー",
+      "variantId": "OP18-032",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-032.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-032_OP18-032.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-032_OP18-032.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-032_OP18-032.png"
+    },
+    {
       "variantKey": "OP18-034::OP18-034",
       "cardNumber": "OP18-034",
       "cardName": "フランキー",
@@ -76953,6 +76971,24 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "OP18-048_OP18-048.png"
+    },
+    {
+      "variantKey": "OP18-052::OP18-052",
+      "cardNumber": "OP18-052",
+      "cardName": "Mr.5&ミス・バレンタイン",
+      "variantId": "OP18-052",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-052.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-052_OP18-052.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-052_OP18-052.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-052_OP18-052.png"
     },
     {
       "variantKey": "OP18-055::OP18-055",
