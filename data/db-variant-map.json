@@ -1,7 +1,7 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-10-13T22:38:18.834Z",
+  "generatedAt": "2026-10-14T11:44:11.757Z",
   "catalogGeneratedAt": "2026-10-13T17:01:37.567Z",
   "mappings": {
     "EB01-001::EB01-001": {
@@ -5064,6 +5064,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP05-097",
       "variantId": "OP05-097"
+    },
+    "OP05-098::OP05-098": {
+      "priceKey": "op05-098",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP05-098",
+      "variantId": "OP05-098"
     },
     "OP05-098::OP05-098_p1": {
       "priceKey": "op05-098@leader-parallel",
