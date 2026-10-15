@@ -3130,20 +3130,6 @@
         "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/5803.webp"
       },
       {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op07-051@parallel+sp",
-        "identityKey": "op07-051@parallel+sp",
-        "name": "ボア・ハンコック 【SR】【SP】【パラレル】【青】【OP07-051】",
-        "modelNo": "OP07-051",
-        "tags": [
-          "parallel",
-          "sp"
-        ],
-        "latestPrice": 25000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP07-051_p3.jpeg"
-      },
-      {
         "shopId": "mercard",
         "shopName": "メルカード",
         "sourceKey": "op07-051@op09+parallel+sp+和柄sp",
@@ -3156,8 +3142,22 @@
           "sp",
           "和柄sp"
         ],
-        "latestPrice": 22000,
+        "latestPrice": 30000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP09/13.jpg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op07-051@parallel+sp",
+        "identityKey": "op07-051@parallel+sp",
+        "name": "ボア・ハンコック 【SR】【SP】【パラレル】【青】【OP07-051】",
+        "modelNo": "OP07-051",
+        "tags": [
+          "parallel",
+          "sp"
+        ],
+        "latestPrice": 25000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP07-051_p3.jpeg"
       },
       {
         "shopId": "mercard",
@@ -4254,7 +4254,7 @@
         "tags": [
           "parallel"
         ],
-        "latestPrice": 17000,
+        "latestPrice": 15000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-089_p2.png"
       },
       {
@@ -15881,15 +15881,15 @@
       "totalRecords": 5
     },
     "priceStats": {
-      "min": 150,
+      "min": 200,
       "max": 2000,
-      "ratio": 13.3
+      "ratio": 10
     },
     "maxPrice": 2000,
     "riskLevel": "high",
     "warnings": [
       "同一店舗の複数商品を含む（mercard 4件）",
-      "価格差 約13.3倍（価格は参考情報）",
+      "価格差 約10倍（価格は参考情報）",
       "店舗間の画像比較データなし"
     ],
     "duplicateShops": [
@@ -15972,7 +15972,7 @@
           "unopened",
           "セブンイレブンイラスト"
         ],
-        "latestPrice": 150,
+        "latestPrice": 200,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240816_c4bbdc.jpg"
       }
     ]
@@ -18122,91 +18122,6 @@
     ]
   },
   {
-    "candidateId": "candidate_P-149_promo",
-    "suggestedCanonicalId": "P-149_PROMO",
-    "canonicalName": "Mr.5(ジェム)【プロモ】《黒》",
-    "modelCode": "P-149",
-    "signature": "promo",
-    "candidateScore": 65,
-    "confidence": 65,
-    "nameScore": 18,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 200,
-      "max": 1300,
-      "ratio": 6.5
-    },
-    "maxPrice": 1300,
-    "riskLevel": "high",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "価格差 約6.5倍（価格は参考情報）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-149@liveactioneditionvol2バロックワクス+promo+ジェム",
-        "identityKey": "p-149@liveactioneditionvol2バロックワクス+promo+ジェム",
-        "name": "Mr.5(ジェム)【プロモ】《黒》",
-        "modelNo": "Live Action Edition vol.2 バロックワークス版P-149",
-        "tags": [
-          "liveactioneditionvol2バロックワクス",
-          "promo",
-          "ジェム"
-        ],
-        "latestPrice": 1300,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260801_82c050.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-149@promo+ジェム+プロモションカドセット2026vol2",
-        "identityKey": "p-149@promo+ジェム+プロモションカドセット2026vol2",
-        "name": "Mr.5(ジェム)【プロモ】《黒》",
-        "modelNo": "プロモーションカードセット2026Vol.2版P-149",
-        "tags": [
-          "promo",
-          "ジェム",
-          "プロモションカドセット2026vol2"
-        ],
-        "latestPrice": 600,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/2026/14.jpg"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-149@promo+ジェム+プロモションカドセット2026vol2",
-        "identityKey": "p-149@promo+ジェム+プロモションカドセット2026vol2",
-        "name": "Mr.5(ジェム) 【P】【プロモ】【プロモーションカードセット2026 Vol.2】【黒】【P-149】",
-        "modelNo": "プロモーションカードセット2026Vol.2版P-149",
-        "tags": [
-          "promo",
-          "ジェム",
-          "プロモションカドセット2026vol2"
-        ],
-        "latestPrice": 200,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-149_x1.jpg"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_ST16-001_base",
     "suggestedCanonicalId": "ST16-001_BASE",
     "canonicalName": "ウタ【SR】《緑》",
@@ -18355,6 +18270,91 @@
         "tags": [],
         "latestPrice": 10,
         "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/3337.webp"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_P-149_promo",
+    "suggestedCanonicalId": "P-149_PROMO",
+    "canonicalName": "Mr.5(ジェム)【プロモ】《黒》",
+    "modelCode": "P-149",
+    "signature": "promo",
+    "candidateScore": 65,
+    "confidence": 65,
+    "nameScore": 18,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 200,
+      "max": 1200,
+      "ratio": 6
+    },
+    "maxPrice": 1200,
+    "riskLevel": "high",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件）",
+      "価格差 約6倍（価格は参考情報）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-149@liveactioneditionvol2バロックワクス+promo+ジェム",
+        "identityKey": "p-149@liveactioneditionvol2バロックワクス+promo+ジェム",
+        "name": "Mr.5(ジェム)【プロモ】《黒》",
+        "modelNo": "Live Action Edition vol.2 バロックワークス版P-149",
+        "tags": [
+          "liveactioneditionvol2バロックワクス",
+          "promo",
+          "ジェム"
+        ],
+        "latestPrice": 1200,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260801_82c050.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-149@promo+ジェム+プロモションカドセット2026vol2",
+        "identityKey": "p-149@promo+ジェム+プロモションカドセット2026vol2",
+        "name": "Mr.5(ジェム)【プロモ】《黒》",
+        "modelNo": "プロモーションカードセット2026Vol.2版P-149",
+        "tags": [
+          "promo",
+          "ジェム",
+          "プロモションカドセット2026vol2"
+        ],
+        "latestPrice": 500,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/2026/14.jpg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-149@promo+ジェム+プロモションカドセット2026vol2",
+        "identityKey": "p-149@promo+ジェム+プロモションカドセット2026vol2",
+        "name": "Mr.5(ジェム) 【P】【プロモ】【プロモーションカードセット2026 Vol.2】【黒】【P-149】",
+        "modelNo": "プロモーションカードセット2026Vol.2版P-149",
+        "tags": [
+          "promo",
+          "ジェム",
+          "プロモションカドセット2026vol2"
+        ],
+        "latestPrice": 200,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-149_x1.jpg"
       }
     ]
   },
@@ -20112,7 +20112,7 @@
           "promo",
           "プロモションパックexvol5"
         ],
-        "latestPrice": 200,
+        "latestPrice": 150,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260930_93c0b2.jpg"
       },
       {
@@ -24517,7 +24517,7 @@
         "name": "シャーロット・ダイフク【UC】《黄》",
         "modelNo": "OP17-107",
         "tags": [],
-        "latestPrice": 10,
+        "latestPrice": 30,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/107.png"
       },
       {
@@ -31255,7 +31255,7 @@
           "comic",
           "prb02"
         ],
-        "latestPrice": 110000,
+        "latestPrice": 120000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP06-119_p3.png"
       },
       {
@@ -37563,9 +37563,9 @@
       "totalRecords": 4
     },
     "priceStats": {
-      "min": 250,
+      "min": 200,
       "max": 500,
-      "ratio": 2
+      "ratio": 2.5
     },
     "maxPrice": 500,
     "riskLevel": "medium",
@@ -37581,19 +37581,6 @@
     ],
     "conditionConflict": false,
     "records": [
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op05-007@parallel",
-        "identityKey": "op05-007@parallel",
-        "name": "サボ 【SR】【パラレル】【赤】【OP05-007】",
-        "modelNo": "OP05-007",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 500,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP05-007_p1.jpeg"
-      },
       {
         "shopId": "cardrush",
         "shopName": "カードラッシュ",
@@ -37634,6 +37621,19 @@
         ],
         "latestPrice": 250,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20230910_075065.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op05-007@parallel",
+        "identityKey": "op05-007@parallel",
+        "name": "サボ 【SR】【パラレル】【赤】【OP05-007】",
+        "modelNo": "OP05-007",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 200,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP05-007_p1.jpeg"
       }
     ]
   },
@@ -39361,10 +39361,10 @@
     },
     "priceStats": {
       "min": 80000,
-      "max": 85000,
-      "ratio": 1.1
+      "max": 80000,
+      "ratio": 1
     },
-    "maxPrice": 85000,
+    "maxPrice": 80000,
     "riskLevel": "low",
     "warnings": [
       "店舗間の画像比較データなし"
@@ -39382,7 +39382,7 @@
         "tags": [
           "comic"
         ],
-        "latestPrice": 85000,
+        "latestPrice": 80000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP17-112_p2.png"
       },
       {
@@ -39545,9 +39545,9 @@
       "totalRecords": 2
     },
     "priceStats": {
-      "min": 75000,
+      "min": 70000,
       "max": 75000,
-      "ratio": 1
+      "ratio": 1.1
     },
     "maxPrice": 75000,
     "riskLevel": "low",
@@ -39557,19 +39557,6 @@
     "duplicateShops": [],
     "conditionConflict": false,
     "records": [
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op17-062@comic",
-        "identityKey": "op17-062@comic",
-        "name": "カイドウ 【SR】【スーパーパラレル】【紫】【OP17-062】",
-        "modelNo": "OP17-062",
-        "tags": [
-          "comic"
-        ],
-        "latestPrice": 75000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP17-062_p2.png"
-      },
       {
         "shopId": "mercard",
         "shopName": "メルカード",
@@ -39583,6 +39570,19 @@
         ],
         "latestPrice": 75000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/125.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op17-062@comic",
+        "identityKey": "op17-062@comic",
+        "name": "カイドウ 【SR】【スーパーパラレル】【紫】【OP17-062】",
+        "modelNo": "OP17-062",
+        "tags": [
+          "comic"
+        ],
+        "latestPrice": 70000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP17-062_p2.png"
       }
     ]
   },
@@ -44489,7 +44489,7 @@
           "parallel",
           "sp"
         ],
-        "latestPrice": 3000,
+        "latestPrice": 3500,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240222_aa42d3.jpg"
       },
       {
@@ -46331,79 +46331,6 @@
     ]
   },
   {
-    "candidateId": "candidate_OP15-113_parallel",
-    "suggestedCanonicalId": "OP15-113_PARALLEL",
-    "canonicalName": "ロロノア・ゾロ【パラレル】《黄》",
-    "modelCode": "OP15-113",
-    "signature": "parallel",
-    "candidateScore": 80,
-    "confidence": 80,
-    "nameScore": 26,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 1500,
-      "max": 2500,
-      "ratio": 1.7
-    },
-    "maxPrice": 2500,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "cardrush",
-        "shopName": "カードラッシュ",
-        "sourceKey": "op15-113@illust:shishizaru+parallel",
-        "identityKey": "op15-113@illust:shishizaru+parallel",
-        "name": "ロロノア・ゾロ(パラレル/illust:Shishizaru)",
-        "modelNo": "OP15-113",
-        "tags": [
-          "illust:shishizaru",
-          "parallel"
-        ],
-        "latestPrice": 2500,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/12247.webp"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op15-113@parallel",
-        "identityKey": "op15-113@parallel",
-        "name": "ロロノア・ゾロ【パラレル】《黄》",
-        "modelNo": "OP15-113",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 1800,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP15/149.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op15-113@parallel",
-        "identityKey": "op15-113@parallel",
-        "name": "ロロノア・ゾロ 【SR】【パラレル】【黄】【OP15-113】",
-        "modelNo": "OP15-113",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 1500,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP15-113_p1.png"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_EB01-061_parallel",
     "suggestedCanonicalId": "EB01-061_PARALLEL",
     "canonicalName": "Mr.2・ボン・クレー(ベンサム)【パラレル】《紫》",
@@ -46479,6 +46406,157 @@
     ]
   },
   {
+    "candidateId": "candidate_OP15-113_parallel",
+    "suggestedCanonicalId": "OP15-113_PARALLEL",
+    "canonicalName": "ロロノア・ゾロ【パラレル】《黄》",
+    "modelCode": "OP15-113",
+    "signature": "parallel",
+    "candidateScore": 79,
+    "confidence": 79,
+    "nameScore": 26,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 1000,
+      "max": 2500,
+      "ratio": 2.5
+    },
+    "maxPrice": 2500,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "cardrush",
+        "shopName": "カードラッシュ",
+        "sourceKey": "op15-113@illust:shishizaru+parallel",
+        "identityKey": "op15-113@illust:shishizaru+parallel",
+        "name": "ロロノア・ゾロ(パラレル/illust:Shishizaru)",
+        "modelNo": "OP15-113",
+        "tags": [
+          "illust:shishizaru",
+          "parallel"
+        ],
+        "latestPrice": 2500,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/12247.webp"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op15-113@parallel",
+        "identityKey": "op15-113@parallel",
+        "name": "ロロノア・ゾロ【パラレル】《黄》",
+        "modelNo": "OP15-113",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 1800,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP15/149.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op15-113@parallel",
+        "identityKey": "op15-113@parallel",
+        "name": "ロロノア・ゾロ 【SR】【パラレル】【黄】【OP15-113】",
+        "modelNo": "OP15-113",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 1000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP15-113_p1.png"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_OP03-078_parallel_sp",
+    "suggestedCanonicalId": "OP03-078_PARALLEL_SP",
+    "canonicalName": "イッショウ【SPパラレル】《黒》",
+    "modelCode": "OP03-078",
+    "signature": "parallel+sp",
+    "candidateScore": 78,
+    "confidence": 78,
+    "nameScore": 14,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 2000,
+      "max": 2500,
+      "ratio": 1.3
+    },
+    "maxPrice": 2500,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "cardrush",
+        "shopName": "カードラッシュ",
+        "sourceKey": "op03-078@illust:skinoko+op07+parallel+sp",
+        "identityKey": "op03-078@illust:skinoko+op07+parallel+sp",
+        "name": "イッショウ(パラレル/SP/illust:S-KINOKO)",
+        "modelNo": "OP03-078[OP07]",
+        "tags": [
+          "illust:skinoko",
+          "op07",
+          "parallel",
+          "sp"
+        ],
+        "latestPrice": 2500,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/3381.webp"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op03-078@parallel+sp",
+        "identityKey": "op03-078@parallel+sp",
+        "name": "イッショウ 【SR】【SP】【パラレル】【黒】【OP03-078】",
+        "modelNo": "OP03-078",
+        "tags": [
+          "parallel",
+          "sp"
+        ],
+        "latestPrice": 2300,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP03-078_p2.jpeg"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op03-078@op07+parallel+sp",
+        "identityKey": "op03-078@op07+parallel+sp",
+        "name": "イッショウ【SPパラレル】《黒》",
+        "modelNo": "SPOP03-078『OP07』",
+        "tags": [
+          "op07",
+          "parallel",
+          "sp"
+        ],
+        "latestPrice": 2000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240222_524f82.jpg"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_EB04-002_parallel",
     "suggestedCanonicalId": "EB04-002_PARALLEL",
     "canonicalName": "ジュエリー・ボニー【パラレル】《赤》",
@@ -46548,84 +46626,6 @@
         ],
         "latestPrice": 1000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB04-002_p1.png"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_OP03-078_parallel_sp",
-    "suggestedCanonicalId": "OP03-078_PARALLEL_SP",
-    "canonicalName": "イッショウ【SPパラレル】《黒》",
-    "modelCode": "OP03-078",
-    "signature": "parallel+sp",
-    "candidateScore": 77,
-    "confidence": 77,
-    "nameScore": 14,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 1800,
-      "max": 2500,
-      "ratio": 1.4
-    },
-    "maxPrice": 2500,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "cardrush",
-        "shopName": "カードラッシュ",
-        "sourceKey": "op03-078@illust:skinoko+op07+parallel+sp",
-        "identityKey": "op03-078@illust:skinoko+op07+parallel+sp",
-        "name": "イッショウ(パラレル/SP/illust:S-KINOKO)",
-        "modelNo": "OP03-078[OP07]",
-        "tags": [
-          "illust:skinoko",
-          "op07",
-          "parallel",
-          "sp"
-        ],
-        "latestPrice": 2500,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/3381.webp"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op03-078@parallel+sp",
-        "identityKey": "op03-078@parallel+sp",
-        "name": "イッショウ 【SR】【SP】【パラレル】【黒】【OP03-078】",
-        "modelNo": "OP03-078",
-        "tags": [
-          "parallel",
-          "sp"
-        ],
-        "latestPrice": 2300,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP03-078_p2.jpeg"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op03-078@op07+parallel+sp",
-        "identityKey": "op03-078@op07+parallel+sp",
-        "name": "イッショウ【SPパラレル】《黒》",
-        "modelNo": "SPOP03-078『OP07』",
-        "tags": [
-          "op07",
-          "parallel",
-          "sp"
-        ],
-        "latestPrice": 1800,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240222_524f82.jpg"
       }
     ]
   },
@@ -50856,81 +50856,6 @@
     ]
   },
   {
-    "candidateId": "candidate_OP14-091_parallel",
-    "suggestedCanonicalId": "OP14-091_PARALLEL",
-    "canonicalName": "Mr.2・ボン・クレー(ベンサム)【パラレル】《黒》",
-    "modelCode": "OP14-091",
-    "signature": "parallel",
-    "candidateScore": 81,
-    "confidence": 81,
-    "nameScore": 32,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 800,
-      "max": 1300,
-      "ratio": 1.6
-    },
-    "maxPrice": 1300,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op14-091@parallel+ベンサム",
-        "identityKey": "op14-091@parallel+ベンサム",
-        "name": "Mr.2・ボン・クレー(ベンサム) 【SR】【パラレル】【黒】【OP14-091】",
-        "modelNo": "OP14-091",
-        "tags": [
-          "parallel",
-          "ベンサム"
-        ],
-        "latestPrice": 1300,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP14-091_p1.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op14-091@parallel+ベンサム",
-        "identityKey": "op14-091@parallel+ベンサム",
-        "name": "Mr.2・ボン・クレー(ベンサム)【パラレル】《黒》",
-        "modelNo": "OP14-091",
-        "tags": [
-          "parallel",
-          "ベンサム"
-        ],
-        "latestPrice": 1200,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP14/27.png"
-      },
-      {
-        "shopId": "cardrush",
-        "shopName": "カードラッシュ",
-        "sourceKey": "op14-091@illust:otton+parallel",
-        "identityKey": "op14-091@illust:otton+parallel",
-        "name": "Mr.2・ボン・クレーベンサム(パラレル/illust:otton)",
-        "modelNo": "OP14-091",
-        "tags": [
-          "illust:otton",
-          "parallel"
-        ],
-        "latestPrice": 800,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/10648.webp"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_EB02-026_parallel",
     "suggestedCanonicalId": "EB02-026_PARALLEL",
     "canonicalName": "ネフェルタリ・ビビ【パラレル】《青》",
@@ -51439,6 +51364,81 @@
         ],
         "latestPrice": 500,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP14/18.png"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_OP14-091_parallel",
+    "suggestedCanonicalId": "OP14-091_PARALLEL",
+    "canonicalName": "Mr.2・ボン・クレー(ベンサム)【パラレル】《黒》",
+    "modelCode": "OP14-091",
+    "signature": "parallel",
+    "candidateScore": 81,
+    "confidence": 81,
+    "nameScore": 32,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 800,
+      "max": 1200,
+      "ratio": 1.5
+    },
+    "maxPrice": 1200,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op14-091@parallel+ベンサム",
+        "identityKey": "op14-091@parallel+ベンサム",
+        "name": "Mr.2・ボン・クレー(ベンサム)【パラレル】《黒》",
+        "modelNo": "OP14-091",
+        "tags": [
+          "parallel",
+          "ベンサム"
+        ],
+        "latestPrice": 1200,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP14/27.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op14-091@parallel+ベンサム",
+        "identityKey": "op14-091@parallel+ベンサム",
+        "name": "Mr.2・ボン・クレー(ベンサム) 【SR】【パラレル】【黒】【OP14-091】",
+        "modelNo": "OP14-091",
+        "tags": [
+          "parallel",
+          "ベンサム"
+        ],
+        "latestPrice": 1100,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP14-091_p1.png"
+      },
+      {
+        "shopId": "cardrush",
+        "shopName": "カードラッシュ",
+        "sourceKey": "op14-091@illust:otton+parallel",
+        "identityKey": "op14-091@illust:otton+parallel",
+        "name": "Mr.2・ボン・クレーベンサム(パラレル/illust:otton)",
+        "modelNo": "OP14-091",
+        "tags": [
+          "illust:otton",
+          "parallel"
+        ],
+        "latestPrice": 800,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/10648.webp"
       }
     ]
   },
@@ -54148,7 +54148,7 @@
         "tags": [
           "parallel"
         ],
-        "latestPrice": 600,
+        "latestPrice": 800,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250124_7c287b.png"
       },
       {
@@ -55803,79 +55803,6 @@
     ]
   },
   {
-    "candidateId": "candidate_EB01-013_parallel",
-    "suggestedCanonicalId": "EB01-013_PARALLEL",
-    "canonicalName": "光月日和【パラレル】《緑》",
-    "modelCode": "EB01-013",
-    "signature": "parallel",
-    "candidateScore": 76,
-    "confidence": 76,
-    "nameScore": 11,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 500,
-      "max": 800,
-      "ratio": 1.6
-    },
-    "maxPrice": 800,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "cardrush",
-        "shopName": "カードラッシュ",
-        "sourceKey": "eb01-013@illust:sunohara+parallel",
-        "identityKey": "eb01-013@illust:sunohara+parallel",
-        "name": "光月日和(パラレル/illust:Sunohara)",
-        "modelNo": "EB01-013",
-        "tags": [
-          "illust:sunohara",
-          "parallel"
-        ],
-        "latestPrice": 800,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/3046.webp"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "eb01-013@parallel",
-        "identityKey": "eb01-013@parallel",
-        "name": "光月日和【パラレル】《緑》",
-        "modelNo": "EB01-013",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 600,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240126_a9a796.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "eb01-013@parallel",
-        "identityKey": "eb01-013@parallel",
-        "name": "光月日和 【R】【パラレル】【緑】【EB01-013】",
-        "modelNo": "EB01-013",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 500,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB01-013_p1.jpeg"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_EB01-056_parallel",
     "suggestedCanonicalId": "EB01-056_PARALLEL",
     "canonicalName": "シャーロット・フランペ【パラレル】《黄》",
@@ -56232,6 +56159,79 @@
         ],
         "latestPrice": 300,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP11-119_p1.png"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_EB01-013_parallel",
+    "suggestedCanonicalId": "EB01-013_PARALLEL",
+    "canonicalName": "光月日和【パラレル】《緑》",
+    "modelCode": "EB01-013",
+    "signature": "parallel",
+    "candidateScore": 74,
+    "confidence": 74,
+    "nameScore": 11,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 200,
+      "max": 800,
+      "ratio": 4
+    },
+    "maxPrice": 800,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "cardrush",
+        "shopName": "カードラッシュ",
+        "sourceKey": "eb01-013@illust:sunohara+parallel",
+        "identityKey": "eb01-013@illust:sunohara+parallel",
+        "name": "光月日和(パラレル/illust:Sunohara)",
+        "modelNo": "EB01-013",
+        "tags": [
+          "illust:sunohara",
+          "parallel"
+        ],
+        "latestPrice": 800,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/3046.webp"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "eb01-013@parallel",
+        "identityKey": "eb01-013@parallel",
+        "name": "光月日和【パラレル】《緑》",
+        "modelNo": "EB01-013",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 600,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240126_a9a796.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "eb01-013@parallel",
+        "identityKey": "eb01-013@parallel",
+        "name": "光月日和 【R】【パラレル】【緑】【EB01-013】",
+        "modelNo": "EB01-013",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 200,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB01-013_p1.jpeg"
       }
     ]
   },
@@ -66278,79 +66278,6 @@
     ]
   },
   {
-    "candidateId": "candidate_OP10-090_parallel",
-    "suggestedCanonicalId": "OP10-090_PARALLEL",
-    "canonicalName": "フランキー【パラレル】《黒》",
-    "modelCode": "OP10-090",
-    "signature": "parallel",
-    "candidateScore": 76,
-    "confidence": 76,
-    "nameScore": 13,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 300,
-      "max": 500,
-      "ratio": 1.7
-    },
-    "maxPrice": 500,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "cardrush",
-        "shopName": "カードラッシュ",
-        "sourceKey": "op10-090@moopic+parallel",
-        "identityKey": "op10-090@moopic+parallel",
-        "name": "フランキー(パラレル/Moopic)",
-        "modelNo": "OP10-090",
-        "tags": [
-          "moopic",
-          "parallel"
-        ],
-        "latestPrice": 500,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/6531.webp"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op10-090@parallel",
-        "identityKey": "op10-090@parallel",
-        "name": "フランキー【パラレル】《黒》",
-        "modelNo": "OP10-090",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 350,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP10/31.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op10-090@parallel",
-        "identityKey": "op10-090@parallel",
-        "name": "フランキー 【R】【パラレル】【黒】【OP10-090】",
-        "modelNo": "OP10-090",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 300,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP10-090_p1.jpeg"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_OP12-018_base",
     "suggestedCanonicalId": "OP12-018_BASE",
     "canonicalName": "覇王色の覇気【R】《赤》",
@@ -67149,6 +67076,79 @@
     ]
   },
   {
+    "candidateId": "candidate_OP10-090_parallel",
+    "suggestedCanonicalId": "OP10-090_PARALLEL",
+    "canonicalName": "フランキー【パラレル】《黒》",
+    "modelCode": "OP10-090",
+    "signature": "parallel",
+    "candidateScore": 75,
+    "confidence": 75,
+    "nameScore": 13,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 200,
+      "max": 500,
+      "ratio": 2.5
+    },
+    "maxPrice": 500,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "cardrush",
+        "shopName": "カードラッシュ",
+        "sourceKey": "op10-090@moopic+parallel",
+        "identityKey": "op10-090@moopic+parallel",
+        "name": "フランキー(パラレル/Moopic)",
+        "modelNo": "OP10-090",
+        "tags": [
+          "moopic",
+          "parallel"
+        ],
+        "latestPrice": 500,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/6531.webp"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op10-090@parallel",
+        "identityKey": "op10-090@parallel",
+        "name": "フランキー【パラレル】《黒》",
+        "modelNo": "OP10-090",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 350,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP10/31.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op10-090@parallel",
+        "identityKey": "op10-090@parallel",
+        "name": "フランキー 【R】【パラレル】【黒】【OP10-090】",
+        "modelNo": "OP10-090",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 200,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP10-090_p1.jpeg"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_OP11-023_parallel",
     "suggestedCanonicalId": "OP11-023_PARALLEL",
     "canonicalName": "アーロン【パラレル】《緑》",
@@ -67733,152 +67733,6 @@
     ]
   },
   {
-    "candidateId": "candidate_OP08-030_parallel",
-    "suggestedCanonicalId": "OP08-030_PARALLEL",
-    "canonicalName": "ペドロ【パラレル】《緑》",
-    "modelCode": "OP08-030",
-    "signature": "parallel",
-    "candidateScore": 74,
-    "confidence": 74,
-    "nameScore": 5,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 300,
-      "max": 500,
-      "ratio": 1.7
-    },
-    "maxPrice": 500,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "cardrush",
-        "shopName": "カードラッシュ",
-        "sourceKey": "op08-030@illust:yoichiamano+parallel",
-        "identityKey": "op08-030@illust:yoichiamano+parallel",
-        "name": "ペドロ(パラレル/illust:Yoichi Amano)",
-        "modelNo": "OP08-030",
-        "tags": [
-          "illust:yoichiamano",
-          "parallel"
-        ],
-        "latestPrice": 500,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/4435.webp"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op08-030@parallel",
-        "identityKey": "op08-030@parallel",
-        "name": "ペドロ 【R】【パラレル】【緑】【OP08-030】",
-        "modelNo": "OP08-030",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 500,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP08-030_p1.jpeg"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op08-030@parallel",
-        "identityKey": "op08-030@parallel",
-        "name": "ペドロ【パラレル】《緑》",
-        "modelNo": "OP08-030",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 300,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP08/136.jpg"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_OP10-037_parallel",
-    "suggestedCanonicalId": "OP10-037_PARALLEL",
-    "canonicalName": "リム【パラレル】《緑》",
-    "modelCode": "OP10-037",
-    "signature": "parallel",
-    "candidateScore": 74,
-    "confidence": 74,
-    "nameScore": 6,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 300,
-      "max": 500,
-      "ratio": 1.7
-    },
-    "maxPrice": 500,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "cardrush",
-        "shopName": "カードラッシュ",
-        "sourceKey": "op10-037@koushirokushiro+parallel",
-        "identityKey": "op10-037@koushirokushiro+parallel",
-        "name": "リム(パラレル/Koushi Rokushiro)",
-        "modelNo": "OP10-037",
-        "tags": [
-          "koushirokushiro",
-          "parallel"
-        ],
-        "latestPrice": 500,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/6540.webp"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op10-037@parallel",
-        "identityKey": "op10-037@parallel",
-        "name": "リム【パラレル】《緑》",
-        "modelNo": "OP10-037",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 300,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP10/23.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op10-037@parallel",
-        "identityKey": "op10-037@parallel",
-        "name": "リム 【R】【パラレル】【緑】【OP10-037】",
-        "modelNo": "OP10-037",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 300,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP10-037_p1.jpeg"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_OP13-120_base",
     "suggestedCanonicalId": "OP13-120_BASE",
     "canonicalName": "サボ【SEC】《黒》",
@@ -68226,6 +68080,152 @@
     ]
   },
   {
+    "candidateId": "candidate_OP08-030_parallel",
+    "suggestedCanonicalId": "OP08-030_PARALLEL",
+    "canonicalName": "ペドロ【パラレル】《緑》",
+    "modelCode": "OP08-030",
+    "signature": "parallel",
+    "candidateScore": 73,
+    "confidence": 73,
+    "nameScore": 5,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 200,
+      "max": 500,
+      "ratio": 2.5
+    },
+    "maxPrice": 500,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "cardrush",
+        "shopName": "カードラッシュ",
+        "sourceKey": "op08-030@illust:yoichiamano+parallel",
+        "identityKey": "op08-030@illust:yoichiamano+parallel",
+        "name": "ペドロ(パラレル/illust:Yoichi Amano)",
+        "modelNo": "OP08-030",
+        "tags": [
+          "illust:yoichiamano",
+          "parallel"
+        ],
+        "latestPrice": 500,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/4435.webp"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op08-030@parallel",
+        "identityKey": "op08-030@parallel",
+        "name": "ペドロ【パラレル】《緑》",
+        "modelNo": "OP08-030",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 300,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP08/136.jpg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op08-030@parallel",
+        "identityKey": "op08-030@parallel",
+        "name": "ペドロ 【R】【パラレル】【緑】【OP08-030】",
+        "modelNo": "OP08-030",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 200,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP08-030_p1.jpeg"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_OP10-037_parallel",
+    "suggestedCanonicalId": "OP10-037_PARALLEL",
+    "canonicalName": "リム【パラレル】《緑》",
+    "modelCode": "OP10-037",
+    "signature": "parallel",
+    "candidateScore": 73,
+    "confidence": 73,
+    "nameScore": 6,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 200,
+      "max": 500,
+      "ratio": 2.5
+    },
+    "maxPrice": 500,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "cardrush",
+        "shopName": "カードラッシュ",
+        "sourceKey": "op10-037@koushirokushiro+parallel",
+        "identityKey": "op10-037@koushirokushiro+parallel",
+        "name": "リム(パラレル/Koushi Rokushiro)",
+        "modelNo": "OP10-037",
+        "tags": [
+          "koushirokushiro",
+          "parallel"
+        ],
+        "latestPrice": 500,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/6540.webp"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op10-037@parallel",
+        "identityKey": "op10-037@parallel",
+        "name": "リム【パラレル】《緑》",
+        "modelNo": "OP10-037",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 300,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP10/23.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op10-037@parallel",
+        "identityKey": "op10-037@parallel",
+        "name": "リム 【R】【パラレル】【緑】【OP10-037】",
+        "modelNo": "OP10-037",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 200,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP10-037_p1.jpeg"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_ST22-009_parallel",
     "suggestedCanonicalId": "ST22-009_PARALLEL",
     "canonicalName": "ビスタ【パラレル】《青》",
@@ -68538,67 +68538,6 @@
         ],
         "latestPrice": 200,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-009_p1.jpeg"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_P-111_promo",
-    "suggestedCanonicalId": "P-111_PROMO",
-    "canonicalName": "ニコ・ロビン【プロモ】《緑》",
-    "modelCode": "P-111",
-    "signature": "promo",
-    "candidateScore": 67,
-    "confidence": 67,
-    "nameScore": 15,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 2
-    },
-    "priceStats": {
-      "min": 350,
-      "max": 500,
-      "ratio": 1.4
-    },
-    "maxPrice": 500,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-111@promo+交流会",
-        "identityKey": "p-111@promo+交流会",
-        "name": "ニコ・ロビン 【P】【プロモ】【交流会】【緑】【P-111】",
-        "modelNo": "P-111",
-        "tags": [
-          "promo",
-          "交流会"
-        ],
-        "latestPrice": 500,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-111.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-111@promo+交流会配布版ノマル",
-        "identityKey": "p-111@promo+交流会配布版ノマル",
-        "name": "ニコ・ロビン【プロモ】《緑》",
-        "modelNo": "交流会配布版ノーマル仕様P-111",
-        "tags": [
-          "promo",
-          "交流会配布版ノマル"
-        ],
-        "latestPrice": 350,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20251007_46228b.png"
       }
     ]
   },
@@ -69565,6 +69504,67 @@
         "tags": [],
         "latestPrice": 10,
         "imageUrl": "https://drive.google.com/thumbnail?id=1zfImRtEZHdybp6MbAsBYgIxiMb61RIYH&sz=w400"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_P-111_promo",
+    "suggestedCanonicalId": "P-111_PROMO",
+    "canonicalName": "ニコ・ロビン【プロモ】《緑》",
+    "modelCode": "P-111",
+    "signature": "promo",
+    "candidateScore": 65,
+    "confidence": 65,
+    "nameScore": 15,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 2
+    },
+    "priceStats": {
+      "min": 100,
+      "max": 350,
+      "ratio": 3.5
+    },
+    "maxPrice": 350,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-111@promo+交流会配布版ノマル",
+        "identityKey": "p-111@promo+交流会配布版ノマル",
+        "name": "ニコ・ロビン【プロモ】《緑》",
+        "modelNo": "交流会配布版ノーマル仕様P-111",
+        "tags": [
+          "promo",
+          "交流会配布版ノマル"
+        ],
+        "latestPrice": 350,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20251007_46228b.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-111@promo+交流会",
+        "identityKey": "p-111@promo+交流会",
+        "name": "ニコ・ロビン 【P】【プロモ】【交流会】【緑】【P-111】",
+        "modelNo": "P-111",
+        "tags": [
+          "promo",
+          "交流会"
+        ],
+        "latestPrice": 100,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-111.png"
       }
     ]
   },
@@ -72634,6 +72634,67 @@
     ]
   },
   {
+    "candidateId": "candidate_P-089_promo",
+    "suggestedCanonicalId": "P-089_PROMO",
+    "canonicalName": "トニートニー・チョッパー【プロモ】《黄》",
+    "modelCode": "P-089",
+    "signature": "promo",
+    "candidateScore": 70,
+    "confidence": 70,
+    "nameScore": 29,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 2
+    },
+    "priceStats": {
+      "min": 50,
+      "max": 100,
+      "ratio": 2
+    },
+    "maxPrice": 100,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-089@promo+最強ジャンプ2月号",
+        "identityKey": "p-089@promo+最強ジャンプ2月号",
+        "name": "トニートニー・チョッパー【プロモ】《黄》",
+        "modelNo": "最強ジャンプ2月号版P-089",
+        "tags": [
+          "promo",
+          "最強ジャンプ2月号"
+        ],
+        "latestPrice": 100,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250104_91cb2a.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-089@promo+最強ジャンプ",
+        "identityKey": "p-089@promo+最強ジャンプ",
+        "name": "トニートニー・チョッパー 【P】【プロモ】【最強ジャンプ】【黄】【P-089】",
+        "modelNo": "P-089",
+        "tags": [
+          "promo",
+          "最強ジャンプ"
+        ],
+        "latestPrice": 50,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-089.png"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_EB01-015_base",
     "suggestedCanonicalId": "EB01-015_BASE",
     "canonicalName": "スクラッチメン・アプー【R】《緑》",
@@ -74260,67 +74321,6 @@
         "tags": [],
         "latestPrice": 10,
         "imageUrl": ""
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_P-089_promo",
-    "suggestedCanonicalId": "P-089_PROMO",
-    "canonicalName": "トニートニー・チョッパー【プロモ】《黄》",
-    "modelCode": "P-089",
-    "signature": "promo",
-    "candidateScore": 72,
-    "confidence": 72,
-    "nameScore": 29,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 2
-    },
-    "priceStats": {
-      "min": 50,
-      "max": 50,
-      "ratio": 1
-    },
-    "maxPrice": 50,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-089@promo+最強ジャンプ",
-        "identityKey": "p-089@promo+最強ジャンプ",
-        "name": "トニートニー・チョッパー 【P】【プロモ】【最強ジャンプ】【黄】【P-089】",
-        "modelNo": "P-089",
-        "tags": [
-          "promo",
-          "最強ジャンプ"
-        ],
-        "latestPrice": 50,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-089.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-089@promo+最強ジャンプ2月号",
-        "identityKey": "p-089@promo+最強ジャンプ2月号",
-        "name": "トニートニー・チョッパー【プロモ】《黄》",
-        "modelNo": "最強ジャンプ2月号版P-089",
-        "tags": [
-          "promo",
-          "最強ジャンプ2月号"
-        ],
-        "latestPrice": 50,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250104_91cb2a.png"
       }
     ]
   },

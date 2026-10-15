@@ -1,12 +1,12 @@
 {
   "format": "op-tcg-db-catalog",
   "version": 1,
-  "generatedAt": "2026-10-14T14:34:51.952Z",
-  "syncedAt": "2026-10-15T11:20:24.259Z",
+  "generatedAt": "2026-10-15T14:14:46.673Z",
+  "syncedAt": "2026-10-15T21:17:25.084Z",
   "sourceCounts": {
-    "cards": 2824,
+    "cards": 2825,
     "manifestCards": 2825,
-    "provisionalCards": 110
+    "provisionalCards": 112
   },
   "variants": [
     {
@@ -77189,6 +77189,24 @@
       "provisionalUniqueId": "OP18-084_OP18-084.png"
     },
     {
+      "variantKey": "OP18-085::OP18-085",
+      "cardNumber": "OP18-085",
+      "cardName": "ケルベロス",
+      "variantId": "OP18-085",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-085.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-085_OP18-085.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-085_OP18-085.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-085_OP18-085.png"
+    },
+    {
       "variantKey": "OP18-086::OP18-086",
       "cardNumber": "OP18-086",
       "cardName": "ゴールドバーグ",
@@ -77259,6 +77277,24 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "OP18-100_OP18-100.png"
+    },
+    {
+      "variantKey": "OP18-101::OP18-101",
+      "cardNumber": "OP18-101",
+      "cardName": "クマドリ",
+      "variantId": "OP18-101",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-0101.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-101_OP18-0101.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-101_OP18-0101.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-101_OP18-0101.png"
     },
     {
       "variantKey": "OP18-106::OP18-106",
