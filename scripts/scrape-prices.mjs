@@ -3,6 +3,7 @@ import path from 'node:path';
 import { cardKeyFor } from './lib/card-identity.mjs';
 import { rekeyCards } from './lib/card-store.mjs';
 import { fetchText } from './lib/http-fetch.mjs';
+import { scrapeCardrushBuyingPrices } from './lib/cardrush-source.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const DATA_PATH = path.join(ROOT, 'data', 'cards.json');
@@ -17,9 +18,13 @@ const SHOPS = [
   {
     id: 'cardrush',
     name: 'カードラッシュ',
-    url: 'https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&page=1',
-    type: 'cardrushNextData',
-    headers: { referer: 'https://cardrush.media/onepiece/' },
+    url: 'https://cardrush.media/api/proxy/onepiece/buying_prices',
+    sourceUrl: 'https://cardrush.media/onepiece/buying_prices',
+    type: 'cardrushJsonApi',
+    headers: {
+      accept: 'application/json, text/plain, */*',
+      referer: 'https://cardrush.media/onepiece/buying_prices',
+    },
   },
   {
     id: 'torecard',
@@ -122,30 +127,6 @@ async function scrapeTorecard(shop) {
   return cards;
 }
 
-async function scrapeCardrush(shop) {
-  const html = await fetchText(shop.url, { headers: shop.headers });
-  const match = html.match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/);
-  if (!match) {
-    throw new Error('Cardrush __NEXT_DATA__ was not found');
-  }
-
-  const data = JSON.parse(match[1]);
-  const buyingPrices = data?.props?.pageProps?.buyingPrices || [];
-
-  return buyingPrices
-    .map((item) => {
-      const extra = item.extra_difference ? `(${sanitizeText(item.extra_difference)})` : '';
-      return {
-        name: `${sanitizeText(item.name)}${extra}`,
-        modelNo: sanitizeText(item.model_number),
-        imageUrl: item.ocha_product?.image_source || '',
-        price: Number(item.amount || 0),
-        rarity: sanitizeText(item.rarity),
-      };
-    })
-    .filter((card) => card.name && card.modelNo && card.price > 0);
-}
-
 // 既存データを新キーで Map 化する。旧キー形式のカードもここで自動的に
 // 再キー化され、同一カードはマージされる(初回実行時のマイグレーションを兼ねる)。
 const normalizePrevious = rekeyCards;
@@ -206,8 +187,8 @@ async function main() {
 
     try {
       scraped =
-        shop.type === 'cardrushNextData'
-          ? await scrapeCardrush(shop)
+        shop.type === 'cardrushJsonApi'
+          ? await scrapeCardrushBuyingPrices(shop)
           : shop.type === 'torecardHtml'
             ? await scrapeTorecard(shop)
             : await scrapeMercard(shop);
@@ -253,7 +234,7 @@ async function main() {
         shopName: shop.name,
         latestPrice: item.price,
         imageUrl: item.imageUrl || previousShop.imageUrl || '',
-        sourceUrl: shop.url,
+        sourceUrl: shop.sourceUrl || shop.url,
         sourceName: item.name,
         history: upsertHistory(previousShop.history || [], date, item.price),
       };
