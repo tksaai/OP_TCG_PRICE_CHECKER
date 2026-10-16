@@ -29,6 +29,7 @@ assert.match(html, />DB所持JSON読込</u);
 assert.match(html, /id="db-import-modal"/u);
 assert.match(html, /一致分のみ置き換え（推奨）/u);
 assert.match(html, /一致分を加算/u);
+assert.doesNotMatch(html, /<option value="cardrush">/u, 'カードラッシュがショップ選択に残っています');
 
 // data-action は必ず app.js 側に対応する分岐があること
 const actions = [...html.matchAll(/data-action="([^"]+)"/gu)].map(match => match[1]);
@@ -41,6 +42,7 @@ for (const action of new Set(actions)) {
 assert.match(appJs, /createUnmatchedExport/u);
 assert.match(appJs, /unmatchedExportToCsv/u);
 assert.match(appJs, /localStorage\.setItem\('onepieceOwnedCounts'/u);
+assert.match(appJs, /DISABLED_SHOP_IDS = new Set\(\['cardrush'\]\)/u);
 
 // カード画像は左側の固定比率枠へ入れ、遅延読み込みでもレイアウトを動かさないこと
 assert.match(html, /\.card\s*\{[^}]*grid-template-columns:/su, 'カードが左右レイアウトになっていません');

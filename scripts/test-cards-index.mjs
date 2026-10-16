@@ -64,6 +64,25 @@ const cards = [
         latestPrice: 900, imageUrl: '',
         history: [{ date: '2026/07/15', price: 900 }],
       },
+      cardrush: {
+        shopName: 'カードラッシュ', sourceName: '非表示カード',
+        latestPrice: 999999, imageUrl: 'https://example.com/cardrush.webp',
+        history: [{ date: '2026/08/26', price: 999999 }],
+      },
+    },
+  },
+  {
+    key: 'OP01-002_NORMAL',
+    name: '無効ショップのみ',
+    modelNo: 'OP01-002',
+    bestShopId: 'cardrush',
+    latestPrice: 5000,
+    pricesByShop: {
+      cardrush: {
+        shopName: 'カードラッシュ', latestPrice: 5000,
+        imageUrl: 'https://example.com/cardrush-only.webp',
+        history: [{ date: '2026/08/27', price: 5000 }],
+      },
     },
   },
 ];
@@ -71,10 +90,12 @@ const cards = [
 assert.equal(latestDateOf(cards), '2026/08/25');
 
 const index = buildCardsIndex(cards);
-assert.equal(index.length, 1);
+assert.equal(index.length, 1, '無効ショップしかないカードは一覧へ出さない');
 const [entry] = index;
 assert.equal(entry.key, 'OP01-001_NORMAL');
 assert.equal(entry.latestPrice, 1500);
+assert.equal(entry.bestShopId, 'shopA', '無効ショップを最高買取にしない');
+assert.equal(entry.pricesByShop.cardrush, undefined, '無効ショップを一覧データへ含めない');
 assert.equal(entry.pricesByShop.shopA.stats.trendDiff, 300);
 assert.equal(entry.pricesByShop.shopB.stats.trendDiff, 0, '止まっているショップに前日比を出さない');
 assert.equal(entry.pricesByShop.shopA.sourceName, 'テストカード【A表記】', 'マージなし表示に使う名前を残す');
@@ -89,8 +110,9 @@ try {
   const realIndexJson = await readFile(new URL('../data/cards-index.json', import.meta.url), 'utf8');
   const realCards = JSON.parse(realCardsJson);
   const realIndex = JSON.parse(realIndexJson);
-  assert.equal(realIndex.length, realCards.length, 'cards-index.json の件数が cards.json と一致しません');
+  assert.ok(realIndex.length <= realCards.length, 'cards-index.json が cards.json より多くなっています');
   assert.ok(realIndex.every(card => card.key && card.pricesByShop), 'cards-index.json の形式が壊れています');
+  assert.ok(realIndex.every(card => !card.pricesByShop.cardrush), 'cards-index.json に無効ショップが残っています');
   assert.ok(realIndexJson.length < realCardsJson.length, '実データのインデックスは元データより小さいこと');
 } catch (error) {
   if (error.code !== 'ENOENT') throw error;

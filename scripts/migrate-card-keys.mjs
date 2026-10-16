@@ -10,17 +10,17 @@ import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { cardKeyFor } from './lib/card-identity.mjs';
 import { mergeHistories, rekeyCards } from './lib/card-store.mjs';
+import { bestEnabledShop, hasStoredShopPrice } from './lib/shop-policy.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const CARDS_PATH = path.join(ROOT, 'data', 'cards.json');
 const ALIASES_PATH = path.join(ROOT, 'data', 'card-aliases.json');
 
 function recomputeBest(card) {
-  const entries = Object.entries(card.pricesByShop || {}).filter(([, shop]) => Number(shop.latestPrice || 0) > 0);
-  const best = entries.sort((a, b) => Number(b[1].latestPrice || 0) - Number(a[1].latestPrice || 0))[0];
+  const best = bestEnabledShop(card);
   card.bestShopId = best ? best[0] : '';
   card.latestPrice = best ? Number(best[1].latestPrice || 0) : 0;
-  card.imageId = best?.[1]?.imageUrl || card.imageId || '';
+  card.imageId = best?.[1]?.imageUrl || '';
   card.history = best ? mergeHistories(card.history || [], best[1].history || []) : card.history || [];
   return card;
 }
@@ -31,7 +31,7 @@ async function main() {
 
   const output = [...rekeyed.values()]
     .map(recomputeBest)
-    .filter((card) => Number(card.latestPrice || 0) > 0)
+    .filter(hasStoredShopPrice)
     .sort((a, b) => Number(b.latestPrice || 0) - Number(a.latestPrice || 0) || String(a.modelNo).localeCompare(String(b.modelNo), 'ja'));
 
   await writeFile(CARDS_PATH, `${JSON.stringify(output, null, 2)}\n`, 'utf8');

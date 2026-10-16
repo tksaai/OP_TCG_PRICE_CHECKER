@@ -42,8 +42,11 @@ const swVersion = serviceWorkerSource.match(/APP_VERSION = '([^']+)'/)?.[1];
 assert.ok(swVersion, 'service-worker.js に APP_VERSION がありません');
 const indexHtml = await readFile(new URL('../index.html', import.meta.url), 'utf8');
 const htmlVersion = indexHtml.match(/name="application-version" content="([^"]+)"/)?.[1];
+const appSource = await readFile(new URL('../app.js', import.meta.url), 'utf8');
+const appVersion = appSource.match(/APP_VERSION = '([^']+)'/)?.[1];
 const manifest = JSON.parse(await readFile(new URL('../manifest.webmanifest', import.meta.url), 'utf8'));
 assert.equal(htmlVersion, swVersion, 'index.html のバージョンが service-worker.js と一致しません');
+assert.equal(appVersion, swVersion, 'app.js のバージョンが service-worker.js と一致しません');
 assert.equal(manifest.version, swVersion, 'manifest.webmanifest のバージョンが service-worker.js と一致しません');
 
 // オフラインで必要なファイルが app shell に含まれていること

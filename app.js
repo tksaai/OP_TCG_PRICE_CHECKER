@@ -10,7 +10,9 @@ const DB_CATALOG_URL = 'data/db-catalog.json';
 const DB_PRICE_ALIASES_URL = 'data/db-price-aliases.json';
 const DB_VARIANT_MAP_URL = 'data/db-variant-map.json';
 const IMAGE_HASHES_URL = 'data/image-hashes.json';
-const APP_VERSION = '2.3.0';
+const APP_VERSION = '2.4.0';
+// 一時停止中のショップは、古いキャッシュや過去データに残っていても表示・集計しない。
+const DISABLED_SHOP_IDS = new Set(['cardrush']);
 
 let chartInstance = null;
 let totalAssetChartInstance = null;
@@ -79,6 +81,11 @@ function attachCardDetails(card) {
   return card;
 }
 
+function getEnabledShopEntries(card) {
+  return Object.entries(card?.pricesByShop || {})
+    .filter(([shopId]) => !DISABLED_SHOP_IDS.has(shopId));
+}
+
 function normalizeCardForShops(card) {
   if (!card.pricesByShop) {
     card.pricesByShop = {
@@ -91,14 +98,28 @@ function normalizeCardForShops(card) {
     };
     card.bestShopId = 'mercard';
   }
+  for (const shopId of DISABLED_SHOP_IDS) {
+    delete card.pricesByShop[shopId];
+  }
+  const best = getEnabledShopEntries(card)
+    .filter(([, shop]) => Number(shop?.latestPrice || 0) > 0)
+    .sort((a, b) => Number(b[1].latestPrice || 0) - Number(a[1].latestPrice || 0))[0];
+  card.bestShopId = best?.[0] || '';
+  card.latestPrice = Number(best?.[1]?.latestPrice || 0);
+  card.imageId = best?.[1]?.imageUrl
+    || getEnabledShopEntries(card).find(([, shop]) => shop.imageUrl)?.[1]?.imageUrl
+    || '';
   return attachCardDetails(card);
 }
 
 function getShopData(card) {
   // 「マージなし」表示では各疑似カードが単一ショップを持つので bestShopId を使う
   // (資産集計などマージ済みリストへの参照でも最高買取として動く)
+  if (DISABLED_SHOP_IDS.has(currentShop)) return null;
   if (currentShop !== 'best' && currentShop !== 'unmerged') return card.pricesByShop[currentShop] || null;
-  return card.pricesByShop[card.bestShopId] || Object.values(card.pricesByShop).sort((a, b) => b.latestPrice - a.latestPrice)[0] || null;
+  return card.pricesByShop[card.bestShopId]
+    || getEnabledShopEntries(card).sort((a, b) => b[1].latestPrice - a[1].latestPrice)[0]?.[1]
+    || null;
 }
 
 function getActivePrice(card) {
@@ -592,7 +613,9 @@ function initApp(data, details) {
       .filter(card => card?.cardNumber)
       .map(card => [normalizeCardNumber(card.cardNumber), card])
   );
-  cardDataList = data.map(normalizeCardForShops);
+  cardDataList = data
+    .map(normalizeCardForShops)
+    .filter(card => getEnabledShopEntries(card).length > 0 && Number(card.latestPrice || 0) > 0);
   migrateSavedCardState(cardDataList);
   prepareTrendData(cardDataList);
   populateDetailFilters(cardDataList);

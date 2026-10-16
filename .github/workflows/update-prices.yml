@@ -18,9 +18,7 @@ env:
 
 jobs:
   update-prices:
-    # cardrush.media blocks the Azure IP ranges used by Ubuntu/Windows hosted runners.
-    # macOS runners use GitHub's own macOS cloud and keep the scheduled source reachable.
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -44,8 +42,8 @@ jobs:
         run: node scripts/test-pwa-update.mjs
       - name: Test shop HTTP fallback
         run: node scripts/test-http-fetch.mjs
-      - name: Test Cardrush API source
-        run: node scripts/test-cardrush-source.mjs
+      - name: Test enabled shop policy
+        run: node scripts/test-shop-policy.mjs
       - name: Scrape prices
         run: node scripts/scrape-prices.mjs
       - name: Apply card aliases

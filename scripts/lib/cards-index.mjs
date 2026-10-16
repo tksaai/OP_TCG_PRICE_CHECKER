@@ -6,6 +6,8 @@
 // 事前計算した値だけを配る。履歴が要る画面 (価格グラフ・資産推移) は、その時
 // 点で cards.json を遅延読み込みする。
 
+import { bestEnabledShop, enabledShopEntries } from './shop-policy.mjs';
+
 /** 履歴の最終日を返す (履歴が無ければ空文字) */
 function lastDateOf(history) {
   return history.length ? String(history[history.length - 1].date || '') : '';
@@ -19,7 +21,7 @@ function lastDateOf(history) {
 export function latestDateOf(cards) {
   let latest = '';
   for (const card of cards) {
-    for (const shop of Object.values(card?.pricesByShop || {})) {
+    for (const [, shop] of enabledShopEntries(card)) {
       const date = lastDateOf(shop?.history || []);
       if (date && date > latest) latest = date;
     }
@@ -72,9 +74,10 @@ export function buildCardsIndex(cards) {
   const list = Array.isArray(cards) ? cards : [];
   const globalLatestDate = latestDateOf(list);
 
-  return list.map((card) => {
+  return list.flatMap((card) => {
     const pricesByShop = {};
-    for (const [shopId, shop] of Object.entries(card?.pricesByShop || {})) {
+    for (const [shopId, shop] of enabledShopEntries(card)) {
+      if (Number(shop?.latestPrice || 0) <= 0) continue;
       pricesByShop[shopId] = {
         shopName: shop.shopName || '',
         // sourceName は「マージなし」表示でショップ別の名前を出すのに使う
@@ -84,14 +87,19 @@ export function buildCardsIndex(cards) {
         stats: summarizeHistory(shop.history || [], shop.latestPrice, globalLatestDate),
       };
     }
-    return {
+    const best = bestEnabledShop(card);
+    if (!best) return [];
+    const imageId = best[1].imageUrl
+      || Object.values(pricesByShop).find((shop) => shop.imageUrl)?.imageUrl
+      || '';
+    return [{
       key: card.key,
       name: card.name || '',
       modelNo: card.modelNo || '',
-      imageId: card.imageId || '',
-      bestShopId: card.bestShopId || '',
-      latestPrice: Number(card.latestPrice || 0),
+      imageId,
+      bestShopId: best[0],
+      latestPrice: Number(best[1].latestPrice || 0),
       pricesByShop,
-    };
+    }];
   });
 }

@@ -60,8 +60,8 @@ assert.equal(
 
 const reviewCards = [
   card('a', 'ナミ(パラレル/illust:A)', 'mercard', 10000, 'a'),
-  card('b', 'ナミ(パラレル/illust:B)', 'cardrush', 2000, 'b'),
-  card('c', 'ナミ(パラレル/illust:C)', 'cardrush', 1000, 'c'),
+  card('b', 'ナミ(パラレル/illust:B)', 'torecard', 2000, 'b'),
+  card('c', 'ナミ(パラレル/illust:C)', 'torecard', 1000, 'c'),
 ];
 const hashes = {
   a: { dhash: '0000000000000000' },

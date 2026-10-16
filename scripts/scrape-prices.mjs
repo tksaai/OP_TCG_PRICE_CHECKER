@@ -3,7 +3,7 @@ import path from 'node:path';
 import { cardKeyFor } from './lib/card-identity.mjs';
 import { rekeyCards } from './lib/card-store.mjs';
 import { fetchText } from './lib/http-fetch.mjs';
-import { scrapeCardrushBuyingPrices } from './lib/cardrush-source.mjs';
+import { bestEnabledShop, hasStoredShopPrice, isShopEnabled } from './lib/shop-policy.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const DATA_PATH = path.join(ROOT, 'data', 'cards.json');
@@ -14,17 +14,6 @@ const SHOPS = [
     name: 'メルカード',
     url: 'https://akihabara-cardshop.com/onepice-kaitori/',
     type: 'mercardHtml',
-  },
-  {
-    id: 'cardrush',
-    name: 'カードラッシュ',
-    url: 'https://cardrush.media/api/proxy/onepiece/buying_prices',
-    sourceUrl: 'https://cardrush.media/onepiece/buying_prices',
-    type: 'cardrushJsonApi',
-    headers: {
-      accept: 'application/json, text/plain, */*',
-      referer: 'https://cardrush.media/onepiece/buying_prices',
-    },
   },
   {
     id: 'torecard',
@@ -143,14 +132,13 @@ function upsertHistory(history, date, price) {
 }
 
 function recomputeBest(card, date) {
-  const entries = Object.entries(card.pricesByShop || {}).filter(([, value]) => value.latestPrice > 0);
-  const best = entries.sort((a, b) => b[1].latestPrice - a[1].latestPrice)[0];
+  const best = bestEnabledShop(card);
   const bestPrice = best ? best[1].latestPrice : 0;
 
   card.bestShopId = best ? best[0] : '';
   card.latestPrice = bestPrice;
-  card.imageId = best?.[1]?.imageUrl || card.imageId || '';
-  card.history = upsertHistory(card.history || [], date, bestPrice);
+  card.imageId = best?.[1]?.imageUrl || '';
+  if (best) card.history = upsertHistory(card.history || [], date, bestPrice);
   return card;
 }
 
@@ -167,6 +155,7 @@ function countCardsByShop(cards) {
   const counts = new Map();
   for (const card of cards.values()) {
     for (const shopId of Object.keys(card.pricesByShop || {})) {
+      if (!isShopEnabled(shopId)) continue;
       counts.set(shopId, (counts.get(shopId) || 0) + 1);
     }
   }
@@ -186,12 +175,9 @@ async function main() {
     let scraped = [];
 
     try {
-      scraped =
-        shop.type === 'cardrushJsonApi'
-          ? await scrapeCardrushBuyingPrices(shop)
-          : shop.type === 'torecardHtml'
-            ? await scrapeTorecard(shop)
-            : await scrapeMercard(shop);
+      scraped = shop.type === 'torecardHtml'
+        ? await scrapeTorecard(shop)
+        : await scrapeMercard(shop);
     } catch (error) {
       console.error(`Failed to fetch ${shop.id}: ${error.message}`);
       report.shops.push({
@@ -250,7 +236,8 @@ async function main() {
 
   const output = [...cards.values()]
     .map((card) => recomputeBest(card, date))
-    .filter((card) => card.latestPrice > 0)
+    // 無効化したショップだけのカードも、再有効化に備えて履歴ごと保持する。
+    .filter(hasStoredShopPrice)
     .sort((a, b) => b.latestPrice - a.latestPrice || a.modelNo.localeCompare(b.modelNo, 'ja'));
 
   await mkdir(path.dirname(DATA_PATH), { recursive: true });

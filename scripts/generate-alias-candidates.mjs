@@ -5,13 +5,14 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildCardKey, parseCardIdentity } from './lib/card-identity.mjs';
+import { isShopEnabled } from './lib/shop-policy.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CARDS_PATH = path.join(ROOT, 'data', 'cards.json');
 const CANDIDATES_PATH = path.join(ROOT, 'data', 'alias-candidates.json');
 const IMAGE_HASHES_PATH = path.join(ROOT, 'data', 'image-hashes.json');
 
-const SHOP_ORDER = ['mercard', 'cardrush', 'torecard'];
+const SHOP_ORDER = ['mercard', 'torecard'];
 
 // 値が違えば同じ候補に入れない属性。
 // 開封状態、言語・地域、カード種別、大会・配布区分、付属品の有無を画像より優先する。
@@ -188,6 +189,7 @@ export function flattenCards(cards) {
   for (const card of cards) {
     if (card.canonicalId) continue;
     for (const [shopId, shop] of Object.entries(card.pricesByShop || {})) {
+      if (!isShopEnabled(shopId)) continue;
       const name = shop.sourceName || card.name;
       const parsed = parseCardIdentity(name, card.modelNo);
       if (!parsed.modelCode) continue;
