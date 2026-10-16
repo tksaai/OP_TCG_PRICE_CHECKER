@@ -15,7 +15,7 @@
       "fetched": 0,
       "previous": 2718,
       "healthy": false,
-      "error": "403 Forbidden; curl fallback failed: Command failed: curl --fail --silent --show-error --location --compressed --max-time 90 --header user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 --header accept: application/json, text/plain, */* --header accept-language: ja,en-US;q=0.9,en;q=0.8 --header referer: https://cardrush.media/onepiece/buying_prices https://cardrush.media/api/proxy/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=500&page=1\ncurl: (22) The requested URL returned error: 403\n"
+      "error": "403 Forbidden; curl fallback failed: Command failed: curl --fail --silent --show-error --location --compressed --max-time 90 --header user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 --header accept: application/json, text/plain, */* --header accept-language: ja,en-US;q=0.9,en;q=0.8 --header referer: https://cardrush.media/onepiece/buying_prices https://cardrush.media/api/proxy/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=500&page=1\ncurl: (56) The requested URL returned error: 403\n"
     },
     {
       "id": "torecard",
