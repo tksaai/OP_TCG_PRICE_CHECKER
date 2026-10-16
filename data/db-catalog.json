@@ -1,12 +1,12 @@
 {
   "format": "op-tcg-db-catalog",
   "version": 1,
-  "generatedAt": "2026-10-15T14:14:46.673Z",
-  "syncedAt": "2026-10-16T11:22:23.314Z",
+  "generatedAt": "2026-10-16T14:03:25.072Z",
+  "syncedAt": "2026-10-16T20:59:45.557Z",
   "sourceCounts": {
-    "cards": 2824,
+    "cards": 2825,
     "manifestCards": 2825,
-    "provisionalCards": 112
+    "provisionalCards": 113
   },
   "variants": [
     {
@@ -76737,6 +76737,24 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "OP18-011_OP18-011.png"
+    },
+    {
+      "variantKey": "OP18-015::OP18-015",
+      "cardNumber": "OP18-015",
+      "cardName": "マツゲ",
+      "variantId": "OP18-015",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-015.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-015_OP18-015.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-015_OP18-015.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-015_OP18-015.png"
     },
     {
       "variantKey": "OP18-016::OP18-016",
