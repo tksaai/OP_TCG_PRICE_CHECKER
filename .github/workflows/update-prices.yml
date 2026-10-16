@@ -18,7 +18,9 @@ env:
 
 jobs:
   update-prices:
-    runs-on: ubuntu-latest
+    # cardrush.media blocks the Azure IP ranges used by Ubuntu/Windows hosted runners.
+    # macOS runners use GitHub's own macOS cloud and keep the scheduled source reachable.
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
