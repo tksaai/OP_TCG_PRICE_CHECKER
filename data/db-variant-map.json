@@ -1,8 +1,8 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-10-17T10:34:15.115Z",
-  "catalogGeneratedAt": "2026-10-16T14:03:25.072Z",
+  "generatedAt": "2026-10-17T20:30:21.920Z",
+  "catalogGeneratedAt": "2026-10-17T13:03:25.670Z",
   "mappings": {
     "EB01-001::EB01-001": {
       "priceKey": "eb01-001",
@@ -9194,6 +9194,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP12-028",
       "variantId": "OP12-028"
+    },
+    "OP12-028::OP12-028_p1": {
+      "priceKey": "op12-028@promo+スタンダドバトル",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP12-028",
+      "variantId": "OP12-028_p1"
     },
     "OP12-028::OP12-028_p2": {
       "priceKey": "op12-028@parallel+promo+スタンダドバトル",

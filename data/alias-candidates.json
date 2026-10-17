@@ -12351,6 +12351,20 @@
     "conditionConflict": false,
     "records": [
       {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-003@promo+キャンペン",
+        "identityKey": "p-003@promo+キャンペン",
+        "name": "ユースタス・キッド 【プロモ】【キャンペーン】【緑】【P-003】",
+        "modelNo": "P-003",
+        "tags": [
+          "promo",
+          "キャンペン"
+        ],
+        "latestPrice": 30,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-003_p3.jpeg"
+      },
+      {
         "shopId": "mercard",
         "shopName": "メルカード",
         "sourceKey": "p-003@promo+セブンイレブンプロモ",
@@ -12377,20 +12391,6 @@
         ],
         "latestPrice": 10,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260607_78e427.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-003@promo+キャンペン",
-        "identityKey": "p-003@promo+キャンペン",
-        "name": "ユースタス・キッド 【プロモ】【キャンペーン】【緑】【P-003】",
-        "modelNo": "P-003",
-        "tags": [
-          "promo",
-          "キャンペン"
-        ],
-        "latestPrice": 10,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-003_p3.jpeg"
       }
     ]
   },
