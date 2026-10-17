@@ -1,7 +1,7 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-10-16T20:59:45.680Z",
+  "generatedAt": "2026-10-17T10:34:15.115Z",
   "catalogGeneratedAt": "2026-10-16T14:03:25.072Z",
   "mappings": {
     "EB01-001::EB01-001": {
@@ -1761,12 +1761,26 @@
       "cardNumber": "OP01-016",
       "variantId": "OP01-016_p7"
     },
+    "OP01-016::OP01-016_p8": {
+      "priceKey": "op01-016@ノマル",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP01-016",
+      "variantId": "OP01-016_p8"
+    },
     "OP01-017::OP01-017": {
       "priceKey": "op01-017",
       "method": "normal-variant-tags",
       "confirmedBy": "variant-tags",
       "cardNumber": "OP01-017",
       "variantId": "OP01-017"
+    },
+    "OP01-017::OP01-017_p1": {
+      "priceKey": "op01-017@promo+フィナレセット",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP01-017",
+      "variantId": "OP01-017_p1"
     },
     "OP01-017::OP01-017_p2": {
       "priceKey": "op01-017@promo+プレミアムカドコレクションfilmred",
@@ -1781,6 +1795,13 @@
       "confirmedBy": "variant-tags",
       "cardNumber": "OP01-019",
       "variantId": "OP01-019"
+    },
+    "OP01-021::OP01-021_p4": {
+      "priceKey": "op01-021@parallel+promo+プレミアムカドコレクションfilmred",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP01-021",
+      "variantId": "OP01-021_p4"
     },
     "OP01-022::OP01-022": {
       "priceKey": "op01-022",
@@ -14501,6 +14522,13 @@
       "cardNumber": "ST01-002",
       "variantId": "ST01-002_p1"
     },
+    "ST01-002::ST01-002_p4": {
+      "priceKey": "st01-002@parallel+promo+プレミアムカドコレクションfilmred",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "ST01-002",
+      "variantId": "ST01-002_p4"
+    },
     "ST01-004::ST01-004": {
       "priceKey": "st01-004",
       "method": "normal-variant-tags",
@@ -14615,8 +14643,8 @@
     },
     "ST01-011::ST01-011": {
       "priceKey": "st01-011",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "ST01-011",
       "variantId": "ST01-011"
     },
@@ -14633,6 +14661,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "ST01-011",
       "variantId": "ST01-011_p4"
+    },
+    "ST01-011::ST01-011_p5": {
+      "priceKey": "st01-011@foil+prb02",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "ST01-011",
+      "variantId": "ST01-011_p5"
     },
     "ST01-012::ST01-012": {
       "priceKey": "ST01-012_WANTED",
