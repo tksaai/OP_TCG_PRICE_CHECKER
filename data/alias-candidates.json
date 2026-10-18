@@ -1440,7 +1440,7 @@
         "tags": [
           "parallel"
         ],
-        "latestPrice": 7000,
+        "latestPrice": 6500,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB04/71.png"
       },
       {
@@ -2258,6 +2258,105 @@
     ]
   },
   {
+    "candidateId": "candidate_OP16-098_parallel",
+    "suggestedCanonicalId": "OP16-098_PARALLEL",
+    "canonicalName": "ヤマト【パラレル】《黒》",
+    "modelCode": "OP16-098",
+    "signature": "parallel",
+    "candidateScore": 62,
+    "confidence": 62,
+    "nameScore": 6,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 4
+    },
+    "priceStats": {
+      "min": 2500,
+      "max": 16000,
+      "ratio": 6.4
+    },
+    "maxPrice": 16000,
+    "riskLevel": "high",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件、torecard 2件）",
+      "価格差 約6.4倍（価格は参考情報）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      },
+      {
+        "shopId": "torecard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op16-098@op17+parallel+覇王色",
+        "identityKey": "op16-098@op17+parallel+覇王色",
+        "name": "ヤマト【覇王色パラレル】《黒》",
+        "modelNo": "覇王色パラレル版OP16-098『OP17』",
+        "tags": [
+          "op17",
+          "parallel",
+          "覇王色"
+        ],
+        "latestPrice": 16000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/131.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op16-098@parallel+覇王色sp",
+        "identityKey": "op16-098@parallel+覇王色sp",
+        "name": "ヤマト 【覇王色SP】【パラレル】【黒】【OP16-098】",
+        "modelNo": "OP16-098",
+        "tags": [
+          "parallel",
+          "覇王色sp"
+        ],
+        "latestPrice": 14000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP16-098_p2.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op16-098@parallel",
+        "identityKey": "op16-098@parallel",
+        "name": "ヤマト 【SR】【パラレル】【黒】【OP16-098】",
+        "modelNo": "OP16-098",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 2500,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP16-098_p1.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op16-098@parallel",
+        "identityKey": "op16-098@parallel",
+        "name": "ヤマト【パラレル】《黒》",
+        "modelNo": "OP16-098",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 2500,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP16/422.png"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_OP05-067_parallel_sp",
     "suggestedCanonicalId": "OP05-067_PARALLEL_SP",
     "canonicalName": "ゾロ十郎【SPパラレル】《紫》",
@@ -2540,105 +2639,6 @@
         ],
         "latestPrice": 600,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-012_p5.jpeg"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_OP16-098_parallel",
-    "suggestedCanonicalId": "OP16-098_PARALLEL",
-    "canonicalName": "ヤマト【パラレル】《黒》",
-    "modelCode": "OP16-098",
-    "signature": "parallel",
-    "candidateScore": 62,
-    "confidence": 62,
-    "nameScore": 6,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 4
-    },
-    "priceStats": {
-      "min": 2500,
-      "max": 15000,
-      "ratio": 6
-    },
-    "maxPrice": 15000,
-    "riskLevel": "high",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件、torecard 2件）",
-      "価格差 約6倍（価格は参考情報）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      },
-      {
-        "shopId": "torecard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op16-098@op17+parallel+覇王色",
-        "identityKey": "op16-098@op17+parallel+覇王色",
-        "name": "ヤマト【覇王色パラレル】《黒》",
-        "modelNo": "覇王色パラレル版OP16-098『OP17』",
-        "tags": [
-          "op17",
-          "parallel",
-          "覇王色"
-        ],
-        "latestPrice": 15000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/131.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op16-098@parallel+覇王色sp",
-        "identityKey": "op16-098@parallel+覇王色sp",
-        "name": "ヤマト 【覇王色SP】【パラレル】【黒】【OP16-098】",
-        "modelNo": "OP16-098",
-        "tags": [
-          "parallel",
-          "覇王色sp"
-        ],
-        "latestPrice": 14000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP16-098_p2.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op16-098@parallel",
-        "identityKey": "op16-098@parallel",
-        "name": "ヤマト 【SR】【パラレル】【黒】【OP16-098】",
-        "modelNo": "OP16-098",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 2500,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP16-098_p1.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op16-098@parallel",
-        "identityKey": "op16-098@parallel",
-        "name": "ヤマト【パラレル】《黒》",
-        "modelNo": "OP16-098",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 2500,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP16/422.png"
       }
     ]
   },
@@ -5209,7 +5209,7 @@
         "name": "インペルダウンの囚人【R】《青》",
         "modelNo": "OP16-042",
         "tags": [],
-        "latestPrice": 150,
+        "latestPrice": 100,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP16/42.png"
       },
       {
@@ -6131,91 +6131,6 @@
     ]
   },
   {
-    "candidateId": "candidate_P-149_promo",
-    "suggestedCanonicalId": "P-149_PROMO",
-    "canonicalName": "Mr.5(ジェム)【プロモ】《黒》",
-    "modelCode": "P-149",
-    "signature": "promo",
-    "candidateScore": 65,
-    "confidence": 65,
-    "nameScore": 18,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 100,
-      "max": 1200,
-      "ratio": 12
-    },
-    "maxPrice": 1200,
-    "riskLevel": "high",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "価格差 約12倍（価格は参考情報）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-149@liveactioneditionvol2バロックワクス+promo+ジェム",
-        "identityKey": "p-149@liveactioneditionvol2バロックワクス+promo+ジェム",
-        "name": "Mr.5(ジェム)【プロモ】《黒》",
-        "modelNo": "Live Action Edition vol.2 バロックワークス版P-149",
-        "tags": [
-          "liveactioneditionvol2バロックワクス",
-          "promo",
-          "ジェム"
-        ],
-        "latestPrice": 1200,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260801_82c050.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-149@promo+ジェム+プロモションカドセット2026vol2",
-        "identityKey": "p-149@promo+ジェム+プロモションカドセット2026vol2",
-        "name": "Mr.5(ジェム)【プロモ】《黒》",
-        "modelNo": "プロモーションカードセット2026Vol.2版P-149",
-        "tags": [
-          "promo",
-          "ジェム",
-          "プロモションカドセット2026vol2"
-        ],
-        "latestPrice": 500,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/2026/14.jpg"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-149@promo+ジェム+プロモションカドセット2026vol2",
-        "identityKey": "p-149@promo+ジェム+プロモションカドセット2026vol2",
-        "name": "Mr.5(ジェム) 【P】【プロモ】【プロモーションカードセット2026 Vol.2】【黒】【P-149】",
-        "modelNo": "プロモーションカードセット2026Vol.2版P-149",
-        "tags": [
-          "promo",
-          "ジェム",
-          "プロモションカドセット2026vol2"
-        ],
-        "latestPrice": 100,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-149_x1.jpg"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_ST03-005_parallel_promo",
     "suggestedCanonicalId": "ST03-005_PARALLEL_PROMO",
     "canonicalName": "パラレル版ジュラキュール・ミホーク【プロモ】《青》",
@@ -6835,6 +6750,91 @@
     ]
   },
   {
+    "candidateId": "candidate_P-149_promo",
+    "suggestedCanonicalId": "P-149_PROMO",
+    "canonicalName": "Mr.5(ジェム)【プロモ】《黒》",
+    "modelCode": "P-149",
+    "signature": "promo",
+    "candidateScore": 65,
+    "confidence": 65,
+    "nameScore": 18,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 100,
+      "max": 1000,
+      "ratio": 10
+    },
+    "maxPrice": 1000,
+    "riskLevel": "high",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件）",
+      "価格差 約10倍（価格は参考情報）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-149@liveactioneditionvol2バロックワクス+promo+ジェム",
+        "identityKey": "p-149@liveactioneditionvol2バロックワクス+promo+ジェム",
+        "name": "Mr.5(ジェム)【プロモ】《黒》",
+        "modelNo": "Live Action Edition vol.2 バロックワークス版P-149",
+        "tags": [
+          "liveactioneditionvol2バロックワクス",
+          "promo",
+          "ジェム"
+        ],
+        "latestPrice": 1000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260801_82c050.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-149@promo+ジェム+プロモションカドセット2026vol2",
+        "identityKey": "p-149@promo+ジェム+プロモションカドセット2026vol2",
+        "name": "Mr.5(ジェム)【プロモ】《黒》",
+        "modelNo": "プロモーションカードセット2026Vol.2版P-149",
+        "tags": [
+          "promo",
+          "ジェム",
+          "プロモションカドセット2026vol2"
+        ],
+        "latestPrice": 400,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/2026/14.jpg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-149@promo+ジェム+プロモションカドセット2026vol2",
+        "identityKey": "p-149@promo+ジェム+プロモションカドセット2026vol2",
+        "name": "Mr.5(ジェム) 【P】【プロモ】【プロモーションカードセット2026 Vol.2】【黒】【P-149】",
+        "modelNo": "プロモーションカードセット2026Vol.2版P-149",
+        "tags": [
+          "promo",
+          "ジェム",
+          "プロモションカドセット2026vol2"
+        ],
+        "latestPrice": 100,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-149_x1.jpg"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_ST01-011_promo",
     "suggestedCanonicalId": "ST01-011_PROMO",
     "canonicalName": "ブルック【プロモ】《赤》",
@@ -7245,8 +7245,8 @@
     "canonicalName": "シャンクス【プロモ】《赤》",
     "modelCode": "P-097",
     "signature": "promo",
-    "candidateScore": 64,
-    "confidence": 64,
+    "candidateScore": 65,
+    "confidence": 65,
     "nameScore": 15,
     "imageScore": null,
     "imageStats": {
@@ -7258,15 +7258,15 @@
       "totalRecords": 3
     },
     "priceStats": {
-      "min": 100,
+      "min": 150,
       "max": 800,
-      "ratio": 8
+      "ratio": 5.3
     },
     "maxPrice": 800,
     "riskLevel": "high",
     "warnings": [
       "同一店舗の複数商品を含む（mercard 2件）",
-      "価格差 約8倍（価格は参考情報）",
+      "価格差 約5.3倍（価格は参考情報）",
       "店舗間の画像比較データなし"
     ],
     "duplicateShops": [
@@ -7294,6 +7294,20 @@
       {
         "shopId": "mercard",
         "shopName": "メルカード",
+        "sourceKey": "p-097@promo+テマプロモションパック新四皇",
+        "identityKey": "p-097@promo+テマプロモションパック新四皇",
+        "name": "シャンクス【プロモ】《赤》",
+        "modelNo": "テーマプロモーションパック新四皇版P-097",
+        "tags": [
+          "promo",
+          "テマプロモションパック新四皇"
+        ],
+        "latestPrice": 150,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250606_3e80e4.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
         "sourceKey": "p-097@promo+プロモションパックexvol5",
         "identityKey": "p-097@promo+プロモションパックexvol5",
         "name": "シャンクス【プロモ】《赤》",
@@ -7304,20 +7318,6 @@
         ],
         "latestPrice": 150,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260930_93c0b2.jpg"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-097@promo+テマプロモションパック新四皇",
-        "identityKey": "p-097@promo+テマプロモションパック新四皇",
-        "name": "シャンクス【プロモ】《赤》",
-        "modelNo": "テーマプロモーションパック新四皇版P-097",
-        "tags": [
-          "promo",
-          "テマプロモションパック新四皇"
-        ],
-        "latestPrice": 100,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250606_3e80e4.png"
       }
     ]
   },
@@ -7513,6 +7513,132 @@
         ],
         "latestPrice": 10,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP06-047_p1.jpeg"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_P-079_promo",
+    "suggestedCanonicalId": "P-079_PROMO",
+    "canonicalName": "リム【プロモ】《緑》",
+    "modelCode": "P-079",
+    "signature": "promo",
+    "candidateScore": 63,
+    "confidence": 63,
+    "nameScore": 10,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 6
+    },
+    "priceStats": {
+      "min": 10,
+      "max": 600,
+      "ratio": 60
+    },
+    "maxPrice": 600,
+    "riskLevel": "high",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 3件、torecard 3件）",
+      "価格差 約60倍（価格は参考情報）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 3
+      },
+      {
+        "shopId": "torecard",
+        "count": 3
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-079@onepieceodysseyデラックスエディション+promo",
+        "identityKey": "p-079@onepieceodysseyデラックスエディション+promo",
+        "name": "リム【プロモ】《緑》",
+        "modelNo": "ONE PIECE ODYSSEYデラックスエディションP-079",
+        "tags": [
+          "onepieceodysseyデラックスエディション",
+          "promo"
+        ],
+        "latestPrice": 600,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240629_655820.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-079@promo",
+        "identityKey": "p-079@promo",
+        "name": "リム【プロモ】《緑》",
+        "modelNo": "P-079",
+        "tags": [
+          "promo"
+        ],
+        "latestPrice": 150,
+        "imageUrl": ""
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-079@promo+特典",
+        "identityKey": "p-079@promo+特典",
+        "name": "リム 【プロモ】【特典】【緑】【P-079】",
+        "modelNo": "P-079",
+        "tags": [
+          "promo",
+          "特典"
+        ],
+        "latestPrice": 100,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-079.jpeg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-079@promo",
+        "identityKey": "p-079@promo",
+        "name": "リム【プロモ】《緑》",
+        "modelNo": "P-079",
+        "tags": [
+          "promo"
+        ],
+        "latestPrice": 50,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-079_p1.jpeg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-079@promo+交流会",
+        "identityKey": "p-079@promo+交流会",
+        "name": "リム 【P】【プロモ】【交流会】【緑】【P-079】",
+        "modelNo": "P-079",
+        "tags": [
+          "promo",
+          "交流会"
+        ],
+        "latestPrice": 50,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-079_p1.jpeg"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-079@promo+交流会配布",
+        "identityKey": "p-079@promo+交流会配布",
+        "name": "リム【プロモ】《緑》",
+        "modelNo": "交流会配布版P-079",
+        "tags": [
+          "promo",
+          "交流会配布"
+        ],
+        "latestPrice": 10,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240811_168a13.jpg"
       }
     ]
   },
@@ -7916,132 +8042,6 @@
         ],
         "latestPrice": 30,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-044.jpeg"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_P-079_promo",
-    "suggestedCanonicalId": "P-079_PROMO",
-    "canonicalName": "リム【プロモ】《緑》",
-    "modelCode": "P-079",
-    "signature": "promo",
-    "candidateScore": 63,
-    "confidence": 63,
-    "nameScore": 10,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 6
-    },
-    "priceStats": {
-      "min": 10,
-      "max": 400,
-      "ratio": 40
-    },
-    "maxPrice": 400,
-    "riskLevel": "high",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 3件、torecard 3件）",
-      "価格差 約40倍（価格は参考情報）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 3
-      },
-      {
-        "shopId": "torecard",
-        "count": 3
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-079@onepieceodysseyデラックスエディション+promo",
-        "identityKey": "p-079@onepieceodysseyデラックスエディション+promo",
-        "name": "リム【プロモ】《緑》",
-        "modelNo": "ONE PIECE ODYSSEYデラックスエディションP-079",
-        "tags": [
-          "onepieceodysseyデラックスエディション",
-          "promo"
-        ],
-        "latestPrice": 400,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240629_655820.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-079@promo",
-        "identityKey": "p-079@promo",
-        "name": "リム【プロモ】《緑》",
-        "modelNo": "P-079",
-        "tags": [
-          "promo"
-        ],
-        "latestPrice": 150,
-        "imageUrl": ""
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-079@promo+特典",
-        "identityKey": "p-079@promo+特典",
-        "name": "リム 【プロモ】【特典】【緑】【P-079】",
-        "modelNo": "P-079",
-        "tags": [
-          "promo",
-          "特典"
-        ],
-        "latestPrice": 100,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-079.jpeg"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-079@promo",
-        "identityKey": "p-079@promo",
-        "name": "リム【プロモ】《緑》",
-        "modelNo": "P-079",
-        "tags": [
-          "promo"
-        ],
-        "latestPrice": 50,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-079_p1.jpeg"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-079@promo+交流会",
-        "identityKey": "p-079@promo+交流会",
-        "name": "リム 【P】【プロモ】【交流会】【緑】【P-079】",
-        "modelNo": "P-079",
-        "tags": [
-          "promo",
-          "交流会"
-        ],
-        "latestPrice": 50,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-079_p1.jpeg"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-079@promo+交流会配布",
-        "identityKey": "p-079@promo+交流会配布",
-        "name": "リム【プロモ】《緑》",
-        "modelNo": "交流会配布版P-079",
-        "tags": [
-          "promo",
-          "交流会配布"
-        ],
-        "latestPrice": 10,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240811_168a13.jpg"
       }
     ]
   },
@@ -8955,88 +8955,6 @@
     ]
   },
   {
-    "candidateId": "candidate_P-144_promo",
-    "suggestedCanonicalId": "P-144_PROMO",
-    "canonicalName": "ミス・オールサンデー【プロモ】《黒》",
-    "modelCode": "P-144",
-    "signature": "promo",
-    "candidateScore": 66,
-    "confidence": 66,
-    "nameScore": 22,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 50,
-      "max": 250,
-      "ratio": 5
-    },
-    "maxPrice": 250,
-    "riskLevel": "high",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "価格差 約5倍（価格は参考情報）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-144@liveactioneditionvol2バロックワクス+promo",
-        "identityKey": "p-144@liveactioneditionvol2バロックワクス+promo",
-        "name": "ミス・オールサンデー【プロモ】《黒》",
-        "modelNo": "Live Action Edition vol.2 バロックワークス版P-144",
-        "tags": [
-          "liveactioneditionvol2バロックワクス",
-          "promo"
-        ],
-        "latestPrice": 250,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260801_44a3e8.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-144@promo+プロモションカドセット2026vol2",
-        "identityKey": "p-144@promo+プロモションカドセット2026vol2",
-        "name": "ミス・オールサンデー【プロモ】《黒》",
-        "modelNo": "プロモーションカードセット2026Vol.2版P-144",
-        "tags": [
-          "promo",
-          "プロモションカドセット2026vol2"
-        ],
-        "latestPrice": 250,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/2026/9.jpg"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-144@promo+プロモションカドセット2026vol2",
-        "identityKey": "p-144@promo+プロモションカドセット2026vol2",
-        "name": "ミス・オールサンデー 【P】【プロモ】【プロモーションカードセット2026 Vol.2】【黒】【P-144】",
-        "modelNo": "プロモーションカードセット2026Vol.2版P-144",
-        "tags": [
-          "promo",
-          "プロモションカドセット2026vol2"
-        ],
-        "latestPrice": 50,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-144_x1.jpg"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_ST10-013_promo",
     "suggestedCanonicalId": "ST10-013_PROMO",
     "canonicalName": "ユースタス・キッド【プロモ】《紫》",
@@ -9133,6 +9051,88 @@
         ],
         "latestPrice": 50,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240420_97b499.png"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_P-144_promo",
+    "suggestedCanonicalId": "P-144_PROMO",
+    "canonicalName": "ミス・オールサンデー【プロモ】《黒》",
+    "modelCode": "P-144",
+    "signature": "promo",
+    "candidateScore": 67,
+    "confidence": 67,
+    "nameScore": 22,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 50,
+      "max": 200,
+      "ratio": 4
+    },
+    "maxPrice": 200,
+    "riskLevel": "high",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件）",
+      "価格差 約4倍（価格は参考情報）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-144@liveactioneditionvol2バロックワクス+promo",
+        "identityKey": "p-144@liveactioneditionvol2バロックワクス+promo",
+        "name": "ミス・オールサンデー【プロモ】《黒》",
+        "modelNo": "Live Action Edition vol.2 バロックワークス版P-144",
+        "tags": [
+          "liveactioneditionvol2バロックワクス",
+          "promo"
+        ],
+        "latestPrice": 200,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260801_44a3e8.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-144@promo+プロモションカドセット2026vol2",
+        "identityKey": "p-144@promo+プロモションカドセット2026vol2",
+        "name": "ミス・オールサンデー【プロモ】《黒》",
+        "modelNo": "プロモーションカードセット2026Vol.2版P-144",
+        "tags": [
+          "promo",
+          "プロモションカドセット2026vol2"
+        ],
+        "latestPrice": 200,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/2026/9.jpg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-144@promo+プロモションカドセット2026vol2",
+        "identityKey": "p-144@promo+プロモションカドセット2026vol2",
+        "name": "ミス・オールサンデー 【P】【プロモ】【プロモーションカードセット2026 Vol.2】【黒】【P-144】",
+        "modelNo": "プロモーションカードセット2026Vol.2版P-144",
+        "tags": [
+          "promo",
+          "プロモションカドセット2026vol2"
+        ],
+        "latestPrice": 50,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-144_x1.jpg"
       }
     ]
   },
@@ -17370,9 +17370,9 @@
       "totalRecords": 4
     },
     "priceStats": {
-      "min": 250,
+      "min": 200,
       "max": 500,
-      "ratio": 2
+      "ratio": 2.5
     },
     "maxPrice": 500,
     "riskLevel": "medium",
@@ -17434,7 +17434,7 @@
           "キャラクタプロモ",
           "プレミアムカドコレクションウタ"
         ],
-        "latestPrice": 250,
+        "latestPrice": 200,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20231009_770a8b.png"
       }
     ]
@@ -22362,6 +22362,68 @@
     ]
   },
   {
+    "candidateId": "candidate_OP03-078_parallel_sp",
+    "suggestedCanonicalId": "OP03-078_PARALLEL_SP",
+    "canonicalName": "イッショウ【SPパラレル】《黒》",
+    "modelCode": "OP03-078",
+    "signature": "parallel+sp",
+    "candidateScore": 74,
+    "confidence": 74,
+    "nameScore": 38,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 2
+    },
+    "priceStats": {
+      "min": 2300,
+      "max": 2500,
+      "ratio": 1.1
+    },
+    "maxPrice": 2500,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op03-078@op07+parallel+sp",
+        "identityKey": "op03-078@op07+parallel+sp",
+        "name": "イッショウ【SPパラレル】《黒》",
+        "modelNo": "SPOP03-078『OP07』",
+        "tags": [
+          "op07",
+          "parallel",
+          "sp"
+        ],
+        "latestPrice": 2500,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240222_524f82.jpg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op03-078@parallel+sp",
+        "identityKey": "op03-078@parallel+sp",
+        "name": "イッショウ 【SR】【SP】【パラレル】【黒】【OP03-078】",
+        "modelNo": "OP03-078",
+        "tags": [
+          "parallel",
+          "sp"
+        ],
+        "latestPrice": 2300,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP03-078_p2.jpeg"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_P-007_promo",
     "suggestedCanonicalId": "P-007_PROMO",
     "canonicalName": "モンキー・D・ルフィ【プロモ】《赤》",
@@ -22723,68 +22785,6 @@
         ],
         "latestPrice": 800,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250604_a69b2a.png"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_OP03-078_parallel_sp",
-    "suggestedCanonicalId": "OP03-078_PARALLEL_SP",
-    "canonicalName": "イッショウ【SPパラレル】《黒》",
-    "modelCode": "OP03-078",
-    "signature": "parallel+sp",
-    "candidateScore": 74,
-    "confidence": 74,
-    "nameScore": 38,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 2
-    },
-    "priceStats": {
-      "min": 2000,
-      "max": 2300,
-      "ratio": 1.1
-    },
-    "maxPrice": 2300,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op03-078@parallel+sp",
-        "identityKey": "op03-078@parallel+sp",
-        "name": "イッショウ 【SR】【SP】【パラレル】【黒】【OP03-078】",
-        "modelNo": "OP03-078",
-        "tags": [
-          "parallel",
-          "sp"
-        ],
-        "latestPrice": 2300,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP03-078_p2.jpeg"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op03-078@op07+parallel+sp",
-        "identityKey": "op03-078@op07+parallel+sp",
-        "name": "イッショウ【SPパラレル】《黒》",
-        "modelNo": "SPOP03-078『OP07』",
-        "tags": [
-          "op07",
-          "parallel",
-          "sp"
-        ],
-        "latestPrice": 2000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240222_524f82.jpg"
       }
     ]
   },
@@ -24333,10 +24333,10 @@
     },
     "priceStats": {
       "min": 100,
-      "max": 350,
-      "ratio": 3.5
+      "max": 400,
+      "ratio": 4
     },
-    "maxPrice": 350,
+    "maxPrice": 400,
     "riskLevel": "low",
     "warnings": [
       "店舗間の画像比較データなし"
@@ -24355,7 +24355,7 @@
           "promo",
           "交流会配布版ノマル"
         ],
-        "latestPrice": 350,
+        "latestPrice": 400,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20251007_46228b.png"
       },
       {
