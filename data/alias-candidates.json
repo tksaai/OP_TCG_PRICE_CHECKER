@@ -1360,105 +1360,6 @@
     ]
   },
   {
-    "candidateId": "candidate_EB04-007_parallel",
-    "suggestedCanonicalId": "EB04-007_PARALLEL",
-    "canonicalName": "ロロノア・ゾロ【パラレル】《赤》",
-    "modelCode": "EB04-007",
-    "signature": "parallel",
-    "candidateScore": 65,
-    "confidence": 65,
-    "nameScore": 16,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 4
-    },
-    "priceStats": {
-      "min": 5000,
-      "max": 22000,
-      "ratio": 4.4
-    },
-    "maxPrice": 22000,
-    "riskLevel": "high",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件、torecard 2件）",
-      "価格差 約4.4倍（価格は参考情報）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      },
-      {
-        "shopId": "torecard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "eb04-007@op17+parallel+覇王色",
-        "identityKey": "eb04-007@op17+parallel+覇王色",
-        "name": "ロロノア・ゾロ【覇王色パラレル】《赤》",
-        "modelNo": "覇王色パラレル版EB04-007『OP17』",
-        "tags": [
-          "op17",
-          "parallel",
-          "覇王色"
-        ],
-        "latestPrice": 22000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/127.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "eb04-007@parallel+覇王色sp",
-        "identityKey": "eb04-007@parallel+覇王色sp",
-        "name": "ロロノア・ゾロ 【覇王色SP】【パラレル】【赤】【EB04-007】",
-        "modelNo": "EB04-007",
-        "tags": [
-          "parallel",
-          "覇王色sp"
-        ],
-        "latestPrice": 17000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB04-007_p2.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "eb04-007@parallel",
-        "identityKey": "eb04-007@parallel",
-        "name": "ロロノア・ゾロ【パラレル】《赤》",
-        "modelNo": "EB04-007",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 6500,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB04/71.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "eb04-007@parallel",
-        "identityKey": "eb04-007@parallel",
-        "name": "ロロノア・ゾロ 【SR】【パラレル】【赤】【EB04-007】",
-        "modelNo": "EB04-007",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 5000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB04-007_p1.png"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_OP02-059_promo",
     "suggestedCanonicalId": "OP02-059_PROMO",
     "canonicalName": "ボア・ハンコック【プロモ】《青》",
@@ -1566,6 +1467,105 @@
         ],
         "latestPrice": 1000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP02/151.jpg"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_EB04-007_parallel",
+    "suggestedCanonicalId": "EB04-007_PARALLEL",
+    "canonicalName": "ロロノア・ゾロ【パラレル】《赤》",
+    "modelCode": "EB04-007",
+    "signature": "parallel",
+    "candidateScore": 65,
+    "confidence": 65,
+    "nameScore": 16,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 4
+    },
+    "priceStats": {
+      "min": 5000,
+      "max": 20000,
+      "ratio": 4
+    },
+    "maxPrice": 20000,
+    "riskLevel": "high",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件、torecard 2件）",
+      "価格差 約4倍（価格は参考情報）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      },
+      {
+        "shopId": "torecard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "eb04-007@op17+parallel+覇王色",
+        "identityKey": "eb04-007@op17+parallel+覇王色",
+        "name": "ロロノア・ゾロ【覇王色パラレル】《赤》",
+        "modelNo": "覇王色パラレル版EB04-007『OP17』",
+        "tags": [
+          "op17",
+          "parallel",
+          "覇王色"
+        ],
+        "latestPrice": 20000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/127.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "eb04-007@parallel+覇王色sp",
+        "identityKey": "eb04-007@parallel+覇王色sp",
+        "name": "ロロノア・ゾロ 【覇王色SP】【パラレル】【赤】【EB04-007】",
+        "modelNo": "EB04-007",
+        "tags": [
+          "parallel",
+          "覇王色sp"
+        ],
+        "latestPrice": 17000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB04-007_p2.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "eb04-007@parallel",
+        "identityKey": "eb04-007@parallel",
+        "name": "ロロノア・ゾロ【パラレル】《赤》",
+        "modelNo": "EB04-007",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 6500,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB04/71.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "eb04-007@parallel",
+        "identityKey": "eb04-007@parallel",
+        "name": "ロロノア・ゾロ 【SR】【パラレル】【赤】【EB04-007】",
+        "modelNo": "EB04-007",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 5000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB04-007_p1.png"
       }
     ]
   },
@@ -4849,14 +4849,14 @@
     },
     "priceStats": {
       "min": 100,
-      "max": 3200,
-      "ratio": 32
+      "max": 3000,
+      "ratio": 30
     },
-    "maxPrice": 3200,
+    "maxPrice": 3000,
     "riskLevel": "high",
     "warnings": [
       "同一店舗の複数商品を含む（mercard 2件）",
-      "価格差 約32倍（価格は参考情報）",
+      "価格差 約30倍（価格は参考情報）",
       "店舗間の画像比較データなし"
     ],
     "duplicateShops": [
@@ -4878,7 +4878,7 @@
           "promo",
           "プロモションパックexvol5"
         ],
-        "latestPrice": 3200,
+        "latestPrice": 3000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260930_706a6c.jpg"
       },
       {
@@ -19216,9 +19216,9 @@
       "totalRecords": 2
     },
     "priceStats": {
-      "min": 60000,
+      "min": 55000,
       "max": 60000,
-      "ratio": 1
+      "ratio": 1.1
     },
     "maxPrice": 60000,
     "riskLevel": "low",
@@ -19228,21 +19228,6 @@
     "duplicateShops": [],
     "conditionConflict": false,
     "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "st31-004@op17+parallel+sp",
-        "identityKey": "st31-004@op17+parallel+sp",
-        "name": "モンキー・Ｄ・ルフィ【SPパラレル】《赤》",
-        "modelNo": "SPST31-004『OP17』",
-        "tags": [
-          "op17",
-          "parallel",
-          "sp"
-        ],
-        "latestPrice": 60000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/135.png"
-      },
       {
         "shopId": "torecard",
         "shopName": "トレカード秋葉原",
@@ -19256,6 +19241,21 @@
         ],
         "latestPrice": 60000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST31-004_p1.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "st31-004@op17+parallel+sp",
+        "identityKey": "st31-004@op17+parallel+sp",
+        "name": "モンキー・Ｄ・ルフィ【SPパラレル】《赤》",
+        "modelNo": "SPST31-004『OP17』",
+        "tags": [
+          "op17",
+          "parallel",
+          "sp"
+        ],
+        "latestPrice": 55000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/135.png"
       }
     ]
   },

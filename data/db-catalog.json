@@ -1,12 +1,12 @@
 {
   "format": "op-tcg-db-catalog",
   "version": 1,
-  "generatedAt": "2026-10-18T13:23:09.512Z",
-  "syncedAt": "2026-10-19T13:00:14.482Z",
+  "generatedAt": "2026-10-19T16:33:27.001Z",
+  "syncedAt": "2026-10-19T22:17:20.062Z",
   "sourceCounts": {
-    "cards": 2824,
+    "cards": 2825,
     "manifestCards": 2825,
-    "provisionalCards": 115
+    "provisionalCards": 116
   },
   "variants": [
     {
@@ -77187,6 +77187,24 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "OP18-076_OP18-076.png"
+    },
+    {
+      "variantKey": "OP18-077::OP18-077",
+      "cardNumber": "OP18-077",
+      "cardName": "シロモクバ1号",
+      "variantId": "OP18-077",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-0770.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-077_OP18-0770.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-077_OP18-0770.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-077_OP18-0770.png"
     },
     {
       "variantKey": "OP18-078::OP18-078",
