@@ -6835,146 +6835,6 @@
     ]
   },
   {
-    "candidateId": "candidate_ST01-011_promo",
-    "suggestedCanonicalId": "ST01-011_PROMO",
-    "canonicalName": "ブルック【プロモ】《赤》",
-    "modelCode": "ST01-011",
-    "signature": "promo",
-    "candidateScore": 62,
-    "confidence": 62,
-    "nameScore": 6,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 7
-    },
-    "priceStats": {
-      "min": 10,
-      "max": 1000,
-      "ratio": 100
-    },
-    "maxPrice": 1000,
-    "riskLevel": "high",
-    "warnings": [
-      "同一店舗の複数商品を含む（torecard 4件、mercard 3件）",
-      "価格差 約100倍（価格は参考情報）",
-      "1～99円の停止・仮価格を含む可能性",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "torecard",
-        "count": 4
-      },
-      {
-        "shopId": "mercard",
-        "count": 3
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "st01-011@promo+プレミアムカドコレクションbandaicardgamesfest2324edition",
-        "identityKey": "st01-011@promo+プレミアムカドコレクションbandaicardgamesfest2324edition",
-        "name": "ブルック 【C】【プロモ】【プレミアムカードコレクション BANDAI CARD GAMES Fest 23-24 Edition】【赤】【ST01-011】",
-        "modelNo": "ST01-011",
-        "tags": [
-          "promo",
-          "プレミアムカドコレクションbandaicardgamesfest2324edition"
-        ],
-        "latestPrice": 1000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-011_p3.jpeg"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "st01-011@bandaicardgamesfest2324edition+promo",
-        "identityKey": "st01-011@bandaicardgamesfest2324edition+promo",
-        "name": "ブルック【プロモ】《赤》",
-        "modelNo": "-BANDAI CARD GAMES Fest 23-24 Edition-ST01-011",
-        "tags": [
-          "bandaicardgamesfest2324edition",
-          "promo"
-        ],
-        "latestPrice": 800,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240303_334e55.jpg"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "st01-011@promo+フィナレセット",
-        "identityKey": "st01-011@promo+フィナレセット",
-        "name": "ブルック 【C】【プロモ】【フィナーレセット】【赤】【ST01-011】",
-        "modelNo": "ST01-011",
-        "tags": [
-          "promo",
-          "フィナレセット"
-        ],
-        "latestPrice": 100,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-011_p1.jpeg"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "st01-011@promo+スタンダドバトル",
-        "identityKey": "st01-011@promo+スタンダドバトル",
-        "name": "ブルック 【C】【プロモ】【スタンダードバトル】【赤】【ST01-011】",
-        "modelNo": "ST01-011",
-        "tags": [
-          "promo",
-          "スタンダドバトル"
-        ],
-        "latestPrice": 50,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-011_p2.jpeg"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "st01-011@promo+スタンダドバトル",
-        "identityKey": "st01-011@promo",
-        "name": "ブルック【プロモ】《赤》",
-        "modelNo": "ST01-011",
-        "tags": [
-          "promo"
-        ],
-        "latestPrice": 50,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20230301_d91551.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "st01-011@promo",
-        "identityKey": "st01-011@promo",
-        "name": "ブルック【プロモ】《赤》",
-        "modelNo": "ST01-011",
-        "tags": [
-          "promo"
-        ],
-        "latestPrice": 10,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-011_p2.jpeg"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "st01-011@promo",
-        "identityKey": "st01-011@promo",
-        "name": "ブルック【プロモ】《赤》",
-        "modelNo": "ST01-011",
-        "tags": [
-          "promo"
-        ],
-        "latestPrice": 10,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-011_p2.jpeg"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_P-045_promo",
     "suggestedCanonicalId": "P-045_PROMO",
     "canonicalName": "ロロノア・ゾロ【プロモ】《紫》",
@@ -7318,6 +7178,145 @@
         ],
         "latestPrice": 150,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260930_93c0b2.jpg"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_ST01-011_promo",
+    "suggestedCanonicalId": "ST01-011_PROMO",
+    "canonicalName": "ブルック【プロモ】《赤》",
+    "modelCode": "ST01-011",
+    "signature": "promo",
+    "candidateScore": 62,
+    "confidence": 62,
+    "nameScore": 6,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 7
+    },
+    "priceStats": {
+      "min": 10,
+      "max": 800,
+      "ratio": 80
+    },
+    "maxPrice": 800,
+    "riskLevel": "high",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 3件、torecard 4件）",
+      "価格差 約80倍（価格は参考情報）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 3
+      },
+      {
+        "shopId": "torecard",
+        "count": 4
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "st01-011@bandaicardgamesfest2324edition+promo",
+        "identityKey": "st01-011@bandaicardgamesfest2324edition+promo",
+        "name": "ブルック【プロモ】《赤》",
+        "modelNo": "-BANDAI CARD GAMES Fest 23-24 Edition-ST01-011",
+        "tags": [
+          "bandaicardgamesfest2324edition",
+          "promo"
+        ],
+        "latestPrice": 800,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240303_334e55.jpg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "st01-011@promo+プレミアムカドコレクションbandaicardgamesfest2324edition",
+        "identityKey": "st01-011@promo+プレミアムカドコレクションbandaicardgamesfest2324edition",
+        "name": "ブルック 【C】【プロモ】【プレミアムカードコレクション BANDAI CARD GAMES Fest 23-24 Edition】【赤】【ST01-011】",
+        "modelNo": "ST01-011",
+        "tags": [
+          "promo",
+          "プレミアムカドコレクションbandaicardgamesfest2324edition"
+        ],
+        "latestPrice": 700,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-011_p3.jpeg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "st01-011@promo+フィナレセット",
+        "identityKey": "st01-011@promo+フィナレセット",
+        "name": "ブルック 【C】【プロモ】【フィナーレセット】【赤】【ST01-011】",
+        "modelNo": "ST01-011",
+        "tags": [
+          "promo",
+          "フィナレセット"
+        ],
+        "latestPrice": 100,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-011_p1.jpeg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "st01-011@promo+スタンダドバトル",
+        "identityKey": "st01-011@promo+スタンダドバトル",
+        "name": "ブルック 【C】【プロモ】【スタンダードバトル】【赤】【ST01-011】",
+        "modelNo": "ST01-011",
+        "tags": [
+          "promo",
+          "スタンダドバトル"
+        ],
+        "latestPrice": 50,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-011_p2.jpeg"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "st01-011@promo+スタンダドバトル",
+        "identityKey": "st01-011@promo",
+        "name": "ブルック【プロモ】《赤》",
+        "modelNo": "ST01-011",
+        "tags": [
+          "promo"
+        ],
+        "latestPrice": 50,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20230301_d91551.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "st01-011@promo",
+        "identityKey": "st01-011@promo",
+        "name": "ブルック【プロモ】《赤》",
+        "modelNo": "ST01-011",
+        "tags": [
+          "promo"
+        ],
+        "latestPrice": 10,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-011_p2.jpeg"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "st01-011@promo",
+        "identityKey": "st01-011@promo",
+        "name": "ブルック【プロモ】《赤》",
+        "modelNo": "ST01-011",
+        "tags": [
+          "promo"
+        ],
+        "latestPrice": 10,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-011_p2.jpeg"
       }
     ]
   },
