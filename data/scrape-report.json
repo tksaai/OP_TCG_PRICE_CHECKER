@@ -1,19 +1,19 @@
 {
-  "date": "2026/10/21",
+  "date": "2026/10/22",
   "shops": [
     {
       "id": "mercard",
       "name": "メルカード",
-      "fetched": 2850,
+      "fetched": 0,
       "previous": 4469,
-      "healthy": true,
-      "error": null
+      "healthy": false,
+      "error": "403 Forbidden; curl fallback failed: Command failed: curl --fail --silent --show-error --location --compressed --max-time 90 --header user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 --header accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8 --header accept-language: ja,en-US;q=0.9,en;q=0.8 https://akihabara-cardshop.com/onepice-kaitori/\ncurl: (22) The requested URL returned error: 403\n"
     },
     {
       "id": "torecard",
       "name": "トレカード秋葉原",
       "fetched": 1977,
-      "previous": 2419,
+      "previous": 2432,
       "healthy": true,
       "error": null
     }
