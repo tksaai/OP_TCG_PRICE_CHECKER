@@ -1,7 +1,7 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-10-20T21:32:47.680Z",
+  "generatedAt": "2026-10-21T11:40:22.324Z",
   "catalogGeneratedAt": "2026-10-20T14:23:18.100Z",
   "mappings": {
     "EB01-001::EB01-001": {
@@ -7601,8 +7601,8 @@
     },
     "OP09-051::OP09-051": {
       "priceKey": "op09-051",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP09-051",
       "variantId": "OP09-051"
     },
@@ -7640,6 +7640,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP09-051",
       "variantId": "OP09-051_p6"
+    },
+    "OP09-057::OP09-057": {
+      "priceKey": "op09-057",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP09-057",
+      "variantId": "OP09-057"
     },
     "OP09-061::OP09-061": {
       "priceKey": "op09-061",
@@ -9372,8 +9379,8 @@
     },
     "OP12-049::OP12-049": {
       "priceKey": "op12-049",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP12-049",
       "variantId": "OP12-049"
     },
@@ -14186,6 +14193,13 @@
       "cardNumber": "P-084",
       "variantId": "P-084"
     },
+    "P-084::P-084_r1": {
+      "priceKey": "p-084@ノマル",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "P-084",
+      "variantId": "P-084_r1"
+    },
     "P-086::P-086": {
       "priceKey": "p-086",
       "method": "normal-variant-tags",
@@ -16323,24 +16337,38 @@
     },
     "ST25-001::ST25-001": {
       "priceKey": "st25-001",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "ST25-001",
       "variantId": "ST25-001"
     },
+    "ST25-002::ST25-002": {
+      "priceKey": "st25-002",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "ST25-002",
+      "variantId": "ST25-002"
+    },
     "ST25-003::ST25-003": {
       "priceKey": "st25-003",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "ST25-003",
       "variantId": "ST25-003"
     },
     "ST25-004::ST25-004": {
       "priceKey": "st25-004",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "ST25-004",
       "variantId": "ST25-004"
+    },
+    "ST25-005::ST25-005": {
+      "priceKey": "st25-005",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "ST25-005",
+      "variantId": "ST25-005"
     },
     "ST26-003::ST26-003": {
       "priceKey": "st26-003",
