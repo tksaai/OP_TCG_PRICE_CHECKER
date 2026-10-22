@@ -1,7 +1,7 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-10-21T21:35:30.070Z",
+  "generatedAt": "2026-10-22T11:42:57.893Z",
   "catalogGeneratedAt": "2026-10-21T14:23:42.024Z",
   "mappings": {
     "EB01-001::EB01-001": {
@@ -9082,6 +9082,13 @@
       "confirmedBy": "variant-tags",
       "cardNumber": "OP12-002",
       "variantId": "OP12-002"
+    },
+    "OP12-006::OP12-006": {
+      "priceKey": "op12-006",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP12-006",
+      "variantId": "OP12-006"
     },
     "OP12-006::OP12-006_p1": {
       "priceKey": "op12-006@parallel+promo+プレミアムカドコレクションベストセレクションvol5",
