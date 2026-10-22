@@ -1,12 +1,12 @@
 {
   "format": "op-tcg-db-catalog",
   "version": 1,
-  "generatedAt": "2026-10-21T14:23:42.024Z",
-  "syncedAt": "2026-10-22T11:42:57.651Z",
+  "generatedAt": "2026-10-22T14:34:23.205Z",
+  "syncedAt": "2026-10-22T21:29:13.959Z",
   "sourceCounts": {
     "cards": 2825,
     "manifestCards": 2825,
-    "provisionalCards": 116
+    "provisionalCards": 119
   },
   "variants": [
     {
@@ -76739,6 +76739,24 @@
       "provisionalUniqueId": "OP18-011_OP18-011.png"
     },
     {
+      "variantKey": "OP18-013::OP18-013",
+      "cardNumber": "OP18-013",
+      "cardName": "ペル",
+      "variantId": "OP18-013",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-013.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-013_OP18-013.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-013_OP18-013.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-013_OP18-013.png"
+    },
+    {
       "variantKey": "OP18-015::OP18-015",
       "cardNumber": "OP18-015",
       "cardName": "マツゲ",
@@ -77333,6 +77351,24 @@
       "provisionalUniqueId": "OP18-091_OP18-091.png"
     },
     {
+      "variantKey": "OP18-092::OP18-092",
+      "cardNumber": "OP18-092",
+      "cardName": "ロロノア・ゾロ",
+      "variantId": "OP18-092",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-092.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-092_OP18-092.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-092_OP18-092.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-092_OP18-092.png"
+    },
+    {
       "variantKey": "OP18-100::OP18-100",
       "cardNumber": "OP18-100",
       "cardName": "カリファ",
@@ -77385,6 +77421,24 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "OP18-106_OP18-106.png"
+    },
+    {
+      "variantKey": "OP18-108::OP18-108",
+      "cardNumber": "OP18-108",
+      "cardName": "ファンクフリード",
+      "variantId": "OP18-108",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-108.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-108_OP18-108.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-108_OP18-108.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-108_OP18-108.png"
     },
     {
       "variantKey": "OP18-111::OP18-111",
