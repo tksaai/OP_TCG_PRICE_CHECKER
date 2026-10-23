@@ -1,8 +1,8 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-10-23T11:31:09.656Z",
-  "catalogGeneratedAt": "2026-10-23T09:43:37.099Z",
+  "generatedAt": "2026-10-23T21:19:56.545Z",
+  "catalogGeneratedAt": "2026-10-23T14:18:39.061Z",
   "mappings": {
     "EB01-001::EB01-001": {
       "priceKey": "eb01-001",
@@ -8103,6 +8103,13 @@
       "cardNumber": "OP10-019",
       "variantId": "OP10-019_p1"
     },
+    "OP10-022::OP10-022": {
+      "priceKey": "op10-022",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP10-022",
+      "variantId": "OP10-022"
+    },
     "OP10-022::OP10-022_p1": {
       "priceKey": "op10-022@leader-parallel",
       "method": "image-path",
@@ -8364,8 +8371,8 @@
     },
     "OP10-076::OP10-076": {
       "priceKey": "op10-076",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP10-076",
       "variantId": "OP10-076"
     },
@@ -10135,8 +10142,8 @@
     },
     "OP13-080::OP13-080": {
       "priceKey": "op13-080",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP13-080",
       "variantId": "OP13-080"
     },
@@ -10170,8 +10177,8 @@
     },
     "OP13-083::OP13-083": {
       "priceKey": "op13-083",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP13-083",
       "variantId": "OP13-083"
     },
@@ -10219,8 +10226,8 @@
     },
     "OP13-089::OP13-089": {
       "priceKey": "op13-089",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP13-089",
       "variantId": "OP13-089"
     },
@@ -10282,8 +10289,8 @@
     },
     "OP13-096::OP13-096": {
       "priceKey": "op13-096",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP13-096",
       "variantId": "OP13-096"
     },
@@ -11518,6 +11525,13 @@
       "confirmedBy": "variant-tags",
       "cardNumber": "OP15-038",
       "variantId": "OP15-038"
+    },
+    "OP15-039::OP15-039": {
+      "priceKey": "op15-039",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP15-039",
+      "variantId": "OP15-039"
     },
     "OP15-039::OP15-039_p1": {
       "priceKey": "op15-039@leader-parallel",
@@ -15322,8 +15336,8 @@
     },
     "ST09-010::ST09-010": {
       "priceKey": "st09-010",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "ST09-010",
       "variantId": "ST09-010"
     },
