@@ -279,7 +279,7 @@
           "leader-parallel",
           "コミック"
         ],
-        "latestPrice": 100000,
+        "latestPrice": 110000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/122.png"
       },
       {
@@ -15869,7 +15869,7 @@
           "sp",
           "和柄sp"
         ],
-        "latestPrice": 6000,
+        "latestPrice": 5500,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20230909_83bd82.png"
       },
       {
@@ -18952,6 +18952,126 @@
     ]
   },
   {
+    "candidateId": "candidate_OP17-005_comic",
+    "suggestedCanonicalId": "OP17-005_COMIC",
+    "canonicalName": "エドワード・ニューゲート【コミック版パラレル】《赤》",
+    "modelCode": "OP17-005",
+    "signature": "comic",
+    "candidateScore": 70,
+    "confidence": 70,
+    "nameScore": 24,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 2
+    },
+    "priceStats": {
+      "min": 70000,
+      "max": 80000,
+      "ratio": 1.1
+    },
+    "maxPrice": 80000,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op17-005@comic+コミック",
+        "identityKey": "op17-005@comic+コミック",
+        "name": "エドワード・ニューゲート【コミック版パラレル】《赤》",
+        "modelNo": "コミックパラレル版OP17-005",
+        "tags": [
+          "comic",
+          "コミック"
+        ],
+        "latestPrice": 80000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/123.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op17-005@comic",
+        "identityKey": "op17-005@comic",
+        "name": "エドワード・ニューゲート 【SR】【スーパーパラレル】【赤】【OP17-005】",
+        "modelNo": "OP17-005",
+        "tags": [
+          "comic"
+        ],
+        "latestPrice": 70000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP17-005_p2.png"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_OP17-112_comic",
+    "suggestedCanonicalId": "OP17-112_COMIC",
+    "canonicalName": "シャーロット・リンリン【コミック版パラレル】《黄》",
+    "modelCode": "OP17-112",
+    "signature": "comic",
+    "candidateScore": 70,
+    "confidence": 70,
+    "nameScore": 21,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 2
+    },
+    "priceStats": {
+      "min": 75000,
+      "max": 80000,
+      "ratio": 1.1
+    },
+    "maxPrice": 80000,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op17-112@comic+コミック",
+        "identityKey": "op17-112@comic+コミック",
+        "name": "シャーロット・リンリン【コミック版パラレル】《黄》",
+        "modelNo": "コミックパラレル版OP17-112",
+        "tags": [
+          "comic",
+          "コミック"
+        ],
+        "latestPrice": 80000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/126.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op17-112@comic",
+        "identityKey": "op17-112@comic",
+        "name": "シャーロット・リンリン 【SR】【スーパーパラレル】【黄】【OP17-112】",
+        "modelNo": "OP17-112",
+        "tags": [
+          "comic"
+        ],
+        "latestPrice": 75000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP17-112_p2.png"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_OP09-004_gold_parallel_sp",
     "suggestedCanonicalId": "OP09-004_GOLD_PARALLEL_SP",
     "canonicalName": "シャンクス『金』【三周年SPパラレル】《赤》",
@@ -19017,126 +19137,6 @@
     ]
   },
   {
-    "candidateId": "candidate_OP17-005_comic",
-    "suggestedCanonicalId": "OP17-005_COMIC",
-    "canonicalName": "エドワード・ニューゲート【コミック版パラレル】《赤》",
-    "modelCode": "OP17-005",
-    "signature": "comic",
-    "candidateScore": 71,
-    "confidence": 71,
-    "nameScore": 24,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 2
-    },
-    "priceStats": {
-      "min": 70000,
-      "max": 75000,
-      "ratio": 1.1
-    },
-    "maxPrice": 75000,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op17-005@comic+コミック",
-        "identityKey": "op17-005@comic+コミック",
-        "name": "エドワード・ニューゲート【コミック版パラレル】《赤》",
-        "modelNo": "コミックパラレル版OP17-005",
-        "tags": [
-          "comic",
-          "コミック"
-        ],
-        "latestPrice": 75000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/123.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op17-005@comic",
-        "identityKey": "op17-005@comic",
-        "name": "エドワード・ニューゲート 【SR】【スーパーパラレル】【赤】【OP17-005】",
-        "modelNo": "OP17-005",
-        "tags": [
-          "comic"
-        ],
-        "latestPrice": 70000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP17-005_p2.png"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_OP17-112_comic",
-    "suggestedCanonicalId": "OP17-112_COMIC",
-    "canonicalName": "シャーロット・リンリン【コミック版パラレル】《黄》",
-    "modelCode": "OP17-112",
-    "signature": "comic",
-    "candidateScore": 70,
-    "confidence": 70,
-    "nameScore": 21,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 2
-    },
-    "priceStats": {
-      "min": 75000,
-      "max": 75000,
-      "ratio": 1
-    },
-    "maxPrice": 75000,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op17-112@comic",
-        "identityKey": "op17-112@comic",
-        "name": "シャーロット・リンリン 【SR】【スーパーパラレル】【黄】【OP17-112】",
-        "modelNo": "OP17-112",
-        "tags": [
-          "comic"
-        ],
-        "latestPrice": 75000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP17-112_p2.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op17-112@comic+コミック",
-        "identityKey": "op17-112@comic+コミック",
-        "name": "シャーロット・リンリン【コミック版パラレル】《黄》",
-        "modelNo": "コミックパラレル版OP17-112",
-        "tags": [
-          "comic",
-          "コミック"
-        ],
-        "latestPrice": 75000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/126.png"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_OP17-062_comic",
     "suggestedCanonicalId": "OP17-062_COMIC",
     "canonicalName": "カイドウ【コミック版パラレル】《紫》",
@@ -19156,10 +19156,10 @@
     },
     "priceStats": {
       "min": 65000,
-      "max": 75000,
+      "max": 80000,
       "ratio": 1.2
     },
-    "maxPrice": 75000,
+    "maxPrice": 80000,
     "riskLevel": "low",
     "warnings": [
       "店舗間の画像比較データなし"
@@ -19178,7 +19178,7 @@
           "comic",
           "コミック"
         ],
-        "latestPrice": 75000,
+        "latestPrice": 80000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/125.png"
       },
       {
@@ -22428,8 +22428,8 @@
     "canonicalName": "ボルサリーノ【SPパラレル】《青》",
     "modelCode": "OP05-051",
     "signature": "parallel+sp",
-    "candidateScore": 76,
-    "confidence": 76,
+    "candidateScore": 75,
+    "confidence": 75,
     "nameScore": 46,
     "imageScore": null,
     "imageStats": {
@@ -22441,9 +22441,9 @@
       "totalRecords": 2
     },
     "priceStats": {
-      "min": 2000,
+      "min": 1800,
       "max": 2500,
-      "ratio": 1.3
+      "ratio": 1.4
     },
     "maxPrice": 2500,
     "riskLevel": "low",
@@ -22479,7 +22479,7 @@
           "parallel",
           "sp"
         ],
-        "latestPrice": 2000,
+        "latestPrice": 1800,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20231124_75c60a.png"
       }
     ]
@@ -22929,9 +22929,9 @@
       "totalRecords": 2
     },
     "priceStats": {
-      "min": 1800,
+      "min": 1700,
       "max": 2000,
-      "ratio": 1.1
+      "ratio": 1.2
     },
     "maxPrice": 2000,
     "riskLevel": "low",
@@ -22967,7 +22967,7 @@
           "parallel",
           "sp"
         ],
-        "latestPrice": 1800,
+        "latestPrice": 1700,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP10/11.png"
       }
     ]

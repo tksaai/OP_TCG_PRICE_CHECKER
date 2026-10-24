@@ -1,7 +1,7 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-10-23T21:19:56.545Z",
+  "generatedAt": "2026-10-24T10:51:08.476Z",
   "catalogGeneratedAt": "2026-10-23T14:18:39.061Z",
   "mappings": {
     "EB01-001::EB01-001": {
@@ -850,6 +850,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "EB03-008",
       "variantId": "EB03-008_p1"
+    },
+    "EB03-010::EB03-010": {
+      "priceKey": "eb03-010",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "EB03-010",
+      "variantId": "EB03-010"
     },
     "EB03-012::EB03-012": {
       "priceKey": "eb03-012",
