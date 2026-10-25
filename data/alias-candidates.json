@@ -1437,6 +1437,19 @@
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP11-106_p2.jpg"
       },
       {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op11-106@parallel",
+        "identityKey": "op11-106@parallel",
+        "name": "ゼウス【パラレル】《黄》",
+        "modelNo": "OP11-106",
+        "tags": [
+          "parallel"
+        ],
+        "latestPrice": 2200,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP11/153.png"
+      },
+      {
         "shopId": "torecard",
         "shopName": "トレカード秋葉原",
         "sourceKey": "op11-106@parallel",
@@ -1448,19 +1461,6 @@
         ],
         "latestPrice": 2000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP11-106_p1.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op11-106@parallel",
-        "identityKey": "op11-106@parallel",
-        "name": "ゼウス【パラレル】《黄》",
-        "modelNo": "OP11-106",
-        "tags": [
-          "parallel"
-        ],
-        "latestPrice": 2000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP11/153.png"
       }
     ]
   },
@@ -19520,8 +19520,8 @@
     "canonicalName": "ゼウス【SPパラレル】《黄》",
     "modelCode": "OP11-106",
     "signature": "parallel+sp",
-    "candidateScore": 74,
-    "confidence": 74,
+    "candidateScore": 73,
+    "confidence": 73,
     "nameScore": 36,
     "imageScore": null,
     "imageStats": {
@@ -19534,10 +19534,10 @@
     },
     "priceStats": {
       "min": 24000,
-      "max": 25000,
-      "ratio": 1
+      "max": 28000,
+      "ratio": 1.2
     },
-    "maxPrice": 25000,
+    "maxPrice": 28000,
     "riskLevel": "low",
     "warnings": [
       "店舗間の画像比較データなし"
@@ -19557,7 +19557,7 @@
           "parallel",
           "sp"
         ],
-        "latestPrice": 25000,
+        "latestPrice": 28000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB04/68.png"
       },
       {
