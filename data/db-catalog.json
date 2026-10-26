@@ -1,12 +1,12 @@
 {
   "format": "op-tcg-db-catalog",
   "version": 1,
-  "generatedAt": "2026-10-25T13:46:45.916Z",
-  "syncedAt": "2026-10-26T12:50:35.215Z",
+  "generatedAt": "2026-10-26T16:13:05.812Z",
+  "syncedAt": "2026-10-26T22:36:05.880Z",
   "sourceCounts": {
     "cards": 2886,
     "manifestCards": 2886,
-    "provisionalCards": 61
+    "provisionalCards": 65
   },
   "variants": [
     {
@@ -76955,6 +76955,24 @@
       "provisionalUniqueId": "OP18-028_OP18-028.png"
     },
     {
+      "variantKey": "OP18-029::OP18-029",
+      "cardNumber": "OP18-029",
+      "cardName": "トニートニー・チョッパー",
+      "variantId": "OP18-029",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-029.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-029_OP18-029.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-029_OP18-029.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-029_OP18-029.png"
+    },
+    {
       "variantKey": "OP18-032::OP18-032",
       "cardNumber": "OP18-032",
       "cardName": "バギー",
@@ -77099,6 +77117,24 @@
       "provisionalUniqueId": "OP18-048_OP18-048.png"
     },
     {
+      "variantKey": "OP18-051::OP18-051",
+      "cardNumber": "OP18-051",
+      "cardName": "Mr.4&ミス・メリークリスマス",
+      "variantId": "OP18-051",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-051.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-051_OP18-051.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-051_OP18-051.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-051_OP18-051.png"
+    },
+    {
       "variantKey": "OP18-052::OP18-052",
       "cardNumber": "OP18-052",
       "cardName": "Mr.5&ミス・バレンタイン",
@@ -77205,6 +77241,24 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "OP18-063_OP18-0630.png"
+    },
+    {
+      "variantKey": "OP18-064::OP18-064",
+      "cardNumber": "OP18-064",
+      "cardName": "キリンガム聖",
+      "variantId": "OP18-064",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-064.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-064_OP18-064.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-064_OP18-064.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-064_OP18-064.png"
     },
     {
       "variantKey": "OP18-066::OP18-066",
@@ -77367,6 +77421,24 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "OP18-086_OP18-086.png"
+    },
+    {
+      "variantKey": "OP18-088::OP18-088",
+      "cardNumber": "OP18-088",
+      "cardName": "ソマーズ聖",
+      "variantId": "OP18-088",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-0880.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-088_OP18-0880.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-088_OP18-0880.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-088_OP18-0880.png"
     },
     {
       "variantKey": "OP18-089::OP18-089",
