@@ -1,7 +1,7 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-10-25T20:45:07.568Z",
+  "generatedAt": "2026-10-26T12:50:35.434Z",
   "catalogGeneratedAt": "2026-10-25T13:46:45.916Z",
   "mappings": {
     "EB01-001::EB01-001": {
@@ -829,6 +829,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "EB03-003",
       "variantId": "EB03-003_p2"
+    },
+    "EB03-005::EB03-005": {
+      "priceKey": "eb03-005",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "EB03-005",
+      "variantId": "EB03-005"
     },
     "EB03-006::EB03-006": {
       "priceKey": "eb03-006",
@@ -10056,6 +10063,13 @@
       "cardNumber": "OP13-062",
       "variantId": "OP13-062"
     },
+    "OP13-063::OP13-063": {
+      "priceKey": "op13-063",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP13-063",
+      "variantId": "OP13-063"
+    },
     "OP13-063::OP13-063_p1": {
       "priceKey": "op13-063@parallel+promo+プレミアムカドコレクションベストセレクションvol5",
       "method": "image-path",
@@ -15515,6 +15529,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "ST12-003",
       "variantId": "ST12-003"
+    },
+    "ST12-004::ST12-004": {
+      "priceKey": "st12-004",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "ST12-004",
+      "variantId": "ST12-004"
     },
     "ST12-009::ST12-009": {
       "priceKey": "st12-009",
