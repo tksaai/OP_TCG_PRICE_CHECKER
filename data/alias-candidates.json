@@ -15335,6 +15335,107 @@
     ]
   },
   {
+    "candidateId": "candidate_OP09-106_parallel_promo",
+    "suggestedCanonicalId": "OP09-106_PARALLEL_PROMO",
+    "canonicalName": "ニコ・オルビア【プロモ】《黄》※パラレル加工",
+    "modelCode": "OP09-106",
+    "signature": "parallel+promo",
+    "candidateScore": 67,
+    "confidence": 67,
+    "nameScore": 13,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 4
+    },
+    "priceStats": {
+      "min": 7000,
+      "max": 10000,
+      "ratio": 1.4
+    },
+    "maxPrice": 10000,
+    "riskLevel": "medium",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件、torecard 2件）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      },
+      {
+        "shopId": "torecard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op09-106@parallel+promo+始めようキャンペン",
+        "identityKey": "op09-106@parallel+promo+始めようキャンペン",
+        "name": "ニコ・オルビア【プロモ】《黄》※パラレル加工",
+        "modelNo": "始めようキャンペーンパラレル版OP09-106",
+        "tags": [
+          "parallel",
+          "promo",
+          "始めようキャンペン"
+        ],
+        "latestPrice": 10000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250114_31dc56.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op09-106@parallel+promo",
+        "identityKey": "op09-106@parallel+promo",
+        "name": "ニコ・オルビア【プロモ】《黄》※パラレル加工",
+        "modelNo": "OP09-106",
+        "tags": [
+          "parallel",
+          "promo"
+        ],
+        "latestPrice": 9000,
+        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20250114_31dc56.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op09-106@parallel+promo",
+        "identityKey": "op09-106@parallel+promo",
+        "name": "ニコ・オルビア【プロモ】《黄》※パラレル加工",
+        "modelNo": "OP09-106",
+        "tags": [
+          "parallel",
+          "promo"
+        ],
+        "latestPrice": 8000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-106_p2.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op09-106@parallel+promo+始めようキャンペン",
+        "identityKey": "op09-106@parallel+promo+始めようキャンペン",
+        "name": "ニコ・オルビア 【C】【プロモ】【パラレル】【始めようキャンペーン】【黄】【OP09-106】",
+        "modelNo": "始めようキャンペーンパラレル版OP09-106",
+        "tags": [
+          "parallel",
+          "promo",
+          "始めようキャンペン"
+        ],
+        "latestPrice": 7000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-106_p2.png"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_OP03-112_parallel_sp",
     "suggestedCanonicalId": "OP03-112_PARALLEL_SP",
     "canonicalName": "シャーロット・プリン【SPパラレル】《黄》",
@@ -15516,107 +15617,6 @@
         ],
         "latestPrice": 6000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP08-074_p3.png"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_OP09-106_parallel_promo",
-    "suggestedCanonicalId": "OP09-106_PARALLEL_PROMO",
-    "canonicalName": "ニコ・オルビア【プロモ】《黄》※パラレル加工",
-    "modelCode": "OP09-106",
-    "signature": "parallel+promo",
-    "candidateScore": 67,
-    "confidence": 67,
-    "nameScore": 13,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 4
-    },
-    "priceStats": {
-      "min": 7000,
-      "max": 9000,
-      "ratio": 1.3
-    },
-    "maxPrice": 9000,
-    "riskLevel": "medium",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件、torecard 2件）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      },
-      {
-        "shopId": "torecard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op09-106@parallel+promo",
-        "identityKey": "op09-106@parallel+promo",
-        "name": "ニコ・オルビア【プロモ】《黄》※パラレル加工",
-        "modelNo": "OP09-106",
-        "tags": [
-          "parallel",
-          "promo"
-        ],
-        "latestPrice": 9000,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20250114_31dc56.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op09-106@parallel+promo",
-        "identityKey": "op09-106@parallel+promo",
-        "name": "ニコ・オルビア【プロモ】《黄》※パラレル加工",
-        "modelNo": "OP09-106",
-        "tags": [
-          "parallel",
-          "promo"
-        ],
-        "latestPrice": 8000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-106_p2.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op09-106@parallel+promo+始めようキャンペン",
-        "identityKey": "op09-106@parallel+promo+始めようキャンペン",
-        "name": "ニコ・オルビア【プロモ】《黄》※パラレル加工",
-        "modelNo": "始めようキャンペーンパラレル版OP09-106",
-        "tags": [
-          "parallel",
-          "promo",
-          "始めようキャンペン"
-        ],
-        "latestPrice": 8000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250114_31dc56.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op09-106@parallel+promo+始めようキャンペン",
-        "identityKey": "op09-106@parallel+promo+始めようキャンペン",
-        "name": "ニコ・オルビア 【C】【プロモ】【パラレル】【始めようキャンペーン】【黄】【OP09-106】",
-        "modelNo": "始めようキャンペーンパラレル版OP09-106",
-        "tags": [
-          "parallel",
-          "promo",
-          "始めようキャンペン"
-        ],
-        "latestPrice": 7000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-106_p2.png"
       }
     ]
   },

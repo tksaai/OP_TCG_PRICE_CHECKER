@@ -1,7 +1,7 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-10-26T22:36:06.106Z",
+  "generatedAt": "2026-10-27T12:01:42.667Z",
   "catalogGeneratedAt": "2026-10-26T16:13:05.812Z",
   "mappings": {
     "EB01-001::EB01-001": {
@@ -9925,8 +9925,8 @@
     },
     "OP13-029::OP13-029": {
       "priceKey": "op13-029",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP13-029",
       "variantId": "OP13-029"
     },
