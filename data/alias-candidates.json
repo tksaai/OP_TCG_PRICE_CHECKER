@@ -2466,15 +2466,15 @@
       "totalRecords": 4
     },
     "priceStats": {
-      "min": 2200,
+      "min": 2000,
       "max": 15000,
-      "ratio": 6.8
+      "ratio": 7.5
     },
     "maxPrice": 15000,
     "riskLevel": "high",
     "warnings": [
       "同一店舗の複数商品を含む（mercard 2件、torecard 2件）",
-      "価格差 約6.8倍（価格は参考情報）",
+      "価格差 約7.5倍（価格は参考情報）",
       "店舗間の画像比較データなし"
     ],
     "duplicateShops": [
@@ -2541,7 +2541,7 @@
         "tags": [
           "parallel"
         ],
-        "latestPrice": 2200,
+        "latestPrice": 2000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP16/422.png"
       }
     ]
@@ -5377,7 +5377,7 @@
         "name": "インペルダウンの囚人【R】《青》",
         "modelNo": "OP16-042",
         "tags": [],
-        "latestPrice": 100,
+        "latestPrice": 50,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP16/42.png"
       },
       {
