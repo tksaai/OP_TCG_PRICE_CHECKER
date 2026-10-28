@@ -24,6 +24,7 @@
     'manifest.webmanifest',
     'data/cards-index.json',
     'data/cards.json',
+    'data/scrape-report.json',
     'data/card-details.json',
     'data/db-catalog.json',
     'data/db-price-aliases.json',

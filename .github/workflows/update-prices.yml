@@ -44,6 +44,8 @@ jobs:
         run: node scripts/test-http-fetch.mjs
       - name: Test enabled shop policy
         run: node scripts/test-shop-policy.mjs
+      - name: Test Torecard source state
+        run: node scripts/test-torecard-source.mjs
       - name: Scrape prices
         run: node scripts/scrape-prices.mjs
       - name: Apply card aliases

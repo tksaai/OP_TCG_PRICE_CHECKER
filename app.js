@@ -5,14 +5,16 @@
 // 価格グラフや資産推移で必要になった時点で読み込む。
 const CARDS_INDEX_URL = 'data/cards-index.json';
 const CARDS_FULL_URL = 'data/cards.json';
+const SHOP_STATUS_URL = 'data/scrape-report.json';
 const CARD_DETAILS_URL = 'data/card-details.json';
 const DB_CATALOG_URL = 'data/db-catalog.json';
 const DB_PRICE_ALIASES_URL = 'data/db-price-aliases.json';
 const DB_VARIANT_MAP_URL = 'data/db-variant-map.json';
 const IMAGE_HASHES_URL = 'data/image-hashes.json';
-const APP_VERSION = '2.4.0';
+const APP_VERSION = '2.4.1';
 // 一時停止中のショップは、古いキャッシュや過去データに残っていても表示・集計しない。
 const DISABLED_SHOP_IDS = new Set(['cardrush']);
+let unavailableShopIds = new Set(DISABLED_SHOP_IDS);
 
 let chartInstance = null;
 let totalAssetChartInstance = null;
@@ -83,7 +85,25 @@ function attachCardDetails(card) {
 
 function getEnabledShopEntries(card) {
   return Object.entries(card?.pricesByShop || {})
-    .filter(([shopId]) => !DISABLED_SHOP_IDS.has(shopId));
+    .filter(([shopId]) => !unavailableShopIds.has(shopId));
+}
+
+function applyShopAvailability(report) {
+  unavailableShopIds = new Set(DISABLED_SHOP_IDS);
+  for (const shop of report?.shops || []) {
+    const unavailable = shop?.status === 'paused'
+      || (shop?.healthy === false && Number(shop?.fetched || 0) === 0);
+    if (!unavailable) continue;
+    unavailableShopIds.add(shop.id);
+
+    const option = document.querySelector(`#shopFilter option[value="${shop.id}"]`);
+    if (!option) continue;
+    const baseLabel = option.dataset.baseLabel || option.textContent;
+    option.dataset.baseLabel = baseLabel;
+    option.textContent = `${baseLabel}${shop.status === 'paused' ? '（買取休止中）' : '（取得停止中）'}`;
+    option.disabled = true;
+    option.title = shop.message || shop.error || '現在価格を取得できません';
+  }
 }
 
 function normalizeCardForShops(card) {
@@ -98,7 +118,7 @@ function normalizeCardForShops(card) {
     };
     card.bestShopId = 'mercard';
   }
-  for (const shopId of DISABLED_SHOP_IDS) {
+  for (const shopId of unavailableShopIds) {
     delete card.pricesByShop[shopId];
   }
   const best = getEnabledShopEntries(card)
@@ -115,7 +135,7 @@ function normalizeCardForShops(card) {
 function getShopData(card) {
   // 「マージなし」表示では各疑似カードが単一ショップを持つので bestShopId を使う
   // (資産集計などマージ済みリストへの参照でも最高買取として動く)
-  if (DISABLED_SHOP_IDS.has(currentShop)) return null;
+  if (unavailableShopIds.has(currentShop)) return null;
   if (currentShop !== 'best' && currentShop !== 'unmerged') return card.pricesByShop[currentShop] || null;
   return card.pricesByShop[card.bestShopId]
     || getEnabledShopEntries(card).sort((a, b) => b[1].latestPrice - a[1].latestPrice)[0]?.[1]
@@ -598,16 +618,21 @@ Promise.all([
   fetchJson(CARD_DETAILS_URL).catch(error => {
     console.warn('カード属性データを取得できなかったため、価格項目のみで表示します。', error);
     return [];
+  }),
+  fetchJson(SHOP_STATUS_URL).catch(error => {
+    console.warn('ショップ稼働状況を取得できませんでした。', error);
+    return { shops: [] };
   })
 ])
-  .then(([prices, details]) => initApp(prices, details))
+  .then(([prices, details, shopStatus]) => initApp(prices, details, shopStatus))
   .catch(error => {
     console.error(error);
     document.getElementById('loading').innerText = 'データ取得に失敗しました。';
   });
 
-function initApp(data, details) {
+function initApp(data, details, shopStatus) {
   document.getElementById('loading').style.display = 'none';
+  applyShopAvailability(shopStatus);
   cardDetailsByNumber = new Map(
     details
       .filter(card => card?.cardNumber)

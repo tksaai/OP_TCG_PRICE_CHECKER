@@ -12,8 +12,9 @@ const ROOT = path.resolve(import.meta.dirname, '..');
 const REPORT_PATH = path.join(ROOT, 'data', 'scrape-report.json');
 
 function formatRow(shop) {
-  const status = shop.healthy ? 'OK' : 'NG';
-  const note = shop.error ? `取得失敗: ${shop.error}` : `前回 ${shop.previous} 件`;
+  const paused = shop.status === 'paused';
+  const status = paused ? '休止' : shop.healthy ? 'OK' : 'NG';
+  const note = paused ? shop.message : shop.error ? `取得失敗: ${shop.error}` : `前回 ${shop.previous} 件`;
   return `| ${shop.name} | ${status} | ${shop.fetched} | ${note} |`;
 }
 
@@ -43,7 +44,8 @@ async function main() {
   ]);
 
   for (const shop of shops) {
-    console.log(`${shop.healthy ? 'OK ' : 'NG '} ${shop.id}: ${shop.fetched} 件 (前回 ${shop.previous} 件)`);
+    const label = shop.status === 'paused' ? 'PAUSED' : shop.healthy ? 'OK' : 'NG';
+    console.log(`${label} ${shop.id}: ${shop.fetched} 件 (前回 ${shop.previous} 件)`);
   }
 
   const broken = shops.filter((shop) => !shop.healthy);

@@ -6,16 +6,20 @@
       "name": "メルカード",
       "fetched": 2888,
       "previous": 4488,
+      "status": "active",
       "healthy": true,
-      "error": null
+      "error": null,
+      "message": ""
     },
     {
       "id": "torecard",
       "name": "トレカード秋葉原",
       "fetched": 0,
       "previous": 2432,
-      "healthy": false,
-      "error": null
+      "status": "paused",
+      "healthy": true,
+      "error": null,
+      "message": "公式サイトで店頭買取・宅配買取を休止中"
     }
   ]
 }

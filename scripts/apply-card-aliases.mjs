@@ -7,14 +7,15 @@ import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { cardKeyFor, extractModelCode } from './lib/card-identity.mjs';
 import { mergeHistories, mergeShopEntries } from './lib/card-store.mjs';
-import { bestEnabledShop, hasStoredShopPrice } from './lib/shop-policy.mjs';
+import { bestEnabledShop, hasStoredShopPrice, unavailableShopIdsFromReport } from './lib/shop-policy.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const CARDS_PATH = path.join(ROOT, 'data', 'cards.json');
 const ALIASES_PATH = path.join(ROOT, 'data', 'card-aliases.json');
+const REPORT_PATH = path.join(ROOT, 'data', 'scrape-report.json');
 
-function recomputeBest(card) {
-  const best = bestEnabledShop(card);
+function recomputeBest(card, unavailableShopIds) {
+  const best = bestEnabledShop(card, unavailableShopIds);
   card.bestShopId = best ? best[0] : '';
   card.latestPrice = best ? Number(best[1].latestPrice || 0) : 0;
   card.imageId = best?.[1]?.imageUrl || '';
@@ -43,6 +44,10 @@ function findCards(cards, cardsByKey, alias) {
 async function main() {
   const cards = JSON.parse(await readFile(CARDS_PATH, 'utf8'));
   const aliases = JSON.parse(await readFile(ALIASES_PATH, 'utf8'));
+  const report = await readFile(REPORT_PATH, 'utf8')
+    .then((text) => JSON.parse(text))
+    .catch(() => ({ shops: [] }));
+  const unavailableShopIds = unavailableShopIdsFromReport(report);
   const cardsByKey = new Map(cards.map((card) => [card.key, card]));
   const consumedKeys = new Set();
   const merged = [];
@@ -86,14 +91,14 @@ async function main() {
       }
     }
     base.aliasKeys = [...new Set(base.aliasKeys.filter(Boolean))].filter((key) => key !== base.key);
-    merged.push(recomputeBest(base));
+    merged.push(recomputeBest(base, unavailableShopIds));
   }
 
   const output = [
     ...merged,
     ...cards.filter((card) => !consumedKeys.has(card.key)),
   ]
-    .map(recomputeBest)
+    .map((card) => recomputeBest(card, unavailableShopIds))
     .filter(hasStoredShopPrice)
     .sort((a, b) => Number(b.latestPrice || 0) - Number(a.latestPrice || 0) || String(a.modelNo).localeCompare(String(b.modelNo), 'ja'));
 

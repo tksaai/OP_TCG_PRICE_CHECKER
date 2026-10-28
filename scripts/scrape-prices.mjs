@@ -4,6 +4,7 @@ import { cardKeyFor } from './lib/card-identity.mjs';
 import { rekeyCards } from './lib/card-store.mjs';
 import { fetchText } from './lib/http-fetch.mjs';
 import { bestEnabledShop, hasStoredShopPrice, isShopEnabled } from './lib/shop-policy.mjs';
+import { scrapeTorecardBuyingPrices } from './lib/torecard-source.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const DATA_PATH = path.join(ROOT, 'data', 'cards.json');
@@ -91,31 +92,6 @@ async function scrapeMercard(shop) {
   return cards;
 }
 
-function extractTorecardModel(name) {
-  const matches = String(name || '').match(/(?:OP|ST|EB|PRB)\d{2}-\d{3}|P-\d{3}/gi);
-  return matches ? matches[matches.length - 1].toUpperCase() : '';
-}
-
-async function scrapeTorecard(shop) {
-  const html = await fetchText(shop.url, { headers: shop.headers });
-  const itemRegex = /<li class="list-group-item[\s\S]*?<img[^>]+class="card-list-img"[^>]+alt="([^"]*)"[^>]+src="([^"]+)"[\s\S]*?<div class="card-list-price[^"]*">([\d,]+)円<\/div><div class="card-list-name">([\s\S]*?)<\/div>/g;
-  const cards = [];
-  let match;
-
-  while ((match = itemRegex.exec(html)) !== null) {
-    const name = stripTags(match[4] || match[1]);
-    const imageUrl = match[2].startsWith('/') ? new URL(match[2], shop.url).href : match[2];
-    const price = Number(match[3].replace(/,/g, ''));
-    const modelNo = extractTorecardModel(name);
-
-    if (name && modelNo && price > 0) {
-      cards.push({ name, modelNo, imageUrl, price });
-    }
-  }
-
-  return cards;
-}
-
 // 既存データを新キーで Map 化する。旧キー形式のカードもここで自動的に
 // 再キー化され、同一カードはマージされる(初回実行時のマイグレーションを兼ねる)。
 const normalizePrevious = rekeyCards;
@@ -131,8 +107,8 @@ function upsertHistory(history, date, price) {
   return next;
 }
 
-function recomputeBest(card, date) {
-  const best = bestEnabledShop(card);
+function recomputeBest(card, date, unavailableShopIds) {
+  const best = bestEnabledShop(card, unavailableShopIds);
   const bestPrice = best ? best[1].latestPrice : 0;
 
   card.bestShopId = best ? best[0] : '';
@@ -167,38 +143,63 @@ async function main() {
   const cards = normalizePrevious(await readPrevious());
   const previousCounts = countCardsByShop(cards);
   const report = { date, shops: [] };
+  const unavailableShopIds = new Set();
   let successfulShops = 0;
   let scrapedCardCount = 0;
 
   for (const shop of SHOPS) {
     console.log(`Fetching ${shop.name}`);
     let scraped = [];
+    let status = 'active';
+    let message = '';
 
     try {
-      scraped = shop.type === 'torecardHtml'
-        ? await scrapeTorecard(shop)
-        : await scrapeMercard(shop);
+      if (shop.type === 'torecardHtml') {
+        const result = await scrapeTorecardBuyingPrices(shop);
+        scraped = result.cards;
+        status = result.status;
+        message = result.message;
+      } else {
+        scraped = await scrapeMercard(shop);
+      }
     } catch (error) {
       console.error(`Failed to fetch ${shop.id}: ${error.message}`);
       report.shops.push({
         id: shop.id, name: shop.name, fetched: 0,
-        previous: previousCounts.get(shop.id) || 0, healthy: false, error: error.message,
+        previous: previousCounts.get(shop.id) || 0, status: 'error',
+        healthy: false, error: error.message, message: '',
       });
+      unavailableShopIds.add(shop.id);
       await wait(1500);
       continue;
     }
 
     successfulShops += 1;
+    const previous = previousCounts.get(shop.id) || 0;
+    if (status === 'paused') {
+      unavailableShopIds.add(shop.id);
+      console.log(`Paused ${shop.id}: ${message}`);
+      report.shops.push({
+        id: shop.id, name: shop.name, fetched: 0, previous,
+        status, healthy: true, error: null, message,
+      });
+      await wait(1500);
+      continue;
+    }
+
     scrapedCardCount += scraped.length;
     console.log(`Fetched ${scraped.length} cards from ${shop.id}`);
 
     // 1 店だけ壊れても全体は成功してしまうので、前回件数と比べて記録に残す
-    const previous = previousCounts.get(shop.id) || 0;
     const healthy = !(previous >= SHOP_MIN_BASELINE && scraped.length < previous * SHOP_DROP_RATIO);
     if (!healthy) {
       console.error(`::warning::${shop.name} の取得件数が前回の半分未満です (${scraped.length} < ${previous})`);
     }
-    report.shops.push({ id: shop.id, name: shop.name, fetched: scraped.length, previous, healthy, error: null });
+    if (!healthy) unavailableShopIds.add(shop.id);
+    report.shops.push({
+      id: shop.id, name: shop.name, fetched: scraped.length, previous,
+      status: 'active', healthy, error: null, message: '',
+    });
 
     for (const item of scraped) {
       const key = cardKeyFor(item.name, item.modelNo);
@@ -235,7 +236,7 @@ async function main() {
   }
 
   const output = [...cards.values()]
-    .map((card) => recomputeBest(card, date))
+    .map((card) => recomputeBest(card, date, unavailableShopIds))
     // 無効化したショップだけのカードも、再有効化に備えて履歴ごと保持する。
     .filter(hasStoredShopPrice)
     .sort((a, b) => b.latestPrice - a.latestPrice || a.modelNo.localeCompare(b.modelNo, 'ja'));

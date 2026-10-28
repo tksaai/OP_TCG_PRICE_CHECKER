@@ -43,6 +43,8 @@ assert.match(appJs, /createUnmatchedExport/u);
 assert.match(appJs, /unmatchedExportToCsv/u);
 assert.match(appJs, /localStorage\.setItem\('onepieceOwnedCounts'/u);
 assert.match(appJs, /DISABLED_SHOP_IDS = new Set\(\['cardrush'\]\)/u);
+assert.match(appJs, /SHOP_STATUS_URL = 'data\/scrape-report\.json'/u);
+assert.match(appJs, /applyShopAvailability/u);
 
 // カード画像は左側の固定比率枠へ入れ、遅延読み込みでもレイアウトを動かさないこと
 assert.match(html, /\.card\s*\{[^}]*grid-template-columns:/su, 'カードが左右レイアウトになっていません');

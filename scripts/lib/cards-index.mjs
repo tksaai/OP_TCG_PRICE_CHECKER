@@ -18,10 +18,10 @@ function lastDateOf(history) {
  * 「前日比」はこの日に更新されたカードにだけ出す。更新が止まったショップの
  * 1 か月前の変動を当日の値動きとして見せないための判定に使う。
  */
-export function latestDateOf(cards) {
+export function latestDateOf(cards, unavailableShopIds = new Set()) {
   let latest = '';
   for (const card of cards) {
-    for (const [, shop] of enabledShopEntries(card)) {
+    for (const [, shop] of enabledShopEntries(card, unavailableShopIds)) {
       const date = lastDateOf(shop?.history || []);
       if (date && date > latest) latest = date;
     }
@@ -70,13 +70,13 @@ export function summarizeHistory(history, latestPrice, globalLatestDate) {
 }
 
 /** cards.json (履歴つき) から一覧用インデックスを作る */
-export function buildCardsIndex(cards) {
+export function buildCardsIndex(cards, unavailableShopIds = new Set()) {
   const list = Array.isArray(cards) ? cards : [];
-  const globalLatestDate = latestDateOf(list);
+  const globalLatestDate = latestDateOf(list, unavailableShopIds);
 
   return list.flatMap((card) => {
     const pricesByShop = {};
-    for (const [shopId, shop] of enabledShopEntries(card)) {
+    for (const [shopId, shop] of enabledShopEntries(card, unavailableShopIds)) {
       if (Number(shop?.latestPrice || 0) <= 0) continue;
       pricesByShop[shopId] = {
         shopName: shop.shopName || '',
@@ -87,7 +87,7 @@ export function buildCardsIndex(cards) {
         stats: summarizeHistory(shop.history || [], shop.latestPrice, globalLatestDate),
       };
     }
-    const best = bestEnabledShop(card);
+    const best = bestEnabledShop(card, unavailableShopIds);
     if (!best) return [];
     const imageId = best[1].imageUrl
       || Object.values(pricesByShop).find((shop) => shop.imageUrl)?.imageUrl

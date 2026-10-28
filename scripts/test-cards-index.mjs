@@ -100,6 +100,11 @@ assert.equal(entry.pricesByShop.shopA.stats.trendDiff, 300);
 assert.equal(entry.pricesByShop.shopB.stats.trendDiff, 0, '止まっているショップに前日比を出さない');
 assert.equal(entry.pricesByShop.shopA.sourceName, 'テストカード【A表記】', 'マージなし表示に使う名前を残す');
 
+const pausedIndex = buildCardsIndex(cards, new Set(['shopA']));
+assert.equal(pausedIndex[0].bestShopId, 'shopB', '休止ショップを最高買取から除外する');
+assert.equal(pausedIndex[0].latestPrice, 900);
+assert.equal(pausedIndex[0].pricesByShop.shopA, undefined);
+
 // 履歴は落とす (一覧を軽くするのが目的)
 assert.equal(entry.history, undefined);
 assert.equal(entry.pricesByShop.shopA.history, undefined);
