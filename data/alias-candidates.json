@@ -3044,7 +3044,7 @@
         "tags": [
           "parallel"
         ],
-        "latestPrice": 500,
+        "latestPrice": 600,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/155.png"
       },
       {
@@ -3241,6 +3241,208 @@
         ],
         "latestPrice": 800,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240304_566a73.png"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_P-033_promo",
+    "suggestedCanonicalId": "P-033_PROMO",
+    "canonicalName": "モンキー・D・ルフィ【プロモ】《青》",
+    "modelCode": "P-033",
+    "signature": "promo",
+    "candidateScore": 66,
+    "confidence": 66,
+    "nameScore": 25,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 1,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 200,
+      "max": 8000,
+      "ratio": 40
+    },
+    "maxPrice": 8000,
+    "riskLevel": "high",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件）",
+      "価格差 約40倍（価格は参考情報）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-033@promo+連載開始号表紙イラスト+週刊少年ジャンプ2023年67合併号",
+        "identityKey": "p-033@promo+連載開始号表紙イラスト+週刊少年ジャンプ2023年67合併号",
+        "name": "モンキー・D・ルフィ【プロモ】《青》※連載開始号表紙イラスト",
+        "modelNo": "週刊少年ジャンプ2023年6-7合併号P-033",
+        "tags": [
+          "promo",
+          "連載開始号表紙イラスト",
+          "週刊少年ジャンプ2023年67合併号"
+        ],
+        "latestPrice": 8000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20230107_f39067.jpg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-033@promo+週刊少年ジャンプ",
+        "identityKey": "p-033@promo+週刊少年ジャンプ",
+        "name": "モンキー・D・ルフィ 【プロモ】【週刊少年ジャンプ】【青】【P-033】",
+        "modelNo": "P-033",
+        "tags": [
+          "promo",
+          "週刊少年ジャンプ"
+        ],
+        "latestPrice": 1000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-033.jpeg"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-033@promo+週刊少年ジャンプ2023年67合併号",
+        "identityKey": "p-033@promo+週刊少年ジャンプ2023年67合併号",
+        "name": "モンキー・D・ルフィ【プロモ】《青》",
+        "modelNo": "週刊少年ジャンプ2023年6-7合併号P-033",
+        "tags": [
+          "promo",
+          "週刊少年ジャンプ2023年67合併号"
+        ],
+        "latestPrice": 200,
+        "imageUrl": ""
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_OP13-001_promo_unopened",
+    "suggestedCanonicalId": "OP13-001_PROMO_UNOPENED",
+    "canonicalName": "モンキー・D・ルフィ【プロモ】《多色》未開封",
+    "modelCode": "OP13-001",
+    "signature": "promo+unopened",
+    "candidateScore": 65,
+    "confidence": 65,
+    "nameScore": 16,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 5
+    },
+    "priceStats": {
+      "min": 1000,
+      "max": 8000,
+      "ratio": 8
+    },
+    "maxPrice": 8000,
+    "riskLevel": "high",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 3件、torecard 2件）",
+      "価格差 約8倍（価格は参考情報）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 3
+      },
+      {
+        "shopId": "torecard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op13-001@promo+unopened+グリュヴァン美術館+フランス語表記+海外",
+        "identityKey": "op13-001@promo+unopened+グリュヴァン美術館+フランス語表記+海外",
+        "name": "モンキー・D・ルフィ【プロモ】《多色》未開封 ※フランス語表記",
+        "modelNo": "グリュヴァン美術館版OP13-001【海外版】",
+        "tags": [
+          "promo",
+          "unopened",
+          "グリュヴァン美術館",
+          "フランス語表記",
+          "海外"
+        ],
+        "latestPrice": 8000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260705_5eeaae.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op13-001@promo+unopened",
+        "identityKey": "op13-001@promo+unopened",
+        "name": "モンキー・D・ルフィ【プロモ】《多色》未開封",
+        "modelNo": "OP13-001",
+        "tags": [
+          "promo",
+          "unopened"
+        ],
+        "latestPrice": 3500,
+        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20260210_33b613.jpg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op13-001@promo+unopened",
+        "identityKey": "op13-001@promo+unopened",
+        "name": "モンキー・D・ルフィ【プロモ】《多色》未開封",
+        "modelNo": "OP13-001",
+        "tags": [
+          "promo",
+          "unopened"
+        ],
+        "latestPrice": 2500,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-001_p3.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op13-001@promo+unopened+一番くじ",
+        "identityKey": "op13-001@promo+unopened+一番くじ",
+        "name": "モンキー・D・ルフィ【プロモ】《多色》未開封",
+        "modelNo": "一番くじ版OP13-001",
+        "tags": [
+          "promo",
+          "unopened",
+          "一番くじ"
+        ],
+        "latestPrice": 1300,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260210_33b613.jpg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op13-001@promo+unopened+一番くじ",
+        "identityKey": "op13-001@promo+unopened+一番くじ",
+        "name": "モンキー・Ｄ・ルフィ 【未開封】【リーダー】【プロモ】【一番くじ】【赤緑】【OP13-001】",
+        "modelNo": "一番くじ版OP13-001",
+        "tags": [
+          "promo",
+          "unopened",
+          "一番くじ"
+        ],
+        "latestPrice": 1000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-001_p3.png"
       }
     ]
   },
@@ -3480,208 +3682,6 @@
         "tags": [],
         "latestPrice": 500,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-001.jpeg"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_P-033_promo",
-    "suggestedCanonicalId": "P-033_PROMO",
-    "canonicalName": "モンキー・D・ルフィ【プロモ】《青》",
-    "modelCode": "P-033",
-    "signature": "promo",
-    "candidateScore": 66,
-    "confidence": 66,
-    "nameScore": 25,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 1,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 200,
-      "max": 6000,
-      "ratio": 30
-    },
-    "maxPrice": 6000,
-    "riskLevel": "high",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "価格差 約30倍（価格は参考情報）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-033@promo+連載開始号表紙イラスト+週刊少年ジャンプ2023年67合併号",
-        "identityKey": "p-033@promo+連載開始号表紙イラスト+週刊少年ジャンプ2023年67合併号",
-        "name": "モンキー・D・ルフィ【プロモ】《青》※連載開始号表紙イラスト",
-        "modelNo": "週刊少年ジャンプ2023年6-7合併号P-033",
-        "tags": [
-          "promo",
-          "連載開始号表紙イラスト",
-          "週刊少年ジャンプ2023年67合併号"
-        ],
-        "latestPrice": 6000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20230107_f39067.jpg"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-033@promo+週刊少年ジャンプ",
-        "identityKey": "p-033@promo+週刊少年ジャンプ",
-        "name": "モンキー・D・ルフィ 【プロモ】【週刊少年ジャンプ】【青】【P-033】",
-        "modelNo": "P-033",
-        "tags": [
-          "promo",
-          "週刊少年ジャンプ"
-        ],
-        "latestPrice": 1000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-033.jpeg"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-033@promo+週刊少年ジャンプ2023年67合併号",
-        "identityKey": "p-033@promo+週刊少年ジャンプ2023年67合併号",
-        "name": "モンキー・D・ルフィ【プロモ】《青》",
-        "modelNo": "週刊少年ジャンプ2023年6-7合併号P-033",
-        "tags": [
-          "promo",
-          "週刊少年ジャンプ2023年67合併号"
-        ],
-        "latestPrice": 200,
-        "imageUrl": ""
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_OP13-001_promo_unopened",
-    "suggestedCanonicalId": "OP13-001_PROMO_UNOPENED",
-    "canonicalName": "モンキー・D・ルフィ【プロモ】《多色》未開封",
-    "modelCode": "OP13-001",
-    "signature": "promo+unopened",
-    "candidateScore": 65,
-    "confidence": 65,
-    "nameScore": 16,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 5
-    },
-    "priceStats": {
-      "min": 1000,
-      "max": 6000,
-      "ratio": 6
-    },
-    "maxPrice": 6000,
-    "riskLevel": "high",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 3件、torecard 2件）",
-      "価格差 約6倍（価格は参考情報）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 3
-      },
-      {
-        "shopId": "torecard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op13-001@promo+unopened+グリュヴァン美術館+フランス語表記+海外",
-        "identityKey": "op13-001@promo+unopened+グリュヴァン美術館+フランス語表記+海外",
-        "name": "モンキー・D・ルフィ【プロモ】《多色》未開封 ※フランス語表記",
-        "modelNo": "グリュヴァン美術館版OP13-001【海外版】",
-        "tags": [
-          "promo",
-          "unopened",
-          "グリュヴァン美術館",
-          "フランス語表記",
-          "海外"
-        ],
-        "latestPrice": 6000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260705_5eeaae.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op13-001@promo+unopened",
-        "identityKey": "op13-001@promo+unopened",
-        "name": "モンキー・D・ルフィ【プロモ】《多色》未開封",
-        "modelNo": "OP13-001",
-        "tags": [
-          "promo",
-          "unopened"
-        ],
-        "latestPrice": 3500,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/20260210_33b613.jpg"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op13-001@promo+unopened",
-        "identityKey": "op13-001@promo+unopened",
-        "name": "モンキー・D・ルフィ【プロモ】《多色》未開封",
-        "modelNo": "OP13-001",
-        "tags": [
-          "promo",
-          "unopened"
-        ],
-        "latestPrice": 2500,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-001_p3.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op13-001@promo+unopened+一番くじ",
-        "identityKey": "op13-001@promo+unopened+一番くじ",
-        "name": "モンキー・D・ルフィ【プロモ】《多色》未開封",
-        "modelNo": "一番くじ版OP13-001",
-        "tags": [
-          "promo",
-          "unopened",
-          "一番くじ"
-        ],
-        "latestPrice": 1300,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260210_33b613.jpg"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op13-001@promo+unopened+一番くじ",
-        "identityKey": "op13-001@promo+unopened+一番くじ",
-        "name": "モンキー・Ｄ・ルフィ 【未開封】【リーダー】【プロモ】【一番くじ】【赤緑】【OP13-001】",
-        "modelNo": "一番くじ版OP13-001",
-        "tags": [
-          "promo",
-          "unopened",
-          "一番くじ"
-        ],
-        "latestPrice": 1000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-001_p3.png"
       }
     ]
   },
@@ -5174,88 +5174,6 @@
     ]
   },
   {
-    "candidateId": "candidate_P-093_promo",
-    "suggestedCanonicalId": "P-093_PROMO",
-    "canonicalName": "トラファルガー・ロー【プロモ】《紫》",
-    "modelCode": "P-093",
-    "signature": "promo",
-    "candidateScore": 67,
-    "confidence": 67,
-    "nameScore": 27,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 100,
-      "max": 2500,
-      "ratio": 25
-    },
-    "maxPrice": 2500,
-    "riskLevel": "high",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "価格差 約25倍（価格は参考情報）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-093@promo+プロモションパックexvol5",
-        "identityKey": "p-093@promo+プロモションパックexvol5",
-        "name": "トラファルガー・ロー【プロモ】《紫》",
-        "modelNo": "プロモーションパックEXVol.5P-093",
-        "tags": [
-          "promo",
-          "プロモションパックexvol5"
-        ],
-        "latestPrice": 2500,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260930_706a6c.jpg"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-093@promo+交流会配布",
-        "identityKey": "p-093@promo+交流会配布",
-        "name": "トラファルガー・ロー【プロモ】《紫》",
-        "modelNo": "交流会配布版P-093",
-        "tags": [
-          "promo",
-          "交流会配布"
-        ],
-        "latestPrice": 600,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250502_8f0c96.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-093@promo+交流会",
-        "identityKey": "p-093@promo+交流会",
-        "name": "トラファルガー・ロー 【P】【プロモ】【交流会】【紫】【P-093】",
-        "modelNo": "P-093",
-        "tags": [
-          "promo",
-          "交流会"
-        ],
-        "latestPrice": 100,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-093.png"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_P-115_promo",
     "suggestedCanonicalId": "P-115_PROMO",
     "canonicalName": "ボア・ハンコック【プロモ】《黄》",
@@ -5314,6 +5232,88 @@
         ],
         "latestPrice": 500,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-115.png"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_P-093_promo",
+    "suggestedCanonicalId": "P-093_PROMO",
+    "canonicalName": "トラファルガー・ロー【プロモ】《紫》",
+    "modelCode": "P-093",
+    "signature": "promo",
+    "candidateScore": 67,
+    "confidence": 67,
+    "nameScore": 27,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 100,
+      "max": 2300,
+      "ratio": 23
+    },
+    "maxPrice": 2300,
+    "riskLevel": "high",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件）",
+      "価格差 約23倍（価格は参考情報）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-093@promo+プロモションパックexvol5",
+        "identityKey": "p-093@promo+プロモションパックexvol5",
+        "name": "トラファルガー・ロー【プロモ】《紫》",
+        "modelNo": "プロモーションパックEXVol.5P-093",
+        "tags": [
+          "promo",
+          "プロモションパックexvol5"
+        ],
+        "latestPrice": 2300,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260930_706a6c.jpg"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-093@promo+交流会配布",
+        "identityKey": "p-093@promo+交流会配布",
+        "name": "トラファルガー・ロー【プロモ】《紫》",
+        "modelNo": "交流会配布版P-093",
+        "tags": [
+          "promo",
+          "交流会配布"
+        ],
+        "latestPrice": 600,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250502_8f0c96.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-093@promo+交流会",
+        "identityKey": "p-093@promo+交流会",
+        "name": "トラファルガー・ロー 【P】【プロモ】【交流会】【紫】【P-093】",
+        "modelNo": "P-093",
+        "tags": [
+          "promo",
+          "交流会"
+        ],
+        "latestPrice": 100,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-093.png"
       }
     ]
   },
@@ -9004,7 +9004,7 @@
           "promo",
           "プロモションパック5"
         ],
-        "latestPrice": 10,
+        "latestPrice": 50,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240406_b35db0.png"
       },
       {
@@ -13223,8 +13223,8 @@
     "canonicalName": "サボ【プロモ】《黒》未開封",
     "modelCode": "OP13-120",
     "signature": "cs+unopened",
-    "candidateScore": 64,
-    "confidence": 64,
+    "candidateScore": 65,
+    "confidence": 65,
     "nameScore": 9,
     "imageScore": null,
     "imageStats": {
@@ -13236,9 +13236,9 @@
       "totalRecords": 4
     },
     "priceStats": {
-      "min": 100000,
+      "min": 120000,
       "max": 230000,
-      "ratio": 2.3
+      "ratio": 1.9
     },
     "maxPrice": 230000,
     "riskLevel": "medium",
@@ -13311,7 +13311,7 @@
           "cs",
           "unopened"
         ],
-        "latestPrice": 100000,
+        "latestPrice": 120000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250921_c888de.png"
       }
     ]
@@ -15171,10 +15171,10 @@
     },
     "priceStats": {
       "min": 8000,
-      "max": 12000,
-      "ratio": 1.5
+      "max": 13000,
+      "ratio": 1.6
     },
-    "maxPrice": 12000,
+    "maxPrice": 13000,
     "riskLevel": "medium",
     "warnings": [
       "同一店舗の複数商品を含む（mercard 3件）",
@@ -15201,7 +15201,7 @@
           "sp",
           "和柄sp"
         ],
-        "latestPrice": 12000,
+        "latestPrice": 13000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20230909_19ec88.png"
       },
       {
@@ -16312,7 +16312,7 @@
           "sp",
           "和柄sp"
         ],
-        "latestPrice": 3000,
+        "latestPrice": 3500,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP08/123.jpg"
       },
       {
@@ -18465,9 +18465,9 @@
       "totalRecords": 2
     },
     "priceStats": {
-      "min": 1000000,
+      "min": 1100000,
       "max": 1100000,
-      "ratio": 1.1
+      "ratio": 1
     },
     "maxPrice": 1100000,
     "riskLevel": "low",
@@ -18477,6 +18477,21 @@
     "duplicateShops": [],
     "conditionConflict": false,
     "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "eb04-061@comic+op17+海賊団",
+        "identityKey": "eb04-061@comic+op17+海賊団",
+        "name": "モンキー・D・ルフィ【海賊団スーパーパラレル】《黄》",
+        "modelNo": "海賊団スーパーパラレル版EB04-061『OP17』",
+        "tags": [
+          "comic",
+          "op17",
+          "海賊団"
+        ],
+        "latestPrice": 1100000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/120.png"
+      },
       {
         "shopId": "torecard",
         "shopName": "トレカード秋葉原",
@@ -18490,21 +18505,6 @@
         ],
         "latestPrice": 1100000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB04-061_p3.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "eb04-061@comic+op17+海賊団",
-        "identityKey": "eb04-061@comic+op17+海賊団",
-        "name": "モンキー・D・ルフィ【海賊団スーパーパラレル】《黄》",
-        "modelNo": "海賊団スーパーパラレル版EB04-061『OP17』",
-        "tags": [
-          "comic",
-          "op17",
-          "海賊団"
-        ],
-        "latestPrice": 1000000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/120.png"
       }
     ]
   },
@@ -18718,7 +18718,7 @@
       "totalRecords": 2
     },
     "priceStats": {
-      "min": 160000,
+      "min": 170000,
       "max": 180000,
       "ratio": 1.1
     },
@@ -18759,7 +18759,7 @@
           "sp",
           "三周年"
         ],
-        "latestPrice": 160000,
+        "latestPrice": 170000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP12/121.png"
       }
     ]
@@ -18830,6 +18830,71 @@
     ]
   },
   {
+    "candidateId": "candidate_OP09-093_parallel_silver_sp",
+    "suggestedCanonicalId": "OP09-093_PARALLEL_SILVER_SP",
+    "canonicalName": "マーシャル・D・ティーチ『銀』【三周年SPパラレル】《黒》",
+    "modelCode": "OP09-093",
+    "signature": "parallel+silver+sp",
+    "candidateScore": 70,
+    "confidence": 70,
+    "nameScore": 25,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 1,
+      "totalRecords": 2
+    },
+    "priceStats": {
+      "min": 100000,
+      "max": 120000,
+      "ratio": 1.2
+    },
+    "maxPrice": 120000,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op09-093@op12+parallel+silver+sp+三周年",
+        "identityKey": "op09-093@op12+parallel+silver+sp+三周年",
+        "name": "マーシャル・D・ティーチ『銀』【三周年SPパラレル】《黒》",
+        "modelNo": "SPOP09-093『OP12』",
+        "tags": [
+          "op12",
+          "parallel",
+          "silver",
+          "sp",
+          "三周年"
+        ],
+        "latestPrice": 120000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP12/122.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op09-093@parallel+silver+sp",
+        "identityKey": "op09-093@parallel+silver+sp",
+        "name": "マーシャル・D・ティーチ 【銀】【SR】【SP】【パラレル】【黒】【OP09-093】",
+        "modelNo": "OP09-093",
+        "tags": [
+          "parallel",
+          "silver",
+          "sp"
+        ],
+        "latestPrice": 100000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-093_p4.png"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_OP17-022_comic",
     "suggestedCanonicalId": "OP17-022_COMIC",
     "canonicalName": "シャンクス【コミック版パラレル】《緑》",
@@ -18886,71 +18951,6 @@
         ],
         "latestPrice": 120000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP17-022_p2.png"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_OP09-093_parallel_silver_sp",
-    "suggestedCanonicalId": "OP09-093_PARALLEL_SILVER_SP",
-    "canonicalName": "マーシャル・D・ティーチ『銀』【三周年SPパラレル】《黒》",
-    "modelCode": "OP09-093",
-    "signature": "parallel+silver+sp",
-    "candidateScore": 71,
-    "confidence": 71,
-    "nameScore": 25,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 1,
-      "totalRecords": 2
-    },
-    "priceStats": {
-      "min": 100000,
-      "max": 110000,
-      "ratio": 1.1
-    },
-    "maxPrice": 110000,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op09-093@op12+parallel+silver+sp+三周年",
-        "identityKey": "op09-093@op12+parallel+silver+sp+三周年",
-        "name": "マーシャル・D・ティーチ『銀』【三周年SPパラレル】《黒》",
-        "modelNo": "SPOP09-093『OP12』",
-        "tags": [
-          "op12",
-          "parallel",
-          "silver",
-          "sp",
-          "三周年"
-        ],
-        "latestPrice": 110000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP12/122.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op09-093@parallel+silver+sp",
-        "identityKey": "op09-093@parallel+silver+sp",
-        "name": "マーシャル・D・ティーチ 【銀】【SR】【SP】【パラレル】【黒】【OP09-093】",
-        "modelNo": "OP09-093",
-        "tags": [
-          "parallel",
-          "silver",
-          "sp"
-        ],
-        "latestPrice": 100000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-093_p4.png"
       }
     ]
   },
@@ -19578,6 +19578,70 @@
     ]
   },
   {
+    "candidateId": "candidate_ST10-006_promo_unopened",
+    "suggestedCanonicalId": "ST10-006_PROMO_UNOPENED",
+    "canonicalName": "モンキー・D・ルフィ 【プロモ】《赤》未開封",
+    "modelCode": "ST10-006",
+    "signature": "promo+unopened",
+    "candidateScore": 70,
+    "confidence": 70,
+    "nameScore": 22,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 1,
+      "totalRecords": 2
+    },
+    "priceStats": {
+      "min": 15000,
+      "max": 18000,
+      "ratio": 1.2
+    },
+    "maxPrice": 18000,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "st10-006@onepieceday24来場者特典+promo+unopened",
+        "identityKey": "st10-006@onepieceday24来場者特典+promo+unopened",
+        "name": "モンキー・D・ルフィ 【プロモ】《赤》未開封",
+        "modelNo": "ONE PIECE DAY’24 来場者特典版ST10-006",
+        "tags": [
+          "onepieceday24来場者特典",
+          "promo",
+          "unopened"
+        ],
+        "latestPrice": 18000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240714_14ac71.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "st10-006@onepieceday24+promo+unopened+来場者特典",
+        "identityKey": "st10-006@onepieceday24+promo+unopened+来場者特典",
+        "name": "モンキー・D・ルフィ 【SR】【プロモ】【来場者特典】【未開封】【ONE PIECE DAY&#39;24】【赤】【ST10-006】",
+        "modelNo": "ST10-006",
+        "tags": [
+          "onepieceday24",
+          "promo",
+          "unopened",
+          "来場者特典"
+        ],
+        "latestPrice": 15000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST10-006_p3.jpeg"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_OP09-119_parallel_sp",
     "suggestedCanonicalId": "OP09-119_PARALLEL_SP",
     "canonicalName": "モンキー・D・ルフィ【SPパラレル】《紫》",
@@ -19698,70 +19762,6 @@
         ],
         "latestPrice": 16000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/136.png"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_ST10-006_promo_unopened",
-    "suggestedCanonicalId": "ST10-006_PROMO_UNOPENED",
-    "canonicalName": "モンキー・D・ルフィ 【プロモ】《赤》未開封",
-    "modelCode": "ST10-006",
-    "signature": "promo+unopened",
-    "candidateScore": 70,
-    "confidence": 70,
-    "nameScore": 22,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 1,
-      "totalRecords": 2
-    },
-    "priceStats": {
-      "min": 15000,
-      "max": 17000,
-      "ratio": 1.1
-    },
-    "maxPrice": 17000,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "st10-006@onepieceday24来場者特典+promo+unopened",
-        "identityKey": "st10-006@onepieceday24来場者特典+promo+unopened",
-        "name": "モンキー・D・ルフィ 【プロモ】《赤》未開封",
-        "modelNo": "ONE PIECE DAY’24 来場者特典版ST10-006",
-        "tags": [
-          "onepieceday24来場者特典",
-          "promo",
-          "unopened"
-        ],
-        "latestPrice": 17000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240714_14ac71.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "st10-006@onepieceday24+promo+unopened+来場者特典",
-        "identityKey": "st10-006@onepieceday24+promo+unopened+来場者特典",
-        "name": "モンキー・D・ルフィ 【SR】【プロモ】【来場者特典】【未開封】【ONE PIECE DAY&#39;24】【赤】【ST10-006】",
-        "modelNo": "ST10-006",
-        "tags": [
-          "onepieceday24",
-          "promo",
-          "unopened",
-          "来場者特典"
-        ],
-        "latestPrice": 15000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST10-006_p3.jpeg"
       }
     ]
   },
