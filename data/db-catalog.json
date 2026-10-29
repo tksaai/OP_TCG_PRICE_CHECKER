@@ -1,12 +1,12 @@
 {
   "format": "op-tcg-db-catalog",
   "version": 1,
-  "generatedAt": "2026-10-28T16:10:48.847Z",
-  "syncedAt": "2026-10-29T12:53:08.714Z",
+  "generatedAt": "2026-10-29T16:16:23.945Z",
+  "syncedAt": "2026-10-29T22:41:35.714Z",
   "sourceCounts": {
     "cards": 2886,
     "manifestCards": 2886,
-    "provisionalCards": 67
+    "provisionalCards": 68
   },
   "variants": [
     {
@@ -76955,6 +76955,24 @@
       "provisionalUniqueId": "OP18-025_OP18-025.png"
     },
     {
+      "variantKey": "OP18-027::OP18-027",
+      "cardNumber": "OP18-027",
+      "cardName": "ゾロ＆そげキング",
+      "variantId": "OP18-027",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-027.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-027_OP18-027.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-027_OP18-027.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-027_OP18-027.png"
+    },
+    {
       "variantKey": "OP18-028::OP18-028",
       "cardNumber": "OP18-028",
       "cardName": "チムニー",
@@ -80791,7 +80809,7 @@
       "variantType": "normal",
       "variantIndex": 0,
       "label": "通常",
-      "getInfo": "",
+      "getInfo": "Vジャンプ10月特大号付録（2024年8月21日売） カードリスト",
       "source": "official",
       "sourceUrl": "",
       "path": "CardsWebP/P/P-081.webp",
@@ -80872,7 +80890,7 @@
       "variantType": "normal",
       "variantIndex": 0,
       "label": "通常",
-      "getInfo": "",
+      "getInfo": "最強ジャンプ10月号付録（2024年9月4日売） カードリスト",
       "source": "official",
       "sourceUrl": "",
       "path": "CardsWebP/P/P-082.webp",
