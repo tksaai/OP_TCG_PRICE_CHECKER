@@ -1,7 +1,7 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-10-30T22:13:49.235Z",
+  "generatedAt": "2026-10-31T12:15:57.576Z",
   "catalogGeneratedAt": "2026-10-30T16:01:56.981Z",
   "mappings": {
     "EB01-001::EB01-001": {
@@ -1599,6 +1599,223 @@
       "confirmedBy": "image-path",
       "cardNumber": "EB04-061",
       "variantId": "EB04-061_p1"
+    },
+    "EB05-001::EB05-001": {
+      "priceKey": "eb05-001",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-001",
+      "variantId": "EB05-001"
+    },
+    "EB05-002::EB05-002": {
+      "priceKey": "eb05-002",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-002",
+      "variantId": "EB05-002"
+    },
+    "EB05-004::EB05-004": {
+      "priceKey": "eb05-004",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-004",
+      "variantId": "EB05-004"
+    },
+    "EB05-006::EB05-006": {
+      "priceKey": "eb05-006",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-006",
+      "variantId": "EB05-006"
+    },
+    "EB05-009::EB05-009": {
+      "priceKey": "eb05-009",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-009",
+      "variantId": "EB05-009"
+    },
+    "EB05-012::EB05-012": {
+      "priceKey": "eb05-012",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-012",
+      "variantId": "EB05-012"
+    },
+    "EB05-014::EB05-014": {
+      "priceKey": "eb05-014",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-014",
+      "variantId": "EB05-014"
+    },
+    "EB05-016::EB05-016": {
+      "priceKey": "eb05-016",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-016",
+      "variantId": "EB05-016"
+    },
+    "EB05-018::EB05-018": {
+      "priceKey": "eb05-018",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-018",
+      "variantId": "EB05-018"
+    },
+    "EB05-020::EB05-020": {
+      "priceKey": "eb05-020",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-020",
+      "variantId": "EB05-020"
+    },
+    "EB05-021::EB05-021": {
+      "priceKey": "eb05-021",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-021",
+      "variantId": "EB05-021"
+    },
+    "EB05-024::EB05-024": {
+      "priceKey": "eb05-024",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-024",
+      "variantId": "EB05-024"
+    },
+    "EB05-027::EB05-027": {
+      "priceKey": "eb05-027",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-027",
+      "variantId": "EB05-027"
+    },
+    "EB05-028::EB05-028": {
+      "priceKey": "eb05-028",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-028",
+      "variantId": "EB05-028"
+    },
+    "EB05-030::EB05-030": {
+      "priceKey": "eb05-030",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-030",
+      "variantId": "EB05-030"
+    },
+    "EB05-031::EB05-031": {
+      "priceKey": "eb05-031",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-031",
+      "variantId": "EB05-031"
+    },
+    "EB05-033::EB05-033": {
+      "priceKey": "eb05-033",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-033",
+      "variantId": "EB05-033"
+    },
+    "EB05-034::EB05-034": {
+      "priceKey": "eb05-034",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-034",
+      "variantId": "EB05-034"
+    },
+    "EB05-037::EB05-037": {
+      "priceKey": "eb05-037",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-037",
+      "variantId": "EB05-037"
+    },
+    "EB05-040::EB05-040": {
+      "priceKey": "eb05-040",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-040",
+      "variantId": "EB05-040"
+    },
+    "EB05-043::EB05-043": {
+      "priceKey": "eb05-043",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-043",
+      "variantId": "EB05-043"
+    },
+    "EB05-044::EB05-044": {
+      "priceKey": "eb05-044",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-044",
+      "variantId": "EB05-044"
+    },
+    "EB05-046::EB05-046": {
+      "priceKey": "eb05-046",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-046",
+      "variantId": "EB05-046"
+    },
+    "EB05-047::EB05-047": {
+      "priceKey": "eb05-047",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-047",
+      "variantId": "EB05-047"
+    },
+    "EB05-048::EB05-048": {
+      "priceKey": "eb05-048",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-048",
+      "variantId": "EB05-048"
+    },
+    "EB05-050::EB05-050": {
+      "priceKey": "eb05-050",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-050",
+      "variantId": "EB05-050"
+    },
+    "EB05-052::EB05-052": {
+      "priceKey": "eb05-052",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-052",
+      "variantId": "EB05-052"
+    },
+    "EB05-055::EB05-055": {
+      "priceKey": "eb05-055",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-055",
+      "variantId": "EB05-055"
+    },
+    "EB05-057::EB05-057": {
+      "priceKey": "eb05-057",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-057",
+      "variantId": "EB05-057"
+    },
+    "EB05-059::EB05-059": {
+      "priceKey": "eb05-059",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-059",
+      "variantId": "EB05-059"
+    },
+    "EB05-061::EB05-061": {
+      "priceKey": "eb05-061",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB05-061",
+      "variantId": "EB05-061"
     },
     "OP01-001::OP01-001": {
       "priceKey": "op01-001",
@@ -5519,6 +5736,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP06-035",
       "variantId": "OP06-035_p2"
+    },
+    "OP06-036::OP06-036": {
+      "priceKey": "op06-036",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP06-036",
+      "variantId": "OP06-036"
     },
     "OP06-036::OP06-036_p2": {
       "priceKey": "op06-036@full-art",
