@@ -1,12 +1,12 @@
 {
   "format": "op-tcg-db-catalog",
   "version": 1,
-  "generatedAt": "2026-10-30T16:01:56.981Z",
-  "syncedAt": "2026-10-31T12:15:57.377Z",
+  "generatedAt": "2026-10-31T15:24:44.243Z",
+  "syncedAt": "2026-10-31T21:26:51.793Z",
   "sourceCounts": {
     "cards": 2899,
     "manifestCards": 2899,
-    "provisionalCards": 55
+    "provisionalCards": 57
   },
   "variants": [
     {
@@ -77599,6 +77599,24 @@
       "provisionalUniqueId": "OP18-017_OP18-017.png"
     },
     {
+      "variantKey": "OP18-020::OP18-020",
+      "cardNumber": "OP18-020",
+      "cardName": "戦いを!!!やめて下さい!!!",
+      "variantId": "OP18-020",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-0200.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-020_OP18-0200.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-020_OP18-0200.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-020_OP18-0200.png"
+    },
+    {
       "variantKey": "OP18-021::OP18-021",
       "cardNumber": "OP18-021",
       "cardName": "フランキー",
@@ -78119,6 +78137,24 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "OP18-080_OP18-080L.png"
+    },
+    {
+      "variantKey": "OP18-083::OP18-083",
+      "cardNumber": "OP18-083",
+      "cardName": "キリンガム聖",
+      "variantId": "OP18-083",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-0830.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-083_OP18-0830.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-083_OP18-0830.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-083_OP18-0830.png"
     },
     {
       "variantKey": "OP18-084::OP18-084",
@@ -81525,7 +81561,7 @@
       "variantType": "normal",
       "variantIndex": 0,
       "label": "通常",
-      "getInfo": "",
+      "getInfo": "Vジャンプ10月特大号付録（2024年8月21日売） カードリスト",
       "source": "official",
       "sourceUrl": "",
       "path": "CardsWebP/P/P-081.webp",
@@ -81606,7 +81642,7 @@
       "variantType": "normal",
       "variantIndex": 0,
       "label": "通常",
-      "getInfo": "",
+      "getInfo": "最強ジャンプ10月号付録（2024年9月4日売） カードリスト",
       "source": "official",
       "sourceUrl": "",
       "path": "CardsWebP/P/P-082.webp",
