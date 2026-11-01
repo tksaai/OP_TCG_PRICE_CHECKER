@@ -5236,86 +5236,6 @@
     ]
   },
   {
-    "candidateId": "candidate_EB03-001_leader-parallel",
-    "suggestedCanonicalId": "EB03-001_LEADER-PARALLEL",
-    "canonicalName": "ネフェルタリ・ビビ【リーダーパラレル】《多色》",
-    "modelCode": "EB03-001",
-    "signature": "leader-parallel",
-    "candidateScore": 74,
-    "confidence": 74,
-    "nameScore": 53,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 300,
-      "max": 2000,
-      "ratio": 6.7
-    },
-    "maxPrice": 2000,
-    "riskLevel": "high",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "価格差 約6.7倍（価格は参考情報）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "eb03-001@eb05+leader-parallel",
-        "identityKey": "eb03-001@eb05+leader-parallel",
-        "name": "ネフェルタリ・ビビ【リーダーパラレル】《多色》",
-        "modelNo": "EB03-001『EB05』",
-        "tags": [
-          "eb05",
-          "leader-parallel"
-        ],
-        "latestPrice": 2000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/76.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "eb03-001@leader-parallel",
-        "identityKey": "eb03-001@leader-parallel",
-        "name": "ネフェルタリ・ビビ 【リーダーパラレル】【赤青】【EB03-001】",
-        "modelNo": "EB03-001",
-        "tags": [
-          "leader-parallel"
-        ],
-        "latestPrice": 400,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB03-001_p1.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "eb03-001@leader-parallel",
-        "identityKey": "eb03-001@leader-parallel",
-        "name": "ネフェルタリ・ビビ【リーダーパラレル】《多色》",
-        "modelNo": "EB03-001",
-        "tags": [
-          "leader-parallel"
-        ],
-        "latestPrice": 300,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB03/EB03-001_p1.png"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_OP16-042_base",
     "suggestedCanonicalId": "OP16-042_BASE",
     "canonicalName": "インペルダウンの囚人【R】《青》",
@@ -5821,6 +5741,86 @@
         ],
         "latestPrice": 100,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP12-112_p1.png"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_EB03-001_leader-parallel",
+    "suggestedCanonicalId": "EB03-001_LEADER-PARALLEL",
+    "canonicalName": "ネフェルタリ・ビビ【リーダーパラレル】《多色》",
+    "modelCode": "EB03-001",
+    "signature": "leader-parallel",
+    "candidateScore": 74,
+    "confidence": 74,
+    "nameScore": 53,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 300,
+      "max": 1500,
+      "ratio": 5
+    },
+    "maxPrice": 1500,
+    "riskLevel": "high",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件）",
+      "価格差 約5倍（価格は参考情報）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "eb03-001@eb05+leader-parallel",
+        "identityKey": "eb03-001@eb05+leader-parallel",
+        "name": "ネフェルタリ・ビビ【リーダーパラレル】《多色》",
+        "modelNo": "EB03-001『EB05』",
+        "tags": [
+          "eb05",
+          "leader-parallel"
+        ],
+        "latestPrice": 1500,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/76.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "eb03-001@leader-parallel",
+        "identityKey": "eb03-001@leader-parallel",
+        "name": "ネフェルタリ・ビビ 【リーダーパラレル】【赤青】【EB03-001】",
+        "modelNo": "EB03-001",
+        "tags": [
+          "leader-parallel"
+        ],
+        "latestPrice": 400,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB03-001_p1.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "eb03-001@leader-parallel",
+        "identityKey": "eb03-001@leader-parallel",
+        "name": "ネフェルタリ・ビビ【リーダーパラレル】《多色》",
+        "modelNo": "EB03-001",
+        "tags": [
+          "leader-parallel"
+        ],
+        "latestPrice": 300,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB03/EB03-001_p1.png"
       }
     ]
   },
@@ -14594,6 +14594,89 @@
     ]
   },
   {
+    "candidateId": "candidate_ST01-001_unopened",
+    "suggestedCanonicalId": "ST01-001_UNOPENED",
+    "canonicalName": "モンキー・D・ルフィ【L】《赤》未開封",
+    "modelCode": "ST01-001",
+    "signature": "unopened",
+    "candidateScore": 69,
+    "confidence": 69,
+    "nameScore": 24,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 1,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 13000,
+      "max": 20000,
+      "ratio": 1.5
+    },
+    "maxPrice": 20000,
+    "riskLevel": "medium",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "st01-001@unopened+レカフィグ+金箔押し",
+        "identityKey": "st01-001@unopened+レカフィグ+金箔押し",
+        "name": "モンキー・D・ルフィ【L】《赤》未開封",
+        "modelNo": "金箔押し版ST01-001※レカフィグ",
+        "tags": [
+          "unopened",
+          "レカフィグ",
+          "金箔押し"
+        ],
+        "latestPrice": 20000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20230717_60640a.jpg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "st01-001@unopened+レカフィグ",
+        "identityKey": "st01-001@unopened+レカフィグ",
+        "name": "モンキー・D・ルフィ 【リーダー】【レカフィグ】【未開封】【赤】【ST01-001】",
+        "modelNo": "ST01-001",
+        "tags": [
+          "unopened",
+          "レカフィグ"
+        ],
+        "latestPrice": 20000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-001_p4.jpeg"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "st01-001@unopened+応募者全員サビス+金箔押し",
+        "identityKey": "st01-001@unopened+応募者全員サビス+金箔押し",
+        "name": "モンキー・D・ルフィ【L】《赤》未開封",
+        "modelNo": "金箔押し版ST01-001※応募者全員サ-ビス",
+        "tags": [
+          "unopened",
+          "応募者全員サビス",
+          "金箔押し"
+        ],
+        "latestPrice": 13000,
+        "imageUrl": ""
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_OP01-016_parallel_sp",
     "suggestedCanonicalId": "OP01-016_PARALLEL_SP",
     "canonicalName": "ナミ【SPパラレル】《赤》",
@@ -14613,10 +14696,10 @@
     },
     "priceStats": {
       "min": 12000,
-      "max": 22000,
-      "ratio": 1.8
+      "max": 20000,
+      "ratio": 1.7
     },
-    "maxPrice": 22000,
+    "maxPrice": 20000,
     "riskLevel": "medium",
     "warnings": [
       "同一店舗の複数商品を含む（mercard 3件）",
@@ -14642,7 +14725,7 @@
           "parallel",
           "sp"
         ],
-        "latestPrice": 22000,
+        "latestPrice": 20000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/69.png"
       },
       {
@@ -14688,89 +14771,6 @@
           "sp"
         ],
         "latestPrice": 12000,
-        "imageUrl": ""
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_ST01-001_unopened",
-    "suggestedCanonicalId": "ST01-001_UNOPENED",
-    "canonicalName": "モンキー・D・ルフィ【L】《赤》未開封",
-    "modelCode": "ST01-001",
-    "signature": "unopened",
-    "candidateScore": 69,
-    "confidence": 69,
-    "nameScore": 24,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 1,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 13000,
-      "max": 20000,
-      "ratio": 1.5
-    },
-    "maxPrice": 20000,
-    "riskLevel": "medium",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "st01-001@unopened+レカフィグ",
-        "identityKey": "st01-001@unopened+レカフィグ",
-        "name": "モンキー・D・ルフィ 【リーダー】【レカフィグ】【未開封】【赤】【ST01-001】",
-        "modelNo": "ST01-001",
-        "tags": [
-          "unopened",
-          "レカフィグ"
-        ],
-        "latestPrice": 20000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST01-001_p4.jpeg"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "st01-001@unopened+レカフィグ+金箔押し",
-        "identityKey": "st01-001@unopened+レカフィグ+金箔押し",
-        "name": "モンキー・D・ルフィ【L】《赤》未開封",
-        "modelNo": "金箔押し版ST01-001※レカフィグ",
-        "tags": [
-          "unopened",
-          "レカフィグ",
-          "金箔押し"
-        ],
-        "latestPrice": 18000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20230717_60640a.jpg"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "st01-001@unopened+応募者全員サビス+金箔押し",
-        "identityKey": "st01-001@unopened+応募者全員サビス+金箔押し",
-        "name": "モンキー・D・ルフィ【L】《赤》未開封",
-        "modelNo": "金箔押し版ST01-001※応募者全員サ-ビス",
-        "tags": [
-          "unopened",
-          "応募者全員サビス",
-          "金箔押し"
-        ],
-        "latestPrice": 13000,
         "imageUrl": ""
       }
     ]
@@ -16968,8 +16968,8 @@
     "canonicalName": "しらほし【リーダーパラレル】《緑》",
     "modelCode": "OP11-022",
     "signature": "leader-parallel",
-    "candidateScore": 76,
-    "confidence": 76,
+    "candidateScore": 75,
+    "confidence": 75,
     "nameScore": 46,
     "imageScore": null,
     "imageStats": {
@@ -16981,9 +16981,9 @@
       "totalRecords": 3
     },
     "priceStats": {
-      "min": 2500,
+      "min": 2300,
       "max": 3000,
-      "ratio": 1.2
+      "ratio": 1.3
     },
     "maxPrice": 3000,
     "riskLevel": "medium",
@@ -17015,20 +17015,6 @@
       {
         "shopId": "mercard",
         "shopName": "メルカード",
-        "sourceKey": "op11-022@eb05+leader-parallel",
-        "identityKey": "op11-022@eb05+leader-parallel",
-        "name": "しらほし【リーダーパラレル】《緑》",
-        "modelNo": "OP11-022『EB05』",
-        "tags": [
-          "eb05",
-          "leader-parallel"
-        ],
-        "latestPrice": 2800,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/74.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
         "sourceKey": "op11-022@leader-parallel",
         "identityKey": "op11-022@leader-parallel",
         "name": "しらほし【リーダーパラレル】《多色》",
@@ -17038,6 +17024,20 @@
         ],
         "latestPrice": 2500,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP11/122.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op11-022@eb05+leader-parallel",
+        "identityKey": "op11-022@eb05+leader-parallel",
+        "name": "しらほし【リーダーパラレル】《緑》",
+        "modelNo": "OP11-022『EB05』",
+        "tags": [
+          "eb05",
+          "leader-parallel"
+        ],
+        "latestPrice": 2300,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/74.png"
       }
     ]
   },
@@ -17490,10 +17490,10 @@
     },
     "priceStats": {
       "min": 600,
-      "max": 1700,
-      "ratio": 2.8
+      "max": 1500,
+      "ratio": 2.5
     },
-    "maxPrice": 1700,
+    "maxPrice": 1500,
     "riskLevel": "medium",
     "warnings": [
       "同一店舗の複数商品を含む（mercard 2件）",
@@ -17518,7 +17518,7 @@
           "eb05",
           "leader-parallel"
         ],
-        "latestPrice": 1700,
+        "latestPrice": 1500,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/77.png"
       },
       {
@@ -17546,85 +17546,6 @@
         ],
         "latestPrice": 600,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP13/24.png"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_OP15-039_leader-parallel",
-    "suggestedCanonicalId": "OP15-039_LEADER-PARALLEL",
-    "canonicalName": "レベッカ【リーダーパラレル】《青》",
-    "modelCode": "OP15-039",
-    "signature": "leader-parallel",
-    "candidateScore": 75,
-    "confidence": 75,
-    "nameScore": 50,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 800,
-      "max": 1500,
-      "ratio": 1.9
-    },
-    "maxPrice": 1500,
-    "riskLevel": "medium",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op15-039@eb05+leader-parallel",
-        "identityKey": "op15-039@eb05+leader-parallel",
-        "name": "レベッカ【リーダーパラレル】《青》",
-        "modelNo": "OP15-039『EB05』",
-        "tags": [
-          "eb05",
-          "leader-parallel"
-        ],
-        "latestPrice": 1500,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/78.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op15-039@leader-parallel",
-        "identityKey": "op15-039@leader-parallel",
-        "name": "レベッカ 【リーダーパラレル】【青】【OP15-039】",
-        "modelNo": "OP15-039",
-        "tags": [
-          "leader-parallel"
-        ],
-        "latestPrice": 1000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP15-039_p1.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op15-039@leader-parallel",
-        "identityKey": "op15-039@leader-parallel",
-        "name": "レベッカ【リーダーパラレル】《青》",
-        "modelNo": "OP15-039",
-        "tags": [
-          "leader-parallel"
-        ],
-        "latestPrice": 800,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP15/135.png"
       }
     ]
   },
@@ -17713,6 +17634,85 @@
         ],
         "latestPrice": 1000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB01-012_p3.jpeg"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_OP15-039_leader-parallel",
+    "suggestedCanonicalId": "OP15-039_LEADER-PARALLEL",
+    "canonicalName": "レベッカ【リーダーパラレル】《青》",
+    "modelCode": "OP15-039",
+    "signature": "leader-parallel",
+    "candidateScore": 76,
+    "confidence": 76,
+    "nameScore": 50,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 800,
+      "max": 1300,
+      "ratio": 1.6
+    },
+    "maxPrice": 1300,
+    "riskLevel": "medium",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op15-039@eb05+leader-parallel",
+        "identityKey": "op15-039@eb05+leader-parallel",
+        "name": "レベッカ【リーダーパラレル】《青》",
+        "modelNo": "OP15-039『EB05』",
+        "tags": [
+          "eb05",
+          "leader-parallel"
+        ],
+        "latestPrice": 1300,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/78.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op15-039@leader-parallel",
+        "identityKey": "op15-039@leader-parallel",
+        "name": "レベッカ 【リーダーパラレル】【青】【OP15-039】",
+        "modelNo": "OP15-039",
+        "tags": [
+          "leader-parallel"
+        ],
+        "latestPrice": 1000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP15-039_p1.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op15-039@leader-parallel",
+        "identityKey": "op15-039@leader-parallel",
+        "name": "レベッカ【リーダーパラレル】《青》",
+        "modelNo": "OP15-039",
+        "tags": [
+          "leader-parallel"
+        ],
+        "latestPrice": 800,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP15/135.png"
       }
     ]
   },
