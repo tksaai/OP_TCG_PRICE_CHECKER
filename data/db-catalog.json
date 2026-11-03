@@ -1,12 +1,12 @@
 {
   "format": "op-tcg-db-catalog",
   "version": 1,
-  "generatedAt": "2026-11-02T19:37:30.744Z",
-  "syncedAt": "2026-11-03T14:03:07.792Z",
+  "generatedAt": "2026-11-03T17:15:01.849Z",
+  "syncedAt": "2026-11-03T23:14:35.784Z",
   "sourceCounts": {
     "cards": 2899,
     "manifestCards": 2899,
-    "provisionalCards": 57
+    "provisionalCards": 60
   },
   "variants": [
     {
@@ -77797,6 +77797,24 @@
       "provisionalUniqueId": "OP18-036_OP18-036.png"
     },
     {
+      "variantKey": "OP18-040::OP18-040",
+      "cardNumber": "OP18-040",
+      "cardName": "悪魔風脚 画竜点睛ショット",
+      "variantId": "OP18-040",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-040.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-040_OP18-040.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-040_OP18-040.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-040_OP18-040.png"
+    },
+    {
       "variantKey": "OP18-041::OP18-041",
       "cardNumber": "OP18-041",
       "cardName": "ミス・オールサンデー",
@@ -77959,6 +77977,24 @@
       "provisionalUniqueId": "OP18-056_OP18-056.png"
     },
     {
+      "variantKey": "OP18-059::OP18-059",
+      "cardNumber": "OP18-059",
+      "cardName": "武運を祈る",
+      "variantId": "OP18-059",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-059.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-059_OP18-059.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-059_OP18-059.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-059_OP18-059.png"
+    },
+    {
       "variantKey": "OP18-060::OP18-060",
       "cardNumber": "OP18-060",
       "cardName": "軍子宮",
@@ -78065,6 +78101,24 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "OP18-069_OP18-069.png"
+    },
+    {
+      "variantKey": "OP18-075::OP18-075",
+      "cardNumber": "OP18-075",
+      "cardName": "サウザンド・サニー号",
+      "variantId": "OP18-075",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-075.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-075_OP18-075.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-075_OP18-075.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-075_OP18-075.png"
     },
     {
       "variantKey": "OP18-076::OP18-076",
@@ -81561,7 +81615,7 @@
       "variantType": "normal",
       "variantIndex": 0,
       "label": "通常",
-      "getInfo": "",
+      "getInfo": "Vジャンプ10月特大号付録（2024年8月21日売） カードリスト",
       "source": "official",
       "sourceUrl": "",
       "path": "CardsWebP/P/P-081.webp",
@@ -81642,7 +81696,7 @@
       "variantType": "normal",
       "variantIndex": 0,
       "label": "通常",
-      "getInfo": "",
+      "getInfo": "最強ジャンプ10月号付録（2024年9月4日売） カードリスト",
       "source": "official",
       "sourceUrl": "",
       "path": "CardsWebP/P/P-082.webp",
