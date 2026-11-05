@@ -1,12 +1,12 @@
 {
   "format": "op-tcg-db-catalog",
   "version": 1,
-  "generatedAt": "2026-11-04T17:23:44.599Z",
-  "syncedAt": "2026-11-05T14:31:27.679Z",
+  "generatedAt": "2026-11-05T17:29:22.143Z",
+  "syncedAt": "2026-11-05T23:34:43.283Z",
   "sourceCounts": {
     "cards": 2899,
     "manifestCards": 2899,
-    "provisionalCards": 60
+    "provisionalCards": 62
   },
   "variants": [
     {
@@ -78337,6 +78337,24 @@
       "provisionalUniqueId": "OP18-092_OP18-092.png"
     },
     {
+      "variantKey": "OP18-096::OP18-096",
+      "cardNumber": "OP18-096",
+      "cardName": "呼ぶぞ",
+      "variantId": "OP18-096",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-096.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-096_OP18-096.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-096_OP18-096.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-096_OP18-096.png"
+    },
+    {
       "variantKey": "OP18-100::OP18-100",
       "cardNumber": "OP18-100",
       "cardName": "カリファ",
@@ -78479,6 +78497,24 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "OP18-113_OP18-113.png"
+    },
+    {
+      "variantKey": "OP18-117::OP18-117",
+      "cardNumber": "OP18-117",
+      "cardName": "バスターコール",
+      "variantId": "OP18-117",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-117.png",
+      "path": "CardsWebP/Provisional/OP18/OP18-117_OP18-117.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-117_OP18-117.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-117_OP18-117.png"
     },
     {
       "variantKey": "P-001::P-001",
@@ -81615,7 +81651,7 @@
       "variantType": "normal",
       "variantIndex": 0,
       "label": "通常",
-      "getInfo": "",
+      "getInfo": "Vジャンプ10月特大号付録（2024年8月21日売） カードリスト",
       "source": "official",
       "sourceUrl": "",
       "path": "CardsWebP/P/P-081.webp",
@@ -81696,7 +81732,7 @@
       "variantType": "normal",
       "variantIndex": 0,
       "label": "通常",
-      "getInfo": "",
+      "getInfo": "最強ジャンプ10月号付録（2024年9月4日売） カードリスト",
       "source": "official",
       "sourceUrl": "",
       "path": "CardsWebP/P/P-082.webp",
