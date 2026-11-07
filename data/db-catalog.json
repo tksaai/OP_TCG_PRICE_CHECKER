@@ -1,12 +1,12 @@
 {
   "format": "op-tcg-db-catalog",
   "version": 1,
-  "generatedAt": "2026-11-06T16:50:44.736Z",
-  "syncedAt": "2026-11-07T12:53:02.348Z",
+  "generatedAt": "2026-11-07T15:46:35.993Z",
+  "syncedAt": "2026-11-07T21:43:43.605Z",
   "sourceCounts": {
     "cards": 2899,
     "manifestCards": 2899,
-    "provisionalCards": 62
+    "provisionalCards": 68
   },
   "variants": [
     {
@@ -77743,6 +77743,24 @@
       "provisionalUniqueId": "OP18-029_OP18-029.png"
     },
     {
+      "variantKey": "OP18-031::OP18-031",
+      "cardNumber": "OP18-031",
+      "cardName": "ニコ・ロビン",
+      "variantId": "OP18-031",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-031.jpg",
+      "path": "CardsWebP/Provisional/OP18/OP18-031_OP18-031.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-031_OP18-031.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-031_OP18-031.jpg"
+    },
+    {
       "variantKey": "OP18-032::OP18-032",
       "cardNumber": "OP18-032",
       "cardName": "バギー",
@@ -78067,6 +78085,24 @@
       "provisionalUniqueId": "OP18-064_OP18-064.png"
     },
     {
+      "variantKey": "OP18-065::OP18-065",
+      "cardNumber": "OP18-065",
+      "cardName": "軍子宮",
+      "variantId": "OP18-065",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/P18-065.jpg",
+      "path": "CardsWebP/Provisional/OP18/OP18-065_P18-065.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-065_P18-065.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-065_P18-065.jpg"
+    },
+    {
       "variantKey": "OP18-066::OP18-066",
       "cardNumber": "OP18-066",
       "cardName": "ザンバイ",
@@ -78173,6 +78209,24 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "OP18-078_OP18-078.png"
+    },
+    {
+      "variantKey": "OP18-079::OP18-079",
+      "cardNumber": "OP18-079",
+      "cardName": "スパンダム",
+      "variantId": "OP18-079",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-079.jpg",
+      "path": "CardsWebP/Provisional/OP18/OP18-079_OP18-079.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-079_OP18-079.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-079_OP18-079.jpg"
     },
     {
       "variantKey": "OP18-080::OP18-080",
@@ -78355,6 +78409,24 @@
       "provisionalUniqueId": "OP18-096_OP18-096.png"
     },
     {
+      "variantKey": "OP18-099::OP18-099",
+      "cardNumber": "OP18-099",
+      "cardName": "カク",
+      "variantId": "OP18-099",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-099.jpg",
+      "path": "CardsWebP/Provisional/OP18/OP18-099_OP18-099.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-099_OP18-099.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-099_OP18-099.jpg"
+    },
+    {
       "variantKey": "OP18-100::OP18-100",
       "cardNumber": "OP18-100",
       "cardName": "カリファ",
@@ -78515,6 +78587,42 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "OP18-117_OP18-117.png"
+    },
+    {
+      "variantKey": "OP18-118::OP18-118",
+      "cardNumber": "OP18-118",
+      "cardName": "モンキー・Ｄ・ルフィ",
+      "variantId": "OP18-118",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: ブースターパック 神の支配",
+      "getInfo": "ブースターパック 神の支配【OP-18】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-118.jpg",
+      "path": "CardsWebP/Provisional/OP18/OP18-118_OP18-118.webp",
+      "fallbackPath": "CardsWebP/Provisional/OP18/OP18-118_OP18-118.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-118_OP18-118.jpg"
+    },
+    {
+      "variantKey": "OP18-119::OP18-119",
+      "cardNumber": "OP18-119",
+      "cardName": "シャムロック聖",
+      "variantId": "OP18-119",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: フラッグシップバトル2027年1月以降記念品",
+      "getInfo": "フラッグシップバトル2027年1月以降記念品【PROMO】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/OP18-119FC.jpg",
+      "path": "CardsWebP/Provisional/PROMO/OP18-119_OP18-119FC.webp",
+      "fallbackPath": "CardsWebP/Provisional/PROMO/OP18-119_OP18-119FC.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "OP18-119_OP18-119FC.jpg"
     },
     {
       "variantKey": "P-001::P-001",
@@ -81651,7 +81759,7 @@
       "variantType": "normal",
       "variantIndex": 0,
       "label": "通常",
-      "getInfo": "",
+      "getInfo": "Vジャンプ10月特大号付録（2024年8月21日売） カードリスト",
       "source": "official",
       "sourceUrl": "",
       "path": "CardsWebP/P/P-081.webp",
@@ -81732,7 +81840,7 @@
       "variantType": "normal",
       "variantIndex": 0,
       "label": "通常",
-      "getInfo": "",
+      "getInfo": "最強ジャンプ10月号付録（2024年9月4日売） カードリスト",
       "source": "official",
       "sourceUrl": "",
       "path": "CardsWebP/P/P-082.webp",
