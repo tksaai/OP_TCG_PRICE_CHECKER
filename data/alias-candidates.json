@@ -17714,85 +17714,6 @@
     ]
   },
   {
-    "candidateId": "candidate_OP15-039_leader-parallel",
-    "suggestedCanonicalId": "OP15-039_LEADER-PARALLEL",
-    "canonicalName": "レベッカ【リーダーパラレル】《青》",
-    "modelCode": "OP15-039",
-    "signature": "leader-parallel",
-    "candidateScore": 75,
-    "confidence": 75,
-    "nameScore": 50,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 700,
-      "max": 1500,
-      "ratio": 2.1
-    },
-    "maxPrice": 1500,
-    "riskLevel": "medium",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op15-039@eb05+leader-parallel",
-        "identityKey": "op15-039@eb05+leader-parallel",
-        "name": "レベッカ【リーダーパラレル】《青》",
-        "modelNo": "OP15-039『EB05』",
-        "tags": [
-          "eb05",
-          "leader-parallel"
-        ],
-        "latestPrice": 1500,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/78.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op15-039@leader-parallel",
-        "identityKey": "op15-039@leader-parallel",
-        "name": "レベッカ 【リーダーパラレル】【青】【OP15-039】",
-        "modelNo": "OP15-039",
-        "tags": [
-          "leader-parallel"
-        ],
-        "latestPrice": 1000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP15-039_p1.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op15-039@leader-parallel",
-        "identityKey": "op15-039@leader-parallel",
-        "name": "レベッカ【リーダーパラレル】《青》",
-        "modelNo": "OP15-039",
-        "tags": [
-          "leader-parallel"
-        ],
-        "latestPrice": 700,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP15/135.png"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_EB01-012_asia_flagship_promo_unopened",
     "suggestedCanonicalId": "EB01-012_ASIA_FLAGSHIP_PROMO_UNOPENED",
     "canonicalName": "キャベンディッシュ【プロモ】《緑》ForAsia未開封",
@@ -17877,6 +17798,85 @@
         ],
         "latestPrice": 1000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB01-012_p3.jpeg"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_OP15-039_leader-parallel",
+    "suggestedCanonicalId": "OP15-039_LEADER-PARALLEL",
+    "canonicalName": "レベッカ【リーダーパラレル】《青》",
+    "modelCode": "OP15-039",
+    "signature": "leader-parallel",
+    "candidateScore": 75,
+    "confidence": 75,
+    "nameScore": 50,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 700,
+      "max": 1400,
+      "ratio": 2
+    },
+    "maxPrice": 1400,
+    "riskLevel": "medium",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op15-039@eb05+leader-parallel",
+        "identityKey": "op15-039@eb05+leader-parallel",
+        "name": "レベッカ【リーダーパラレル】《青》",
+        "modelNo": "OP15-039『EB05』",
+        "tags": [
+          "eb05",
+          "leader-parallel"
+        ],
+        "latestPrice": 1400,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/78.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op15-039@leader-parallel",
+        "identityKey": "op15-039@leader-parallel",
+        "name": "レベッカ 【リーダーパラレル】【青】【OP15-039】",
+        "modelNo": "OP15-039",
+        "tags": [
+          "leader-parallel"
+        ],
+        "latestPrice": 1000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP15-039_p1.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op15-039@leader-parallel",
+        "identityKey": "op15-039@leader-parallel",
+        "name": "レベッカ【リーダーパラレル】《青》",
+        "modelNo": "OP15-039",
+        "tags": [
+          "leader-parallel"
+        ],
+        "latestPrice": 700,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP15/135.png"
       }
     ]
   },
