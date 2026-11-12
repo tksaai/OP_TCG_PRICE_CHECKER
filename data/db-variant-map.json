@@ -1,8 +1,8 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-11-11T14:08:44.128Z",
-  "catalogGeneratedAt": "2026-11-10T17:09:59.025Z",
+  "generatedAt": "2026-11-12T00:32:58.351Z",
+  "catalogGeneratedAt": "2026-11-11T17:18:02.352Z",
   "mappings": {
     "EB01-001::EB01-001": {
       "priceKey": "eb01-001",
@@ -4946,6 +4946,13 @@
       "cardNumber": "OP05-039",
       "variantId": "OP05-039"
     },
+    "OP05-040::OP05-040": {
+      "priceKey": "op05-040",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP05-040",
+      "variantId": "OP05-040"
+    },
     "OP05-041::OP05-041": {
       "priceKey": "op05-041",
       "method": "normal-variant-tags",
@@ -8473,6 +8480,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP10-037",
       "variantId": "OP10-037_p1"
+    },
+    "OP10-040::OP10-040": {
+      "priceKey": "op10-040",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP10-040",
+      "variantId": "OP10-040"
     },
     "OP10-041::OP10-041": {
       "priceKey": "op10-041",
@@ -16733,6 +16747,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "ST26-005",
       "variantId": "ST26-005_p1"
+    },
+    "ST27-002::ST27-002": {
+      "priceKey": "st27-002",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "ST27-002",
+      "variantId": "ST27-002"
     },
     "ST27-003::ST27-003": {
       "priceKey": "st27-003",
