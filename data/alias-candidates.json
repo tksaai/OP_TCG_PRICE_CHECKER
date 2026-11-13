@@ -3768,6 +3768,91 @@
     ]
   },
   {
+    "candidateId": "candidate_OP05-093_parallel_sp",
+    "suggestedCanonicalId": "OP05-093_PARALLEL_SP",
+    "canonicalName": "ロブ・ルッチ【SPパラレル】《黒》",
+    "modelCode": "OP05-093",
+    "signature": "parallel+sp",
+    "candidateScore": 71,
+    "confidence": 71,
+    "nameScore": 38,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 2200,
+      "max": 6500,
+      "ratio": 3
+    },
+    "maxPrice": 6500,
+    "riskLevel": "high",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件）",
+      "価格差 約3倍（価格は参考情報）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op05-093@op09+parallel+sp+和柄sp",
+        "identityKey": "op05-093@op09+parallel+sp+和柄sp",
+        "name": "ロブ・ルッチ【SPパラレル】《黒》",
+        "modelNo": "和柄SPOP05-093『OP09』",
+        "tags": [
+          "op09",
+          "parallel",
+          "sp",
+          "和柄sp"
+        ],
+        "latestPrice": 6500,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP09/15.jpg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op05-093@parallel+sp",
+        "identityKey": "op05-093@parallel+sp",
+        "name": "ロブ・ルッチ 【SR】【SP】【パラレル】【黒】【OP05-093】",
+        "modelNo": "OP05-093",
+        "tags": [
+          "parallel",
+          "sp"
+        ],
+        "latestPrice": 5000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP05-093_p2.jpeg"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op05-093@op09+parallel+sp",
+        "identityKey": "op05-093@op09+parallel+sp",
+        "name": "ロブ・ルッチ【SPパラレル】《黒》",
+        "modelNo": "SPOP05-093『OP09』",
+        "tags": [
+          "op09",
+          "parallel",
+          "sp"
+        ],
+        "latestPrice": 2200,
+        "imageUrl": ""
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_ST01-013_promo",
     "suggestedCanonicalId": "ST01-013_PROMO",
     "canonicalName": "ロロノア・ゾロ【プロモ】《赤》",
@@ -16317,90 +16402,6 @@
     ]
   },
   {
-    "candidateId": "candidate_OP05-093_parallel_sp",
-    "suggestedCanonicalId": "OP05-093_PARALLEL_SP",
-    "canonicalName": "ロブ・ルッチ【SPパラレル】《黒》",
-    "modelCode": "OP05-093",
-    "signature": "parallel+sp",
-    "candidateScore": 71,
-    "confidence": 71,
-    "nameScore": 38,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 2200,
-      "max": 6000,
-      "ratio": 2.7
-    },
-    "maxPrice": 6000,
-    "riskLevel": "medium",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op05-093@op09+parallel+sp+和柄sp",
-        "identityKey": "op05-093@op09+parallel+sp+和柄sp",
-        "name": "ロブ・ルッチ【SPパラレル】《黒》",
-        "modelNo": "和柄SPOP05-093『OP09』",
-        "tags": [
-          "op09",
-          "parallel",
-          "sp",
-          "和柄sp"
-        ],
-        "latestPrice": 6000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP09/15.jpg"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op05-093@parallel+sp",
-        "identityKey": "op05-093@parallel+sp",
-        "name": "ロブ・ルッチ 【SR】【SP】【パラレル】【黒】【OP05-093】",
-        "modelNo": "OP05-093",
-        "tags": [
-          "parallel",
-          "sp"
-        ],
-        "latestPrice": 5000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP05-093_p2.jpeg"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op05-093@op09+parallel+sp",
-        "identityKey": "op05-093@op09+parallel+sp",
-        "name": "ロブ・ルッチ【SPパラレル】《黒》",
-        "modelNo": "SPOP05-093『OP09』",
-        "tags": [
-          "op09",
-          "parallel",
-          "sp"
-        ],
-        "latestPrice": 2200,
-        "imageUrl": ""
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_OP07-015_parallel_sp",
     "suggestedCanonicalId": "OP07-015_PARALLEL_SP",
     "canonicalName": "モンキー・D・ドラゴン【SPパラレル】《赤》",
@@ -20312,9 +20313,9 @@
       "totalRecords": 2
     },
     "priceStats": {
-      "min": 14000,
+      "min": 16000,
       "max": 17000,
-      "ratio": 1.2
+      "ratio": 1.1
     },
     "maxPrice": 17000,
     "riskLevel": "low",
@@ -20350,7 +20351,7 @@
           "parallel",
           "sp"
         ],
-        "latestPrice": 14000,
+        "latestPrice": 16000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/136.png"
       }
     ]
@@ -25834,6 +25835,67 @@
     ]
   },
   {
+    "candidateId": "candidate_P-010_promo",
+    "suggestedCanonicalId": "P-010_PROMO",
+    "canonicalName": "カイドウ【プロモ】《紫》",
+    "modelCode": "P-010",
+    "signature": "promo",
+    "candidateScore": 67,
+    "confidence": 67,
+    "nameScore": 27,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 2
+    },
+    "priceStats": {
+      "min": 10,
+      "max": 100,
+      "ratio": 10
+    },
+    "maxPrice": 100,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-010@2022年最強ジャンプ9月号+promo",
+        "identityKey": "p-010@2022年最強ジャンプ9月号+promo",
+        "name": "カイドウ【プロモ】《紫》",
+        "modelNo": "2022年最強ジャンプ9月号版P-010",
+        "tags": [
+          "2022年最強ジャンプ9月号",
+          "promo"
+        ],
+        "latestPrice": 100,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20220916_900404.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-010@promo+最強ジャンプ",
+        "identityKey": "p-010@promo+最強ジャンプ",
+        "name": "カイドウ 【プロモ】【最強ジャンプ】【紫】【P-010】",
+        "modelNo": "P-010",
+        "tags": [
+          "promo",
+          "最強ジャンプ"
+        ],
+        "latestPrice": 10,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-010.jpeg"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_P-088_promo",
     "suggestedCanonicalId": "P-088_PROMO",
     "canonicalName": "トラファルガー・ロー【プロモ】《黄》",
@@ -26191,67 +26253,6 @@
         ],
         "latestPrice": 10,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-113.png"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_P-010_promo",
-    "suggestedCanonicalId": "P-010_PROMO",
-    "canonicalName": "カイドウ【プロモ】《紫》",
-    "modelCode": "P-010",
-    "signature": "promo",
-    "candidateScore": 68,
-    "confidence": 68,
-    "nameScore": 27,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 2
-    },
-    "priceStats": {
-      "min": 10,
-      "max": 50,
-      "ratio": 5
-    },
-    "maxPrice": 50,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-010@2022年最強ジャンプ9月号+promo",
-        "identityKey": "p-010@2022年最強ジャンプ9月号+promo",
-        "name": "カイドウ【プロモ】《紫》",
-        "modelNo": "2022年最強ジャンプ9月号版P-010",
-        "tags": [
-          "2022年最強ジャンプ9月号",
-          "promo"
-        ],
-        "latestPrice": 50,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20220916_900404.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-010@promo+最強ジャンプ",
-        "identityKey": "p-010@promo+最強ジャンプ",
-        "name": "カイドウ 【プロモ】【最強ジャンプ】【紫】【P-010】",
-        "modelNo": "P-010",
-        "tags": [
-          "promo",
-          "最強ジャンプ"
-        ],
-        "latestPrice": 10,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-010.jpeg"
       }
     ]
   },
