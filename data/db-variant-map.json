@@ -1,7 +1,7 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-11-13T23:28:28.596Z",
+  "generatedAt": "2026-11-14T13:25:05.697Z",
   "catalogGeneratedAt": "2026-11-13T17:16:45.536Z",
   "mappings": {
     "EB01-001::EB01-001": {
@@ -11262,8 +11262,8 @@
     },
     "OP14-074::OP14-074": {
       "priceKey": "op14-074",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP14-074",
       "variantId": "OP14-074"
     },
@@ -11283,8 +11283,8 @@
     },
     "OP14-078::OP14-078": {
       "priceKey": "op14-078",
-      "method": "normal-variant-tags",
-      "confirmedBy": "variant-tags",
+      "method": "image-path",
+      "confirmedBy": "image-path",
       "cardNumber": "OP14-078",
       "variantId": "OP14-078"
     },
@@ -12540,6 +12540,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP16-038",
       "variantId": "OP16-038"
+    },
+    "OP16-039::OP16-039": {
+      "priceKey": "op16-039",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "OP16-039",
+      "variantId": "OP16-039"
     },
     "OP16-040::OP16-040": {
       "priceKey": "op16-040",
