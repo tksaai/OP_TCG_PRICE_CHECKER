@@ -11882,17 +11882,6 @@
       {
         "shopId": "mercard",
         "shopName": "メルカード",
-        "sourceKey": "op12-020",
-        "identityKey": "op12-020",
-        "name": "ロロノア・ゾロ【L】《緑》",
-        "modelNo": "OP12-020",
-        "tags": [],
-        "latestPrice": 10,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP12/020.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
         "sourceKey": "op12-020@st32",
         "identityKey": "op12-020@st32",
         "name": "ロロノア・ゾロ【L】《緑》",
@@ -11900,8 +11889,19 @@
         "tags": [
           "st32"
         ],
-        "latestPrice": 10,
+        "latestPrice": 30,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/ST32/6.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op12-020",
+        "identityKey": "op12-020",
+        "name": "ロロノア・ゾロ【L】《緑》",
+        "modelNo": "OP12-020",
+        "tags": [],
+        "latestPrice": 10,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP12/020.png"
       }
     ]
   },
@@ -17290,7 +17290,7 @@
           "eb05",
           "leader-parallel"
         ],
-        "latestPrice": 2700,
+        "latestPrice": 2500,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/74.png"
       },
       {

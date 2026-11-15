@@ -26133,63 +26133,6 @@
     ]
   },
   {
-    "key": "op15-108@cs+unopened",
-    "name": "ナミ【プロモ】《黄》未開封",
-    "modelNo": "チャンピオンシップ版OP15-108",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20261010_7a5fcb.png",
-    "history": [
-      {
-        "date": "2026/10/11",
-        "price": 600000
-      },
-      {
-        "date": "2026/11/13",
-        "price": 550000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 550000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20261010_7a5fcb.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "ナミ【プロモ】《黄》未開封",
-        "history": [
-          {
-            "date": "2026/10/11",
-            "price": 600000
-          },
-          {
-            "date": "2026/11/13",
-            "price": 550000
-          }
-        ]
-      },
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 600000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP15-108_x1.jpg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "sourceName": "ナミ 【R】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【OP15-108】",
-        "history": [
-          {
-            "date": "2026/10/11",
-            "price": 500000
-          },
-          {
-            "date": "2026/10/16",
-            "price": 600000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 550000,
-    "aliasKeys": [
-      "ナミ【プロモ】《黄》未開封_チャンピオンシップ版OP15-108"
-    ]
-  },
-  {
     "key": "st01-013@cs",
     "name": "ロロノア・ゾロ【プロモ】《赤》",
     "modelNo": "チャンピオンシップ版ST01-013",
@@ -27162,6 +27105,71 @@
     ]
   },
   {
+    "key": "op15-108@cs+unopened",
+    "name": "ナミ【プロモ】《黄》未開封",
+    "modelNo": "チャンピオンシップ版OP15-108",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20261010_7a5fcb.png",
+    "history": [
+      {
+        "date": "2026/10/11",
+        "price": 600000
+      },
+      {
+        "date": "2026/11/13",
+        "price": 550000
+      },
+      {
+        "date": "2026/11/15",
+        "price": 500000
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 500000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20261010_7a5fcb.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "ナミ【プロモ】《黄》未開封",
+        "history": [
+          {
+            "date": "2026/10/11",
+            "price": 600000
+          },
+          {
+            "date": "2026/11/13",
+            "price": 550000
+          },
+          {
+            "date": "2026/11/15",
+            "price": 500000
+          }
+        ]
+      },
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 600000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP15-108_x1.jpg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "sourceName": "ナミ 【R】【パラレル】【プロモ】【未開封】【チャンピオンシップ】【黄】【OP15-108】",
+        "history": [
+          {
+            "date": "2026/10/11",
+            "price": 500000
+          },
+          {
+            "date": "2026/10/16",
+            "price": 600000
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 500000,
+    "aliasKeys": [
+      "ナミ【プロモ】《黄》未開封_チャンピオンシップ版OP15-108"
+    ]
+  },
+  {
     "key": "st01-012@autograph+op05",
     "name": "モンキー・D・ルフィ【書き下ろしサイン入り版】《赤》",
     "modelNo": "書き下ろしサイン入りパラレル版ST01-012『OP05』",
@@ -27622,7 +27630,10 @@
       }
     },
     "bestShopId": "mercard",
-    "latestPrice": 500000
+    "latestPrice": 500000,
+    "aliasKeys": [
+      "モンキー・D・ルフィ【描き下ろしサイン入り版】《赤》_尾田栄一郎氏描き下ろしパラレル版ST01-012『OP05』※サイン入り"
+    ]
   },
   {
     "key": "op13-120@comic+red",
@@ -31089,7 +31100,10 @@
       }
     },
     "bestShopId": "mercard",
-    "latestPrice": 300000
+    "latestPrice": 300000,
+    "aliasKeys": [
+      "ナミ【描き下ろしSPパラレル】《黄》_矢吹健太郎氏描き下ろしSPパラレル版EB05-055『EB05』"
+    ]
   },
   {
     "key": "op05-060@gold-letter",
@@ -56784,86 +56798,6 @@
     ]
   },
   {
-    "key": "eb05-014@comic+コミック",
-    "name": "しらほし【コミック版パラレル】《緑》",
-    "modelNo": "コミックパラレル版EB05-014",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/COP1.png",
-    "history": [
-      {
-        "date": "2026/10/31",
-        "price": 80000
-      },
-      {
-        "date": "2026/11/01",
-        "price": 65000
-      },
-      {
-        "date": "2026/11/03",
-        "price": 75000
-      },
-      {
-        "date": "2026/11/06",
-        "price": 70000
-      },
-      {
-        "date": "2026/11/08",
-        "price": 75000
-      },
-      {
-        "date": "2026/11/11",
-        "price": 70000
-      },
-      {
-        "date": "2026/11/12",
-        "price": 65000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 65000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/COP1.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "しらほし【コミック版パラレル】《緑》",
-        "history": [
-          {
-            "date": "2026/10/31",
-            "price": 80000
-          },
-          {
-            "date": "2026/11/01",
-            "price": 65000
-          },
-          {
-            "date": "2026/11/03",
-            "price": 75000
-          },
-          {
-            "date": "2026/11/06",
-            "price": 70000
-          },
-          {
-            "date": "2026/11/08",
-            "price": 75000
-          },
-          {
-            "date": "2026/11/11",
-            "price": 70000
-          },
-          {
-            "date": "2026/11/12",
-            "price": 65000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 65000,
-    "aliasKeys": [
-      "しらほし【コミック版パラレル】《緑》_コミックパラレル版EB05-014"
-    ]
-  },
-  {
     "key": "name:onepieceカドゲム@anniv3+en-illust-jp+set+unopened+セット+段ボル梱包状態",
     "name": "【未開封】ONE PIECE カードゲーム 【英語イラスト版日本語仕様3rd ANNIVERSARY SET】※段ボール梱包状態",
     "modelNo": "未開封セット",
@@ -57938,6 +57872,94 @@
     "aliasKeys": [
       "spprb02-006『eb04』_ロロノア・ゾロ【spパラレル】《緑》",
       "ロロノア・ゾロ【SPパラレル】《緑》_SPPRB02-006『EB04』"
+    ]
+  },
+  {
+    "key": "eb05-014@comic+コミック",
+    "name": "しらほし【コミック版パラレル】《緑》",
+    "modelNo": "コミックパラレル版EB05-014",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/COP1.png",
+    "history": [
+      {
+        "date": "2026/10/31",
+        "price": 80000
+      },
+      {
+        "date": "2026/11/01",
+        "price": 65000
+      },
+      {
+        "date": "2026/11/03",
+        "price": 75000
+      },
+      {
+        "date": "2026/11/06",
+        "price": 70000
+      },
+      {
+        "date": "2026/11/08",
+        "price": 75000
+      },
+      {
+        "date": "2026/11/11",
+        "price": 70000
+      },
+      {
+        "date": "2026/11/12",
+        "price": 65000
+      },
+      {
+        "date": "2026/11/15",
+        "price": 60000
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 60000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/COP1.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "しらほし【コミック版パラレル】《緑》",
+        "history": [
+          {
+            "date": "2026/10/31",
+            "price": 80000
+          },
+          {
+            "date": "2026/11/01",
+            "price": 65000
+          },
+          {
+            "date": "2026/11/03",
+            "price": 75000
+          },
+          {
+            "date": "2026/11/06",
+            "price": 70000
+          },
+          {
+            "date": "2026/11/08",
+            "price": 75000
+          },
+          {
+            "date": "2026/11/11",
+            "price": 70000
+          },
+          {
+            "date": "2026/11/12",
+            "price": 65000
+          },
+          {
+            "date": "2026/11/15",
+            "price": 60000
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 60000,
+    "aliasKeys": [
+      "しらほし【コミック版パラレル】《緑》_コミックパラレル版EB05-014"
     ]
   },
   {
@@ -90505,7 +90527,10 @@
       }
     },
     "bestShopId": "mercard",
-    "latestPrice": 18000
+    "latestPrice": 18000,
+    "aliasKeys": [
+      "マーカス・マーズ聖【描き下ろしパラレル】《黒》_芥見下々氏描き下ろしパラレル版OP13-091"
+    ]
   },
   {
     "key": "name:プレミアムカドコレクションガルズエディション@unopened+日版ガルズエディション",
@@ -93666,7 +93691,10 @@
       }
     },
     "bestShopId": "mercard",
-    "latestPrice": 17000
+    "latestPrice": 17000,
+    "aliasKeys": [
+      "イーザンバロン・V・ナス寿郎聖【描き下ろしパラレル】《黒》_芥見下々氏描き下ろしパラレル版OP13-080"
+    ]
   },
   {
     "key": "op13-083@parallel+描き下ろし+芥見下々氏描き下ろし",
@@ -93695,7 +93723,10 @@
       }
     },
     "bestShopId": "mercard",
-    "latestPrice": 17000
+    "latestPrice": 17000,
+    "aliasKeys": [
+      "ジェイガルシア・サターン聖【描き下ろしパラレル】《黒》_芥見下々氏描き下ろしパラレル版OP13-083"
+    ]
   },
   {
     "key": "op13-084@parallel+描き下ろし+芥見下々氏描き下ろし",
@@ -93724,7 +93755,10 @@
       }
     },
     "bestShopId": "mercard",
-    "latestPrice": 17000
+    "latestPrice": 17000,
+    "aliasKeys": [
+      "シェパード・十・ピーター聖【描き下ろしパラレル】《黒》_芥見下々氏描き下ろしパラレル版OP13-084"
+    ]
   },
   {
     "key": "op13-089@parallel+描き下ろし+芥見下々氏描き下ろし版",
@@ -93753,7 +93787,10 @@
       }
     },
     "bestShopId": "mercard",
-    "latestPrice": 17000
+    "latestPrice": 17000,
+    "aliasKeys": [
+      "トップマン・ウォーキュリー聖【描き下ろしパラレル】《黒》_芥見下々氏描き下ろしパラレル版版OP13-089"
+    ]
   },
   {
     "key": "eb01-046@parallel+promo+始めようキャンペン",
@@ -94673,86 +94710,6 @@
     "latestPrice": 16000,
     "aliasKeys": [
       "ニコ・ロビン【SPパラレル】《緑》_SPEB05-016『EB05』"
-    ]
-  },
-  {
-    "key": "eb05-031@eb05+parallel+sp",
-    "name": "ヴィンスモーク・レイジュ【SPパラレル】《紫》",
-    "modelNo": "SPEB05-031『EB05』",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/66.png",
-    "history": [
-      {
-        "date": "2026/10/31",
-        "price": 17000
-      },
-      {
-        "date": "2026/11/01",
-        "price": 12000
-      },
-      {
-        "date": "2026/11/03",
-        "price": 15000
-      },
-      {
-        "date": "2026/11/04",
-        "price": 14000
-      },
-      {
-        "date": "2026/11/05",
-        "price": 18000
-      },
-      {
-        "date": "2026/11/06",
-        "price": 17000
-      },
-      {
-        "date": "2026/11/13",
-        "price": 16000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 16000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/66.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "ヴィンスモーク・レイジュ【SPパラレル】《紫》",
-        "history": [
-          {
-            "date": "2026/10/31",
-            "price": 17000
-          },
-          {
-            "date": "2026/11/01",
-            "price": 12000
-          },
-          {
-            "date": "2026/11/03",
-            "price": 15000
-          },
-          {
-            "date": "2026/11/04",
-            "price": 14000
-          },
-          {
-            "date": "2026/11/05",
-            "price": 18000
-          },
-          {
-            "date": "2026/11/06",
-            "price": 17000
-          },
-          {
-            "date": "2026/11/13",
-            "price": 16000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 16000,
-    "aliasKeys": [
-      "ヴィンスモーク・レイジュ【SPパラレル】《紫》_SPEB05-031『EB05』"
     ]
   },
   {
@@ -99997,6 +99954,94 @@
     "latestPrice": 15000,
     "aliasKeys": [
       "モンキー・D・ルフィ【SPパラレル】《紫》_SPEB02-061『PRB02』"
+    ]
+  },
+  {
+    "key": "eb05-031@eb05+parallel+sp",
+    "name": "ヴィンスモーク・レイジュ【SPパラレル】《紫》",
+    "modelNo": "SPEB05-031『EB05』",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/66.png",
+    "history": [
+      {
+        "date": "2026/10/31",
+        "price": 17000
+      },
+      {
+        "date": "2026/11/01",
+        "price": 12000
+      },
+      {
+        "date": "2026/11/03",
+        "price": 15000
+      },
+      {
+        "date": "2026/11/04",
+        "price": 14000
+      },
+      {
+        "date": "2026/11/05",
+        "price": 18000
+      },
+      {
+        "date": "2026/11/06",
+        "price": 17000
+      },
+      {
+        "date": "2026/11/13",
+        "price": 16000
+      },
+      {
+        "date": "2026/11/15",
+        "price": 15000
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 15000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/66.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "ヴィンスモーク・レイジュ【SPパラレル】《紫》",
+        "history": [
+          {
+            "date": "2026/10/31",
+            "price": 17000
+          },
+          {
+            "date": "2026/11/01",
+            "price": 12000
+          },
+          {
+            "date": "2026/11/03",
+            "price": 15000
+          },
+          {
+            "date": "2026/11/04",
+            "price": 14000
+          },
+          {
+            "date": "2026/11/05",
+            "price": 18000
+          },
+          {
+            "date": "2026/11/06",
+            "price": 17000
+          },
+          {
+            "date": "2026/11/13",
+            "price": 16000
+          },
+          {
+            "date": "2026/11/15",
+            "price": 15000
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 15000,
+    "aliasKeys": [
+      "ヴィンスモーク・レイジュ【SPパラレル】《紫》_SPEB05-031『EB05』"
     ]
   },
   {
@@ -107199,62 +107244,6 @@
     ]
   },
   {
-    "key": "eb05-006@eb05+parallel+sp",
-    "name": "ミス・バッキンガム・ステューシー【SPパラレル】《赤》",
-    "modelNo": "SPEB05-006『EB05』",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/63.png",
-    "history": [
-      {
-        "date": "2026/10/31",
-        "price": 11000
-      },
-      {
-        "date": "2026/11/01",
-        "price": 10000
-      },
-      {
-        "date": "2026/11/03",
-        "price": 12000
-      },
-      {
-        "date": "2026/11/05",
-        "price": 13000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 13000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/63.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "ミス・バッキンガム・ステューシー【SPパラレル】《赤》",
-        "history": [
-          {
-            "date": "2026/10/31",
-            "price": 11000
-          },
-          {
-            "date": "2026/11/01",
-            "price": 10000
-          },
-          {
-            "date": "2026/11/03",
-            "price": 12000
-          },
-          {
-            "date": "2026/11/05",
-            "price": 13000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 13000,
-    "aliasKeys": [
-      "ミス・バッキンガム・ステューシー【SPパラレル】《赤》_SPEB05-006『EB05』"
-    ]
-  },
-  {
     "key": "op05-091@op06+parallel+sp",
     "name": "レベッカ【SPパラレル】《黒》",
     "modelNo": "SPOP05-091『OP06』",
@@ -113403,6 +113392,70 @@
     ]
   },
   {
+    "key": "eb05-006@eb05+parallel+sp",
+    "name": "ミス・バッキンガム・ステューシー【SPパラレル】《赤》",
+    "modelNo": "SPEB05-006『EB05』",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/63.png",
+    "history": [
+      {
+        "date": "2026/10/31",
+        "price": 11000
+      },
+      {
+        "date": "2026/11/01",
+        "price": 10000
+      },
+      {
+        "date": "2026/11/03",
+        "price": 12000
+      },
+      {
+        "date": "2026/11/05",
+        "price": 13000
+      },
+      {
+        "date": "2026/11/15",
+        "price": 12000
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 12000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/63.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "ミス・バッキンガム・ステューシー【SPパラレル】《赤》",
+        "history": [
+          {
+            "date": "2026/10/31",
+            "price": 11000
+          },
+          {
+            "date": "2026/11/01",
+            "price": 10000
+          },
+          {
+            "date": "2026/11/03",
+            "price": 12000
+          },
+          {
+            "date": "2026/11/05",
+            "price": 13000
+          },
+          {
+            "date": "2026/11/15",
+            "price": 12000
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 12000,
+    "aliasKeys": [
+      "ミス・バッキンガム・ステューシー【SPパラレル】《赤》_SPEB05-006『EB05』"
+    ]
+  },
+  {
     "key": "op01-016@op05+parallel+sp",
     "name": "ナミ【SPパラレル】《赤》",
     "modelNo": "SPOP01-016『OP05』",
@@ -116711,86 +116764,6 @@
     "aliasKeys": [
       "spop09-004_wantedシャンクス【spパラレル】《赤》",
       "WANTEDシャンクス【SPパラレル】《赤》_SPOP09-004"
-    ]
-  },
-  {
-    "key": "op17-081@eb05+parallel+sp",
-    "name": "ゲルズ【SPパラレル】《黒》",
-    "modelNo": "SPOP17-081『EB05』",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/67.png",
-    "history": [
-      {
-        "date": "2026/10/31",
-        "price": 10000
-      },
-      {
-        "date": "2026/11/01",
-        "price": 10000
-      },
-      {
-        "date": "2026/11/02",
-        "price": 11000
-      },
-      {
-        "date": "2026/11/03",
-        "price": 12000
-      },
-      {
-        "date": "2026/11/06",
-        "price": 11000
-      },
-      {
-        "date": "2026/11/08",
-        "price": 12000
-      },
-      {
-        "date": "2026/11/13",
-        "price": 11000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 11000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/67.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "ゲルズ【SPパラレル】《黒》",
-        "history": [
-          {
-            "date": "2026/10/31",
-            "price": 10000
-          },
-          {
-            "date": "2026/11/01",
-            "price": 10000
-          },
-          {
-            "date": "2026/11/02",
-            "price": 11000
-          },
-          {
-            "date": "2026/11/03",
-            "price": 12000
-          },
-          {
-            "date": "2026/11/06",
-            "price": 11000
-          },
-          {
-            "date": "2026/11/08",
-            "price": 12000
-          },
-          {
-            "date": "2026/11/13",
-            "price": 11000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 11000,
-    "aliasKeys": [
-      "ゲルズ【SPパラレル】《黒》_SPOP17-081『EB05』"
     ]
   },
   {
@@ -120263,6 +120236,94 @@
     "aliasKeys": [
       "spop02-120『op05』_ウタ【spパラレル】《紫》",
       "ウタ【SPパラレル】《紫》_SPOP02-120『OP05』"
+    ]
+  },
+  {
+    "key": "op17-081@eb05+parallel+sp",
+    "name": "ゲルズ【SPパラレル】《黒》",
+    "modelNo": "SPOP17-081『EB05』",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/67.png",
+    "history": [
+      {
+        "date": "2026/10/31",
+        "price": 10000
+      },
+      {
+        "date": "2026/11/01",
+        "price": 10000
+      },
+      {
+        "date": "2026/11/02",
+        "price": 11000
+      },
+      {
+        "date": "2026/11/03",
+        "price": 12000
+      },
+      {
+        "date": "2026/11/06",
+        "price": 11000
+      },
+      {
+        "date": "2026/11/08",
+        "price": 12000
+      },
+      {
+        "date": "2026/11/13",
+        "price": 11000
+      },
+      {
+        "date": "2026/11/15",
+        "price": 10000
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 10000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/67.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "ゲルズ【SPパラレル】《黒》",
+        "history": [
+          {
+            "date": "2026/10/31",
+            "price": 10000
+          },
+          {
+            "date": "2026/11/01",
+            "price": 10000
+          },
+          {
+            "date": "2026/11/02",
+            "price": 11000
+          },
+          {
+            "date": "2026/11/03",
+            "price": 12000
+          },
+          {
+            "date": "2026/11/06",
+            "price": 11000
+          },
+          {
+            "date": "2026/11/08",
+            "price": 12000
+          },
+          {
+            "date": "2026/11/13",
+            "price": 11000
+          },
+          {
+            "date": "2026/11/15",
+            "price": 10000
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 10000,
+    "aliasKeys": [
+      "ゲルズ【SPパラレル】《黒》_SPOP17-081『EB05』"
     ]
   },
   {
@@ -129885,86 +129946,6 @@
     ]
   },
   {
-    "key": "st32-002@op17+parallel+sp+覇王色",
-    "name": "光月おでん【覇王色SPパラレル】《緑》",
-    "modelNo": "覇王色SPパラレル版ST32-002『OP17』",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/128.png",
-    "history": [
-      {
-        "date": "2026/10/26",
-        "price": 9000
-      },
-      {
-        "date": "2026/10/27",
-        "price": 10000
-      },
-      {
-        "date": "2026/10/28",
-        "price": 12000
-      },
-      {
-        "date": "2026/11/03",
-        "price": 13000
-      },
-      {
-        "date": "2026/11/05",
-        "price": 11000
-      },
-      {
-        "date": "2026/11/12",
-        "price": 10000
-      },
-      {
-        "date": "2026/11/15",
-        "price": 9000
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 9000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/128.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "光月おでん【覇王色SPパラレル】《緑》",
-        "history": [
-          {
-            "date": "2026/10/26",
-            "price": 9000
-          },
-          {
-            "date": "2026/10/27",
-            "price": 10000
-          },
-          {
-            "date": "2026/10/28",
-            "price": 12000
-          },
-          {
-            "date": "2026/11/03",
-            "price": 13000
-          },
-          {
-            "date": "2026/11/05",
-            "price": 11000
-          },
-          {
-            "date": "2026/11/12",
-            "price": 10000
-          },
-          {
-            "date": "2026/11/15",
-            "price": 9000
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 9000,
-    "aliasKeys": [
-      "光月おでん【覇王色SPパラレル】《緑》_覇王色SPパラレル版ST32-002『OP17』"
-    ]
-  },
-  {
     "key": "p-107@op17+parallel+覇王色",
     "name": "ゴール・Ｄ・ロジャー【覇王色パラレル】《紫》",
     "modelNo": "覇王色パラレル版P-107『OP17』",
@@ -139419,6 +139400,86 @@
     ]
   },
   {
+    "key": "st32-002@op17+parallel+sp+覇王色",
+    "name": "光月おでん【覇王色SPパラレル】《緑》",
+    "modelNo": "覇王色SPパラレル版ST32-002『OP17』",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/128.png",
+    "history": [
+      {
+        "date": "2026/10/26",
+        "price": 9000
+      },
+      {
+        "date": "2026/10/27",
+        "price": 10000
+      },
+      {
+        "date": "2026/10/28",
+        "price": 12000
+      },
+      {
+        "date": "2026/11/03",
+        "price": 13000
+      },
+      {
+        "date": "2026/11/05",
+        "price": 11000
+      },
+      {
+        "date": "2026/11/12",
+        "price": 10000
+      },
+      {
+        "date": "2026/11/15",
+        "price": 8000
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 8000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/128.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "光月おでん【覇王色SPパラレル】《緑》",
+        "history": [
+          {
+            "date": "2026/10/26",
+            "price": 9000
+          },
+          {
+            "date": "2026/10/27",
+            "price": 10000
+          },
+          {
+            "date": "2026/10/28",
+            "price": 12000
+          },
+          {
+            "date": "2026/11/03",
+            "price": 13000
+          },
+          {
+            "date": "2026/11/05",
+            "price": 11000
+          },
+          {
+            "date": "2026/11/12",
+            "price": 10000
+          },
+          {
+            "date": "2026/11/15",
+            "price": 8000
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 8000,
+    "aliasKeys": [
+      "光月おでん【覇王色SPパラレル】《緑》_覇王色SPパラレル版ST32-002『OP17』"
+    ]
+  },
+  {
     "key": "name:エクストラブスタeggheadcrisis未開封box@box+eb04+unopened+エッグヘッドクライシス",
     "name": "【未開封】エクストラブースター EGGHEAD CRISIS(エッグヘッドクライシス)【EB-04】　未開封BOX",
     "modelNo": "未開封BOX",
@@ -147961,7 +148022,10 @@
       }
     },
     "bestShopId": "mercard",
-    "latestPrice": 7000
+    "latestPrice": 7000,
+    "aliasKeys": [
+      "カイドウ【描き下ろしパラレル】《紫》_板垣恵介氏描き下ろしパラレル版OP17-062『OP17』"
+    ]
   },
   {
     "key": "name:onepieceカドゲム1stanniversaryset@unopened+セット",
@@ -152011,35 +152075,6 @@
       "中国イラスト版op07-051_ボア・ハンコック【プロモ】《青》【中国イラスト版日本語仕様2ndanniversaryset】※通常版",
       "ボア・ハンコック【プロモ】《青》【中国イラスト版日本語仕様2nd ANNIVERSARY SET】※通常版_中国イラスト版OP07-051"
     ]
-  },
-  {
-    "key": "eb05-055@eb05+parallel+描き下ろし",
-    "name": "ナミ【描き下ろしパラレル】《黄》",
-    "modelNo": "描き下ろしパラレル版EB05-055『EB05』",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/72.png",
-    "history": [
-      {
-        "date": "2026/11/15",
-        "price": 6500
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 6500,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/72.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "ナミ【描き下ろしパラレル】《黄》",
-        "history": [
-          {
-            "date": "2026/11/15",
-            "price": 6500
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 6500
   },
   {
     "key": "name:onepieceカドゲム@anniv1+set+unopened+セット",
@@ -165055,6 +165090,38 @@
     "latestPrice": 5500,
     "aliasKeys": [
       "しらほし【プロモ】《多色》未開封_金箔押し版OP11-022※レカフィグ"
+    ]
+  },
+  {
+    "key": "eb05-055@eb05+parallel+描き下ろし",
+    "name": "ナミ【描き下ろしパラレル】《黄》",
+    "modelNo": "描き下ろしパラレル版EB05-055『EB05』",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/72.png",
+    "history": [
+      {
+        "date": "2026/11/15",
+        "price": 5500
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 5500,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/72.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "ナミ【描き下ろしパラレル】《黄》",
+        "history": [
+          {
+            "date": "2026/11/15",
+            "price": 5500
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 5500,
+    "aliasKeys": [
+      "ナミ【描き下ろしパラレル】《黄》_描き下ろしパラレル版EB05-055『EB05』"
     ]
   },
   {
@@ -201172,7 +201239,10 @@
       }
     },
     "bestShopId": "mercard",
-    "latestPrice": 3500
+    "latestPrice": 3500,
+    "aliasKeys": [
+      "モンキー・D・ルフィ【描き下ろしパラレル版】《赤》_描き下ろしパラレルST01-012『OP05』"
+    ]
   },
   {
     "key": "op07-015@op09+parallel+sp+和柄sp",
@@ -217320,62 +217390,6 @@
     ]
   },
   {
-    "key": "op11-022@eb05+leader-parallel",
-    "name": "しらほし【リーダーパラレル】《緑》",
-    "modelNo": "OP11-022『EB05』",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/74.png",
-    "history": [
-      {
-        "date": "2026/10/31",
-        "price": 3000
-      },
-      {
-        "date": "2026/11/01",
-        "price": 2300
-      },
-      {
-        "date": "2026/11/03",
-        "price": 3000
-      },
-      {
-        "date": "2026/11/13",
-        "price": 2700
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 2700,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/74.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "しらほし【リーダーパラレル】《緑》",
-        "history": [
-          {
-            "date": "2026/10/31",
-            "price": 3000
-          },
-          {
-            "date": "2026/11/01",
-            "price": 2300
-          },
-          {
-            "date": "2026/11/03",
-            "price": 3000
-          },
-          {
-            "date": "2026/11/13",
-            "price": 2700
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 2700,
-    "aliasKeys": [
-      "しらほし【リーダーパラレル】《緑》_OP11-022『EB05』"
-    ]
-  },
-  {
     "key": "op14-084@parallel",
     "name": "ミス・オールサンデー【パラレル】《黒》",
     "modelNo": "OP14-084",
@@ -222666,6 +222680,70 @@
     ]
   },
   {
+    "key": "op11-022@eb05+leader-parallel",
+    "name": "しらほし【リーダーパラレル】《緑》",
+    "modelNo": "OP11-022『EB05』",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/74.png",
+    "history": [
+      {
+        "date": "2026/10/31",
+        "price": 3000
+      },
+      {
+        "date": "2026/11/01",
+        "price": 2300
+      },
+      {
+        "date": "2026/11/03",
+        "price": 3000
+      },
+      {
+        "date": "2026/11/13",
+        "price": 2700
+      },
+      {
+        "date": "2026/11/15",
+        "price": 2500
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 2500,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/74.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "しらほし【リーダーパラレル】《緑》",
+        "history": [
+          {
+            "date": "2026/10/31",
+            "price": 3000
+          },
+          {
+            "date": "2026/11/01",
+            "price": 2300
+          },
+          {
+            "date": "2026/11/03",
+            "price": 3000
+          },
+          {
+            "date": "2026/11/13",
+            "price": 2700
+          },
+          {
+            "date": "2026/11/15",
+            "price": 2500
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 2500,
+    "aliasKeys": [
+      "しらほし【リーダーパラレル】《緑》_OP11-022『EB05』"
+    ]
+  },
+  {
     "key": "op12-020@leader-parallel",
     "name": "ロロノア・ゾロ【リーダーパラレル】《緑》",
     "modelNo": "OP12-020",
@@ -227625,86 +227703,6 @@
     "aliasKeys": [
       "ドンキホ-テ・ロシナンテ『prb01』版ス-パ-パラレル仕様_ドン！！カード【ドン】《ドンキホーテ・ロシナンテ『prb01』版スーパーパラレル仕様》",
       "ドン！！カード【ドン】《ドンキホーテ・ロシナンテ『PRB01』版スーパーパラレル仕様》_ドンキホ-テ・ロシナンテ『PRB01』版ス-パ-パラレル仕様"
-    ]
-  },
-  {
-    "key": "eb05-028@parallel",
-    "name": "ボア・ハンコック【パラレル】《青》",
-    "modelNo": "パラレル版EB05-028",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/88.png",
-    "history": [
-      {
-        "date": "2026/10/31",
-        "price": 2000
-      },
-      {
-        "date": "2026/11/01",
-        "price": 2500
-      },
-      {
-        "date": "2026/11/02",
-        "price": 2800
-      },
-      {
-        "date": "2026/11/04",
-        "price": 3000
-      },
-      {
-        "date": "2026/11/08",
-        "price": 2500
-      },
-      {
-        "date": "2026/11/12",
-        "price": 2700
-      },
-      {
-        "date": "2026/11/13",
-        "price": 2500
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 2500,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/88.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "ボア・ハンコック【パラレル】《青》",
-        "history": [
-          {
-            "date": "2026/10/31",
-            "price": 2000
-          },
-          {
-            "date": "2026/11/01",
-            "price": 2500
-          },
-          {
-            "date": "2026/11/02",
-            "price": 2800
-          },
-          {
-            "date": "2026/11/04",
-            "price": 3000
-          },
-          {
-            "date": "2026/11/08",
-            "price": 2500
-          },
-          {
-            "date": "2026/11/12",
-            "price": 2700
-          },
-          {
-            "date": "2026/11/13",
-            "price": 2500
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 2500,
-    "aliasKeys": [
-      "ボア・ハンコック【パラレル】《青》_パラレル版EB05-028"
     ]
   },
   {
@@ -233204,6 +233202,94 @@
     "aliasKeys": [
       "ニコ・ロビン『prb02』版ス-パ-パラレル仕様_ドン!!カード【ニコ・ロビン】※金枠",
       "ドン!!カード【ニコ・ロビン】※金枠_ニコ・ロビン『PRB02』版ス-パ-パラレル仕様"
+    ]
+  },
+  {
+    "key": "eb05-028@parallel",
+    "name": "ボア・ハンコック【パラレル】《青》",
+    "modelNo": "パラレル版EB05-028",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/88.png",
+    "history": [
+      {
+        "date": "2026/10/31",
+        "price": 2000
+      },
+      {
+        "date": "2026/11/01",
+        "price": 2500
+      },
+      {
+        "date": "2026/11/02",
+        "price": 2800
+      },
+      {
+        "date": "2026/11/04",
+        "price": 3000
+      },
+      {
+        "date": "2026/11/08",
+        "price": 2500
+      },
+      {
+        "date": "2026/11/12",
+        "price": 2700
+      },
+      {
+        "date": "2026/11/13",
+        "price": 2500
+      },
+      {
+        "date": "2026/11/15",
+        "price": 2300
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 2300,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/88.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "ボア・ハンコック【パラレル】《青》",
+        "history": [
+          {
+            "date": "2026/10/31",
+            "price": 2000
+          },
+          {
+            "date": "2026/11/01",
+            "price": 2500
+          },
+          {
+            "date": "2026/11/02",
+            "price": 2800
+          },
+          {
+            "date": "2026/11/04",
+            "price": 3000
+          },
+          {
+            "date": "2026/11/08",
+            "price": 2500
+          },
+          {
+            "date": "2026/11/12",
+            "price": 2700
+          },
+          {
+            "date": "2026/11/13",
+            "price": 2500
+          },
+          {
+            "date": "2026/11/15",
+            "price": 2300
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 2300,
+    "aliasKeys": [
+      "ボア・ハンコック【パラレル】《青》_パラレル版EB05-028"
     ]
   },
   {
@@ -262157,94 +262243,6 @@
     ]
   },
   {
-    "key": "eb05-016@parallel",
-    "name": "ニコ・ロビン【パラレル】《緑》",
-    "modelNo": "パラレル版EB05-016",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/85.png",
-    "history": [
-      {
-        "date": "2026/10/31",
-        "price": 1000
-      },
-      {
-        "date": "2026/11/01",
-        "price": 800
-      },
-      {
-        "date": "2026/11/03",
-        "price": 600
-      },
-      {
-        "date": "2026/11/04",
-        "price": 800
-      },
-      {
-        "date": "2026/11/05",
-        "price": 1000
-      },
-      {
-        "date": "2026/11/10",
-        "price": 1500
-      },
-      {
-        "date": "2026/11/12",
-        "price": 1400
-      },
-      {
-        "date": "2026/11/14",
-        "price": 1600
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 1600,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/85.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "ニコ・ロビン【パラレル】《緑》",
-        "history": [
-          {
-            "date": "2026/10/31",
-            "price": 1000
-          },
-          {
-            "date": "2026/11/01",
-            "price": 800
-          },
-          {
-            "date": "2026/11/03",
-            "price": 600
-          },
-          {
-            "date": "2026/11/04",
-            "price": 800
-          },
-          {
-            "date": "2026/11/05",
-            "price": 1000
-          },
-          {
-            "date": "2026/11/10",
-            "price": 1500
-          },
-          {
-            "date": "2026/11/12",
-            "price": 1400
-          },
-          {
-            "date": "2026/11/14",
-            "price": 1600
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 1600,
-    "aliasKeys": [
-      "ニコ・ロビン【パラレル】《緑》_パラレル版EB05-016"
-    ]
-  },
-  {
     "key": "op17-079@leader-parallel",
     "name": "モンキー・D・ルフィ【リーダーパラレル】《黒》",
     "modelNo": "パラレル版OP17-079",
@@ -279461,6 +279459,102 @@
     ]
   },
   {
+    "key": "eb05-016@parallel",
+    "name": "ニコ・ロビン【パラレル】《緑》",
+    "modelNo": "パラレル版EB05-016",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/85.png",
+    "history": [
+      {
+        "date": "2026/10/31",
+        "price": 1000
+      },
+      {
+        "date": "2026/11/01",
+        "price": 800
+      },
+      {
+        "date": "2026/11/03",
+        "price": 600
+      },
+      {
+        "date": "2026/11/04",
+        "price": 800
+      },
+      {
+        "date": "2026/11/05",
+        "price": 1000
+      },
+      {
+        "date": "2026/11/10",
+        "price": 1500
+      },
+      {
+        "date": "2026/11/12",
+        "price": 1400
+      },
+      {
+        "date": "2026/11/14",
+        "price": 1600
+      },
+      {
+        "date": "2026/11/15",
+        "price": 1400
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 1400,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/85.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "ニコ・ロビン【パラレル】《緑》",
+        "history": [
+          {
+            "date": "2026/10/31",
+            "price": 1000
+          },
+          {
+            "date": "2026/11/01",
+            "price": 800
+          },
+          {
+            "date": "2026/11/03",
+            "price": 600
+          },
+          {
+            "date": "2026/11/04",
+            "price": 800
+          },
+          {
+            "date": "2026/11/05",
+            "price": 1000
+          },
+          {
+            "date": "2026/11/10",
+            "price": 1500
+          },
+          {
+            "date": "2026/11/12",
+            "price": 1400
+          },
+          {
+            "date": "2026/11/14",
+            "price": 1600
+          },
+          {
+            "date": "2026/11/15",
+            "price": 1400
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 1400,
+    "aliasKeys": [
+      "ニコ・ロビン【パラレル】《緑》_パラレル版EB05-016"
+    ]
+  },
+  {
     "key": "eb05-061@parallel",
     "name": "ナミ【パラレル】《赤》",
     "modelNo": "パラレル版EB05-061",
@@ -287148,118 +287242,6 @@
       "オフィシャルカードスリーブ リミテッドエディションvol.5(バギー)70枚入り_バギー",
       "バギ-_オフィシャルカードスリーブリミテッドエディションvol.5(バギー)70枚入り",
       "オフィシャルカードスリーブ リミテッドエディションvol.5(バギー)70枚入り_バギ-"
-    ]
-  },
-  {
-    "key": "eb05-046@parallel",
-    "name": "ヤマト【パラレル】《黒》",
-    "modelNo": "パラレル版EB05-046",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/92.png",
-    "history": [
-      {
-        "date": "2026/10/31",
-        "price": 2500
-      },
-      {
-        "date": "2026/11/01",
-        "price": 2500
-      },
-      {
-        "date": "2026/11/03",
-        "price": 2300
-      },
-      {
-        "date": "2026/11/04",
-        "price": 1800
-      },
-      {
-        "date": "2026/11/05",
-        "price": 2000
-      },
-      {
-        "date": "2026/11/06",
-        "price": 1800
-      },
-      {
-        "date": "2026/11/08",
-        "price": 1700
-      },
-      {
-        "date": "2026/11/10",
-        "price": 1600
-      },
-      {
-        "date": "2026/11/12",
-        "price": 1500
-      },
-      {
-        "date": "2026/11/13",
-        "price": 1400
-      },
-      {
-        "date": "2026/11/14",
-        "price": 1300
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 1300,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/92.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "ヤマト【パラレル】《黒》",
-        "history": [
-          {
-            "date": "2026/10/31",
-            "price": 2500
-          },
-          {
-            "date": "2026/11/01",
-            "price": 2500
-          },
-          {
-            "date": "2026/11/03",
-            "price": 2300
-          },
-          {
-            "date": "2026/11/04",
-            "price": 1800
-          },
-          {
-            "date": "2026/11/05",
-            "price": 2000
-          },
-          {
-            "date": "2026/11/06",
-            "price": 1800
-          },
-          {
-            "date": "2026/11/08",
-            "price": 1700
-          },
-          {
-            "date": "2026/11/10",
-            "price": 1600
-          },
-          {
-            "date": "2026/11/12",
-            "price": 1500
-          },
-          {
-            "date": "2026/11/13",
-            "price": 1400
-          },
-          {
-            "date": "2026/11/14",
-            "price": 1300
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 1300,
-    "aliasKeys": [
-      "ヤマト【パラレル】《黒》_パラレル版EB05-046"
     ]
   },
   {
@@ -300332,33 +300314,49 @@
     ]
   },
   {
-    "key": "eb05-052@parallel",
-    "name": "グロリオーサ【パラレル】《黄》",
-    "modelNo": "パラレル版EB05-052",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/93.png",
+    "key": "eb05-046@parallel",
+    "name": "ヤマト【パラレル】《黒》",
+    "modelNo": "パラレル版EB05-046",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/92.png",
     "history": [
       {
         "date": "2026/10/31",
-        "price": 1300
+        "price": 2500
       },
       {
         "date": "2026/11/01",
-        "price": 1100
+        "price": 2500
       },
       {
         "date": "2026/11/03",
-        "price": 1100
+        "price": 2300
+      },
+      {
+        "date": "2026/11/04",
+        "price": 1800
       },
       {
         "date": "2026/11/05",
-        "price": 1200
+        "price": 2000
+      },
+      {
+        "date": "2026/11/06",
+        "price": 1800
       },
       {
         "date": "2026/11/08",
-        "price": 1100
+        "price": 1700
       },
       {
         "date": "2026/11/10",
+        "price": 1600
+      },
+      {
+        "date": "2026/11/12",
+        "price": 1500
+      },
+      {
+        "date": "2026/11/13",
         "price": 1400
       },
       {
@@ -300374,32 +300372,48 @@
       "mercard": {
         "shopName": "メルカード",
         "latestPrice": 1200,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/93.png",
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/92.png",
         "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "グロリオーサ【パラレル】《黄》",
+        "sourceName": "ヤマト【パラレル】《黒》",
         "history": [
           {
             "date": "2026/10/31",
-            "price": 1300
+            "price": 2500
           },
           {
             "date": "2026/11/01",
-            "price": 1100
+            "price": 2500
           },
           {
             "date": "2026/11/03",
-            "price": 1100
+            "price": 2300
+          },
+          {
+            "date": "2026/11/04",
+            "price": 1800
           },
           {
             "date": "2026/11/05",
-            "price": 1200
+            "price": 2000
+          },
+          {
+            "date": "2026/11/06",
+            "price": 1800
           },
           {
             "date": "2026/11/08",
-            "price": 1100
+            "price": 1700
           },
           {
             "date": "2026/11/10",
+            "price": 1600
+          },
+          {
+            "date": "2026/11/12",
+            "price": 1500
+          },
+          {
+            "date": "2026/11/13",
             "price": 1400
           },
           {
@@ -300416,7 +300430,7 @@
     "bestShopId": "mercard",
     "latestPrice": 1200,
     "aliasKeys": [
-      "グロリオーサ【パラレル】《黄》_パラレル版EB05-052"
+      "ヤマト【パラレル】《黒》_パラレル版EB05-046"
     ]
   },
   {
@@ -305225,6 +305239,94 @@
     "aliasKeys": [
       "スタンダ-ドブラックゴ-ルド_リミテッドカードスリーブ(スタンダードブラックゴールド)※縁黒70枚入り",
       "リミテッドカードスリーブ(スタンダードブラックゴールド)※縁黒 70枚入り_スタンダ-ドブラックゴ-ルド"
+    ]
+  },
+  {
+    "key": "eb05-052@parallel",
+    "name": "グロリオーサ【パラレル】《黄》",
+    "modelNo": "パラレル版EB05-052",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/93.png",
+    "history": [
+      {
+        "date": "2026/10/31",
+        "price": 1300
+      },
+      {
+        "date": "2026/11/01",
+        "price": 1100
+      },
+      {
+        "date": "2026/11/03",
+        "price": 1100
+      },
+      {
+        "date": "2026/11/05",
+        "price": 1200
+      },
+      {
+        "date": "2026/11/08",
+        "price": 1100
+      },
+      {
+        "date": "2026/11/10",
+        "price": 1400
+      },
+      {
+        "date": "2026/11/14",
+        "price": 1300
+      },
+      {
+        "date": "2026/11/15",
+        "price": 1100
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 1100,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/93.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "グロリオーサ【パラレル】《黄》",
+        "history": [
+          {
+            "date": "2026/10/31",
+            "price": 1300
+          },
+          {
+            "date": "2026/11/01",
+            "price": 1100
+          },
+          {
+            "date": "2026/11/03",
+            "price": 1100
+          },
+          {
+            "date": "2026/11/05",
+            "price": 1200
+          },
+          {
+            "date": "2026/11/08",
+            "price": 1100
+          },
+          {
+            "date": "2026/11/10",
+            "price": 1400
+          },
+          {
+            "date": "2026/11/14",
+            "price": 1300
+          },
+          {
+            "date": "2026/11/15",
+            "price": 1100
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 1100,
+    "aliasKeys": [
+      "グロリオーサ【パラレル】《黄》_パラレル版EB05-052"
     ]
   },
   {
@@ -332756,78 +332858,6 @@
     ]
   },
   {
-    "key": "eb05-018@parallel",
-    "name": "レベッカ【パラレル】《緑》",
-    "modelNo": "パラレル版EB05-018",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/86.png",
-    "history": [
-      {
-        "date": "2026/10/31",
-        "price": 600
-      },
-      {
-        "date": "2026/11/03",
-        "price": 500
-      },
-      {
-        "date": "2026/11/05",
-        "price": 700
-      },
-      {
-        "date": "2026/11/10",
-        "price": 600
-      },
-      {
-        "date": "2026/11/12",
-        "price": 700
-      },
-      {
-        "date": "2026/11/13",
-        "price": 900
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 900,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/86.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "レベッカ【パラレル】《緑》",
-        "history": [
-          {
-            "date": "2026/10/31",
-            "price": 600
-          },
-          {
-            "date": "2026/11/03",
-            "price": 500
-          },
-          {
-            "date": "2026/11/05",
-            "price": 700
-          },
-          {
-            "date": "2026/11/10",
-            "price": 600
-          },
-          {
-            "date": "2026/11/12",
-            "price": 700
-          },
-          {
-            "date": "2026/11/13",
-            "price": 900
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 900,
-    "aliasKeys": [
-      "レベッカ【パラレル】《緑》_パラレル版EB05-018"
-    ]
-  },
-  {
     "key": "eb05-021@parallel",
     "name": "アルビダ【パラレル】《青》",
     "modelNo": "パラレル版EB05-021",
@@ -348094,6 +348124,86 @@
     "aliasKeys": [
       "ナミ_リミテッドカードスリーブプレミアムマットvol.2(ナミ)70枚入り",
       "リミテッドカードスリーブ　プレミアムマットvol.2(ナミ)70枚入り_ナミ"
+    ]
+  },
+  {
+    "key": "eb05-018@parallel",
+    "name": "レベッカ【パラレル】《緑》",
+    "modelNo": "パラレル版EB05-018",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/86.png",
+    "history": [
+      {
+        "date": "2026/10/31",
+        "price": 600
+      },
+      {
+        "date": "2026/11/03",
+        "price": 500
+      },
+      {
+        "date": "2026/11/05",
+        "price": 700
+      },
+      {
+        "date": "2026/11/10",
+        "price": 600
+      },
+      {
+        "date": "2026/11/12",
+        "price": 700
+      },
+      {
+        "date": "2026/11/13",
+        "price": 900
+      },
+      {
+        "date": "2026/11/15",
+        "price": 800
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 800,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/86.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "レベッカ【パラレル】《緑》",
+        "history": [
+          {
+            "date": "2026/10/31",
+            "price": 600
+          },
+          {
+            "date": "2026/11/03",
+            "price": 500
+          },
+          {
+            "date": "2026/11/05",
+            "price": 700
+          },
+          {
+            "date": "2026/11/10",
+            "price": 600
+          },
+          {
+            "date": "2026/11/12",
+            "price": 700
+          },
+          {
+            "date": "2026/11/13",
+            "price": 900
+          },
+          {
+            "date": "2026/11/15",
+            "price": 800
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 800,
+    "aliasKeys": [
+      "レベッカ【パラレル】《緑》_パラレル版EB05-018"
     ]
   },
   {
@@ -366236,118 +366346,6 @@
     "latestPrice": 700,
     "aliasKeys": [
       "オフィシャルカードスリーブ リミテッドエディションvol.6（ナミ)70枚入り_ナミ"
-    ]
-  },
-  {
-    "key": "eb05-037@parallel",
-    "name": "ブラックマリア【パラレル】《紫》",
-    "modelNo": "パラレル版EB05-037",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/90.png",
-    "history": [
-      {
-        "date": "2026/10/31",
-        "price": 1500
-      },
-      {
-        "date": "2026/11/01",
-        "price": 1300
-      },
-      {
-        "date": "2026/11/02",
-        "price": 1400
-      },
-      {
-        "date": "2026/11/03",
-        "price": 1300
-      },
-      {
-        "date": "2026/11/04",
-        "price": 1200
-      },
-      {
-        "date": "2026/11/05",
-        "price": 1100
-      },
-      {
-        "date": "2026/11/06",
-        "price": 1000
-      },
-      {
-        "date": "2026/11/08",
-        "price": 800
-      },
-      {
-        "date": "2026/11/13",
-        "price": 900
-      },
-      {
-        "date": "2026/11/14",
-        "price": 800
-      },
-      {
-        "date": "2026/11/15",
-        "price": 700
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 700,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/90.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "ブラックマリア【パラレル】《紫》",
-        "history": [
-          {
-            "date": "2026/10/31",
-            "price": 1500
-          },
-          {
-            "date": "2026/11/01",
-            "price": 1300
-          },
-          {
-            "date": "2026/11/02",
-            "price": 1400
-          },
-          {
-            "date": "2026/11/03",
-            "price": 1300
-          },
-          {
-            "date": "2026/11/04",
-            "price": 1200
-          },
-          {
-            "date": "2026/11/05",
-            "price": 1100
-          },
-          {
-            "date": "2026/11/06",
-            "price": 1000
-          },
-          {
-            "date": "2026/11/08",
-            "price": 800
-          },
-          {
-            "date": "2026/11/13",
-            "price": 900
-          },
-          {
-            "date": "2026/11/14",
-            "price": 800
-          },
-          {
-            "date": "2026/11/15",
-            "price": 700
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 700,
-    "aliasKeys": [
-      "ブラックマリア【パラレル】《紫》_パラレル版EB05-037"
     ]
   },
   {
@@ -387013,6 +387011,118 @@
     "aliasKeys": [
       "パラレル加工版p-055『prb01』_モンキー・d・ルフィ【パラレル加工版】《青》",
       "モンキー・D・ルフィ【パラレル加工版】《青》_パラレル加工版P-055『PRB01』"
+    ]
+  },
+  {
+    "key": "eb05-037@parallel",
+    "name": "ブラックマリア【パラレル】《紫》",
+    "modelNo": "パラレル版EB05-037",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/90.png",
+    "history": [
+      {
+        "date": "2026/10/31",
+        "price": 1500
+      },
+      {
+        "date": "2026/11/01",
+        "price": 1300
+      },
+      {
+        "date": "2026/11/02",
+        "price": 1400
+      },
+      {
+        "date": "2026/11/03",
+        "price": 1300
+      },
+      {
+        "date": "2026/11/04",
+        "price": 1200
+      },
+      {
+        "date": "2026/11/05",
+        "price": 1100
+      },
+      {
+        "date": "2026/11/06",
+        "price": 1000
+      },
+      {
+        "date": "2026/11/08",
+        "price": 800
+      },
+      {
+        "date": "2026/11/13",
+        "price": 900
+      },
+      {
+        "date": "2026/11/14",
+        "price": 800
+      },
+      {
+        "date": "2026/11/15",
+        "price": 600
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 600,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/90.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "ブラックマリア【パラレル】《紫》",
+        "history": [
+          {
+            "date": "2026/10/31",
+            "price": 1500
+          },
+          {
+            "date": "2026/11/01",
+            "price": 1300
+          },
+          {
+            "date": "2026/11/02",
+            "price": 1400
+          },
+          {
+            "date": "2026/11/03",
+            "price": 1300
+          },
+          {
+            "date": "2026/11/04",
+            "price": 1200
+          },
+          {
+            "date": "2026/11/05",
+            "price": 1100
+          },
+          {
+            "date": "2026/11/06",
+            "price": 1000
+          },
+          {
+            "date": "2026/11/08",
+            "price": 800
+          },
+          {
+            "date": "2026/11/13",
+            "price": 900
+          },
+          {
+            "date": "2026/11/14",
+            "price": 800
+          },
+          {
+            "date": "2026/11/15",
+            "price": 600
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 600,
+    "aliasKeys": [
+      "ブラックマリア【パラレル】《紫》_パラレル版EB05-037"
     ]
   },
   {
@@ -411765,86 +411875,6 @@
     ]
   },
   {
-    "key": "eb05-034@parallel",
-    "name": "シュガー【パラレル】《紫》",
-    "modelNo": "パラレル版EB05-034",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/89.png",
-    "history": [
-      {
-        "date": "2026/10/31",
-        "price": 700
-      },
-      {
-        "date": "2026/11/01",
-        "price": 600
-      },
-      {
-        "date": "2026/11/04",
-        "price": 500
-      },
-      {
-        "date": "2026/11/07",
-        "price": 600
-      },
-      {
-        "date": "2026/11/10",
-        "price": 700
-      },
-      {
-        "date": "2026/11/13",
-        "price": 600
-      },
-      {
-        "date": "2026/11/14",
-        "price": 500
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 500,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/89.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "シュガー【パラレル】《紫》",
-        "history": [
-          {
-            "date": "2026/10/31",
-            "price": 700
-          },
-          {
-            "date": "2026/11/01",
-            "price": 600
-          },
-          {
-            "date": "2026/11/04",
-            "price": 500
-          },
-          {
-            "date": "2026/11/07",
-            "price": 600
-          },
-          {
-            "date": "2026/11/10",
-            "price": 700
-          },
-          {
-            "date": "2026/11/13",
-            "price": 600
-          },
-          {
-            "date": "2026/11/14",
-            "price": 500
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 500,
-    "aliasKeys": [
-      "シュガー【パラレル】《紫》_パラレル版EB05-034"
-    ]
-  },
-  {
     "key": "op02-068@parallel+prb01+prb02",
     "name": "ゴムゴムの雨【PRBパラレル】《青》",
     "modelNo": "パラレル版OP02-068『PRB02』",
@@ -430653,6 +430683,94 @@
     "latestPrice": 400,
     "aliasKeys": [
       "ベビー5【パラレル】《赤》_パラレル版EB05-004"
+    ]
+  },
+  {
+    "key": "eb05-034@parallel",
+    "name": "シュガー【パラレル】《紫》",
+    "modelNo": "パラレル版EB05-034",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/89.png",
+    "history": [
+      {
+        "date": "2026/10/31",
+        "price": 700
+      },
+      {
+        "date": "2026/11/01",
+        "price": 600
+      },
+      {
+        "date": "2026/11/04",
+        "price": 500
+      },
+      {
+        "date": "2026/11/07",
+        "price": 600
+      },
+      {
+        "date": "2026/11/10",
+        "price": 700
+      },
+      {
+        "date": "2026/11/13",
+        "price": 600
+      },
+      {
+        "date": "2026/11/14",
+        "price": 500
+      },
+      {
+        "date": "2026/11/15",
+        "price": 400
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 400,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/89.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "シュガー【パラレル】《紫》",
+        "history": [
+          {
+            "date": "2026/10/31",
+            "price": 700
+          },
+          {
+            "date": "2026/11/01",
+            "price": 600
+          },
+          {
+            "date": "2026/11/04",
+            "price": 500
+          },
+          {
+            "date": "2026/11/07",
+            "price": 600
+          },
+          {
+            "date": "2026/11/10",
+            "price": 700
+          },
+          {
+            "date": "2026/11/13",
+            "price": 600
+          },
+          {
+            "date": "2026/11/14",
+            "price": 500
+          },
+          {
+            "date": "2026/11/15",
+            "price": 400
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 400,
+    "aliasKeys": [
+      "シュガー【パラレル】《紫》_パラレル版EB05-034"
     ]
   },
   {
@@ -476004,6 +476122,184 @@
     ]
   },
   {
+    "key": "op10-095@parallel+prb01+prb02",
+    "name": "ロロノア・ゾロ【PRBパラレル】《黒》",
+    "modelNo": "パラレル版OP10-095『PRB02』",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/PRB02/OP10-095_p1.png",
+    "history": [
+      {
+        "date": "2025/10/06",
+        "price": 100
+      },
+      {
+        "date": "2025/11/15",
+        "price": 100
+      },
+      {
+        "date": "2025/12/16",
+        "price": 100
+      },
+      {
+        "date": "2026/01/26",
+        "price": 200
+      },
+      {
+        "date": "2026/02/23",
+        "price": 200
+      },
+      {
+        "date": "2026/03/02",
+        "price": 200
+      },
+      {
+        "date": "2026/04/10",
+        "price": 300
+      },
+      {
+        "date": "2026/04/11",
+        "price": 400
+      },
+      {
+        "date": "2026/05/03",
+        "price": 400
+      },
+      {
+        "date": "2026/05/14",
+        "price": 400
+      },
+      {
+        "date": "2026/06/01",
+        "price": 500
+      },
+      {
+        "date": "2026/06/12",
+        "price": 700
+      },
+      {
+        "date": "2026/06/21",
+        "price": 600
+      },
+      {
+        "date": "2026/07/28",
+        "price": 500
+      },
+      {
+        "date": "2026/08/02",
+        "price": 400
+      },
+      {
+        "date": "2026/08/13",
+        "price": 350
+      },
+      {
+        "date": "2026/09/19",
+        "price": 300
+      },
+      {
+        "date": "2026/10/22",
+        "price": 250
+      },
+      {
+        "date": "2026/11/15",
+        "price": 300
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 300,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/PRB02/OP10-095_p1.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "ロロノア・ゾロ【PRBパラレル】《黒》",
+        "history": [
+          {
+            "date": "2025/10/06",
+            "price": 100
+          },
+          {
+            "date": "2025/11/15",
+            "price": 100
+          },
+          {
+            "date": "2025/12/16",
+            "price": 100
+          },
+          {
+            "date": "2026/01/26",
+            "price": 200
+          },
+          {
+            "date": "2026/02/23",
+            "price": 200
+          },
+          {
+            "date": "2026/03/02",
+            "price": 200
+          },
+          {
+            "date": "2026/04/10",
+            "price": 300
+          },
+          {
+            "date": "2026/04/11",
+            "price": 400
+          },
+          {
+            "date": "2026/05/03",
+            "price": 400
+          },
+          {
+            "date": "2026/05/14",
+            "price": 400
+          },
+          {
+            "date": "2026/06/01",
+            "price": 500
+          },
+          {
+            "date": "2026/06/12",
+            "price": 700
+          },
+          {
+            "date": "2026/06/21",
+            "price": 600
+          },
+          {
+            "date": "2026/07/28",
+            "price": 500
+          },
+          {
+            "date": "2026/08/02",
+            "price": 400
+          },
+          {
+            "date": "2026/08/13",
+            "price": 350
+          },
+          {
+            "date": "2026/09/19",
+            "price": 300
+          },
+          {
+            "date": "2026/10/22",
+            "price": 250
+          },
+          {
+            "date": "2026/11/15",
+            "price": 300
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 300,
+    "aliasKeys": [
+      "パラレル版op10-095『prb02』_ロロノア・ゾロ【prbパラレル】《黒》",
+      "ロロノア・ゾロ【PRBパラレル】《黒》_パラレル版OP10-095『PRB02』",
+      "op10-095@parallel+prb+prb02"
+    ]
+  },
+  {
     "key": "op17-031@parallel",
     "name": "ヤソップ【パラレル】《緑》",
     "modelNo": "パラレル版OP17-031",
@@ -492467,6 +492763,357 @@
     ]
   },
   {
+    "key": "op06-118",
+    "name": "ロロノア・ゾロ",
+    "modelNo": "OP06-118",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20231119_f423c4.png",
+    "history": [
+      {
+        "date": "2024/05/22",
+        "price": 1800
+      },
+      {
+        "date": "2024/06/07",
+        "price": 1800
+      },
+      {
+        "date": "2024/07/19",
+        "price": 1700
+      },
+      {
+        "date": "2024/11/01",
+        "price": 1800
+      },
+      {
+        "date": "2024/12/30",
+        "price": 1800
+      },
+      {
+        "date": "2025/02/14",
+        "price": 1800
+      },
+      {
+        "date": "2025/03/10",
+        "price": 1500
+      },
+      {
+        "date": "2025/04/29",
+        "price": 1500
+      },
+      {
+        "date": "2025/06/10",
+        "price": 200
+      },
+      {
+        "date": "2025/07/25",
+        "price": 100
+      },
+      {
+        "date": "2025/10/06",
+        "price": 400
+      },
+      {
+        "date": "2025/11/15",
+        "price": 500
+      },
+      {
+        "date": "2025/12/16",
+        "price": 200
+      },
+      {
+        "date": "2026/01/26",
+        "price": 150
+      },
+      {
+        "date": "2026/02/23",
+        "price": 150
+      },
+      {
+        "date": "2026/03/02",
+        "price": 150
+      },
+      {
+        "date": "2026/04/10",
+        "price": 400
+      },
+      {
+        "date": "2026/05/03",
+        "price": 400
+      },
+      {
+        "date": "2026/05/14",
+        "price": 400
+      },
+      {
+        "date": "2026/05/24",
+        "price": 500
+      },
+      {
+        "date": "2026/05/26",
+        "price": 400
+      },
+      {
+        "date": "2026/06/03",
+        "price": 500
+      },
+      {
+        "date": "2026/06/05",
+        "price": 600
+      },
+      {
+        "date": "2026/06/11",
+        "price": 500
+      },
+      {
+        "date": "2026/06/14",
+        "price": 600
+      },
+      {
+        "date": "2026/06/21",
+        "price": 500
+      },
+      {
+        "date": "2026/06/25",
+        "price": 400
+      },
+      {
+        "date": "2026/06/26",
+        "price": 300
+      },
+      {
+        "date": "2026/07/18",
+        "price": 400
+      },
+      {
+        "date": "2026/07/19",
+        "price": 700
+      },
+      {
+        "date": "2026/07/31",
+        "price": 400
+      },
+      {
+        "date": "2026/08/02",
+        "price": 300
+      },
+      {
+        "date": "2026/08/16",
+        "price": 250
+      },
+      {
+        "date": "2026/09/19",
+        "price": 100
+      },
+      {
+        "date": "2026/10/17",
+        "price": 100
+      },
+      {
+        "date": "2026/11/15",
+        "price": 250
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 250,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20231119_f423c4.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "ロロノア・ゾロ【SEC】《緑》",
+        "history": [
+          {
+            "date": "2024/05/22",
+            "price": 1800
+          },
+          {
+            "date": "2024/06/07",
+            "price": 1800
+          },
+          {
+            "date": "2024/07/19",
+            "price": 1700
+          },
+          {
+            "date": "2024/11/01",
+            "price": 1800
+          },
+          {
+            "date": "2024/12/30",
+            "price": 1800
+          },
+          {
+            "date": "2025/02/14",
+            "price": 1800
+          },
+          {
+            "date": "2025/03/10",
+            "price": 1500
+          },
+          {
+            "date": "2025/04/29",
+            "price": 1500
+          },
+          {
+            "date": "2025/06/10",
+            "price": 200
+          },
+          {
+            "date": "2025/07/25",
+            "price": 100
+          },
+          {
+            "date": "2025/10/06",
+            "price": 400
+          },
+          {
+            "date": "2025/11/15",
+            "price": 500
+          },
+          {
+            "date": "2025/12/16",
+            "price": 200
+          },
+          {
+            "date": "2026/01/26",
+            "price": 150
+          },
+          {
+            "date": "2026/02/23",
+            "price": 150
+          },
+          {
+            "date": "2026/03/02",
+            "price": 150
+          },
+          {
+            "date": "2026/04/10",
+            "price": 400
+          },
+          {
+            "date": "2026/05/03",
+            "price": 400
+          },
+          {
+            "date": "2026/05/14",
+            "price": 400
+          },
+          {
+            "date": "2026/05/24",
+            "price": 500
+          },
+          {
+            "date": "2026/06/05",
+            "price": 600
+          },
+          {
+            "date": "2026/06/11",
+            "price": 500
+          },
+          {
+            "date": "2026/06/14",
+            "price": 600
+          },
+          {
+            "date": "2026/06/21",
+            "price": 500
+          },
+          {
+            "date": "2026/06/25",
+            "price": 400
+          },
+          {
+            "date": "2026/06/26",
+            "price": 300
+          },
+          {
+            "date": "2026/07/18",
+            "price": 400
+          },
+          {
+            "date": "2026/07/19",
+            "price": 700
+          },
+          {
+            "date": "2026/07/31",
+            "price": 400
+          },
+          {
+            "date": "2026/08/02",
+            "price": 300
+          },
+          {
+            "date": "2026/08/16",
+            "price": 250
+          },
+          {
+            "date": "2026/09/19",
+            "price": 100
+          },
+          {
+            "date": "2026/11/15",
+            "price": 250
+          }
+        ]
+      },
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 600,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/2406.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "sourceName": "ロロノア・ゾロ",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 300
+          },
+          {
+            "date": "2026/05/26",
+            "price": 400
+          },
+          {
+            "date": "2026/06/03",
+            "price": 500
+          },
+          {
+            "date": "2026/06/14",
+            "price": 600
+          }
+        ]
+      },
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 100,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP06-118.jpeg",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "sourceName": "ロロノア・ゾロ 【シークレット】【緑】【OP06-118】",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 300
+          },
+          {
+            "date": "2026/06/28",
+            "price": 500
+          },
+          {
+            "date": "2026/09/19",
+            "price": 100
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 250,
+    "aliasKeys": [
+      "op06-118_ロロノア・ゾロ【sec】《緑》",
+      "ロロノア・ゾロ【SEC】《緑》_OP06-118",
+      "op06-118_ロロノア・ゾロ",
+      "ロロノア・ゾロ_OP06-118",
+      "op06-118_ロロノア・ゾロ【シークレット】【緑】【op06-118】",
+      "ロロノア・ゾロ 【シークレット】【緑】【OP06-118】_OP06-118"
+    ]
+  },
+  {
     "key": "op07-047@parallel",
     "name": "トラファルガー・ロー【パラレル】《青》",
     "modelNo": "OP07-047",
@@ -504756,176 +505403,6 @@
       "リューマ【PRBパラレル】《緑》_パラレル版OP06-036『PRB01』",
       "op06-036@parallel+prb+prb01",
       "リューマ【パラレル加工版】《緑》_パラレル加工版OP06-036『PRB01』"
-    ]
-  },
-  {
-    "key": "op10-095@parallel+prb01+prb02",
-    "name": "ロロノア・ゾロ【PRBパラレル】《黒》",
-    "modelNo": "パラレル版OP10-095『PRB02』",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/PRB02/OP10-095_p1.png",
-    "history": [
-      {
-        "date": "2025/10/06",
-        "price": 100
-      },
-      {
-        "date": "2025/11/15",
-        "price": 100
-      },
-      {
-        "date": "2025/12/16",
-        "price": 100
-      },
-      {
-        "date": "2026/01/26",
-        "price": 200
-      },
-      {
-        "date": "2026/02/23",
-        "price": 200
-      },
-      {
-        "date": "2026/03/02",
-        "price": 200
-      },
-      {
-        "date": "2026/04/10",
-        "price": 300
-      },
-      {
-        "date": "2026/04/11",
-        "price": 400
-      },
-      {
-        "date": "2026/05/03",
-        "price": 400
-      },
-      {
-        "date": "2026/05/14",
-        "price": 400
-      },
-      {
-        "date": "2026/06/01",
-        "price": 500
-      },
-      {
-        "date": "2026/06/12",
-        "price": 700
-      },
-      {
-        "date": "2026/06/21",
-        "price": 600
-      },
-      {
-        "date": "2026/07/28",
-        "price": 500
-      },
-      {
-        "date": "2026/08/02",
-        "price": 400
-      },
-      {
-        "date": "2026/08/13",
-        "price": 350
-      },
-      {
-        "date": "2026/09/19",
-        "price": 300
-      },
-      {
-        "date": "2026/10/22",
-        "price": 250
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 250,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/PRB02/OP10-095_p1.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "ロロノア・ゾロ【PRBパラレル】《黒》",
-        "history": [
-          {
-            "date": "2025/10/06",
-            "price": 100
-          },
-          {
-            "date": "2025/11/15",
-            "price": 100
-          },
-          {
-            "date": "2025/12/16",
-            "price": 100
-          },
-          {
-            "date": "2026/01/26",
-            "price": 200
-          },
-          {
-            "date": "2026/02/23",
-            "price": 200
-          },
-          {
-            "date": "2026/03/02",
-            "price": 200
-          },
-          {
-            "date": "2026/04/10",
-            "price": 300
-          },
-          {
-            "date": "2026/04/11",
-            "price": 400
-          },
-          {
-            "date": "2026/05/03",
-            "price": 400
-          },
-          {
-            "date": "2026/05/14",
-            "price": 400
-          },
-          {
-            "date": "2026/06/01",
-            "price": 500
-          },
-          {
-            "date": "2026/06/12",
-            "price": 700
-          },
-          {
-            "date": "2026/06/21",
-            "price": 600
-          },
-          {
-            "date": "2026/07/28",
-            "price": 500
-          },
-          {
-            "date": "2026/08/02",
-            "price": 400
-          },
-          {
-            "date": "2026/08/13",
-            "price": 350
-          },
-          {
-            "date": "2026/09/19",
-            "price": 300
-          },
-          {
-            "date": "2026/10/22",
-            "price": 250
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 250,
-    "aliasKeys": [
-      "パラレル版op10-095『prb02』_ロロノア・ゾロ【prbパラレル】《黒》",
-      "ロロノア・ゾロ【PRBパラレル】《黒》_パラレル版OP10-095『PRB02』",
-      "op10-095@parallel+prb+prb02"
     ]
   },
   {
@@ -542241,6 +542718,405 @@
     ]
   },
   {
+    "key": "eb02-061",
+    "name": "モンキー・Ｄ・ルフィ",
+    "modelNo": "EB02-061",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB02/61.png",
+    "history": [
+      {
+        "date": "2025/03/10",
+        "price": 2500
+      },
+      {
+        "date": "2025/04/29",
+        "price": 2500
+      },
+      {
+        "date": "2025/06/10",
+        "price": 800
+      },
+      {
+        "date": "2025/07/25",
+        "price": 400
+      },
+      {
+        "date": "2025/10/06",
+        "price": 100
+      },
+      {
+        "date": "2025/11/15",
+        "price": 150
+      },
+      {
+        "date": "2025/12/16",
+        "price": 100
+      },
+      {
+        "date": "2026/01/26",
+        "price": 100
+      },
+      {
+        "date": "2026/02/23",
+        "price": 100
+      },
+      {
+        "date": "2026/03/02",
+        "price": 100
+      },
+      {
+        "date": "2026/04/10",
+        "price": 400
+      },
+      {
+        "date": "2026/04/24",
+        "price": 350
+      },
+      {
+        "date": "2026/05/03",
+        "price": 300
+      },
+      {
+        "date": "2026/05/08",
+        "price": 400
+      },
+      {
+        "date": "2026/05/09",
+        "price": 500
+      },
+      {
+        "date": "2026/05/14",
+        "price": 500
+      },
+      {
+        "date": "2026/05/17",
+        "price": 600
+      },
+      {
+        "date": "2026/05/19",
+        "price": 500
+      },
+      {
+        "date": "2026/05/20",
+        "price": 800
+      },
+      {
+        "date": "2026/05/24",
+        "price": 900
+      },
+      {
+        "date": "2026/05/26",
+        "price": 700
+      },
+      {
+        "date": "2026/05/31",
+        "price": 1000
+      },
+      {
+        "date": "2026/06/02",
+        "price": 800
+      },
+      {
+        "date": "2026/06/07",
+        "price": 1000
+      },
+      {
+        "date": "2026/06/08",
+        "price": 1000
+      },
+      {
+        "date": "2026/06/14",
+        "price": 800
+      },
+      {
+        "date": "2026/06/18",
+        "price": 800
+      },
+      {
+        "date": "2026/06/20",
+        "price": 700
+      },
+      {
+        "date": "2026/06/21",
+        "price": 500
+      },
+      {
+        "date": "2026/06/24",
+        "price": 400
+      },
+      {
+        "date": "2026/06/29",
+        "price": 300
+      },
+      {
+        "date": "2026/07/07",
+        "price": 400
+      },
+      {
+        "date": "2026/07/08",
+        "price": 400
+      },
+      {
+        "date": "2026/07/13",
+        "price": 600
+      },
+      {
+        "date": "2026/07/15",
+        "price": 300
+      },
+      {
+        "date": "2026/07/22",
+        "price": 200
+      },
+      {
+        "date": "2026/08/02",
+        "price": 200
+      },
+      {
+        "date": "2026/08/13",
+        "price": 150
+      },
+      {
+        "date": "2026/09/19",
+        "price": 100
+      },
+      {
+        "date": "2026/10/17",
+        "price": 200
+      },
+      {
+        "date": "2026/10/28",
+        "price": 100
+      },
+      {
+        "date": "2026/11/15",
+        "price": 150
+      }
+    ],
+    "pricesByShop": {
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 600,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/7125.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "sourceName": "モンキー・Ｄ・ルフィ",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 600
+          },
+          {
+            "date": "2026/05/26",
+            "price": 800
+          },
+          {
+            "date": "2026/06/07",
+            "price": 1000
+          },
+          {
+            "date": "2026/06/08",
+            "price": 1200
+          },
+          {
+            "date": "2026/06/18",
+            "price": 800
+          },
+          {
+            "date": "2026/06/29",
+            "price": 500
+          },
+          {
+            "date": "2026/07/13",
+            "price": 600
+          }
+        ]
+      },
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 150,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB02/61.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "モンキー・D・ルフィ【SEC】《紫》",
+        "history": [
+          {
+            "date": "2025/03/10",
+            "price": 2500
+          },
+          {
+            "date": "2025/04/29",
+            "price": 2500
+          },
+          {
+            "date": "2025/06/10",
+            "price": 800
+          },
+          {
+            "date": "2025/07/25",
+            "price": 400
+          },
+          {
+            "date": "2025/10/06",
+            "price": 100
+          },
+          {
+            "date": "2025/11/15",
+            "price": 150
+          },
+          {
+            "date": "2025/12/16",
+            "price": 100
+          },
+          {
+            "date": "2026/01/26",
+            "price": 100
+          },
+          {
+            "date": "2026/02/23",
+            "price": 100
+          },
+          {
+            "date": "2026/03/02",
+            "price": 100
+          },
+          {
+            "date": "2026/04/10",
+            "price": 400
+          },
+          {
+            "date": "2026/04/24",
+            "price": 350
+          },
+          {
+            "date": "2026/05/03",
+            "price": 300
+          },
+          {
+            "date": "2026/05/08",
+            "price": 400
+          },
+          {
+            "date": "2026/05/09",
+            "price": 500
+          },
+          {
+            "date": "2026/05/14",
+            "price": 500
+          },
+          {
+            "date": "2026/05/17",
+            "price": 600
+          },
+          {
+            "date": "2026/05/20",
+            "price": 800
+          },
+          {
+            "date": "2026/05/24",
+            "price": 900
+          },
+          {
+            "date": "2026/05/26",
+            "price": 700
+          },
+          {
+            "date": "2026/06/02",
+            "price": 800
+          },
+          {
+            "date": "2026/06/08",
+            "price": 1000
+          },
+          {
+            "date": "2026/06/14",
+            "price": 800
+          },
+          {
+            "date": "2026/06/20",
+            "price": 700
+          },
+          {
+            "date": "2026/06/21",
+            "price": 500
+          },
+          {
+            "date": "2026/06/24",
+            "price": 400
+          },
+          {
+            "date": "2026/06/29",
+            "price": 300
+          },
+          {
+            "date": "2026/07/08",
+            "price": 400
+          },
+          {
+            "date": "2026/07/15",
+            "price": 300
+          },
+          {
+            "date": "2026/07/22",
+            "price": 200
+          },
+          {
+            "date": "2026/08/13",
+            "price": 150
+          },
+          {
+            "date": "2026/09/19",
+            "price": 100
+          },
+          {
+            "date": "2026/11/15",
+            "price": 150
+          }
+        ]
+      },
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 200,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB02-061.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "sourceName": "モンキー・D・ルフィ 【シークレット】【紫】【EB02-061】",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 600
+          },
+          {
+            "date": "2026/05/19",
+            "price": 500
+          },
+          {
+            "date": "2026/05/31",
+            "price": 1000
+          },
+          {
+            "date": "2026/06/02",
+            "price": 700
+          },
+          {
+            "date": "2026/07/07",
+            "price": 400
+          },
+          {
+            "date": "2026/08/02",
+            "price": 200
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 150,
+    "aliasKeys": [
+      "eb02-061_モンキー・ｄ・ルフィ",
+      "モンキー・Ｄ・ルフィ_EB02-061",
+      "eb02-061_モンキー・d・ルフィ【sec】《紫》",
+      "モンキー・D・ルフィ【SEC】《紫》_EB02-061",
+      "eb02-061_モンキー・d・ルフィ【シークレット】【紫】【eb02-061】",
+      "モンキー・D・ルフィ 【シークレット】【紫】【EB02-061】_EB02-061"
+    ]
+  },
+  {
     "key": "eb03-024",
     "name": "ネフェルタリ・ビビ",
     "modelNo": "EB03-024",
@@ -573347,6 +574223,303 @@
     ]
   },
   {
+    "key": "op13-037@promo+ベストセレクションvol6",
+    "name": "ロロノア・ゾロ【プロモ】《緑》",
+    "modelNo": "ベストセレクションvol.6 OP13-037",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260313_af0c3c.png",
+    "history": [
+      {
+        "date": "2026/04/10",
+        "price": 800
+      },
+      {
+        "date": "2026/04/17",
+        "price": 700
+      },
+      {
+        "date": "2026/04/24",
+        "price": 800
+      },
+      {
+        "date": "2026/05/03",
+        "price": 1000
+      },
+      {
+        "date": "2026/05/13",
+        "price": 1200
+      },
+      {
+        "date": "2026/05/14",
+        "price": 1200
+      },
+      {
+        "date": "2026/06/01",
+        "price": 1700
+      },
+      {
+        "date": "2026/06/02",
+        "price": 2000
+      },
+      {
+        "date": "2026/06/09",
+        "price": 2500
+      },
+      {
+        "date": "2026/06/22",
+        "price": 3000
+      },
+      {
+        "date": "2026/06/24",
+        "price": 2500
+      },
+      {
+        "date": "2026/07/04",
+        "price": 2800
+      },
+      {
+        "date": "2026/07/10",
+        "price": 3000
+      },
+      {
+        "date": "2026/07/11",
+        "price": 3500
+      },
+      {
+        "date": "2026/07/14",
+        "price": 3800
+      },
+      {
+        "date": "2026/07/27",
+        "price": 3000
+      },
+      {
+        "date": "2026/08/01",
+        "price": 2500
+      },
+      {
+        "date": "2026/08/06",
+        "price": 2000
+      },
+      {
+        "date": "2026/08/09",
+        "price": 1700
+      },
+      {
+        "date": "2026/08/12",
+        "price": 1500
+      },
+      {
+        "date": "2026/09/19",
+        "price": 800
+      },
+      {
+        "date": "2026/09/20",
+        "price": 700
+      },
+      {
+        "date": "2026/09/24",
+        "price": 500
+      },
+      {
+        "date": "2026/09/25",
+        "price": 400
+      },
+      {
+        "date": "2026/09/27",
+        "price": 200
+      },
+      {
+        "date": "2026/09/28",
+        "price": 300
+      },
+      {
+        "date": "2026/10/13",
+        "price": 250
+      },
+      {
+        "date": "2026/10/15",
+        "price": 200
+      },
+      {
+        "date": "2026/10/26",
+        "price": 150
+      },
+      {
+        "date": "2026/11/03",
+        "price": 100
+      },
+      {
+        "date": "2026/11/06",
+        "price": 50
+      },
+      {
+        "date": "2026/11/08",
+        "price": 50
+      },
+      {
+        "date": "2026/11/14",
+        "price": 100
+      },
+      {
+        "date": "2026/11/15",
+        "price": 150
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 150,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260313_af0c3c.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "ロロノア・ゾロ【プロモ】《緑》",
+        "history": [
+          {
+            "date": "2026/04/10",
+            "price": 800
+          },
+          {
+            "date": "2026/04/17",
+            "price": 700
+          },
+          {
+            "date": "2026/04/24",
+            "price": 800
+          },
+          {
+            "date": "2026/05/03",
+            "price": 1000
+          },
+          {
+            "date": "2026/05/13",
+            "price": 1200
+          },
+          {
+            "date": "2026/05/14",
+            "price": 1200
+          },
+          {
+            "date": "2026/06/01",
+            "price": 1700
+          },
+          {
+            "date": "2026/06/02",
+            "price": 2000
+          },
+          {
+            "date": "2026/06/09",
+            "price": 2500
+          },
+          {
+            "date": "2026/06/22",
+            "price": 3000
+          },
+          {
+            "date": "2026/06/24",
+            "price": 2500
+          },
+          {
+            "date": "2026/07/04",
+            "price": 2800
+          },
+          {
+            "date": "2026/07/10",
+            "price": 3000
+          },
+          {
+            "date": "2026/07/11",
+            "price": 3500
+          },
+          {
+            "date": "2026/07/14",
+            "price": 3800
+          },
+          {
+            "date": "2026/07/27",
+            "price": 3000
+          },
+          {
+            "date": "2026/08/01",
+            "price": 2500
+          },
+          {
+            "date": "2026/08/06",
+            "price": 2000
+          },
+          {
+            "date": "2026/08/09",
+            "price": 1700
+          },
+          {
+            "date": "2026/08/12",
+            "price": 1500
+          },
+          {
+            "date": "2026/09/19",
+            "price": 800
+          },
+          {
+            "date": "2026/09/20",
+            "price": 700
+          },
+          {
+            "date": "2026/09/24",
+            "price": 500
+          },
+          {
+            "date": "2026/09/25",
+            "price": 400
+          },
+          {
+            "date": "2026/09/27",
+            "price": 200
+          },
+          {
+            "date": "2026/09/28",
+            "price": 300
+          },
+          {
+            "date": "2026/10/13",
+            "price": 250
+          },
+          {
+            "date": "2026/10/15",
+            "price": 200
+          },
+          {
+            "date": "2026/10/26",
+            "price": 150
+          },
+          {
+            "date": "2026/11/03",
+            "price": 100
+          },
+          {
+            "date": "2026/11/06",
+            "price": 50
+          },
+          {
+            "date": "2026/11/08",
+            "price": 50
+          },
+          {
+            "date": "2026/11/14",
+            "price": 100
+          },
+          {
+            "date": "2026/11/15",
+            "price": 150
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 150,
+    "aliasKeys": [
+      "ベストセレクションvol.6op13-037_ロロノア・ゾロ【プロモ】《緑》",
+      "ロロノア・ゾロ【プロモ】《緑》_ベストセレクションvol.6 OP13-037"
+    ]
+  },
+  {
     "key": "name:オフィシャルスリブ@anniv2+set+モンキdルフィ",
     "name": "オフィシャルスリーブ【2nd ANNIVERSARY SET】",
     "modelNo": "モンキ-・D・ルフィ",
@@ -579045,397 +580218,6 @@
     ]
   },
   {
-    "key": "eb02-061",
-    "name": "モンキー・Ｄ・ルフィ",
-    "modelNo": "EB02-061",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB02/61.png",
-    "history": [
-      {
-        "date": "2025/03/10",
-        "price": 2500
-      },
-      {
-        "date": "2025/04/29",
-        "price": 2500
-      },
-      {
-        "date": "2025/06/10",
-        "price": 800
-      },
-      {
-        "date": "2025/07/25",
-        "price": 400
-      },
-      {
-        "date": "2025/10/06",
-        "price": 100
-      },
-      {
-        "date": "2025/11/15",
-        "price": 150
-      },
-      {
-        "date": "2025/12/16",
-        "price": 100
-      },
-      {
-        "date": "2026/01/26",
-        "price": 100
-      },
-      {
-        "date": "2026/02/23",
-        "price": 100
-      },
-      {
-        "date": "2026/03/02",
-        "price": 100
-      },
-      {
-        "date": "2026/04/10",
-        "price": 400
-      },
-      {
-        "date": "2026/04/24",
-        "price": 350
-      },
-      {
-        "date": "2026/05/03",
-        "price": 300
-      },
-      {
-        "date": "2026/05/08",
-        "price": 400
-      },
-      {
-        "date": "2026/05/09",
-        "price": 500
-      },
-      {
-        "date": "2026/05/14",
-        "price": 500
-      },
-      {
-        "date": "2026/05/17",
-        "price": 600
-      },
-      {
-        "date": "2026/05/19",
-        "price": 500
-      },
-      {
-        "date": "2026/05/20",
-        "price": 800
-      },
-      {
-        "date": "2026/05/24",
-        "price": 900
-      },
-      {
-        "date": "2026/05/26",
-        "price": 700
-      },
-      {
-        "date": "2026/05/31",
-        "price": 1000
-      },
-      {
-        "date": "2026/06/02",
-        "price": 800
-      },
-      {
-        "date": "2026/06/07",
-        "price": 1000
-      },
-      {
-        "date": "2026/06/08",
-        "price": 1000
-      },
-      {
-        "date": "2026/06/14",
-        "price": 800
-      },
-      {
-        "date": "2026/06/18",
-        "price": 800
-      },
-      {
-        "date": "2026/06/20",
-        "price": 700
-      },
-      {
-        "date": "2026/06/21",
-        "price": 500
-      },
-      {
-        "date": "2026/06/24",
-        "price": 400
-      },
-      {
-        "date": "2026/06/29",
-        "price": 300
-      },
-      {
-        "date": "2026/07/07",
-        "price": 400
-      },
-      {
-        "date": "2026/07/08",
-        "price": 400
-      },
-      {
-        "date": "2026/07/13",
-        "price": 600
-      },
-      {
-        "date": "2026/07/15",
-        "price": 300
-      },
-      {
-        "date": "2026/07/22",
-        "price": 200
-      },
-      {
-        "date": "2026/08/02",
-        "price": 200
-      },
-      {
-        "date": "2026/08/13",
-        "price": 150
-      },
-      {
-        "date": "2026/09/19",
-        "price": 100
-      },
-      {
-        "date": "2026/10/17",
-        "price": 200
-      },
-      {
-        "date": "2026/10/28",
-        "price": 100
-      }
-    ],
-    "pricesByShop": {
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 600,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/7125.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
-        "sourceName": "モンキー・Ｄ・ルフィ",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 600
-          },
-          {
-            "date": "2026/05/26",
-            "price": 800
-          },
-          {
-            "date": "2026/06/07",
-            "price": 1000
-          },
-          {
-            "date": "2026/06/08",
-            "price": 1200
-          },
-          {
-            "date": "2026/06/18",
-            "price": 800
-          },
-          {
-            "date": "2026/06/29",
-            "price": 500
-          },
-          {
-            "date": "2026/07/13",
-            "price": 600
-          }
-        ]
-      },
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 100,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB02/61.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "モンキー・D・ルフィ【SEC】《紫》",
-        "history": [
-          {
-            "date": "2025/03/10",
-            "price": 2500
-          },
-          {
-            "date": "2025/04/29",
-            "price": 2500
-          },
-          {
-            "date": "2025/06/10",
-            "price": 800
-          },
-          {
-            "date": "2025/07/25",
-            "price": 400
-          },
-          {
-            "date": "2025/10/06",
-            "price": 100
-          },
-          {
-            "date": "2025/11/15",
-            "price": 150
-          },
-          {
-            "date": "2025/12/16",
-            "price": 100
-          },
-          {
-            "date": "2026/01/26",
-            "price": 100
-          },
-          {
-            "date": "2026/02/23",
-            "price": 100
-          },
-          {
-            "date": "2026/03/02",
-            "price": 100
-          },
-          {
-            "date": "2026/04/10",
-            "price": 400
-          },
-          {
-            "date": "2026/04/24",
-            "price": 350
-          },
-          {
-            "date": "2026/05/03",
-            "price": 300
-          },
-          {
-            "date": "2026/05/08",
-            "price": 400
-          },
-          {
-            "date": "2026/05/09",
-            "price": 500
-          },
-          {
-            "date": "2026/05/14",
-            "price": 500
-          },
-          {
-            "date": "2026/05/17",
-            "price": 600
-          },
-          {
-            "date": "2026/05/20",
-            "price": 800
-          },
-          {
-            "date": "2026/05/24",
-            "price": 900
-          },
-          {
-            "date": "2026/05/26",
-            "price": 700
-          },
-          {
-            "date": "2026/06/02",
-            "price": 800
-          },
-          {
-            "date": "2026/06/08",
-            "price": 1000
-          },
-          {
-            "date": "2026/06/14",
-            "price": 800
-          },
-          {
-            "date": "2026/06/20",
-            "price": 700
-          },
-          {
-            "date": "2026/06/21",
-            "price": 500
-          },
-          {
-            "date": "2026/06/24",
-            "price": 400
-          },
-          {
-            "date": "2026/06/29",
-            "price": 300
-          },
-          {
-            "date": "2026/07/08",
-            "price": 400
-          },
-          {
-            "date": "2026/07/15",
-            "price": 300
-          },
-          {
-            "date": "2026/07/22",
-            "price": 200
-          },
-          {
-            "date": "2026/08/13",
-            "price": 150
-          },
-          {
-            "date": "2026/09/19",
-            "price": 100
-          }
-        ]
-      },
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 200,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB02-061.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "sourceName": "モンキー・D・ルフィ 【シークレット】【紫】【EB02-061】",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 600
-          },
-          {
-            "date": "2026/05/19",
-            "price": 500
-          },
-          {
-            "date": "2026/05/31",
-            "price": 1000
-          },
-          {
-            "date": "2026/06/02",
-            "price": 700
-          },
-          {
-            "date": "2026/07/07",
-            "price": 400
-          },
-          {
-            "date": "2026/08/02",
-            "price": 200
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 100,
-    "aliasKeys": [
-      "eb02-061_モンキー・ｄ・ルフィ",
-      "モンキー・Ｄ・ルフィ_EB02-061",
-      "eb02-061_モンキー・d・ルフィ【sec】《紫》",
-      "モンキー・D・ルフィ【SEC】《紫》_EB02-061",
-      "eb02-061_モンキー・d・ルフィ【シークレット】【紫】【eb02-061】",
-      "モンキー・D・ルフィ 【シークレット】【紫】【EB02-061】_EB02-061"
-    ]
-  },
-  {
     "key": "eb03-055",
     "name": "ニコ・ロビン",
     "modelNo": "EB03-055",
@@ -583171,349 +583953,6 @@
       "お前が消えろ【R】《黄》_OP06-115",
       "op06-115_お前が消えろ",
       "お前が消えろ_OP06-115"
-    ]
-  },
-  {
-    "key": "op06-118",
-    "name": "ロロノア・ゾロ",
-    "modelNo": "OP06-118",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20231119_f423c4.png",
-    "history": [
-      {
-        "date": "2024/05/22",
-        "price": 1800
-      },
-      {
-        "date": "2024/06/07",
-        "price": 1800
-      },
-      {
-        "date": "2024/07/19",
-        "price": 1700
-      },
-      {
-        "date": "2024/11/01",
-        "price": 1800
-      },
-      {
-        "date": "2024/12/30",
-        "price": 1800
-      },
-      {
-        "date": "2025/02/14",
-        "price": 1800
-      },
-      {
-        "date": "2025/03/10",
-        "price": 1500
-      },
-      {
-        "date": "2025/04/29",
-        "price": 1500
-      },
-      {
-        "date": "2025/06/10",
-        "price": 200
-      },
-      {
-        "date": "2025/07/25",
-        "price": 100
-      },
-      {
-        "date": "2025/10/06",
-        "price": 400
-      },
-      {
-        "date": "2025/11/15",
-        "price": 500
-      },
-      {
-        "date": "2025/12/16",
-        "price": 200
-      },
-      {
-        "date": "2026/01/26",
-        "price": 150
-      },
-      {
-        "date": "2026/02/23",
-        "price": 150
-      },
-      {
-        "date": "2026/03/02",
-        "price": 150
-      },
-      {
-        "date": "2026/04/10",
-        "price": 400
-      },
-      {
-        "date": "2026/05/03",
-        "price": 400
-      },
-      {
-        "date": "2026/05/14",
-        "price": 400
-      },
-      {
-        "date": "2026/05/24",
-        "price": 500
-      },
-      {
-        "date": "2026/05/26",
-        "price": 400
-      },
-      {
-        "date": "2026/06/03",
-        "price": 500
-      },
-      {
-        "date": "2026/06/05",
-        "price": 600
-      },
-      {
-        "date": "2026/06/11",
-        "price": 500
-      },
-      {
-        "date": "2026/06/14",
-        "price": 600
-      },
-      {
-        "date": "2026/06/21",
-        "price": 500
-      },
-      {
-        "date": "2026/06/25",
-        "price": 400
-      },
-      {
-        "date": "2026/06/26",
-        "price": 300
-      },
-      {
-        "date": "2026/07/18",
-        "price": 400
-      },
-      {
-        "date": "2026/07/19",
-        "price": 700
-      },
-      {
-        "date": "2026/07/31",
-        "price": 400
-      },
-      {
-        "date": "2026/08/02",
-        "price": 300
-      },
-      {
-        "date": "2026/08/16",
-        "price": 250
-      },
-      {
-        "date": "2026/09/19",
-        "price": 100
-      },
-      {
-        "date": "2026/10/17",
-        "price": 100
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 100,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20231119_f423c4.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "ロロノア・ゾロ【SEC】《緑》",
-        "history": [
-          {
-            "date": "2024/05/22",
-            "price": 1800
-          },
-          {
-            "date": "2024/06/07",
-            "price": 1800
-          },
-          {
-            "date": "2024/07/19",
-            "price": 1700
-          },
-          {
-            "date": "2024/11/01",
-            "price": 1800
-          },
-          {
-            "date": "2024/12/30",
-            "price": 1800
-          },
-          {
-            "date": "2025/02/14",
-            "price": 1800
-          },
-          {
-            "date": "2025/03/10",
-            "price": 1500
-          },
-          {
-            "date": "2025/04/29",
-            "price": 1500
-          },
-          {
-            "date": "2025/06/10",
-            "price": 200
-          },
-          {
-            "date": "2025/07/25",
-            "price": 100
-          },
-          {
-            "date": "2025/10/06",
-            "price": 400
-          },
-          {
-            "date": "2025/11/15",
-            "price": 500
-          },
-          {
-            "date": "2025/12/16",
-            "price": 200
-          },
-          {
-            "date": "2026/01/26",
-            "price": 150
-          },
-          {
-            "date": "2026/02/23",
-            "price": 150
-          },
-          {
-            "date": "2026/03/02",
-            "price": 150
-          },
-          {
-            "date": "2026/04/10",
-            "price": 400
-          },
-          {
-            "date": "2026/05/03",
-            "price": 400
-          },
-          {
-            "date": "2026/05/14",
-            "price": 400
-          },
-          {
-            "date": "2026/05/24",
-            "price": 500
-          },
-          {
-            "date": "2026/06/05",
-            "price": 600
-          },
-          {
-            "date": "2026/06/11",
-            "price": 500
-          },
-          {
-            "date": "2026/06/14",
-            "price": 600
-          },
-          {
-            "date": "2026/06/21",
-            "price": 500
-          },
-          {
-            "date": "2026/06/25",
-            "price": 400
-          },
-          {
-            "date": "2026/06/26",
-            "price": 300
-          },
-          {
-            "date": "2026/07/18",
-            "price": 400
-          },
-          {
-            "date": "2026/07/19",
-            "price": 700
-          },
-          {
-            "date": "2026/07/31",
-            "price": 400
-          },
-          {
-            "date": "2026/08/02",
-            "price": 300
-          },
-          {
-            "date": "2026/08/16",
-            "price": 250
-          },
-          {
-            "date": "2026/09/19",
-            "price": 100
-          }
-        ]
-      },
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 600,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/2406.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
-        "sourceName": "ロロノア・ゾロ",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 300
-          },
-          {
-            "date": "2026/05/26",
-            "price": 400
-          },
-          {
-            "date": "2026/06/03",
-            "price": 500
-          },
-          {
-            "date": "2026/06/14",
-            "price": 600
-          }
-        ]
-      },
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 100,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP06-118.jpeg",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "sourceName": "ロロノア・ゾロ 【シークレット】【緑】【OP06-118】",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 300
-          },
-          {
-            "date": "2026/06/28",
-            "price": 500
-          },
-          {
-            "date": "2026/09/19",
-            "price": 100
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 100,
-    "aliasKeys": [
-      "op06-118_ロロノア・ゾロ【sec】《緑》",
-      "ロロノア・ゾロ【SEC】《緑》_OP06-118",
-      "op06-118_ロロノア・ゾロ",
-      "ロロノア・ゾロ_OP06-118",
-      "op06-118_ロロノア・ゾロ【シークレット】【緑】【op06-118】",
-      "ロロノア・ゾロ 【シークレット】【緑】【OP06-118】_OP06-118"
     ]
   },
   {
@@ -607748,295 +608187,6 @@
     ]
   },
   {
-    "key": "op13-037@promo+ベストセレクションvol6",
-    "name": "ロロノア・ゾロ【プロモ】《緑》",
-    "modelNo": "ベストセレクションvol.6 OP13-037",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260313_af0c3c.png",
-    "history": [
-      {
-        "date": "2026/04/10",
-        "price": 800
-      },
-      {
-        "date": "2026/04/17",
-        "price": 700
-      },
-      {
-        "date": "2026/04/24",
-        "price": 800
-      },
-      {
-        "date": "2026/05/03",
-        "price": 1000
-      },
-      {
-        "date": "2026/05/13",
-        "price": 1200
-      },
-      {
-        "date": "2026/05/14",
-        "price": 1200
-      },
-      {
-        "date": "2026/06/01",
-        "price": 1700
-      },
-      {
-        "date": "2026/06/02",
-        "price": 2000
-      },
-      {
-        "date": "2026/06/09",
-        "price": 2500
-      },
-      {
-        "date": "2026/06/22",
-        "price": 3000
-      },
-      {
-        "date": "2026/06/24",
-        "price": 2500
-      },
-      {
-        "date": "2026/07/04",
-        "price": 2800
-      },
-      {
-        "date": "2026/07/10",
-        "price": 3000
-      },
-      {
-        "date": "2026/07/11",
-        "price": 3500
-      },
-      {
-        "date": "2026/07/14",
-        "price": 3800
-      },
-      {
-        "date": "2026/07/27",
-        "price": 3000
-      },
-      {
-        "date": "2026/08/01",
-        "price": 2500
-      },
-      {
-        "date": "2026/08/06",
-        "price": 2000
-      },
-      {
-        "date": "2026/08/09",
-        "price": 1700
-      },
-      {
-        "date": "2026/08/12",
-        "price": 1500
-      },
-      {
-        "date": "2026/09/19",
-        "price": 800
-      },
-      {
-        "date": "2026/09/20",
-        "price": 700
-      },
-      {
-        "date": "2026/09/24",
-        "price": 500
-      },
-      {
-        "date": "2026/09/25",
-        "price": 400
-      },
-      {
-        "date": "2026/09/27",
-        "price": 200
-      },
-      {
-        "date": "2026/09/28",
-        "price": 300
-      },
-      {
-        "date": "2026/10/13",
-        "price": 250
-      },
-      {
-        "date": "2026/10/15",
-        "price": 200
-      },
-      {
-        "date": "2026/10/26",
-        "price": 150
-      },
-      {
-        "date": "2026/11/03",
-        "price": 100
-      },
-      {
-        "date": "2026/11/06",
-        "price": 50
-      },
-      {
-        "date": "2026/11/08",
-        "price": 50
-      },
-      {
-        "date": "2026/11/14",
-        "price": 100
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 100,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260313_af0c3c.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "ロロノア・ゾロ【プロモ】《緑》",
-        "history": [
-          {
-            "date": "2026/04/10",
-            "price": 800
-          },
-          {
-            "date": "2026/04/17",
-            "price": 700
-          },
-          {
-            "date": "2026/04/24",
-            "price": 800
-          },
-          {
-            "date": "2026/05/03",
-            "price": 1000
-          },
-          {
-            "date": "2026/05/13",
-            "price": 1200
-          },
-          {
-            "date": "2026/05/14",
-            "price": 1200
-          },
-          {
-            "date": "2026/06/01",
-            "price": 1700
-          },
-          {
-            "date": "2026/06/02",
-            "price": 2000
-          },
-          {
-            "date": "2026/06/09",
-            "price": 2500
-          },
-          {
-            "date": "2026/06/22",
-            "price": 3000
-          },
-          {
-            "date": "2026/06/24",
-            "price": 2500
-          },
-          {
-            "date": "2026/07/04",
-            "price": 2800
-          },
-          {
-            "date": "2026/07/10",
-            "price": 3000
-          },
-          {
-            "date": "2026/07/11",
-            "price": 3500
-          },
-          {
-            "date": "2026/07/14",
-            "price": 3800
-          },
-          {
-            "date": "2026/07/27",
-            "price": 3000
-          },
-          {
-            "date": "2026/08/01",
-            "price": 2500
-          },
-          {
-            "date": "2026/08/06",
-            "price": 2000
-          },
-          {
-            "date": "2026/08/09",
-            "price": 1700
-          },
-          {
-            "date": "2026/08/12",
-            "price": 1500
-          },
-          {
-            "date": "2026/09/19",
-            "price": 800
-          },
-          {
-            "date": "2026/09/20",
-            "price": 700
-          },
-          {
-            "date": "2026/09/24",
-            "price": 500
-          },
-          {
-            "date": "2026/09/25",
-            "price": 400
-          },
-          {
-            "date": "2026/09/27",
-            "price": 200
-          },
-          {
-            "date": "2026/09/28",
-            "price": 300
-          },
-          {
-            "date": "2026/10/13",
-            "price": 250
-          },
-          {
-            "date": "2026/10/15",
-            "price": 200
-          },
-          {
-            "date": "2026/10/26",
-            "price": 150
-          },
-          {
-            "date": "2026/11/03",
-            "price": 100
-          },
-          {
-            "date": "2026/11/06",
-            "price": 50
-          },
-          {
-            "date": "2026/11/08",
-            "price": 50
-          },
-          {
-            "date": "2026/11/14",
-            "price": 100
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 100,
-    "aliasKeys": [
-      "ベストセレクションvol.6op13-037_ロロノア・ゾロ【プロモ】《緑》",
-      "ロロノア・ゾロ【プロモ】《緑》_ベストセレクションvol.6 OP13-037"
-    ]
-  },
-  {
     "key": "op15-067@promo+ベストセレクションvol7",
     "name": "シュラ【プロモ】《紫》",
     "modelNo": "ベストセレクションvol.7 OP15-067",
@@ -623955,6 +624105,309 @@
     "aliasKeys": [
       "prb02-009_mr.3(ギャルディーノ)【r】《青》",
       "Mr.3(ギャルディーノ)【R】《青》_PRB02-009"
+    ]
+  },
+  {
+    "key": "st01-013",
+    "name": "ロロノア・ゾロ",
+    "modelNo": "ST01-013",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/wanpiTD1-5/13.png",
+    "history": [
+      {
+        "date": "2024/05/22",
+        "price": 10
+      },
+      {
+        "date": "2024/06/07",
+        "price": 10
+      },
+      {
+        "date": "2024/07/19",
+        "price": 150
+      },
+      {
+        "date": "2024/11/01",
+        "price": 50
+      },
+      {
+        "date": "2024/12/30",
+        "price": 30
+      },
+      {
+        "date": "2025/02/14",
+        "price": 30
+      },
+      {
+        "date": "2025/03/10",
+        "price": 10
+      },
+      {
+        "date": "2025/04/29",
+        "price": 10
+      },
+      {
+        "date": "2025/06/10",
+        "price": 1
+      },
+      {
+        "date": "2025/07/25",
+        "price": 1
+      },
+      {
+        "date": "2025/11/15",
+        "price": 10
+      },
+      {
+        "date": "2025/12/16",
+        "price": 30
+      },
+      {
+        "date": "2026/01/26",
+        "price": 50
+      },
+      {
+        "date": "2026/02/23",
+        "price": 50
+      },
+      {
+        "date": "2026/03/02",
+        "price": 50
+      },
+      {
+        "date": "2026/04/10",
+        "price": 200
+      },
+      {
+        "date": "2026/05/03",
+        "price": 300
+      },
+      {
+        "date": "2026/05/14",
+        "price": 300
+      },
+      {
+        "date": "2026/05/22",
+        "price": 30
+      },
+      {
+        "date": "2026/05/23",
+        "price": 50
+      },
+      {
+        "date": "2026/05/24",
+        "price": 400
+      },
+      {
+        "date": "2026/05/26",
+        "price": 100
+      },
+      {
+        "date": "2026/05/29",
+        "price": 150
+      },
+      {
+        "date": "2026/05/31",
+        "price": 100
+      },
+      {
+        "date": "2026/06/09",
+        "price": 500
+      },
+      {
+        "date": "2026/06/11",
+        "price": 100
+      },
+      {
+        "date": "2026/06/25",
+        "price": 100
+      },
+      {
+        "date": "2026/06/26",
+        "price": 30
+      },
+      {
+        "date": "2026/07/13",
+        "price": 50
+      },
+      {
+        "date": "2026/07/17",
+        "price": 10
+      },
+      {
+        "date": "2026/10/17",
+        "price": 10
+      },
+      {
+        "date": "2026/11/15",
+        "price": 50
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 50,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/wanpiTD1-5/13.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "ロロノア・ゾロ【SR】《赤》",
+        "history": [
+          {
+            "date": "2024/05/22",
+            "price": 10
+          },
+          {
+            "date": "2024/06/07",
+            "price": 10
+          },
+          {
+            "date": "2024/07/19",
+            "price": 150
+          },
+          {
+            "date": "2024/11/01",
+            "price": 50
+          },
+          {
+            "date": "2024/12/30",
+            "price": 30
+          },
+          {
+            "date": "2025/02/14",
+            "price": 30
+          },
+          {
+            "date": "2025/03/10",
+            "price": 10
+          },
+          {
+            "date": "2025/04/29",
+            "price": 10
+          },
+          {
+            "date": "2025/06/10",
+            "price": 1
+          },
+          {
+            "date": "2025/07/25",
+            "price": 1
+          },
+          {
+            "date": "2025/11/15",
+            "price": 10
+          },
+          {
+            "date": "2025/12/16",
+            "price": 30
+          },
+          {
+            "date": "2026/01/26",
+            "price": 50
+          },
+          {
+            "date": "2026/02/23",
+            "price": 50
+          },
+          {
+            "date": "2026/03/02",
+            "price": 50
+          },
+          {
+            "date": "2026/04/10",
+            "price": 200
+          },
+          {
+            "date": "2026/05/03",
+            "price": 300
+          },
+          {
+            "date": "2026/05/14",
+            "price": 300
+          },
+          {
+            "date": "2026/05/22",
+            "price": 30
+          },
+          {
+            "date": "2026/05/23",
+            "price": 50
+          },
+          {
+            "date": "2026/05/24",
+            "price": 400
+          },
+          {
+            "date": "2026/05/26",
+            "price": 100
+          },
+          {
+            "date": "2026/05/29",
+            "price": 150
+          },
+          {
+            "date": "2026/05/31",
+            "price": 100
+          },
+          {
+            "date": "2026/06/09",
+            "price": 500
+          },
+          {
+            "date": "2026/06/11",
+            "price": 100
+          },
+          {
+            "date": "2026/06/26",
+            "price": 30
+          },
+          {
+            "date": "2026/07/17",
+            "price": 10
+          },
+          {
+            "date": "2026/11/15",
+            "price": 50
+          }
+        ]
+      },
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 50,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/13.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "sourceName": "ロロノア・ゾロ",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 10
+          },
+          {
+            "date": "2026/05/26",
+            "price": 50
+          },
+          {
+            "date": "2026/06/25",
+            "price": 100
+          },
+          {
+            "date": "2026/07/13",
+            "price": 50
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 50,
+    "aliasKeys": [
+      "フィナーレセット版st01-013_ロロノア・ゾロ【sr】《赤》",
+      "ロロノア・ゾロ【SR】《赤》_フィナーレセット版ST01-013",
+      "フィナ-レセット版st01-013_ロロノア・ゾロ【sr】《赤》",
+      "ロロノア・ゾロ【SR】《赤》_フィナ-レセット版ST01-013",
+      "st01-013_フィナーレセット版ロロノア・ゾロ【sr】《赤》",
+      "フィナーレセット版ロロノア・ゾロ【SR】《赤》_ST01-013",
+      "st01-013@フィナレセット",
+      "ロロノア・ゾロ【SR】《赤》_ST01-013",
+      "st01-013_ロロノア・ゾロ【sr】《赤》",
+      "st01-013_ロロノア・ゾロ",
+      "ロロノア・ゾロ_ST01-013"
     ]
   },
   {
@@ -646757,6 +647210,190 @@
     ]
   },
   {
+    "key": "op12-020@st32",
+    "name": "ロロノア・ゾロ【L】《緑》",
+    "modelNo": "OP12-020『ST32』",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/ST32/6.png",
+    "history": [
+      {
+        "date": "2026/07/11",
+        "price": 300
+      },
+      {
+        "date": "2026/07/12",
+        "price": 200
+      },
+      {
+        "date": "2026/07/15",
+        "price": 300
+      },
+      {
+        "date": "2026/07/20",
+        "price": 250
+      },
+      {
+        "date": "2026/07/21",
+        "price": 350
+      },
+      {
+        "date": "2026/07/22",
+        "price": 400
+      },
+      {
+        "date": "2026/07/26",
+        "price": 350
+      },
+      {
+        "date": "2026/07/29",
+        "price": 400
+      },
+      {
+        "date": "2026/07/30",
+        "price": 300
+      },
+      {
+        "date": "2026/08/01",
+        "price": 250
+      },
+      {
+        "date": "2026/08/05",
+        "price": 200
+      },
+      {
+        "date": "2026/08/07",
+        "price": 150
+      },
+      {
+        "date": "2026/08/09",
+        "price": 200
+      },
+      {
+        "date": "2026/08/11",
+        "price": 250
+      },
+      {
+        "date": "2026/08/16",
+        "price": 200
+      },
+      {
+        "date": "2026/08/25",
+        "price": 150
+      },
+      {
+        "date": "2026/09/19",
+        "price": 50
+      },
+      {
+        "date": "2026/10/04",
+        "price": 30
+      },
+      {
+        "date": "2026/10/25",
+        "price": 10
+      },
+      {
+        "date": "2026/11/15",
+        "price": 30
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 30,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/ST32/6.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "ロロノア・ゾロ【L】《緑》",
+        "history": [
+          {
+            "date": "2026/07/11",
+            "price": 300
+          },
+          {
+            "date": "2026/07/12",
+            "price": 200
+          },
+          {
+            "date": "2026/07/15",
+            "price": 300
+          },
+          {
+            "date": "2026/07/20",
+            "price": 250
+          },
+          {
+            "date": "2026/07/21",
+            "price": 350
+          },
+          {
+            "date": "2026/07/22",
+            "price": 400
+          },
+          {
+            "date": "2026/07/26",
+            "price": 350
+          },
+          {
+            "date": "2026/07/29",
+            "price": 400
+          },
+          {
+            "date": "2026/07/30",
+            "price": 300
+          },
+          {
+            "date": "2026/08/01",
+            "price": 250
+          },
+          {
+            "date": "2026/08/05",
+            "price": 200
+          },
+          {
+            "date": "2026/08/07",
+            "price": 150
+          },
+          {
+            "date": "2026/08/09",
+            "price": 200
+          },
+          {
+            "date": "2026/08/11",
+            "price": 250
+          },
+          {
+            "date": "2026/08/16",
+            "price": 200
+          },
+          {
+            "date": "2026/08/25",
+            "price": 150
+          },
+          {
+            "date": "2026/09/19",
+            "price": 50
+          },
+          {
+            "date": "2026/10/04",
+            "price": 30
+          },
+          {
+            "date": "2026/10/25",
+            "price": 10
+          },
+          {
+            "date": "2026/11/15",
+            "price": 30
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 30,
+    "aliasKeys": [
+      "ロロノア・ゾロ【L】《緑》_OP12-020『ST32』"
+    ]
+  },
+  {
     "key": "op12-038",
     "name": "二刀流 居合 羅生門【C】《緑》",
     "modelNo": "OP12-038",
@@ -648315,137 +648952,6 @@
       "トラファルガー・ロー 【R】【緑】【OP13-031】_OP13-031",
       "op13-031_トラファルガー・ロー【r】《緑》",
       "トラファルガー・ロー【R】《緑》_OP13-031"
-    ]
-  },
-  {
-    "key": "op13-037",
-    "name": "ロロノア・ゾロ",
-    "modelNo": "OP13-037",
-    "imageId": "https://www.mercardop.jp/data/mercardop/product/OP13/OP13-037.png",
-    "history": [
-      {
-        "date": "2025/11/15",
-        "price": 10
-      },
-      {
-        "date": "2026/01/26",
-        "price": 10
-      },
-      {
-        "date": "2026/02/23",
-        "price": 10
-      },
-      {
-        "date": "2026/03/02",
-        "price": 10
-      },
-      {
-        "date": "2026/05/14",
-        "price": 10
-      },
-      {
-        "date": "2026/06/10",
-        "price": 30
-      },
-      {
-        "date": "2026/07/09",
-        "price": 30
-      },
-      {
-        "date": "2026/07/13",
-        "price": 50
-      },
-      {
-        "date": "2026/10/17",
-        "price": 30
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 30,
-        "imageUrl": "https://www.mercardop.jp/data/mercardop/product/OP13/OP13-037.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "ロロノア・ゾロ【R】《緑》",
-        "history": [
-          {
-            "date": "2025/11/15",
-            "price": 10
-          },
-          {
-            "date": "2026/01/26",
-            "price": 10
-          },
-          {
-            "date": "2026/02/23",
-            "price": 10
-          },
-          {
-            "date": "2026/03/02",
-            "price": 10
-          },
-          {
-            "date": "2026/05/14",
-            "price": 10
-          },
-          {
-            "date": "2026/06/10",
-            "price": 30
-          }
-        ]
-      },
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 50,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/9394.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
-        "sourceName": "ロロノア・ゾロ",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 10
-          },
-          {
-            "date": "2026/07/09",
-            "price": 30
-          },
-          {
-            "date": "2026/07/13",
-            "price": 50
-          }
-        ]
-      },
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 10,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-037.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "sourceName": "ロロノア・ゾロ 【R】【緑】【OP13-037】",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 10
-          },
-          {
-            "date": "2026/07/20",
-            "price": 30
-          },
-          {
-            "date": "2026/07/23",
-            "price": 10
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 30,
-    "aliasKeys": [
-      "op13-037_ロロノア・ゾロ【r】《緑》",
-      "ロロノア・ゾロ【R】《緑》_OP13-037",
-      "op13-037_ロロノア・ゾロ",
-      "ロロノア・ゾロ_OP13-037",
-      "op13-037_ロロノア・ゾロ【r】【緑】【op13-037】",
-      "ロロノア・ゾロ 【R】【緑】【OP13-037】_OP13-037"
     ]
   },
   {
@@ -651067,80 +651573,6 @@
     ]
   },
   {
-    "key": "op15-094",
-    "name": "ロロノア・ゾロ【UC】《黒》",
-    "modelNo": "OP15-094",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP15/94.png",
-    "history": [
-      {
-        "date": "2026/04/10",
-        "price": 10
-      },
-      {
-        "date": "2026/07/26",
-        "price": 30
-      },
-      {
-        "date": "2026/07/28",
-        "price": 50
-      },
-      {
-        "date": "2026/08/25",
-        "price": 30
-      },
-      {
-        "date": "2026/10/28",
-        "price": 30
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 30,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP15/94.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "ロロノア・ゾロ【UC】《黒》",
-        "history": [
-          {
-            "date": "2026/04/10",
-            "price": 10
-          },
-          {
-            "date": "2026/07/26",
-            "price": 30
-          },
-          {
-            "date": "2026/07/28",
-            "price": 50
-          },
-          {
-            "date": "2026/08/25",
-            "price": 30
-          }
-        ]
-      },
-      "torecard": {
-        "shopName": "トレカード秋葉原",
-        "latestPrice": 50,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP15-094.png",
-        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
-        "sourceName": "ロロノア・ゾロ 【UC】【黒】【OP15-094】",
-        "history": [
-          {
-            "date": "2026/07/28",
-            "price": 50
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 30,
-    "aliasKeys": [
-      "op15-094_ロロノア・ゾロ【uc】《黒》",
-      "ロロノア・ゾロ【UC】《黒》_OP15-094"
-    ]
-  },
-  {
     "key": "op16-003",
     "name": "エドワード・ニューゲート",
     "modelNo": "OP16-003",
@@ -653119,6 +653551,222 @@
       "モンキー・Ｄ・ルフィ_PRB02-005",
       "prb02-005_モンキー・d・ルフィ【sr】《緑》",
       "モンキー・D・ルフィ【SR】《緑》_PRB02-005"
+    ]
+  },
+  {
+    "key": "prb02-006",
+    "name": "ロロノア・ゾロ",
+    "modelNo": "PRB02-006",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/PRB02/PRB02-006.png",
+    "history": [
+      {
+        "date": "2025/10/06",
+        "price": 150
+      },
+      {
+        "date": "2025/11/15",
+        "price": 300
+      },
+      {
+        "date": "2025/12/16",
+        "price": 500
+      },
+      {
+        "date": "2026/01/26",
+        "price": 350
+      },
+      {
+        "date": "2026/02/23",
+        "price": 400
+      },
+      {
+        "date": "2026/03/02",
+        "price": 400
+      },
+      {
+        "date": "2026/04/10",
+        "price": 400
+      },
+      {
+        "date": "2026/04/24",
+        "price": 300
+      },
+      {
+        "date": "2026/05/03",
+        "price": 300
+      },
+      {
+        "date": "2026/05/08",
+        "price": 250
+      },
+      {
+        "date": "2026/05/12",
+        "price": 200
+      },
+      {
+        "date": "2026/05/14",
+        "price": 200
+      },
+      {
+        "date": "2026/06/01",
+        "price": 300
+      },
+      {
+        "date": "2026/06/16",
+        "price": 200
+      },
+      {
+        "date": "2026/06/25",
+        "price": 150
+      },
+      {
+        "date": "2026/07/07",
+        "price": 100
+      },
+      {
+        "date": "2026/07/17",
+        "price": 150
+      },
+      {
+        "date": "2026/07/28",
+        "price": 50
+      },
+      {
+        "date": "2026/08/13",
+        "price": 30
+      },
+      {
+        "date": "2026/09/21",
+        "price": 10
+      },
+      {
+        "date": "2026/10/17",
+        "price": 10
+      },
+      {
+        "date": "2026/11/15",
+        "price": 30
+      }
+    ],
+    "pricesByShop": {
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 100,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/8736.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "sourceName": "ロロノア・ゾロ",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 400
+          },
+          {
+            "date": "2026/06/01",
+            "price": 300
+          },
+          {
+            "date": "2026/06/16",
+            "price": 200
+          },
+          {
+            "date": "2026/06/25",
+            "price": 100
+          }
+        ]
+      },
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 30,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/PRB02/PRB02-006.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "ロロノア・ゾロ【R】《緑》",
+        "history": [
+          {
+            "date": "2025/10/06",
+            "price": 150
+          },
+          {
+            "date": "2025/11/15",
+            "price": 300
+          },
+          {
+            "date": "2025/12/16",
+            "price": 500
+          },
+          {
+            "date": "2026/01/26",
+            "price": 350
+          },
+          {
+            "date": "2026/02/23",
+            "price": 400
+          },
+          {
+            "date": "2026/03/02",
+            "price": 400
+          },
+          {
+            "date": "2026/04/10",
+            "price": 400
+          },
+          {
+            "date": "2026/04/24",
+            "price": 300
+          },
+          {
+            "date": "2026/05/03",
+            "price": 300
+          },
+          {
+            "date": "2026/05/08",
+            "price": 250
+          },
+          {
+            "date": "2026/05/12",
+            "price": 200
+          },
+          {
+            "date": "2026/05/14",
+            "price": 200
+          },
+          {
+            "date": "2026/06/25",
+            "price": 150
+          },
+          {
+            "date": "2026/07/07",
+            "price": 100
+          },
+          {
+            "date": "2026/07/17",
+            "price": 150
+          },
+          {
+            "date": "2026/07/28",
+            "price": 50
+          },
+          {
+            "date": "2026/08/13",
+            "price": 30
+          },
+          {
+            "date": "2026/09/21",
+            "price": 10
+          },
+          {
+            "date": "2026/11/15",
+            "price": 30
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 30,
+    "aliasKeys": [
+      "prb02-006_ロロノア・ゾロ",
+      "ロロノア・ゾロ_PRB02-006",
+      "prb02-006_ロロノア・ゾロ【r】《緑》",
+      "ロロノア・ゾロ【R】《緑》_PRB02-006"
     ]
   },
   {
@@ -684307,6 +684955,247 @@
     ]
   },
   {
+    "key": "op01-025@st10",
+    "name": "ロロノア・ゾロ 【SR】《赤》",
+    "modelNo": "OP01-025『ST10』",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/st10/002.jpg",
+    "history": [
+      {
+        "date": "2024/05/22",
+        "price": 10
+      },
+      {
+        "date": "2024/06/07",
+        "price": 10
+      },
+      {
+        "date": "2024/07/19",
+        "price": 10
+      },
+      {
+        "date": "2024/11/01",
+        "price": 30
+      },
+      {
+        "date": "2024/12/30",
+        "price": 50
+      },
+      {
+        "date": "2025/02/14",
+        "price": 50
+      },
+      {
+        "date": "2025/03/10",
+        "price": 30
+      },
+      {
+        "date": "2025/04/29",
+        "price": 30
+      },
+      {
+        "date": "2025/06/10",
+        "price": 50
+      },
+      {
+        "date": "2025/07/25",
+        "price": 30
+      },
+      {
+        "date": "2025/10/06",
+        "price": 30
+      },
+      {
+        "date": "2025/11/15",
+        "price": 30
+      },
+      {
+        "date": "2025/12/16",
+        "price": 10
+      },
+      {
+        "date": "2026/01/26",
+        "price": 30
+      },
+      {
+        "date": "2026/02/23",
+        "price": 30
+      },
+      {
+        "date": "2026/03/02",
+        "price": 30
+      },
+      {
+        "date": "2026/05/03",
+        "price": 30
+      },
+      {
+        "date": "2026/05/14",
+        "price": 30
+      },
+      {
+        "date": "2026/05/22",
+        "price": 50
+      },
+      {
+        "date": "2026/05/29",
+        "price": 150
+      },
+      {
+        "date": "2026/06/02",
+        "price": 200
+      },
+      {
+        "date": "2026/06/14",
+        "price": 150
+      },
+      {
+        "date": "2026/06/17",
+        "price": 50
+      },
+      {
+        "date": "2026/06/20",
+        "price": 30
+      },
+      {
+        "date": "2026/07/21",
+        "price": 10
+      },
+      {
+        "date": "2026/09/19",
+        "price": 1
+      },
+      {
+        "date": "2026/11/15",
+        "price": 10
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 10,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/st10/002.jpg",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "ロロノア・ゾロ 【SR】《赤》",
+        "history": [
+          {
+            "date": "2024/05/22",
+            "price": 10
+          },
+          {
+            "date": "2024/06/07",
+            "price": 10
+          },
+          {
+            "date": "2024/07/19",
+            "price": 10
+          },
+          {
+            "date": "2024/11/01",
+            "price": 30
+          },
+          {
+            "date": "2024/12/30",
+            "price": 50
+          },
+          {
+            "date": "2025/02/14",
+            "price": 50
+          },
+          {
+            "date": "2025/03/10",
+            "price": 30
+          },
+          {
+            "date": "2025/04/29",
+            "price": 30
+          },
+          {
+            "date": "2025/06/10",
+            "price": 50
+          },
+          {
+            "date": "2025/07/25",
+            "price": 30
+          },
+          {
+            "date": "2025/10/06",
+            "price": 30
+          },
+          {
+            "date": "2025/11/15",
+            "price": 30
+          },
+          {
+            "date": "2025/12/16",
+            "price": 10
+          },
+          {
+            "date": "2026/01/26",
+            "price": 30
+          },
+          {
+            "date": "2026/02/23",
+            "price": 30
+          },
+          {
+            "date": "2026/03/02",
+            "price": 30
+          },
+          {
+            "date": "2026/05/03",
+            "price": 30
+          },
+          {
+            "date": "2026/05/14",
+            "price": 30
+          },
+          {
+            "date": "2026/05/22",
+            "price": 50
+          },
+          {
+            "date": "2026/05/29",
+            "price": 150
+          },
+          {
+            "date": "2026/06/02",
+            "price": 200
+          },
+          {
+            "date": "2026/06/14",
+            "price": 150
+          },
+          {
+            "date": "2026/06/17",
+            "price": 50
+          },
+          {
+            "date": "2026/06/20",
+            "price": 30
+          },
+          {
+            "date": "2026/07/21",
+            "price": 10
+          },
+          {
+            "date": "2026/09/19",
+            "price": 1
+          },
+          {
+            "date": "2026/11/15",
+            "price": 10
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 10,
+    "aliasKeys": [
+      "op01-025『st10』_ロロノア・ゾロ【sr】《赤》",
+      "ロロノア・ゾロ 【SR】《赤》_OP01-025『ST10』"
+    ]
+  },
+  {
     "key": "op01-026",
     "name": "ゴムゴムの火拳銃【R】《赤》",
     "modelNo": "OP01-026",
@@ -710544,7 +711433,10 @@
       }
     },
     "bestShopId": "mercard",
-    "latestPrice": 10
+    "latestPrice": 10,
+    "aliasKeys": [
+      "カタリーナ・デボン【UC】《黒》_OP09-084"
+    ]
   },
   {
     "key": "op09-088",
@@ -716965,182 +717857,6 @@
     ]
   },
   {
-    "key": "op12-020@st32",
-    "name": "ロロノア・ゾロ【L】《緑》",
-    "modelNo": "OP12-020『ST32』",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/ST32/6.png",
-    "history": [
-      {
-        "date": "2026/07/11",
-        "price": 300
-      },
-      {
-        "date": "2026/07/12",
-        "price": 200
-      },
-      {
-        "date": "2026/07/15",
-        "price": 300
-      },
-      {
-        "date": "2026/07/20",
-        "price": 250
-      },
-      {
-        "date": "2026/07/21",
-        "price": 350
-      },
-      {
-        "date": "2026/07/22",
-        "price": 400
-      },
-      {
-        "date": "2026/07/26",
-        "price": 350
-      },
-      {
-        "date": "2026/07/29",
-        "price": 400
-      },
-      {
-        "date": "2026/07/30",
-        "price": 300
-      },
-      {
-        "date": "2026/08/01",
-        "price": 250
-      },
-      {
-        "date": "2026/08/05",
-        "price": 200
-      },
-      {
-        "date": "2026/08/07",
-        "price": 150
-      },
-      {
-        "date": "2026/08/09",
-        "price": 200
-      },
-      {
-        "date": "2026/08/11",
-        "price": 250
-      },
-      {
-        "date": "2026/08/16",
-        "price": 200
-      },
-      {
-        "date": "2026/08/25",
-        "price": 150
-      },
-      {
-        "date": "2026/09/19",
-        "price": 50
-      },
-      {
-        "date": "2026/10/04",
-        "price": 30
-      },
-      {
-        "date": "2026/10/25",
-        "price": 10
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 10,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/ST32/6.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "ロロノア・ゾロ【L】《緑》",
-        "history": [
-          {
-            "date": "2026/07/11",
-            "price": 300
-          },
-          {
-            "date": "2026/07/12",
-            "price": 200
-          },
-          {
-            "date": "2026/07/15",
-            "price": 300
-          },
-          {
-            "date": "2026/07/20",
-            "price": 250
-          },
-          {
-            "date": "2026/07/21",
-            "price": 350
-          },
-          {
-            "date": "2026/07/22",
-            "price": 400
-          },
-          {
-            "date": "2026/07/26",
-            "price": 350
-          },
-          {
-            "date": "2026/07/29",
-            "price": 400
-          },
-          {
-            "date": "2026/07/30",
-            "price": 300
-          },
-          {
-            "date": "2026/08/01",
-            "price": 250
-          },
-          {
-            "date": "2026/08/05",
-            "price": 200
-          },
-          {
-            "date": "2026/08/07",
-            "price": 150
-          },
-          {
-            "date": "2026/08/09",
-            "price": 200
-          },
-          {
-            "date": "2026/08/11",
-            "price": 250
-          },
-          {
-            "date": "2026/08/16",
-            "price": 200
-          },
-          {
-            "date": "2026/08/25",
-            "price": 150
-          },
-          {
-            "date": "2026/09/19",
-            "price": 50
-          },
-          {
-            "date": "2026/10/04",
-            "price": 30
-          },
-          {
-            "date": "2026/10/25",
-            "price": 10
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 10,
-    "aliasKeys": [
-      "ロロノア・ゾロ【L】《緑》_OP12-020『ST32』"
-    ]
-  },
-  {
     "key": "op12-023",
     "name": "河松【UC】《緑》",
     "modelNo": "OP12-023",
@@ -720610,6 +721326,145 @@
     "aliasKeys": [
       "op13-029_ジンベエ【uc】《緑》",
       "ジンベエ【UC】《緑》_OP13-029"
+    ]
+  },
+  {
+    "key": "op13-037",
+    "name": "ロロノア・ゾロ",
+    "modelNo": "OP13-037",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP13/OP13-037.png",
+    "history": [
+      {
+        "date": "2025/11/15",
+        "price": 10
+      },
+      {
+        "date": "2026/01/26",
+        "price": 10
+      },
+      {
+        "date": "2026/02/23",
+        "price": 10
+      },
+      {
+        "date": "2026/03/02",
+        "price": 10
+      },
+      {
+        "date": "2026/05/14",
+        "price": 10
+      },
+      {
+        "date": "2026/06/10",
+        "price": 30
+      },
+      {
+        "date": "2026/07/09",
+        "price": 30
+      },
+      {
+        "date": "2026/07/13",
+        "price": 50
+      },
+      {
+        "date": "2026/10/17",
+        "price": 30
+      },
+      {
+        "date": "2026/11/15",
+        "price": 10
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 10,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP13/OP13-037.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "ロロノア・ゾロ【R】《緑》",
+        "history": [
+          {
+            "date": "2025/11/15",
+            "price": 10
+          },
+          {
+            "date": "2026/01/26",
+            "price": 10
+          },
+          {
+            "date": "2026/02/23",
+            "price": 10
+          },
+          {
+            "date": "2026/03/02",
+            "price": 10
+          },
+          {
+            "date": "2026/05/14",
+            "price": 10
+          },
+          {
+            "date": "2026/06/10",
+            "price": 30
+          },
+          {
+            "date": "2026/11/15",
+            "price": 10
+          }
+        ]
+      },
+      "cardrush": {
+        "shopName": "カードラッシュ",
+        "latestPrice": 50,
+        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/9394.webp",
+        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
+        "sourceName": "ロロノア・ゾロ",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 10
+          },
+          {
+            "date": "2026/07/09",
+            "price": 30
+          },
+          {
+            "date": "2026/07/13",
+            "price": 50
+          }
+        ]
+      },
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 10,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-037.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "sourceName": "ロロノア・ゾロ 【R】【緑】【OP13-037】",
+        "history": [
+          {
+            "date": "2026/05/14",
+            "price": 10
+          },
+          {
+            "date": "2026/07/20",
+            "price": 30
+          },
+          {
+            "date": "2026/07/23",
+            "price": 10
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 10,
+    "aliasKeys": [
+      "op13-037_ロロノア・ゾロ【r】《緑》",
+      "ロロノア・ゾロ【R】《緑》_OP13-037",
+      "op13-037_ロロノア・ゾロ",
+      "ロロノア・ゾロ_OP13-037",
+      "op13-037_ロロノア・ゾロ【r】【緑】【op13-037】",
+      "ロロノア・ゾロ 【R】【緑】【OP13-037】_OP13-037"
     ]
   },
   {
@@ -732485,6 +733340,88 @@
       "モンキー・D・ルフィ【R】《黒》_OP15-092",
       "op15-092_モンキー・ｄ・ルフィ",
       "モンキー・Ｄ・ルフィ_OP15-092"
+    ]
+  },
+  {
+    "key": "op15-094",
+    "name": "ロロノア・ゾロ【UC】《黒》",
+    "modelNo": "OP15-094",
+    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP15/94.png",
+    "history": [
+      {
+        "date": "2026/04/10",
+        "price": 10
+      },
+      {
+        "date": "2026/07/26",
+        "price": 30
+      },
+      {
+        "date": "2026/07/28",
+        "price": 50
+      },
+      {
+        "date": "2026/08/25",
+        "price": 30
+      },
+      {
+        "date": "2026/10/28",
+        "price": 30
+      },
+      {
+        "date": "2026/11/15",
+        "price": 10
+      }
+    ],
+    "pricesByShop": {
+      "mercard": {
+        "shopName": "メルカード",
+        "latestPrice": 10,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP15/94.png",
+        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
+        "sourceName": "ロロノア・ゾロ【UC】《黒》",
+        "history": [
+          {
+            "date": "2026/04/10",
+            "price": 10
+          },
+          {
+            "date": "2026/07/26",
+            "price": 30
+          },
+          {
+            "date": "2026/07/28",
+            "price": 50
+          },
+          {
+            "date": "2026/08/25",
+            "price": 30
+          },
+          {
+            "date": "2026/11/15",
+            "price": 10
+          }
+        ]
+      },
+      "torecard": {
+        "shopName": "トレカード秋葉原",
+        "latestPrice": 50,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP15-094.png",
+        "sourceUrl": "https://www.torecard.com/purchase/onepiece/list/",
+        "sourceName": "ロロノア・ゾロ 【UC】【黒】【OP15-094】",
+        "history": [
+          {
+            "date": "2026/07/28",
+            "price": 50
+          }
+        ]
+      }
+    },
+    "bestShopId": "mercard",
+    "latestPrice": 10,
+    "aliasKeys": [
+      "op15-094_ロロノア・ゾロ【uc】《黒》",
+      "ロロノア・ゾロ【UC】《黒》_OP15-094"
     ]
   },
   {
@@ -747150,214 +748087,6 @@
     ]
   },
   {
-    "key": "prb02-006",
-    "name": "ロロノア・ゾロ",
-    "modelNo": "PRB02-006",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/PRB02/PRB02-006.png",
-    "history": [
-      {
-        "date": "2025/10/06",
-        "price": 150
-      },
-      {
-        "date": "2025/11/15",
-        "price": 300
-      },
-      {
-        "date": "2025/12/16",
-        "price": 500
-      },
-      {
-        "date": "2026/01/26",
-        "price": 350
-      },
-      {
-        "date": "2026/02/23",
-        "price": 400
-      },
-      {
-        "date": "2026/03/02",
-        "price": 400
-      },
-      {
-        "date": "2026/04/10",
-        "price": 400
-      },
-      {
-        "date": "2026/04/24",
-        "price": 300
-      },
-      {
-        "date": "2026/05/03",
-        "price": 300
-      },
-      {
-        "date": "2026/05/08",
-        "price": 250
-      },
-      {
-        "date": "2026/05/12",
-        "price": 200
-      },
-      {
-        "date": "2026/05/14",
-        "price": 200
-      },
-      {
-        "date": "2026/06/01",
-        "price": 300
-      },
-      {
-        "date": "2026/06/16",
-        "price": 200
-      },
-      {
-        "date": "2026/06/25",
-        "price": 150
-      },
-      {
-        "date": "2026/07/07",
-        "price": 100
-      },
-      {
-        "date": "2026/07/17",
-        "price": 150
-      },
-      {
-        "date": "2026/07/28",
-        "price": 50
-      },
-      {
-        "date": "2026/08/13",
-        "price": 30
-      },
-      {
-        "date": "2026/09/21",
-        "price": 10
-      },
-      {
-        "date": "2026/10/17",
-        "price": 10
-      }
-    ],
-    "pricesByShop": {
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 100,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/8736.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
-        "sourceName": "ロロノア・ゾロ",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 400
-          },
-          {
-            "date": "2026/06/01",
-            "price": 300
-          },
-          {
-            "date": "2026/06/16",
-            "price": 200
-          },
-          {
-            "date": "2026/06/25",
-            "price": 100
-          }
-        ]
-      },
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 10,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/PRB02/PRB02-006.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "ロロノア・ゾロ【R】《緑》",
-        "history": [
-          {
-            "date": "2025/10/06",
-            "price": 150
-          },
-          {
-            "date": "2025/11/15",
-            "price": 300
-          },
-          {
-            "date": "2025/12/16",
-            "price": 500
-          },
-          {
-            "date": "2026/01/26",
-            "price": 350
-          },
-          {
-            "date": "2026/02/23",
-            "price": 400
-          },
-          {
-            "date": "2026/03/02",
-            "price": 400
-          },
-          {
-            "date": "2026/04/10",
-            "price": 400
-          },
-          {
-            "date": "2026/04/24",
-            "price": 300
-          },
-          {
-            "date": "2026/05/03",
-            "price": 300
-          },
-          {
-            "date": "2026/05/08",
-            "price": 250
-          },
-          {
-            "date": "2026/05/12",
-            "price": 200
-          },
-          {
-            "date": "2026/05/14",
-            "price": 200
-          },
-          {
-            "date": "2026/06/25",
-            "price": 150
-          },
-          {
-            "date": "2026/07/07",
-            "price": 100
-          },
-          {
-            "date": "2026/07/17",
-            "price": 150
-          },
-          {
-            "date": "2026/07/28",
-            "price": 50
-          },
-          {
-            "date": "2026/08/13",
-            "price": 30
-          },
-          {
-            "date": "2026/09/21",
-            "price": 10
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 10,
-    "aliasKeys": [
-      "prb02-006_ロロノア・ゾロ",
-      "ロロノア・ゾロ_PRB02-006",
-      "prb02-006_ロロノア・ゾロ【r】《緑》",
-      "ロロノア・ゾロ【R】《緑》_PRB02-006"
-    ]
-  },
-  {
     "key": "prb02-007",
     "name": "ジンベエ",
     "modelNo": "PRB02-007",
@@ -749237,301 +749966,6 @@
       "ブルック【プロモ】《赤》_スタンダ-ドバトル版ST01-011",
       "st01-011@promo+スタンダドバトル",
       "ブルック【プロモ】《赤》_ST01-011"
-    ]
-  },
-  {
-    "key": "st01-013",
-    "name": "ロロノア・ゾロ",
-    "modelNo": "ST01-013",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/wanpiTD1-5/13.png",
-    "history": [
-      {
-        "date": "2024/05/22",
-        "price": 10
-      },
-      {
-        "date": "2024/06/07",
-        "price": 10
-      },
-      {
-        "date": "2024/07/19",
-        "price": 150
-      },
-      {
-        "date": "2024/11/01",
-        "price": 50
-      },
-      {
-        "date": "2024/12/30",
-        "price": 30
-      },
-      {
-        "date": "2025/02/14",
-        "price": 30
-      },
-      {
-        "date": "2025/03/10",
-        "price": 10
-      },
-      {
-        "date": "2025/04/29",
-        "price": 10
-      },
-      {
-        "date": "2025/06/10",
-        "price": 1
-      },
-      {
-        "date": "2025/07/25",
-        "price": 1
-      },
-      {
-        "date": "2025/11/15",
-        "price": 10
-      },
-      {
-        "date": "2025/12/16",
-        "price": 30
-      },
-      {
-        "date": "2026/01/26",
-        "price": 50
-      },
-      {
-        "date": "2026/02/23",
-        "price": 50
-      },
-      {
-        "date": "2026/03/02",
-        "price": 50
-      },
-      {
-        "date": "2026/04/10",
-        "price": 200
-      },
-      {
-        "date": "2026/05/03",
-        "price": 300
-      },
-      {
-        "date": "2026/05/14",
-        "price": 300
-      },
-      {
-        "date": "2026/05/22",
-        "price": 30
-      },
-      {
-        "date": "2026/05/23",
-        "price": 50
-      },
-      {
-        "date": "2026/05/24",
-        "price": 400
-      },
-      {
-        "date": "2026/05/26",
-        "price": 100
-      },
-      {
-        "date": "2026/05/29",
-        "price": 150
-      },
-      {
-        "date": "2026/05/31",
-        "price": 100
-      },
-      {
-        "date": "2026/06/09",
-        "price": 500
-      },
-      {
-        "date": "2026/06/11",
-        "price": 100
-      },
-      {
-        "date": "2026/06/25",
-        "price": 100
-      },
-      {
-        "date": "2026/06/26",
-        "price": 30
-      },
-      {
-        "date": "2026/07/13",
-        "price": 50
-      },
-      {
-        "date": "2026/07/17",
-        "price": 10
-      },
-      {
-        "date": "2026/10/17",
-        "price": 10
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 10,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/wanpiTD1-5/13.png",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "ロロノア・ゾロ【SR】《赤》",
-        "history": [
-          {
-            "date": "2024/05/22",
-            "price": 10
-          },
-          {
-            "date": "2024/06/07",
-            "price": 10
-          },
-          {
-            "date": "2024/07/19",
-            "price": 150
-          },
-          {
-            "date": "2024/11/01",
-            "price": 50
-          },
-          {
-            "date": "2024/12/30",
-            "price": 30
-          },
-          {
-            "date": "2025/02/14",
-            "price": 30
-          },
-          {
-            "date": "2025/03/10",
-            "price": 10
-          },
-          {
-            "date": "2025/04/29",
-            "price": 10
-          },
-          {
-            "date": "2025/06/10",
-            "price": 1
-          },
-          {
-            "date": "2025/07/25",
-            "price": 1
-          },
-          {
-            "date": "2025/11/15",
-            "price": 10
-          },
-          {
-            "date": "2025/12/16",
-            "price": 30
-          },
-          {
-            "date": "2026/01/26",
-            "price": 50
-          },
-          {
-            "date": "2026/02/23",
-            "price": 50
-          },
-          {
-            "date": "2026/03/02",
-            "price": 50
-          },
-          {
-            "date": "2026/04/10",
-            "price": 200
-          },
-          {
-            "date": "2026/05/03",
-            "price": 300
-          },
-          {
-            "date": "2026/05/14",
-            "price": 300
-          },
-          {
-            "date": "2026/05/22",
-            "price": 30
-          },
-          {
-            "date": "2026/05/23",
-            "price": 50
-          },
-          {
-            "date": "2026/05/24",
-            "price": 400
-          },
-          {
-            "date": "2026/05/26",
-            "price": 100
-          },
-          {
-            "date": "2026/05/29",
-            "price": 150
-          },
-          {
-            "date": "2026/05/31",
-            "price": 100
-          },
-          {
-            "date": "2026/06/09",
-            "price": 500
-          },
-          {
-            "date": "2026/06/11",
-            "price": 100
-          },
-          {
-            "date": "2026/06/26",
-            "price": 30
-          },
-          {
-            "date": "2026/07/17",
-            "price": 10
-          }
-        ]
-      },
-      "cardrush": {
-        "shopName": "カードラッシュ",
-        "latestPrice": 50,
-        "imageUrl": "https://files.cardrush.media/onepiece/ocha_products/13.webp",
-        "sourceUrl": "https://cardrush.media/onepiece/buying_prices?displayMode=%E3%83%AA%E3%82%B9%E3%83%88&limit=5000&name=&rarity=&model_number=&amount=&page=1&sort%5Bkey%5D=amount&sort%5Border%5D=desc&associations%5B%5D=ocha_product&to_json_option%5Bexcept%5D%5B%5D=original_image_source&to_json_option%5Bexcept%5D%5B%5D=created_at&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bonly%5D%5B%5D=id&to_json_option%5Binclude%5D%5Bocha_product%5D%5Bmethods%5D%5B%5D=image_source&display_category%5B%5D=%E6%9C%80%E6%96%B0%E5%BC%BE&display_category%5B%5D=%E9%80%9A%E5%B8%B8%E5%BC%BE",
-        "sourceName": "ロロノア・ゾロ",
-        "history": [
-          {
-            "date": "2026/05/14",
-            "price": 10
-          },
-          {
-            "date": "2026/05/26",
-            "price": 50
-          },
-          {
-            "date": "2026/06/25",
-            "price": 100
-          },
-          {
-            "date": "2026/07/13",
-            "price": 50
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 10,
-    "aliasKeys": [
-      "フィナーレセット版st01-013_ロロノア・ゾロ【sr】《赤》",
-      "ロロノア・ゾロ【SR】《赤》_フィナーレセット版ST01-013",
-      "フィナ-レセット版st01-013_ロロノア・ゾロ【sr】《赤》",
-      "ロロノア・ゾロ【SR】《赤》_フィナ-レセット版ST01-013",
-      "st01-013_フィナーレセット版ロロノア・ゾロ【sr】《赤》",
-      "フィナーレセット版ロロノア・ゾロ【SR】《赤》_ST01-013",
-      "st01-013@フィナレセット",
-      "ロロノア・ゾロ【SR】《赤》_ST01-013",
-      "st01-013_ロロノア・ゾロ【sr】《赤》",
-      "st01-013_ロロノア・ゾロ",
-      "ロロノア・ゾロ_ST01-013"
     ]
   },
   {
@@ -778333,239 +778767,6 @@
       "フォクシー 【SR】【紫】【EB04-036】_EB04-036",
       "eb04-036_フォクシー【sr】《紫》",
       "フォクシー【SR】《紫》_EB04-036"
-    ]
-  },
-  {
-    "key": "op01-025@st10",
-    "name": "ロロノア・ゾロ 【SR】《赤》",
-    "modelNo": "OP01-025『ST10』",
-    "imageId": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/st10/002.jpg",
-    "history": [
-      {
-        "date": "2024/05/22",
-        "price": 10
-      },
-      {
-        "date": "2024/06/07",
-        "price": 10
-      },
-      {
-        "date": "2024/07/19",
-        "price": 10
-      },
-      {
-        "date": "2024/11/01",
-        "price": 30
-      },
-      {
-        "date": "2024/12/30",
-        "price": 50
-      },
-      {
-        "date": "2025/02/14",
-        "price": 50
-      },
-      {
-        "date": "2025/03/10",
-        "price": 30
-      },
-      {
-        "date": "2025/04/29",
-        "price": 30
-      },
-      {
-        "date": "2025/06/10",
-        "price": 50
-      },
-      {
-        "date": "2025/07/25",
-        "price": 30
-      },
-      {
-        "date": "2025/10/06",
-        "price": 30
-      },
-      {
-        "date": "2025/11/15",
-        "price": 30
-      },
-      {
-        "date": "2025/12/16",
-        "price": 10
-      },
-      {
-        "date": "2026/01/26",
-        "price": 30
-      },
-      {
-        "date": "2026/02/23",
-        "price": 30
-      },
-      {
-        "date": "2026/03/02",
-        "price": 30
-      },
-      {
-        "date": "2026/05/03",
-        "price": 30
-      },
-      {
-        "date": "2026/05/14",
-        "price": 30
-      },
-      {
-        "date": "2026/05/22",
-        "price": 50
-      },
-      {
-        "date": "2026/05/29",
-        "price": 150
-      },
-      {
-        "date": "2026/06/02",
-        "price": 200
-      },
-      {
-        "date": "2026/06/14",
-        "price": 150
-      },
-      {
-        "date": "2026/06/17",
-        "price": 50
-      },
-      {
-        "date": "2026/06/20",
-        "price": 30
-      },
-      {
-        "date": "2026/07/21",
-        "price": 10
-      },
-      {
-        "date": "2026/09/19",
-        "price": 1
-      }
-    ],
-    "pricesByShop": {
-      "mercard": {
-        "shopName": "メルカード",
-        "latestPrice": 1,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/st10/002.jpg",
-        "sourceUrl": "https://akihabara-cardshop.com/onepice-kaitori/",
-        "sourceName": "ロロノア・ゾロ 【SR】《赤》",
-        "history": [
-          {
-            "date": "2024/05/22",
-            "price": 10
-          },
-          {
-            "date": "2024/06/07",
-            "price": 10
-          },
-          {
-            "date": "2024/07/19",
-            "price": 10
-          },
-          {
-            "date": "2024/11/01",
-            "price": 30
-          },
-          {
-            "date": "2024/12/30",
-            "price": 50
-          },
-          {
-            "date": "2025/02/14",
-            "price": 50
-          },
-          {
-            "date": "2025/03/10",
-            "price": 30
-          },
-          {
-            "date": "2025/04/29",
-            "price": 30
-          },
-          {
-            "date": "2025/06/10",
-            "price": 50
-          },
-          {
-            "date": "2025/07/25",
-            "price": 30
-          },
-          {
-            "date": "2025/10/06",
-            "price": 30
-          },
-          {
-            "date": "2025/11/15",
-            "price": 30
-          },
-          {
-            "date": "2025/12/16",
-            "price": 10
-          },
-          {
-            "date": "2026/01/26",
-            "price": 30
-          },
-          {
-            "date": "2026/02/23",
-            "price": 30
-          },
-          {
-            "date": "2026/03/02",
-            "price": 30
-          },
-          {
-            "date": "2026/05/03",
-            "price": 30
-          },
-          {
-            "date": "2026/05/14",
-            "price": 30
-          },
-          {
-            "date": "2026/05/22",
-            "price": 50
-          },
-          {
-            "date": "2026/05/29",
-            "price": 150
-          },
-          {
-            "date": "2026/06/02",
-            "price": 200
-          },
-          {
-            "date": "2026/06/14",
-            "price": 150
-          },
-          {
-            "date": "2026/06/17",
-            "price": 50
-          },
-          {
-            "date": "2026/06/20",
-            "price": 30
-          },
-          {
-            "date": "2026/07/21",
-            "price": 10
-          },
-          {
-            "date": "2026/09/19",
-            "price": 1
-          }
-        ]
-      }
-    },
-    "bestShopId": "mercard",
-    "latestPrice": 1,
-    "aliasKeys": [
-      "op01-025『st10』_ロロノア・ゾロ【sr】《赤》",
-      "ロロノア・ゾロ 【SR】《赤》_OP01-025『ST10』"
     ]
   },
   {
