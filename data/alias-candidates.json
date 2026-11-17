@@ -5455,14 +5455,14 @@
     },
     "priceStats": {
       "min": 250,
-      "max": 2700,
-      "ratio": 10.8
+      "max": 2500,
+      "ratio": 10
     },
-    "maxPrice": 2700,
+    "maxPrice": 2500,
     "riskLevel": "high",
     "warnings": [
       "同一店舗の複数商品を含む（mercard 2件）",
-      "価格差 約10.8倍（価格は参考情報）",
+      "価格差 約10倍（価格は参考情報）",
       "店舗間の画像比較データなし"
     ],
     "duplicateShops": [
@@ -5484,7 +5484,7 @@
           "eb05",
           "leader-parallel"
         ],
-        "latestPrice": 2700,
+        "latestPrice": 2500,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/76.png"
       },
       {
@@ -15799,85 +15799,6 @@
     ]
   },
   {
-    "candidateId": "candidate_OP14-041_leader-parallel",
-    "suggestedCanonicalId": "OP14-041_LEADER-PARALLEL",
-    "canonicalName": "ボア・ハンコック【リーダーパラレル】《多色》",
-    "modelCode": "OP14-041",
-    "signature": "leader-parallel",
-    "candidateScore": 75,
-    "confidence": 75,
-    "nameScore": 47,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 7500,
-      "max": 10000,
-      "ratio": 1.3
-    },
-    "maxPrice": 10000,
-    "riskLevel": "medium",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op14-041@eb05+leader-parallel",
-        "identityKey": "op14-041@eb05+leader-parallel",
-        "name": "ボア・ハンコック【リーダーパラレル】《多色》",
-        "modelNo": "OP14-041『EB05』",
-        "tags": [
-          "eb05",
-          "leader-parallel"
-        ],
-        "latestPrice": 10000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/79.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op14-041@leader-parallel",
-        "identityKey": "op14-041@leader-parallel",
-        "name": "ボア・ハンコック 【リーダーパラレル】【青黄】【OP14-041】",
-        "modelNo": "OP14-041",
-        "tags": [
-          "leader-parallel"
-        ],
-        "latestPrice": 9000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP14-041_p1.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op14-041@leader-parallel",
-        "identityKey": "op14-041@leader-parallel",
-        "name": "ボア・ハンコック【リーダーパラレル】《多色》",
-        "modelNo": "OP14-041",
-        "tags": [
-          "leader-parallel"
-        ],
-        "latestPrice": 7500,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP14/11.png"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_OP01-121_parallel_sp",
     "suggestedCanonicalId": "OP01-121_PARALLEL_SP",
     "canonicalName": "ヤマト【SPパラレル】《緑》",
@@ -15958,6 +15879,85 @@
         ],
         "latestPrice": 5500,
         "imageUrl": ""
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_OP14-041_leader-parallel",
+    "suggestedCanonicalId": "OP14-041_LEADER-PARALLEL",
+    "canonicalName": "ボア・ハンコック【リーダーパラレル】《多色》",
+    "modelCode": "OP14-041",
+    "signature": "leader-parallel",
+    "candidateScore": 76,
+    "confidence": 76,
+    "nameScore": 47,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 7500,
+      "max": 9000,
+      "ratio": 1.2
+    },
+    "maxPrice": 9000,
+    "riskLevel": "medium",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op14-041@eb05+leader-parallel",
+        "identityKey": "op14-041@eb05+leader-parallel",
+        "name": "ボア・ハンコック【リーダーパラレル】《多色》",
+        "modelNo": "OP14-041『EB05』",
+        "tags": [
+          "eb05",
+          "leader-parallel"
+        ],
+        "latestPrice": 9000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/79.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op14-041@leader-parallel",
+        "identityKey": "op14-041@leader-parallel",
+        "name": "ボア・ハンコック 【リーダーパラレル】【青黄】【OP14-041】",
+        "modelNo": "OP14-041",
+        "tags": [
+          "leader-parallel"
+        ],
+        "latestPrice": 9000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP14-041_p1.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op14-041@leader-parallel",
+        "identityKey": "op14-041@leader-parallel",
+        "name": "ボア・ハンコック【リーダーパラレル】《多色》",
+        "modelNo": "OP14-041",
+        "tags": [
+          "leader-parallel"
+        ],
+        "latestPrice": 7500,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP14/11.png"
       }
     ]
   },
@@ -16689,85 +16689,6 @@
     ]
   },
   {
-    "candidateId": "candidate_OP11-041_leader-parallel",
-    "suggestedCanonicalId": "OP11-041_LEADER-PARALLEL",
-    "canonicalName": "ナミ【リーダーパラレル】《多色》",
-    "modelCode": "OP11-041",
-    "signature": "leader-parallel",
-    "candidateScore": 73,
-    "confidence": 73,
-    "nameScore": 42,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 1,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 3000,
-      "max": 5000,
-      "ratio": 1.7
-    },
-    "maxPrice": 5000,
-    "riskLevel": "medium",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op11-041@eb05+leader-parallel",
-        "identityKey": "op11-041@eb05+leader-parallel",
-        "name": "ナミ【リーダーパラレル】《多色》",
-        "modelNo": "OP11-041『EB05』",
-        "tags": [
-          "eb05",
-          "leader-parallel"
-        ],
-        "latestPrice": 5000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/75.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op11-041@leader-parallel",
-        "identityKey": "op11-041@leader-parallel",
-        "name": "ナミ【リーダーパラレル】《多色》",
-        "modelNo": "OP11-041",
-        "tags": [
-          "leader-parallel"
-        ],
-        "latestPrice": 3500,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP11/124.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op11-041@leader-parallel",
-        "identityKey": "op11-041@leader-parallel",
-        "name": "ナミ 【リーダーパラレル】【青】【黄】【OP11-041】",
-        "modelNo": "OP11-041",
-        "tags": [
-          "leader-parallel"
-        ],
-        "latestPrice": 3000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP11-041_p1.png"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_ST03-004_parallel_sp",
     "suggestedCanonicalId": "ST03-004_PARALLEL_SP",
     "canonicalName": "ゲッコー・モリア【SPパラレル】《青》",
@@ -16848,6 +16769,85 @@
         ],
         "latestPrice": 3000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST03-004_p2.jpeg"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_OP11-041_leader-parallel",
+    "suggestedCanonicalId": "OP11-041_LEADER-PARALLEL",
+    "canonicalName": "ナミ【リーダーパラレル】《多色》",
+    "modelCode": "OP11-041",
+    "signature": "leader-parallel",
+    "candidateScore": 74,
+    "confidence": 74,
+    "nameScore": 42,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 1,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 3000,
+      "max": 4500,
+      "ratio": 1.5
+    },
+    "maxPrice": 4500,
+    "riskLevel": "medium",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op11-041@eb05+leader-parallel",
+        "identityKey": "op11-041@eb05+leader-parallel",
+        "name": "ナミ【リーダーパラレル】《多色》",
+        "modelNo": "OP11-041『EB05』",
+        "tags": [
+          "eb05",
+          "leader-parallel"
+        ],
+        "latestPrice": 4500,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/75.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op11-041@leader-parallel",
+        "identityKey": "op11-041@leader-parallel",
+        "name": "ナミ【リーダーパラレル】《多色》",
+        "modelNo": "OP11-041",
+        "tags": [
+          "leader-parallel"
+        ],
+        "latestPrice": 3500,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP11/124.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op11-041@leader-parallel",
+        "identityKey": "op11-041@leader-parallel",
+        "name": "ナミ 【リーダーパラレル】【青】【黄】【OP11-041】",
+        "modelNo": "OP11-041",
+        "tags": [
+          "leader-parallel"
+        ],
+        "latestPrice": 3000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP11-041_p1.png"
       }
     ]
   },
