@@ -231,15 +231,15 @@
       "totalRecords": 4
     },
     "priceStats": {
-      "min": 1700,
+      "min": 1800,
       "max": 110000,
-      "ratio": 64.7
+      "ratio": 61.1
     },
     "maxPrice": 110000,
     "riskLevel": "high",
     "warnings": [
       "同一店舗の複数商品を含む（torecard 2件、mercard 2件）",
-      "価格差 約64.7倍（価格は参考情報）",
+      "価格差 約61.1倍（価格は参考情報）",
       "店舗間の画像比較データなし"
     ],
     "duplicateShops": [
@@ -305,7 +305,7 @@
         "tags": [
           "leader-parallel"
         ],
-        "latestPrice": 1700,
+        "latestPrice": 1800,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/142.png"
       }
     ]
@@ -1668,7 +1668,7 @@
         "tags": [
           "parallel"
         ],
-        "latestPrice": 1500,
+        "latestPrice": 1700,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP13/46.png"
       },
       {
@@ -2308,7 +2308,7 @@
         "tags": [
           "parallel"
         ],
-        "latestPrice": 5500,
+        "latestPrice": 6000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB04/71.png"
       },
       {
@@ -3258,6 +3258,88 @@
     ]
   },
   {
+    "candidateId": "candidate_P-111_promo",
+    "suggestedCanonicalId": "P-111_PROMO",
+    "canonicalName": "ニコ・ロビン【プロモ】《緑》",
+    "modelCode": "P-111",
+    "signature": "promo",
+    "candidateScore": 64,
+    "confidence": 64,
+    "nameScore": 15,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 100,
+      "max": 9000,
+      "ratio": 90
+    },
+    "maxPrice": 9000,
+    "riskLevel": "high",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件）",
+      "価格差 約90倍（価格は参考情報）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-111@promo+オフィシャルプレイマットナミロビン",
+        "identityKey": "p-111@promo+オフィシャルプレイマットナミロビン",
+        "name": "ニコ・ロビン【プロモ】《緑》",
+        "modelNo": "オフィシャルプレイマット -ナミ&#038;ロビン-版P-111",
+        "tags": [
+          "promo",
+          "オフィシャルプレイマットナミロビン"
+        ],
+        "latestPrice": 9000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20261016_d76dcb.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-111@promo+交流会配布版ノマル",
+        "identityKey": "p-111@promo+交流会配布版ノマル",
+        "name": "ニコ・ロビン【プロモ】《緑》",
+        "modelNo": "交流会配布版ノーマル仕様P-111",
+        "tags": [
+          "promo",
+          "交流会配布版ノマル"
+        ],
+        "latestPrice": 400,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20251007_46228b.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-111@promo+交流会",
+        "identityKey": "p-111@promo+交流会",
+        "name": "ニコ・ロビン 【P】【プロモ】【交流会】【緑】【P-111】",
+        "modelNo": "P-111",
+        "tags": [
+          "promo",
+          "交流会"
+        ],
+        "latestPrice": 100,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-111.png"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_P-033_promo",
     "suggestedCanonicalId": "P-033_PROMO",
     "canonicalName": "モンキー・D・ルフィ【プロモ】《青》",
@@ -3337,88 +3419,6 @@
         ],
         "latestPrice": 200,
         "imageUrl": ""
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_P-111_promo",
-    "suggestedCanonicalId": "P-111_PROMO",
-    "canonicalName": "ニコ・ロビン【プロモ】《緑》",
-    "modelCode": "P-111",
-    "signature": "promo",
-    "candidateScore": 64,
-    "confidence": 64,
-    "nameScore": 15,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 100,
-      "max": 8000,
-      "ratio": 80
-    },
-    "maxPrice": 8000,
-    "riskLevel": "high",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "価格差 約80倍（価格は参考情報）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-111@promo+オフィシャルプレイマットナミロビン",
-        "identityKey": "p-111@promo+オフィシャルプレイマットナミロビン",
-        "name": "ニコ・ロビン【プロモ】《緑》",
-        "modelNo": "オフィシャルプレイマット -ナミ&#038;ロビン-版P-111",
-        "tags": [
-          "promo",
-          "オフィシャルプレイマットナミロビン"
-        ],
-        "latestPrice": 8000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20261016_d76dcb.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-111@promo+交流会配布版ノマル",
-        "identityKey": "p-111@promo+交流会配布版ノマル",
-        "name": "ニコ・ロビン【プロモ】《緑》",
-        "modelNo": "交流会配布版ノーマル仕様P-111",
-        "tags": [
-          "promo",
-          "交流会配布版ノマル"
-        ],
-        "latestPrice": 400,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20251007_46228b.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-111@promo+交流会",
-        "identityKey": "p-111@promo+交流会",
-        "name": "ニコ・ロビン 【P】【プロモ】【交流会】【緑】【P-111】",
-        "modelNo": "P-111",
-        "tags": [
-          "promo",
-          "交流会"
-        ],
-        "latestPrice": 100,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-111.png"
       }
     ]
   },
@@ -4057,15 +4057,15 @@
       "totalRecords": 5
     },
     "priceStats": {
-      "min": 1000,
+      "min": 800,
       "max": 5000,
-      "ratio": 5
+      "ratio": 6.3
     },
     "maxPrice": 5000,
     "riskLevel": "high",
     "warnings": [
       "同一店舗の複数商品を含む（mercard 3件、torecard 2件）",
-      "価格差 約5倍（価格は参考情報）",
+      "価格差 約6.3倍（価格は参考情報）",
       "店舗間の画像比較データなし"
     ],
     "duplicateShops": [
@@ -4126,21 +4126,6 @@
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-001_p3.png"
       },
       {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op13-001@promo+unopened+一番くじ",
-        "identityKey": "op13-001@promo+unopened+一番くじ",
-        "name": "モンキー・D・ルフィ【プロモ】《多色》未開封",
-        "modelNo": "一番くじ版OP13-001",
-        "tags": [
-          "promo",
-          "unopened",
-          "一番くじ"
-        ],
-        "latestPrice": 1000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260210_33b613.jpg"
-      },
-      {
         "shopId": "torecard",
         "shopName": "トレカード秋葉原",
         "sourceKey": "op13-001@promo+unopened+一番くじ",
@@ -4154,6 +4139,21 @@
         ],
         "latestPrice": 1000,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP13-001_p3.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op13-001@promo+unopened+一番くじ",
+        "identityKey": "op13-001@promo+unopened+一番くじ",
+        "name": "モンキー・D・ルフィ【プロモ】《多色》未開封",
+        "modelNo": "一番くじ版OP13-001",
+        "tags": [
+          "promo",
+          "unopened",
+          "一番くじ"
+        ],
+        "latestPrice": 800,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260210_33b613.jpg"
       }
     ]
   },
@@ -5436,86 +5436,6 @@
     ]
   },
   {
-    "candidateId": "candidate_EB03-001_leader-parallel",
-    "suggestedCanonicalId": "EB03-001_LEADER-PARALLEL",
-    "canonicalName": "ネフェルタリ・ビビ【リーダーパラレル】《多色》",
-    "modelCode": "EB03-001",
-    "signature": "leader-parallel",
-    "candidateScore": 74,
-    "confidence": 74,
-    "nameScore": 53,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 250,
-      "max": 2500,
-      "ratio": 10
-    },
-    "maxPrice": 2500,
-    "riskLevel": "high",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "価格差 約10倍（価格は参考情報）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "eb03-001@eb05+leader-parallel",
-        "identityKey": "eb03-001@eb05+leader-parallel",
-        "name": "ネフェルタリ・ビビ【リーダーパラレル】《多色》",
-        "modelNo": "EB03-001『EB05』",
-        "tags": [
-          "eb05",
-          "leader-parallel"
-        ],
-        "latestPrice": 2500,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/76.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "eb03-001@leader-parallel",
-        "identityKey": "eb03-001@leader-parallel",
-        "name": "ネフェルタリ・ビビ 【リーダーパラレル】【赤青】【EB03-001】",
-        "modelNo": "EB03-001",
-        "tags": [
-          "leader-parallel"
-        ],
-        "latestPrice": 400,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB03-001_p1.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "eb03-001@leader-parallel",
-        "identityKey": "eb03-001@leader-parallel",
-        "name": "ネフェルタリ・ビビ【リーダーパラレル】《多色》",
-        "modelNo": "EB03-001",
-        "tags": [
-          "leader-parallel"
-        ],
-        "latestPrice": 250,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB03/EB03-001_p1.png"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_P-115_promo",
     "suggestedCanonicalId": "P-115_PROMO",
     "canonicalName": "ボア・ハンコック【プロモ】《黄》",
@@ -5650,6 +5570,86 @@
         "tags": [],
         "latestPrice": 10,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP16-042.png"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_EB03-001_leader-parallel",
+    "suggestedCanonicalId": "EB03-001_LEADER-PARALLEL",
+    "canonicalName": "ネフェルタリ・ビビ【リーダーパラレル】《多色》",
+    "modelCode": "EB03-001",
+    "signature": "leader-parallel",
+    "candidateScore": 74,
+    "confidence": 74,
+    "nameScore": 53,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 250,
+      "max": 2000,
+      "ratio": 8
+    },
+    "maxPrice": 2000,
+    "riskLevel": "high",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件）",
+      "価格差 約8倍（価格は参考情報）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "eb03-001@eb05+leader-parallel",
+        "identityKey": "eb03-001@eb05+leader-parallel",
+        "name": "ネフェルタリ・ビビ【リーダーパラレル】《多色》",
+        "modelNo": "EB03-001『EB05』",
+        "tags": [
+          "eb05",
+          "leader-parallel"
+        ],
+        "latestPrice": 2000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/76.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "eb03-001@leader-parallel",
+        "identityKey": "eb03-001@leader-parallel",
+        "name": "ネフェルタリ・ビビ 【リーダーパラレル】【赤青】【EB03-001】",
+        "modelNo": "EB03-001",
+        "tags": [
+          "leader-parallel"
+        ],
+        "latestPrice": 400,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/EB03-001_p1.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "eb03-001@leader-parallel",
+        "identityKey": "eb03-001@leader-parallel",
+        "name": "ネフェルタリ・ビビ【リーダーパラレル】《多色》",
+        "modelNo": "EB03-001",
+        "tags": [
+          "leader-parallel"
+        ],
+        "latestPrice": 250,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB03/EB03-001_p1.png"
       }
     ]
   },
@@ -6852,6 +6852,88 @@
     ]
   },
   {
+    "candidateId": "candidate_P-093_promo",
+    "suggestedCanonicalId": "P-093_PROMO",
+    "canonicalName": "トラファルガー・ロー【プロモ】《紫》",
+    "modelCode": "P-093",
+    "signature": "promo",
+    "candidateScore": 67,
+    "confidence": 67,
+    "nameScore": 27,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 100,
+      "max": 1000,
+      "ratio": 10
+    },
+    "maxPrice": 1000,
+    "riskLevel": "high",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件）",
+      "価格差 約10倍（価格は参考情報）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-093@promo+プロモションパックexvol5",
+        "identityKey": "p-093@promo+プロモションパックexvol5",
+        "name": "トラファルガー・ロー【プロモ】《紫》",
+        "modelNo": "プロモーションパックEXVol.5P-093",
+        "tags": [
+          "promo",
+          "プロモションパックexvol5"
+        ],
+        "latestPrice": 1000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260930_706a6c.jpg"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-093@promo+交流会配布",
+        "identityKey": "p-093@promo+交流会配布",
+        "name": "トラファルガー・ロー【プロモ】《紫》",
+        "modelNo": "交流会配布版P-093",
+        "tags": [
+          "promo",
+          "交流会配布"
+        ],
+        "latestPrice": 350,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250502_8f0c96.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-093@promo+交流会",
+        "identityKey": "p-093@promo+交流会",
+        "name": "トラファルガー・ロー 【P】【プロモ】【交流会】【紫】【P-093】",
+        "modelNo": "P-093",
+        "tags": [
+          "promo",
+          "交流会"
+        ],
+        "latestPrice": 100,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-093.png"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_P-042_promo",
     "suggestedCanonicalId": "P-042_PROMO",
     "canonicalName": "ロロノア・ゾロ【プロモ】《黄》",
@@ -7194,88 +7276,6 @@
     ]
   },
   {
-    "candidateId": "candidate_P-093_promo",
-    "suggestedCanonicalId": "P-093_PROMO",
-    "canonicalName": "トラファルガー・ロー【プロモ】《紫》",
-    "modelCode": "P-093",
-    "signature": "promo",
-    "candidateScore": 67,
-    "confidence": 67,
-    "nameScore": 27,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 100,
-      "max": 800,
-      "ratio": 8
-    },
-    "maxPrice": 800,
-    "riskLevel": "high",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "価格差 約8倍（価格は参考情報）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-093@promo+プロモションパックexvol5",
-        "identityKey": "p-093@promo+プロモションパックexvol5",
-        "name": "トラファルガー・ロー【プロモ】《紫》",
-        "modelNo": "プロモーションパックEXVol.5P-093",
-        "tags": [
-          "promo",
-          "プロモションパックexvol5"
-        ],
-        "latestPrice": 800,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260930_706a6c.jpg"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-093@promo+交流会配布",
-        "identityKey": "p-093@promo+交流会配布",
-        "name": "トラファルガー・ロー【プロモ】《紫》",
-        "modelNo": "交流会配布版P-093",
-        "tags": [
-          "promo",
-          "交流会配布"
-        ],
-        "latestPrice": 350,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250502_8f0c96.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-093@promo+交流会",
-        "identityKey": "p-093@promo+交流会",
-        "name": "トラファルガー・ロー 【P】【プロモ】【交流会】【紫】【P-093】",
-        "modelNo": "P-093",
-        "tags": [
-          "promo",
-          "交流会"
-        ],
-        "latestPrice": 100,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-093.png"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_OP09-061_base",
     "suggestedCanonicalId": "OP09-061_BASE",
     "canonicalName": "モンキー・Ｄ・ルフィ【L】《多色》",
@@ -7446,88 +7446,6 @@
         ],
         "latestPrice": 100,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250606_3e80e4.png"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_P-047_promo",
-    "suggestedCanonicalId": "P-047_PROMO",
-    "canonicalName": "モンキー・D・ルフィ【プロモ】《青》",
-    "modelCode": "P-047",
-    "signature": "promo",
-    "candidateScore": 69,
-    "confidence": 69,
-    "nameScore": 29,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 200,
-      "max": 780,
-      "ratio": 3.9
-    },
-    "maxPrice": 780,
-    "riskLevel": "high",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "価格差 約3.9倍（価格は参考情報）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-047@promo+プロモションパック4",
-        "identityKey": "p-047@promo+プロモションパック4",
-        "name": "モンキー・D・ルフィ【プロモ】《青》",
-        "modelNo": "『プロモーションパック4』P-047",
-        "tags": [
-          "promo",
-          "プロモションパック4"
-        ],
-        "latestPrice": 780,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20230930_ea06e1.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-047@promo+プロモションパック",
-        "identityKey": "p-047@promo+プロモションパック",
-        "name": "モンキー・D・ルフィ 【プロモ】【プロモーションパック】【リーダー】【青】【P-047】",
-        "modelNo": "P-047",
-        "tags": [
-          "promo",
-          "プロモションパック"
-        ],
-        "latestPrice": 300,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-047.jpeg"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-047@liveactionedition4+promo",
-        "identityKey": "p-047@liveactionedition4+promo",
-        "name": "モンキー・D・ルフィ【プロモ】《青》",
-        "modelNo": "-Live Action Edition-4P-047",
-        "tags": [
-          "liveactionedition4",
-          "promo"
-        ],
-        "latestPrice": 200,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240418_68fcab.png"
       }
     ]
   },
@@ -8911,6 +8829,88 @@
         ],
         "latestPrice": 30,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP08-062_p1.png"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_P-047_promo",
+    "suggestedCanonicalId": "P-047_PROMO",
+    "canonicalName": "モンキー・D・ルフィ【プロモ】《青》",
+    "modelCode": "P-047",
+    "signature": "promo",
+    "candidateScore": 69,
+    "confidence": 69,
+    "nameScore": 29,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 100,
+      "max": 300,
+      "ratio": 3
+    },
+    "maxPrice": 300,
+    "riskLevel": "high",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件）",
+      "価格差 約3倍（価格は参考情報）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-047@promo+プロモションパック",
+        "identityKey": "p-047@promo+プロモションパック",
+        "name": "モンキー・D・ルフィ 【プロモ】【プロモーションパック】【リーダー】【青】【P-047】",
+        "modelNo": "P-047",
+        "tags": [
+          "promo",
+          "プロモションパック"
+        ],
+        "latestPrice": 300,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-047.jpeg"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-047@liveactionedition4+promo",
+        "identityKey": "p-047@liveactionedition4+promo",
+        "name": "モンキー・D・ルフィ【プロモ】《青》",
+        "modelNo": "-Live Action Edition-4P-047",
+        "tags": [
+          "liveactionedition4",
+          "promo"
+        ],
+        "latestPrice": 200,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20240418_68fcab.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-047@promo+プロモションパック4",
+        "identityKey": "p-047@promo+プロモションパック4",
+        "name": "モンキー・D・ルフィ【プロモ】《青》",
+        "modelNo": "『プロモーションパック4』P-047",
+        "tags": [
+          "promo",
+          "プロモションパック4"
+        ],
+        "latestPrice": 100,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20230930_ea06e1.png"
       }
     ]
   },
@@ -10456,9 +10456,9 @@
     "canonicalName": "ナミ【R】《赤》",
     "modelCode": "OP01-016",
     "signature": "base",
-    "candidateScore": 62,
-    "confidence": 62,
-    "nameScore": 5,
+    "candidateScore": 60,
+    "confidence": 60,
+    "nameScore": 0,
     "imageScore": null,
     "imageStats": {
       "max": null,
@@ -10466,7 +10466,7 @@
       "min": null,
       "pairCount": 0,
       "hashedRecords": 0,
-      "totalRecords": 6
+      "totalRecords": 7
     },
     "priceStats": {
       "min": 10,
@@ -10476,14 +10476,14 @@
     "maxPrice": 150,
     "riskLevel": "high",
     "warnings": [
-      "同一店舗の複数商品を含む（mercard 3件、torecard 3件）",
+      "同一店舗の複数商品を含む（mercard 4件、torecard 3件）",
       "価格差 約15倍（価格は参考情報）",
       "店舗間の画像比較データなし"
     ],
     "duplicateShops": [
       {
         "shopId": "mercard",
-        "count": 3
+        "count": 4
       },
       {
         "shopId": "torecard",
@@ -10553,6 +10553,19 @@
         ],
         "latestPrice": 30,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP01-016_p3.jpeg"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op01-016@st31",
+        "identityKey": "op01-016@st31",
+        "name": "ノーマル仕様ST31版 ナミ【R】《赤》",
+        "modelNo": "OP01-016『ST31』",
+        "tags": [
+          "st31"
+        ],
+        "latestPrice": 10,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/ST31/7.png"
       },
       {
         "shopId": "torecard",
@@ -11272,90 +11285,6 @@
         "tags": [],
         "latestPrice": 10,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20231119_62499f.png"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_P-102_promo",
-    "suggestedCanonicalId": "P-102_PROMO",
-    "canonicalName": "ナミ【プロモ】《緑》",
-    "modelCode": "P-102",
-    "signature": "promo",
-    "candidateScore": 62,
-    "confidence": 62,
-    "nameScore": 4,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 30,
-      "max": 100,
-      "ratio": 3.3
-    },
-    "maxPrice": 100,
-    "riskLevel": "high",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "価格差 約3.3倍（価格は参考情報）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-102@promo+スタンダドバトル",
-        "identityKey": "p-102@promo+スタンダドバトル",
-        "name": "ナミ【プロモ】《緑》",
-        "modelNo": "スタンダ-ドバトル版P-102",
-        "tags": [
-          "promo",
-          "スタンダドバトル"
-        ],
-        "latestPrice": 100,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20251107_a6b19d.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-102@promo+イベント配布パック+プロモションカドセット",
-        "identityKey": "p-102@promo+イベント配布パック+プロモションカドセット",
-        "name": "ナミ 【P】【プロモ】【イベント配布パック】【プロモーションカードセット】【緑】【P-102】",
-        "modelNo": "P-102",
-        "tags": [
-          "promo",
-          "イベント配布パック",
-          "プロモションカドセット"
-        ],
-        "latestPrice": 50,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-102.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-102@promo+イベント配布パックb封入+プロモションカドセット2025年",
-        "identityKey": "p-102@promo+イベント配布パックb封入+プロモションカドセット2025年",
-        "name": "ナミ【プロモ】《緑》※イベント配布パックB封入",
-        "modelNo": "プロモーションカードセット2025年版P-102",
-        "tags": [
-          "promo",
-          "イベント配布パックb封入",
-          "プロモションカドセット2025年"
-        ],
-        "latestPrice": 30,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20251007_8d29df.png"
       }
     ]
   },
@@ -12993,6 +12922,98 @@
     ]
   },
   {
+    "candidateId": "candidate_OP09-078_base",
+    "suggestedCanonicalId": "OP09-078_BASE",
+    "canonicalName": "ゴムゴムの巨人【R】《紫》",
+    "modelCode": "OP09-078",
+    "signature": "base",
+    "candidateScore": 62,
+    "confidence": 62,
+    "nameScore": 0,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 4
+    },
+    "priceStats": {
+      "min": 10,
+      "max": 30,
+      "ratio": 3
+    },
+    "maxPrice": 30,
+    "riskLevel": "high",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件、torecard 2件）",
+      "価格差 約3倍（価格は参考情報）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      },
+      {
+        "shopId": "torecard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op09-078",
+        "identityKey": "op09-078",
+        "name": "ゴムゴムの巨人【R】《紫》",
+        "modelNo": "OP09-078",
+        "tags": [],
+        "latestPrice": 30,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP09/OP09-078.jpg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op09-078",
+        "identityKey": "op09-078",
+        "name": "ゴムゴムの巨人 【R】【紫】【OP09-078】",
+        "modelNo": "OP09-078",
+        "tags": [],
+        "latestPrice": 10,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-078.jpeg"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op09-078@st26",
+        "identityKey": "op09-078@st26",
+        "name": "ノーマル仕様ST26版 ゴムゴムの巨人【R】《紫》",
+        "modelNo": "OP09-078『ST26』",
+        "tags": [
+          "st26"
+        ],
+        "latestPrice": 10,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250530_0c11cf.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op09-078@ノマル",
+        "identityKey": "op09-078@ノマル",
+        "name": "ゴムゴムの巨人 【R】【ノーマル】【紫】【OP09-078】",
+        "modelNo": "OP09-078",
+        "tags": [
+          "ノマル"
+        ],
+        "latestPrice": 10,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-078_p1.png"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_ST10-006_cs_unopened",
     "suggestedCanonicalId": "ST10-006_CS_UNOPENED",
     "canonicalName": "モンキー・D・ルフィ 【プロモ】《赤》未開封",
@@ -13667,9 +13688,9 @@
       "totalRecords": 4
     },
     "priceStats": {
-      "min": 120000,
+      "min": 140000,
       "max": 230000,
-      "ratio": 1.9
+      "ratio": 1.6
     },
     "maxPrice": 230000,
     "riskLevel": "medium",
@@ -13742,7 +13763,7 @@
           "cs",
           "unopened"
         ],
-        "latestPrice": 120000,
+        "latestPrice": 140000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250921_c888de.png"
       }
     ]
@@ -16773,85 +16794,6 @@
     ]
   },
   {
-    "candidateId": "candidate_OP11-041_leader-parallel",
-    "suggestedCanonicalId": "OP11-041_LEADER-PARALLEL",
-    "canonicalName": "ナミ【リーダーパラレル】《多色》",
-    "modelCode": "OP11-041",
-    "signature": "leader-parallel",
-    "candidateScore": 74,
-    "confidence": 74,
-    "nameScore": 42,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 1,
-      "totalRecords": 3
-    },
-    "priceStats": {
-      "min": 3000,
-      "max": 4500,
-      "ratio": 1.5
-    },
-    "maxPrice": 4500,
-    "riskLevel": "medium",
-    "warnings": [
-      "同一店舗の複数商品を含む（mercard 2件）",
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [
-      {
-        "shopId": "mercard",
-        "count": 2
-      }
-    ],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op11-041@eb05+leader-parallel",
-        "identityKey": "op11-041@eb05+leader-parallel",
-        "name": "ナミ【リーダーパラレル】《多色》",
-        "modelNo": "OP11-041『EB05』",
-        "tags": [
-          "eb05",
-          "leader-parallel"
-        ],
-        "latestPrice": 4500,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/75.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "op11-041@leader-parallel",
-        "identityKey": "op11-041@leader-parallel",
-        "name": "ナミ【リーダーパラレル】《多色》",
-        "modelNo": "OP11-041",
-        "tags": [
-          "leader-parallel"
-        ],
-        "latestPrice": 3500,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP11/124.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op11-041@leader-parallel",
-        "identityKey": "op11-041@leader-parallel",
-        "name": "ナミ 【リーダーパラレル】【青】【黄】【OP11-041】",
-        "modelNo": "OP11-041",
-        "tags": [
-          "leader-parallel"
-        ],
-        "latestPrice": 3000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP11-041_p1.png"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_OP04-119_parallel_sp",
     "suggestedCanonicalId": "OP04-119_PARALLEL_SP",
     "canonicalName": "ドンキホーテ・ロシナンテ【SPパラレル】《緑》",
@@ -17024,6 +16966,85 @@
     ]
   },
   {
+    "candidateId": "candidate_OP11-041_leader-parallel",
+    "suggestedCanonicalId": "OP11-041_LEADER-PARALLEL",
+    "canonicalName": "ナミ【リーダーパラレル】《多色》",
+    "modelCode": "OP11-041",
+    "signature": "leader-parallel",
+    "candidateScore": 74,
+    "confidence": 74,
+    "nameScore": 42,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 1,
+      "totalRecords": 3
+    },
+    "priceStats": {
+      "min": 3000,
+      "max": 4000,
+      "ratio": 1.3
+    },
+    "maxPrice": 4000,
+    "riskLevel": "medium",
+    "warnings": [
+      "同一店舗の複数商品を含む（mercard 2件）",
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [
+      {
+        "shopId": "mercard",
+        "count": 2
+      }
+    ],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op11-041@eb05+leader-parallel",
+        "identityKey": "op11-041@eb05+leader-parallel",
+        "name": "ナミ【リーダーパラレル】《多色》",
+        "modelNo": "OP11-041『EB05』",
+        "tags": [
+          "eb05",
+          "leader-parallel"
+        ],
+        "latestPrice": 4000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/75.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "op11-041@leader-parallel",
+        "identityKey": "op11-041@leader-parallel",
+        "name": "ナミ【リーダーパラレル】《多色》",
+        "modelNo": "OP11-041",
+        "tags": [
+          "leader-parallel"
+        ],
+        "latestPrice": 3500,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP11/124.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "op11-041@leader-parallel",
+        "identityKey": "op11-041@leader-parallel",
+        "name": "ナミ 【リーダーパラレル】【青】【黄】【OP11-041】",
+        "modelNo": "OP11-041",
+        "tags": [
+          "leader-parallel"
+        ],
+        "latestPrice": 3000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP11-041_p1.png"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_OP06-047_parallel_prb02_sp",
     "suggestedCanonicalId": "OP06-047_PARALLEL_PRB02_SP",
     "canonicalName": "シャーロット・プリン【SPパラレル】《青》",
@@ -17132,8 +17153,8 @@
     "canonicalName": "キャロット【SPパラレル】《緑》",
     "modelCode": "OP08-023",
     "signature": "parallel+prb02+sp",
-    "candidateScore": 65,
-    "confidence": 65,
+    "candidateScore": 66,
+    "confidence": 66,
     "nameScore": 11,
     "imageScore": null,
     "imageStats": {
@@ -17145,9 +17166,9 @@
       "totalRecords": 4
     },
     "priceStats": {
-      "min": 2000,
+      "min": 2200,
       "max": 4000,
-      "ratio": 2
+      "ratio": 1.8
     },
     "maxPrice": 4000,
     "riskLevel": "medium",
@@ -17224,7 +17245,7 @@
           "prb02",
           "sp"
         ],
-        "latestPrice": 2000,
+        "latestPrice": 2200,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/PRB02/103.png"
       }
     ]
@@ -17290,7 +17311,7 @@
           "eb05",
           "leader-parallel"
         ],
-        "latestPrice": 2500,
+        "latestPrice": 2300,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/74.png"
       },
       {
@@ -17845,10 +17866,10 @@
     },
     "priceStats": {
       "min": 600,
-      "max": 1400,
-      "ratio": 2.3
+      "max": 1200,
+      "ratio": 2
     },
-    "maxPrice": 1400,
+    "maxPrice": 1200,
     "riskLevel": "medium",
     "warnings": [
       "同一店舗の複数商品を含む（mercard 2件）",
@@ -17873,7 +17894,7 @@
           "eb05",
           "leader-parallel"
         ],
-        "latestPrice": 1400,
+        "latestPrice": 1200,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/78.png"
       },
       {
@@ -17910,8 +17931,8 @@
     "canonicalName": "ジュエリー・ボニー【リーダーパラレル】《黄》",
     "modelCode": "OP13-100",
     "signature": "leader-parallel",
-    "candidateScore": 76,
-    "confidence": 76,
+    "candidateScore": 77,
+    "confidence": 77,
     "nameScore": 57,
     "imageScore": null,
     "imageStats": {
@@ -17924,10 +17945,10 @@
     },
     "priceStats": {
       "min": 500,
-      "max": 1200,
-      "ratio": 2.4
+      "max": 1100,
+      "ratio": 2.2
     },
-    "maxPrice": 1200,
+    "maxPrice": 1100,
     "riskLevel": "medium",
     "warnings": [
       "同一店舗の複数商品を含む（mercard 2件）",
@@ -17952,7 +17973,7 @@
           "eb05",
           "leader-parallel"
         ],
-        "latestPrice": 1200,
+        "latestPrice": 1100,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB05/77.png"
       },
       {
@@ -18578,14 +18599,14 @@
     ]
   },
   {
-    "candidateId": "candidate_OP09-078_base",
-    "suggestedCanonicalId": "OP09-078_BASE",
-    "canonicalName": "ゴムゴムの巨人【R】《紫》",
-    "modelCode": "OP09-078",
-    "signature": "base",
-    "candidateScore": 72,
-    "confidence": 72,
-    "nameScore": 27,
+    "candidateId": "candidate_P-102_promo",
+    "suggestedCanonicalId": "P-102_PROMO",
+    "canonicalName": "ナミ【プロモ】《緑》",
+    "modelCode": "P-102",
+    "signature": "promo",
+    "candidateScore": 64,
+    "confidence": 64,
+    "nameScore": 4,
     "imageScore": null,
     "imageStats": {
       "max": null,
@@ -18596,19 +18617,19 @@
       "totalRecords": 3
     },
     "priceStats": {
-      "min": 10,
-      "max": 10,
-      "ratio": 1
+      "min": 30,
+      "max": 50,
+      "ratio": 1.7
     },
-    "maxPrice": 10,
+    "maxPrice": 50,
     "riskLevel": "medium",
     "warnings": [
-      "同一店舗の複数商品を含む（torecard 2件）",
+      "同一店舗の複数商品を含む（mercard 2件）",
       "店舗間の画像比較データなし"
     ],
     "duplicateShops": [
       {
-        "shopId": "torecard",
+        "shopId": "mercard",
         "count": 2
       }
     ],
@@ -18617,37 +18638,46 @@
       {
         "shopId": "mercard",
         "shopName": "メルカード",
-        "sourceKey": "op09-078",
-        "identityKey": "op09-078",
-        "name": "ゴムゴムの巨人【R】《紫》",
-        "modelNo": "OP09-078",
-        "tags": [],
-        "latestPrice": 10,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP09/OP09-078.jpg"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op09-078",
-        "identityKey": "op09-078",
-        "name": "ゴムゴムの巨人 【R】【紫】【OP09-078】",
-        "modelNo": "OP09-078",
-        "tags": [],
-        "latestPrice": 10,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-078.jpeg"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "op09-078@ノマル",
-        "identityKey": "op09-078@ノマル",
-        "name": "ゴムゴムの巨人 【R】【ノーマル】【紫】【OP09-078】",
-        "modelNo": "OP09-078",
+        "sourceKey": "p-102@promo+スタンダドバトル",
+        "identityKey": "p-102@promo+スタンダドバトル",
+        "name": "ナミ【プロモ】《緑》",
+        "modelNo": "スタンダ-ドバトル版P-102",
         "tags": [
-          "ノマル"
+          "promo",
+          "スタンダドバトル"
         ],
-        "latestPrice": 10,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/OP09-078_p1.png"
+        "latestPrice": 50,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20251107_a6b19d.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-102@promo+イベント配布パック+プロモションカドセット",
+        "identityKey": "p-102@promo+イベント配布パック+プロモションカドセット",
+        "name": "ナミ 【P】【プロモ】【イベント配布パック】【プロモーションカードセット】【緑】【P-102】",
+        "modelNo": "P-102",
+        "tags": [
+          "promo",
+          "イベント配布パック",
+          "プロモションカドセット"
+        ],
+        "latestPrice": 50,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-102.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-102@promo+イベント配布パックb封入+プロモションカドセット2025年",
+        "identityKey": "p-102@promo+イベント配布パックb封入+プロモションカドセット2025年",
+        "name": "ナミ【プロモ】《緑》※イベント配布パックB封入",
+        "modelNo": "プロモーションカードセット2025年版P-102",
+        "tags": [
+          "promo",
+          "イベント配布パックb封入",
+          "プロモションカドセット2025年"
+        ],
+        "latestPrice": 30,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20251007_8d29df.png"
       }
     ]
   },
@@ -19599,10 +19629,10 @@
     },
     "priceStats": {
       "min": 120000,
-      "max": 130000,
-      "ratio": 1.1
+      "max": 140000,
+      "ratio": 1.2
     },
-    "maxPrice": 130000,
+    "maxPrice": 140000,
     "riskLevel": "low",
     "warnings": [
       "店舗間の画像比較データなし"
@@ -19621,7 +19651,7 @@
           "comic",
           "コミック"
         ],
-        "latestPrice": 130000,
+        "latestPrice": 140000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/124.png"
       },
       {
@@ -20012,6 +20042,68 @@
     ]
   },
   {
+    "candidateId": "candidate_PRB02-006_parallel_sp",
+    "suggestedCanonicalId": "PRB02-006_PARALLEL_SP",
+    "canonicalName": "ロロノア・ゾロ【SPパラレル】《緑》",
+    "modelCode": "PRB02-006",
+    "signature": "parallel+sp",
+    "candidateScore": 76,
+    "confidence": 76,
+    "nameScore": 46,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 1,
+      "totalRecords": 2
+    },
+    "priceStats": {
+      "min": 55000,
+      "max": 65000,
+      "ratio": 1.2
+    },
+    "maxPrice": 65000,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "prb02-006@eb04+parallel+sp",
+        "identityKey": "prb02-006@eb04+parallel+sp",
+        "name": "ロロノア・ゾロ【SPパラレル】《緑》",
+        "modelNo": "SPPRB02-006『EB04』",
+        "tags": [
+          "eb04",
+          "parallel",
+          "sp"
+        ],
+        "latestPrice": 65000,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB04/64.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "prb02-006@parallel+sp",
+        "identityKey": "prb02-006@parallel+sp",
+        "name": "ロロノア・ゾロ 【SP】【パラレル】【緑】【PRB02-006】",
+        "modelNo": "PRB02-006",
+        "tags": [
+          "parallel",
+          "sp"
+        ],
+        "latestPrice": 55000,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/PRB02-006_p2.png"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_OP09-051_parallel_silver_sp",
     "suggestedCanonicalId": "OP09-051_PARALLEL_SILVER_SP",
     "canonicalName": "バギー『銀』【三周年SPパラレル】《青》",
@@ -20135,68 +20227,6 @@
         ],
         "latestPrice": 45000,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/OP17/135.png"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_PRB02-006_parallel_sp",
-    "suggestedCanonicalId": "PRB02-006_PARALLEL_SP",
-    "canonicalName": "ロロノア・ゾロ【SPパラレル】《緑》",
-    "modelCode": "PRB02-006",
-    "signature": "parallel+sp",
-    "candidateScore": 76,
-    "confidence": 76,
-    "nameScore": 46,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 1,
-      "totalRecords": 2
-    },
-    "priceStats": {
-      "min": 55000,
-      "max": 60000,
-      "ratio": 1.1
-    },
-    "maxPrice": 60000,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "prb02-006@eb04+parallel+sp",
-        "identityKey": "prb02-006@eb04+parallel+sp",
-        "name": "ロロノア・ゾロ【SPパラレル】《緑》",
-        "modelNo": "SPPRB02-006『EB04』",
-        "tags": [
-          "eb04",
-          "parallel",
-          "sp"
-        ],
-        "latestPrice": 60000,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/EB04/64.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "prb02-006@parallel+sp",
-        "identityKey": "prb02-006@parallel+sp",
-        "name": "ロロノア・ゾロ 【SP】【パラレル】【緑】【PRB02-006】",
-        "modelNo": "PRB02-006",
-        "tags": [
-          "parallel",
-          "sp"
-        ],
-        "latestPrice": 55000,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/PRB02-006_p2.png"
       }
     ]
   },
@@ -23173,7 +23203,7 @@
           "sp"
         ],
         "latestPrice": 1700,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20231124_75c60a.png"
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20261118_a456f7.png"
       }
     ]
   },
@@ -24157,8 +24187,8 @@
     "canonicalName": "トニートニー・チョッパー【プロモ】《赤》",
     "modelCode": "EB02-003",
     "signature": "promo",
-    "candidateScore": 69,
-    "confidence": 69,
+    "candidateScore": 68,
+    "confidence": 68,
     "nameScore": 23,
     "imageScore": null,
     "imageStats": {
@@ -24170,9 +24200,9 @@
       "totalRecords": 2
     },
     "priceStats": {
-      "min": 900,
+      "min": 500,
       "max": 1200,
-      "ratio": 1.3
+      "ratio": 2.4
     },
     "maxPrice": 1200,
     "riskLevel": "low",
@@ -24208,7 +24238,7 @@
           "promo",
           "コミックス第1巻"
         ],
-        "latestPrice": 900,
+        "latestPrice": 500,
         "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20260424_e80ab6.jpg"
       }
     ]
@@ -24457,6 +24487,67 @@
     ]
   },
   {
+    "candidateId": "candidate_P-107_promo",
+    "suggestedCanonicalId": "P-107_PROMO",
+    "canonicalName": "ゴール・D・ロジャー【プロモ】《紫》",
+    "modelCode": "P-107",
+    "signature": "promo",
+    "candidateScore": 69,
+    "confidence": 69,
+    "nameScore": 31,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 2
+    },
+    "priceStats": {
+      "min": 300,
+      "max": 900,
+      "ratio": 3
+    },
+    "maxPrice": 900,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "p-107@promo+交流会配布",
+        "identityKey": "p-107@promo+交流会配布",
+        "name": "ゴール・D・ロジャー【プロモ】《紫》",
+        "modelNo": "交流会配布版P-107",
+        "tags": [
+          "promo",
+          "交流会配布"
+        ],
+        "latestPrice": 900,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250820_9fc2b7.png"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "p-107@promo+交流会",
+        "identityKey": "p-107@promo+交流会",
+        "name": "ゴール・D・ロジャー 【P】【プロモ】【交流会】【紫】【P-107】",
+        "modelNo": "P-107",
+        "tags": [
+          "promo",
+          "交流会"
+        ],
+        "latestPrice": 300,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-107.png"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_P-108_promo",
     "suggestedCanonicalId": "P-108_PROMO",
     "canonicalName": "モンキー・D・ルフィ【プロモ】《緑》",
@@ -24696,67 +24787,6 @@
         ],
         "latestPrice": 100,
         "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/20240909_70e1e5.jpg"
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_P-107_promo",
-    "suggestedCanonicalId": "P-107_PROMO",
-    "canonicalName": "ゴール・D・ロジャー【プロモ】《紫》",
-    "modelCode": "P-107",
-    "signature": "promo",
-    "candidateScore": 71,
-    "confidence": 71,
-    "nameScore": 31,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 2
-    },
-    "priceStats": {
-      "min": 300,
-      "max": 500,
-      "ratio": 1.7
-    },
-    "maxPrice": 500,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "p-107@promo+交流会配布",
-        "identityKey": "p-107@promo+交流会配布",
-        "name": "ゴール・D・ロジャー【プロモ】《紫》",
-        "modelNo": "交流会配布版P-107",
-        "tags": [
-          "promo",
-          "交流会配布"
-        ],
-        "latestPrice": 500,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/20250820_9fc2b7.png"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "p-107@promo+交流会",
-        "identityKey": "p-107@promo+交流会",
-        "name": "ゴール・D・ロジャー 【P】【プロモ】【交流会】【紫】【P-107】",
-        "modelNo": "P-107",
-        "tags": [
-          "promo",
-          "交流会"
-        ],
-        "latestPrice": 300,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/P-107.png"
       }
     ]
   },
@@ -26409,6 +26439,125 @@
     ]
   },
   {
+    "candidateId": "candidate_ST18-004_base",
+    "suggestedCanonicalId": "ST18-004_BASE",
+    "canonicalName": "ゾロ十郎【SR】《紫》",
+    "modelCode": "ST18-004",
+    "signature": "base",
+    "candidateScore": 65,
+    "confidence": 65,
+    "nameScore": 18,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 2
+    },
+    "priceStats": {
+      "min": 10,
+      "max": 50,
+      "ratio": 5
+    },
+    "maxPrice": 50,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "st18-004",
+        "identityKey": "st18-004",
+        "name": "ゾロ十郎【SR】《紫》",
+        "modelNo": "ST18-004",
+        "tags": [],
+        "latestPrice": 50,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/ST18/5.jpg"
+      },
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "st18-004@ルフィ",
+        "identityKey": "st18-004@ルフィ",
+        "name": "ゾロ十郎【SR】【スタートデッキ 紫 モンキー・D・ルフィ】【紫】【ST18-004】",
+        "modelNo": "ST18-004",
+        "tags": [
+          "ルフィ"
+        ],
+        "latestPrice": 10,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST18-004.jpeg"
+      }
+    ]
+  },
+  {
+    "candidateId": "candidate_ST18-001_foil_prb02",
+    "suggestedCanonicalId": "ST18-001_FOIL_PRB02",
+    "canonicalName": "ウソ八【BEST2ホイル版】《紫》",
+    "modelCode": "ST18-001",
+    "signature": "foil+prb02",
+    "candidateScore": 64,
+    "confidence": 64,
+    "nameScore": 6,
+    "imageScore": null,
+    "imageStats": {
+      "max": null,
+      "median": null,
+      "min": null,
+      "pairCount": 0,
+      "hashedRecords": 0,
+      "totalRecords": 2
+    },
+    "priceStats": {
+      "min": 30,
+      "max": 50,
+      "ratio": 1.7
+    },
+    "maxPrice": 50,
+    "riskLevel": "low",
+    "warnings": [
+      "店舗間の画像比較データなし"
+    ],
+    "duplicateShops": [],
+    "conditionConflict": false,
+    "records": [
+      {
+        "shopId": "torecard",
+        "shopName": "トレカード秋葉原",
+        "sourceKey": "st18-001@foil+prb02",
+        "identityKey": "st18-001@foil+prb02",
+        "name": "ウソ八 【PRB-02】【C】【フォイル】【紫】【ST18-001】",
+        "modelNo": "ST18-001",
+        "tags": [
+          "foil",
+          "prb02"
+        ],
+        "latestPrice": 50,
+        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST18-001_p3.png"
+      },
+      {
+        "shopId": "mercard",
+        "shopName": "メルカード",
+        "sourceKey": "st18-001@foil+prb02+加工",
+        "identityKey": "st18-001@foil+prb02+加工",
+        "name": "ウソ八【BEST2ホイル版】《紫》",
+        "modelNo": "BEST2ホイル加工ST18-001『PRB02』",
+        "tags": [
+          "foil",
+          "prb02",
+          "加工"
+        ],
+        "latestPrice": 30,
+        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/PRB02/81.png"
+      }
+    ]
+  },
+  {
     "candidateId": "candidate_OP01-022_parallel_promo",
     "suggestedCanonicalId": "OP01-022_PARALLEL_PROMO",
     "canonicalName": "ブルック【プロモ】《赤》",
@@ -26590,68 +26739,6 @@
     ]
   },
   {
-    "candidateId": "candidate_ST18-001_foil_prb02",
-    "suggestedCanonicalId": "ST18-001_FOIL_PRB02",
-    "canonicalName": "ウソ八【BEST2ホイル版】《紫》",
-    "modelCode": "ST18-001",
-    "signature": "foil+prb02",
-    "candidateScore": 62,
-    "confidence": 62,
-    "nameScore": 6,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 2
-    },
-    "priceStats": {
-      "min": 10,
-      "max": 50,
-      "ratio": 5
-    },
-    "maxPrice": 50,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "st18-001@foil+prb02",
-        "identityKey": "st18-001@foil+prb02",
-        "name": "ウソ八 【PRB-02】【C】【フォイル】【紫】【ST18-001】",
-        "modelNo": "ST18-001",
-        "tags": [
-          "foil",
-          "prb02"
-        ],
-        "latestPrice": 50,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST18-001_p3.png"
-      },
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "st18-001@foil+prb02+加工",
-        "identityKey": "st18-001@foil+prb02+加工",
-        "name": "ウソ八【BEST2ホイル版】《紫》",
-        "modelNo": "BEST2ホイル加工ST18-001『PRB02』",
-        "tags": [
-          "foil",
-          "prb02",
-          "加工"
-        ],
-        "latestPrice": 10,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/PRB02/81.png"
-      }
-    ]
-  },
-  {
     "candidateId": "candidate_ST02-007_foil_prb02",
     "suggestedCanonicalId": "ST02-007_FOIL_PRB02",
     "canonicalName": "ジュエリー・ボニー【BEST2ホイル版】《緑》",
@@ -26771,63 +26858,6 @@
         ],
         "latestPrice": 10,
         "imageUrl": ""
-      }
-    ]
-  },
-  {
-    "candidateId": "candidate_ST18-004_base",
-    "suggestedCanonicalId": "ST18-004_BASE",
-    "canonicalName": "ゾロ十郎【SR】《紫》",
-    "modelCode": "ST18-004",
-    "signature": "base",
-    "candidateScore": 66,
-    "confidence": 66,
-    "nameScore": 18,
-    "imageScore": null,
-    "imageStats": {
-      "max": null,
-      "median": null,
-      "min": null,
-      "pairCount": 0,
-      "hashedRecords": 0,
-      "totalRecords": 2
-    },
-    "priceStats": {
-      "min": 10,
-      "max": 30,
-      "ratio": 3
-    },
-    "maxPrice": 30,
-    "riskLevel": "low",
-    "warnings": [
-      "店舗間の画像比較データなし"
-    ],
-    "duplicateShops": [],
-    "conditionConflict": false,
-    "records": [
-      {
-        "shopId": "mercard",
-        "shopName": "メルカード",
-        "sourceKey": "st18-004",
-        "identityKey": "st18-004",
-        "name": "ゾロ十郎【SR】《紫》",
-        "modelNo": "ST18-004",
-        "tags": [],
-        "latestPrice": 30,
-        "imageUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/ST18/5.jpg"
-      },
-      {
-        "shopId": "torecard",
-        "shopName": "トレカード秋葉原",
-        "sourceKey": "st18-004@ルフィ",
-        "identityKey": "st18-004@ルフィ",
-        "name": "ゾロ十郎【SR】【スタートデッキ 紫 モンキー・D・ルフィ】【紫】【ST18-004】",
-        "modelNo": "ST18-004",
-        "tags": [
-          "ルフィ"
-        ],
-        "latestPrice": 10,
-        "imageUrl": "https://torecard3.ocnk.net/data/torecard3/product/ST18-004.jpeg"
       }
     ]
   },
