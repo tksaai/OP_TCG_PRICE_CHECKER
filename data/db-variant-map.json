@@ -1,8 +1,8 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-11-20T23:56:49.940Z",
-  "catalogGeneratedAt": "2026-11-20T17:54:15.624Z",
+  "generatedAt": "2026-11-21T14:33:07.546Z",
+  "catalogGeneratedAt": "2026-11-21T09:39:39.980Z",
   "mappings": {
     "EB01-001::EB01-001": {
       "priceKey": "eb01-001",
@@ -416,6 +416,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "EB01-061",
       "variantId": "EB01-061_p1"
+    },
+    "EB02-001::EB02-001": {
+      "priceKey": "eb02-001",
+      "method": "normal-variant-tags",
+      "confirmedBy": "variant-tags",
+      "cardNumber": "EB02-001",
+      "variantId": "EB02-001"
     },
     "EB02-002::EB02-002": {
       "priceKey": "eb02-002",
@@ -14017,6 +14024,398 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP17-119",
       "variantId": "OP17-119_p1"
+    },
+    "OP18-004::OP18-004": {
+      "priceKey": "op18-004",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-004",
+      "variantId": "OP18-004"
+    },
+    "OP18-008::OP18-008": {
+      "priceKey": "op18-008",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-008",
+      "variantId": "OP18-008"
+    },
+    "OP18-009::OP18-009": {
+      "priceKey": "op18-009",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-009",
+      "variantId": "OP18-009"
+    },
+    "OP18-010::OP18-010": {
+      "priceKey": "op18-010",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-010",
+      "variantId": "OP18-010"
+    },
+    "OP18-011::OP18-011": {
+      "priceKey": "op18-011",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-011",
+      "variantId": "OP18-011"
+    },
+    "OP18-013::OP18-013": {
+      "priceKey": "op18-013",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-013",
+      "variantId": "OP18-013"
+    },
+    "OP18-015::OP18-015": {
+      "priceKey": "op18-015",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-015",
+      "variantId": "OP18-015"
+    },
+    "OP18-019::OP18-019": {
+      "priceKey": "op18-019",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-019",
+      "variantId": "OP18-019"
+    },
+    "OP18-026::OP18-026": {
+      "priceKey": "op18-026",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-026",
+      "variantId": "OP18-026"
+    },
+    "OP18-027::OP18-027": {
+      "priceKey": "op18-027",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-027",
+      "variantId": "OP18-027"
+    },
+    "OP18-029::OP18-029": {
+      "priceKey": "op18-029",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-029",
+      "variantId": "OP18-029"
+    },
+    "OP18-031::OP18-031": {
+      "priceKey": "op18-031",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-031",
+      "variantId": "OP18-031"
+    },
+    "OP18-034::OP18-034": {
+      "priceKey": "op18-034",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-034",
+      "variantId": "OP18-034"
+    },
+    "OP18-036::OP18-036": {
+      "priceKey": "op18-036",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-036",
+      "variantId": "OP18-036"
+    },
+    "OP18-038::OP18-038": {
+      "priceKey": "op18-038",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-038",
+      "variantId": "OP18-038"
+    },
+    "OP18-039::OP18-039": {
+      "priceKey": "op18-039",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-039",
+      "variantId": "OP18-039"
+    },
+    "OP18-046::OP18-046": {
+      "priceKey": "op18-046",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-046",
+      "variantId": "OP18-046"
+    },
+    "OP18-048::OP18-048": {
+      "priceKey": "op18-048",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-048",
+      "variantId": "OP18-048"
+    },
+    "OP18-050::OP18-050": {
+      "priceKey": "op18-050",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-050",
+      "variantId": "OP18-050"
+    },
+    "OP18-051::OP18-051": {
+      "priceKey": "op18-051",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-051",
+      "variantId": "OP18-051"
+    },
+    "OP18-052::OP18-052": {
+      "priceKey": "op18-052",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-052",
+      "variantId": "OP18-052"
+    },
+    "OP18-053::OP18-053": {
+      "priceKey": "op18-053",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-053",
+      "variantId": "OP18-053"
+    },
+    "OP18-054::OP18-054": {
+      "priceKey": "op18-054",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-054",
+      "variantId": "OP18-054"
+    },
+    "OP18-059::OP18-059": {
+      "priceKey": "op18-059",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-059",
+      "variantId": "OP18-059"
+    },
+    "OP18-061::OP18-061": {
+      "priceKey": "op18-061",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-061",
+      "variantId": "OP18-061"
+    },
+    "OP18-064::OP18-064": {
+      "priceKey": "op18-064",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-064",
+      "variantId": "OP18-064"
+    },
+    "OP18-065::OP18-065": {
+      "priceKey": "op18-065",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-065",
+      "variantId": "OP18-065"
+    },
+    "OP18-070::OP18-070": {
+      "priceKey": "op18-070",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-070",
+      "variantId": "OP18-070"
+    },
+    "OP18-072::OP18-072": {
+      "priceKey": "op18-072",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-072",
+      "variantId": "OP18-072"
+    },
+    "OP18-074::OP18-074": {
+      "priceKey": "op18-074",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-074",
+      "variantId": "OP18-074"
+    },
+    "OP18-075::OP18-075": {
+      "priceKey": "op18-075",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-075",
+      "variantId": "OP18-075"
+    },
+    "OP18-076::OP18-076": {
+      "priceKey": "op18-076",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-076",
+      "variantId": "OP18-076"
+    },
+    "OP18-077::OP18-077": {
+      "priceKey": "op18-077",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-077",
+      "variantId": "OP18-077"
+    },
+    "OP18-078::OP18-078": {
+      "priceKey": "op18-078",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-078",
+      "variantId": "OP18-078"
+    },
+    "OP18-080::OP18-080": {
+      "priceKey": "op18-080",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-080",
+      "variantId": "OP18-080"
+    },
+    "OP18-083::OP18-083": {
+      "priceKey": "op18-083",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-083",
+      "variantId": "OP18-083"
+    },
+    "OP18-084::OP18-084": {
+      "priceKey": "op18-084",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-084",
+      "variantId": "OP18-084"
+    },
+    "OP18-085::OP18-085": {
+      "priceKey": "op18-085",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-085",
+      "variantId": "OP18-085"
+    },
+    "OP18-088::OP18-088": {
+      "priceKey": "op18-088",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-088",
+      "variantId": "OP18-088"
+    },
+    "OP18-092::OP18-092": {
+      "priceKey": "op18-092",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-092",
+      "variantId": "OP18-092"
+    },
+    "OP18-095::OP18-095": {
+      "priceKey": "op18-095",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-095",
+      "variantId": "OP18-095"
+    },
+    "OP18-096::OP18-096": {
+      "priceKey": "op18-096",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-096",
+      "variantId": "OP18-096"
+    },
+    "OP18-097::OP18-097": {
+      "priceKey": "op18-097",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-097",
+      "variantId": "OP18-097"
+    },
+    "OP18-099::OP18-099": {
+      "priceKey": "op18-099",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-099",
+      "variantId": "OP18-099"
+    },
+    "OP18-100::OP18-100": {
+      "priceKey": "op18-100",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-100",
+      "variantId": "OP18-100"
+    },
+    "OP18-101::OP18-101": {
+      "priceKey": "op18-101",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-101",
+      "variantId": "OP18-101"
+    },
+    "OP18-103::OP18-103": {
+      "priceKey": "op18-103",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-103",
+      "variantId": "OP18-103"
+    },
+    "OP18-105::OP18-105": {
+      "priceKey": "op18-105",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-105",
+      "variantId": "OP18-105"
+    },
+    "OP18-108::OP18-108": {
+      "priceKey": "op18-108",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-108",
+      "variantId": "OP18-108"
+    },
+    "OP18-109::OP18-109": {
+      "priceKey": "op18-109",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-109",
+      "variantId": "OP18-109"
+    },
+    "OP18-110::OP18-110": {
+      "priceKey": "op18-110",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-110",
+      "variantId": "OP18-110"
+    },
+    "OP18-113::OP18-113": {
+      "priceKey": "op18-113",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-113",
+      "variantId": "OP18-113"
+    },
+    "OP18-115::OP18-115": {
+      "priceKey": "op18-115",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-115",
+      "variantId": "OP18-115"
+    },
+    "OP18-117::OP18-117": {
+      "priceKey": "op18-117",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-117",
+      "variantId": "OP18-117"
+    },
+    "OP18-118::OP18-118": {
+      "priceKey": "op18-118",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-118",
+      "variantId": "OP18-118"
+    },
+    "OP18-119::OP18-119": {
+      "priceKey": "op18-119",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-119",
+      "variantId": "OP18-119"
     },
     "P-001::P-001_p1": {
       "priceKey": "p-001@parallel+promo+プレミアムカドコレクション25周年エディション",
