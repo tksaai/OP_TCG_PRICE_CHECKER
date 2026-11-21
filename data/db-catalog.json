@@ -1,12 +1,12 @@
 {
   "format": "op-tcg-db-catalog",
   "version": 1,
-  "generatedAt": "2026-11-21T09:39:39.980Z",
-  "syncedAt": "2026-11-21T14:33:07.349Z",
+  "generatedAt": "2026-11-21T16:51:40.172Z",
+  "syncedAt": "2026-11-21T23:07:03.155Z",
   "sourceCounts": {
     "cards": 3280,
     "manifestCards": 3280,
-    "provisionalCards": 2
+    "provisionalCards": 8
   },
   "variants": [
     {
@@ -100895,6 +100895,60 @@
       "provisionalUniqueId": "ST37-001_ST37-001.png"
     },
     {
+      "variantKey": "ST37-006::ST37-006",
+      "cardNumber": "ST37-006",
+      "cardName": "ポートガス・Ｄ・エース",
+      "variantId": "ST37-006",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: スタートデッキ 砂漠の王女と海賊たち",
+      "getInfo": "スタートデッキ 砂漠の王女と海賊たち【ST-37】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/ST37-006.jpg",
+      "path": "CardsWebP/Provisional/ST37/ST37-006_ST37-006.webp",
+      "fallbackPath": "CardsWebP/Provisional/ST37/ST37-006_ST37-006.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "ST37-006_ST37-006.jpg"
+    },
+    {
+      "variantKey": "ST37-007::ST37-007",
+      "cardNumber": "ST37-007",
+      "cardName": "モンキー・D・ルフィ",
+      "variantId": "ST37-007",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: スタートデッキ 砂漠の王女と海賊たち",
+      "getInfo": "スタートデッキ 砂漠の王女と海賊たち【ST-37】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/ST37-007.jpg",
+      "path": "CardsWebP/Provisional/ST37/ST37-007_ST37-007.webp",
+      "fallbackPath": "CardsWebP/Provisional/ST37/ST37-007_ST37-007.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "ST37-007_ST37-007.jpg"
+    },
+    {
+      "variantKey": "ST37-015::ST37-015",
+      "cardNumber": "ST37-015",
+      "cardName": "お前の方が 小物だろ!!!",
+      "variantId": "ST37-015",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: スタートデッキ 砂漠の王女と海賊たち",
+      "getInfo": "スタートデッキ 砂漠の王女と海賊たち【ST-37】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/ST37-015.jpg",
+      "path": "CardsWebP/Provisional/ST37/ST37-015_ST37-015.webp",
+      "fallbackPath": "CardsWebP/Provisional/ST37/ST37-015_ST37-015.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "ST37-015_ST37-015.jpg"
+    },
+    {
       "variantKey": "ST38-001::ST38-001",
       "cardNumber": "ST38-001",
       "cardName": "Mr.0（クロコダイル）",
@@ -100911,6 +100965,60 @@
       "identityTags": [],
       "provisional": true,
       "provisionalUniqueId": "ST38-001_ST38-001.png"
+    },
+    {
+      "variantKey": "ST38-004::ST38-004",
+      "cardNumber": "ST38-004",
+      "cardName": "ミス・ゴールデンウィーク(マリアンヌ)",
+      "variantId": "ST38-004",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: スタートデッキ バロックワークス",
+      "getInfo": "スタートデッキ バロックワークス【ST-38】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/ST38-004.jpg",
+      "path": "CardsWebP/Provisional/ST38/ST38-004_ST38-004.webp",
+      "fallbackPath": "CardsWebP/Provisional/ST38/ST38-004_ST38-004.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "ST38-004_ST38-004.jpg"
+    },
+    {
+      "variantKey": "ST38-008::ST38-008",
+      "cardNumber": "ST38-008",
+      "cardName": "Mr.0（クロコダイル）",
+      "variantId": "ST38-008",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: スタートデッキ バロックワークス",
+      "getInfo": "スタートデッキ バロックワークス【ST-38】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/ST38-008.jpg",
+      "path": "CardsWebP/Provisional/ST38/ST38-008_ST38-008.webp",
+      "fallbackPath": "CardsWebP/Provisional/ST38/ST38-008_ST38-008.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "ST38-008_ST38-008.jpg"
+    },
+    {
+      "variantKey": "ST38-015::ST38-015",
+      "cardNumber": "ST38-015",
+      "cardName": "自惚れるなよ 小物が……",
+      "variantId": "ST38-015",
+      "variantType": "normal",
+      "variantIndex": 0,
+      "label": "仮DB: スタートデッキ バロックワークス",
+      "getInfo": "スタートデッキ バロックワークス【ST-38】",
+      "source": "provisional",
+      "sourceUrl": "https://akihabara-cardshop.com/wp-content/themes/wp/img/product/info/SR38-015.jpg",
+      "path": "CardsWebP/Provisional/ST38/ST38-015_SR38-015.webp",
+      "fallbackPath": "CardsWebP/Provisional/ST38/ST38-015_SR38-015.webp",
+      "imageHash": null,
+      "identityTags": [],
+      "provisional": true,
+      "provisionalUniqueId": "ST38-015_SR38-015.jpg"
     }
   ]
 }
