@@ -1,7 +1,7 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-11-21T23:07:03.325Z",
+  "generatedAt": "2026-11-22T14:28:25.098Z",
   "catalogGeneratedAt": "2026-11-21T16:51:40.172Z",
   "mappings": {
     "EB01-001::EB01-001": {
@@ -14199,6 +14199,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP18-061",
       "variantId": "OP18-061"
+    },
+    "OP18-063::OP18-063": {
+      "priceKey": "op18-063",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP18-063",
+      "variantId": "OP18-063"
     },
     "OP18-064::OP18-064": {
       "priceKey": "op18-064",
