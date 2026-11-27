@@ -1,8 +1,8 @@
 {
   "format": "op-tcg-db-variant-map",
   "version": 1,
-  "generatedAt": "2026-11-27T01:40:51.046Z",
-  "catalogGeneratedAt": "2026-11-26T16:58:30.321Z",
+  "generatedAt": "2026-11-27T16:32:20.339Z",
+  "catalogGeneratedAt": "2026-11-27T12:28:07.242Z",
   "mappings": {
     "EB01-001::EB01-001": {
       "priceKey": "eb01-001",
@@ -2103,6 +2103,13 @@
       "confirmedBy": "image-path",
       "cardNumber": "OP01-025",
       "variantId": "OP01-025_p1"
+    },
+    "OP01-025::OP01-025_p4": {
+      "priceKey": "op01-025@flagship+promo",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "OP01-025",
+      "variantId": "OP01-025_p4"
     },
     "OP01-026::OP01-026": {
       "priceKey": "op01-026",
@@ -10498,7 +10505,7 @@
       "variantId": "OP13-080_p1"
     },
     "OP13-080::OP13-080_p2": {
-      "priceKey": "op13-080@parallel+red",
+      "priceKey": "OP13-080_SPECIAL_PARALLEL",
       "method": "image-path",
       "confirmedBy": "image-path",
       "cardNumber": "OP13-080",
@@ -10533,7 +10540,7 @@
       "variantId": "OP13-083_p1"
     },
     "OP13-083::OP13-083_p2": {
-      "priceKey": "op13-083@parallel+red",
+      "priceKey": "OP13-083_SPECIAL_PARALLEL",
       "method": "image-path",
       "confirmedBy": "image-path",
       "cardNumber": "OP13-083",
@@ -10554,7 +10561,7 @@
       "variantId": "OP13-084_p1"
     },
     "OP13-084::OP13-084_p2": {
-      "priceKey": "op13-084@parallel+red",
+      "priceKey": "OP13-084_SPECIAL_PARALLEL",
       "method": "image-path",
       "confirmedBy": "image-path",
       "cardNumber": "OP13-084",
@@ -10582,7 +10589,7 @@
       "variantId": "OP13-089_p1"
     },
     "OP13-089::OP13-089_p2": {
-      "priceKey": "op13-089@parallel+red",
+      "priceKey": "OP13-089_SPECIAL_PARALLEL",
       "method": "image-path",
       "confirmedBy": "image-path",
       "cardNumber": "OP13-089",
@@ -10610,7 +10617,7 @@
       "variantId": "OP13-091_p1"
     },
     "OP13-091::OP13-091_p2": {
-      "priceKey": "op13-091@parallel+red",
+      "priceKey": "OP13-091_SPECIAL_PARALLEL",
       "method": "image-path",
       "confirmedBy": "image-path",
       "cardNumber": "OP13-091",
@@ -15411,6 +15418,13 @@
       "cardNumber": "ST01-006",
       "variantId": "ST01-006_p4"
     },
+    "ST01-006::ST01-006_p6": {
+      "priceKey": "st01-006@flagship+promo",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "ST01-006",
+      "variantId": "ST01-006_p6"
+    },
     "ST01-006::ST01-006_p7": {
       "priceKey": "st01-006@promo+プロモションカドセット",
       "method": "image-path",
@@ -15809,6 +15823,13 @@
       "confirmedBy": "variant-tags",
       "cardNumber": "ST04-005",
       "variantId": "ST04-005"
+    },
+    "ST04-005::ST04-005_p2": {
+      "priceKey": "st04-005@flagship+promo",
+      "method": "image-path",
+      "confirmedBy": "image-path",
+      "cardNumber": "ST04-005",
+      "variantId": "ST04-005_p2"
     },
     "ST04-005::ST04-005_p3": {
       "priceKey": "st04-005@parallel+sp",

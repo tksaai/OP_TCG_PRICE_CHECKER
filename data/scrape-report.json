@@ -1,11 +1,11 @@
 {
-  "date": "2026/11/27",
+  "date": "2026/11/28",
   "shops": [
     {
       "id": "mercard",
       "name": "メルカード",
-      "fetched": 3048,
-      "previous": 4727,
+      "fetched": 3020,
+      "previous": 4694,
       "status": "active",
       "healthy": true,
       "error": null,
@@ -15,7 +15,7 @@
       "id": "torecard",
       "name": "トレカード秋葉原",
       "fetched": 0,
-      "previous": 2432,
+      "previous": 2409,
       "status": "paused",
       "healthy": true,
       "error": null,
