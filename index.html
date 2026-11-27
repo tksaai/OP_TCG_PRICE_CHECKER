@@ -10,7 +10,7 @@
   <link rel="icon" type="image/svg+xml" href="icons/app-icon.svg">
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="theme-color" content="#2c3e50">
-  <meta name="application-version" content="2.4.1">
+  <meta name="application-version" content="2.4.2">
   <meta name="apple-mobile-web-app-title" content="ワンピ資産">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -58,8 +58,10 @@
     #grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 16px; }
     .card { background: white; border-radius: 8px; padding: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); cursor: pointer; text-align: left; transition: 0.2s; display: grid; grid-template-columns: clamp(105px, 34%, 150px) minmax(0, 1fr); gap: 12px; align-items: start; position: relative; }
     .card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
-    .card-image-frame { width: 100%; aspect-ratio: 5 / 7; border-radius: 6px; overflow: hidden; background: #eef1f4; box-shadow: inset 0 0 0 1px rgba(0,0,0,.06); }
-    .card-image-frame img { display: block; width: 100%; height: 100%; object-fit: contain; border-radius: inherit; }
+    .card-image-frame { width: 100%; aspect-ratio: 5 / 7; border-radius: 6px; overflow: hidden; background: #eef1f4; box-shadow: inset 0 0 0 1px rgba(0,0,0,.06); display: grid; place-items: center; }
+    .card-image-frame img { display: block; grid-area: 1 / 1; width: 100%; height: 100%; object-fit: contain; border-radius: inherit; background: #eef1f4; }
+    .card-image-placeholder { display: none; grid-area: 1 / 1; padding: 10px; color: #7b8793; font-size: .76em; font-weight: bold; text-align: center; }
+    .card-image-frame.image-unavailable .card-image-placeholder { display: block; }
     .card-info { min-width: 0; align-self: stretch; display: flex; flex-direction: column; }
     
     .price-main { font-weight: bold; color: #d9534f; font-size: 1.4em; margin: 5px 0; }

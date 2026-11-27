@@ -38,6 +38,8 @@ jobs:
         run: node scripts/test-index-integration.mjs
       - name: Test cards index builder
         run: node scripts/test-cards-index.mjs
+      - name: Test card image fallbacks
+        run: node scripts/test-card-image-fallbacks.mjs
       - name: Test PWA updates
         run: node scripts/test-pwa-update.mjs
       - name: Test shop HTTP fallback

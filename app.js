@@ -11,7 +11,7 @@ const DB_CATALOG_URL = 'data/db-catalog.json';
 const DB_PRICE_ALIASES_URL = 'data/db-price-aliases.json';
 const DB_VARIANT_MAP_URL = 'data/db-variant-map.json';
 const IMAGE_HASHES_URL = 'data/image-hashes.json';
-const APP_VERSION = '2.4.1';
+const APP_VERSION = '2.4.2';
 // 一時停止中のショップは、古いキャッシュや過去データに残っていても表示・集計しない。
 const DISABLED_SHOP_IDS = new Set(['cardrush']);
 let unavailableShopIds = new Set(DISABLED_SHOP_IDS);
@@ -107,6 +107,7 @@ function applyShopAvailability(report) {
 }
 
 function normalizeCardForShops(card) {
+  const indexedImageId = card.imageId || card.fallbackImageUrl || '';
   if (!card.pricesByShop) {
     card.pricesByShop = {
       mercard: {
@@ -128,7 +129,7 @@ function normalizeCardForShops(card) {
   card.latestPrice = Number(best?.[1]?.latestPrice || 0);
   card.imageId = best?.[1]?.imageUrl
     || getEnabledShopEntries(card).find(([, shop]) => shop.imageUrl)?.[1]?.imageUrl
-    || '';
+    || indexedImageId;
   return attachCardDetails(card);
 }
 
@@ -152,6 +153,40 @@ function getActiveHistory(card) {
 
 function getActiveImage(card) {
   return getShopData(card)?.imageUrl || card.imageId || '';
+}
+
+function loadCardImage(img, imageFrame, card) {
+  const primaryImageUrl = getActiveImage(card);
+  const fallbackImageUrl = card.fallbackImageUrl || '';
+
+  const showUnavailable = () => {
+    img.hidden = true;
+    img.removeAttribute('src');
+    imageFrame.classList.add('image-unavailable');
+  };
+
+  img.addEventListener('load', () => {
+    img.hidden = false;
+    imageFrame.classList.remove('image-unavailable');
+  });
+  img.addEventListener('error', () => {
+    if (fallbackImageUrl && img.dataset.fallbackAttempted !== 'true') {
+      img.dataset.fallbackAttempted = 'true';
+      img.src = fallbackImageUrl;
+      return;
+    }
+    showUnavailable();
+  });
+
+  if (primaryImageUrl) {
+    if (primaryImageUrl === fallbackImageUrl) img.dataset.fallbackAttempted = 'true';
+    img.src = primaryImageUrl;
+  } else if (fallbackImageUrl) {
+    img.dataset.fallbackAttempted = 'true';
+    img.src = fallbackImageUrl;
+  } else {
+    showUnavailable();
+  }
 }
 
 function getShopLastDate(shop) {
@@ -1070,13 +1105,15 @@ function filterAndRender() {
     img.setAttribute('referrerpolicy', 'no-referrer');
     img.setAttribute('width', '500');
     img.setAttribute('height', '700');
-    const imageId = getActiveImage(c);
-    // 画像 URL はショップのものをそのまま使う (未設定なら読み込ませない)
-    if (imageId) img.src = imageId;
     img.alt = c.name || c.modelNo || '';
     const imageFrame = document.createElement('div');
     imageFrame.className = 'card-image-frame';
+    const imagePlaceholder = document.createElement('span');
+    imagePlaceholder.className = 'card-image-placeholder';
+    imagePlaceholder.textContent = '画像未登録';
     imageFrame.appendChild(img);
+    imageFrame.appendChild(imagePlaceholder);
+    loadCardImage(img, imageFrame, c);
     
     // 4. 情報部分のdivを作成（innerHTML += によるバグを防ぐ）
     const infoDiv = document.createElement('div');

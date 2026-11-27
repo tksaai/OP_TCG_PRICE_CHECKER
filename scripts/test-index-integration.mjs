@@ -54,6 +54,9 @@ assert.match(appJs, /imageFrame\.className = 'card-image-frame'/u);
 assert.match(appJs, /infoDiv\.className = 'card-info'/u);
 assert.match(appJs, /img\.setAttribute\('width', '500'\)/u);
 assert.match(appJs, /img\.setAttribute\('height', '700'\)/u);
+assert.match(appJs, /loadCardImage\(img, imageFrame, c\)/u);
+assert.match(appJs, /imagePlaceholder\.textContent = '画像未登録'/u);
+assert.match(html, /\.card-image-frame\.image-unavailable \.card-image-placeholder/u);
 
 // XSS の回帰防止: HTML マークアップを生成するテンプレートだけを検査する。
 // textContent や CSV のテンプレート補間は HTML として解釈されないため対象外。
