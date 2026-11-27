@@ -71,9 +71,14 @@ const TOKEN_RULES = [
   [/^金$/u, ['gold']],
   [/^銀$/u, ['silver']],
   [/フルアート/u, ['full-art']],
-  // 「書き下ろしサイン」(1M超)と「書き下ろし」(数万円)は別カード
-  [/書き下ろしサイン(?:入り)?/u, ['autograph']],
-  [/書き下ろし/u, ['newly-drawn']],
+  // 店舗側で「書き下ろし」から「描き下ろし」へ一斉に表記変更されたため同義扱い。
+  // 作者名は同じ商品に後から追記されることがあるので、直後の描き下ろし表記と
+  // 一緒に消費する。サイン版は通常の描き下ろし版とは価格が大きく異なる。
+  [/[\p{L}\p{N}・.=\s]{1,40}氏(?:書|描)き下ろしサイン(?:入り)?/u, ['autograph']],
+  [/(?:書|描)き下ろしサイン(?:入り)?/u, ['autograph']],
+  [/[\p{L}\p{N}・.=\s]{1,40}氏(?:書|描)き下ろし/u, ['newly-drawn']],
+  [/(?:書|描)き下ろし/u, ['newly-drawn']],
+  [/^サイン入り$/u, ['autograph']],
   [/best2ホイル版?/iu, ['prb02', 'foil']],
   [/foil(?:仕様)?|ホイル|フォイル/iu, ['foil']],
   [/^prb-?(\d{2})$/iu, (m) => [`prb${m[1]}`]],
@@ -221,6 +226,9 @@ function finalizeTags(tags) {
   if (tags.has('comic') || tags.has('leader-parallel') || tags.has('autograph')) {
     tags.delete('parallel');
   }
+  // サイン入り版は必ず描き下ろしだが、店舗によって描き下ろしの併記有無が違う。
+  // autograph 自体で版種を一意に識別できるため、newly-drawn は冗長。
+  if (tags.has('autograph')) tags.delete('newly-drawn');
   // 金文字リーダーSP は gold-letter に集約:
   //   torecard: SP+金文字+リーダーSP / mercard: 金箔リーダーパラレル+SPOPxx『EByy』
   //   / cardrush: 金文字+アニメイラスト → すべて gold-letter のみ

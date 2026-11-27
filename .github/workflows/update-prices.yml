@@ -28,6 +28,8 @@ jobs:
         run: node scripts/test-search-filters.mjs
       - name: Test alias candidate safety
         run: node scripts/test-alias-candidates.mjs
+      - name: Test card identity and same-shop deduplication
+        run: node scripts/test-card-identity.mjs && node scripts/test-card-store.mjs
       - name: Test alias review utilities
         run: node scripts/test-alias-review-utils.mjs
       - name: Test OP_TCG_DB collection import

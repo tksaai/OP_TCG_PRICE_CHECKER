@@ -9,7 +9,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { cardKeyFor } from './lib/card-identity.mjs';
-import { mergeHistories, rekeyCards } from './lib/card-store.mjs';
+import { dedupeSameShopProducts, mergeHistories, rekeyCards } from './lib/card-store.mjs';
 import { bestEnabledShop, hasStoredShopPrice } from './lib/shop-policy.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
@@ -27,7 +27,7 @@ function recomputeBest(card) {
 
 async function main() {
   const cards = JSON.parse(await readFile(CARDS_PATH, 'utf8'));
-  const rekeyed = rekeyCards(cards);
+  const rekeyed = dedupeSameShopProducts(rekeyCards(cards));
 
   const output = [...rekeyed.values()]
     .map(recomputeBest)

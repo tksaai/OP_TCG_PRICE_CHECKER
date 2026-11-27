@@ -59,6 +59,8 @@ CI では価格を取りに行く前に以下がすべて実行されます。�
 ```sh
 node scripts/test-search-filters.mjs      # 検索・フィルタ
 node scripts/test-alias-candidates.mjs    # 別名候補の安全性
+node scripts/test-card-identity.mjs       # カード同一性・表記揺れ
+node scripts/test-card-store.mjs          # 同一店舗の商品重複統合
 node scripts/test-alias-review-utils.mjs  # 別名レビュー用ユーティリティ
 node scripts/test-collection-import.mjs   # OP_TCG_DB 所持カードの取り込み
 node scripts/test-db-catalog-sync.mjs     # カタログ同期

@@ -1,7 +1,7 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { cardKeyFor } from './lib/card-identity.mjs';
-import { rekeyCards } from './lib/card-store.mjs';
+import { dedupeSameShopProducts, rekeyCards } from './lib/card-store.mjs';
 import { fetchText } from './lib/http-fetch.mjs';
 import { bestEnabledShop, hasStoredShopPrice, isShopEnabled } from './lib/shop-policy.mjs';
 import { scrapeTorecardBuyingPrices } from './lib/torecard-source.mjs';
@@ -235,7 +235,8 @@ async function main() {
     throw new Error('No shop prices were fetched');
   }
 
-  const output = [...cards.values()]
+  const dedupedCards = dedupeSameShopProducts(cards);
+  const output = [...dedupedCards.values()]
     .map((card) => recomputeBest(card, date, unavailableShopIds))
     // 無効化したショップだけのカードも、再有効化に備えて履歴ごと保持する。
     .filter(hasStoredShopPrice)

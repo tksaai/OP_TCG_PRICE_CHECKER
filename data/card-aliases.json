@@ -1678,5 +1678,105 @@
         "modelNo": "SPST26-005『OP15』"
       }
     ]
+  },
+  {
+    "canonicalId": "OP13-080_SPECIAL_PARALLEL",
+    "canonicalName": "イーザンバロン・V・ナス寿郎聖【描き下ろしパラレル】《黒》",
+    "modelNo": "OP13-080",
+    "normalizationSource": "mercard-rename-2026-11-25",
+    "aliases": [
+      {
+        "shopId": "mercard",
+        "sourceKey": "op13-080@parallel+red",
+        "name": "イーザンバロン・V・ナス寿郎聖【特別パラレル】《黒》",
+        "modelNo": "OP13-080"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op13-080@newly-drawn+parallel",
+        "name": "イーザンバロン・V・ナス寿郎聖【描き下ろしパラレル】《黒》",
+        "modelNo": "芥見下々氏描き下ろしパラレル版OP13-080"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP13-083_SPECIAL_PARALLEL",
+    "canonicalName": "ジェイガルシア・サターン聖【描き下ろしパラレル】《黒》",
+    "modelNo": "OP13-083",
+    "normalizationSource": "mercard-rename-2026-11-25",
+    "aliases": [
+      {
+        "shopId": "mercard",
+        "sourceKey": "op13-083@parallel+red",
+        "name": "ジェイガルシア・サターン聖【特別パラレル】《黒》",
+        "modelNo": "OP13-083"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op13-083@newly-drawn+parallel",
+        "name": "ジェイガルシア・サターン聖【描き下ろしパラレル】《黒》",
+        "modelNo": "芥見下々氏描き下ろしパラレル版OP13-083"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP13-084_SPECIAL_PARALLEL",
+    "canonicalName": "シェパード・十・ピーター聖【描き下ろしパラレル】《黒》",
+    "modelNo": "OP13-084",
+    "normalizationSource": "mercard-rename-2026-11-25",
+    "aliases": [
+      {
+        "shopId": "mercard",
+        "sourceKey": "op13-084@parallel+red",
+        "name": "シェパード・十・ピーター聖【特別パラレル】《黒》",
+        "modelNo": "OP13-084"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op13-084@newly-drawn+parallel",
+        "name": "シェパード・十・ピーター聖【描き下ろしパラレル】《黒》",
+        "modelNo": "芥見下々氏描き下ろしパラレル版OP13-084"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP13-089_SPECIAL_PARALLEL",
+    "canonicalName": "トップマン・ウォーキュリー聖【描き下ろしパラレル】《黒》",
+    "modelNo": "OP13-089",
+    "normalizationSource": "mercard-rename-2026-11-25",
+    "aliases": [
+      {
+        "shopId": "mercard",
+        "sourceKey": "op13-089@parallel+red",
+        "name": "トップマン・ウォーキュリー聖【特別パラレル】《黒》",
+        "modelNo": "OP13-089"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op13-089@newly-drawn+parallel",
+        "name": "トップマン・ウォーキュリー聖【描き下ろしパラレル】《黒》",
+        "modelNo": "芥見下々氏描き下ろしパラレル版版OP13-089"
+      }
+    ]
+  },
+  {
+    "canonicalId": "OP13-091_SPECIAL_PARALLEL",
+    "canonicalName": "マーカス・マーズ聖【描き下ろしパラレル】《黒》",
+    "modelNo": "OP13-091",
+    "normalizationSource": "mercard-rename-2026-11-25",
+    "aliases": [
+      {
+        "shopId": "mercard",
+        "sourceKey": "op13-091@parallel+red",
+        "name": "マーカス・マーズ聖【特別パラレル】《黒》",
+        "modelNo": "OP13-091"
+      },
+      {
+        "shopId": "mercard",
+        "sourceKey": "op13-091@newly-drawn+parallel",
+        "name": "マーカス・マーズ聖【描き下ろしパラレル】《黒》",
+        "modelNo": "芥見下々氏描き下ろしパラレル版OP13-091"
+      }
+    ]
   }
 ]
